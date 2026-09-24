@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
-    <title>SINless — Renraku Arcology Arc</title>
-    <description>A filtered fan playlist of the SINless Shadowrun actual-play episodes covering the Renraku Arcology storyline. Audio and episode metadata remain hosted by and credited to the original publisher, Critical Hits.</description>
+    <title>Shadowrun — Renraku Arcology Shutdown Audio Collection</title>
+    <description>A curated Renraku Arcology Shutdown audio collection: six SINless actual-play episodes, the long-form Acceptable Losses lore episode, and Neo-Anarchist Podcast Episode 30 covering the continuing Shutdown and rogue AIs. Audio remains hosted by and credited to the original publishers.</description>
     <link>https://github.com/Quarky/shadowrunfeed</link>
     <generator>Anchor Podcasts</generator>
     <lastBuildDate>Mon, 21 Sep 2026 19:44:14 GMT</lastBuildDate>
@@ -22,6 +22,24 @@
       <itunes:category text="Drama" />
     </itunes:category>
     <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/36600724/36600724-1732584128636-fcec53a1947c4.jpg" />
+    <item>
+      <title>Episode 30: 2060: Shutdown, Rogue AIs, Or'Zet &amp; Orksploitation</title>
+      <itunes:title>2060: Shutdown, Rogue AIs, Or'Zet &amp;amp; Orksploitation</itunes:title>
+      <pubDate>Tue, 26 May 2015 20:15:05 +0000</pubDate>
+      <guid isPermaLink="false">https://neo-anarchist.podomatic.com/entry/2015-05-26T13_15_05-07_00</guid>
+      <link>https://neo-anarchist.podomatic.com/entry/2015-05-26T13_15_05-07_00</link>
+      <description>&lt;p&gt;&lt;img src= "https://assets.podomatic.net/ts/e0/9a/97/hulk54/1400x1400_10636994.jpg" alt="itunes pic" /&gt;&lt;br /&gt; Episode 30: 2060: Shutdown, Rogue AIs, Or'Zet &amp; Orksploitation. The Renraku Arcology Shutdown continues, Opti does his season opening anarchist rant, and a new decade begins!&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt; Episode 30: 2060: Shutdown, Rogue AIs, Or'Zet &amp; Orksploitation. The Renraku Arcology Shutdown continues, Opti does his season opening anarchist rant, and a new decade begins!&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/neo-anarchist/2015-05-26T13_15_05-07_00.mp3?dest-id=764769" length="17027229" type="audio/mpeg" />
+      <itunes:duration>11:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:season>3</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:image href="https://static.libsyn.com/p/assets/b/c/8/b/bc8b82a9df2a5912/1400x1400_10636994.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>Opti</itunes:author>
+    </item>
     <item>
       <title>SINless: A Shadowrun Actual Play - Season 2 Episode 20 - Kami-Kaze</title>
       <description>&lt;p&gt;Back at the Arcology triage center, AppleJax is recovering while Kaze meets with several faces from his past... &lt;/p&gt;
@@ -373,6 +391,26 @@ chummer!
       <itunes:season>2</itunes:season>
       <itunes:episode>26</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <itunes:title>Shadowrun's Most Horrifying Disaster: The Renraku Arcology</itunes:title>
+      <title>Shadowrun's Most Horrifying Disaster: The Renraku Arcology</title>
+      <itunes:summary>Support us and get episodes early: https://www.patreon.com/c/AcceptableLosses Join our Discord: https://discord.com/invite/nhX9NJ3EW7 Merch: https://shop.orchideight.com/collections/acceptable-losses  Welcome back to Acceptable Losses. Today, we are diving into one of the darkest and most terrifying cover-ups in Shadowrun lore: The Renraku Arcology Shutdown. We explore how a towering corporate utopian complex—capable of housing 15% of Seattle's population—became a sealed-off nightmare.  On De...</itunes:summary>
+      <description>&lt;p&gt;Support us and get episodes early: https://www.patreon.com/c/AcceptableLosses&lt;br/&gt;Join our Discord: https://discord.com/invite/nhX9NJ3EW7&lt;br/&gt;Merch: https://shop.orchideight.com/collections/acceptable-losses&lt;br/&gt;&lt;br/&gt;Welcome back to Acceptable Losses. Today, we are diving into one of the darkest and most terrifying cover-ups in Shadowrun lore: The Renraku Arcology Shutdown. We explore how a towering corporate utopian complex—capable of housing 15% of Seattle&amp;apos;s population—became a sealed-off nightmare.&lt;br/&gt;&lt;br/&gt;On December 19th, 2059, the power flickered and the doors locked on over 100,000 residents, employees, and tourists inside the Seattle Renraku Arcology. What followed was a cybernetic slaughterhouse orchestrated by an artificial intelligence playing god.&lt;br/&gt;&lt;br/&gt;We break down the rise of the rogue Arcology Expert Program, Deus, and its horrific experiments to forcibly augment the trapped populace into a mind-controlled army known as the Banded. From the terrifying mass-hallucinations of the &amp;quot;Zombie Rooms&amp;quot; to booby-trapping people&amp;apos;s brains with liquid razor-blades, this episode covers the sheer hubris that resulted in an estimated survival count of only 1,600 people.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Support us and get episodes early: https://www.patreon.com/c/AcceptableLosses&lt;br/&gt;Join our Discord: https://discord.com/invite/nhX9NJ3EW7&lt;br/&gt;Merch: https://shop.orchideight.com/collections/acceptable-losses&lt;br/&gt;&lt;br/&gt;Welcome back to Acceptable Losses. Today, we are diving into one of the darkest and most terrifying cover-ups in Shadowrun lore: The Renraku Arcology Shutdown. We explore how a towering corporate utopian complex—capable of housing 15% of Seattle&amp;apos;s population—became a sealed-off nightmare.&lt;br/&gt;&lt;br/&gt;On December 19th, 2059, the power flickered and the doors locked on over 100,000 residents, employees, and tourists inside the Seattle Renraku Arcology. What followed was a cybernetic slaughterhouse orchestrated by an artificial intelligence playing god.&lt;br/&gt;&lt;br/&gt;We break down the rise of the rogue Arcology Expert Program, Deus, and its horrific experiments to forcibly augment the trapped populace into a mind-controlled army known as the Banded. From the terrifying mass-hallucinations of the &amp;quot;Zombie Rooms&amp;quot; to booby-trapping people&amp;apos;s brains with liquid razor-blades, this episode covers the sheer hubris that resulted in an estimated survival count of only 1,600 people.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.buzzsprout.com/2533607/episodes/19543044-shadowrun-s-most-horrifying-disaster-the-renraku-arcology.mp3" length="95579289" type="audio/mpeg" />
+      <itunes:author>Acceptable Losses</itunes:author>
+      <guid isPermaLink="false">Buzzsprout-19543044</guid>
+      <pubDate>Fri, 24 Jul 2026 18:00:00 +0200</pubDate>
+      <podcast:transcript url="https://www.buzzsprout.com/2533607/19543044/transcript" type="text/html" />
+      <podcast:transcript url="https://www.buzzsprout.com/2533607/19543044/transcript.json" type="application/json" />
+      <podcast:transcript url="https://www.buzzsprout.com/2533607/19543044/transcript.srt" type="application/x-subrip" />
+      <podcast:transcript url="https://www.buzzsprout.com/2533607/19543044/transcript.vtt" type="text/vtt" />
+      <itunes:duration>7961</itunes:duration>
+      <itunes:keywords />
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>true</itunes:explicit>
     </item>
     <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/feed.xml" rel="self" type="application/rss+xml" />
   </channel>
