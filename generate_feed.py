@@ -6,7 +6,8 @@ from pathlib import Path
 from email.utils import parsedate_to_datetime
 
 OUTPUT = Path("feed.xml")
-PUBLIC_FEED = "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/feed.xml"
+OUTPUT_V2 = Path("feed-v2.xml")
+PUBLIC_FEED = "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/feed-v2.xml"
 
 SINLESS_MARKERS = (
     "Season 2 Episode 20 - Kami-Kaze",
@@ -144,4 +145,5 @@ ET.SubElement(
 tree = ET.ElementTree(base_root)
 ET.indent(tree, space="  ")
 tree.write(OUTPUT, encoding="utf-8", xml_declaration=True)
-print(f"Wrote {OUTPUT} with {len(all_items)} episodes")
+tree.write(OUTPUT_V2, encoding="utf-8", xml_declaration=True)
+print(f"Wrote {OUTPUT} and {OUTPUT_V2} with {len(all_items)} episodes")
