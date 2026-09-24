@@ -6,6 +6,7 @@ from pathlib import Path
 
 SOURCE = "https://anchor.fm/s/dac0dc50/podcast/rss"
 OUTPUT = Path("feed.xml")
+PUBLIC_FEED = "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/feed.xml"
 
 KEEP = (
     "Season 2 Episode 20 - Kami-Kaze",
@@ -80,7 +81,7 @@ ET.SubElement(
     channel,
     ATOM_LINK,
     {
-        "href": "https://raw.githubusercontent.com/Quarky/shadowrunfeed/main/feed.xml",
+        "href": PUBLIC_FEED,
         "rel": "self",
         "type": "application/rss+xml",
     },
