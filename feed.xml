@@ -374,6 +374,6 @@ chummer!
       <itunes:episode>26</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
-    <atom:link href="https://raw.githubusercontent.com/Quarky/shadowrunfeed/main/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/feed.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
