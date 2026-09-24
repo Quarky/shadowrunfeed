@@ -90,4 +90,5 @@ ET.SubElement(
 tree = ET.ElementTree(root)
 ET.indent(tree, space="  ")
 tree.write(OUTPUT, encoding="utf-8", xml_declaration=True)
-print(f"Wrote {OUTPUT} with {len(kept)} episodes")\n# Workflow trigger marker
+print(f"Wrote {OUTPUT} with {len(kept)} episodes")
+# Workflow trigger marker
