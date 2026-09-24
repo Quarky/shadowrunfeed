@@ -4,7 +4,7 @@ A filtered RSS feed containing only the **SINless** episodes in the Renraku Arco
 
 ## Subscribe
 
-`https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/feed.xml`
+`https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/feed-v2.xml`
 
 Paste that URL into Podbean using **Search → + Add Feed URL**, or into any podcast app that supports **Add by RSS URL / Add podcast by URL**.
 
