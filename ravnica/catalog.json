@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "title": "Ravnica audio fiction — curated listening catalog",
+  "updated": "2026-10-08",
+  "podcast_source": {
+    "publisher": "Unspoken Realms",
+    "rss": "https://feeds.libsyn.com/70890/rss",
+    "alternate_rss": "https://unspokenrealms.libsyn.com/rss",
+    "site": "https://unspokenrealms.wordpress.com/",
+    "streaming_website": "https://unspokenrealms.libsyn.com/"
+  },
+  "official_audiobooks": [
+    {
+      "title": "War of the Spark: Ravnica",
+      "author": "Greg Weisman",
+      "publisher": "Penguin Random House / Random House Audio",
+      "release_date": "2019-04-23",
+      "duration": "10h 16m",
+      "url": "https://www.penguinrandomhouse.com/books/595014/war-of-the-spark-ravnica-magic-the-gathering-by-greg-weisman/audio/",
+      "podcast_enclosure": false
+    },
+    {
+      "title": "War of the Spark: Forsaken",
+      "author": "Greg Weisman",
+      "publisher": "Penguin Random House / Random House Audio",
+      "release_date": "2019-11-12",
+      "duration": "10h 47m",
+      "url": "https://www.penguinrandomhouse.com/books/595015/war-of-the-spark-forsaken-magic-the-gathering-by-greg-weisman/audio/",
+      "podcast_enclosure": false
+    }
+  ],
+  "playlist_order": [
+    {
+      "id": "rtr",
+      "label": "Return to Ravnica stories",
+      "episodes": [
+        {
+          "episode_number": 145,
+          "title": "RTR#1 — The Shadows of Prahv",
+          "feed_match": null
+        },
+        {
+          "episode_number": 158,
+          "title": "RTR#2 — Epic Experiment & Slaughter Games",
+          "feed_match": null
+        },
+        {
+          "episode_number": 159,
+          "title": "RTR#3 — In Praise of the Worldsoul",
+          "feed_match": null
+        },
+        {
+          "episode_number": 172,
+          "title": "RTR#4 — The Great Concourse",
+          "feed_match": null
+        },
+        {
+          "episode_number": 176,
+          "title": "RTR#5 — The Seven Bells",
+          "feed_match": null
+        },
+        {
+          "episode_number": 179,
+          "title": "RTR#6 — Rogue’s Passage",
+          "feed_match": null
+        }
+      ]
+    },
+    {
+      "id": "gtc",
+      "label": "Gatecrash stories",
+      "episodes": [
+        {
+          "episode_number": 183,
+          "title": "GTC#1 — Gruul Ingenuity & The Fathom Edict",
+          "feed_match": null
+        },
+        {
+          "episode_number": 187,
+          "title": "GTC#2 — The Absolution of the Guildpact & Persistence of Memory",
+          "feed_match": null
+        },
+        {
+          "episode_number": 188,
+          "title": "GTC#3 — The Greater Good",
+          "feed_match": null
+        },
+        {
+          "episode_number": 189,
+          "title": "GTC#4 — The Burying",
+          "feed_match": null
+        }
+      ]
+    },
+    {
+      "id": "grn",
+      "label": "Guilds of Ravnica stories",
+      "episodes": [
+        {
+          "episode_number": null,
+          "title": "GRN#1 — Under the Cover of Fog",
+          "feed_match": "Under the Cover of Fog"
+        }
+      ]
+    },
+    {
+      "id": "rna",
+      "label": "Ravnica Allegiance stories",
+      "episodes": [
+        {
+          "episode_number": 190,
+          "title": "RNA#1 — The Illusions of Child’s Play",
+          "feed_match": null
+        },
+        {
+          "episode_number": 191,
+          "title": "RNA#2 — Rage of the Unsung",
+          "feed_match": null
+        },
+        {
+          "episode_number": 192,
+          "title": "RNA#3 — The Principles of Unnatural Selection",
+          "feed_match": null
+        },
+        {
+          "episode_number": 193,
+          "title": "RNA#4 — The Ledger of Hidden Fortunes",
+          "feed_match": null
+        },
+        {
+          "episode_number": 194,
+          "title": "RNA#5 — The Ascension of Reza",
+          "feed_match": null
+        }
+      ]
+    },
+    {
+      "id": "gathering-storm",
+      "label": "The Gathering Storm (Django Wexler)",
+      "episodes": [
+        {
+          "episode_number": 201,
+          "title": "The Gathering Storm — Chapter 1",
+          "feed_match": null
+        },
+        {
+          "episode_number": 202,
+          "title": "The Gathering Storm — Chapter 2",
+          "feed_match": null
+        },
+        {
+          "episode_number": 203,
+          "title": "The Gathering Storm — Chapter 3",
+          "feed_match": null
+        },
+        {
+          "episode_number": 204,
+          "title": "The Gathering Storm — Chapter 4",
+          "feed_match": null
+        },
+        {
+          "episode_number": 205,
+          "title": "The Gathering Storm — Chapter 5",
+          "feed_match": null
+        },
+        {
+          "episode_number": 206,
+          "title": "The Gathering Storm — Chapter 6",
+          "feed_match": null
+        },
+        {
+          "episode_number": 207,
+          "title": "The Gathering Storm — Chapter 7",
+          "feed_match": null
+        },
+        {
+          "episode_number": 208,
+          "title": "The Gathering Storm — Chapter 8",
+          "feed_match": null
+        },
+        {
+          "episode_number": 209,
+          "title": "The Gathering Storm — Chapter 9",
+          "feed_match": null
+        },
+        {
+          "episode_number": 210,
+          "title": "The Gathering Storm — Chapter 10",
+          "feed_match": null
+        },
+        {
+          "episode_number": 211,
+          "title": "The Gathering Storm — Chapter 11",
+          "feed_match": null
+        },
+        {
+          "episode_number": 212,
+          "title": "The Gathering Storm — Chapter 12",
+          "feed_match": null
+        },
+        {
+          "episode_number": 213,
+          "title": "The Gathering Storm — Chapter 13",
+          "feed_match": null
+        },
+        {
+          "episode_number": 214,
+          "title": "The Gathering Storm — Chapter 14",
+          "feed_match": null
+        },
+        {
+          "episode_number": 215,
+          "title": "The Gathering Storm — Chapter 15",
+          "feed_match": null
+        },
+        {
+          "episode_number": 216,
+          "title": "The Gathering Storm — Chapter 16",
+          "feed_match": null
+        },
+        {
+          "episode_number": 217,
+          "title": "The Gathering Storm — Chapter 17",
+          "feed_match": null
+        },
+        {
+          "episode_number": 218,
+          "title": "The Gathering Storm — Chapter 18",
+          "feed_match": null
+        },
+        {
+          "episode_number": 219,
+          "title": "The Gathering Storm — Chapter 19",
+          "feed_match": null
+        },
+        {
+          "episode_number": 220,
+          "title": "The Gathering Storm — Chapter 20",
+          "feed_match": null
+        }
+      ]
+    }
+  ],
+  "research_notes": {
+    "numbering_correction": "Unspoken Realms 161–165 are Dominaria, not Guilds of Ravnica; 168–171 are Dominaria too, while 172 is RTR#4 The Great Concourse. Ravnica Allegiance is 190–194. Guilds of Ravnica has one verified Unspoken Realms special (GRN#1), not 161–165.",
+    "missing": "No matching Unspoken Realms recordings verified for GRN web stories #2–#5. Do not invent enclosure links.",
+    "coverage": "The Gathering Storm chapters 1–20 correspond to Unspoken Realms episodes 201–220. Return to Ravnica block includes RTR and Gatecrash stories found in the source podcast; no claim that The Secretist novels have complete audio adaptations.",
+    "license": "Do not host/redistribute any audiobook or podcast audio. Podcast feed generator reuses original publisher enclosures; paid audiobooks remain purchase/listening links only."
+  }
+}
