@@ -22,3 +22,7 @@ The repository still contains the raw GitHub copy, but the jsDelivr URL above is
 Season 2 Episode 21 is intentionally omitted because it leaves the Arcology storyline.
 
 The feed is generated from the show's official RSS feed, so audio remains hosted by the original publisher and the original episode metadata/enclosures are preserved.
+
+## Other curated audio collections
+
+- **[Ravnica — Magic: The Gathering audio fiction](ravnica/README.md):** 36 verified Unspoken Realms podcast recordings in a separate [Ravnica-only RSS feed](ravnica/feed.xml), plus official publisher links to *War of the Spark: Ravnica* and *War of the Spark: Forsaken*. The Shadowrun-only feeds above remain independent.
