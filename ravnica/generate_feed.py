@@ -22,10 +22,10 @@ ET.register_namespace("content", "http://purl.org/rss/1.0/modules/content/")
 ET.register_namespace("dc", "http://purl.org/dc/elements/1.1/")
 
 def norm(s):
-    return re.sub(r"\\s+", " ", s or "").strip().casefold()
+    return re.sub(r"\s+", " ", s or "").strip().casefold()
 
 def number_of(title):
-    match = re.match(r"^\\s*episode\\s+(\\d+)\\b", title, re.IGNORECASE)
+    match = re.match(r"^\s*episode\s+(\d+)\b", title, re.IGNORECASE)
     return int(match.group(1)) if match else None
 
 def get_feed(url):
@@ -65,7 +65,7 @@ def main():
             ]
             # Guard against source episode-number collisions or mislabeled episodes.
             expected = selection["title"].split("—", 1)[-1].strip()
-            expected_norm = norm(expected.replace("’", "'"))
+            expected_norm = norm((f"The Gathering Storm #{number - 200}" if group["id"] == "gathering-storm" else expected).replace("’", "'"))
             if number is not None:
                 candidates = [it for it in candidates
                               if expected_norm in norm((it.findtext("title") or "").replace("’", "'"))]
@@ -75,10 +75,10 @@ def main():
             item = candidates[0]
             guid = (item.findtext("guid") or item.findtext("link") or item.findtext("title") or "").strip()
             enclosure = item.find("enclosure")
-            if not guid or not enclosure or not enclosure.get("url", "").startswith("https://"):
+            if not guid or enclosure is None or not enclosure.get("url", "").startswith("https://"):
                 # HTTP URLs were used in older Libsyn RSS; media may be HTTP rather
                 # than HTTPS, so allow http:// too, but never accept blank enclosures.
-                if not guid or not enclosure or not enclosure.get("url", "").startswith(("https://", "http://")):
+                if not guid or enclosure is None or not enclosure.get("url", "").startswith(("https://", "http://")):
                     missing.append(f"{group['id']}: {selection['title']} (missing guid/audio)")
                     continue
             if guid in used:
@@ -87,7 +87,7 @@ def main():
             used.add(guid)
             selected.append(copy.deepcopy(item))
     if missing:
-        raise RuntimeError("Publisher RSS lacks required Ravnica recordings; refusing partial feed:\\n - " + "\\n - ".join(missing))
+        raise RuntimeError("Publisher RSS lacks required Ravnica recordings; refusing partial feed:\n - " + "\n - ".join(missing))
     if len(selected) != 36:
         raise RuntimeError(f"Expected exactly 36 unique episodes; got {len(selected)}")
 
