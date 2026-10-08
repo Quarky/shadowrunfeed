@@ -1,0 +1,535 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns1="https://podcastindex.org/namespace/1.0" version="2.0">
+  <channel>
+    <title>Ravnica — Curated Magic Story Audio (Unspoken Realms)</title>
+    <pubDate>Fri, 29 May 2026 15:09:14 +0000</pubDate>
+    <lastBuildDate>Fri, 29 May 2026 15:09:14 +0000</lastBuildDate>
+    <generator>Libsyn RSSgen 1.0</generator>
+    <link>https://github.com/Quarky/shadowrunfeed/tree/main/ravnica</link>
+    <language>en</language>
+    <copyright />
+    <docs>http://unspokenrealms.wordpress.com</docs>
+    <itunes:summary>The Official Magic: The Gathering story in podcast audiobook form. Original stories may be found at DailyMTG.com.</itunes:summary>
+    <image>
+      <url>https://static.libsyn.com/p/assets/1/b/b/c/1bbc1cb683192a73/Thumbnailbig.png</url>
+      <title>Unspoken Realms Podcast</title>
+      <link>http://unspokenrealms.wordpress.com</link>
+    </image>
+    <itunes:author>Unspoken Realms</itunes:author>
+    <itunes:image href="https://static.libsyn.com/p/assets/1/b/b/c/1bbc1cb683192a73/Thumbnailbig.png" />
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Drew Sitte</itunes:name>
+      <itunes:email>unspokenrealmspodcast@gmail.com</itunes:email>
+    </itunes:owner>
+    <description>Thirty-six curated Magic: The Gathering Ravnica audio-fiction recordings from Unspoken Realms. Original audio remains hosted by its creator. Commercial War of the Spark audiobooks are listed separately in the GitHub catalog.</description>
+    <itunes:type>serial</itunes:type>
+    <itunes:keywords />
+    <ns1:locked owner="unspokenrealmspodcast@gmail.com">no</ns1:locked>
+    <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/ravnica/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 145 - RTR#1 - The Shadows of Prahv</title>
+      <itunes:title>Episode 145 - RTR#1 - The Shadows of Prahv</itunes:title>
+      <pubDate>Fri, 08 Dec 2017 21:10:40 +0000</pubDate>
+      <guid isPermaLink="false">98d752db32789f6f7956bc7a05314f4e</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-145-rtr1-the-shadows-of-prahv</link>
+      <description>&lt;p&gt;Episode 145 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/serious-fun/shadows-prahv-part-1-2012-08-29"&gt; The Shadows of Prahv Part 1&lt;/a&gt;&lt;/em&gt; and &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/serious-fun/shadows-prahv-part-2-2012-09-05"&gt; Part 2&lt;/a&gt;&lt;/em&gt; by Jenna Helland.&lt;/p&gt; &lt;p&gt;&lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/serious-fun/shadows-prahv-part-1-2012-08-29"&gt; The Shadows of Prahv&lt;/a&gt;&lt;/em&gt; was the first chapter in the &lt;em&gt;Return to Ravnica&lt;/em&gt; block storyline, and includes events Vraska talks about in episode 137, &lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/something-else-entirely-2017-10-04"&gt; &lt;em&gt;Something Else Entirely&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 145 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/serious-fun/shadows-prahv-part-1-2012-08-29"&gt; The Shadows of Prahv Part 1&lt;/a&gt;&lt;/em&gt; and &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/serious-fun/shadows-prahv-part-2-2012-09-05"&gt; Part 2&lt;/a&gt;&lt;/em&gt; by Jenna Helland.&lt;/p&gt; &lt;p&gt;&lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/serious-fun/shadows-prahv-part-1-2012-08-29"&gt; The Shadows of Prahv&lt;/a&gt;&lt;/em&gt; was the first chapter in the &lt;em&gt;Return to Ravnica&lt;/em&gt; block storyline, and includes events Vraska talks about in episode 137, &lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/something-else-entirely-2017-10-04"&gt; &lt;em&gt;Something Else Entirely&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_145_-_The_Shadows_of_Prahv.mp3?dest-id=299553" length="31966865" type="audio/mpeg" />
+      <itunes:duration>33:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 158 - RTR#2 - Epic Experiment &amp; Slaughter Games</title>
+      <itunes:title>Episode 158 - RTR#2 - Epic Experiment &amp; Slaughter Games</itunes:title>
+      <pubDate>Sun, 11 Mar 2018 16:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f8a13cf5e68ecebc739ee766369a00a1</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-158-rtr2-epic-experiment-slaughter-games</link>
+      <description>&lt;p&gt;Episode 158 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/serious-fun/epic-experiment-2012-09-12"&gt; Epic Experiment&lt;/a&gt;&lt;/em&gt; by Jenna Helland and &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/slaughter-games-2012-10-13"&gt; Slaughter Games&lt;/a&gt;&lt;/em&gt; by Trick Jarrett.&lt;/p&gt; &lt;p&gt;Epic Experiment and Slaughter Games are part of the &lt;em&gt;Return to Ravnica &lt;/em&gt;stories, the first of which was in episode 145, &lt;em&gt;The Shadows of Prahv.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 158 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/serious-fun/epic-experiment-2012-09-12"&gt; Epic Experiment&lt;/a&gt;&lt;/em&gt; by Jenna Helland and &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/slaughter-games-2012-10-13"&gt; Slaughter Games&lt;/a&gt;&lt;/em&gt; by Trick Jarrett.&lt;/p&gt; &lt;p&gt;Epic Experiment and Slaughter Games are part of the &lt;em&gt;Return to Ravnica &lt;/em&gt;stories, the first of which was in episode 145, &lt;em&gt;The Shadows of Prahv.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_158_-_Epic_Experiment_and_Slaughter_Games.mp3?dest-id=299553" length="22481833" type="audio/mpeg" />
+      <itunes:duration>24:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 159 - RTR#3 - In Praise of the Worldsoul</title>
+      <itunes:title>Episode 159 - RTR#3 - In Praise of the Worldsoul</itunes:title>
+      <pubDate>Sun, 18 Mar 2018 16:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e65caf65a74c26c18ac28dddaaa479a1</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-159-rtr3-in-praise-of-the-worldsoul</link>
+      <description>&lt;p&gt;Episode 159 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/serious-fun/praise-worldsoul-part-1-2012-09-26"&gt; In Praise of the Worldsoul&lt;/a&gt;&lt;/em&gt; by Jenna Helland.&lt;/p&gt; &lt;p&gt;&lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/serious-fun/praise-worldsoul-part-1-2012-09-26"&gt; In Praise of the Worldsoul&lt;/a&gt;&lt;/em&gt; is part of the &lt;em&gt;Return to Ravnica &lt;/em&gt;stories, the first of which was in episode 145, &lt;em&gt;The Shadows of Prahv.&lt;/em&gt; It was originally released in three parts between the two stories from last week's episode, but most of the Ravnica stories don't need to be read in order.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 159 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/serious-fun/praise-worldsoul-part-1-2012-09-26"&gt; In Praise of the Worldsoul&lt;/a&gt;&lt;/em&gt; by Jenna Helland.&lt;/p&gt; &lt;p&gt;&lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/serious-fun/praise-worldsoul-part-1-2012-09-26"&gt; In Praise of the Worldsoul&lt;/a&gt;&lt;/em&gt; is part of the &lt;em&gt;Return to Ravnica &lt;/em&gt;stories, the first of which was in episode 145, &lt;em&gt;The Shadows of Prahv.&lt;/em&gt; It was originally released in three parts between the two stories from last week's episode, but most of the Ravnica stories don't need to be read in order.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_159_-_In_Praise_of_the_Worldsoul.mp3?dest-id=299553" length="34533841" type="audio/mpeg" />
+      <itunes:duration>37:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 172 – RTR#4 – The Great Concourse</title>
+      <itunes:title>Episode 172 – RTR#4 – The Great Concourse</itunes:title>
+      <pubDate>Wed, 13 Jun 2018 12:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d459fe2ad4ad47fd83fabf2cb49b7ec8</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-172-rtr4-the-great-concourse</link>
+      <description>&lt;p&gt;Episode 172 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/great-concourse-2012-10-23"&gt; &lt;em&gt;The Great Concourse&lt;/em&gt;&lt;/a&gt; by Adam Lee.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Great Concourse&lt;/em&gt; is the fourth episode with Return to Ravnica stories. Earlier Return to Ravnica stories can be found in:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2017/12/10/episode-145-rtr1-the-shadows-of-prahv/"&gt; Episode 145: &lt;em&gt;The Shadows of Prahv&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/03/11/episode-158-rtr2-epic-experiment-slaughter-games/"&gt; Episode 158: &lt;em&gt;Epic Experiment &amp; Slaughter Games&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/03/18/episode-159-rtr3-in-praise-of-the-worldsoul/"&gt; Episode 159: &lt;em&gt;In Praise of the Worldsoul&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 172 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/great-concourse-2012-10-23"&gt; &lt;em&gt;The Great Concourse&lt;/em&gt;&lt;/a&gt; by Adam Lee.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Great Concourse&lt;/em&gt; is the fourth episode with Return to Ravnica stories. Earlier Return to Ravnica stories can be found in:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2017/12/10/episode-145-rtr1-the-shadows-of-prahv/"&gt; Episode 145: &lt;em&gt;The Shadows of Prahv&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/03/11/episode-158-rtr2-epic-experiment-slaughter-games/"&gt; Episode 158: &lt;em&gt;Epic Experiment &amp; Slaughter Games&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/03/18/episode-159-rtr3-in-praise-of-the-worldsoul/"&gt; Episode 159: &lt;em&gt;In Praise of the Worldsoul&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_173_-_The_Great_Concourse.mp3?dest-id=299553" length="22504306" type="audio/mpeg" />
+      <itunes:duration>24:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 176 – RTR#5 – The Seven Bells</title>
+      <itunes:title>Episode 176 – RTR#5 – The Seven Bells</itunes:title>
+      <pubDate>Wed, 11 Jul 2018 07:40:24 +0000</pubDate>
+      <guid isPermaLink="false">b150cbf0d2fb4381859175436723f4a5</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-176-rtr5-the-seven-bells</link>
+      <description>&lt;p&gt;Episode 176 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/seven-bells-part-1-2012-11-05"&gt; &lt;em&gt;The Seven Bells Part 1&lt;/em&gt;&lt;/a&gt; and &lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/seven-bells-part-2-2012-11-12"&gt; &lt;em&gt;Part 2&lt;/em&gt;&lt;/a&gt; by Jenna Helland.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Seven Bells&lt;/em&gt; is the fifth episode with Return to Ravnica stories. Earlier Return to Ravnica stories can be found in:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2017/12/10/episode-145-rtr1-the-shadows-of-prahv/"&gt; Episode 145: &lt;em&gt;The Shadows of Prahv&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/03/11/episode-158-rtr2-epic-experiment-slaughter-games/"&gt; Episode 158: &lt;em&gt;Epic Experiment &amp; Slaughter Games&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/03/18/episode-159-rtr3-in-praise-of-the-worldsoul/"&gt; Episode 159: &lt;em&gt;In Praise of the Worldsoul&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/06/13/episode-172-rtr4-the-great-concourse/"&gt; Episode 172: &lt;em&gt;The Great Concourse&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href= "http://traffic.libsyn.com/unspokenrealms/Unspoken_Realms_-_173_-_The_Great_Concourse.mp3"&gt; Direct Download Link&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 176 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/seven-bells-part-1-2012-11-05"&gt; &lt;em&gt;The Seven Bells Part 1&lt;/em&gt;&lt;/a&gt; and &lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/seven-bells-part-2-2012-11-12"&gt; &lt;em&gt;Part 2&lt;/em&gt;&lt;/a&gt; by Jenna Helland.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Seven Bells&lt;/em&gt; is the fifth episode with Return to Ravnica stories. Earlier Return to Ravnica stories can be found in:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2017/12/10/episode-145-rtr1-the-shadows-of-prahv/"&gt; Episode 145: &lt;em&gt;The Shadows of Prahv&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/03/11/episode-158-rtr2-epic-experiment-slaughter-games/"&gt; Episode 158: &lt;em&gt;Epic Experiment &amp; Slaughter Games&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/03/18/episode-159-rtr3-in-praise-of-the-worldsoul/"&gt; Episode 159: &lt;em&gt;In Praise of the Worldsoul&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/06/13/episode-172-rtr4-the-great-concourse/"&gt; Episode 172: &lt;em&gt;The Great Concourse&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href= "http://traffic.libsyn.com/unspokenrealms/Unspoken_Realms_-_173_-_The_Great_Concourse.mp3"&gt; Direct Download Link&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_176_-_The_Seven_Bells.mp3?dest-id=299553" length="25162045" type="audio/mpeg" />
+      <itunes:duration>27:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 179 – RTR#6 – Rogue's Passage</title>
+      <itunes:title>Episode 179 – RTR#6 – Rogue's Passage</itunes:title>
+      <pubDate>Wed, 01 Aug 2018 12:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e307ce6f304f4528b2823096e1e5adf5</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-179-rtr6-rogues-passage</link>
+      <description>&lt;p&gt;Episode 179 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring Rogue's Passage by Tom LaPille.&lt;/p&gt; &lt;p&gt;&lt;em&gt;Rogue's Passage&lt;/em&gt; is the sixth episode with Return to Ravnica stories. Earlier Return to Ravnica stories can be found in:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2017/12/10/episode-145-rtr1-the-shadows-of-prahv/"&gt; Episode 145: &lt;em&gt;The Shadows of Prahv&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/03/11/episode-158-rtr2-epic-experiment-slaughter-games/"&gt; Episode 158: &lt;em&gt;Epic Experiment &amp; Slaughter Games&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/03/18/episode-159-rtr3-in-praise-of-the-worldsoul/"&gt; Episode 159: &lt;em&gt;In Praise of the Worldsoul&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/06/13/episode-172-rtr4-the-great-concourse/"&gt; Episode 172: &lt;em&gt;The Great Concourse&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/07/11/episode-176-rtr5-the-seven-bells/"&gt; Episode 176: &lt;em&gt;The Seven Bells&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 179 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring Rogue's Passage by Tom LaPille.&lt;/p&gt; &lt;p&gt;&lt;em&gt;Rogue's Passage&lt;/em&gt; is the sixth episode with Return to Ravnica stories. Earlier Return to Ravnica stories can be found in:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2017/12/10/episode-145-rtr1-the-shadows-of-prahv/"&gt; Episode 145: &lt;em&gt;The Shadows of Prahv&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/03/11/episode-158-rtr2-epic-experiment-slaughter-games/"&gt; Episode 158: &lt;em&gt;Epic Experiment &amp; Slaughter Games&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/03/18/episode-159-rtr3-in-praise-of-the-worldsoul/"&gt; Episode 159: &lt;em&gt;In Praise of the Worldsoul&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/06/13/episode-172-rtr4-the-great-concourse/"&gt; Episode 172: &lt;em&gt;The Great Concourse&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href= "https://unspokenrealms.wordpress.com/2018/07/11/episode-176-rtr5-the-seven-bells/"&gt; Episode 176: &lt;em&gt;The Seven Bells&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_179_-_Rogues_Passage.mp3?dest-id=299553" length="15873072" type="audio/mpeg" />
+      <itunes:duration>17:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 183 – GTC#1 – Gruul Ingenuity &amp; The Fathom Edict</title>
+      <itunes:title>Episode 183 – GTC#1 – Gruul Ingenuity &amp; The Fathom Edict</itunes:title>
+      <pubDate>Wed, 29 Aug 2018 12:00:00 +0000</pubDate>
+      <guid isPermaLink="false">bb5d8e6c9b794e4eb97d76cc9acc6871</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-183-gtc1-gruul-ingenuity-the-fathom-edict</link>
+      <description>&lt;p&gt;Episode 183 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/gruul-ingenuity-2012-12-21"&gt; &lt;em&gt;Gruul Ingenuity&lt;/em&gt;&lt;/a&gt; by Adam Lee and &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/fathom-edict-2013-01-03"&gt; The Fathom Edict&lt;/a&gt;&lt;/em&gt; by Brady Dommermuth.&lt;/p&gt; &lt;p&gt;These stories were the first two written for &lt;em&gt;Gatecrash&lt;/em&gt;, and continue some of the plot threads set up in &lt;em&gt;Return to Ravnica&lt;/em&gt; stories from episodes 158 and 172.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 183 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/gruul-ingenuity-2012-12-21"&gt; &lt;em&gt;Gruul Ingenuity&lt;/em&gt;&lt;/a&gt; by Adam Lee and &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/fathom-edict-2013-01-03"&gt; The Fathom Edict&lt;/a&gt;&lt;/em&gt; by Brady Dommermuth.&lt;/p&gt; &lt;p&gt;These stories were the first two written for &lt;em&gt;Gatecrash&lt;/em&gt;, and continue some of the plot threads set up in &lt;em&gt;Return to Ravnica&lt;/em&gt; stories from episodes 158 and 172.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_183_-_Gruul_Ingenuity_and_The_Fathom_Edict.mp3?dest-id=299553" length="25447408" type="audio/mpeg" />
+      <itunes:duration>27:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 187 – GTC#2 – The Absolution of the Guildpact &amp; Persistence of Memory</title>
+      <itunes:title>Episode 187 – GTC#2 – The Absolution of the Guildpact &amp; Persistence of Memory</itunes:title>
+      <pubDate>Wed, 26 Sep 2018 12:57:54 +0000</pubDate>
+      <guid isPermaLink="false">ce7219a723974586840a077360fbcb33</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-187-gtc2-the-absolution-of-the-guildpact-persistence-of-memory</link>
+      <description>&lt;p&gt;Episode 187 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/absolution-guildpact-2013-01-07"&gt; The Absolution of the Guildpact&lt;/a&gt;&lt;/em&gt; and &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/persistence-memory-2013-01-23"&gt; Persistence of Memory&lt;/a&gt;&lt;/em&gt; by Adam Lee.&lt;/p&gt; &lt;p&gt;These stories were the third and fourth written for &lt;em&gt;Gatecrash&lt;/em&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 187 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/absolution-guildpact-2013-01-07"&gt; The Absolution of the Guildpact&lt;/a&gt;&lt;/em&gt; and &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/persistence-memory-2013-01-23"&gt; Persistence of Memory&lt;/a&gt;&lt;/em&gt; by Adam Lee.&lt;/p&gt; &lt;p&gt;These stories were the third and fourth written for &lt;em&gt;Gatecrash&lt;/em&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_187_-_The_Absolution_of_the_Guildpact_and_Persistence_of_Memory.mp3?dest-id=299553" length="18308646" type="audio/mpeg" />
+      <itunes:duration>19:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 188 - GTC#3 - The Greater Good</title>
+      <itunes:title>Episode 188 - GTC#3 - The Greater Good</itunes:title>
+      <pubDate>Wed, 03 Oct 2018 12:48:47 +0000</pubDate>
+      <guid isPermaLink="false">9461946d7b7a472b8619178b9c6d7746</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-188-gtc3-the-greater-good</link>
+      <description>&lt;p&gt;Episode 188 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/greater-good-2013-02-04"&gt; The Greater Good&lt;/a&gt;&lt;/em&gt; by Adam Lee.&lt;/p&gt; &lt;p&gt;This was the fifth complete story written for &lt;em&gt;Gatecrash.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 188 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/greater-good-2013-02-04"&gt; The Greater Good&lt;/a&gt;&lt;/em&gt; by Adam Lee.&lt;/p&gt; &lt;p&gt;This was the fifth complete story written for &lt;em&gt;Gatecrash.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_188_-_The_Greater_Good.mp3?dest-id=299553" length="10022544" type="audio/mpeg" />
+      <itunes:duration>10:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 189 – GTC#4 – The Burying</title>
+      <itunes:title>Episode 189 – GTC#4 – The Burying</itunes:title>
+      <pubDate>Wed, 10 Oct 2018 12:00:00 +0000</pubDate>
+      <guid isPermaLink="false">57edbf7f2e76425d825476239595dcf4</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-189-gtc4-the-greater-good</link>
+      <description>&lt;p&gt;Episode 189 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/burying-part-1-2013-01-28"&gt; The Burying&lt;/a&gt;&lt;/em&gt; by Adam Lee.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Burying&lt;/em&gt; was originally posted as two parts, five weeks apart, as part of the &lt;em&gt;Gatecrash&lt;/em&gt; story.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 189 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/uncharted-realms/burying-part-1-2013-01-28"&gt; The Burying&lt;/a&gt;&lt;/em&gt; by Adam Lee.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Burying&lt;/em&gt; was originally posted as two parts, five weeks apart, as part of the &lt;em&gt;Gatecrash&lt;/em&gt; story.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_189_-_The_Burying.mp3?dest-id=299553" length="29671056" type="audio/mpeg" />
+      <itunes:duration>30:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Special Episode – GRN#1 – Under the Cover of Fog</title>
+      <itunes:title>Special Episode – GRN#1 – Under the Cover of Fog</itunes:title>
+      <pubDate>Sat, 13 Oct 2018 07:45:33 +0000</pubDate>
+      <guid isPermaLink="false">4b24afdcfc1246a4b105a0bf13b63abd</guid>
+      <link>https://unspokenrealms.libsyn.com/special-episode-grn1-under-the-cover-of-fog</link>
+      <description>&lt;p&gt;A special episode of Unspoken Realms...sort of.&lt;/p&gt; &lt;p&gt;This episode features &lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/under-cover-fog-2018-10-10"&gt; Under the Cover of Fog&lt;/a&gt; by Nicky Drayden - the first story written for Guilds of Ravnica. The Guilds of Ravnica stories are similar to the Gatecrash stories I've been recording recently - instead of being the main storyline, they're slice-of-life glimpses into Ravnica.&lt;/p&gt; &lt;p&gt;&lt;span data-offset-key="cl9g-0-0"&gt;At the start of the episode you'll hear I'm stepping back from recording the new Magic stories; the story in this episode is instead read by Carolyn Page, who has been recording &lt;a href= "https://itunes.apple.com/us/podcast/magic-the-gathering-story-narrated-by-carolyn-page/id1263308911?mt=2"&gt; a podcast similar to Unspoken Realms&lt;/a&gt; for the past year. If you enjoy her work, subscribe to her podcast and let her know!&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;In my intro I also mention the other long-running Magic Story podcast, &lt;a href="https://www.voiceofallmtg.com/"&gt;Voice of All.&lt;/a&gt; It's a very different style than the simple audiobook format I prefer - more audio drama/radio play - but one you might enjoy as well. &lt;/p&gt; &lt;p&gt;Thank you so much for listening and all your encouragement over the years. &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;A special episode of Unspoken Realms...sort of.&lt;/p&gt; &lt;p&gt;This episode features &lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/under-cover-fog-2018-10-10"&gt; Under the Cover of Fog&lt;/a&gt; by Nicky Drayden - the first story written for Guilds of Ravnica. The Guilds of Ravnica stories are similar to the Gatecrash stories I've been recording recently - instead of being the main storyline, they're slice-of-life glimpses into Ravnica.&lt;/p&gt; &lt;p&gt;At the start of the episode you'll hear I'm stepping back from recording the new Magic stories; the story in this episode is instead read by Carolyn Page, who has been recording &lt;a href= "https://itunes.apple.com/us/podcast/magic-the-gathering-story-narrated-by-carolyn-page/id1263308911?mt=2"&gt; a podcast similar to Unspoken Realms&lt;/a&gt; for the past year. If you enjoy her work, subscribe to her podcast and let her know!&lt;/p&gt; &lt;p&gt;In my intro I also mention the other long-running Magic Story podcast, &lt;a href="https://www.voiceofallmtg.com/"&gt;Voice of All.&lt;/a&gt; It's a very different style than the simple audiobook format I prefer - more audio drama/radio play - but one you might enjoy as well. &lt;/p&gt; &lt;p&gt;Thank you so much for listening and all your encouragement over the years. &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_Special_-_Under_the_Cover_of_Fog.mp3?dest-id=299553" length="42087961" type="audio/mpeg" />
+      <itunes:duration>37:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 190 – RNA#1 – The Illusions of Child's Play</title>
+      <itunes:title>Episode 190 – RNA#1 – The Illusions of Child's Play</itunes:title>
+      <pubDate>Tue, 26 Mar 2019 23:45:52 +0000</pubDate>
+      <guid isPermaLink="false">ce8e9049f3a548b0a992b88d23941a43</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-189-rna1-the-illusions-of-childs-play</link>
+      <description>&lt;p&gt;Episode 190 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/illusions-childs-play-2019-01-23"&gt; &lt;em&gt;The Illusions of Child's Play&lt;/em&gt;&lt;/a&gt; by Nicky Drayden.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Illusions of Child's Play&lt;/em&gt; is the first story written for Ravnica Allegiance and focuses on The Cult of Rakdos.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 190 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/illusions-childs-play-2019-01-23"&gt; &lt;em&gt;The Illusions of Child's Play&lt;/em&gt;&lt;/a&gt; by Nicky Drayden.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Illusions of Child's Play&lt;/em&gt; is the first story written for Ravnica Allegiance and focuses on The Cult of Rakdos.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_190_-_The_Illusions_of_Childs_Play.mp3?dest-id=299553" length="54502719" type="audio/mpeg" />
+      <itunes:duration>58:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 191 – RNA#2 – Rage of the Unsung</title>
+      <itunes:title>Episode 191 – RNA#2 – Rage of the Unsung</itunes:title>
+      <pubDate>Sat, 06 Apr 2019 05:05:10 +0000</pubDate>
+      <guid isPermaLink="false">ac094cb916eb47c0a8bcce1f04bbbb37</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-191-rna2-rage-of-the-unsung</link>
+      <description>&lt;p&gt;Episode 191 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/rage-unsung-2019-01-30"&gt; &lt;em&gt;Rage of the Unsung&lt;/em&gt;&lt;/a&gt; by Nicky Drayden.&lt;/p&gt; &lt;p&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/rage-unsung-2019-01-30"&gt; &lt;em&gt;Rage of the Unsung&lt;/em&gt;&lt;/a&gt; is the second story written for Ravnica Allegiance and focuses on the Gruul Clans.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 191 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/rage-unsung-2019-01-30"&gt; &lt;em&gt;Rage of the Unsung&lt;/em&gt;&lt;/a&gt; by Nicky Drayden.&lt;/p&gt; &lt;p&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/rage-unsung-2019-01-30"&gt; &lt;em&gt;Rage of the Unsung&lt;/em&gt;&lt;/a&gt; is the second story written for Ravnica Allegiance and focuses on the Gruul Clans.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_191_-_Rage_of_the_Unsung.mp3?dest-id=299553" length="51750629" type="audio/mpeg" />
+      <itunes:duration>56:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 192 – RNA#3 – The Principles of Unnatural Selection</title>
+      <itunes:title>Episode 192 – RNA#3 – The Principles of Unnatural Selection</itunes:title>
+      <pubDate>Wed, 10 Apr 2019 11:00:00 +0000</pubDate>
+      <guid isPermaLink="false">317744f2c5a941f99302485f81e262cc</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-192-rna3-the-principles-of-unnatural-selection</link>
+      <description>&lt;p&gt;Episode 192 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/principles-unnatural-selection-2019-02-06"&gt; The Principles of Unnatural Selection&lt;/a&gt;&lt;/em&gt; by Nicky Drayden.&lt;/p&gt; &lt;p&gt;&lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/principles-unnatural-selection-2019-02-06"&gt; The Principles of Unnatural Selection&lt;/a&gt;&lt;/em&gt; is the third story written for Ravnica Allegiance and focuses on the Simic Combine.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 192 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/principles-unnatural-selection-2019-02-06"&gt; The Principles of Unnatural Selection&lt;/a&gt;&lt;/em&gt; by Nicky Drayden.&lt;/p&gt; &lt;p&gt;&lt;em&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/principles-unnatural-selection-2019-02-06"&gt; The Principles of Unnatural Selection&lt;/a&gt;&lt;/em&gt; is the third story written for Ravnica Allegiance and focuses on the Simic Combine.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_192_-_The_Principles_of_Unnatural_Selection.mp3?dest-id=299553" length="49223331" type="audio/mpeg" />
+      <itunes:duration>52:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 193 – RNA#4 – The Ledger of Hidden Fortunes</title>
+      <itunes:title>Episode 193 – RNA#4 – The Ledger of Hidden Fortunes</itunes:title>
+      <pubDate>Sat, 04 May 2019 04:03:55 +0000</pubDate>
+      <guid isPermaLink="false">bbf8191f2a4a447c9cc90663966352a9</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-193-rna4-the-ledger-of-hidden-fortunes</link>
+      <description>&lt;p&gt;Episode 193 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/ledger-hidden-fortunes-2019-02-20"&gt; &lt;em&gt;The Ledger of Hidden Fortunes&lt;/em&gt;&lt;/a&gt; by Nicky Drayden.&lt;/p&gt; &lt;p&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/ledger-hidden-fortunes-2019-02-20"&gt; &lt;em&gt;The Ledger of Hidden Fortunes&lt;/em&gt;&lt;/a&gt; is the fourth story written for Ravnica Allegiance and focuses on the Orzhov Syndicate.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 193 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/ledger-hidden-fortunes-2019-02-20"&gt; &lt;em&gt;The Ledger of Hidden Fortunes&lt;/em&gt;&lt;/a&gt; by Nicky Drayden.&lt;/p&gt; &lt;p&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/ledger-hidden-fortunes-2019-02-20"&gt; &lt;em&gt;The Ledger of Hidden Fortunes&lt;/em&gt;&lt;/a&gt; is the fourth story written for Ravnica Allegiance and focuses on the Orzhov Syndicate.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_193_-_The_Ledger_of_Hidden_Fortunes.mp3?dest-id=299553" length="40112754" type="audio/mpeg" />
+      <itunes:duration>42:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 194 – RNA#5 – The Ascension of Reza</title>
+      <itunes:title>Episode 194 – RNA#5 – The Ascension of Reza</itunes:title>
+      <pubDate>Sun, 12 May 2019 13:10:54 +0000</pubDate>
+      <guid isPermaLink="false">2bb6b8b931a14c86bb157274861a3491</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-194-rna5-the-ascension-of-reza</link>
+      <description>&lt;p&gt;Episode 194 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/ascension-reza-2019-02-27"&gt; &lt;em&gt;The Ascension of Reza&lt;/em&gt;&lt;/a&gt; by Nicky Drayden.&lt;/p&gt; &lt;p&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/ascension-reza-2019-02-27"&gt; &lt;em&gt;The Ascension of Reza&lt;/em&gt;&lt;/a&gt; is the fifth story written for Ravnica Allegiance and focuses on the Azorius Senate&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 194 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring &lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/ascension-reza-2019-02-27"&gt; &lt;em&gt;The Ascension of Reza&lt;/em&gt;&lt;/a&gt; by Nicky Drayden.&lt;/p&gt; &lt;p&gt;&lt;a href= "https://magic.wizards.com/en/articles/archive/magic-story/ascension-reza-2019-02-27"&gt; &lt;em&gt;The Ascension of Reza&lt;/em&gt;&lt;/a&gt; is the fifth story written for Ravnica Allegiance and focuses on the Azorius Senate&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_194_-_The_Ascension_of_Reza.mp3?dest-id=299553" length="43711099" type="audio/mpeg" />
+      <itunes:duration>45:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 201 – The Gathering Storm #1</title>
+      <itunes:title>Episode 201 – The Gathering Storm #1</itunes:title>
+      <pubDate>Sun, 30 Jun 2019 09:15:45 +0000</pubDate>
+      <guid isPermaLink="false">9fec6b53350f494ab8f4093012763082</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-201-the-gathering-storm-1</link>
+      <description>&lt;p&gt;Episode 201 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 1, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 201 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 1, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_201_-_The_Gathering_Storm_01.mp3?dest-id=299553" length="38922179" type="audio/mpeg" />
+      <itunes:duration>39:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 202 – The Gathering Storm #2</title>
+      <itunes:title>Episode 202 – The Gathering Storm #2</itunes:title>
+      <pubDate>Mon, 08 Jul 2019 10:54:57 +0000</pubDate>
+      <guid isPermaLink="false">2245ac4e82c2481bb5933dcf9b54eba5</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-202-the-gathering-storm-2</link>
+      <description>&lt;p&gt;Episode 202 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 2, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 202 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 2, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_202_-_The_Gathering_Storm_02.mp3?dest-id=299553" length="31794245" type="audio/mpeg" />
+      <itunes:duration>32:36</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 203 – The Gathering Storm #3</title>
+      <itunes:title>Episode 203 – The Gathering Storm #3</itunes:title>
+      <pubDate>Wed, 31 Jul 2019 04:59:16 +0000</pubDate>
+      <guid isPermaLink="false">374c8efe25e94da38c17d2aedd89e53d</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-203-the-gathering-storm-3</link>
+      <description>&lt;p&gt;Episode 203 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 3, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href= "http://traffic.libsyn.com/unspokenrealms/Unspoken_Realms_-_202_-_The_Gathering_Storm_02.mp3"&gt; Direct Download Link&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 203 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 3, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href= "http://traffic.libsyn.com/unspokenrealms/Unspoken_Realms_-_202_-_The_Gathering_Storm_02.mp3"&gt; Direct Download Link&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_203_-_The_Gathering_Storm_03.mp3?dest-id=299553" length="44685101" type="audio/mpeg" />
+      <itunes:duration>45:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 204 – The Gathering Storm #4</title>
+      <itunes:title>Episode 204 – The Gathering Storm #4</itunes:title>
+      <pubDate>Thu, 01 Aug 2019 16:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d67ea791ac1d4481ac29e8c38a2b7a9f</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-204-the-gathering-storm-4</link>
+      <description>&lt;p&gt;Episode 204 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 4, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 204 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 4, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_204_-_The_Gathering_Storm_04.mp3?dest-id=299553" length="41246530" type="audio/mpeg" />
+      <itunes:duration>41:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 205 – The Gathering Storm #5</title>
+      <itunes:title>Episode 205 – The Gathering Storm #5</itunes:title>
+      <pubDate>Sat, 03 Aug 2019 16:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a769becd54d4488eb6cf324dc34351f5</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-205-the-gathering-storm-5</link>
+      <description>&lt;p&gt;Episode 205 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 5, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 205 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 5, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_205_-_The_Gathering_Storm_05.mp3?dest-id=299553" length="41886097" type="audio/mpeg" />
+      <itunes:duration>41:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 206 – The Gathering Storm #6</title>
+      <itunes:title>Episode 206 – The Gathering Storm #6</itunes:title>
+      <pubDate>Wed, 28 Aug 2019 10:46:20 +0000</pubDate>
+      <guid isPermaLink="false">b45b5248183441f7a4ea99cad826a808</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-206-the-gathering-storm-6</link>
+      <description>&lt;p&gt;Episode 206 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 6, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 206 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 6, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_206_-_The_Gathering_Storm_06.mp3?dest-id=299553" length="37406355" type="audio/mpeg" />
+      <itunes:duration>39:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 207 – The Gathering Storm #7</title>
+      <itunes:title>Episode 207 – The Gathering Storm #7</itunes:title>
+      <pubDate>Sat, 31 Aug 2019 11:00:00 +0000</pubDate>
+      <guid isPermaLink="false">eb89b90dc53543618b43149d96ce3d10</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-207-the-gathering-storm-7</link>
+      <description>&lt;p&gt;Episode 207 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 7, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href= "http://traffic.libsyn.com/unspokenrealms/Unspoken_Realms_-_205_-_The_Gathering_Storm_05.mp3"&gt; Direct Download Link&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 207 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 7, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href= "http://traffic.libsyn.com/unspokenrealms/Unspoken_Realms_-_205_-_The_Gathering_Storm_05.mp3"&gt; Direct Download Link&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_207_-_The_Gathering_Storm_07.mp3?dest-id=299553" length="39777895" type="audio/mpeg" />
+      <itunes:duration>41:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 208 – The Gathering Storm #8</title>
+      <itunes:title>Episode 208 – The Gathering Storm #8</itunes:title>
+      <pubDate>Wed, 04 Sep 2019 11:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b04fab834b1c4f5a8644d3e1dd0fedb5</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-208-the-gathering-storm-8</link>
+      <description>&lt;p&gt;Episode 208 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 8, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 208 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 8, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_208_-_The_Gathering_Storm_08.mp3?dest-id=299553" length="39126175" type="audio/mpeg" />
+      <itunes:duration>40:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 209 – The Gathering Storm #9</title>
+      <itunes:title>Episode 209 – The Gathering Storm #9</itunes:title>
+      <pubDate>Tue, 01 Oct 2019 03:19:17 +0000</pubDate>
+      <guid isPermaLink="false">58cf3931abc0461798debe2e25203686</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-209-the-gathering-storm-9</link>
+      <description>&lt;p&gt;Episode 209 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 9, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 209 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 9, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_209_-_The_Gathering_Storm_09.mp3?dest-id=299553" length="24358644" type="audio/mpeg" />
+      <itunes:duration>25:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 210 – The Gathering Storm #10</title>
+      <itunes:title>Episode 210 – The Gathering Storm #10</itunes:title>
+      <pubDate>Wed, 02 Oct 2019 16:00:00 +0000</pubDate>
+      <guid isPermaLink="false">395d8174af274535bf0c97bffb64c29d</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-210-the-gathering-storm-10</link>
+      <description>&lt;p&gt;Episode 210 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 10, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 210 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 10, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_210_-_The_Gathering_Storm_10.mp3?dest-id=299553" length="32994599" type="audio/mpeg" />
+      <itunes:duration>33:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 211 – The Gathering Storm #11</title>
+      <itunes:title>Episode 211 – The Gathering Storm #11</itunes:title>
+      <pubDate>Thu, 10 Oct 2019 09:03:34 +0000</pubDate>
+      <guid isPermaLink="false">0427a2d30b8f423c810308c3d960e9cb</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-211-the-gathering-storm-11</link>
+      <description>&lt;p&gt;Episode 211 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 11, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 211 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 11, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_211_-_The_Gathering_Storm_11.mp3?dest-id=299553" length="34375857" type="audio/mpeg" />
+      <itunes:duration>35:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 212 – The Gathering Storm #12</title>
+      <itunes:title>Episode 212 – The Gathering Storm #12</itunes:title>
+      <pubDate>Fri, 18 Oct 2019 09:40:47 +0000</pubDate>
+      <guid isPermaLink="false">439ec3e514994ba2b8190f17f5fad135</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-212-the-gathering-storm-12</link>
+      <description>&lt;p&gt;Episode 212 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 12, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 212 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 12, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_212_-_The_Gathering_Storm_12.mp3?dest-id=299553" length="27905410" type="audio/mpeg" />
+      <itunes:duration>28:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 213 – The Gathering Storm #13</title>
+      <itunes:title>Episode 213 – The Gathering Storm #13</itunes:title>
+      <pubDate>Wed, 30 Oct 2019 10:23:53 +0000</pubDate>
+      <guid isPermaLink="false">3481849b3e784cc6b56b72a9406c1cad</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-213-the-gathering-storm-13</link>
+      <description>&lt;p&gt;Episode 213 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 13, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 213 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 13, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_213_-_The_Gathering_Storm_13.mp3?dest-id=299553" length="25517315" type="audio/mpeg" />
+      <itunes:duration>25:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 214 – The Gathering Storm #14</title>
+      <itunes:title>Episode 214 – The Gathering Storm #14</itunes:title>
+      <pubDate>Sun, 17 Nov 2019 21:05:24 +0000</pubDate>
+      <guid isPermaLink="false">9df9e7c5-8509-495b-8e2f-db45a49be30b</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-214-the-gathering-storm-14</link>
+      <description>&lt;p&gt;Episode 214 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 14, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 214 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 14, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_214_-_The_Gathering_Storm_14.mp3?dest-id=299553" length="29557324" type="audio/mpeg" />
+      <itunes:duration>30:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 215 – The Gathering Storm #15</title>
+      <itunes:title>Episode 215 – The Gathering Storm #15</itunes:title>
+      <pubDate>Fri, 29 Nov 2019 08:29:44 +0000</pubDate>
+      <guid isPermaLink="false">420e3b75-fead-434a-b0ee-bacc99d0d979</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-215-the-gathering-storm-15</link>
+      <description>&lt;p&gt;Episode 215 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 15, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 215 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 15, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction. To sign up to receive &lt;em&gt;The Gathering Storm&lt;/em&gt; stories weekly by email visit &lt;a href= "http://www.randomhousebooks.com/campaign/magic-gathering-newsletter/"&gt; the Penguin Random House signup page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_215_-_The_Gathering_Storm_15.mp3?dest-id=299553" length="29836317" type="audio/mpeg" />
+      <itunes:duration>30:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 216 – The Gathering Storm #16</title>
+      <itunes:title>Episode 216 – The Gathering Storm #16</itunes:title>
+      <pubDate>Wed, 04 Dec 2019 09:31:51 +0000</pubDate>
+      <guid isPermaLink="false">8f372f4f-6d2b-4575-8d3c-206aa9255cfd</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-216-the-gathering-storm-16</link>
+      <description>&lt;p&gt;Episode 216 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 16, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 216 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 16, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_216_-_The_Gathering_Storm_16.mp3?dest-id=299553" length="21317687" type="audio/mpeg" />
+      <itunes:duration>22:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 217 – The Gathering Storm #17</title>
+      <itunes:title>Episode 217 – The Gathering Storm #17</itunes:title>
+      <pubDate>Wed, 11 Dec 2019 12:50:50 +0000</pubDate>
+      <guid isPermaLink="false">8b56c33d-afa7-4688-8b6d-e7584276d545</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-217-the-gathering-storm-17</link>
+      <description>&lt;p&gt;Episode 217 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 17, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 217 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 17, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_217_-_The_Gathering_Storm_17.mp3?dest-id=299553" length="26963420" type="audio/mpeg" />
+      <itunes:duration>27:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 218 – The Gathering Storm #18</title>
+      <itunes:title>Episode 218 – The Gathering Storm #18</itunes:title>
+      <pubDate>Fri, 27 Dec 2019 11:42:53 +0000</pubDate>
+      <guid isPermaLink="false">d532cb51-1d49-455b-968c-367392638561</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-218-the-gathering-storm-18</link>
+      <description>&lt;p&gt;Episode 218 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 18, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 218 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 18, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_218_-_The_Gathering_Storm_18.mp3?dest-id=299553" length="29345893" type="audio/mpeg" />
+      <itunes:duration>29:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 219 – The Gathering Storm #19</title>
+      <itunes:title>Episode 219 – The Gathering Storm #19</itunes:title>
+      <pubDate>Mon, 30 Dec 2019 17:00:00 +0000</pubDate>
+      <guid isPermaLink="false">aa1fbb92-02a0-44b0-97c8-8613910ec175</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-219-the-gathering-storm-19</link>
+      <description>&lt;p&gt;Episode 219 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 19, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 219 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 19, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction.&lt;/p&gt; &lt;p&gt;To support Unspoken Realms, visit &lt;a href= "https://www.patreon.com/unspokenrealms?ty=h"&gt;the Patreon page.&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_219_-_The_Gathering_Storm_19.mp3?dest-id=299553" length="27404281" type="audio/mpeg" />
+      <itunes:duration>27:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 220 – The Gathering Storm #20</title>
+      <itunes:title>Episode 220 – The Gathering Storm #20</itunes:title>
+      <pubDate>Wed, 27 May 2020 12:22:12 +0000</pubDate>
+      <guid isPermaLink="false">a138b6fc-e6b0-4ef4-b6f5-798391863dea</guid>
+      <link>https://unspokenrealms.libsyn.com/episode-220-the-gathering-storm-20</link>
+      <description>&lt;p&gt;Episode 220 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 20, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction.&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Episode 220 of the &lt;a href= "https://unspokenrealms.wordpress.com/"&gt;Unspoken Realms&lt;/a&gt; podcast, featuring The Gathering Storm, Chapter 20, by Django Wexler.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The Gathering Storm&lt;/em&gt; is a series of twenty prequel stories to the events of the &lt;em&gt;War of the Spark&lt;/em&gt; novel and web fiction.&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/unspokenrealms/Unspoken_Realms_-_220_-_The_Gathering_Storm_20.mp3?dest-id=299553" length="27495111" type="audio/mpeg" />
+      <itunes:duration>28:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+  </channel>
+</rss>
