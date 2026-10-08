@@ -1,0 +1,36 @@
+name: Update Ravnica filtered RSS
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "ravnica/catalog.json"
+      - "ravnica/generate_feed.py"
+      - ".github/workflows/update-ravnica-feed.yml"
+  schedule:
+    - cron: "41 4 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate curated Ravnica podcast feed
+        run: python3 ravnica/generate_feed.py
+
+      - name: Commit validated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ravnica/feed.xml
+          if git diff --cached --quiet; then
+            echo "Ravnica RSS feed unchanged"
+          else
+            git commit -m "Update Ravnica curated RSS feed"
+            git push
+          fi
