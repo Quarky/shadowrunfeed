@@ -1,0 +1,8 @@
+{
+  "updated": "2026-10-11T14:20:00Z",
+  "shows": {},
+  "combined": {
+    "status": "awaiting_first_workflow_run",
+    "note": "Repository source/catalog/workflow are committed, but feed.xml has not been generated or verified. Do not subscribe to a missing XML path."
+  }
+}
