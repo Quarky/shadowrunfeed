@@ -26,3 +26,5 @@ The feed is generated from the show's official RSS feed, so audio remains hosted
 ## Other curated audio collections
 
 - **[Ravnica — Magic: The Gathering audio fiction](ravnica/README.md):** 36 verified Unspoken Realms podcast recordings in a separate [Ravnica-only RSS feed](ravnica/feed.xml), plus official publisher links to *War of the Spark: Ravnica* and *War of the Spark: Forsaken*. The Shadowrun-only feeds above remain independent.
+
+- **[Star Wars FFG — highly reviewed actual-play podcasts](star-wars/README.md):** Independent show-specific RSS filters plus a combined editorial sampler for Force Majeure, Dice for Brains, Campaign: The Mynock, Redemption, and Respect the Crit's *Empire's Edge*. See [feed builder status](star-wars/status.json) before subscribing. Excludes Heroes of the Hydian Way by request. Existing Shadowrun/Ravnica feeds remain independent.
