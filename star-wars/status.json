@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T18:48:00.617687+00:00",
+  "updated": "2026-10-11T20:38:44.030062+00:00",
   "shows": {
     "force-majeure": {
       "status": "published",
@@ -75,8 +75,11 @@
     "status": "published",
     "items": 16,
     "shows": 6,
-    "file": "feed.xml"
+    "file": "feed.xml",
+    "podbean_fresh_url": "feed-v2.xml",
+    "invalid_items_excluded": 0
   },
+  "sampler_omitted": [],
   "d6_combined": {
     "status": "published",
     "items": 36,

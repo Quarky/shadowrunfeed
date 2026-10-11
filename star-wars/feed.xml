@@ -11,6 +11,12 @@
     <itunes:explicit>yes</itunes:explicit>
     <itunes:category text="Leisure" />
     <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png</url>
+      <title>Star Wars RPG — recommended FFG and D6 actual-play sampler</title>
+      <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
+    </image>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png" />
     <item>
       <title>Nastygram — Star Wars D6 (Empire's End &amp; Dreamscapes) — Star Wars: Dreamscapes - Ep 8. Synchronous (Star Wars d6)</title>
       <itunes:title>Nastygram — Star Wars D6 (Empire's End &amp; Dreamscapes) — Star Wars: Dreamscapes - Ep 8. Synchronous (Star Wars d6)</itunes:title>
@@ -131,7 +137,7 @@ Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
       <itunes:duration>4448</itunes:duration>
       <itunes:explicit>yes</itunes:explicit>
       <guid isPermaLink="false">urn:quarky:starwars:3ad7dafa9a42ac2dfa5d86968d1b2525e1a6c17716e15319168985e9db5e7ef1</guid>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/traffic.megaphone.fm/PODERATIONLTD8056140252.mp3?updated=1750097880" length="0" type="audio/mpeg" />
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD8056140252.mp3?key=1ad0da08dd946129c0608788cec52415&amp;request_event_id=8915d160-0188-49d9-b9b1-22626710e9ca&amp;session_id=8915d160-0188-49d9-b9b1-22626710e9ca&amp;timetoken=1791758339_0EA8B28722053CADCBCFD9C0AE7C7085" length="105520706" type="audio/mpeg" />
     </item>
     <item>
       <title>Respect the Crit — Empire's Edge — Empire's Edge - Ep. 46: What You Take With You Pt. 1</title>
@@ -194,7 +200,7 @@ Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
       <itunes:duration>4518</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <guid isPermaLink="false">urn:quarky:starwars:7a15e7af81a67a9d2516cca5437441fbbb6fc5fccb2e7e977978771a6be6134d</guid>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/traffic.megaphone.fm/PODERATIONLTD7697081025.mp3?updated=1750094282" length="0" type="audio/mpeg" />
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD7697081025.mp3?key=d835bf47222e6cc9fa2f5b8a8d084261&amp;request_event_id=b445efed-f472-466d-a31d-a4cc42088714&amp;session_id=b445efed-f472-466d-a31d-a4cc42088714&amp;timetoken=1791758337_70BBA13E3485AA7F345A5DCE1A721726" length="107278265" type="audio/mpeg" />
     </item>
     <item>
       <title>Nastygram — Star Wars D6 (Empire's End &amp; Dreamscapes) — Empire's End 25: For the Empire (Star Wars)</title>
@@ -311,7 +317,7 @@ Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
       <itunes:duration>2679</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <guid isPermaLink="false">urn:quarky:starwars:7eff835be8f70f381fcba326b19398fef38fed66f967e24e39798995d090a0d2</guid>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/traffic.megaphone.fm/PODERATIONLTD1251028918.mp3?updated=1750096522" length="0" type="audio/mpeg" />
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD1251028918.mp3?key=936b307675c3854e19594b806b1cc666&amp;request_event_id=e85c5278-ead5-4d4a-a223-1563af6e81a4&amp;session_id=e85c5278-ead5-4d4a-a223-1563af6e81a4&amp;timetoken=1791758336_7DAE56247C4DEF5615018549328FD920" length="63768269" type="audio/mpeg" />
     </item>
     <item>
       <title>Force Majeure — Coldfire Chronicles S01 E08 - A Daring Escape!</title>
@@ -420,7 +426,7 @@ Emily Morgan from &lt;a href="http://sasgeek.com" target="_blank" rel="noopener 
       <category>Dice For Brains</category>
       <description>Original publisher: Dice for Brains. &lt;p&gt;With course of action settled and secrets unlocked Bher, Gree, and Xen will need to tap into every faculty for the battle ahead.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://diceforbrains.com/dice-for-brains-podcast-episode-10-mirages/"&gt;Dice For Brains Podcast | Episode 10 – Mirages&lt;/a&gt; appeared first on &lt;a href="https://diceforbrains.com"&gt;Dice For Brains&lt;/a&gt;.&lt;/p&gt;</description>
-      <enclosure url="http://traffic.libsyn.com/diceforbrains/dfb_s01e10.mp3" length="68675997" type="audio/mpeg" />
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e10.mp3" length="68675997" type="audio/mpeg" />
       <itunes:subtitle>With course of action settled and secrets unlocked Bher, Gree, and Xen will need to tap into every faculty for the battle ahead.</itunes:subtitle>
       <itunes:summary>With course of action settled and secrets unlocked Bher, Gree, and Xen will need to tap into every faculty for the battle ahead.</itunes:summary>
       <itunes:author>Dice For Brains Podcast</itunes:author>
@@ -450,7 +456,7 @@ Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
       <itunes:duration>3861</itunes:duration>
       <itunes:explicit>yes</itunes:explicit>
       <guid isPermaLink="false">urn:quarky:starwars:43fc2c4bb932643fc7816abce945c7a6e8b3da1ef9a3cc4e1cf03e687d0347ed</guid>
-      <enclosure url="https://traffic.megaphone.fm/OSPN1631445863.mp3?updated=1664300353" length="0" type="audio/mpeg" />
+      <enclosure url="https://dcs-cached.megaphone.fm/OSPN1631445863.mp3?key=70a07f498406a3dd5540b88bcd88a561&amp;request_event_id=8e27273a-4713-4dfd-94dd-4976c03c6451&amp;session_id=8e27273a-4713-4dfd-94dd-4976c03c6451&amp;timetoken=1791758335_05F80846728DBA5C9CBBB9E547CFCAFF" length="46410545" type="audio/mpeg" />
     </item>
     <item>
       <title>Campaign — The Mynock — Episode One</title>
@@ -474,7 +480,7 @@ Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
       <itunes:duration>5500</itunes:duration>
       <itunes:explicit>yes</itunes:explicit>
       <guid isPermaLink="false">urn:quarky:starwars:72f245eb293f45c494dd0d3c346ec780ce25f6ee4ec355a492accf7b3ceb94ce</guid>
-      <enclosure url="https://traffic.megaphone.fm/OSPN8187310956.mp3?updated=1664300354" length="0" type="audio/mpeg" />
+      <enclosure url="https://dcs-cached.megaphone.fm/OSPN8187310956.mp3?key=b48e63025c127d5193bf31e2bb38ebfe&amp;request_event_id=82f3bb26-d2bc-4037-a481-0314912b8ad9&amp;session_id=82f3bb26-d2bc-4037-a481-0314912b8ad9&amp;timetoken=1791758335_05F80846728DBA5C9CBBB9E547CFCAFF" length="66083664" type="audio/mpeg" />
     </item>
   </channel>
 </rss>

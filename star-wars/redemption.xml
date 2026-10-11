@@ -11,6 +11,12 @@
     <itunes:explicit>yes</itunes:explicit>
     <itunes:category text="Leisure" />
     <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/redemption.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png</url>
+      <title>Redemption Productions — curated Star Wars actual play</title>
+      <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
+    </image>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png" />
     <item>
       <title>A Spicy Discovery</title>
       <description>&lt;p&gt;Season 3, Episode 3 - the full crew talks to Sapphire about an underworld connection&lt;/p&gt;
