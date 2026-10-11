@@ -1,8 +1,64 @@
 {
-  "updated": "2026-10-11T14:20:00Z",
-  "shows": {},
+  "updated": "2026-10-11T14:23:57.806026+00:00",
+  "shows": {
+    "force-majeure": {
+      "status": "published",
+      "items": 234,
+      "featured": [
+        "Coldfire Chronicles S01 E06  - An Ally Emerges",
+        "Coldfire Chronicles S01 E02 - A Sense Of Foreboding...",
+        "Coldfire Chronicles S01 E05  - In Which The Definition Of A Heist Is Argued",
+        "Coldfire Chronicles S01 E08 - A Daring Escape!"
+      ],
+      "source": "https://forcemajeurepod.libsyn.com/rss",
+      "file": "force-majeure.xml"
+    },
+    "dice-for-brains": {
+      "status": "published",
+      "items": 2,
+      "featured": [
+        "SWRPG | Partisans of Parsh Episode 1 – Mind the Uptake",
+        "SWRPG | Partisans of Parsh Episode 2 – An Instant Operation"
+      ],
+      "source": "https://diceforbrains.com/feed/podcast/",
+      "file": "dice-for-brains.xml"
+    },
+    "campaign-mynock": {
+      "status": "published",
+      "items": 145,
+      "featured": [
+        "Episode One",
+        "Episode Two"
+      ],
+      "source": "https://feeds.megaphone.fm/OSPN2193291028",
+      "file": "campaign-mynock.xml"
+    },
+    "redemption": {
+      "status": "published",
+      "items": 209,
+      "featured": [
+        "Episode S03E05 – Just Another Rock in the Wall",
+        "Rough Times"
+      ],
+      "source": "https://anchor.fm/s/6dbced10/podcast/rss",
+      "file": "redemption.xml"
+    },
+    "respect-the-crit": {
+      "status": "published",
+      "items": 82,
+      "featured": [
+        "Empire's Edge - Ep. 01: Empire's Edge",
+        "Empire's Edge - Ep. 46: What You Take With You Pt. 1",
+        "Empire's Edge - Ep. 79: Back to Black Spire"
+      ],
+      "source": "https://feeds.megaphone.fm/respectthecrit",
+      "file": "respect-the-crit.xml"
+    }
+  },
   "combined": {
-    "status": "awaiting_first_workflow_run",
-    "note": "Repository source/catalog/workflow are committed, but feed.xml has not been generated or verified. Do not subscribe to a missing XML path."
+    "status": "published",
+    "items": 13,
+    "shows": 5,
+    "file": "feed.xml"
   }
 }

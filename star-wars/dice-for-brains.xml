@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns2="http://wellformedweb.org/CommentAPI/" xmlns:ns3="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+  <channel>
+    <title>Dice for Brains — curated Star Wars actual play</title>
+    <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
+    <language>en</language>
+    <description>Independent filtered listening feed for Dice for Brains. Audio, descriptions, and credits originate with the original publisher; no files are copied. NOT an episode-rating list.</description>
+    <itunes:author>Independent Quarky listening catalog (not affiliated with the creators)</itunes:author>
+    <itunes:summary>Independent filtered listening feed for Dice for Brains. Audio, descriptions, and credits originate with the original publisher; no files are copied. NOT an episode-rating list.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:category text="Leisure" />
+    <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/dice-for-brains.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://diceforbrains.com/wp-content/uploads/2017/06/cropped-dfb_logo2017-32x32.jpg</url>
+      <title>Dice for Brains — curated Star Wars actual play</title>
+      <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
+    </image>
+    <itunes:image href="https://diceforbrains.com/wp-content/uploads/2017/06/cropped-dfb_logo2017-32x32.jpg" />
+    <item>
+      <title>SWRPG | Partisans of Parsh Episode 2 – An Instant Operation</title>
+      <link>https://diceforbrains.com/swrpg-partisans-parsh-episode-2-instant-operation/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=swrpg-partisans-parsh-episode-2-instant-operation</link>
+      <pubDate>Tue, 23 Oct 2018 03:30:32 +0000</pubDate>
+      <guid isPermaLink="false">urn:quarky:starwars:aaaeb5539e829f1779fb7f9bfee70a2900bc1f1d825c5f5c1f729ef509c0d64a</guid>
+      <comments>https://diceforbrains.com/swrpg-partisans-parsh-episode-2-instant-operation/#respond</comments>
+      <ns2:commentRss>https://diceforbrains.com/swrpg-partisans-parsh-episode-2-instant-operation/feed/</ns2:commentRss>
+      <ns3:comments>0</ns3:comments>
+      <category>Actual Play Podcasts</category>
+      <category>Dice For Brains</category>
+      <category>actual play</category>
+      <category>audio drama</category>
+      <category>rpg</category>
+      <category>star wars</category>
+      <category>tabletop</category>
+      <description>&lt;p&gt;Pal, Soli, Salculdia, and Nulus get to the rebelling almost immediately upon arriving on Parsh. After a very brief introduction to base command, the crew of Aegis Squadron jumps into a mission to collect a cell head currently late for a meeting. See this game vod on TWITCH or YOUTUBE! Want more Dice For Brains? … &lt;a href="https://diceforbrains.com/swrpg-partisans-parsh-episode-2-instant-operation/" class="more-link"&gt;Continue reading &lt;span class="screen-reader-text"&gt;SWRPG | Partisans of Parsh Episode 2 – An Instant Operation&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://diceforbrains.com/swrpg-partisans-parsh-episode-2-instant-operation/"&gt;SWRPG | Partisans of Parsh Episode 2 – An Instant Operation&lt;/a&gt; appeared first on &lt;a href="https://diceforbrains.com"&gt;Dice For Brains&lt;/a&gt;.&lt;/p&gt;</description>
+      <enclosure url="http://traffic.libsyn.com/diceforbrains/dfb_PoP_ep02.mp3" length="72638096" type="audio/mpeg" />
+      <itunes:subtitle>Pal, Soli, Salculdia, and Nulus get to the rebelling almost immediately upon arriving on Parsh. After a very brief introduction to base command, the crew of Aegis Squadron jumps into a mission to collect a cell head currently late for a meeting.</itunes:subtitle>
+      <itunes:summary>Pal, Soli, Salculdia, and Nulus get to the rebelling almost immediately upon arriving on Parsh. After a very brief introduction to base command, the crew of Aegis Squadron jumps into a mission to collect a cell head currently late for a meeting. See this game vod on TWITCH or YOUTUBE! Want more Dice For Brains? … Continue reading SWRPG | Partisans of Parsh Episode 2 – An Instant Operation</itunes:summary>
+      <itunes:author>Dice For Brains Podcast</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:15:40</itunes:duration>
+    </item>
+    <item>
+      <title>SWRPG | Partisans of Parsh Episode 1 – Mind the Uptake</title>
+      <link>https://diceforbrains.com/swrpg-partisans-parsh-episode-1-mind-uptake/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=swrpg-partisans-parsh-episode-1-mind-uptake</link>
+      <pubDate>Tue, 11 Sep 2018 02:33:40 +0000</pubDate>
+      <guid isPermaLink="false">urn:quarky:starwars:2f9327d218f5e49c549d58351aa9b235a74505146639d8710442e934a1370c52</guid>
+      <comments>https://diceforbrains.com/swrpg-partisans-parsh-episode-1-mind-uptake/#respond</comments>
+      <ns2:commentRss>https://diceforbrains.com/swrpg-partisans-parsh-episode-1-mind-uptake/feed/</ns2:commentRss>
+      <ns3:comments>0</ns3:comments>
+      <category>Actual Play Podcasts</category>
+      <category>Dice For Brains</category>
+      <category>actual play</category>
+      <category>audio drama</category>
+      <category>rpg</category>
+      <category>star wars</category>
+      <category>tabletop</category>
+      <description>&lt;p&gt;Meet Pal, Soli, Salculdia, and Nulus, the last remnants of Aegis Squadron. After a vicious ambush, the last remaining U-Wing arrives on the planet of Parsh. The local Rebellion contingent is in desperate need of significant reinforcement and our crew may not be enough. See this game live on TWITCH or YOUTUBE! Want more Dice … &lt;a href="https://diceforbrains.com/swrpg-partisans-parsh-episode-1-mind-uptake/" class="more-link"&gt;Continue reading &lt;span class="screen-reader-text"&gt;SWRPG | Partisans of Parsh Episode 1 – Mind the Uptake&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://diceforbrains.com/swrpg-partisans-parsh-episode-1-mind-uptake/"&gt;SWRPG | Partisans of Parsh Episode 1 – Mind the Uptake&lt;/a&gt; appeared first on &lt;a href="https://diceforbrains.com"&gt;Dice For Brains&lt;/a&gt;.&lt;/p&gt;</description>
+      <enclosure url="http://traffic.libsyn.com/diceforbrains/dfb_PoP_ep01.mp3" length="101208582" type="audio/mpeg" />
+      <itunes:subtitle>Meet Pal, Soli, Salculdia, and Nulus, the last remnants of Aegis Squadron. After a vicious ambush, the last remaining U-Wing arrives on the planet of Parsh. The local Rebellion contingent is in desperate need of significant reinforcement and our crew m...</itunes:subtitle>
+      <itunes:summary>Meet Pal, Soli, Salculdia, and Nulus, the last remnants of Aegis Squadron. After a vicious ambush, the last remaining U-Wing arrives on the planet of Parsh. The local Rebellion contingent is in desperate need of significant reinforcement and our crew may not be enough. See this game live on TWITCH or YOUTUBE! Want more Dice … Continue reading SWRPG | Partisans of Parsh Episode 1 – Mind the Uptake</itunes:summary>
+      <itunes:author>Dice For Brains Podcast</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:10:17</itunes:duration>
+    </item>
+  </channel>
+</rss>
