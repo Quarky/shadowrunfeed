@@ -27,6 +27,11 @@ jobs:
         with:
           persist-credentials: true
 
+      - name: Set up Python for artwork generation
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
       - name: Validate script syntax
         run: python3 -m py_compile star-wars/generate_feed.py star-wars/generate_cover.py
 
