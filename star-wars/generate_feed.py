@@ -192,7 +192,7 @@ def make_feed(title: str, description: str, filename: str, entries: list[tuple[d
             ET.SubElement(picture, "title").text = title
             ET.SubElement(picture, "link").text = REPO
             ET.SubElement(channel, f"{{{ITUNES}}}image", {"href": image.text})
-    combined = filename == "feed.xml"
+    combined = filename in ("feed.xml", "d6-feed.xml")
     # Podcast apps typically display newest entries first.
     entries = sorted(entries, key=lambda record: date_of(record[1]) or dt.datetime.min.replace(tzinfo=dt.timezone.utc), reverse=True)
     for show, item in entries:
@@ -228,6 +228,7 @@ def main() -> int:
     cfg = json.loads((HERE / "catalog.json").read_text(encoding="utf-8"))
     report = {"updated": dt.datetime.now(dt.timezone.utc).isoformat(), "shows": {}, "combined": None}
     all_featured = []
+    d6_entries = []
     success = 0
     for show in cfg["shows"]:
         ident = show["id"]
@@ -245,6 +246,8 @@ def main() -> int:
             safe_write(HERE / name, feed)
             favorite = featured(episodes, show.get("highlight_titles", []))
             all_featured.extend((show, item) for item in favorite)
+            if "D6" in show.get("system", ""):
+                d6_entries.extend((show, item) for item in episodes)
             report["shows"][ident] = {"status": "published", "items": len(episodes), "featured": [titled(i) for i in favorite], "source": source, "file": name}
             success += 1
             print(f"{ident}: published {len(episodes)} episodes from {source}")
@@ -253,7 +256,7 @@ def main() -> int:
             print(f"WARNING {ident}: {exc}", file=sys.stderr)
     if all_featured:
         combined = make_feed(
-            "Star Wars FFG — curated actual-play sampler",
+            "Star Wars RPG — recommended FFG and D6 actual-play sampler",
             "An independently curated discovery sampler of audience-favorite Star Wars RPG shows. Episode picks are editorial or limited community signals, NOT a validated highest-rated episode chart. Original publishers host all audio.",
             "feed.xml", all_featured,
         )
@@ -262,6 +265,17 @@ def main() -> int:
         print(f"Combined sampler: {len(all_featured)} episodes from {success} shows")
     else:
         report["combined"] = {"status": "unavailable", "reason": "No usable original publisher audio"}
+    if d6_entries:
+        d6_feed = make_feed(
+            "Star Wars D6 — complete curated actual-play arcs",
+            "West End Games Star Wars D6 listening feed: Nastygram's Empire's End and Dreamscapes arcs, plus the Falling Star D6 archive when the original publishers provide playable enclosures. Original audio is hosted by its creators; ratings are not episode-level claims.",
+            "d6-feed.xml", d6_entries,
+        )
+        safe_write(HERE / "d6-feed.xml", d6_feed)
+        report["d6_combined"] = {"status": "published", "items": len(d6_entries), "file": "d6-feed.xml"}
+        print(f"D6 combined: {len(d6_entries)} original-publisher recordings")
+    else:
+        report["d6_combined"] = {"status": "unavailable", "reason": "No source-verified playable D6 episodes; old file, if any, retained"}
     safe_write(HERE / "status.json", (json.dumps(report, indent=2, ensure_ascii=False) + "\n").encode("utf-8"))
     return 0 if success > 0 else 1
 
