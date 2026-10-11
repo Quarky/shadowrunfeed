@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-11",
+  "collection": "Star Wars FFG actual-play — audience-favorite podcasts",
+  "policy": "Publisher RSS enclosures are linked in place; never copy audio. Ratings are show-wide unless explicitly marked as episode-specific.",
+  "shows": [
+    {
+      "id": "force-majeure",
+      "title": "Force Majeure",
+      "status": "source_discovered",
+      "source_feed": "https://forcemajeurepod.libsyn.com/rss",
+      "fallback_feeds": [
+        "https://rss.libsyn.com/shows/110142/destinations/604132.xml"
+      ],
+      "selection": {
+        "mode": "all"
+      },
+      "highlight_titles": [
+        "An Ally Emerges",
+        "A Sense of Foreboding",
+        "In Which the Definition of a Heist Is Argued",
+        "A Daring Escape"
+      ],
+      "why": "Force and Destiny, well-reviewed ensemble drama; selected early episodes appeared in a low-volume Goodpods list, NOT verified individually high-rated.",
+      "evidence": "https://www.podbean.com/podcast-detail/bk2ed-72600/Force-Majeure---A-Star-Wars-Actual-Play-Podcast"
+    },
+    {
+      "id": "dice-for-brains",
+      "title": "Dice for Brains",
+      "status": "source_discovered",
+      "source_feed": "https://diceforbrains.com/feed/podcast/",
+      "selection": {
+        "mode": "title_regex",
+        "include": "(?i)(?:\\bS0?[1-6]\\b|\\bSWRPG\\b|\\bStar Wars\\b|\\bForce and Destiny\\b)",
+        "exclude": "(?i)\\bGenesys\\b"
+      },
+      "highlight_titles": [
+        "Mirages"
+      ],
+      "why": "Repeated SWRPG community recommendations for narrative dice use and character work; Mirages was independently singled out by a GM, not an episode rating.",
+      "evidence": "https://diceforbrains.com/d4bp/"
+    },
+    {
+      "id": "campaign-mynock",
+      "title": "Campaign — The Mynock",
+      "status": "source_discovered",
+      "apple_podcast_id": 927205926,
+      "selection": {
+        "mode": "before_date",
+        "cutoff": "2018-11-01",
+        "exclude": "(?i)\\bSkyjacks\\b"
+      },
+      "highlight_titles": [
+        "Episode One"
+      ],
+      "why": "Large show-level audience rating, but rating covers later Skyjacks episodes too. Only Star Wars-era recordings are selected; no implication of episode-level star ratings.",
+      "evidence": "https://oneshotpodcast.com/actual-play/campaign/the-characters/"
+    },
+    {
+      "id": "redemption",
+      "title": "Redemption Productions",
+      "status": "source_discovered",
+      "apple_podcast_id": 1052623023,
+      "selection": {
+        "mode": "all",
+        "exclude": "(?i)(?:behind the scenes|side chat|out of character|bonus chat)"
+      },
+      "highlight_titles": [
+        "Just Another Rock in the Wall",
+        "Rough Times"
+      ],
+      "why": "Radio-drama editing and interpersonal storytelling. Just Another Rock in the Wall has some publicly documented Podchaser episode reviews; still not a definitive highest-rated episode.",
+      "evidence": "https://podcasts.apple.com/us/podcast/redemption-productions/id1052623023"
+    },
+    {
+      "id": "respect-the-crit",
+      "title": "Respect the Crit — Empire's Edge",
+      "status": "source_discovered",
+      "source_feed": "https://feeds.megaphone.fm/respectthecrit",
+      "selection": {
+        "mode": "title_regex",
+        "include": "(?i)Empire.s Edge"
+      },
+      "highlight_titles": [
+        "Empire's Edge - Ep. 01",
+        "Empire's Edge - Ep. 46",
+        "Empire's Edge - Ep. 79"
+      ],
+      "why": "Well-reviewed ensemble and sound design. Include only Empire's Edge Star Wars arc, not Fallout / Cthulhu. Highlights are editorial starting points, not episode-level star rankings.",
+      "evidence": "https://podcasts.apple.com/us/podcast/respect-the-crit/id1489211492"
+    }
+  ],
+  "episode_rating_policy": "Show ratings/review counts never inherited by episodes. Only label an episode as individually rated with traceable per-episode review evidence.",
+  "omitted": [
+    "Heroes of the Hydian Way (excluded by user)"
+  ]
+}
