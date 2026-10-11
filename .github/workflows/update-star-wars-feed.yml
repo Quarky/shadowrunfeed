@@ -1,0 +1,63 @@
+name: Update Star Wars FFG curated RSS
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "star-wars/catalog.json"
+      - "star-wars/generate_feed.py"
+      - ".github/workflows/update-star-wars-feed.yml"
+  schedule:
+    - cron: "17 5 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: star-wars-podcast-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Validate script syntax
+        run: python3 -m py_compile star-wars/generate_feed.py
+
+      - name: Build source-verified curated feeds
+        run: python3 star-wars/generate_feed.py
+
+      - name: Validate emitted podcast RSS
+        run: |
+          python3 - <<'PY'
+          import pathlib
+          import xml.etree.ElementTree as ET
+          feeds = list(pathlib.Path("star-wars").glob("*.xml"))
+          assert feeds, "No RSS files emitted"
+          for path in feeds:
+              root = ET.parse(path).getroot()
+              assert root.tag == "rss"
+              items = root.findall("./channel/item")
+              assert items, f"Empty podcast feed: {path}"
+              for item in items:
+                  enclosure = item.find("enclosure")
+                  assert enclosure is not None and enclosure.get("url", "").startswith(("http://", "https://")), path
+              print(f"Validated {path} ({len(items)} playable entries)")
+          PY
+
+      - name: Commit updated independent feeds
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add star-wars/*.xml star-wars/status.json
+          if git diff --cached --quiet; then
+            echo "Star Wars podcast feed unchanged"
+          else
+            git commit -m "Publish updated Star Wars FFG curated podcast feeds"
+            git push
+          fi
