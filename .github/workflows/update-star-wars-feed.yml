@@ -62,7 +62,9 @@ jobs:
               assert root.tag == "rss"
               channel = root.find("channel")
               image = channel.find("{http://www.itunes.com/dtds/podcast-1.0.dtd}image")
-              assert image is not None and image.get("href", "").endswith(".png"), f"Missing artwork: {path}"
+              assert image is not None and image.get("href", "").startswith("https://"), f"Missing HTTPS artwork: {path}"
+              if path.name in ("feed.xml", "feed-v2.xml", "d6-feed.xml"):
+                  assert image.get("href", "").endswith("/cover.png"), f"Sampler must use original PNG art: {path}"
               items = channel.findall("item")
               assert items, f"Empty podcast feed: {path}"
               for item in items:
