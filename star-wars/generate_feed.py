@@ -51,6 +51,40 @@ def publisher_url(show: dict) -> list[str]:
         feeds.insert(0, matches[0]["feedUrl"])
     return list(dict.fromkeys(feeds))
 
+def extend_paged_archive(channel: ET.Element, url: str, show: dict) -> int:
+    """Discover older public WordPress RSS pages without inventing episodes."""
+    if show["id"] != "dice-for-brains" or "diceforbrains.com/feed/podcast" not in url:
+        return 0
+    def key(item):
+        enclosure = item.find("enclosure")
+        return item.findtext("guid") or (enclosure.get("url") if enclosure is not None else item.findtext("link"))
+    seen = {key(item) for item in channel.findall("item")}
+    total = 0
+    for page in range(2, 26):
+        parts = urllib.parse.urlsplit(url)
+        query = [(k, v) for k, v in urllib.parse.parse_qsl(parts.query) if k != "paged"]
+        query.append(("paged", str(page)))
+        page_url = urllib.parse.urlunsplit((parts.scheme, parts.netloc, parts.path, urllib.parse.urlencode(query), parts.fragment))
+        try:
+            archive = ET.fromstring(get_bytes(page_url)).find("channel")
+            if archive is None:
+                break
+            new_items = []
+            for item in archive.findall("item"):
+                identifier = key(item)
+                if identifier and identifier not in seen:
+                    seen.add(identifier)
+                    new_items.append(item)
+            if not new_items:
+                break
+            for item in new_items:
+                channel.append(copy.deepcopy(item))
+            total += len(new_items)
+        except (OSError, ET.ParseError, ValueError) as error:
+            print(f"Publisher archive page {page} unavailable: {error}", file=sys.stderr)
+            break
+    return total
+
 def read_source(show: dict) -> tuple[ET.Element, str]:
     failures = []
     for url in publisher_url(show):
@@ -61,6 +95,9 @@ def read_source(show: dict) -> tuple[ET.Element, str]:
                 raise ValueError("Response is not an RSS 2.0 channel")
             if not channel.findall("item"):
                 raise ValueError("Publisher RSS contains no episodes")
+            extra = extend_paged_archive(channel, url, show)
+            if extra:
+                print(f"Extended publisher archive by {extra} episodes")
             return channel, url
         except (ValueError, OSError, ET.ParseError, urllib.error.URLError) as error:
             failures.append(f"{url}: {type(error).__name__}: {error}")
