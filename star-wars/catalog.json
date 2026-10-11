@@ -31,14 +31,15 @@
       "source_feed": "https://diceforbrains.com/feed/podcast/",
       "selection": {
         "mode": "title_regex",
-        "include": "(?i)(?:\\bS0?[1-6]\\b|\\bSWRPG\\b|\\bStar Wars\\b|\\bForce and Destiny\\b)",
-        "exclude": "(?i)\\bGenesys\\b"
+        "include": "(?i)(?:\\bS0?[1-6]\\b|\\bSWRPG\\b|\\bStar Wars\\b|\\bForce and Destiny\\b|\\bEpisode\\s+(?:[1-9]|[1-6][0-9]|7[0-3])\\b)",
+        "exclude": "(?i)(?:\\bGenesys\\b|\\bS0?7\\b)"
       },
       "highlight_titles": [
         "Mirages"
       ],
       "why": "Repeated SWRPG community recommendations for narrative dice use and character work; Mirages was independently singled out by a GM, not an episode rating.",
-      "evidence": "https://diceforbrains.com/d4bp/"
+      "evidence": "https://diceforbrains.com/d4bp/",
+      "filter_rationale": "Publisher numbers Star Wars actual-play main episodes 1–73 across seasons 1–6; WordPress RSS descriptions are paginated and many item titles omit S01–S06, so include episode-number range plus special episodes while excluding Genesys S07."
     },
     {
       "id": "campaign-mynock",
