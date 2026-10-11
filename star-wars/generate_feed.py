@@ -23,6 +23,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 REPO = "https://github.com/Quarky/shadowrunfeed/tree/main/star-wars"
 CDN = "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars"
+ART_URL = CDN + "/cover.png"
 ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 ATOM = "http://www.w3.org/2005/Atom"
 ET.register_namespace("itunes", ITUNES)
@@ -143,6 +144,68 @@ def select_items(channel: ET.Element, show: dict) -> list[ET.Element]:
 def titled(item: ET.Element) -> str:
     return (item.findtext("title") or "").strip()
 
+def checked_sampler_item(item: ET.Element) -> ET.Element | None:
+    """Fix incomplete publisher enclosure metadata or omit unverifiable entries.
+
+    Several Megaphone publisher feeds specify length=0, which is invalid for
+    strict podcast readers. Resolve actual size from the remote audio server;
+    do not guess or download whole audio files.
+    """
+    result = copy.deepcopy(item)
+    enclosure = result.find("enclosure")
+    if enclosure is None:
+        return None
+    url = enclosure.get("url", "").strip()
+    if not url.startswith(("http://", "https://")):
+        return None
+
+    # An old Libsyn episode occasionally includes HTTP media; prefer HTTPS.
+    if url.startswith("http://"):
+        url = "https://" + url[len("http://"):]
+
+    try:
+        size = int(enclosure.get("length", "0"))
+    except ValueError:
+        size = 0
+    if size <= 0 or item.find("enclosure").get("url", "").startswith("http://"):
+        try:
+            head = urllib.request.Request(url, method="HEAD", headers={
+                "User-Agent": "QuarkyStarWarsPodcastIndex/1.1",
+            })
+            with urllib.request.urlopen(head, timeout=16) as response:
+                size = int(response.headers.get("Content-Length", "0"))
+                if response.url.startswith("https://"):
+                    url = response.url
+        except (OSError, ValueError):
+            pass
+        if size <= 0:
+            try:
+                partial = urllib.request.Request(url, headers={
+                    "Range": "bytes=0-0",
+                    "User-Agent": "QuarkyStarWarsPodcastIndex/1.1"
+                })
+                with urllib.request.urlopen(partial, timeout=16) as response:
+                    content_range = response.headers.get("Content-Range", "")
+                    match = re.search(r"/([0-9]+)$", content_range)
+                    if match:
+                        size = int(match.group(1))
+                    elif response.status == 200:
+                        # Content-Length on a full, normal 200 response can be
+                        # used; a 1-byte 206 response cannot.
+                        size = int(response.headers.get("Content-Length", "0"))
+                    if response.url.startswith("https://"):
+                        url = response.url
+                    response.read(1)
+            except (OSError, ValueError):
+                pass
+    if size <= 0 or not url.startswith("https://"):
+        return None
+    enclosure.set("url", url)
+    enclosure.set("length", str(size))
+    if not enclosure.get("type", "").startswith("audio/"):
+        enclosure.set("type", "audio/mpeg" if url.split("?")[0].endswith(".mp3") else "audio/mp4")
+    return result
+
 def clone_item(item: ET.Element, show: dict, combined: bool) -> ET.Element:
     result = copy.deepcopy(item)
     original_id = item.findtext("guid") or item.find("enclosure").get("url")
@@ -184,14 +247,18 @@ def make_feed(title: str, description: str, filename: str, entries: list[tuple[d
     ET.SubElement(channel, f"{{{ATOM}}}link", {
         "href": CDN + "/" + filename, "rel": "self", "type": "application/rss+xml"
     })
+    if not (HERE / "cover.png").exists():
+        raise RuntimeError("Missing channel cover.png: run generate_cover.py before publishing")
+    image_url = ART_URL
     if source_channel is not None:
         image = source_channel.find("image/url")
         if image is not None and image.text and image.text.startswith("https://"):
-            picture = ET.SubElement(channel, "image")
-            ET.SubElement(picture, "url").text = image.text
-            ET.SubElement(picture, "title").text = title
-            ET.SubElement(picture, "link").text = REPO
-            ET.SubElement(channel, f"{{{ITUNES}}}image", {"href": image.text})
+            image_url = image.text
+    picture = ET.SubElement(channel, "image")
+    ET.SubElement(picture, "url").text = image_url
+    ET.SubElement(picture, "title").text = title
+    ET.SubElement(picture, "link").text = REPO
+    ET.SubElement(channel, f"{{{ITUNES}}}image", {"href": image_url})
     combined = filename in ("feed.xml", "d6-feed.xml")
     # Podcast apps typically display newest entries first.
     entries = sorted(entries, key=lambda record: date_of(record[1]) or dt.datetime.min.replace(tzinfo=dt.timezone.utc), reverse=True)
@@ -254,15 +321,33 @@ def main() -> int:
         except Exception as exc:
             report["shows"][ident] = {"status": "unavailable", "error": str(exc), "note": "Existing RSS file, if any, is retained unchanged."}
             print(f"WARNING {ident}: {exc}", file=sys.stderr)
-    if all_featured:
+    # Strict compatibility for the combined sampler: never emit 0-byte
+    # enclosures and never mix insecure HTTP episode URLs.
+    usable_featured = []
+    omitted = []
+    for show, item in all_featured:
+        checked = checked_sampler_item(item)
+        if checked is None:
+            omitted.append({"show": show["id"], "title": titled(item), "reason": "Unable to verify HTTPS audio size"})
+        else:
+            usable_featured.append((show, checked))
+    report["sampler_omitted"] = omitted
+    if usable_featured:
         combined = make_feed(
             "Star Wars RPG — recommended FFG and D6 actual-play sampler",
             "An independently curated discovery sampler of audience-favorite Star Wars RPG shows. Episode picks are editorial or limited community signals, NOT a validated highest-rated episode chart. Original publishers host all audio.",
-            "feed.xml", all_featured,
+            "feed.xml", usable_featured,
         )
         safe_write(HERE / "feed.xml", combined)
-        report["combined"] = {"status": "published", "items": len(all_featured), "shows": success, "file": "feed.xml"}
-        print(f"Combined sampler: {len(all_featured)} episodes from {success} shows")
+        safe_write(HERE / "feed-v2.xml", combined.replace(
+            b"/star-wars/feed.xml", b"/star-wars/feed-v2.xml"))
+        report["combined"] = {
+            "status": "published", "items": len(usable_featured),
+            "shows": len({show["id"] for show, _ in usable_featured}),
+            "file": "feed.xml", "podbean_fresh_url": "feed-v2.xml",
+            "invalid_items_excluded": len(omitted),
+        }
+        print(f"Strict combined sampler: {len(usable_featured)} verified HTTPS audio enclosures; omitted {len(omitted)}")
     else:
         report["combined"] = {"status": "unavailable", "reason": "No usable original publisher audio"}
     if d6_entries:
