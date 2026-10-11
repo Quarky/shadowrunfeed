@@ -41,7 +41,7 @@ def get_bytes(url: str) -> bytes:
 def publisher_url(show: dict) -> list[str]:
     feeds = [show["source_feed"]] if show.get("source_feed") else []
     feeds.extend(show.get("fallback_feeds", []))
-    if show.get("apple_podcast_id"):
+    if show.get("apple_podcast_id") and not feeds:
         ident = int(show["apple_podcast_id"])
         query = urllib.parse.urlencode({"id": ident, "entity": "podcast", "country": "us"})
         payload = json.loads(get_bytes("https://itunes.apple.com/lookup?" + query))
