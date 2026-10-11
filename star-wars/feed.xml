@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns2="http://purl.org/rss/1.0/modules/content/" xmlns:ns3="https://rss.libsyn.com/ns.xml" xmlns:ns5="http://wellformedweb.org/CommentAPI/" xmlns:ns6="http://purl.org/rss/1.0/modules/slash/" version="2.0">
   <channel>
-    <title>Star Wars FFG — curated actual-play sampler</title>
+    <title>Star Wars RPG — recommended FFG and D6 actual-play sampler</title>
     <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
     <language>en</language>
     <description>An independently curated discovery sampler of audience-favorite Star Wars RPG shows. Episode picks are editorial or limited community signals, NOT a validated highest-rated episode chart. Original publishers host all audio.</description>

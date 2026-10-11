@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T18:47:34.716596+00:00",
+  "updated": "2026-10-11T18:48:00.617687+00:00",
   "shows": {
     "force-majeure": {
       "status": "published",
@@ -76,5 +76,10 @@
     "items": 16,
     "shows": 6,
     "file": "feed.xml"
+  },
+  "d6_combined": {
+    "status": "published",
+    "items": 36,
+    "file": "d6-feed.xml"
   }
 }
