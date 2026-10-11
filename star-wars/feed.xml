@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns2="http://purl.org/rss/1.0/modules/content/" xmlns:ns4="http://wellformedweb.org/CommentAPI/" xmlns:ns5="http://purl.org/rss/1.0/modules/slash/" xmlns:ns6="https://rss.libsyn.com/ns.xml" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns2="http://purl.org/rss/1.0/modules/content/" xmlns:ns4="https://rss.libsyn.com/ns.xml" xmlns:ns5="http://wellformedweb.org/CommentAPI/" xmlns:ns6="http://purl.org/rss/1.0/modules/slash/" version="2.0">
   <channel>
     <title>Star Wars FFG — curated actual-play sampler</title>
     <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
@@ -233,56 +233,6 @@ Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
       <enclosure url="https://www.podtrac.com/pts/redirect.mp3/traffic.megaphone.fm/PODERATIONLTD1251028918.mp3?updated=1750096522" length="0" type="audio/mpeg" />
     </item>
     <item>
-      <title>Dice for Brains — SWRPG | Partisans of Parsh Episode 2 – An Instant Operation</title>
-      <link>https://diceforbrains.com/swrpg-partisans-parsh-episode-2-instant-operation/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=swrpg-partisans-parsh-episode-2-instant-operation</link>
-      <pubDate>Tue, 23 Oct 2018 03:30:32 +0000</pubDate>
-      <guid isPermaLink="false">urn:quarky:starwars:aaaeb5539e829f1779fb7f9bfee70a2900bc1f1d825c5f5c1f729ef509c0d64a</guid>
-      <comments>https://diceforbrains.com/swrpg-partisans-parsh-episode-2-instant-operation/#respond</comments>
-      <ns4:commentRss>https://diceforbrains.com/swrpg-partisans-parsh-episode-2-instant-operation/feed/</ns4:commentRss>
-      <ns5:comments>0</ns5:comments>
-      <category>Actual Play Podcasts</category>
-      <category>Dice For Brains</category>
-      <category>actual play</category>
-      <category>audio drama</category>
-      <category>rpg</category>
-      <category>star wars</category>
-      <category>tabletop</category>
-      <description>Original publisher: Dice for Brains. &lt;p&gt;Pal, Soli, Salculdia, and Nulus get to the rebelling almost immediately upon arriving on Parsh. After a very brief introduction to base command, the crew of Aegis Squadron jumps into a mission to collect a cell head currently late for a meeting. See this game vod on TWITCH or YOUTUBE! Want more Dice For Brains? … &lt;a href="https://diceforbrains.com/swrpg-partisans-parsh-episode-2-instant-operation/" class="more-link"&gt;Continue reading &lt;span class="screen-reader-text"&gt;SWRPG | Partisans of Parsh Episode 2 – An Instant Operation&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://diceforbrains.com/swrpg-partisans-parsh-episode-2-instant-operation/"&gt;SWRPG | Partisans of Parsh Episode 2 – An Instant Operation&lt;/a&gt; appeared first on &lt;a href="https://diceforbrains.com"&gt;Dice For Brains&lt;/a&gt;.&lt;/p&gt;</description>
-      <enclosure url="http://traffic.libsyn.com/diceforbrains/dfb_PoP_ep02.mp3" length="72638096" type="audio/mpeg" />
-      <itunes:subtitle>Pal, Soli, Salculdia, and Nulus get to the rebelling almost immediately upon arriving on Parsh. After a very brief introduction to base command, the crew of Aegis Squadron jumps into a mission to collect a cell head currently late for a meeting.</itunes:subtitle>
-      <itunes:summary>Pal, Soli, Salculdia, and Nulus get to the rebelling almost immediately upon arriving on Parsh. After a very brief introduction to base command, the crew of Aegis Squadron jumps into a mission to collect a cell head currently late for a meeting. See this game vod on TWITCH or YOUTUBE! Want more Dice For Brains? … Continue reading SWRPG | Partisans of Parsh Episode 2 – An Instant Operation</itunes:summary>
-      <itunes:author>Dice For Brains Podcast</itunes:author>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:duration>1:15:40</itunes:duration>
-    </item>
-    <item>
-      <title>Dice for Brains — SWRPG | Partisans of Parsh Episode 1 – Mind the Uptake</title>
-      <link>https://diceforbrains.com/swrpg-partisans-parsh-episode-1-mind-uptake/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=swrpg-partisans-parsh-episode-1-mind-uptake</link>
-      <pubDate>Tue, 11 Sep 2018 02:33:40 +0000</pubDate>
-      <guid isPermaLink="false">urn:quarky:starwars:2f9327d218f5e49c549d58351aa9b235a74505146639d8710442e934a1370c52</guid>
-      <comments>https://diceforbrains.com/swrpg-partisans-parsh-episode-1-mind-uptake/#respond</comments>
-      <ns4:commentRss>https://diceforbrains.com/swrpg-partisans-parsh-episode-1-mind-uptake/feed/</ns4:commentRss>
-      <ns5:comments>0</ns5:comments>
-      <category>Actual Play Podcasts</category>
-      <category>Dice For Brains</category>
-      <category>actual play</category>
-      <category>audio drama</category>
-      <category>rpg</category>
-      <category>star wars</category>
-      <category>tabletop</category>
-      <description>Original publisher: Dice for Brains. &lt;p&gt;Meet Pal, Soli, Salculdia, and Nulus, the last remnants of Aegis Squadron. After a vicious ambush, the last remaining U-Wing arrives on the planet of Parsh. The local Rebellion contingent is in desperate need of significant reinforcement and our crew may not be enough. See this game live on TWITCH or YOUTUBE! Want more Dice … &lt;a href="https://diceforbrains.com/swrpg-partisans-parsh-episode-1-mind-uptake/" class="more-link"&gt;Continue reading &lt;span class="screen-reader-text"&gt;SWRPG | Partisans of Parsh Episode 1 – Mind the Uptake&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://diceforbrains.com/swrpg-partisans-parsh-episode-1-mind-uptake/"&gt;SWRPG | Partisans of Parsh Episode 1 – Mind the Uptake&lt;/a&gt; appeared first on &lt;a href="https://diceforbrains.com"&gt;Dice For Brains&lt;/a&gt;.&lt;/p&gt;</description>
-      <enclosure url="http://traffic.libsyn.com/diceforbrains/dfb_PoP_ep01.mp3" length="101208582" type="audio/mpeg" />
-      <itunes:subtitle>Meet Pal, Soli, Salculdia, and Nulus, the last remnants of Aegis Squadron. After a vicious ambush, the last remaining U-Wing arrives on the planet of Parsh. The local Rebellion contingent is in desperate need of significant reinforcement and our crew m...</itunes:subtitle>
-      <itunes:summary>Meet Pal, Soli, Salculdia, and Nulus, the last remnants of Aegis Squadron. After a vicious ambush, the last remaining U-Wing arrives on the planet of Parsh. The local Rebellion contingent is in desperate need of significant reinforcement and our crew may not be enough. See this game live on TWITCH or YOUTUBE! Want more Dice … Continue reading SWRPG | Partisans of Parsh Episode 1 – Mind the Uptake</itunes:summary>
-      <itunes:author>Dice For Brains Podcast</itunes:author>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:duration>1:10:17</itunes:duration>
-    </item>
-    <item>
       <title>Force Majeure — Coldfire Chronicles S01 E08 - A Daring Escape!</title>
       <itunes:title>Force Majeure — Coldfire Chronicles S01 E08 - A Daring Escape!</itunes:title>
       <pubDate>Mon, 30 Apr 2018 04:30:00 +0000</pubDate>
@@ -297,8 +247,8 @@ Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
       <itunes:image href="https://static.libsyn.com/p/assets/2/7/d/5/27d52e303fb5c060/Small_Logo_2.jpg" />
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:author>Force Majeure Podcast</itunes:author>
-      <ns6:item-id>6444206</ns6:item-id>
-      <ns6:last-updated>2019-02-28T19:01:40Z</ns6:last-updated>
+      <ns4:item-id>6444206</ns4:item-id>
+      <ns4:last-updated>2019-02-28T19:01:40Z</ns4:last-updated>
     </item>
     <item>
       <title>Force Majeure — Coldfire Chronicles S01 E06  - An Ally Emerges</title>
@@ -315,8 +265,8 @@ Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
       <itunes:image href="https://static.libsyn.com/p/assets/c/0/6/f/c06fc034c8b3365d/Coldfire_Chronicles_DS.jpg" />
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:author>Force Majeure Podcast</itunes:author>
-      <ns6:item-id>6375598</ns6:item-id>
-      <ns6:last-updated>2019-02-28T19:01:06Z</ns6:last-updated>
+      <ns4:item-id>6375598</ns4:item-id>
+      <ns4:last-updated>2019-02-28T19:01:06Z</ns4:last-updated>
     </item>
     <item>
       <title>Force Majeure — Coldfire Chronicles S01 E05  - In Which The Definition Of A Heist Is Argued</title>
@@ -333,8 +283,8 @@ Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
       <itunes:image href="https://static.libsyn.com/p/assets/8/2/9/1/8291ba35466fcd39/Small_Logo_2.jpg" />
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:author>Force Majeure Podcast</itunes:author>
-      <ns6:item-id>6312929</ns6:item-id>
-      <ns6:last-updated>2019-07-22T16:38:56Z</ns6:last-updated>
+      <ns4:item-id>6312929</ns4:item-id>
+      <ns4:last-updated>2019-07-22T16:38:56Z</ns4:last-updated>
     </item>
     <item>
       <title>Force Majeure — Coldfire Chronicles S01 E02 - A Sense Of Foreboding...</title>
@@ -351,8 +301,8 @@ Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
       <itunes:image href="https://static.libsyn.com/p/assets/3/a/d/0/3ad0ccb7f62812e2/Small_Logo_4.jpg" />
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:author>Force Majeure Podcast</itunes:author>
-      <ns6:item-id>6214390</ns6:item-id>
-      <ns6:last-updated>2019-02-28T18:59:03Z</ns6:last-updated>
+      <ns4:item-id>6214390</ns4:item-id>
+      <ns4:last-updated>2019-02-28T18:59:03Z</ns4:last-updated>
     </item>
     <item>
       <title>Redemption Productions — Episode S03E05 – Just Another Rock in the Wall</title>
@@ -376,6 +326,46 @@ Emily Morgan from &lt;a href="http://sasgeek.com" target="_blank" rel="noopener 
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:55:37</itunes:duration>
       <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/18310980/18310980-1685449686095-a24ac80e6f413.jpg" />
+    </item>
+    <item>
+      <title>Dice for Brains — Dice For Brains Podcast | S1 Special Episode – Xen’s Lightsaber</title>
+      <link>https://diceforbrains.com/dice-for-brains-podcast-s1-special-episode-xens-lightsaber/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dice-for-brains-podcast-s1-special-episode-xens-lightsaber</link>
+      <pubDate>Mon, 29 Feb 2016 03:27:55 +0000</pubDate>
+      <guid isPermaLink="false">urn:quarky:starwars:f520f54a6f82c7689f6172f89afd93a0c62b65dd693092fcf2e583482e946238</guid>
+      <comments>https://diceforbrains.com/dice-for-brains-podcast-s1-special-episode-xens-lightsaber/#respond</comments>
+      <ns5:commentRss>https://diceforbrains.com/dice-for-brains-podcast-s1-special-episode-xens-lightsaber/feed/</ns5:commentRss>
+      <ns6:comments>0</ns6:comments>
+      <category>Actual Play Podcasts</category>
+      <category>Dice For Brains</category>
+      <description>Original publisher: Dice for Brains. &lt;p&gt;In the 6 months between seasons, the crew of the newly christened Spicy Kido have put their crystals to use. Something fishy occurs with Xen’s lightsaber creation.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://diceforbrains.com/dice-for-brains-podcast-s1-special-episode-xens-lightsaber/"&gt;Dice For Brains Podcast | S1 Special Episode – Xen’s Lightsaber&lt;/a&gt; appeared first on &lt;a href="https://diceforbrains.com"&gt;Dice For Brains&lt;/a&gt;.&lt;/p&gt;</description>
+      <enclosure url="http://traffic.libsyn.com/diceforbrains/dfb_xenLS.mp3" length="21684089" type="audio/mpeg" />
+      <itunes:subtitle>In the 6 months between seasons, the crew of the newly christened Spicy Kido have put their crystals to use. Something fishy occurs with Xen’s lightsaber creation.</itunes:subtitle>
+      <itunes:summary>In the 6 months between seasons, the crew of the newly christened Spicy Kido have put their crystals to use. Something fishy occurs with Xen’s lightsaber creation.</itunes:summary>
+      <itunes:author>Dice For Brains Podcast</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>15:00</itunes:duration>
+    </item>
+    <item>
+      <title>Dice for Brains — Dice For Brains Podcast | Episode 12 – S1 Finale: Spaceport City Blitz</title>
+      <link>https://diceforbrains.com/dice-for-brains-podcast-episode-12-s1-finale/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dice-for-brains-podcast-episode-12-s1-finale</link>
+      <pubDate>Mon, 22 Feb 2016 04:50:28 +0000</pubDate>
+      <guid isPermaLink="false">urn:quarky:starwars:337e34bf7e288fe7b4dd4f1532bc6b5bda03441fa67f29b80ae739e73307ccf8</guid>
+      <comments>https://diceforbrains.com/dice-for-brains-podcast-episode-12-s1-finale/#comments</comments>
+      <ns5:commentRss>https://diceforbrains.com/dice-for-brains-podcast-episode-12-s1-finale/feed/</ns5:commentRss>
+      <ns6:comments>2</ns6:comments>
+      <category>Actual Play Podcasts</category>
+      <category>Dice For Brains</category>
+      <description>Original publisher: Dice for Brains. &lt;p&gt;Bher, Gree, and Xen storm the spaceport in hopes of a successful rescue mission. They are not the only ones to get more than they bargained for.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://diceforbrains.com/dice-for-brains-podcast-episode-12-s1-finale/"&gt;Dice For Brains Podcast | Episode 12 – S1 Finale: Spaceport City Blitz&lt;/a&gt; appeared first on &lt;a href="https://diceforbrains.com"&gt;Dice For Brains&lt;/a&gt;.&lt;/p&gt;</description>
+      <enclosure url="http://traffic.libsyn.com/diceforbrains/dfb_s01e12.mp3" length="90247384" type="audio/mpeg" />
+      <itunes:subtitle>Bher, Gree, and Xen storm the spaceport in hopes of a successful rescue mission. They are not the only ones to get more than they bargained for.</itunes:subtitle>
+      <itunes:summary>Bher, Gree, and Xen storm the spaceport in hopes of a successful rescue mission. They are not the only ones to get more than they bargained for.</itunes:summary>
+      <itunes:author>Dice For Brains Podcast</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:02:37</itunes:duration>
     </item>
     <item>
       <title>Campaign — The Mynock — Episode Two</title>

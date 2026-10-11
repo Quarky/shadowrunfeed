@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T14:24:16.392130+00:00",
+  "updated": "2026-10-11T14:26:05.820555+00:00",
   "shows": {
     "force-majeure": {
       "status": "published",
@@ -15,10 +15,10 @@
     },
     "dice-for-brains": {
       "status": "published",
-      "items": 2,
+      "items": 32,
       "featured": [
-        "SWRPG | Partisans of Parsh Episode 1 – Mind the Uptake",
-        "SWRPG | Partisans of Parsh Episode 2 – An Instant Operation"
+        "Dice For Brains Podcast | Episode 12 – S1 Finale: Spaceport City Blitz",
+        "Dice For Brains Podcast | S1 Special Episode – Xen’s Lightsaber"
       ],
       "source": "https://diceforbrains.com/feed/podcast/",
       "file": "dice-for-brains.xml"
