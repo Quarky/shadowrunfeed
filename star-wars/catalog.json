@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-11",
-  "collection": "Star Wars FFG actual-play — audience-favorite podcasts",
+  "collection": "Star Wars FFG and D6 actual-play — audience favorites and curated episode starting points",
   "policy": "Publisher RSS enclosures are linked in place; never copy audio. Ratings are show-wide unless explicitly marked as episode-specific.",
   "shows": [
     {
@@ -93,10 +93,97 @@
       ],
       "why": "Well-reviewed ensemble and sound design. Include only Empire's Edge Star Wars arc, not Fallout / Cthulhu. Highlights are editorial starting points, not episode-level star rankings.",
       "evidence": "https://podcasts.apple.com/us/podcast/respect-the-crit/id1489211492"
+    },
+    {
+      "id": "nastygram-d6",
+      "title": "Nastygram — Star Wars D6 (Empire's End & Dreamscapes)",
+      "system": "Star Wars D6 (West End Games)",
+      "apple_podcast_id": 1565416693,
+      "selection": {
+        "mode": "title_regex",
+        "include": "(?i)(?:Empire['’]s End|Star Wars:\\s*Dreamscapes)"
+      },
+      "highlight_titles": [
+        "Empire's End 1:",
+        "Star Wars: Dreamscapes - Ep 1.",
+        "Empire's End 25:",
+        "Star Wars: Dreamscapes - Ep 8."
+      ],
+      "why": "West End Games D6 campaign Empire's End (Imperial officers) and 2025–2026 Dreamscapes (Jedi investigation). Nastygram overall has 5.0/5 from 72 US Apple ratings, but these are NOT Star Wars-arc or episode-specific ratings.",
+      "evidence": "https://podcasts.apple.com/us/podcast/nastygram-an-rpg-podcast/id1565416693",
+      "episode_evidence": "https://www.reddit.com/r/StarWarsD6/comments/rjkj5u/",
+      "ranking_class": "D6 editorial addition; strong mixed-RPG show reviews"
+    },
+    {
+      "id": "falling-star-d6",
+      "title": "Falling Star — Star Wars D6",
+      "system": "Star Wars D6 (West End Games)",
+      "apple_podcast_id": 847953650,
+      "selection": {
+        "mode": "all"
+      },
+      "highlight_titles": [
+        "Falling Star #1 Star Wars D6 RPG"
+      ],
+      "why": "Dedicated historical Star Wars D6 actual-play archive (2014–2016); 3.8/5 from 13 US Apple ratings, notably lower than top FFG shows. Added for D6 breadth, not portrayed as top rated.",
+      "evidence": "https://podcasts.apple.com/us/podcast/falling-star-a-star-wars-d6-rpg-podcast/id847953650",
+      "ranking_class": "D6 historical archive; not top-rated"
     }
   ],
   "episode_rating_policy": "Show ratings/review counts never inherited by episodes. Only label an episode as individually rated with traceable per-episode review evidence.",
   "omitted": [
     "Heroes of the Hydian Way (excluded by user)"
-  ]
+  ],
+  "research_notes": {
+    "scope": "Star Wars RPG actual play; neither movie recap/discussion podcasts nor games solely outside Star Wars. Excludes Heroes of the Hydian Way per user.",
+    "x_twitter": "Indexed public X search did not support a credible per-episode mention count; do not claim any X popularity ranking.",
+    "community_consensus": [
+      {
+        "show": "Dice for Brains",
+        "reason": "Multiple independent community discussions since 2019 praise narrative dice, character arcs and GMing",
+        "links": [
+          "https://www.reddit.com/r/swrpg/comments/iyuxld/",
+          "https://www.reddit.com/r/swrpg/comments/mupk30/",
+          "https://www.reddit.com/r/swrpg/comments/1tw83p4/"
+        ]
+      },
+      {
+        "show": "Campaign: The Mynock",
+        "reason": "Repeated enthusiastic third-party recommendations of Star Wars Campaign as story-focused favorite (with loose rules adherence)",
+        "links": [
+          "https://www.reddit.com/r/swrpg/comments/mupk30/",
+          "https://www.reddit.com/r/swrpg/comments/r9ujzf/",
+          "https://www.reddit.com/r/swrpg/comments/1jro5ld/"
+        ]
+      },
+      {
+        "show": "Nastygram — Empire's End",
+        "reason": "Named D6 actual-play arc discussed in r/StarWarsD6; posts include author promotion, so NOT independent consensus alone",
+        "links": [
+          "https://www.reddit.com/r/StarWarsD6/comments/rjkj5u/",
+          "https://www.reddit.com/r/StarWarsD6/comments/t96t00/"
+        ]
+      }
+    ],
+    "episode_specific_evidence": [
+      {
+        "show": "Redemption",
+        "title": "Episode S03E05 — Just Another Rock in the Wall",
+        "platform": "Podchaser",
+        "episode_ratings_count": 6,
+        "episode_reviews_count": 3,
+        "url": "https://www.podchaser.com/podcasts/redemption-podcast-425872/episodes/episode-s03e05-just-another-ro-17023346/reviews/990",
+        "confidence": "small-sample episode-level ratings, not necessarily highest ranked"
+      },
+      {
+        "show": "Dice for Brains",
+        "title": "Episode 10 — Mirages",
+        "platform": "GM discussion / recommendation",
+        "url": "https://ffg-forum-archive.entropicdreams.com/topic/201784-actual-play-dice-for-brains-podcast-episode-10/",
+        "confidence": "editorial mention; no validated individual rating"
+      }
+    ],
+    "rating_comparability": "Apple ratings are region-specific and show-level; Nastygram and Campaign cover many non-Star-Wars shows/episodes. Never transfer show stars to specific episodes.",
+    "catalog_edition": "Research snapshot 2026-10-11; dynamically generated feed entries are based on verifiable publisher RSS."
+  }
 }
