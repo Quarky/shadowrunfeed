@@ -1,0 +1,52 @@
+# Star Wars FFG — highly reviewed actual-play podcast collection
+
+This is a **separate collection** in the existing public [Quarky/shadowrunfeed](../README.md) repository, modeled after the existing [Ravnica catalog + filtered RSS builder](../ravnica/README.md). **Shadowrun and Ravnica were not changed or merged.** `Heroes of the Hydian Way` is deliberately omitted.
+
+## Subscribe (Podbean / any RSS-capable player)
+
+**Combined editorial sampler:** `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed.xml`
+
+**Individual show collections:**
+
+| Show | Filtered RSS subscription URL | Content policy | Why included |
+| --- | --- | --- | --- |
+| Force Majeure | `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/force-majeure.xml` | Entire Star Wars FFG show | Strong audience reviews, atmospheric Force-and-Destiny stories |
+| Dice for Brains | `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/dice-for-brains.xml` | Star Wars seasons/episodes only; excludes Genesys | Independent Star Wars RPG community endorsements for use of narrative dice |
+| Campaign — The Mynock | `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/campaign-mynock.xml` | Star Wars era only, not later Skyjacks | Longstanding strong audience reception, improv and character relationships |
+| Redemption Productions | `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/redemption.xml` | Published Star Wars actual-play episodes; excludes obvious out-of-character chats | Sound design, narrative editing and interpersonal drama |
+| Respect the Crit — Empire's Edge | `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/respect-the-crit.xml` | Star Wars **Empire's Edge** only; not Fallout or Call of Cthulhu | Character voices, cinematic production and long-form pacing |
+
+In Podbean, use **Search → + Add Feed URL**, or your player's equivalent **Add by RSS URL**. These URLs work **only once their corresponding `.xml` files have been published by the [GitHub workflow](../.github/workflows/update-star-wars-feed.yml)**. Check [live builder status](status.json) (or repository directory) before subscribing. The first run and the CDN may take time; a configured feed is not proof of successful publication.
+
+## Episode picks and ratings: avoid false precision
+
+**These five series were selected based on overall show-level reviews/recommendations**, *not* because every episode is individually rated highly. Podcast services generally publish show-level stars, not per-episode rating tables. Different regions/platforms give incomparable vote counts. The combined `feed.xml` is an **editorial discovery sampler**; it is not advertised as a verified ranking of the highest-rated individual episodes.
+
+| Show | Highlight / entry point (only included when publisher feed verifies it) | What the evidence actually says |
+| --- | --- | --- |
+| Force Majeure | An Ally Emerges; A Sense of Foreboding; In Which the Definition of a Heist Is Argued; A Daring Escape | These appeared in a low-engagement episode discovery list. This is **not** compelling statistical episode-review evidence. |
+| Dice for Brains | Season 1 episode 10, *Mirages* | Specifically mentioned by a GM in a FFG forum discussion as a meaningful character/player moment; **not** a star-rated winner. |
+| Campaign: The Mynock | *Episode One* | Recommended starting point. Show reviews also include the later, unrelated Skyjacks arc. |
+| Redemption | *Just Another Rock in the Wall*; *Rough Times* | *Just Another Rock in the Wall* has documented individual Podchaser reviews; small sample. *Rough Times* is a season entry point, not peer-ranked. |
+| Respect the Crit | *Empire's Edge* episodes 01, 46, 79 | Introduction and later arc choices; not demonstrably the top three most-rated episodes. |
+
+The sampler uses the listed highlights when uniquely resolved in the original RSS; otherwise it uses the earliest available episodes from that *show's original current feed*. Missing or non-playable items are never fabricated.
+
+## Original sources and review context
+
+- [Force Majeure publisher](https://forcemajeurepod.libsyn.com/); [Apple reviews](https://podcasts.apple.com/us/podcast/force-majeure-a-star-wars-actual-play-podcast/id1337284202).
+- [Dice for Brains publisher](https://diceforbrains.com/d4bp/); [original SWRPG episode 10 discussion](https://ffg-forum-archive.entropicdreams.com/topic/201784-actual-play-dice-for-brains-podcast-episode-10/).
+- [Campaign: The Mynock publisher archive](https://oneshotpodcast.com/actual-play/campaign/the-characters/); [Apple series reviews](https://podcasts.apple.com/us/podcast/campaign-skyjacks/id927205926).
+- [Redemption Apple series reviews](https://podcasts.apple.com/us/podcast/redemption-productions/id1052623023); [publisher](https://www.redemptionpodcast.com/).
+- [Respect the Crit Apple series reviews](https://podcasts.apple.com/us/podcast/respect-the-crit/id1489211492); [Empire's Edge episode listing](https://podcasts.apple.com/us/podcast/empires-edge-ep-79-back-to-black-spire/id1489211492?i=1000643662927).
+
+## Maintenance, traceability and copyright
+
+- [`catalog.json`](catalog.json): publisher URLs/Apple podcast IDs, rationale, explicit Star Wars filters, editorial highlights.
+- [`generate_feed.py`](generate_feed.py): regenerates each filtered feed and combined sampler from original, publicly reachable RSS. For Apple-only sources, the publisher feed URL is resolved from the public iTunes Lookup endpoint at build time instead of inventing an enclosure location.
+- [`status.json`](status.json): written on a successful builder run; documents which shows published, how many selected episodes, and failures.
+- [Automated weekly update workflow](../.github/workflows/update-star-wars-feed.yml): runs independently of existing updates and commits valid RSS files.
+
+If a publisher omits their old recordings from RSS, the builder does **not** invent or scrape MP3 locations. That show's XML is kept unchanged if previously published, and the current status report marks it unavailable. Star Wars material from a mixed-genre podcast is restricted by exact era/title matching and may not cover every historical episode if the publisher RSS is truncated.
+
+**No MP3/audio is uploaded or rehosted here.** Episodes play via the original publishers' enclosure URLs. Reviews are metadata/context, not an endorsement from any podcaster. Cover art, if present in a source feed, remains hosted by the publisher. All five creators are unaffiliated with this independent listening index.
