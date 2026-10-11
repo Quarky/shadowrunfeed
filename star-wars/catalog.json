@@ -54,7 +54,9 @@
         "Episode One"
       ],
       "why": "Large show-level audience rating, but rating covers later Skyjacks episodes too. Only Star Wars-era recordings are selected; no implication of episode-level star ratings.",
-      "evidence": "https://oneshotpodcast.com/actual-play/campaign/the-characters/"
+      "evidence": "https://oneshotpodcast.com/actual-play/campaign/the-characters/",
+      "source_feed": "https://feeds.megaphone.fm/OSPN2193291028",
+      "source_verified": "2026-10-11: Podbean show listing identifies Megaphone publisher RSS, XML content-type confirmed"
     },
     {
       "id": "redemption",
@@ -70,7 +72,9 @@
         "Rough Times"
       ],
       "why": "Radio-drama editing and interpersonal storytelling. Just Another Rock in the Wall has some publicly documented Podchaser episode reviews; still not a definitive highest-rated episode.",
-      "evidence": "https://podcasts.apple.com/us/podcast/redemption-productions/id1052623023"
+      "evidence": "https://podcasts.apple.com/us/podcast/redemption-productions/id1052623023",
+      "source_feed": "https://anchor.fm/s/6dbced10/podcast/rss",
+      "source_verified": "2026-10-11: Anchor enclosure attribution on Podchaser and RSS content-type confirmed"
     },
     {
       "id": "respect-the-crit",
