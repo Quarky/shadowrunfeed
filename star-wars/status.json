@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T14:27:04.082102+00:00",
+  "updated": "2026-10-11T18:47:34.716596+00:00",
   "shows": {
     "force-majeure": {
       "status": "published",
@@ -52,12 +52,29 @@
       ],
       "source": "https://feeds.megaphone.fm/respectthecrit",
       "file": "respect-the-crit.xml"
+    },
+    "nastygram-d6": {
+      "status": "published",
+      "items": 36,
+      "featured": [
+        "Empire's End 1: Flash Traffic (Star Wars)",
+        "Star Wars: Dreamscapes - Ep 1. Field of View (Star Wars d6)",
+        "Empire's End 25: For the Empire (Star Wars)",
+        "Star Wars: Dreamscapes - Ep 8. Synchronous (Star Wars d6)"
+      ],
+      "source": "https://rss.libsyn.com/shows/340037/destinations/2773544.xml",
+      "file": "nastygram-d6.xml"
+    },
+    "falling-star-d6": {
+      "status": "unavailable",
+      "error": "https://feed.podbean.com/swfallingstar/feed.xml: HTTPError: HTTP Error 410: Gone",
+      "note": "Existing RSS file, if any, is retained unchanged."
     }
   },
   "combined": {
     "status": "published",
-    "items": 12,
-    "shows": 5,
+    "items": 16,
+    "shows": 6,
     "file": "feed.xml"
   }
 }
