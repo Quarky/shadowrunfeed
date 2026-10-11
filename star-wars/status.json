@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T14:26:05.820555+00:00",
+  "updated": "2026-10-11T14:27:04.082102+00:00",
   "shows": {
     "force-majeure": {
       "status": "published",
@@ -15,10 +15,9 @@
     },
     "dice-for-brains": {
       "status": "published",
-      "items": 32,
+      "items": 107,
       "featured": [
-        "Dice For Brains Podcast | Episode 12 – S1 Finale: Spaceport City Blitz",
-        "Dice For Brains Podcast | S1 Special Episode – Xen’s Lightsaber"
+        "Dice For Brains Podcast | Episode 10 – Mirages"
       ],
       "source": "https://diceforbrains.com/feed/podcast/",
       "file": "dice-for-brains.xml"
@@ -57,7 +56,7 @@
   },
   "combined": {
     "status": "published",
-    "items": 13,
+    "items": 12,
     "shows": 5,
     "file": "feed.xml"
   }
