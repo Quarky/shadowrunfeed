@@ -1,0 +1,500 @@
+{
+  "generated_at": "2026-10-13T20:33:57.116143+00:00",
+  "rating_type": "Show-level Apple US only, episode ranking is editorial heuristic",
+  "episodes": [
+    {
+      "rank": 1,
+      "role": "LORE",
+      "title": "Monster Mythos: Drow (Dark Elves)- The Dungeoncast Ep.71",
+      "show": "The Dungeoncast",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 1377,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354",
+      "heuristic_score": 67.92,
+      "serial_chapter": null,
+      "themes": [
+        "creatures",
+        "cultures",
+        "magic",
+        "gm"
+      ],
+      "original_pubdate": "Mon, 12 Mar 2018 00:21:00 -0000",
+      "publisher_url": "https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Drow-Dark-Elves--The-Dungeoncast-Ep-71-elg6is",
+      "creative_use": "D&D creature histories, gods, settings and lore."
+    },
+    {
+      "rank": 2,
+      "role": "STORY",
+      "title": "The Wizard, the Witch, and the Wild One: Preludes",
+      "show": "Worlds Beyond Number",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 3408,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/worlds-beyond-number/id1670750937",
+      "heuristic_score": 56.06,
+      "serial_chapter": 1,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Thu, 2 Mar 2023 04:19:27 +0000",
+      "publisher_url": "https://worlds-beyond-number.simplecast.com/episodes/preludes-MuTbG6My",
+      "creative_use": "Character voice, social customs, forest spirits, witches and deep NPC characterization."
+    },
+    {
+      "rank": 3,
+      "role": "LORE",
+      "title": "Monster Mythos: Wyverns and Faerie Dragons - The Dungeoncast Ep.114",
+      "show": "The Dungeoncast",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 1377,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354",
+      "heuristic_score": 65.7,
+      "serial_chapter": null,
+      "themes": [
+        "creatures",
+        "magic",
+        "gm"
+      ],
+      "original_pubdate": "Mon, 07 Jan 2019 01:02:00 -0000",
+      "publisher_url": "https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Wyverns-and-Faerie-Dragons---The-Dungeoncast-Ep-114-elg6hi",
+      "creative_use": "D&D creature histories, gods, settings and lore."
+    },
+    {
+      "rank": 4,
+      "role": "STORY",
+      "title": "The Wizard, the Witch, and the Wild One #1: The Open Door",
+      "show": "Worlds Beyond Number",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 3408,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/worlds-beyond-number/id1670750937",
+      "heuristic_score": 56.06,
+      "serial_chapter": 2,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Thu, 2 Mar 2023 04:53:32 +0000",
+      "publisher_url": "https://worlds-beyond-number.simplecast.com/episodes/www-the-open-door-wq7sc3bz-WPwpb83x",
+      "creative_use": "Character voice, social customs, forest spirits, witches and deep NPC characterization."
+    },
+    {
+      "rank": 5,
+      "role": "LORE",
+      "title": "Mielikki, the Forest Goddess",
+      "show": "Dungeons & Dragons Lorecast",
+      "show_rating_us": 4.7,
+      "show_rating_count_us": 126,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/dungeons-dragons-lorecast/id1504682770",
+      "heuristic_score": 61.32,
+      "serial_chapter": null,
+      "themes": [
+        "cultures",
+        "magic"
+      ],
+      "original_pubdate": "Sat, 06 May 2023 14:04:00 -0000",
+      "publisher_url": "https://linktr.ee/dndlorecast",
+      "creative_use": "D&D gods, factions, world history and planar lore."
+    },
+    {
+      "rank": 6,
+      "role": "STORY",
+      "title": "WWW #2: The Naming of Things",
+      "show": "Worlds Beyond Number",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 3408,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/worlds-beyond-number/id1670750937",
+      "heuristic_score": 51.64,
+      "serial_chapter": 3,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Tue, 14 Mar 2023 09:00:00 +0000",
+      "publisher_url": "https://worlds-beyond-number.simplecast.com/episodes/www-the-naming-of-things-slH7YYnZ",
+      "creative_use": "Character voice, social customs, forest spirits, witches and deep NPC characterization."
+    },
+    {
+      "rank": 7,
+      "role": "LORE",
+      "title": "Monster Mythos: Red Dragons - The Dungeoncast Ep.125",
+      "show": "The Dungeoncast",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 1377,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354",
+      "heuristic_score": 64.86,
+      "serial_chapter": null,
+      "themes": [
+        "creatures",
+        "magic",
+        "gm"
+      ],
+      "original_pubdate": "Mon, 25 Mar 2019 00:20:00 -0000",
+      "publisher_url": "https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Red-Dragons---The-Dungeoncast-Ep-125-elg6gj",
+      "creative_use": "D&D creature histories, gods, settings and lore."
+    },
+    {
+      "rank": 8,
+      "role": "STORY",
+      "title": "WWW #3: The Charter",
+      "show": "Worlds Beyond Number",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 3408,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/worlds-beyond-number/id1670750937",
+      "heuristic_score": 49.04,
+      "serial_chapter": 4,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Tue, 28 Mar 2023 13:28:57 +0000",
+      "publisher_url": "https://worlds-beyond-number.simplecast.com/episodes/www-the-charter-NJCOJzzn",
+      "creative_use": "Character voice, social customs, forest spirits, witches and deep NPC characterization."
+    },
+    {
+      "rank": 9,
+      "role": "LORE",
+      "title": "Mystra, Goddess of Magic",
+      "show": "Dungeons & Dragons Lorecast",
+      "show_rating_us": 4.7,
+      "show_rating_count_us": 126,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/dungeons-dragons-lorecast/id1504682770",
+      "heuristic_score": 64.38,
+      "serial_chapter": null,
+      "themes": [
+        "magic"
+      ],
+      "original_pubdate": "Sat, 10 Feb 2024 06:01:00 -0000",
+      "publisher_url": "https://linktr.ee/dndlorecast",
+      "creative_use": "D&D gods, factions, world history and planar lore."
+    },
+    {
+      "rank": 10,
+      "role": "STORY",
+      "title": "Chapter 1: Let Me Speak First Of Revelations",
+      "show": "The Silt Verses",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 641,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/the-silt-verses/id1547222295",
+      "heuristic_score": 47.37,
+      "serial_chapter": 1,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Mon, 04 Jan 2021 08:54:37 GMT",
+      "publisher_url": "https://www.thesiltverses.com/",
+      "creative_use": "Horror-fantasy audio drama: religion, dangerous deities, ordinary NPCs and ritual consequences."
+    },
+    {
+      "rank": 11,
+      "role": "LORE",
+      "title": "Dragon Talk: Noah Averbach-Katz, LYSK on the Courts of the Feywild",
+      "show": "Dragon Talk \u2014 Lore You Should Know",
+      "show_rating_us": 4.3,
+      "show_rating_count_us": 805,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/dragon-talk-an-official-dungeons-dragons-podcast/id189053885",
+      "heuristic_score": 60.46,
+      "serial_chapter": null,
+      "themes": [
+        "creatures",
+        "magic"
+      ],
+      "original_pubdate": "Thu, 23 Sep 2021 11:04:10 -0700",
+      "publisher_url": "https://share.transistor.fm/s/95e443b2",
+      "creative_use": "Official D&D lore segments; exclude unrelated interviews."
+    },
+    {
+      "rank": 12,
+      "role": "STORY",
+      "title": "Chapter 2: And Next Of Dark Deceit",
+      "show": "The Silt Verses",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 641,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/the-silt-verses/id1547222295",
+      "heuristic_score": 48.67,
+      "serial_chapter": 2,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Mon, 18 Jan 2021 09:00:03 GMT",
+      "publisher_url": "https://www.thesiltverses.com/",
+      "creative_use": "Horror-fantasy audio drama: religion, dangerous deities, ordinary NPCs and ritual consequences."
+    },
+    {
+      "rank": 13,
+      "role": "LORE",
+      "title": "Episode 128: Skulk and Dragonmeet monsters!",
+      "show": "Monster Man",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 80,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/monster-man/id1286915333",
+      "heuristic_score": 59.22,
+      "serial_chapter": null,
+      "themes": [
+        "creatures"
+      ],
+      "original_pubdate": "Mon, 03 Dec 2018 14:29:01 +0000",
+      "publisher_url": "https://monsterman.libsyn.com/episode-128-skulk-and-dragonmeet-monsters",
+      "creative_use": "Monsters, mythology, ecology and folklore."
+    },
+    {
+      "rank": 14,
+      "role": "STORY",
+      "title": "Chapter 3: Then I'll Speak Of Champions",
+      "show": "The Silt Verses",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 641,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/the-silt-verses/id1547222295",
+      "heuristic_score": 47.37,
+      "serial_chapter": 3,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Mon, 01 Feb 2021 07:16:35 GMT",
+      "publisher_url": "https://shows.acast.com/the-silt-verses/episodes/then-ill-speak-of-champions",
+      "creative_use": "Horror-fantasy audio drama: religion, dangerous deities, ordinary NPCs and ritual consequences."
+    },
+    {
+      "rank": 15,
+      "role": "LORE",
+      "title": "The Lore of the Drow | D&D Legends and Lore Episode 51",
+      "show": "D&D Legends and Lore",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 114,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/d-d-legends-and-lore/id1769219620",
+      "heuristic_score": 55.75,
+      "serial_chapter": null,
+      "themes": [
+        "cultures",
+        "creatures"
+      ],
+      "original_pubdate": "Tue, 08 Sep 2026 10:00:00 -0000",
+      "publisher_url": "https://podcasts.apple.com/us/podcast/d-d-legends-and-lore/id1769219620",
+      "creative_use": "Narrative-driven explorations of D&D monsters, peoples, gods and history; exclude trailer and cross-promotion."
+    },
+    {
+      "rank": 16,
+      "role": "STORY",
+      "title": "Chapter 4: Of Lovers, Gods and Beasts",
+      "show": "The Silt Verses",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 641,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/the-silt-verses/id1547222295",
+      "heuristic_score": 59.33,
+      "serial_chapter": 4,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Mon, 15 Feb 2021 09:13:00 GMT",
+      "publisher_url": "https://www.thesiltverses.com/",
+      "creative_use": "Horror-fantasy audio drama: religion, dangerous deities, ordinary NPCs and ritual consequences."
+    },
+    {
+      "rank": 17,
+      "role": "LORE",
+      "title": "Dragon Talk: Aaron Dalla Villa, LYSK on Feywild Etiquette",
+      "show": "Dragon Talk \u2014 Lore You Should Know",
+      "show_rating_us": 4.3,
+      "show_rating_count_us": 805,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/dragon-talk-an-official-dungeons-dragons-podcast/id189053885",
+      "heuristic_score": 60.0,
+      "serial_chapter": null,
+      "themes": [
+        "creatures",
+        "magic"
+      ],
+      "original_pubdate": "Wed, 25 Aug 2021 14:40:00 -0700",
+      "publisher_url": "https://share.transistor.fm/s/9de4349c",
+      "creative_use": "Official D&D lore segments; exclude unrelated interviews."
+    },
+    {
+      "rank": 18,
+      "role": "STORY",
+      "title": "Chapter 5: My Song Is Long And Twisted",
+      "show": "The Silt Verses",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 641,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/the-silt-verses/id1547222295",
+      "heuristic_score": 48.67,
+      "serial_chapter": 5,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Mon, 01 Mar 2021 07:00:01 GMT",
+      "publisher_url": "https://www.thesiltverses.com/listen-now",
+      "creative_use": "Horror-fantasy audio drama: religion, dangerous deities, ordinary NPCs and ritual consequences."
+    },
+    {
+      "rank": 19,
+      "role": "LORE",
+      "title": "Monster Mythos: Chromatic Dragons II - The Dungeoncast Ep.117",
+      "show": "The Dungeoncast",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 1377,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354",
+      "heuristic_score": 64.86,
+      "serial_chapter": null,
+      "themes": [
+        "creatures",
+        "magic",
+        "gm"
+      ],
+      "original_pubdate": "Mon, 28 Jan 2019 00:28:00 -0000",
+      "publisher_url": "https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Chromatic-Dragons-II---The-Dungeoncast-Ep-117-elg6dq",
+      "creative_use": "D&D creature histories, gods, settings and lore."
+    },
+    {
+      "rank": 20,
+      "role": "STORY",
+      "title": "Chapter 6: It Winds, It Worms, It Wends",
+      "show": "The Silt Verses",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 641,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/the-silt-verses/id1547222295",
+      "heuristic_score": 47.37,
+      "serial_chapter": 6,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Mon, 15 Mar 2021 08:16:43 GMT",
+      "publisher_url": "https://www.thesiltverses.com/listen-now",
+      "creative_use": "Horror-fantasy audio drama: religion, dangerous deities, ordinary NPCs and ritual consequences."
+    },
+    {
+      "rank": 21,
+      "role": "LORE",
+      "title": "Episode 352: Death Leech and Dragon, Undead",
+      "show": "Monster Man",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 80,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/monster-man/id1286915333",
+      "heuristic_score": 58.76,
+      "serial_chapter": null,
+      "themes": [
+        "creatures"
+      ],
+      "original_pubdate": "Mon, 22 Mar 2021 22:28:23 +0000",
+      "publisher_url": "https://monsterman.libsyn.com/episode-352-death-leech-and-dragon-undead",
+      "creative_use": "Monsters, mythology, ecology and folklore."
+    },
+    {
+      "rank": 22,
+      "role": "STORY",
+      "title": "Season 4 | Prologue | Embark",
+      "show": "Dark Dice",
+      "show_rating_us": 4.7,
+      "show_rating_count_us": 742,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/dark-dice/id1437360249",
+      "heuristic_score": 46.66,
+      "serial_chapter": 1,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Tue, 20 Jun 2023 18:16:00 -0000",
+      "publisher_url": "https://darkdice.com",
+      "creative_use": "Performed NPC dialogue, immersive audio, fantasy travel encounters and unsettling creatures."
+    },
+    {
+      "rank": 23,
+      "role": "LORE",
+      "title": "Bahamut, the Platinum Dragon God",
+      "show": "Dungeons & Dragons Lorecast",
+      "show_rating_us": 4.7,
+      "show_rating_count_us": 126,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/dungeons-dragons-lorecast/id1504682770",
+      "heuristic_score": 61.32,
+      "serial_chapter": null,
+      "themes": [
+        "creatures",
+        "magic"
+      ],
+      "original_pubdate": "Sat, 17 Dec 2022 23:50:00 -0000",
+      "publisher_url": "https://linktr.ee/dndlorecast",
+      "creative_use": "D&D gods, factions, world history and planar lore."
+    },
+    {
+      "rank": 24,
+      "role": "STORY",
+      "title": "Season 4 | Ep. 1 | In the Willow\u2019s Wake",
+      "show": "Dark Dice",
+      "show_rating_us": 4.7,
+      "show_rating_count_us": 742,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/dark-dice/id1437360249",
+      "heuristic_score": 49.26,
+      "serial_chapter": 2,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Tue, 04 Jul 2023 01:10:00 -0000",
+      "publisher_url": "https://darkdice.com/",
+      "creative_use": "Performed NPC dialogue, immersive audio, fantasy travel encounters and unsettling creatures."
+    },
+    {
+      "rank": 25,
+      "role": "LORE",
+      "title": "Monster Mythos: Green Dragons - The Dungeoncast Ep.149",
+      "show": "The Dungeoncast",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 1377,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354",
+      "heuristic_score": 63.94,
+      "serial_chapter": null,
+      "themes": [
+        "creatures",
+        "magic",
+        "gm"
+      ],
+      "original_pubdate": "Mon, 09 Sep 2019 01:39:00 -0000",
+      "publisher_url": "https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Green-Dragons---The-Dungeoncast---Ep-149-elg6fp",
+      "creative_use": "D&D creature histories, gods, settings and lore."
+    },
+    {
+      "rank": 26,
+      "role": "STORY",
+      "title": "Season 4 | Ep. 2 | The Calm",
+      "show": "Dark Dice",
+      "show_rating_us": 4.7,
+      "show_rating_count_us": 742,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/dark-dice/id1437360249",
+      "heuristic_score": 46.66,
+      "serial_chapter": 3,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Tue, 18 Jul 2023 19:51:00 -0000",
+      "publisher_url": "https://darkdice.com",
+      "creative_use": "Performed NPC dialogue, immersive audio, fantasy travel encounters and unsettling creatures."
+    },
+    {
+      "rank": 27,
+      "role": "LORE",
+      "title": "Monster Mythos: Emerald Dragons - The Dungeoncast Ep.276",
+      "show": "The Dungeoncast",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 1377,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354",
+      "heuristic_score": 63.1,
+      "serial_chapter": null,
+      "themes": [
+        "creatures",
+        "magic",
+        "gm"
+      ],
+      "original_pubdate": "Mon, 21 Feb 2022 08:00:00 -0000",
+      "publisher_url": "https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354",
+      "creative_use": "D&D creature histories, gods, settings and lore."
+    },
+    {
+      "rank": 28,
+      "role": "STORY",
+      "title": "Season 4 | Ep. 3 | Lure",
+      "show": "Dark Dice",
+      "show_rating_us": 4.7,
+      "show_rating_count_us": 742,
+      "rating_reference": "https://podcasts.apple.com/us/podcast/dark-dice/id1437360249",
+      "heuristic_score": 47.96,
+      "serial_chapter": 4,
+      "themes": [
+        "gm"
+      ],
+      "original_pubdate": "Tue, 01 Aug 2023 22:46:00 -0000",
+      "publisher_url": "https://darkdice.com",
+      "creative_use": "Performed NPC dialogue, immersive audio, fantasy travel encounters and unsettling creatures."
+    }
+  ]
+}

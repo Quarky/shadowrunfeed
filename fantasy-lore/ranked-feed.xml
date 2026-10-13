@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Fantasy Lore — Alternating Lore &amp; Story</title>
+    <link>https://github.com/Quarky/shadowrunfeed/tree/main/fantasy-lore</link>
+    <description>Independent fantasy lore and story listening library from original publishers. Ranked editions alternate lore with storytelling; show ratings are never represented as episode ratings.</description>
+    <language>en</language>
+    <copyright>Original episodes and audio remain copyright their respective publishers.</copyright>
+    <itunes:author>Fantasy Lore GM listening index (independent curation)</itunes:author>
+    <itunes:summary>Curated links to original fantasy-lore podcast audio; not endorsed by creators.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fantasy-lore/cover.png" />
+    <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fantasy-lore/ranked-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 • LORE • [The Dungeoncast] Monster Mythos: Drow (Dark Elves)- The Dungeoncast Ep.71</title>
+      <guid isPermaLink="false">fantasy-lore-9c0110ece948733be977c3be5ed2bfd185ce1da43dee6975bea24e443ea71c8d</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Drow-Dark-Elves--The-Dungeoncast-Ep-71-elg6is</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Kind: lore. Editorial algorithm score (not listener episode rating): 67.9/100. Show-level Apple US rating: 4.9/5. Original publisher date: Mon, 12 Mar 2018 00:21:00 -0000. Themes: creatures, cultures, magic, gm. Publisher description: The ill will of Lolth permeates every facet of this culture down to the absence of love and the worshipping of spiders. Will and Brian are working over the details of Drow sociology this week on The Dungeoncast! This one is a wild ride from start to finish. Talking Points: Heavy Lore, Responsible For Everything, Centaurology, Not Talkin' 'Bout Drizzt, The Murky Matriarchy, Beating The Love Out Of You, All The Treachery And Murder, I Skinned Your Boyfriend, A Plethora Of Spiders, Living In The Sh</description>
+      <pubDate>Tue, 13 Oct 2026 11:59:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU6826734017.mp3?updated=1716410091" length="51062839" type="audio/mpeg" />
+      <itunes:duration>2432</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>02 • STORY • [Worlds Beyond Number] The Wizard, the Witch, and the Wild One: Preludes</title>
+      <guid isPermaLink="false">fantasy-lore-901a0e2759e5297f844e33a824f5b07ccd404d6c44088787617f294bbc6205ca</guid>
+      <link>https://worlds-beyond-number.simplecast.com/episodes/preludes-MuTbG6My</link>
+      <description>From Worlds Beyond Number — Worlds Beyond Number. Kind: story. Editorial algorithm score (not listener episode rating): 56.1/100. Show-level Apple US rating: 4.9/5. Original publisher date: Thu, 2 Mar 2023 04:19:27 +0000. Themes: gm. Publisher description: &lt;p&gt;Snow falling, over endless white sand...So begins the prelude to our first story, The Wizard, the Witch, and the Wild One. In this prologue, we meet our characters as children, and see them thrust from the known into peril, confusion, and new worlds they will struggle to understand. This is the first chapter in the story of how our trio met, and the events that would bring them back together so many years later. To follow along with the main story, simply keep listening to this very podcast. </description>
+      <pubDate>Tue, 13 Oct 2026 11:58:00 +0000</pubDate>
+      <enclosure url="https://afp-970414-injected.calisto.simplecastaudio.com/796e3e14-8749-4922-8d84-ba47ea7afc1c/episodes/444d49c7-8bd9-40cf-91b8-7537c443c040/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=796e3e14-8749-4922-8d84-ba47ea7afc1c&amp;awEpisodeId=444d49c7-8bd9-40cf-91b8-7537c443c040&amp;feed=IAPnSSRO" length="115457924" type="audio/mpeg" />
+      <itunes:duration>02:00:16</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.simplecast.com/IAPnSSRO">Worlds Beyond Number</source>
+    </item>
+    <item>
+      <title>03 • LORE • [The Dungeoncast] Monster Mythos: Wyverns and Faerie Dragons - The Dungeoncast Ep.114</title>
+      <guid isPermaLink="false">fantasy-lore-41b2437229ac0afdd6bb862995214b8c044d4e0df7e80495738251bd3faacebe</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Wyverns-and-Faerie-Dragons---The-Dungeoncast-Ep-114-elg6hi</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Kind: lore. Editorial algorithm score (not listener episode rating): 65.7/100. Show-level Apple US rating: 4.9/5. Original publisher date: Mon, 07 Jan 2019 01:02:00 -0000. Themes: creatures, magic, gm. Publisher description: Will and Brian are tackling two different kinds of creatures relative of dragon kind this week on The Dungeoncast! Where the traditional Wyvern is very much a wild beast of sorts compared to some of their dragon counterparts, Farie Dragons show much more agency and camaraderie as they mischievously heckle travelers of the Fey wilds.
+
+This week's episode has been brought to you by The Dungeon Booth! Check them out at the links below:
+Website - thedungeonbooth.com/ - iTunes - YouTube - Stitcher
+
+O</description>
+      <pubDate>Tue, 13 Oct 2026 11:57:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU5889847053.mp3?updated=1716408415" length="50838427" type="audio/mpeg" />
+      <itunes:duration>2448</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>04 • STORY • [Worlds Beyond Number] The Wizard, the Witch, and the Wild One #1: The Open Door</title>
+      <guid isPermaLink="false">fantasy-lore-3a043a72364124a77f2ff10f7f0e10a096fdda56e1b64fb5f8a3cebc7ff73a80</guid>
+      <link>https://worlds-beyond-number.simplecast.com/episodes/www-the-open-door-wq7sc3bz-WPwpb83x</link>
+      <description>From Worlds Beyond Number — Worlds Beyond Number. Kind: story. Editorial algorithm score (not listener episode rating): 56.1/100. Show-level Apple US rating: 4.9/5. Original publisher date: Thu, 2 Mar 2023 04:53:32 +0000. Themes: gm. Publisher description: &lt;p&gt;After a lifetime apart, three childhood friends are drawn back together by circumstance, by command, and by a danger that no one can yet begin to comprehend.&lt;/p&gt;&lt;p&gt;Welcome, to the world of Umora. Welcome, to The Wizard, the Witch, and the Wild One.&lt;/p&gt;&lt;p&gt;Worlds Beyond Number is&lt;/p&gt;&lt;p&gt;&lt;a href="https://twitter.com/brennanlm"&gt;Brennan Lee Mulligan&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://twitter.com/erikaishii"&gt;Erika Ishii&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://twitter.com/quiddie"&gt;Aabria Iyengar&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https:</description>
+      <pubDate>Tue, 13 Oct 2026 11:56:00 +0000</pubDate>
+      <enclosure url="https://afp-970414-injected.calisto.simplecastaudio.com/796e3e14-8749-4922-8d84-ba47ea7afc1c/episodes/e3be9217-4d41-44d3-9277-3c0768f7498d/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=796e3e14-8749-4922-8d84-ba47ea7afc1c&amp;awEpisodeId=e3be9217-4d41-44d3-9277-3c0768f7498d&amp;feed=IAPnSSRO" length="137463535" type="audio/mpeg" />
+      <itunes:duration>02:23:11</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.simplecast.com/IAPnSSRO">Worlds Beyond Number</source>
+    </item>
+    <item>
+      <title>05 • LORE • [Dungeons &amp; Dragons Lorecast] Mielikki, the Forest Goddess</title>
+      <guid isPermaLink="false">fantasy-lore-b70e33e902e9a17f80a9d8c7d27d29b7a99c4546bb523881e6fd6353c1d0ed5a</guid>
+      <link>https://linktr.ee/dndlorecast</link>
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 61.3/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 06 May 2023 14:04:00 -0000. Themes: cultures, magic. Publisher description: This week, we enter the forests of Faerun and pay tribute to its most staunch defender, the Druid and Ranger patron known as Mielikki.
+Babe, wake up... Builds-a-Bear/D&amp;D collab just dropped
+DMs Guild Corner Picks Weeks of the Week: Chosen of the Gods
+Official DnD Lorecast Discord
+﻿Support the show through Patreon and get early ad-free episodes, bonus content and much more!
+Equip your own adventures:
+
+D&amp;D 5th Edition Starter Set: https://amzn.to/2WgZX6O 
+
+
+D&amp;D 5th Edition Players Handbook: https:</description>
+      <pubDate>Tue, 13 Oct 2026 11:55:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR2721453200.mp3?updated=1684553558" length="40957593" type="audio/mpeg" />
+      <itunes:duration>4026</itunes:duration>
+      <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
+    </item>
+    <item>
+      <title>06 • STORY • [Worlds Beyond Number] WWW #2: The Naming of Things</title>
+      <guid isPermaLink="false">fantasy-lore-ea7ce9a58759c4c56cc0c247d9125195bec3578466bdfe186c51476b881e4392</guid>
+      <link>https://worlds-beyond-number.simplecast.com/episodes/www-the-naming-of-things-slH7YYnZ</link>
+      <description>From Worlds Beyond Number — Worlds Beyond Number. Kind: story. Editorial algorithm score (not listener episode rating): 51.6/100. Show-level Apple US rating: 4.9/5. Original publisher date: Tue, 14 Mar 2023 09:00:00 +0000. Themes: gm. Publisher description: &lt;p&gt;The world of Spirit shows its teeth. Not all the chickens make it. Pack your bags and travel light. There's ogres on the road.&lt;/p&gt;&lt;p&gt;Worlds Beyond Number is:&lt;/p&gt;&lt;p&gt;&lt;a href="https://twitter.com/brennanlm"&gt;Brennan Lee Mulligan&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://twitter.com/erikaishii"&gt;Erika Ishii&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://twitter.com/quiddie"&gt;Aabria Iyengar&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.instagram.com/sweetlouzinho/"&gt;Lou Wilson&lt;/a&gt;&lt;/p&gt;&lt;p&gt; and is produced, designed, and scored by&lt;a href="https://twitte</description>
+      <pubDate>Tue, 13 Oct 2026 11:54:00 +0000</pubDate>
+      <enclosure url="https://afp-970414-injected.calisto.simplecastaudio.com/796e3e14-8749-4922-8d84-ba47ea7afc1c/episodes/110859a9-f0e1-49a4-a59d-43d45dc9d46c/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=796e3e14-8749-4922-8d84-ba47ea7afc1c&amp;awEpisodeId=110859a9-f0e1-49a4-a59d-43d45dc9d46c&amp;feed=IAPnSSRO" length="104192452" type="audio/mpeg" />
+      <itunes:duration>01:48:31</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.simplecast.com/IAPnSSRO">Worlds Beyond Number</source>
+    </item>
+    <item>
+      <title>07 • LORE • [The Dungeoncast] Monster Mythos: Red Dragons - The Dungeoncast Ep.125</title>
+      <guid isPermaLink="false">fantasy-lore-3554f75c7de4f5a4c756227f38899507698c641328cd502da67ecd33dfb91f8b</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Red-Dragons---The-Dungeoncast-Ep-125-elg6gj</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Kind: lore. Editorial algorithm score (not listener episode rating): 64.9/100. Show-level Apple US rating: 4.9/5. Original publisher date: Mon, 25 Mar 2019 00:20:00 -0000. Themes: creatures, magic, gm. Publisher description: Will and Brian are taking on individual chromatic dragons at last! We aren't nearly high enough level to fight them, so we are just talking about them instead. Learn the true ferocity and terror of the mighty Red Dragon this week on The Dungeoncast!
+
+This episode is brought to you by Classless Characters; https://classlesscharacters.buzzsprout.com/
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say</description>
+      <pubDate>Tue, 13 Oct 2026 11:53:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU7232004577.mp3?updated=1716407989" length="74362985" type="audio/mpeg" />
+      <itunes:duration>3624</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>08 • STORY • [Worlds Beyond Number] WWW #3: The Charter</title>
+      <guid isPermaLink="false">fantasy-lore-5351d27757b5ffdc4141b3b2cb1734d3290cdf50da18f68518be23dda7e784e9</guid>
+      <link>https://worlds-beyond-number.simplecast.com/episodes/www-the-charter-NJCOJzzn</link>
+      <description>From Worlds Beyond Number — Worlds Beyond Number. Kind: story. Editorial algorithm score (not listener episode rating): 49.0/100. Show-level Apple US rating: 4.9/5. Original publisher date: Tue, 28 Mar 2023 13:28:57 +0000. Themes: gm. Publisher description: &lt;p&gt;Masks off. The world blooms anew with purpose, as our trio take the first few proper steps of their quest. The band is back together, the open road of blue water calls, but what else lies in wait between here and there? Only everything.&lt;/p&gt;&lt;p&gt;Worlds Beyond Number is:&lt;/p&gt;&lt;p&gt;&lt;a href="https://twitter.com/brennanlm"&gt;Brennan Lee Mulligan&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://twitter.com/erikaishii"&gt;Erika Ishii&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://twitter.com/quiddie"&gt;Aabria Iyengar&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.insta</description>
+      <pubDate>Tue, 13 Oct 2026 11:52:00 +0000</pubDate>
+      <enclosure url="https://afp-970414-injected.calisto.simplecastaudio.com/796e3e14-8749-4922-8d84-ba47ea7afc1c/episodes/a789311b-d919-4dbc-9c23-05ae500921bb/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=796e3e14-8749-4922-8d84-ba47ea7afc1c&amp;awEpisodeId=a789311b-d919-4dbc-9c23-05ae500921bb&amp;feed=IAPnSSRO" length="82024732" type="audio/mpeg" />
+      <itunes:duration>01:25:26</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.simplecast.com/IAPnSSRO">Worlds Beyond Number</source>
+    </item>
+    <item>
+      <title>09 • LORE • [Dungeons &amp; Dragons Lorecast] Mystra, Goddess of Magic</title>
+      <guid isPermaLink="false">fantasy-lore-a194cf89cc123329f17d89a076c0dea8759791f871bad1b0dbd41f4b0d22abd4</guid>
+      <link>https://linktr.ee/dndlorecast</link>
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 64.4/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 10 Feb 2024 06:01:00 -0000. Themes: magic. Publisher description: Mystra is the goddess of magic and thus arguably the most powerful of all the gods. We dive into her history and lore as well as discuss her clergy.
+DnD Lorecast Discord | DnD Lorecast swag
+Puncheons and Flagons: The Officla D&amp;D Cocktail Book 
+Cover for the upcoming Spelljammer novel 
+Homebrew Corner: Kill Bhaal, vol. 1 
+PREORDER THE FALLBACKS: BOUND FOR RUIN 
+Equip your own adventures:
+
+D&amp;D 5th Edition Starter Set: https://amzn.to/2WgZX6O 
+
+
+D&amp;D 5th Edition Players Handbook: https://amzn.to/3iR</description>
+      <pubDate>Tue, 13 Oct 2026 11:51:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR6882999107.mp3?updated=1707544118" length="37321093" type="audio/mpeg" />
+      <itunes:duration>3696</itunes:duration>
+      <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
+    </item>
+    <item>
+      <title>10 • STORY • [The Silt Verses] Chapter 1: Let Me Speak First Of Revelations</title>
+      <guid isPermaLink="false">fantasy-lore-1ba38406b96361dd7e4039cbd4f2863315ba495e21b076fa172e51266e8cccb0</guid>
+      <link>https://www.thesiltverses.com/</link>
+      <description>From The Silt Verses — Eskew Productions. Kind: story. Editorial algorithm score (not listener episode rating): 47.4/100. Show-level Apple US rating: 4.8/5. Original publisher date: Mon, 04 Jan 2021 08:54:37 GMT. Themes: gm. Publisher description: &lt;p&gt;At the town of Marcel's Crossing, Carpenter and Faulkner begin their search for other members of their forgotten river-god faith.&lt;/p&gt;&lt;br&gt;&lt;p&gt;(Sound levels adjusted 3rd July 2022.)&lt;/p&gt;&lt;hr&gt;&lt;p style='color:grey; font-size:0.75em;'&gt; Hosted on Acast. See &lt;a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'&gt;acast.com/privacy&lt;/a&gt; for more information.&lt;/p&gt;</description>
+      <pubDate>Tue, 13 Oct 2026 11:50:00 +0000</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/5fec690f8211cf453a1b89e2/e/5fec6de02c11c711a01d7562/media.mp3" length="132511006" type="audio/mpeg" />
+      <itunes:duration>55:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://access.acast.com/rss/5fec690f8211cf453a1b89e2/">The Silt Verses</source>
+    </item>
+    <item>
+      <title>11 • LORE • [Dragon Talk — Lore You Should Know] Dragon Talk: Noah Averbach-Katz, LYSK on the Courts of the Feywild</title>
+      <guid isPermaLink="false">fantasy-lore-4f4a637d17700289e365fe238cc807090fc81b1747f2f40af6b67285d3960502</guid>
+      <link>https://share.transistor.fm/s/95e443b2</link>
+      <description>From Dragon Talk — Lore You Should Know — Wizards of the Coast. Kind: lore. Editorial algorithm score (not listener episode rating): 60.5/100. Show-level Apple US rating: 4.3/5. Original publisher date: Thu, 23 Sep 2021 11:04:10 -0700. Themes: creatures, magic. Publisher description: &lt;p&gt;In our opening D&amp;amp;D news segment, Greg and Shelly talk the release of The Wild Beyond the Witchlight as well as get into all the details concerning D&amp;amp;D Celebration heading your way THIS WEEKEND, September 23rd! Later, Greg is joined by D&amp;amp;D Narrative Designer Ari Levitch, for another edition of Lore You Should Know! In this week’s discussion, Ari explains the Courts of the Feywild! Our special interview this week is with actor on Star Trek: Discovery and Dungeon Master of Disco Does</description>
+      <pubDate>Tue, 13 Oct 2026 11:49:00 +0000</pubDate>
+      <enclosure url="https://media.transistor.fm/95e443b2/387f7c8f.mp3" length="102419020" type="audio/mpeg" />
+      <itunes:duration>6398</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+      <source url="https://feeds.transistor.fm/dragon-talk-an-official-dungeons-dragons-podcast">Dragon Talk — Lore You Should Know</source>
+    </item>
+    <item>
+      <title>12 • STORY • [The Silt Verses] Chapter 2: And Next Of Dark Deceit</title>
+      <guid isPermaLink="false">fantasy-lore-7f6ab0d97cba480d85e3ef9c1c4ca5e95399e88a64a445fab98eab4f789d3701</guid>
+      <link>https://www.thesiltverses.com/</link>
+      <description>From The Silt Verses — Eskew Productions. Kind: story. Editorial algorithm score (not listener episode rating): 48.7/100. Show-level Apple US rating: 4.8/5. Original publisher date: Mon, 18 Jan 2021 09:00:03 GMT. Themes: gm. Publisher description: &lt;p&gt;Carpenter and Faulkner begin their hunt for a hidden church, hoping to find the worshippers responsible for the Miracle of the Intrepid.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Content warning: contains scenes of drowning and child death.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Sound levels adjusted 3rd July 2022.&lt;/p&gt;&lt;hr&gt;&lt;p style='color:grey; font-size:0.75em;'&gt; Hosted on Acast. See &lt;a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'&gt;acast.com/privacy&lt;/a&gt; for more information.&lt;/p&gt;</description>
+      <pubDate>Tue, 13 Oct 2026 11:48:00 +0000</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/5fec690f8211cf453a1b89e2/e/600429e77be22d077a2f40d0/media.mp3" length="115476480" type="audio/mpeg" />
+      <itunes:duration>48:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://access.acast.com/rss/5fec690f8211cf453a1b89e2/">The Silt Verses</source>
+    </item>
+    <item>
+      <title>13 • LORE • [Monster Man] Episode 128: Skulk and Dragonmeet monsters!</title>
+      <guid isPermaLink="false">fantasy-lore-862c4129c4dc6ec288ab1f1d75e9d4923c0a276f9581c231c68cfb61439000ce</guid>
+      <link>https://monsterman.libsyn.com/episode-128-skulk-and-dragonmeet-monsters</link>
+      <description>From Monster Man — James Holloway. Kind: lore. Editorial algorithm score (not listener episode rating): 59.2/100. Show-level Apple US rating: 4.8/5. Original publisher date: Mon, 03 Dec 2018 14:29:01 +0000. Themes: creatures. Publisher description: &lt;p&gt; &lt;/p&gt; &lt;p&gt;&lt;img src= "http://assets.libsyn.com/show/106143/20181202_145505.jpg" alt="" width="408" height="450" /&gt;&lt;img src= "http://assets.libsyn.com/show/106143/20181202_145505.jpg" alt="" width="408" height="450" /&gt;&lt;/p&gt; &lt;p&gt;Today we'll be talking about the sneaky ol' Skulk! PLUS: a look at some monsters from the stuff I bought or was given at Dragonmeet!&lt;/p&gt; &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="29ehm" data-offset-key="caen9-0-0"&gt; &lt;d</description>
+      <pubDate>Tue, 13 Oct 2026 11:47:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/monsterman/monsterman128.mp3?dest-id=572259" length="21144569" type="audio/mpeg" />
+      <itunes:duration>17:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://monsterman.libsyn.com/rss">Monster Man</source>
+    </item>
+    <item>
+      <title>14 • STORY • [The Silt Verses] Chapter 3: Then I'll Speak Of Champions</title>
+      <guid isPermaLink="false">fantasy-lore-b05a393c79921d1a946cdcfd85e34b2719f6e1eb226c4af21e0cdbfa5c3afd46</guid>
+      <link>https://shows.acast.com/the-silt-verses/episodes/then-ill-speak-of-champions</link>
+      <description>From The Silt Verses — Eskew Productions. Kind: story. Editorial algorithm score (not listener episode rating): 47.4/100. Show-level Apple US rating: 4.8/5. Original publisher date: Mon, 01 Feb 2021 07:16:35 GMT. Themes: gm. Publisher description: &lt;p&gt;Elsewhere on the Peninsula, Investigating Officer Hayward checks out a tip regarding a nearly-derelict farm.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Content warning: This episode contains scenes of animal death and pain, as well as references to police corruption and violence, starvation and auto-cannibalism.&amp;nbsp;&lt;/p&gt;&lt;br&gt;&lt;p&gt;Audio levels adjusted 3rd July 2022.&lt;/p&gt;&lt;hr&gt;&lt;p style='color:grey; font-size:0.75em;'&gt; Hosted on Acast. See &lt;a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/priv</description>
+      <pubDate>Tue, 13 Oct 2026 11:46:00 +0000</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/5fec690f8211cf453a1b89e2/e/60169f164c199305cbeab89b/media.mp3" length="101224488" type="audio/mpeg" />
+      <itunes:duration>42:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://access.acast.com/rss/5fec690f8211cf453a1b89e2/">The Silt Verses</source>
+    </item>
+    <item>
+      <title>15 • LORE • [D&amp;D Legends and Lore] The Lore of the Drow | D&amp;D Legends and Lore Episode 51</title>
+      <guid isPermaLink="false">fantasy-lore-c4326ada3dfb63588ac7886785b91f6cc4b5d78ec59dbd138d26c5fae6c23f41</guid>
+      <link>https://podcasts.apple.com/us/podcast/d-d-legends-and-lore/id1769219620</link>
+      <description>From D&amp;D Legends and Lore — William Stark and Omar Timsah / Realm. Kind: lore. Editorial algorithm score (not listener episode rating): 55.8/100. Show-level Apple US rating: 4.8/5. Original publisher date: Tue, 08 Sep 2026 10:00:00 -0000. Themes: cultures, creatures. Publisher description: Tavern tales across sunlit lands whisper of the Underdark, a lightless, subterranean realm that is home to fabled races and ancient, unspeakable evil. It is a domain of primeval mysteries and unending war, a hidden world of cruel masters and hopeless slaves, filled with monstrous creatures that were old before humans were born. Aboleths. Beholders. Mind Flayers. Eldritch entities of unspeakable visage. And yet, despite the potentially greater danger posed by these and other horrors of the deep, </description>
+      <pubDate>Tue, 13 Oct 2026 11:45:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP2322956422.mp3" length="135258033" type="audio/mpeg" />
+      <itunes:duration>3322</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/dndlegendsandlore">D&amp;D Legends and Lore</source>
+    </item>
+    <item>
+      <title>16 • STORY • [The Silt Verses] Chapter 4: Of Lovers, Gods and Beasts</title>
+      <guid isPermaLink="false">fantasy-lore-3ba96e601a82f2be417ce154e9481fc28d6e97c9da3247e1f2ab847717f300a5</guid>
+      <link>https://www.thesiltverses.com/</link>
+      <description>From The Silt Verses — Eskew Productions. Kind: story. Editorial algorithm score (not listener episode rating): 59.3/100. Show-level Apple US rating: 4.8/5. Original publisher date: Mon, 15 Feb 2021 09:13:00 GMT. Themes: gm. Publisher description: &lt;p&gt;Carpenter attempts to locate the Trawler-Man's church in the woods of Penda's Slake - but runs into trouble instead.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Content warnings: This episode contains scenes of animal death, ritual sacrifice and intense body horror.&lt;/p&gt;&lt;hr&gt;&lt;p style='color:grey; font-size:0.75em;'&gt; Hosted on Acast. See &lt;a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'&gt;acast.com/privacy&lt;/a&gt; for more information.&lt;/p&gt;</description>
+      <pubDate>Tue, 13 Oct 2026 11:44:00 +0000</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/5fec690f8211cf453a1b89e2/e/602a3b1c10822357e93eefbb/media.mp3" length="137940177" type="audio/mpeg" />
+      <itunes:duration>57:28</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://access.acast.com/rss/5fec690f8211cf453a1b89e2/">The Silt Verses</source>
+    </item>
+    <item>
+      <title>17 • LORE • [Dragon Talk — Lore You Should Know] Dragon Talk: Aaron Dalla Villa, LYSK on Feywild Etiquette</title>
+      <guid isPermaLink="false">fantasy-lore-0716490be57134f06987891e6ff871beb07ae3ba2523820fbe239cb96f5a853a</guid>
+      <link>https://share.transistor.fm/s/9de4349c</link>
+      <description>From Dragon Talk — Lore You Should Know — Wizards of the Coast. Kind: lore. Editorial algorithm score (not listener episode rating): 60.0/100. Show-level Apple US rating: 4.3/5. Original publisher date: Wed, 25 Aug 2021 14:40:00 -0700. Themes: creatures, magic. Publisher description: &lt;p&gt;In this episode we kick things off with D&amp;amp;D News. Greg and Shelly talk NERDS, Wild Beyond The Witchlight, Strixhaven and much more! Later, we are thrilled to welcome back narrative D&amp;amp;D designer Ari Levitch for a brand new edition of Lore You Should Know! In today's episode, Ari and Greg discuss etiquette in the Feywild. Our special interview this week is with actor and musician Aaron Dalla Villa! For general inquiries or show messages, please email dragontalk@sirensound.co. Dragon Tal</description>
+      <pubDate>Tue, 13 Oct 2026 11:43:00 +0000</pubDate>
+      <enclosure url="https://media.transistor.fm/9de4349c/52f3eb2d.mp3" length="100061052" type="audio/mpeg" />
+      <itunes:duration>6250</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+      <source url="https://feeds.transistor.fm/dragon-talk-an-official-dungeons-dragons-podcast">Dragon Talk — Lore You Should Know</source>
+    </item>
+    <item>
+      <title>18 • STORY • [The Silt Verses] Chapter 5: My Song Is Long And Twisted</title>
+      <guid isPermaLink="false">fantasy-lore-623736a6025cf5a254c532cf024b3172f0e9cd45bab560d065de0499bff92484</guid>
+      <link>https://www.thesiltverses.com/listen-now</link>
+      <description>From The Silt Verses — Eskew Productions. Kind: story. Editorial algorithm score (not listener episode rating): 48.7/100. Show-level Apple US rating: 4.8/5. Original publisher date: Mon, 01 Mar 2021 07:00:01 GMT. Themes: gm. Publisher description: &lt;p&gt;Faulkner learns the location of a fellow member of the faith. Carpenter, recovering from her injuries, makes a new acquaintance.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Content warnings:&lt;/p&gt;&lt;p&gt;This episode contains scenes of drowning, as well as references to mutilation, murder and implied animal death.&lt;/p&gt;&lt;hr&gt;&lt;p style='color:grey; font-size:0.75em;'&gt; Hosted on Acast. See &lt;a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'&gt;acast.com/privacy&lt;/a&gt; for more information.&lt;/p&gt;</description>
+      <pubDate>Tue, 13 Oct 2026 11:42:00 +0000</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/5fec690f8211cf453a1b89e2/e/603bf9edbb8eb7719b2a7022/media.mp3" length="89468406" type="audio/mpeg" />
+      <itunes:duration>37:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://access.acast.com/rss/5fec690f8211cf453a1b89e2/">The Silt Verses</source>
+    </item>
+    <item>
+      <title>19 • LORE • [The Dungeoncast] Monster Mythos: Chromatic Dragons II - The Dungeoncast Ep.117</title>
+      <guid isPermaLink="false">fantasy-lore-91f799256bc8aa7941c18ebf7487c243a4a3cf337fd508bfc9cbfd2ef8ed198d</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Chromatic-Dragons-II---The-Dungeoncast-Ep-117-elg6dq</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Kind: lore. Editorial algorithm score (not listener episode rating): 64.9/100. Show-level Apple US rating: 4.9/5. Original publisher date: Mon, 28 Jan 2019 00:28:00 -0000. Themes: creatures, magic, gm. Publisher description: Will and Brian are finally getting into Dragons - the evil ones! Again! The more obscure of the bunch have surfaced, at last! But they're no less dangerous should you happen to encounter one in your travels.
+
+This week's episode has been brought to you by The Dungeon Booth! Check them out at the links below:
+Website - thedungeonbooth.com/ - iTunes - YouTube - Stitcher
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an</description>
+      <pubDate>Tue, 13 Oct 2026 11:41:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU1605720355.mp3?updated=1716408259" length="62061679" type="audio/mpeg" />
+      <itunes:duration>3009</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>20 • STORY • [The Silt Verses] Chapter 6: It Winds, It Worms, It Wends</title>
+      <guid isPermaLink="false">fantasy-lore-8a190a5db29ac48bba4d22c0724a9820fa207209669473e6c0af97ac56a0ccfe</guid>
+      <link>https://www.thesiltverses.com/listen-now</link>
+      <description>From The Silt Verses — Eskew Productions. Kind: story. Editorial algorithm score (not listener episode rating): 47.4/100. Show-level Apple US rating: 4.8/5. Original publisher date: Mon, 15 Mar 2021 08:16:43 GMT. Themes: gm. Publisher description: &lt;p&gt;As the fallout spreads in Marcel's Crossing, our disciples reflect on how it all began...&lt;/p&gt;&lt;br&gt;&lt;p&gt;Please note, for listeners who have audio-processing difficulties: this episode contains scenes with background crowd noise.&lt;/p&gt;&lt;hr&gt;&lt;p style='color:grey; font-size:0.75em;'&gt; Hosted on Acast. See &lt;a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'&gt;acast.com/privacy&lt;/a&gt; for more information.&lt;/p&gt;</description>
+      <pubDate>Tue, 13 Oct 2026 11:40:00 +0000</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/5fec690f8211cf453a1b89e2/e/604f17ec4dffb718f115fe6f/media.mp3" length="111583671" type="audio/mpeg" />
+      <itunes:duration>46:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://access.acast.com/rss/5fec690f8211cf453a1b89e2/">The Silt Verses</source>
+    </item>
+    <item>
+      <title>21 • LORE • [Monster Man] Episode 352: Death Leech and Dragon, Undead</title>
+      <guid isPermaLink="false">fantasy-lore-3c2288923a8cec42c1dbb265e78fed39ea38db948c79c333ed86a7b3748a46aa</guid>
+      <link>https://monsterman.libsyn.com/episode-352-death-leech-and-dragon-undead</link>
+      <description>From Monster Man — James Holloway. Kind: lore. Editorial algorithm score (not listener episode rating): 58.8/100. Show-level Apple US rating: 4.8/5. Original publisher date: Mon, 22 Mar 2021 22:28:23 +0000. Themes: creatures. Publisher description: &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="2392o" data-offset-key="n6f9-0-0"&gt; Our journey through the Undead section of Creature Catalogue continues with two creatures that aren't quite what they appear to be!&lt;/div&gt; &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="2392o" data-offset-key="n6f9-0-0"&gt;  &lt;/div&gt; &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" </description>
+      <pubDate>Tue, 13 Oct 2026 11:39:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/monsterman/monsterman352.mp3?dest-id=572259" length="10637419" type="audio/mpeg" />
+      <itunes:duration>09:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://monsterman.libsyn.com/rss">Monster Man</source>
+    </item>
+    <item>
+      <title>22 • STORY • [Dark Dice] Season 4 | Prologue | Embark</title>
+      <guid isPermaLink="false">fantasy-lore-84d1e85c5fb55c0c6f54e938498c11218146ec4e1ae7e5852c2536b5ce0688d5</guid>
+      <link>https://darkdice.com</link>
+      <description>From Dark Dice — Fool &amp; Scholar Productions. Kind: story. Editorial algorithm score (not listener episode rating): 46.7/100. Show-level Apple US rating: 4.7/5. Original publisher date: Tue, 20 Jun 2023 18:16:00 -0000. Themes: gm. Publisher description: This is the bonus episode that leads into our new story: Shores of the Silver Thrum. We recommend starting here!
+
+If you have never listened to Dark Dice before, you can start here, as this season has no ties to previous ones.
+
+As waves crash and docks creek, it is time for the final two crew members to join the Willow's Wake.
+
+
+
+Story by K.A. Statz &amp; Travis Vengroff (Co Game Masters)
+
+Produced, Edited, and with Co-Sound Design by Travis Vengroff
+
+Executive Producers: Dennis Greenhill, Carol Ven</description>
+      <pubDate>Tue, 13 Oct 2026 11:38:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP1592812060.mp3?updated=1750162057" length="154707189" type="audio/mpeg" />
+      <itunes:duration>3804</itunes:duration>
+      <source url="https://feeds.megaphone.fm/SBP9028289759">Dark Dice</source>
+    </item>
+    <item>
+      <title>23 • LORE • [Dungeons &amp; Dragons Lorecast] Bahamut, the Platinum Dragon God</title>
+      <guid isPermaLink="false">fantasy-lore-543c06c8962f8acc641a0f9972f0d085d211b25d8bfad2e9b4229bf28763b5bf</guid>
+      <link>https://linktr.ee/dndlorecast</link>
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 61.3/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 17 Dec 2022 23:50:00 -0000. Themes: creatures, magic. Publisher description: The Platinum Dragon God known as Bahamut is the epitome of honor, justice, and valor. This week, we dive into the lore of this unique creature known across every D&amp;D campaign setting.
+Baldur’s Gate 3 -  Game Awards Trailer
+D&amp;D: Honor Among Thieves prequel novels
+Minnesota veterans get help through Dungeons &amp; Dragons roleplaying therapy
+DMs Guild Corner Pick(s) of the Week: Bahamut, the Platinum Dragon 5e stat block
+Equip your own adventures:
+
+D&amp;D 5th Edition Starter Set: https://amzn.to/2WgZX6O </description>
+      <pubDate>Tue, 13 Oct 2026 11:37:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR5321879375.mp3?updated=1671321316" length="40942455" type="audio/mpeg" />
+      <itunes:duration>4024</itunes:duration>
+      <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
+    </item>
+    <item>
+      <title>24 • STORY • [Dark Dice] Season 4 | Ep. 1 | In the Willow’s Wake</title>
+      <guid isPermaLink="false">fantasy-lore-1bd4d2876f34e54fa000dd4f0cd8446862395670760801742515471b58fdf58f</guid>
+      <link>https://darkdice.com/</link>
+      <description>From Dark Dice — Fool &amp; Scholar Productions. Kind: story. Editorial algorithm score (not listener episode rating): 49.3/100. Show-level Apple US rating: 4.7/5. Original publisher date: Tue, 04 Jul 2023 01:10:00 -0000. Themes: gm. Publisher description: This is the start of our new story: Shores of the Silver Thrum - featuring the full cast.
+
+If you have never listened to Dark Dice before, you can start here, as this season has no ties to previous ones.
+
+As waves crash and docks creek, five adventurers book passage on The Willow's Wake, into the frozen north.
+
+
+
+Dark Dice&amp;nbsp;is an Actual Play podcast created using the 5th edition rules of Dungeons and Dragons. Dialogue with NPC's has been replaced with a full voice cast and immersive sound ef</description>
+      <pubDate>Tue, 13 Oct 2026 11:36:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP6565525025.mp3?updated=1750161594" length="116479903" type="audio/mpeg" />
+      <itunes:duration>2852</itunes:duration>
+      <source url="https://feeds.megaphone.fm/SBP9028289759">Dark Dice</source>
+    </item>
+    <item>
+      <title>25 • LORE • [The Dungeoncast] Monster Mythos: Green Dragons - The Dungeoncast Ep.149</title>
+      <guid isPermaLink="false">fantasy-lore-90734559cb54566f6a27e85af7973164d14b222a3970234b0a7f23fe238022a4</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Green-Dragons---The-Dungeoncast---Ep-149-elg6fp</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Kind: lore. Editorial algorithm score (not listener episode rating): 63.9/100. Show-level Apple US rating: 4.9/5. Original publisher date: Mon, 09 Sep 2019 01:39:00 -0000. Themes: creatures, magic, gm. Publisher description: Will and Brian continue to move forward with the Year of the Dragon by breaking down one of the most cunning creatures to roam the forests! While in the middle of the pack in terms of physical power, Green Dragons will initiate diplomatic deceit against more powerful foes while maintaining a petty and vicious facade toward those with nothing to offer. Find out about the rest of their powers and quirks this week on The Dungeoncast!
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Disc</description>
+      <pubDate>Tue, 13 Oct 2026 11:35:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU1722957710.mp3?updated=1716407082" length="48834096" type="audio/mpeg" />
+      <itunes:duration>2390</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>26 • STORY • [Dark Dice] Season 4 | Ep. 2 | The Calm</title>
+      <guid isPermaLink="false">fantasy-lore-9b76c4bddbbd8225750b1c90f6c321856da0050899daa5038987d5874085bffe</guid>
+      <link>https://darkdice.com</link>
+      <description>From Dark Dice — Fool &amp; Scholar Productions. Kind: story. Editorial algorithm score (not listener episode rating): 46.7/100. Show-level Apple US rating: 4.7/5. Original publisher date: Tue, 18 Jul 2023 19:51:00 -0000. Themes: gm. Publisher description: Those aboard the Willow's Wake find ways to keep entertained on the open sea as they travel toward the their first destination.
+
+Check out Jasper's Show: Three Black Halflings: https://headgum.com/three-black-halflings
+
+
+
+Story by K.A. Statz &amp; Travis Vengroff (Co Game Masters)
+
+Produced, Edited, and with Sound Design by Travis Vengroff
+
+Executive Producers: Dennis Greenhill, Carol Vengroff, AJ Punk'n, &amp; Maico Villegas
+
+Dialogue Editing (first round) by Kasch Wilder
+
+Mixing and Mastering by Dayn </description>
+      <pubDate>Tue, 13 Oct 2026 11:34:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP3851472676.mp3?updated=1750163426" length="45033075" type="audio/mpeg" />
+      <itunes:duration>2721</itunes:duration>
+      <source url="https://feeds.megaphone.fm/SBP9028289759">Dark Dice</source>
+    </item>
+    <item>
+      <title>27 • LORE • [The Dungeoncast] Monster Mythos: Emerald Dragons - The Dungeoncast Ep.276</title>
+      <guid isPermaLink="false">fantasy-lore-16927d43969f7670432625bf613265c5f952c67dd9b5c751b800ca00963fbfb2</guid>
+      <link>https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Kind: lore. Editorial algorithm score (not listener episode rating): 63.1/100. Show-level Apple US rating: 4.9/5. Original publisher date: Mon, 21 Feb 2022 08:00:00 -0000. Themes: creatures, magic, gm. Publisher description: Will and Brian are diving back in to Fizban's Treasury of Dragons to talk about the highly intelligent Emerald Dragons! Find out their favorite pass times, food, and so much more this week on The Dungeoncast!
+
+Be sure to check out our sponsors:
+Elements of Inspiration Kickstarter
+Arrow Road Creations
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hello? Reach out thedungeoncast@gmail.com
+Or sen</description>
+      <pubDate>Tue, 13 Oct 2026 11:33:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU5496963670.mp3?updated=1716400932" length="61024908" type="audio/mpeg" />
+      <itunes:duration>3000</itunes:duration>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>28 • STORY • [Dark Dice] Season 4 | Ep. 3 | Lure</title>
+      <guid isPermaLink="false">fantasy-lore-331ea2cdb921ba51e250c5f891f64be3c78091391887129516cbf484c9ad96cb</guid>
+      <link>https://darkdice.com</link>
+      <description>From Dark Dice — Fool &amp; Scholar Productions. Kind: story. Editorial algorithm score (not listener episode rating): 48.0/100. Show-level Apple US rating: 4.7/5. Original publisher date: Tue, 01 Aug 2023 22:46:00 -0000. Themes: gm. Publisher description: The Willow's Wake faces an unexpected and deadly threat.
+
+
+
+Story by K.A. Statz &amp; Travis Vengroff (Co Game Masters)
+
+Produced, Edited, and with Sound Design by Travis Vengroff
+
+Executive Producers: Dennis Greenhill, Carol Vengroff, AJ Punk'n, &amp; Maico Villegas
+
+Dialogue Editing (first round) by Kasch Wilder
+
+Mixing and Mastering by Dayn Leonardson
+
+Transcriptions by Shion Francois
+
+
+
+Cast:
+
+Narrator / Game Master - K.A. Statz
+
+Narrator / Game Master - Travis Vengroff
+
+Agé Ogun – Jasper William Ca</description>
+      <pubDate>Tue, 13 Oct 2026 11:32:00 +0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP4528524216.mp3?updated=1750164894" length="49155382" type="audio/mpeg" />
+      <itunes:duration>2979</itunes:duration>
+      <source url="https://feeds.megaphone.fm/SBP9028289759">Dark Dice</source>
+    </item>
+  </channel>
+</rss>

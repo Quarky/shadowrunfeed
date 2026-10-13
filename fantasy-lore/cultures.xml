@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>Fantasy Lore / Anomaly — Societies &amp; Settlements</title>
+    <title>Fantasy Lore — Societies &amp; Settlements</title>
     <link>https://github.com/Quarky/shadowrunfeed/tree/main/fantasy-lore</link>
-    <description>Independent curated fantasy worldbuilding inspiration for Fantasy Lore / Anomaly GMs: creatures, culture, deities, planar mysteries and practical encounters. Not original-world canon; publisher-hosted recordings only. Source shows and episode credits retained.</description>
+    <description>Independent fantasy lore and story listening library from original publishers. Ranked editions alternate lore with storytelling; show ratings are never represented as episode ratings.</description>
     <language>en</language>
     <copyright>Original episodes and audio remain copyright their respective publishers.</copyright>
     <itunes:author>Fantasy Lore GM listening index (independent curation)</itunes:author>
@@ -12,52 +12,12 @@
     <itunes:image href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fantasy-lore/cover.png" />
     <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fantasy-lore/cultures.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[Dark Dice] We were nominated for an award!</title>
-      <guid isPermaLink="false">fantasy-lore-9918c5baddbea8d7878f37242e87237c1c781f1308778e7ba43b21e78d67ae2f</guid>
-      <link>https://darkdice.com/</link>
-      <description>From Dark Dice — Fool &amp; Scholar Productions. Themes: cultures. Original publisher episode: Dark Dice has been nominated for TWO Signal awards and Liberty: Tales from the Tower is up for a Lovie award!
-
-There is an audience vote and we could really use your help, as we're competing with iHeart and CNN. After you log in, it's only a single click to vote for each one. 
-
-Links below:
-Most Innovative Audio Experience
-
-Best Original Score
-
-Best Scripted Fiction Podcast
-
-Thank you from the bottom of our hearts!
-Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
-      <pubDate>Thu, 01 Oct 2026 18:49:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP8305258252.mp3" length="1103285" type="audio/mpeg" />
-      <itunes:duration>44</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <source url="https://feeds.megaphone.fm/SBP9028289759">Dark Dice</source>
-    </item>
-    <item>
-      <title>[Dark Dice] D&amp;D Legends and Lore: Lore of the Underdark</title>
-      <guid isPermaLink="false">fantasy-lore-17f96052f6417f4eb8c1b0a778a426b9cf02f56928655df757b54e241c9bb160</guid>
-      <link>https://www.youtube.com/@DnDLegendsandLore</link>
-      <description>From Dark Dice — Fool &amp; Scholar Productions. Themes: cultures. Original publisher episode: Meet our Friends - D&amp;D Legends and Lore!
-
-On this D&amp;D Legends and Lore, William Stark and Omar Timsah cover the lore of the Underdark. In gem-studded caves and winding tunnels, turbulent waterways and vast caverns, the creatures of the Underdark make their homes. Subterranean rivers, fungus fields, deep gorges, underground cities, yawning chasms- Beautiful and treacherous are these hidden realms.
-
-Support us on&amp;nbsp;⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠PATREON⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠
-
-We are also on&amp;nbsp;⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Youtub</description>
-      <pubDate>Tue, 08 Sep 2026 20:04:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP4488774633.mp3" length="108705649" type="audio/mpeg" />
-      <itunes:duration>3395</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <source url="https://feeds.megaphone.fm/SBP9028289759">Dark Dice</source>
-    </item>
-    <item>
       <title>[D&amp;D Legends and Lore] The Lore of the Drow | D&amp;D Legends and Lore Episode 51</title>
       <guid isPermaLink="false">fantasy-lore-c4326ada3dfb63588ac7886785b91f6cc4b5d78ec59dbd138d26c5fae6c23f41</guid>
       <link>https://podcasts.apple.com/us/podcast/d-d-legends-and-lore/id1769219620</link>
-      <description>From D&amp;D Legends and Lore — William Stark and Omar Timsah / Realm. Themes: cultures, creatures. Original publisher episode: Tavern tales across sunlit lands whisper of the Underdark, a lightless, subterranean realm that is home to fabled races and ancient, unspeakable evil. It is a domain of primeval mysteries and unending war, a hidden world of cruel masters and hopeless slaves, filled with monstrous creatures that were old before humans were born. Aboleths. Beholders. Mind Flayers. Eldritch entities of unspeakable visage. And yet, despite the potentially greater danger posed by these and other horrors of the deep, </description>
+      <description>From D&amp;D Legends and Lore — William Stark and Omar Timsah / Realm. Kind: lore. Editorial algorithm score (not listener episode rating): 55.8/100. Show-level Apple US rating: 4.8/5. Original publisher date: Tue, 08 Sep 2026 10:00:00 -0000. Themes: cultures, creatures. Publisher description: Tavern tales across sunlit lands whisper of the Underdark, a lightless, subterranean realm that is home to fabled races and ancient, unspeakable evil. It is a domain of primeval mysteries and unending war, a hidden world of cruel masters and hopeless slaves, filled with monstrous creatures that were old before humans were born. Aboleths. Beholders. Mind Flayers. Eldritch entities of unspeakable visage. And yet, despite the potentially greater danger posed by these and other horrors of the deep, </description>
       <pubDate>Tue, 08 Sep 2026 10:00:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP2322956422.mp3" length="136062604" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP2322956422.mp3" length="135258033" type="audio/mpeg" />
       <itunes:duration>3322</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <source url="https://feeds.megaphone.fm/dndlegendsandlore">D&amp;D Legends and Lore</source>
@@ -66,7 +26,7 @@ We are also on&amp;nbsp;⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Youtub</des
       <title>[D&amp;D Legends and Lore] The Lore of Warforged | D&amp;D Legends and Lore Episode 44</title>
       <guid isPermaLink="false">fantasy-lore-acb7d8817f4f82553a2dc0d0d7be85cb3f3d3401a5c3189dd151760b925d827e</guid>
       <link>https://podcasts.apple.com/us/podcast/d-d-legends-and-lore/id1769219620</link>
-      <description>From D&amp;D Legends and Lore — William Stark and Omar Timsah / Realm. Themes: cultures, creatures. Original publisher episode: Created as soldiers for a war that spelled the end of an age, warforged are artificial beings that display a humanoid level of intelligence and self-awareness. To look upon one is to see an instrument of destruction, a heartless killing machine, a siege engine in the shape of a man.
+      <description>From D&amp;D Legends and Lore — William Stark and Omar Timsah / Realm. Kind: lore. Editorial algorithm score (not listener episode rating): 33.3/100. Show-level Apple US rating: 4.8/5. Original publisher date: Tue, 30 Jun 2026 16:00:00 -0000. Themes: cultures, creatures. Publisher description: Created as soldiers for a war that spelled the end of an age, warforged are artificial beings that display a humanoid level of intelligence and self-awareness. To look upon one is to see an instrument of destruction, a heartless killing machine, a siege engine in the shape of a man.
 
 
 Check out our sponsor Steinhardt's Guide to the Eldritch Hunt! Or check it out on D&amp;D Beyond!
@@ -77,7 +37,7 @@ We are also on ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Youtube⁠⁠⁠
 
 Join our</description>
       <pubDate>Tue, 30 Jun 2026 16:00:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP1418803513.mp3" length="91923071" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP1418803513.mp3" length="91918891" type="audio/mpeg" />
       <itunes:duration>2262</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <source url="https://feeds.megaphone.fm/dndlegendsandlore">D&amp;D Legends and Lore</source>
@@ -86,7 +46,7 @@ Join our</description>
       <title>[Dungeons &amp; Dragons Lorecast] Tales from the Tower: Dragons of Sandstone City, pt. III</title>
       <guid isPermaLink="false">fantasy-lore-5f4512b68212d4a798b70187b7671e587ee11ee609460097d2093bdf19d4278f</guid>
       <link>https://linktr.ee/dndlorecast</link>
-      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Themes: creatures, cultures. Original publisher episode: We conclude the latest Tales from the Tower with a dungeon AND a dragon?!
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 50.3/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 23 May 2026 05:00:00 -0000. Themes: creatures, cultures. Publisher description: We conclude the latest Tales from the Tower with a dungeon AND a dragon?!
 
 Special thanks to James from Random Encounters
 
@@ -105,7 +65,7 @@ Links:
 Lore TA Shaun's second novel, The Dissonance, is out NOW Pantheon/PRH! Buy it ANYWHERE books are sold! And pick up Shaun's Conan the Barbarian ebook short story, also available now!
 </description>
       <pubDate>Sat, 23 May 2026 05:00:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR8046409934.mp3" length="72118731" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR8046409934.mp3" length="72511507" type="audio/mpeg" />
       <itunes:duration>5254</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
@@ -114,7 +74,7 @@ Lore TA Shaun's second novel, The Dissonance, is out NOW Pantheon/PRH! Buy it AN
       <title>[Dungeons &amp; Dragons Lorecast] Tales from the Tower: Dragons of Sandstone City, pt. II</title>
       <guid isPermaLink="false">fantasy-lore-640fc814d914b1d508759349c324903f89b2a0c079a79f405640cb1c075048f5</guid>
       <link>https://linktr.ee/dndlorecast</link>
-      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Themes: creatures, cultures. Original publisher episode: We continue Dragons of the Sandstone City in the latest installment of Tales from the Tower! (so close to a TPK)
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 50.3/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 25 Apr 2026 05:00:00 -0000. Themes: creatures, cultures. Publisher description: We continue Dragons of the Sandstone City in the latest installment of Tales from the Tower! (so close to a TPK)
 
 Special thanks to James from Random Encounters
 
@@ -132,27 +92,16 @@ Links:
   
 Lore TA Shaun's second novel, The Dissonance, is out NOW Pantheon/PRH! Buy it ANYWHERE books are sol</description>
       <pubDate>Sat, 25 Apr 2026 05:00:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR4174474903.mp3" length="61869672" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR4174474903.mp3" length="61658813" type="audio/mpeg" />
       <itunes:duration>3915</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
     </item>
     <item>
-      <title>[The Silt Verses] Our Wars Have Ended is out now</title>
-      <guid isPermaLink="false">fantasy-lore-78688cf4668aa3590377c9bc927f0ecfbaae1eaff6a8b28ee2c5126026645293</guid>
-      <link>https://feeds.acast.com/public/shows/our-wars-have-ended</link>
-      <description>From The Silt Verses — Eskew Productions. Themes: cultures. Original publisher episode: &lt;p&gt;Twenty years ago, the Kindly Ancestors rose from their graves to reconquer the lands of Old Cyshane. Today, an endless multitude of ancient kings and queens squabble and bicker for cultural supremacy. Labouring corpse-technology has swallowed up agriculture and industry. Dead-divers descend into the netherworld, searching for answers. Even as progress rolls relentlessly onwards, all of us remain helplessly bound to the past. What will it take to stop looking back?&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;An epic</description>
-      <pubDate>Fri, 17 Apr 2026 10:32:04 GMT</pubDate>
-      <enclosure url="https://sphinx.acast.com/p/open/s/5fec690f8211cf453a1b89e2/e/69e20c26a0cdd3989ca30dab/media.mp3" length="2834994" type="audio/mpeg" />
-      <itunes:duration>1:32</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <source url="https://access.acast.com/rss/5fec690f8211cf453a1b89e2/">The Silt Verses</source>
-    </item>
-    <item>
       <title>[Dungeons &amp; Dragons Lorecast] Tales from the Tower: Dragons of Sandstone City, pt. I</title>
       <guid isPermaLink="false">fantasy-lore-a978a4a4549a1a71de346b619b3679813d5050eb9340fc39d2a7d7e7a30616fd</guid>
       <link>https://linktr.ee/dndlorecast</link>
-      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Themes: creatures, cultures. Original publisher episode: Listen... we got dungeons AND dragons! Another adventure from the Dragon Delves anthology and this time, I want a TPK.
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 50.3/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 28 Mar 2026 05:00:00 -0000. Themes: creatures, cultures. Publisher description: Listen... we got dungeons AND dragons! Another adventure from the Dragon Delves anthology and this time, I want a TPK.
 
 
 
@@ -176,7 +125,7 @@ Links:
   
 Lore TA Shaun's second novel, The Dissonance, is out NOW Pantheon/PRH! Buy it </description>
       <pubDate>Sat, 28 Mar 2026 05:00:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR1573714015.mp3?updated=1774706036" length="37666955" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR1573714015.mp3?updated=1774706036" length="37450244" type="audio/mpeg" />
       <itunes:duration>5316</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
@@ -185,7 +134,7 @@ Lore TA Shaun's second novel, The Dissonance, is out NOW Pantheon/PRH! Buy it </
       <title>[Dungeons &amp; Dragons Lorecast] Drow January: Legend of Drizzt - Paths of Darkness w/ Russell Johnson</title>
       <guid isPermaLink="false">fantasy-lore-1804ce7faa284e8254eaa9b893442273f5f7e2addb086c39f771fa99a3e00848</guid>
       <link>https://linktr.ee/dndlorecast</link>
-      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Themes: cultures. Original publisher episode: It wouldn't be a Drow January without Drizzt! Russell Johnson stops by The Tower once again and this time we are discussing RA Salvatore's novels THE SILENT BLADE and SEA OF SWORDS!
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 47.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 17 Jan 2026 06:00:00 -0000. Themes: cultures. Publisher description: It wouldn't be a Drow January without Drizzt! Russell Johnson stops by The Tower once again and this time we are discussing RA Salvatore's novels THE SILENT BLADE and SEA OF SWORDS!
 
 
 
@@ -207,7 +156,7 @@ Links:
 
 </description>
       <pubDate>Sat, 17 Jan 2026 06:00:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR3136842690.mp3" length="47097574" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR3136842690.mp3" length="46712948" type="audio/mpeg" />
       <itunes:duration>3843</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
@@ -216,7 +165,7 @@ Links:
       <title>[D&amp;D Legends and Lore] The Lore of Dwarves | D&amp;D Legends and Lore Episode 32</title>
       <guid isPermaLink="false">fantasy-lore-9f45bb4af746c1c4f9f0eb342583143a2e2bfa841fcd2ba3357e1bad43e496bb</guid>
       <link>https://podcasts.apple.com/us/podcast/d-d-legends-and-lore/id1769219620</link>
-      <description>From D&amp;D Legends and Lore — William Stark and Omar Timsah / Realm. Themes: cultures, creatures. Original publisher episode: Dwarves are creatures of stone, and like stone they change only in response to extremes. They are the Stout Folk, the Deep Folk, the Delvers. Their mighty mountain fortress-cities testify to the power of their ancient empires. Their skill in metalcraft and stonecraft is that of legend. The stoutness of both their hearts and their strength-of-arms are enough to move mountains.
+      <description>From D&amp;D Legends and Lore — William Stark and Omar Timsah / Realm. Kind: lore. Editorial algorithm score (not listener episode rating): 39.0/100. Show-level Apple US rating: 4.8/5. Original publisher date: Mon, 12 Jan 2026 08:00:00 -0000. Themes: cultures, creatures. Publisher description: Dwarves are creatures of stone, and like stone they change only in response to extremes. They are the Stout Folk, the Deep Folk, the Delvers. Their mighty mountain fortress-cities testify to the power of their ancient empires. Their skill in metalcraft and stonecraft is that of legend. The stoutness of both their hearts and their strength-of-arms are enough to move mountains.
 
 
 
@@ -228,7 +177,7 @@ Support us on ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠PATREON⁠�
 
 We are also on ⁠</description>
       <pubDate>Mon, 12 Jan 2026 08:00:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP8316622073.mp3?updated=1767977977" length="125203989" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP8316622073.mp3?updated=1767977977" length="125199809" type="audio/mpeg" />
       <itunes:duration>3094</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <source url="https://feeds.megaphone.fm/dndlegendsandlore">D&amp;D Legends and Lore</source>
@@ -237,7 +186,7 @@ We are also on ⁠</description>
       <title>[Dungeons &amp; Dragons Lorecast] Drow January: The Drow Magocracy of Sshamath</title>
       <guid isPermaLink="false">fantasy-lore-e66508e5cea1625a95e8f3a48fa00386754ded17590d1588ab19383a8a8f1edb</guid>
       <link>https://linktr.ee/dndlorecast</link>
-      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Themes: cultures. Original publisher episode: We continue Drow January by delving into the lore and history of the magocratic city of Sshamath!
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 50.3/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 10 Jan 2026 06:00:00 -0000. Themes: cultures. Publisher description: We continue Drow January by delving into the lore and history of the magocratic city of Sshamath!
 
 
 
@@ -261,7 +210,7 @@ Links:
   
 Lore TA Shaun's second novel, The Dissonance, is out NOW Pantheon/PRH! Buy it ANYWHERE books are sold! And pick up Shaun's Conan the Barbarian ebook sho</description>
       <pubDate>Sat, 10 Jan 2026 06:00:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR5621900889.mp3" length="45220720" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR5621900889.mp3" length="44854275" type="audio/mpeg" />
       <itunes:duration>3717</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
@@ -270,7 +219,7 @@ Lore TA Shaun's second novel, The Dissonance, is out NOW Pantheon/PRH! Buy it AN
       <title>[Dungeons &amp; Dragons Lorecast] Drow January: House Oblodra</title>
       <guid isPermaLink="false">fantasy-lore-7e0e06653f37fef63cd7d6ac11c1d9350d05c01f6c762c2fa8114a064da725b8</guid>
       <link>https://linktr.ee/dndlorecast</link>
-      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Themes: cultures. Original publisher episode: New Year, New Lorecast! Well, not really. James from Tales from the Tower joins us as new co-host and some small format changes are in store but beyond that, it's the same ol' lore. And we kick off DROW JANUARY with just that: juicy, juicy lore!
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 47.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 03 Jan 2026 06:00:00 -0000. Themes: cultures. Publisher description: New Year, New Lorecast! Well, not really. James from Tales from the Tower joins us as new co-host and some small format changes are in store but beyond that, it's the same ol' lore. And we kick off DROW JANUARY with just that: juicy, juicy lore!
 
 
 
@@ -290,7 +239,7 @@ Links:
   
 Lore TA Shaun's</description>
       <pubDate>Sat, 03 Jan 2026 06:00:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR3791709957.mp3" length="37670788" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR3791709957.mp3" length="37309358" type="audio/mpeg" />
       <itunes:duration>3088</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
@@ -299,7 +248,7 @@ Lore TA Shaun's</description>
       <title>[Dungeons &amp; Dragons Lorecast] The Godswar - Corellon vs Gruumsh</title>
       <guid isPermaLink="false">fantasy-lore-f9e004e2247e6002bd52e4c72285fecf63636340aa45d3efe60f744171633391</guid>
       <link>https://linktr.ee/dndlorecast</link>
-      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Themes: cultures, magic. Original publisher episode: The origins and consequences of the rivalry between elven god Corellon Larethian and orcish god Gruumsh are discussed!
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 47.7/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 08 Nov 2025 06:00:00 -0000. Themes: cultures, magic. Publisher description: The origins and consequences of the rivalry between elven god Corellon Larethian and orcish god Gruumsh are discussed!
 
 
 
@@ -319,7 +268,7 @@ Links:
   
 Lore TA Shaun's second novel, The Dissonance, is out NOW Pantheon/PRH! Buy it ANYWHERE books are sold! And pick up Shaun's Cona</description>
       <pubDate>Sat, 08 Nov 2025 06:00:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR5402956508.mp3" length="39179196" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR5402956508.mp3" length="38817766" type="audio/mpeg" />
       <itunes:duration>3205</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
@@ -328,7 +277,7 @@ Lore TA Shaun's second novel, The Dissonance, is out NOW Pantheon/PRH! Buy it AN
       <title>[Monster Man] Special Episode: The Monsters of Red Dwarf</title>
       <guid isPermaLink="false">fantasy-lore-794323f39d13c2bd5749df1abbd5dfee3a8cab5ea91adde1f425e05c17a10e35</guid>
       <link>https://monsterman.libsyn.com/special-episode-the-monsters-of-red-dwarf</link>
-      <description>From Monster Man — James Holloway. Themes: creatures, cultures. Original publisher episode: &lt;p data-pm-slice="1 1 []"&gt;Patreon backer Damien brings you this special episode about the creatures of the classic sci-fi comedy series!&lt;/p&gt; &lt;p data-pm-slice="1 1 []"&gt;If you're enjoying the show, why not consider &lt;a href= "https://www.patreon.com/monsterman"&gt;supporting it on Patreon&lt;/a&gt;? You'll get access to lots of new bonus content, including my other podcast, Patron Deities!&lt;/p&gt; &lt;p data-pm-slice="1 1 []"&gt;&lt;span data-offset-key= "6hjnf-0-0"&gt;&lt;span data-text="true"&gt;Thanks to&lt;/span&gt;&lt;/span&gt; &lt;a clas</description>
+      <description>From Monster Man — James Holloway. Kind: lore. Editorial algorithm score (not listener episode rating): 48.1/100. Show-level Apple US rating: 4.8/5. Original publisher date: Thu, 03 Jul 2025 21:34:00 +0000. Themes: creatures, cultures. Publisher description: &lt;p data-pm-slice="1 1 []"&gt;Patreon backer Damien brings you this special episode about the creatures of the classic sci-fi comedy series!&lt;/p&gt; &lt;p data-pm-slice="1 1 []"&gt;If you're enjoying the show, why not consider &lt;a href= "https://www.patreon.com/monsterman"&gt;supporting it on Patreon&lt;/a&gt;? You'll get access to lots of new bonus content, including my other podcast, Patron Deities!&lt;/p&gt; &lt;p data-pm-slice="1 1 []"&gt;&lt;span data-offset-key= "6hjnf-0-0"&gt;&lt;span data-text="true"&gt;Thanks to&lt;/span&gt;&lt;/span&gt; &lt;a clas</description>
       <pubDate>Thu, 03 Jul 2025 21:34:00 +0000</pubDate>
       <enclosure url="https://traffic.libsyn.com/secure/monsterman/reddwarfspecial.mp3?dest-id=572259" length="28741259" type="audio/mpeg" />
       <itunes:duration>26:04</itunes:duration>
@@ -339,7 +288,7 @@ Lore TA Shaun's second novel, The Dissonance, is out NOW Pantheon/PRH! Buy it AN
       <title>[D&amp;D Legends and Lore] The Lore of Icingdeath (w/ The Drow Historian) | D&amp;D Legends and Lore Episode 13</title>
       <guid isPermaLink="false">fantasy-lore-7536a29ba1cc0d8ec237e33605101d4eb4b405cbed16d2fcdae78210569baaf2</guid>
       <link>https://podcasts.apple.com/us/podcast/d-d-legends-and-lore/id1769219620</link>
-      <description>From D&amp;D Legends and Lore — William Stark and Omar Timsah / Realm. Themes: cultures, creatures. Original publisher episode: On this D&amp;D Legends and Lore, Omar Timsah, William Stark, and Deke from Drow Hoistorian cover the lore of the white dragon, Icingdeath.
+      <description>From D&amp;D Legends and Lore — William Stark and Omar Timsah / Realm. Kind: lore. Editorial algorithm score (not listener episode rating): 45.3/100. Show-level Apple US rating: 4.8/5. Original publisher date: Mon, 24 Mar 2025 14:00:00 -0000. Themes: cultures, creatures. Publisher description: On this D&amp;D Legends and Lore, Omar Timsah, William Stark, and Deke from Drow Hoistorian cover the lore of the white dragon, Icingdeath.
 
 Across the frozen reaches of the north, where the howling winds carve their dominion over the land, there is a legend whispered among the Reghed tribes. A name that brings a chill beyond the bitterest tundra gale.
 
@@ -355,7 +304,7 @@ Check out the Shimmergloom episode @TheDrowHistorian HERE
 
 Support u</description>
       <pubDate>Mon, 24 Mar 2025 14:00:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP8840255928.mp3?updated=1748883626" length="59086758" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP8840255928.mp3?updated=1748883626" length="59065859" type="audio/mpeg" />
       <itunes:duration>1438</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <source url="https://feeds.megaphone.fm/dndlegendsandlore">D&amp;D Legends and Lore</source>
@@ -364,7 +313,7 @@ Support u</description>
       <title>[D&amp;D Legends and Lore] The Lore of The Underdark | D&amp;D Legends and Lore Episode 12</title>
       <guid isPermaLink="false">fantasy-lore-3c957bb90ab2b5280904cbaba82effc1c0d9ecef00e97f01d3393539e16aef62</guid>
       <link>https://podcasts.apple.com/us/podcast/d-d-legends-and-lore/id1769219620</link>
-      <description>From D&amp;D Legends and Lore — William Stark and Omar Timsah / Realm. Themes: cultures, creatures. Original publisher episode: On this D&amp;D Legends and Lore, William Stark and Omar Timsah cover the lore of the Underdark.
+      <description>From D&amp;D Legends and Lore — William Stark and Omar Timsah / Realm. Kind: lore. Editorial algorithm score (not listener episode rating): 45.3/100. Show-level Apple US rating: 4.8/5. Original publisher date: Mon, 10 Mar 2025 07:00:00 -0000. Themes: cultures, creatures. Publisher description: On this D&amp;D Legends and Lore, William Stark and Omar Timsah cover the lore of the Underdark.
 
 In gem-studded caves and winding tunnels, turbulent waterways and vast caverns, the creatures of the Underdark make their homes. Subterranean rivers, fungus fields, deep gorges, underground cities, yawning chasms- Beautiful and treacherous are these hidden realms.
 
@@ -374,7 +323,7 @@ We are also on ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Youtube⁠⁠⁠⁠⁠�
 
 Join our ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Discord</description>
       <pubDate>Mon, 10 Mar 2025 07:00:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP5463612566.mp3?updated=1748883663" length="138963951" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP5463612566.mp3?updated=1748883663" length="138959771" type="audio/mpeg" />
       <itunes:duration>3438</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <source url="https://feeds.megaphone.fm/dndlegendsandlore">D&amp;D Legends and Lore</source>
@@ -383,7 +332,7 @@ Join our ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Discord<
       <title>[Dungeons &amp; Dragons Lorecast] Waukeen, Goddess of Wealth and Trade</title>
       <guid isPermaLink="false">fantasy-lore-d1f641c8c7327c6a64bd745217cfa4b48ff9a6278f108c26c1e619f427094216</guid>
       <link>https://linktr.ee/dndlorecast</link>
-      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Themes: cultures, magic. Original publisher episode: A lesser known god but nonetheless one with an amazing tale! The goddess of wealth and trade in Faerun went missing for a time, believed dead. But where was she? This and more lore this week as we discuss Waukeen!
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 54.3/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 24 Aug 2024 05:00:00 -0000. Themes: cultures, magic. Publisher description: A lesser known god but nonetheless one with an amazing tale! The goddess of wealth and trade in Faerun went missing for a time, believed dead. But where was she? This and more lore this week as we discuss Waukeen!
 
 For Duty and Deity 2e adventure
 
@@ -405,7 +354,7 @@ D&amp;D 5th Edition Players Handbook: https://amzn.to/3iRtcH4 
 
 D&amp;D 5th Ed Mon</description>
       <pubDate>Sat, 24 Aug 2024 05:00:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR7510931351.mp3?updated=1724455985" length="39473909" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR7510931351.mp3?updated=1724455985" length="39172717" type="audio/mpeg" />
       <itunes:duration>3881</itunes:duration>
       <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
     </item>
@@ -413,7 +362,7 @@ D&amp;D 5th Ed Mon</description>
       <title>[Monster Man] Special Episode: Monsters of Star Wars</title>
       <guid isPermaLink="false">fantasy-lore-cf4a8b1647cb74fb8523b978bda52c87acfe6f4294fbe65a7bfe9dbafb61a7e8</guid>
       <link>https://monsterman.libsyn.com/special-episode-monsters-of-star-wars</link>
-      <description>From Monster Man — James Holloway. Themes: creatures, cultures. Original publisher episode: &lt;p data-pm-slice="1 1 []"&gt;Patreon backer Tom brings you this special episode all about the monsters of a galaxy far, far away!&lt;/p&gt; &lt;p data-pm-slice="1 1 []"&gt;If you're enjoying the show, why not consider &lt;a href="https://www.patreon.com/monsterman"&gt;supporting it on Patreon&lt;/a&gt;? You'll get access to lots of new bonus content, including my other podcast, Patron Deities!&lt;/p&gt; &lt;p data-pm-slice="1 1 []"&gt;&lt;span data-offset-key= "6hjnf-0-0"&gt;&lt;span data-text="true"&gt;Thanks to&lt;/span&gt;&lt;/span&gt; &lt;a class="sc-afquy</description>
+      <description>From Monster Man — James Holloway. Kind: lore. Editorial algorithm score (not listener episode rating): 46.8/100. Show-level Apple US rating: 4.8/5. Original publisher date: Tue, 23 Jul 2024 07:57:00 +0000. Themes: creatures, cultures. Publisher description: &lt;p data-pm-slice="1 1 []"&gt;Patreon backer Tom brings you this special episode all about the monsters of a galaxy far, far away!&lt;/p&gt; &lt;p data-pm-slice="1 1 []"&gt;If you're enjoying the show, why not consider &lt;a href="https://www.patreon.com/monsterman"&gt;supporting it on Patreon&lt;/a&gt;? You'll get access to lots of new bonus content, including my other podcast, Patron Deities!&lt;/p&gt; &lt;p data-pm-slice="1 1 []"&gt;&lt;span data-offset-key= "6hjnf-0-0"&gt;&lt;span data-text="true"&gt;Thanks to&lt;/span&gt;&lt;/span&gt; &lt;a class="sc-afquy</description>
       <pubDate>Tue, 23 Jul 2024 07:57:00 +0000</pubDate>
       <enclosure url="https://traffic.libsyn.com/secure/monsterman/starwarsspecial.mp3?dest-id=572259" length="21702800" type="audio/mpeg" />
       <itunes:duration>19:28</itunes:duration>
@@ -421,55 +370,10 @@ D&amp;D 5th Ed Mon</description>
       <source url="https://monsterman.libsyn.com/rss">Monster Man</source>
     </item>
     <item>
-      <title>[The Silt Verses] Chapter 38: Shall Wither In Ruin And Rust</title>
-      <guid isPermaLink="false">fantasy-lore-d29b177cdd2b45849085012a527f68b1b5605ec6144430ba204337aac617e7d9</guid>
-      <link>https://www.thesiltverses.com/</link>
-      <description>From The Silt Verses — Eskew Productions. Themes: cultures. Original publisher episode: &lt;p&gt;As the government strikes against the disciples of the Paraclete's Gulch, Faulkner seeks refuge and an untraceable hiding place at his old childhood home in the Whisper Plains - but he is not alone there.&lt;/p&gt;&lt;br&gt;&lt;p&gt;This episode contains some distressing scenes and depictions of early-onset dementia and PTSD, loud noises, repeated allusions to childhood abuse, attempted suicide, and one short reference to accidental deadnaming (which does not occur).&lt;/p&gt;&lt;br&gt;&lt;p&gt;This episode features B. Narr, H.</description>
-      <pubDate>Thu, 25 Jan 2024 20:23:49 GMT</pubDate>
-      <enclosure url="https://sphinx.acast.com/p/open/s/5fec690f8211cf453a1b89e2/e/65b2c49dd6f464001784279a/media.mp3" length="129528756" type="audio/mpeg" />
-      <itunes:duration>1:08:21</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <source url="https://access.acast.com/rss/5fec690f8211cf453a1b89e2/">The Silt Verses</source>
-    </item>
-    <item>
-      <title>[Dark Dice] Season 4 | Ep. 4 | The Sunken Bulwark</title>
-      <guid isPermaLink="false">fantasy-lore-6983cbdbb40113637709a80436f3270fe72a386c570603ff423dc72d33d5d485</guid>
-      <link>https://darkdice.com</link>
-      <description>From Dark Dice — Fool &amp; Scholar Productions. Themes: cultures. Original publisher episode: As personal agendas come into conflict, the Willow arrives at its first destination.
-
-
-
-Story by K.A. Statz &amp; Travis Vengroff (Co Game Masters)
-
-Produced, Edited, and with Sound Design by Travis Vengroff
-
-Executive Producers: Dennis Greenhill, Carol Vengroff, AJ Punk'n, &amp; Maico Villegas
-
-Dialogue Editing (first round) by Kasch Wilder
-
-Mixing and Mastering by Dayn Leonardson
-
-Transcriptions by Shion Francois
-
-
-
-Cast:
-
-Narrator / Game Master - K.A. Statz
-
-Narrator / Game Master - Travis Vengroff
-
-</description>
-      <pubDate>Tue, 15 Aug 2023 19:40:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP4163324776.mp3?updated=1750164983" length="47294483" type="audio/mpeg" />
-      <itunes:duration>2803</itunes:duration>
-      <source url="https://feeds.megaphone.fm/SBP9028289759">Dark Dice</source>
-    </item>
-    <item>
       <title>[Dungeons &amp; Dragons Lorecast] Mielikki, the Forest Goddess</title>
       <guid isPermaLink="false">fantasy-lore-b70e33e902e9a17f80a9d8c7d27d29b7a99c4546bb523881e6fd6353c1d0ed5a</guid>
       <link>https://linktr.ee/dndlorecast</link>
-      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Themes: cultures, magic. Original publisher episode: This week, we enter the forests of Faerun and pay tribute to its most staunch defender, the Druid and Ranger patron known as Mielikki.
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 61.3/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 06 May 2023 14:04:00 -0000. Themes: cultures, magic. Publisher description: This week, we enter the forests of Faerun and pay tribute to its most staunch defender, the Druid and Ranger patron known as Mielikki.
 Babe, wake up... Builds-a-Bear/D&amp;D collab just dropped
 DMs Guild Corner Picks Weeks of the Week: Chosen of the Gods
 Official DnD Lorecast Discord
@@ -481,7 +385,7 @@ D&amp;D 5th Edition Starter Set: https://amzn.to/2WgZX6O 
 
 D&amp;D 5th Edition Players Handbook: https:</description>
       <pubDate>Sat, 06 May 2023 14:04:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR2721453200.mp3?updated=1684553558" length="40958116" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR2721453200.mp3?updated=1684553558" length="40957593" type="audio/mpeg" />
       <itunes:duration>4026</itunes:duration>
       <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
     </item>
@@ -489,7 +393,7 @@ D&amp;D 5th Edition Players Handbook: https:</description>
       <title>[Monsters &amp; Multiclass] Worldbuilding: Making holidays important and memorable in your world!</title>
       <guid isPermaLink="false">fantasy-lore-8f1e6e9cc8519df128b52c08ece1e51c3ef7dd82c0eb93511f38fd3090e5ca58</guid>
       <link>https://www.buzzsprout.com/222686/episodes</link>
-      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Themes: cultures, gm. Original publisher episode: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In this episode Ellie, Jarred, and Will tackle a new subject for the show: worldbuilding. For this episode specifically holiday worldbuilding! How can you make interesting and memorable holidays in your fantasy world?? Check out the episode to find out!&lt;br/&gt;&lt;br/&gt;FanRoll (use code MM10) - https://fanrolldice.com/&lt;br/&gt;&lt;br/&gt;Support the show: https://monstersandmulticlass.com/support&lt;br/&gt;&lt;br/&gt;Intro</description>
+      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Kind: lore. Editorial algorithm score (not listener episode rating): 39.9/100. Show-level Apple US rating: 4.9/5. Original publisher date: Thu, 22 Dec 2022 03:00:00 -0500. Themes: cultures, gm. Publisher description: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In this episode Ellie, Jarred, and Will tackle a new subject for the show: worldbuilding. For this episode specifically holiday worldbuilding! How can you make interesting and memorable holidays in your fantasy world?? Check out the episode to find out!&lt;br/&gt;&lt;br/&gt;FanRoll (use code MM10) - https://fanrolldice.com/&lt;br/&gt;&lt;br/&gt;Support the show: https://monstersandmulticlass.com/support&lt;br/&gt;&lt;br/&gt;Intro</description>
       <pubDate>Thu, 22 Dec 2022 03:00:00 -0500</pubDate>
       <enclosure url="https://www.buzzsprout.com/222686/episodes/11905078-worldbuilding-making-holidays-important-and-memorable-in-your-world.mp3" length="29362885" type="audio/mpeg" />
       <itunes:duration>2437</itunes:duration>
@@ -500,7 +404,7 @@ D&amp;D 5th Edition Players Handbook: https:</description>
       <title>[Monster Man] Special Episode: Monsters of the medieval city</title>
       <guid isPermaLink="false">fantasy-lore-69d6fa56c53ae145bd2a7f252f4184f84e248e483318600eba858c09eac7f88c</guid>
       <link>https://monsterman.libsyn.com/special-episode-monsters-of-the-medieval-city</link>
-      <description>From Monster Man — James Holloway. Themes: creatures, cultures. Original publisher episode: &lt;p&gt;Patreon backer James brings you this special episode all about medieval cities and the kinds of monsters you might find in them!&lt;/p&gt; &lt;p&gt;If you're enjoying the show, why not consider &lt;a href= "https://www.patreon.com/monsterman"&gt;supporting it on Patreon&lt;/a&gt;? You'll get access to lots of new bonus content, including my other podcast, Patron Deities!&lt;/p&gt; &lt;p&gt;Get your US copies of the Pamphlet &lt;a href= "https://www.exaltedfuneral.com/collections/neoteric-codices/products/the-pamphlet-of-pantheons-</description>
+      <description>From Monster Man — James Holloway. Kind: lore. Editorial algorithm score (not listener episode rating): 45.5/100. Show-level Apple US rating: 4.8/5. Original publisher date: Thu, 24 Nov 2022 21:55:00 +0000. Themes: creatures, cultures. Publisher description: &lt;p&gt;Patreon backer James brings you this special episode all about medieval cities and the kinds of monsters you might find in them!&lt;/p&gt; &lt;p&gt;If you're enjoying the show, why not consider &lt;a href= "https://www.patreon.com/monsterman"&gt;supporting it on Patreon&lt;/a&gt;? You'll get access to lots of new bonus content, including my other podcast, Patron Deities!&lt;/p&gt; &lt;p&gt;Get your US copies of the Pamphlet &lt;a href= "https://www.exaltedfuneral.com/collections/neoteric-codices/products/the-pamphlet-of-pantheons-</description>
       <pubDate>Thu, 24 Nov 2022 21:55:00 +0000</pubDate>
       <enclosure url="https://traffic.libsyn.com/secure/monsterman/cityspecial2.mp3?dest-id=572259" length="25803663" type="audio/mpeg" />
       <itunes:duration>22:42</itunes:duration>
@@ -511,7 +415,7 @@ D&amp;D 5th Edition Players Handbook: https:</description>
       <title>[Dungeons &amp; Dragons Lorecast] Dragonlance: The War of the Lance, pt. II</title>
       <guid isPermaLink="false">fantasy-lore-a43c8a317b597efbc6b83c87067161206ea7a948369295da6669565c73872498</guid>
       <link>https://linktr.ee/dndlorecast</link>
-      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Themes: creatures, cultures. Original publisher episode: We wrap up the lore dive into The War of the Lance, one of the most momentous events in Dragonlance history and the timeframe in which the new Shadow of the Dragon Queen adventure takes place!
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 61.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 19 Nov 2022 06:01:00 -0000. Themes: creatures, cultures. Publisher description: We wrap up the lore dive into The War of the Lance, one of the most momentous events in Dragonlance history and the timeframe in which the new Shadow of the Dragon Queen adventure takes place!
 DMs Guild Corner of the Week: Prothero's Guide to Spellweavery 
 Hopefully UNTRUE rumor about the future of the OGL 
 Equip your own adventures:
@@ -524,7 +428,7 @@ D&amp;D 5th Edition Players Handbook: https://amzn.to/3iRtcH4 
 
 D&amp;D 5th Ed Monster's Manual: https://amzn.to/2</description>
       <pubDate>Sat, 19 Nov 2022 06:01:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR3281565575.mp3?updated=1668739733" length="39064658" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR3281565575.mp3?updated=1668739733" length="39059955" type="audio/mpeg" />
       <itunes:duration>3836</itunes:duration>
       <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
     </item>
@@ -532,7 +436,7 @@ D&amp;D 5th Ed Monster's Manual: https://amzn.to/2</description>
       <title>[Dungeons &amp; Dragons Lorecast] Dragonlance: The War of the Lance, pt. I</title>
       <guid isPermaLink="false">fantasy-lore-d1e44192b724448657b5d06c776db54baa1d592a007103a78f48100081dcab63</guid>
       <link>https://linktr.ee/dndlorecast</link>
-      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Themes: creatures, cultures. Original publisher episode: Dragonlance is finally coming to D&amp;D 5e! The Shadow of the Dragon Queen takes place during The War of the Lance so to get you up to speed, your favorite Loremasters dig into the history, the personalities, and the events of this major event in Krynn lore.
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Kind: lore. Editorial algorithm score (not listener episode rating): 61.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Sat, 12 Nov 2022 06:01:00 -0000. Themes: creatures, cultures. Publisher description: Dragonlance is finally coming to D&amp;D 5e! The Shadow of the Dragon Queen takes place during The War of the Lance so to get you up to speed, your favorite Loremasters dig into the history, the personalities, and the events of this major event in Krynn lore.
 DMs Guild Corner of the Week: DL1 Dragons of Despair 5e Conversion Guide with Maps 
 Equip your own adventures:
 
@@ -544,7 +448,7 @@ D&amp;D 5th Edition Players Handbook: https://amzn.to/3iRtcH4 
 
 D&amp;D 5th Ed Mons</description>
       <pubDate>Sat, 12 Nov 2022 06:01:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR3495063544.mp3?updated=1668133116" length="33841500" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR3495063544.mp3?updated=1668133116" length="33840977" type="audio/mpeg" />
       <itunes:duration>3314</itunes:duration>
       <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
     </item>
@@ -552,7 +456,7 @@ D&amp;D 5th Ed Mons</description>
       <title>[Monsters &amp; Multiclass] The Drowned and Their Deadly Bluerot! (D&amp;D 5e)</title>
       <guid isPermaLink="false">fantasy-lore-16c33d076fcabbe93823cfba350c4265b72b74e02e5dbfca9fb0ac4dcbe5ede7</guid>
       <link>https://www.buzzsprout.com/222686/episodes</link>
-      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Themes: cultures. Original publisher episode: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In this week&amp;apos;s episode Ellie, Jarred, and Will take a look at the Drowned from The Ghosts of Saltmarsh! Undead waterlogged monsters who spread their deadly Bluerot to anyone they touch!&lt;br/&gt;&lt;br/&gt;dScryb: Finely Crafted Boxed Text (use code MM10) - https://dscryb.com/&lt;br/&gt;&lt;br/&gt;Support the show: https://monstersandmulticlass.com/support&lt;br/&gt;&lt;br/&gt;Intro music by @Thisisbardcore. https://twitter</description>
+      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Kind: lore. Editorial algorithm score (not listener episode rating): 46.5/100. Show-level Apple US rating: 4.9/5. Original publisher date: Thu, 22 Sep 2022 03:00:00 -0400. Themes: cultures. Publisher description: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In this week&amp;apos;s episode Ellie, Jarred, and Will take a look at the Drowned from The Ghosts of Saltmarsh! Undead waterlogged monsters who spread their deadly Bluerot to anyone they touch!&lt;br/&gt;&lt;br/&gt;dScryb: Finely Crafted Boxed Text (use code MM10) - https://dscryb.com/&lt;br/&gt;&lt;br/&gt;Support the show: https://monstersandmulticlass.com/support&lt;br/&gt;&lt;br/&gt;Intro music by @Thisisbardcore. https://twitter</description>
       <pubDate>Thu, 22 Sep 2022 03:00:00 -0400</pubDate>
       <enclosure url="https://www.buzzsprout.com/222686/episodes/11352571-the-drowned-and-their-deadly-bluerot-d-d-5e.mp3" length="33242419" type="audio/mpeg" />
       <itunes:duration>2757</itunes:duration>
@@ -560,21 +464,10 @@ D&amp;D 5th Ed Mons</description>
       <source url="https://feeds.buzzsprout.com/222686.rss">Monsters &amp; Multiclass</source>
     </item>
     <item>
-      <title>[The Silt Verses] Chapter 27: So I'll Bear It Trembling Onwards</title>
-      <guid isPermaLink="false">fantasy-lore-b5823d0617af5785deb353400dd637ba7da3626ead669eff2b6c0438b7b3ba1a</guid>
-      <link>https://www.thesiltverses.com/</link>
-      <description>From The Silt Verses — Eskew Productions. Themes: cultures. Original publisher episode: &lt;p&gt;On either side of the border, two separate groups of fugitives find themselves running for their lives.&lt;/p&gt;&lt;br&gt;&lt;p&gt;This episode features: William A. Wellman, Graham Rowat, Jasper Locke, JV Hampton Van-Sant, B. Narr, Méabh de Brún, Cait Gallagher, Lucille Valentine, Jimmie Yamaguchi, and the Host from We Are Not Meant To Know.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Transcript: https://www.thesiltverses.com/transcript-season-2-chapter-12&lt;/p&gt;&lt;hr&gt;&lt;p style='color:grey; font-size:0.75em;'&gt; Hosted on Acast. See &lt;a style='color:g</description>
-      <pubDate>Mon, 19 Sep 2022 07:24:40 GMT</pubDate>
-      <enclosure url="https://sphinx.acast.com/p/open/s/5fec690f8211cf453a1b89e2/e/63271a73fa317d00127ef9f4/media.mp3" length="92414245" type="audio/mpeg" />
-      <itunes:duration>38:30</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <source url="https://access.acast.com/rss/5fec690f8211cf453a1b89e2/">The Silt Verses</source>
-    </item>
-    <item>
       <title>[The Travel Log] Noanar's Hold</title>
       <guid isPermaLink="false">fantasy-lore-93ab8b7e7f474de054137f4a9a33111d5a726c62ddb8cc2818dbcdfbb29e5ff0</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Noanars-Hold-e1lvohg</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Noanar's Hold and The Lost Peaks! They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 39.0/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 03 Aug 2022 13:00:41 GMT. Themes: cultures. Publisher description: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Noanar's Hold and The Lost Peaks! They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Design by: Lily Lavin&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Lo</description>
@@ -588,7 +481,7 @@ D&amp;D 5th Ed Mons</description>
       <title>[The Travel Log] Yartar</title>
       <guid isPermaLink="false">fantasy-lore-cd741a40206068e1c82b7d67c290840a6d020f57612ac43f36a74d1b41092774</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Yartar-e1lo04d</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Yartar! They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 39.0/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 27 Jul 2022 13:00:49 GMT. Themes: cultures. Publisher description: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Yartar! They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Design by: Lily Lavin&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Text by: Lizbeth Poirie</description>
@@ -602,7 +495,7 @@ D&amp;D 5th Ed Mons</description>
       <title>[The Travel Log] Mere of Dead Men</title>
       <guid isPermaLink="false">fantasy-lore-52724a53790e91665944bf4170ba4efe46c1809d92f995d01417132d9156dafa</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Mere-of-Dead-Men-e1l5fgi</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover The Mere of Dead Men. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 39.0/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 13 Jul 2022 13:00:54 GMT. Themes: cultures. Publisher description: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover The Mere of Dead Men. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Design by: Lily Lavin&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Text by: </description>
@@ -616,7 +509,7 @@ D&amp;D 5th Ed Mons</description>
       <title>[The Travel Log] The Dessarin Valley</title>
       <guid isPermaLink="false">fantasy-lore-4baffe0ac26b6894143c40f3b2a6595b956f6ffe4cd632961a12295a2ec8650f</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/The-Dessarin-Valley-e1ks2vs</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover The Dessarin Valley and Old Gnaw Bones. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 39.0/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 06 Jul 2022 13:00:47 GMT. Themes: cultures. Publisher description: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover The Dessarin Valley and Old Gnaw Bones. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Design by: Lily Lavin&lt;/strong&gt;&lt;br&gt;
 &lt;str</description>
@@ -630,7 +523,7 @@ D&amp;D 5th Ed Mons</description>
       <title>[The Travel Log] Special Edition: Technology ft. Ken Liu</title>
       <guid isPermaLink="false">fantasy-lore-0e71652c4c0c54517f8e3025d95960b5cbd08f69c44976b87013ca99da89455b</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Special-Edition-Technology-ft--Ken-Liu-e1kjahr</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;The Travel log sets out to explore the world of Faerun. This week, on a special edition, hosts Lily Lavin and Steven Hoffart are joined by the award-winning writer Ken Liu to discuss technology, what it means and how it affects worldbuilding. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 39.0/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 29 Jun 2022 13:00:07 GMT. Themes: cultures. Publisher description: &lt;p&gt;The Travel log sets out to explore the world of Faerun. This week, on a special edition, hosts Lily Lavin and Steven Hoffart are joined by the award-winning writer Ken Liu to discuss technology, what it means and how it affects worldbuilding. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;br&gt;
 Check out Ken's final book in the Dandelion Dynasty series, Speaking Bones, out now! &lt;br&gt;</description>
       <pubDate>Wed, 29 Jun 2022 13:00:07 GMT</pubDate>
       <enclosure url="https://anchor.fm/s/66ad0ab4/podcast/play/54159355/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-29%2F4c64b115-e96b-8a02-2581-7924df2f4a62.mp3" length="135702351" type="audio/mpeg" />
@@ -642,7 +535,7 @@ Check out Ken's final book in the Dandelion Dynasty series, Speaking Bones, out 
       <title>[The Travel Log] Red Larch</title>
       <guid isPermaLink="false">fantasy-lore-a3d7a8296c0bda7b1544238baf1f1850a2de949595f58b8243cd1826e48df250</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Red-Larch-e1jbdpu</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Red Larch and the Sumber Hills. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 37.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 01 Jun 2022 13:00:52 GMT. Themes: cultures. Publisher description: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Red Larch and the Sumber Hills. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;br&gt;
 Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;br&gt;
 Logo Design by: Lily Lavin&lt;br&gt;
 Logo Text by: Lizbeth Poirier&lt;br&gt;
@@ -657,7 +550,7 @@ Follow us @DndTravellog on Tw</description>
       <title>[The Travel Log] Goldenfields</title>
       <guid isPermaLink="false">fantasy-lore-ac6c884e59880763bcbc5c8a4869d29f7bec5ec5a14b6b8cafda2872dd91e280</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Goldenfields-e1j1jqg</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the High Flagon and Goldenfields/. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 37.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 25 May 2022 13:03:13 GMT. Themes: cultures. Publisher description: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the High Flagon and Goldenfields/. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Design by: Lily Lavin&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;L</description>
@@ -671,7 +564,7 @@ Follow us @DndTravellog on Tw</description>
       <title>[The Travel Log] Amphail</title>
       <guid isPermaLink="false">fantasy-lore-51184f3c07d65a3ee074c971c02020f4a454cc2e0f7146ace13cf2bf7ec91f4f</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Amphail-e1il7j3</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Undercliff and Amphail. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 37.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 18 May 2022 13:00:31 GMT. Themes: cultures. Publisher description: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Undercliff and Amphail. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Design by: Lily Lavin&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Text by</description>
@@ -685,7 +578,7 @@ Follow us @DndTravellog on Tw</description>
       <title>[The Travel Log] Skullport</title>
       <guid isPermaLink="false">fantasy-lore-57016635427b05f84e215fa8159ab516de2d58e5616753db874d649e9e042c9a</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Skullport-e1i8b3q</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Skullport. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 37.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 11 May 2022 13:00:55 GMT. Themes: cultures. Publisher description: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Skullport. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Design by: Lily Lavin&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Text by: Lizbeth Poi</description>
@@ -699,7 +592,7 @@ Follow us @DndTravellog on Tw</description>
       <title>[The Travel Log] Dungeons of Waterdeep</title>
       <guid isPermaLink="false">fantasy-lore-c5fa0fb3491f24323b421761f594a40e5643f803ed24bcc25f2d3c128b25ca80</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Dungeons-of-Waterdeep-e1hvtbe</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: gm, cultures. Original publisher episode: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the various Dungeons and hidden adventure areas of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 37.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 04 May 2022 13:00:13 GMT. Themes: gm, cultures. Publisher description: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the various Dungeons and hidden adventure areas of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;br&gt;
 Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;br&gt;
 Logo Design by: Lily Lavin&lt;br&gt;
 Logo Text by: Lizbeth Poirier&lt;br&gt;</description>
@@ -713,7 +606,7 @@ Logo Text by: Lizbeth Poirier&lt;br&gt;</description>
       <title>[The Travel Log] Waterdeep - Sea Ward</title>
       <guid isPermaLink="false">fantasy-lore-13a956c0fa5fe4681f398a8b4f37f25f87c845e7c314a06a486732318291514b</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Waterdeep---Sea-Ward-e1hne3u</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the Sea Ward of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 37.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 27 Apr 2022 13:00:50 GMT. Themes: cultures. Publisher description: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the Sea Ward of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;br&gt;
 Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;br&gt;
 Logo Design by: Lily Lavin&lt;br&gt;
 Logo Text by: Lizbeth Poirier&lt;br&gt;
@@ -728,7 +621,7 @@ Follow us @DndTravellog on Twitter</description>
       <title>[The Travel Log] Waterdeep - North Ward</title>
       <guid isPermaLink="false">fantasy-lore-c9eea87fb160bb0aa60d629455ed70fb9f9fbaa450c4fbf831ae593c8e2cc4b8</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Waterdeep---North-Ward-e1haggf</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the North Ward of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 37.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 20 Apr 2022 13:00:00 GMT. Themes: cultures. Publisher description: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the North Ward of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Design by: Lily Lavin&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Te</description>
@@ -742,7 +635,7 @@ Follow us @DndTravellog on Twitter</description>
       <title>[The Travel Log] Mount Waterdeep</title>
       <guid isPermaLink="false">fantasy-lore-2503d6b32ebb2189a10572770f652591489db5f88756b48a7c9a03a5eb103330</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Mount-Waterdeep-e1h3rm9</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Mount Waterdeep, The Walking Statues and the City of the Dead. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 39.0/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 13 Apr 2022 13:00:00 GMT. Themes: cultures. Publisher description: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Mount Waterdeep, The Walking Statues and the City of the Dead. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;br&gt;
 Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;br&gt;
 Logo Design by: Lily Lavin&lt;br&gt;
 Logo Text by: Lizbeth Poirier&lt;br</description>
@@ -756,7 +649,7 @@ Logo Text by: Lizbeth Poirier&lt;br</description>
       <title>[The Travel Log] Waterdeep - Castle Ward - Part 2</title>
       <guid isPermaLink="false">fantasy-lore-9bfb1a47fc0944be877e1bfb580619ac9c972350280c033a8f039b8ad73bfc94</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Waterdeep---Castle-Ward---Part-2-e1gpo8p</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the Castle Ward focusing on the political powers of Waterdeep Castle Ward. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep. &lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 38.5/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 06 Apr 2022 13:00:00 GMT. Themes: cultures. Publisher description: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the Castle Ward focusing on the political powers of Waterdeep Castle Ward. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep. &lt;br&gt;
 Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/) &lt;br&gt;
 Logo Design by: Lily Lavin&lt;br&gt;
  Logo Text by: Liz</description>
@@ -770,7 +663,7 @@ Logo Design by: Lily Lavin&lt;br&gt;
       <title>[The Travel Log] Waterdeep - Castle Ward - Part 1</title>
       <guid isPermaLink="false">fantasy-lore-08e3f478b7012c7c1dbff067759ac084f0564a6cef2b792a53f834cabe5d1d99</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Waterdeep---Castle-Ward---Part-1-e1gb33j</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the Castle Ward focusing on the magical groups of Waterdeep Castle Ward. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep. 
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 38.5/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 30 Mar 2022 17:48:45 GMT. Themes: cultures. Publisher description: The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the Castle Ward focusing on the magical groups of Waterdeep Castle Ward. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep. 
 Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/) 
 Logo Design by: Lily Lavin 
 Logo Text by: Lizbeth Poirier 
@@ -785,7 +678,7 @@ Fol</description>
       <title>[The Travel Log] Waterdeep - Trades Ward</title>
       <guid isPermaLink="false">fantasy-lore-c2408149edc8243915e24a7039172d8c25688752b12b58b91b6b81df25982eb7</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Waterdeep---Trades-Ward-e1fp7kn</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the Trade Ward of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 37.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 23 Mar 2022 13:00:00 GMT. Themes: cultures. Publisher description: The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the Trade Ward of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.
 Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)
 Logo Design by: Lily Lavin
 Logo Text by: Lizbeth Poirier
@@ -800,7 +693,7 @@ Follow us @DndTravellog on Twitter. And @Awweheck o</description>
       <title>[The Travel Log] Waterdeep - South Ward</title>
       <guid isPermaLink="false">fantasy-lore-7d38b5cd60ce509e6588fba7b1a2381d3e280aba4d92681cab548faf350c3be1</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Waterdeep---South-Ward-e1fh2k3</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the South Ward of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 37.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 16 Mar 2022 13:00:00 GMT. Themes: cultures. Publisher description: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the South Ward of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Design by: Lily Lavin&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Logo Te</description>
@@ -814,7 +707,7 @@ Follow us @DndTravellog on Twitter. And @Awweheck o</description>
       <title>[The Travel Log] Waterdeep - Dock Ward</title>
       <guid isPermaLink="false">fantasy-lore-7afd43fd2a725da48cccbd7c733740f03e7e0b41e1cbb63c8e58c901257d3df1</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Waterdeep---Dock-Ward-e1f3bia</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the Dock Ward of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 37.2/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 09 Mar 2022 14:00:00 GMT. Themes: cultures. Publisher description: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the Dock Ward of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;br&gt;
 Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;br&gt;
 Logo Design by: Lily Lavin&lt;br&gt;
 Logo Text by: Lizbeth Poirier&lt;br&gt;
@@ -829,7 +722,7 @@ Follow us @DndTravellog on Twitte</description>
       <title>[The Travel Log] History of Waterdeep</title>
       <guid isPermaLink="false">fantasy-lore-a037dcdeba021ab8cffcb77e6190020a75817f03a07438ea9a93d114960f777e</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/History-of-Waterdeep-e1f3711</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures, gm. Original publisher episode: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the History of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep. &lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 47.8/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 02 Mar 2022 14:00:00 GMT. Themes: cultures, gm. Publisher description: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the History of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep. &lt;br&gt;
 &lt;br&gt;
 Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/) &lt;br&gt;
 Logo Design by: Lily Lavin &lt;br&gt;
@@ -845,7 +738,7 @@ Follow us @DndTrav</description>
       <title>[The Travel Log] Ardeep Forest and Forlorn Hills</title>
       <guid isPermaLink="false">fantasy-lore-3709246e72e8cbd6b790c99fc5c2c0c3731b5c7c41668ccd6d6dc74592a97e1d</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Ardeep-Forest-and-Forlorn-Hills-e1epe96</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures. Original publisher episode: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Ardeep Forest and Forlorn Hills. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep. &lt;br&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 46.0/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 23 Feb 2022 13:26:01 GMT. Themes: cultures. Publisher description: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Ardeep Forest and Forlorn Hills. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep. &lt;br&gt;
 Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/) &lt;br&gt;
 Logo Design by: Lily Lavin &lt;br&gt;
 Logo Text by: Lizbeth Poirier &lt;br&gt;
@@ -860,7 +753,7 @@ Follow us @DndTravellog </description>
       <title>[Monster Man] Episode 397: Elf, Drow</title>
       <guid isPermaLink="false">fantasy-lore-79bcc04689d24f6a9196f62fcb91d16edf3cca66635ffcd4818c8ab2af40bb3e</guid>
       <link>https://monsterman.libsyn.com/episode-397-elf-drow</link>
-      <description>From Monster Man — James Holloway. Themes: cultures, creatures. Original publisher episode: &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="7b58o" data-offset-key="8jhhp-0-0"&gt; &lt;div class= "public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="8jhhp-0-0"&gt;&lt;span data-offset-key="8jhhp-0-0"&gt;In today's episode, I attempt to like the edgiest elves. No swears, but there might be a bleep in there.&lt;/span&gt;&lt;/div&gt; &lt;/div&gt; &lt;p&gt;If you're enjoying the show, why not consider &lt;a href= "https://www.patreon.com/monsterman"&gt;supportin</description>
+      <description>From Monster Man — James Holloway. Kind: lore. Editorial algorithm score (not listener episode rating): 45.5/100. Show-level Apple US rating: 4.8/5. Original publisher date: Mon, 29 Nov 2021 23:55:10 +0000. Themes: cultures, creatures. Publisher description: &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="7b58o" data-offset-key="8jhhp-0-0"&gt; &lt;div class= "public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="8jhhp-0-0"&gt;&lt;span data-offset-key="8jhhp-0-0"&gt;In today's episode, I attempt to like the edgiest elves. No swears, but there might be a bleep in there.&lt;/span&gt;&lt;/div&gt; &lt;/div&gt; &lt;p&gt;If you're enjoying the show, why not consider &lt;a href= "https://www.patreon.com/monsterman"&gt;supportin</description>
       <pubDate>Mon, 29 Nov 2021 23:55:10 +0000</pubDate>
       <enclosure url="https://traffic.libsyn.com/secure/monsterman/monsterman397.mp3?dest-id=572259" length="18203403" type="audio/mpeg" />
       <itunes:duration>16:02</itunes:duration>
@@ -871,7 +764,7 @@ Follow us @DndTravellog </description>
       <title>[Monsters &amp; Multiclass] Drakewarden Review! Fizban's Treasury of Dragons</title>
       <guid isPermaLink="false">fantasy-lore-c72c327bec09800469867bfde0faee1a20bbec51b33232afc495463242ba4baf</guid>
       <link>https://www.buzzsprout.com/222686/episodes</link>
-      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Themes: creatures, cultures. Original publisher episode: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;On this episode of Monsters &amp;amp; Multiclass Kevin, Will, and Jarred will discuss the new Ranger subclass, the Drakewarden, added in Fizban&amp;apos;s Treasury of Dragons.&lt;br/&gt;&lt;br/&gt;Metallic Dice Games (use code MM10) - https://metallicdicegames.com/&lt;br/&gt;&lt;br/&gt;Support the show: https://monstersandmulticlass.com/support&lt;br/&gt;&lt;br/&gt;Intro music by @Thisisbardcore. https://twitter.com/thisisbardcore&lt;br/&gt;&lt;b</description>
+      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Kind: lore. Editorial algorithm score (not listener episode rating): 45.2/100. Show-level Apple US rating: 4.9/5. Original publisher date: Tue, 26 Oct 2021 10:00:00 -0400. Themes: creatures, cultures. Publisher description: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;On this episode of Monsters &amp;amp; Multiclass Kevin, Will, and Jarred will discuss the new Ranger subclass, the Drakewarden, added in Fizban&amp;apos;s Treasury of Dragons.&lt;br/&gt;&lt;br/&gt;Metallic Dice Games (use code MM10) - https://metallicdicegames.com/&lt;br/&gt;&lt;br/&gt;Support the show: https://monstersandmulticlass.com/support&lt;br/&gt;&lt;br/&gt;Intro music by @Thisisbardcore. https://twitter.com/thisisbardcore&lt;br/&gt;&lt;b</description>
       <pubDate>Tue, 26 Oct 2021 10:00:00 -0400</pubDate>
       <enclosure url="https://www.buzzsprout.com/222686/episodes/9436739-drakewarden-review-fizban-s-treasury-of-dragons.mp3" length="51783051" type="audio/mpeg" />
       <itunes:duration>4303</itunes:duration>
@@ -882,7 +775,7 @@ Follow us @DndTravellog </description>
       <title>[Monster Man] Special Episode: Guild Build monsters</title>
       <guid isPermaLink="false">fantasy-lore-4c1a5a7349cd3a067bac85eb37e81dfe78f377a12fea91075908e87f77bd3b0e</guid>
       <link>https://monsterman.libsyn.com/special-episode-guild-build-monsters</link>
-      <description>From Monster Man — James Holloway. Themes: creatures, cultures. Original publisher episode: &lt;p&gt;&lt;span data-offset-key="7bm3t-0-0"&gt;Patreon backer Nathan brings you an episode all about t&lt;/span&gt;&lt;a class= "_4X_-components-SimpleRichTextEditor-components-LinkSpan--linkSpan" href= "https://www.youtube.com/watch?v=RQZKD_5e2iY"&gt;&lt;span data-offset-key="7bm3t-1-0"&gt;he creatures of the September 2019 Guild Build&lt;/span&gt;&lt;/a&gt;&lt;span data-offset-key="7bm3t-2-0"&gt;! The Facebook group I talk about in this episode is the&lt;/span&gt; &lt;a class= "_4X_-components-SimpleRichTextEditor-components-LinkSpan--linkSpan" hr</description>
+      <description>From Monster Man — James Holloway. Kind: lore. Editorial algorithm score (not listener episode rating): 45.5/100. Show-level Apple US rating: 4.8/5. Original publisher date: Thu, 16 Sep 2021 21:24:15 +0000. Themes: creatures, cultures. Publisher description: &lt;p&gt;&lt;span data-offset-key="7bm3t-0-0"&gt;Patreon backer Nathan brings you an episode all about t&lt;/span&gt;&lt;a class= "_4X_-components-SimpleRichTextEditor-components-LinkSpan--linkSpan" href= "https://www.youtube.com/watch?v=RQZKD_5e2iY"&gt;&lt;span data-offset-key="7bm3t-1-0"&gt;he creatures of the September 2019 Guild Build&lt;/span&gt;&lt;/a&gt;&lt;span data-offset-key="7bm3t-2-0"&gt;! The Facebook group I talk about in this episode is the&lt;/span&gt; &lt;a class= "_4X_-components-SimpleRichTextEditor-components-LinkSpan--linkSpan" hr</description>
       <pubDate>Thu, 16 Sep 2021 21:24:15 +0000</pubDate>
       <enclosure url="https://traffic.libsyn.com/secure/monsterman/guildbuildspecial.mp3?dest-id=572259" length="26609847" type="audio/mpeg" />
       <itunes:duration>24:02</itunes:duration>
@@ -893,7 +786,7 @@ Follow us @DndTravellog </description>
       <title>[The Travel Log] The Dragon Coast</title>
       <guid isPermaLink="false">fantasy-lore-ecae1d3787e257628af924296dfd3de566e6c80f844ac08eee6931c50b0e5fd2</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/The-Dragon-Coast-e172b1l</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: creatures, cultures. Original publisher episode: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Teziir, Elversult, and Easting. We try to provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/p&gt;
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 46.6/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 08 Sep 2021 12:00:00 GMT. Themes: creatures, cultures. Publisher description: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover Teziir, Elversult, and Easting. We try to provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;/p&gt;
 &lt;p&gt;Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;br&gt;
 Logo by: Lily Lavin&lt;/p&gt;
 &lt;p&gt;Follow us @&lt;a href="https://soundcloud.com/DndTravellog" re</description>
@@ -907,7 +800,7 @@ Logo by: Lily Lavin&lt;/p&gt;
       <title>[The Travel Log] Adventures in the Forgotten Realms Lands</title>
       <guid isPermaLink="false">fantasy-lore-7087af778d616d5357ff8aa76d395ce418a4cabc48723ac1dce148473192c8b6</guid>
       <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Adventures-in-the-Forgotten-Realms-Lands-e15ghpl</link>
-      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: gm, cultures. Original publisher episode: The Travel log sets out to explore the world of Faerun, week by week, town by town. Host Steven Hoffart and guest Kyle from Tasty Doom cover the locations depicted on the lands from the Magic the Gathering DND set, Adventures in the Forgotten Realms. We try to provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Kind: lore. Editorial algorithm score (not listener episode rating): 42.0/100. Show-level Apple US rating: 4.7/5. Original publisher date: Wed, 04 Aug 2021 13:43:08 GMT. Themes: gm, cultures. Publisher description: The Travel log sets out to explore the world of Faerun, week by week, town by town. Host Steven Hoffart and guest Kyle from Tasty Doom cover the locations depicted on the lands from the Magic the Gathering DND set, Adventures in the Forgotten Realms. We try to provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.
 
 Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)
 Logo b</description>
@@ -921,7 +814,7 @@ Logo b</description>
       <title>[Monster Man] Special Episode: Monsters of Warhammer Fantasy Roleplay</title>
       <guid isPermaLink="false">fantasy-lore-aca71506c08450bd9470a66706f1dce2505f4e9e564f344eb2c531fa9eb7dfbd</guid>
       <link>https://monsterman.libsyn.com/special-episode-monsters-of-warhammer-fantasy-roleplay</link>
-      <description>From Monster Man — James Holloway. Themes: creatures, cultures, gm. Original publisher episode: &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="2392o" data-offset-key="n6f9-0-0"&gt; Patreon backer Stan brings you this special episode all about the creatures of the definitive British RPG of the mid-80s!&lt;/div&gt; &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="2392o" data-offset-key="n6f9-0-0"&gt;  &lt;/div&gt; &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-edito</description>
+      <description>From Monster Man — James Holloway. Kind: lore. Editorial algorithm score (not listener episode rating): 48.1/100. Show-level Apple US rating: 4.8/5. Original publisher date: Tue, 18 May 2021 22:17:24 +0000. Themes: creatures, cultures, gm. Publisher description: &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="2392o" data-offset-key="n6f9-0-0"&gt; Patreon backer Stan brings you this special episode all about the creatures of the definitive British RPG of the mid-80s!&lt;/div&gt; &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="2392o" data-offset-key="n6f9-0-0"&gt;  &lt;/div&gt; &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-edito</description>
       <pubDate>Tue, 18 May 2021 22:17:24 +0000</pubDate>
       <enclosure url="https://traffic.libsyn.com/secure/monsterman/whfrpspecial.mp3?dest-id=572259" length="24878962" type="audio/mpeg" />
       <itunes:duration>22:13</itunes:duration>
@@ -929,21 +822,10 @@ Logo b</description>
       <source url="https://monsterman.libsyn.com/rss">Monster Man</source>
     </item>
     <item>
-      <title>[The Silt Verses] Chapter 7: It Carries Few, It Drowns Many</title>
-      <guid isPermaLink="false">fantasy-lore-263577ab6edab43b98269722f2e6506dc5ab6133a0da94cb1a48e290163e7d21</guid>
-      <link>https://www.thesiltverses.com/listen-now</link>
-      <description>From The Silt Verses — Eskew Productions. Themes: cultures. Original publisher episode: &lt;p&gt;Across the border on the Linger Straits, a young advertising executive finds herself increasingly at odds with her company's change programme.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Contains scenes of mass death, sacrifice, and abduction.&lt;/p&gt;&lt;hr&gt;&lt;p style='color:grey; font-size:0.75em;'&gt; Hosted on Acast. See &lt;a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'&gt;acast.com/privacy&lt;/a&gt; for more information.&lt;/p&gt;</description>
-      <pubDate>Mon, 05 Apr 2021 08:08:15 GMT</pubDate>
-      <enclosure url="https://sphinx.acast.com/p/open/s/5fec690f8211cf453a1b89e2/e/606ac570f94283370ed1b6ca/media.mp3" length="122347165" type="audio/mpeg" />
-      <itunes:duration>50:58</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <source url="https://access.acast.com/rss/5fec690f8211cf453a1b89e2/">The Silt Verses</source>
-    </item>
-    <item>
       <title>[Monster Man] Special Episode: The Underdark</title>
       <guid isPermaLink="false">fantasy-lore-018dd5923080c53883d282db978495e945b4986f321b4d0046b4ff2f6dff8002</guid>
       <link>https://monsterman.libsyn.com/special-episode-the-underdark</link>
-      <description>From Monster Man — James Holloway. Themes: cultures, creatures. Original publisher episode: &lt;p&gt;It's more of a place than a monster, but never mind that! Patreon backer Jeppe requests a closer look at D&amp;D's meta-dungeon and the ways we can make it cool.&lt;/p&gt; &lt;p&gt;If you're enjoying the show, why not consider &lt;a href= "https://www.patreon.com/monsterman"&gt;supporting it on Patreon&lt;/a&gt;? You'll get access to lots of new bonus content, including my other podcast, Patron Deities!&lt;/p&gt; &lt;p&gt;Thanks to &lt;a href="http://rayotus.com/"&gt;Ray Otus&lt;/a&gt; for our thumbnail image. The intro music is a clip from "S</description>
+      <description>From Monster Man — James Holloway. Kind: lore. Editorial algorithm score (not listener episode rating): 46.8/100. Show-level Apple US rating: 4.8/5. Original publisher date: Thu, 07 Jan 2021 10:09:32 +0000. Themes: cultures, creatures. Publisher description: &lt;p&gt;It's more of a place than a monster, but never mind that! Patreon backer Jeppe requests a closer look at D&amp;D's meta-dungeon and the ways we can make it cool.&lt;/p&gt; &lt;p&gt;If you're enjoying the show, why not consider &lt;a href= "https://www.patreon.com/monsterman"&gt;supporting it on Patreon&lt;/a&gt;? You'll get access to lots of new bonus content, including my other podcast, Patron Deities!&lt;/p&gt; &lt;p&gt;Thanks to &lt;a href="http://rayotus.com/"&gt;Ray Otus&lt;/a&gt; for our thumbnail image. The intro music is a clip from "S</description>
       <pubDate>Thu, 07 Jan 2021 10:09:32 +0000</pubDate>
       <enclosure url="https://traffic.libsyn.com/secure/monsterman/underdarkspecial.mp3?dest-id=572259" length="25772036" type="audio/mpeg" />
       <itunes:duration>23:12</itunes:duration>
@@ -954,7 +836,7 @@ Logo b</description>
       <title>[Dragon Talk — Lore You Should Know] Dragon Talk: Jasmine Bhullar, LYSK on Psi Warriors and Warlock Genie Patrons</title>
       <guid isPermaLink="false">fantasy-lore-bba8cc599013e7998ad0a6a4f8d1cf1bb08763ec3c4fadfe02373abf830a3ed7</guid>
       <link>https://share.transistor.fm/s/fed1fdd2</link>
-      <description>From Dragon Talk — Lore You Should Know — Wizards of the Coast. Themes: creatures, cultures. Original publisher episode: &lt;p&gt;Greg &amp;amp; Shelly get you up to speed with the D&amp;amp;D Holiday Specials, Heroes' Feast, D&amp;amp;D news and the announcement of the forthcoming Dragon Talk book! Afterwards, Adam Lee returns for another Lore You Should Know, this week talking about the subclasses of Psi Warriors and Warlock Genie Patrons. For this week's special interview, we are thrilled to be joined by actress, internet personality and content creator Jasmine Bhullar! Dragon Talk is executively produced by Greg Tito, Shelly Ma</description>
+      <description>From Dragon Talk — Lore You Should Know — Wizards of the Coast. Kind: lore. Editorial algorithm score (not listener episode rating): 44.9/100. Show-level Apple US rating: 4.3/5. Original publisher date: Thu, 10 Dec 2020 16:00:00 -0800. Themes: creatures, cultures. Publisher description: &lt;p&gt;Greg &amp;amp; Shelly get you up to speed with the D&amp;amp;D Holiday Specials, Heroes' Feast, D&amp;amp;D news and the announcement of the forthcoming Dragon Talk book! Afterwards, Adam Lee returns for another Lore You Should Know, this week talking about the subclasses of Psi Warriors and Warlock Genie Patrons. For this week's special interview, we are thrilled to be joined by actress, internet personality and content creator Jasmine Bhullar! Dragon Talk is executively produced by Greg Tito, Shelly Ma</description>
       <pubDate>Thu, 10 Dec 2020 16:00:00 -0800</pubDate>
       <enclosure url="https://media.transistor.fm/fed1fdd2/9df692d5.mp3" length="90360970" type="audio/mpeg" />
       <itunes:duration>5647</itunes:duration>
@@ -965,7 +847,7 @@ Logo b</description>
       <title>[Dragon Talk — Lore You Should Know] Dragon Talk: Celeste Conowitch and Ashley Warren, LYSK on Reghed Nomads</title>
       <guid isPermaLink="false">fantasy-lore-15e08bdf37bf235ed30f1db6b7fa9a08a19c4bd239bead1838c98e91760d89ec</guid>
       <link>https://share.transistor.fm/s/5adc7c32</link>
-      <description>From Dragon Talk — Lore You Should Know — Wizards of the Coast. Themes: creatures, cultures. Original publisher episode: &lt;p&gt;Bundle up for a very frosty edition of Dragon Talk as Greg and Shelly celebrate the official release of Icewind Dale: Rime Of The Frostmaiden in our news and introductions, as well as make sure you're in the know for D&amp;amp;D Celebration and more! In this week's edition of Lore You Should Know, Chris Perkins keeps things icy talking Reghed Nomads. For our special interview this week, we are joined by TWO special guests who tell us all about their time co-authoring Icewind Dale: Rime Of The Fro</description>
+      <description>From Dragon Talk — Lore You Should Know — Wizards of the Coast. Kind: lore. Editorial algorithm score (not listener episode rating): 51.9/100. Show-level Apple US rating: 4.3/5. Original publisher date: Thu, 17 Sep 2020 12:00:00 -0700. Themes: creatures, cultures. Publisher description: &lt;p&gt;Bundle up for a very frosty edition of Dragon Talk as Greg and Shelly celebrate the official release of Icewind Dale: Rime Of The Frostmaiden in our news and introductions, as well as make sure you're in the know for D&amp;amp;D Celebration and more! In this week's edition of Lore You Should Know, Chris Perkins keeps things icy talking Reghed Nomads. For our special interview this week, we are joined by TWO special guests who tell us all about their time co-authoring Icewind Dale: Rime Of The Fro</description>
       <pubDate>Thu, 17 Sep 2020 12:00:00 -0700</pubDate>
       <enclosure url="https://media.transistor.fm/5adc7c32/b9e2ad2d.mp3" length="89257847" type="audio/mpeg" />
       <itunes:duration>5578</itunes:duration>
@@ -976,7 +858,7 @@ Logo b</description>
       <title>[Dragon Talk — Lore You Should Know] Dragon Talk: Omega Jones, Lore You Should Know on Ten Towns</title>
       <guid isPermaLink="false">fantasy-lore-22f92f8da016816a7a63da406b6e1d71fe3917b85d992e3865fc43e14581e78f</guid>
       <link>https://share.transistor.fm/s/44e9e96d</link>
-      <description>From Dragon Talk — Lore You Should Know — Wizards of the Coast. Themes: creatures, cultures. Original publisher episode: &lt;p&gt;We've got a lot of news to cover in our introductions, including D&amp;amp;D Celebtration, Tasha's Cauldron Of Everything, Curse Of Strahd Revamped and more! Later, the mighty Chris Perkins returns for an Icewind Dale: Rime Of The Frostmaiden edition of Lore You Should Know, talking all things Ten Towns. Our special guest this week is actor, vocalist and TTRPG content creator, the Critical Bard Omega Jones! Dragon Talk is executively produced by Greg Tito, Shelly Mazzanoble &amp;amp; Wizards of The C</description>
+      <description>From Dragon Talk — Lore You Should Know — Wizards of the Coast. Kind: lore. Editorial algorithm score (not listener episode rating): 44.9/100. Show-level Apple US rating: 4.3/5. Original publisher date: Thu, 10 Sep 2020 12:00:00 -0700. Themes: creatures, cultures. Publisher description: &lt;p&gt;We've got a lot of news to cover in our introductions, including D&amp;amp;D Celebtration, Tasha's Cauldron Of Everything, Curse Of Strahd Revamped and more! Later, the mighty Chris Perkins returns for an Icewind Dale: Rime Of The Frostmaiden edition of Lore You Should Know, talking all things Ten Towns. Our special guest this week is actor, vocalist and TTRPG content creator, the Critical Bard Omega Jones! Dragon Talk is executively produced by Greg Tito, Shelly Mazzanoble &amp;amp; Wizards of The C</description>
       <pubDate>Thu, 10 Sep 2020 12:00:00 -0700</pubDate>
       <enclosure url="https://media.transistor.fm/44e9e96d/f520d8d5.mp3" length="106701536" type="audio/mpeg" />
       <itunes:duration>6668</itunes:duration>
@@ -987,7 +869,7 @@ Logo b</description>
       <title>[Monsters &amp; Multiclass] Sorcerer/Warlock and the Bheur Hag (Hags Part 2)</title>
       <guid isPermaLink="false">fantasy-lore-abbdda9798990fbbd0e83c702c7b4081a1f2d9e54b93879207867126ca46b6b8</guid>
       <link>https://www.buzzsprout.com/222686/episodes</link>
-      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Themes: creatures, cultures. Original publisher episode: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;On this episode of Monsters and Multiclass Kevin, Will, and Jarred will discuss the Sorcerer/Warlock multiclass and Hags, Part 2, from Volo&amp;apos;s Guide to Monsters. Also don&amp;apos;t forget about greedy role players.&lt;/p&gt;&lt;p&gt;&lt;a rel="payment" href="https://www.patreon.com/monstersandmulticlass"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
+      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Kind: lore. Editorial algorithm score (not listener episode rating): 38.2/100. Show-level Apple US rating: 4.9/5. Original publisher date: Thu, 14 Feb 2019 00:00:00 -0500. Themes: creatures, cultures. Publisher description: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;On this episode of Monsters and Multiclass Kevin, Will, and Jarred will discuss the Sorcerer/Warlock multiclass and Hags, Part 2, from Volo&amp;apos;s Guide to Monsters. Also don&amp;apos;t forget about greedy role players.&lt;/p&gt;&lt;p&gt;&lt;a rel="payment" href="https://www.patreon.com/monstersandmulticlass"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
       <pubDate>Thu, 14 Feb 2019 00:00:00 -0500</pubDate>
       <enclosure url="https://www.buzzsprout.com/222686/episodes/954181-sorcerer-warlock-and-the-bheur-hag-hags-part-2.mp3" length="33030646" type="audio/mpeg" />
       <itunes:duration>4121</itunes:duration>
@@ -998,38 +880,12 @@ Logo b</description>
       <title>[The Dungeoncast] Monster Mythos: Drow (Dark Elves)- The Dungeoncast Ep.71</title>
       <guid isPermaLink="false">fantasy-lore-9c0110ece948733be977c3be5ed2bfd185ce1da43dee6975bea24e443ea71c8d</guid>
       <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Drow-Dark-Elves--The-Dungeoncast-Ep-71-elg6is</link>
-      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, cultures, magic, gm. Original publisher episode: The ill will of Lolth permeates every facet of this culture down to the absence of love and the worshipping of spiders. Will and Brian are working over the details of Drow sociology this week on The Dungeoncast! This one is a wild ride from start to finish. Talking Points: Heavy Lore, Responsible For Everything, Centaurology, Not Talkin' 'Bout Drizzt, The Murky Matriarchy, Beating The Love Out Of You, All The Treachery And Murder, I Skinned Your Boyfriend, A Plethora Of Spiders, Living In The Sh</description>
+      <description>From The Dungeoncast — Will and Brian / Realm. Kind: lore. Editorial algorithm score (not listener episode rating): 67.9/100. Show-level Apple US rating: 4.9/5. Original publisher date: Mon, 12 Mar 2018 00:21:00 -0000. Themes: creatures, cultures, magic, gm. Publisher description: The ill will of Lolth permeates every facet of this culture down to the absence of love and the worshipping of spiders. Will and Brian are working over the details of Drow sociology this week on The Dungeoncast! This one is a wild ride from start to finish. Talking Points: Heavy Lore, Responsible For Everything, Centaurology, Not Talkin' 'Bout Drizzt, The Murky Matriarchy, Beating The Love Out Of You, All The Treachery And Murder, I Skinned Your Boyfriend, A Plethora Of Spiders, Living In The Sh</description>
       <pubDate>Mon, 12 Mar 2018 00:21:00 -0000</pubDate>
-      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU6826734017.mp3?updated=1716410091" length="51064929" type="audio/mpeg" />
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU6826734017.mp3?updated=1716410091" length="51062839" type="audio/mpeg" />
       <itunes:duration>2432</itunes:duration>
       <itunes:explicit>yes</itunes:explicit>
       <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
-    </item>
-    <item>
-      <title>[The Once and Future Nerd] We’re Finalists in the 2015 AudioVerse Awards!</title>
-      <guid isPermaLink="false">fantasy-lore-e2d01b1666f8a1ca53a25a26103ff433813076648cb5004d05f7913a32c48272</guid>
-      <link>https://onceandfuturenerd.com/2015/11/01/were-finalists-in-the-2015-audioverse-awards/</link>
-      <description>From The Once and Future Nerd — Glass &amp; Madera. Themes: cultures. Original publisher episode: &lt;p&gt;Thanks so much to everyone who voted in Round 1 of the 2015 AudioVerse Awards. Thanks to you, we are now FINALISTS in EVERY CATEGORY for which we were eligible.&lt;/p&gt;
-&lt;p style="padding-left: 30px;"&gt;&lt;b&gt;Best Original Composition in an Original, Short-Form Production&lt;/b&gt;&amp;#160;&amp;#8211; Tom Lee&lt;br /&gt;
-&lt;b&gt;Best Audio Engineering for an Original, Short-Form, Serial Production&lt;/b&gt;&amp;#160;&amp;#8211;&amp;#160;Brian Forbes, Sam Palumbo, Christian Madera, Josh Perault, and Sandra Ramirez&lt;br /&gt;
-&lt;b&gt;Best Writing of an Or</description>
-      <pubDate>Sun, 01 Nov 2015 23:29:12 +0000</pubDate>
-      <enclosure url="https://media.blubrry.com/toafn/content.blubrry.com/toafn/TOAFN_AnnouncementE06_2015_AudioVerseFinalists.mp3" length="2529158" type="audio/mpeg" />
-      <itunes:duration>3:51</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <source url="https://onceandfuturenerd.com/feed/podcast">The Once and Future Nerd</source>
-    </item>
-    <item>
-      <title>[The Once and Future Nerd] Voting is open for the Geekie Awards!</title>
-      <guid isPermaLink="false">fantasy-lore-43ea896361625393e69622fddadb88a50f37e14e137d50272b5b98ca5fc180a9</guid>
-      <link>https://onceandfuturenerd.com/2015/08/10/voting-is-open-for-the-geekie-awards/</link>
-      <description>From The Once and Future Nerd — Glass &amp; Madera. Themes: cultures. Original publisher episode: &lt;p&gt;As we mentioned &lt;a href="http://onceandfuturenerd.com/2015/07/17/honored-to-be-geekie-awards-nominees/" target="_blank" rel="noopener"&gt;before&lt;/a&gt;, we are honored to nominees for Best Podcast in the 2015 Geekie Awards.&amp;#160;Well, the Awards are now open to a PUBLIC VOTE to determine who gets to take home a statue.&lt;/p&gt;
-&lt;p&gt;If you would like to vote, just go to &lt;a href="http://vote2015.thegeekieawards.com/" target="_blank" rel="noopener"&gt;http://vote2015.thegeekieawards.com/&lt;/a&gt;&amp;#160;. No sign-in </description>
-      <pubDate>Tue, 11 Aug 2015 02:45:50 +0000</pubDate>
-      <enclosure url="https://media.blubrry.com/toafn/content.blubrry.com/toafn/TOAFN_AnnouncementE04_GeekieAwardsVoting.mp3" length="1408996" type="audio/mpeg" />
-      <itunes:duration>1:50</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <source url="https://onceandfuturenerd.com/feed/podcast">The Once and Future Nerd</source>
     </item>
   </channel>
 </rss>
