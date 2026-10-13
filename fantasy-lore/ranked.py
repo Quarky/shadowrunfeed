@@ -89,7 +89,9 @@ def rank(entries, config):
     limit=min(len(story),len(lore),config["ranking"]["max_pairs"])
     if len(arcs)<2 or limit<6:
         raise RuntimeError(f"Only {len(arcs)} verified story series and {limit} possible pairs")
-    used=set();per_show={};taken=[];seen_themes={}
+    used=set();per_show={};taken=[];seen_themes={}; families={}
+    eligible_lore_sources=set(e["source"]["id"] for e in lore)
+    required_coverage=min(len(eligible_lore_sources),limit)
     for target in story[:limit]:
         target_text=(" ".join([target["item"].findtext("title") or "",
                                 target["source"].get("note",""),
@@ -104,15 +106,35 @@ def rank(entries, config):
             common=sum(term in title and term in target_text for term in
                        ("dragon","fey","faith","god","ritual","horror","monster",
                         "forest","cult","undead","magic","drow","politic","elf","witch"))
-            diversity=3*max(0,3-per_show.get(show,0))
-            category=2*sum(seen_themes.get(t,0)<3 for t in e["themes"])
-            options.append((e["score"]+min(10,2.3*common)+diversity+category,e))
+            # Reward under-represented publishers; penalize repetitive monster
+            # families even when a well-reviewed show has many adjacent hits.
+            n=per_show.get(show,0)
+            unused_sources=sum(per_show.get(k,0)==0 for k in eligible_lore_sources)
+            diversity=(22 if n==0 and unused_sources else 0)+(12 if n==1 else 0)
+            if n>2: diversity-=10*(n-2)
+            family=("dragon" if "dragon" in title else
+                    "god" if any(t in title for t in ("god","goddess","deity","bahamut","lolth")) else
+                    "undead" if any(t in title for t in ("undead","skeleton","lich","death knight")) else
+                    "fey" if any(t in title for t in ("fey","fairy","faerie")) else
+                    "culture" if any(t in title for t in ("city","town","village","hold","cultures","societies","drow")) else
+                    "other")
+            penalty=9*max(0,families.get(family,0)-1)
+            category=4*sum(seen_themes.get(t,0)<2 for t in e["themes"])
+            options.append((e["score"]+min(24,7*common)+diversity+category-penalty,e))
         if not options:break
         best=max(options,key=lambda a:(a[0],a[1]["source"]["id"]))[1]
         taken.append(best)
         used.add(best["item"].find("enclosure").get("url"))
         ident=best["source"]["id"];per_show[ident]=per_show.get(ident,0)+1
         for theme in best["themes"]:seen_themes[theme]=seen_themes.get(theme,0)+1
+        title=(best["item"].findtext("title") or "").casefold()
+        family=("dragon" if "dragon" in title else
+                "god" if any(t in title for t in ("god","goddess","deity","bahamut","lolth")) else
+                "undead" if any(t in title for t in ("undead","skeleton","lich","death knight")) else
+                "fey" if any(t in title for t in ("fey","fairy","faerie")) else
+                "culture" if any(t in title for t in ("city","town","village","hold","cultures","societies","drow")) else
+                "other")
+        families[family]=families.get(family,0)+1
     paired=[]
     for a,b in zip(taken,story):paired.extend([a,b])
     if len(paired)<12:raise RuntimeError("Ranked mix is too thin")
