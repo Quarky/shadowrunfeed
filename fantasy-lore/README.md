@@ -4,13 +4,14 @@ A public, general-purpose fantasy-lore audio library for roleplaying game worldb
 
 ## RSS subscriptions
 
-- **Combined lore anthology:** https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fantasy-lore/feed-v2.xml
+- **Recommended: ranked alternating lore + story:** https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fantasy-lore/feed-v2.xml
+- **Ranked queue alias:** https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fantasy-lore/ranked-feed.xml
 - **Creature ecology:** https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fantasy-lore/creatures.xml
 - **Fantasy cultures and history:** https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fantasy-lore/cultures.xml
 - **Magic, gods and planes:** https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fantasy-lore/magic-planar.xml
 - **Worldbuilding and GM craft:** https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fantasy-lore/worldbuilding.xml
 
-**Publication:** Before subscribing, verify that [status.json](status.json) reports `state: published` and the selected XML file exists. The generator checks for original publisher audio enclosures and valid file lengths; it will not invent missing recordings. To initialize, [run the GitHub Actions workflow](../.github/workflows/update-fantasy-lore-feed.yml) from the Actions tab. The workflow also refreshes once each week. Use your podcast app's **Add by RSS URL** feature; for Podbean, choose **Search → + Add Feed URL**.
+**Publication:** The initial ranked feed was successfully generated with 28 verified publisher-hosted episodes on 2026-10-13; the automated updater may expand or refine that list. Check [current publication status](status.json) and [the episode-by-episode ranked listening list](episode-list.md). The generator checks for actual original publisher audio enclosures and valid lengths. A new builder run refreshes once each week and on catalog/algorithm changes. Use your podcast app's **Add by RSS URL** feature; for Podbean, choose **Search → + Add Feed URL**.
 
 ## Selected podcasts
 
@@ -22,8 +23,13 @@ A public, general-purpose fantasy-lore audio library for roleplaying game worldb
 | [The Travel Log](https://podcasts.apple.com/us/podcast/the-travel-log/id1556137924) | Location and culture studies |
 | [Monsters & Multiclass](https://www.buzzsprout.com/222686/episodes) | Creature powers and encounter ideas, excluding irrelevant class commentary |
 | [Dragon Talk](https://dragontalk.transistor.fm/) | Official *Lore You Should Know* segments where verified in original publisher RSS |
+| [D&D Legends and Lore](https://podcasts.apple.com/us/podcast/d-d-legends-and-lore/id1769219620) | Narratively presented monster, deity and culture lore |
+| [Worlds Beyond Number](https://podcasts.apple.com/us/podcast/worlds-beyond-number/id1670750937) | NPC relationships, characterization, world texture and compelling dialogue |
+| [The Silt Verses](https://podcasts.apple.com/us/podcast/the-silt-verses/id1547222295) | Dramatized religious beliefs, rituals, cults and ordinary characters |
+| [Dark Dice](https://podcasts.apple.com/us/podcast/dark-dice/id1437360249) | Fully performed fantasy encounters and character-driven tension |
+| [The Once and Future Nerd](https://podcasts.apple.com/us/podcast/the-once-and-future-nerd/id711119555) | Drama, society and court dynamics; included only when a continuous publisher-audio arc can be verified |
 
-Selection is thematic, not a quantitative rating or popularity ranking. Published episode counts and omitted sources are recorded in [status.json](status.json).
+The main feed alternates **lore → performed story → lore → performed story**, preserving the original order of consecutive serialized narrative chapters. Lore-only topic subscriptions remain separate. The latest [episode list](episode-list.md) and [machine-readable ranked list](episode-list.json) are published by the automated updater. Show ratings are **not** episode ratings. The transparent algorithm uses 52% episode thematic relevance, 22% storytelling/NPC usefulness, 16% Bayesian-smoothed US Apple show rating, and 10% diversity, plus matching and repeated-topic penalties. Stars and counts are dated editorial snapshots rather than live episode popularity metrics. Episodes must exist in actual publisher feeds with valid HTTPS audio enclosures.
 
 ## Reading references
 
@@ -39,7 +45,7 @@ Selection is thematic, not a quantitative rating or popularity ranking. Publishe
 ## Implementation
 
 - [Catalog](catalog.json): independent podcast publishers, subject filters and reference links.
-- [Feed generator](generate_feed.py): resolves publisher RSS (including Apple Lookup when needed), validates genuine HTTPS audio enclosures, and builds separate themed RSS files.
+- [Feed generator](generate_feed.py) + [ranking code](ranked.py): resolves original publisher RSS, validates HTTPS enclosures, ranks and sequences lore/serial story pairs, and builds themed feeds. Synthetic RSS item dates are used only for listening-order display; original dates remain in metadata.
 - [Weekly GitHub Action](../.github/workflows/update-fantasy-lore-feed.yml): runs independently of the other collection workflows.
 - [Status report](status.json): explicitly distinguishes configured feeds from validated, published files.
 
