@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-10-13",
+  "state": "configured_not_published",
+  "total_episodes": 0,
+  "feeds": {},
+  "sources": [],
+  "publisher_audio_rehosted": false,
+  "warnings": [
+    "GitHub Actions must complete the initial publisher RSS/enclosure verification before any subscription feed is considered published."
+  ],
+  "next_step": "GitHub Actions → Update Magudonya lore podcast RSS → Run workflow on main; the workflow commits feed-v2.xml, theme feeds, artwork and the replacement status.json after validation."
+}
