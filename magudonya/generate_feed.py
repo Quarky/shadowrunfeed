@@ -5,7 +5,7 @@ No recorded audio is downloaded, uploaded, modified or rehosted.
 Each source is independent. Publication is atomic after aggregate validation.
 """
 from __future__ import annotations
-import copy
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from email.utils import format_datetime, parsedate_to_datetime
 import hashlib
@@ -83,7 +83,7 @@ def resolved_length(enclosure):
     url = enclosure.get("url", "")
     try:
         request = urllib.request.Request(url, method="HEAD", headers={"User-Agent":USER_AGENT})
-        with urllib.request.urlopen(request, timeout=15) as response:
+        with urllib.request.urlopen(request, timeout=8) as response:
             n = int(response.headers.get("Content-Length", "0"))
             if n > 0:
                 return n
@@ -141,11 +141,14 @@ def curated_items(source, originals):
         selections.append((score, pub_date(item), item, themes))
     selections.sort(key=lambda z: (z[0], z[1]), reverse=True)
     ready = []
-    for score, publication, item, themes in selections:
+    # Limit provider metadata probes and run HEAD checks in parallel so a
+    # publisher that uses zero-length RSS enclosures cannot stall the workflow.
+    candidates = selections[:source["limit"] * 3]
+    with ThreadPoolExecutor(max_workers=10) as pool:
+        lengths = list(pool.map(lambda candidate: resolved_length(candidate[2].find("enclosure")), candidates))
+    for (score, publication, item, themes), length in zip(candidates, lengths):
         if len(ready) >= source["limit"]:
             break
-        original = item.find("enclosure")
-        length = resolved_length(original)
         if length < 1:
             rejected["invalid_audio"] += 1
             continue
@@ -211,7 +214,7 @@ def build_feed(filename, entries, label):
         child(dest,"link",(item.findtext("link") or source["publisher_site"]).strip())
         desc=(item.findtext("description") or "").strip()
         # Keep short publisher show-note excerpt plus clear source credit.
-        child(dest,"description",f"From {source['title']} — {source['publisher']}. Themes: {', '.join(entry['themes'])}. Original publisher episode: "+desc[:1200])
+        child(dest,"description",f"From {source['title']} — {source['publisher']}. Themes: {', '.join(entry['themes'])}. Original publisher episode: "+desc[:500])
         original_date=item.findtext("pubDate")
         if original_date:
             child(dest,"pubDate",original_date)
