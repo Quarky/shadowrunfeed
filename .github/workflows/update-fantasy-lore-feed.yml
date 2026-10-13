@@ -1,4 +1,4 @@
-name: Update Fantasy Lore lore podcast RSS
+name: Update Fantasy Lore Ranked Listening RSS
 
 on:
   workflow_dispatch:
@@ -7,6 +7,7 @@ on:
     paths:
       - "fantasy-lore/catalog.json"
       - "fantasy-lore/generate_feed.py"
+      - "fantasy-lore/ranked.py"
       - "fantasy-lore/README.md"
       - ".github/workflows/update-fantasy-lore-feed.yml"
   schedule:
@@ -16,7 +17,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: fantasy-lore-lore-rss
+  group: fantasy-lore-ranked-rss
   cancel-in-progress: false
 
 jobs:
@@ -38,26 +39,37 @@ jobs:
           root=Path("fantasy-lore")
           status=json.loads((root/"status.json").read_text())
           assert status["state"]=="published"
-          assert status["total_episodes"]>=15
+          assert status["total_episodes"]>=12
+          assert status["ranked_pairs"]>=6
+          import importlib.util
+          spec=importlib.util.spec_from_file_location("rated",root/"ranked.py")
+          assert spec is not None
           assert len([x for x in status["sources"] if x["state"]=="included"])>=3
           assert (root/"cover.png").read_bytes()[:8]==b"\x89PNG\r\n\x1a\n"
           for name,n in status["feeds"].items():
               parsed=E.parse(root/name)
               assert len(parsed.findall("./channel/item"))==n
               assert all(int(x.get("length",0))>0 and x.get("url","").startswith("https://") for x in parsed.findall("./channel/item/enclosure"))
-          print("Validated",status["feeds"])
+          ranked=E.parse(root/"ranked-feed.xml")
+          titles=[x.findtext("title") or "" for x in ranked.findall("./channel/item")]
+          assert all(("LORE" if i%2==0 else "STORY") in title for i,title in enumerate(titles)), titles
+          assert len(titles)==status["total_episodes"]
+          ordered=__import__("json").loads((root/"episode-list.json").read_text())["episodes"]
+          assert len(ordered)==len(titles)
+          assert len((root/"episode-list.md").read_text().splitlines())>=10
+          print("Validated alternating playlist",status["feeds"])
           PY
       - name: Commit published feeds and status
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add fantasy-lore/feed.xml fantasy-lore/feed-v2.xml fantasy-lore/cover.png fantasy-lore/status.json
+          git add fantasy-lore/feed.xml fantasy-lore/feed-v2.xml fantasy-lore/ranked-feed.xml fantasy-lore/cover.png fantasy-lore/status.json fantasy-lore/episode-list.md fantasy-lore/episode-list.json
           for optional in creatures.xml cultures.xml magic-planar.xml worldbuilding.xml; do
             if [ -f "fantasy-lore/$optional" ]; then git add "fantasy-lore/$optional"; fi
           done
           if git diff --cached --quiet; then
             echo "Curated Fantasy Lore feeds unchanged"
           else
-            git commit -m "Publish verified Fantasy Lore lore and monster feeds"
+            git commit -m "Publish verified alternating fantasy lore and story RSS"
             git push
           fi
