@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-10-13",
+  "state": "configured_not_published",
+  "total_episodes": 0,
+  "feeds": {},
+  "sources": [],
+  "publisher_audio_rehosted": false,
+  "warnings": [
+    "Initial build has not been verified; subscribe after GitHub Actions publishes the RSS files."
+  ]
+}
