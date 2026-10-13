@@ -71,3 +71,9 @@ Do not copy paid/private books into this public repo or paste large copyrighted 
 ### Future refinements
 
 Curate explicit episode-level picks, exclude too-chatty/too-rules-heavy shows, add European mythology and folktales, tag per creature/faction, and possibly create a chronological listening playlist. Never present a curated 5e/Pathfinder idea as part of Berrie's original setting without confirmation.
+
+### Additional worldbuilding and creature-behavior research
+
+- [The Monsters Know What They're Doing](https://www.themonstersknow.com/why-these-tactics/) — why a predator hunts, flees, uses an environment and chooses targets; convert assumptions to your own 2014 D&D5e creature data.
+- [Sly Flourish — Lazy World Building](https://slyflourish.com/lazy_world_building.html) — techniques for local history, factions, divine traditions and settlements that support real player decisions.
+- [A Collection of Unmitigated Pedantry — Resources for World-Builders](https://acoup.blog/resources-for-world-builders/) — realistic farms, food, logistics, cities and armies; especially useful for the day-to-day consequences of an enormous collapsed wall and shifting regional trade routes.
