@@ -224,10 +224,25 @@
     "hags",
     "ogre",
     "tavern",
-    "settlement",
     "rural",
     "mystery",
-    "ritual"
+    "ritual",
+    "multi-species",
+    "societies",
+    "perception",
+    "mind swaps",
+    "aboleth",
+    "etiquette",
+    "lair",
+    "temple",
+    "cult",
+    "candlekeep",
+    "life in",
+    "village",
+    "history",
+    "religion",
+    "faction",
+    "kingdom"
   ],
   "sources": [
     {
@@ -239,7 +254,7 @@
         "https://monsterman.libsyn.com/rss"
       ],
       "itunes_id": 1286915333,
-      "limit": 28,
+      "limit": 60,
       "default_theme": "creatures",
       "note": "Monsters, mythology, ecology and folklore.",
       "kind": "lore",
@@ -257,7 +272,7 @@
       "publisher_site": "https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354",
       "rss_candidates": [],
       "itunes_id": 1175886354,
-      "limit": 25,
+      "limit": 45,
       "default_theme": null,
       "note": "D&D creature histories, gods, settings and lore.",
       "kind": "lore",
@@ -295,7 +310,7 @@
       "publisher_site": "https://podcasts.apple.com/us/podcast/the-travel-log/id1556137924",
       "rss_candidates": [],
       "itunes_id": 1556137924,
-      "limit": 22,
+      "limit": 45,
       "default_theme": "cultures",
       "note": "Setting locations, local history, travel and cultural inspiration.",
       "kind": "lore",
@@ -354,7 +369,7 @@
       "publisher_site": "https://podcasts.apple.com/us/podcast/d-d-legends-and-lore/id1769219620",
       "rss_candidates": [],
       "itunes_id": 1769219620,
-      "limit": 20,
+      "limit": 40,
       "default_theme": "creatures",
       "kind": "lore",
       "note": "Narrative-driven explorations of D&D monsters, peoples, gods and history; exclude trailer and cross-promotion.",
@@ -449,9 +464,9 @@
       "itunes_id": 711119555,
       "limit": 8,
       "kind": "story",
-      "note": "Character and society-focused high fantasy fiction with feudal cultures and strong dialogue.",
+      "note": "Full-cast fantasy drama: feudal cultures, dialects, court politics, local etiquette and character relationships.",
       "story_playlist": [
-        "The Prince of Iorden COMPLETE",
+        "SERIES PREMIERE SPECIAL: The Prince of Iorden (Full Chapter)",
         "Life In A Corner, Pt. 1",
         "Life In A Corner, Pt. 2",
         "Life In A Corner, Pt. 3",
@@ -523,6 +538,7 @@
     "max_story_per_show": 6,
     "disclaimer": "Platform reviews are show-level, not individual episodes. Episode scores are transparent editorial heuristics, not listener-voted episode ratings. Ratings are dated snapshots, updated manually, not scraping or fabricated.",
     "ordering": "One lore research episode followed by one story episode, repeating. Serial story chapters stay in their original order. Synthetic RSS publication dates encode the editorial listening order, not the original broadcast dates; original dates are retained in episode notes.",
-    "essay_link": "episode-list.md"
+    "essay_link": "episode-list.md",
+    "note": "Ranking now applies stronger cross-source, subject and creature-family coverage penalties to prevent many consecutive dragon/deity episodes at the expense of settlements or NPC culture."
   }
 }
