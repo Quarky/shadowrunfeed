@@ -90,7 +90,11 @@
         "manticore",
         "predator",
         "claw",
-        "monster manual"
+        "monster manual",
+        "monster perception",
+        "mind swaps",
+        "multi-species",
+        "thinkers"
       ]
     },
     "cultures": {
@@ -143,7 +147,13 @@
         "territory",
         "monastery",
         "guild",
-        "holidays"
+        "holidays",
+        "societ",
+        "community",
+        "multi-species",
+        "trade",
+        "livelihood",
+        "farming"
       ]
     },
     "magic": {
@@ -190,7 +200,13 @@
         "myth",
         "divine",
         "celestial",
-        "elemental"
+        "elemental",
+        "mind swap",
+        "mind control",
+        "mind prison",
+        "dream",
+        "possession",
+        "telepath"
       ]
     },
     "gm": {
@@ -220,7 +236,11 @@
         "mystery",
         "design",
         "creat",
-        "monster manual"
+        "monster manual",
+        "boss squads",
+        "thinkers",
+        "perception",
+        "multi-species"
       ]
     }
   },
@@ -272,7 +292,10 @@
     "worldbuilding",
     "portal",
     "gods",
-    "goddess"
+    "goddess",
+    "multi-species societies",
+    "monster perception",
+    "mind swaps"
   ],
   "sources": [
     {
@@ -283,7 +306,7 @@
       "rss_candidates": [
         "https://monsterman.libsyn.com/rss"
       ],
-      "itunes_id": null,
+      "itunes_id": 1286915333,
       "limit": 28,
       "default_theme": "creatures",
       "note": "Classic creature ecology, history, folklore and monster cultures; broad source of inhabitants and encounter hooks."
