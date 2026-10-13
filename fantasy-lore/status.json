@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-13T20:33:57.116143+00:00",
+  "generated_at": "2026-10-13T20:39:55.815950+00:00",
   "state": "published",
   "sources": [
     {
       "id": "monster-man",
       "state": "included",
       "source_rss": "https://monsterman.libsyn.com/rss",
-      "episodes": 28,
+      "episodes": 60,
       "skipped": {
         "not_relevant": 7,
         "invalid_audio": 2,
@@ -17,7 +17,7 @@
       "id": "dungeoncast",
       "state": "included",
       "source_rss": "https://feeds.megaphone.fm/BLU8261889823",
-      "episodes": 25,
+      "episodes": 45,
       "skipped": {
         "not_relevant": 15,
         "invalid_audio": 0,
@@ -39,7 +39,7 @@
       "id": "travel-log",
       "state": "included",
       "source_rss": "https://anchor.fm/s/66ad0ab4/podcast/rss",
-      "episodes": 22,
+      "episodes": 45,
       "skipped": {
         "not_relevant": 0,
         "invalid_audio": 0,
@@ -72,7 +72,7 @@
       "id": "legends-and-lore",
       "state": "included",
       "source_rss": "https://feeds.megaphone.fm/dndlegendsandlore",
-      "episodes": 20,
+      "episodes": 40,
       "skipped": {
         "not_relevant": 3,
         "invalid_audio": 0,
@@ -108,23 +108,25 @@
     },
     {
       "id": "once-future-nerd",
-      "state": "unavailable",
-      "reason": "No suitable episodes with verifiable HTTPS enclosures"
+      "state": "included",
+      "source_rss": "https://onceandfuturenerd.com/feed/podcast",
+      "episodes": 5,
+      "skipped": {
+        "story_gaps": []
+      }
     }
   ],
   "feeds": {
-    "feed-v2.xml": 28,
-    "feed.xml": 28,
-    "ranked-feed.xml": 28,
-    "creatures.xml": 119,
-    "cultures.xml": 53,
-    "magic-planar.xml": 69,
-    "worldbuilding.xml": 42
+    "feed-v2.xml": 38,
+    "feed.xml": 38,
+    "ranked-feed.xml": 38,
+    "creatures.xml": 186,
+    "cultures.xml": 81,
+    "magic-planar.xml": 94,
+    "worldbuilding.xml": 75
   },
   "publisher_audio_rehosted": false,
-  "warnings": [
-    "Source skipped: once-future-nerd"
-  ],
-  "ranked_pairs": 14,
-  "total_episodes": 28
+  "warnings": [],
+  "ranked_pairs": 19,
+  "total_episodes": 38
 }
