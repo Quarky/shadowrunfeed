@@ -29,7 +29,7 @@ USER_AGENT = "Mozilla/5.0 (compatible; MagudonyaLoreFeed/1.0; +https://github.co
 HEADERS = {"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/xml, text/xml, */*"}
 
 def norm(s):
-    return re.sub(r"\\s+", " ", (s or "").casefold()).strip()
+    return re.sub(r"\s+", " ", (s or "").casefold()).strip()
 
 def read_remote(url):
     request = urllib.request.Request(url, headers=HEADERS)
@@ -204,7 +204,7 @@ def build_feed(filename, entries, label):
         item = entry["item"]; source = entry["source"]
         title = (item.findtext("title") or "").strip()
         url = item.find("enclosure").get("url")
-        entry_id = hashlib.sha256((source["id"]+"\\n"+url).encode()).hexdigest()
+        entry_id = hashlib.sha256((source["id"]+"\n"+url).encode()).hexdigest()
         dest=ET.SubElement(channel,"item")
         child(dest,"title",f"[{source['title']}] {title}")
         child(dest,"guid","magudonya-"+entry_id).set("isPermaLink","false")
@@ -279,7 +279,7 @@ def main():
         tmp.replace(HOME/filename)
     report["state"]="published"
     report["total_episodes"]=len(all_entries)
-    (HOME/"status.json").write_text(json.dumps(report,indent=2)+"\\n",encoding="utf-8")
+    (HOME/"status.json").write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
     print("Published: "+str(report["feeds"])+" using original publisher audio")
 if __name__=="__main__":
     try:
