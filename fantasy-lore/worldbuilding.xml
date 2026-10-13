@@ -1,0 +1,728 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Fantasy Lore / Anomaly — Worldbuilding &amp; GM Craft</title>
+    <link>https://github.com/Quarky/shadowrunfeed/tree/main/fantasy-lore</link>
+    <description>Independent curated fantasy worldbuilding inspiration for Fantasy Lore / Anomaly GMs: creatures, culture, deities, planar mysteries and practical encounters. Not original-world canon; publisher-hosted recordings only. Source shows and episode credits retained.</description>
+    <language>en</language>
+    <copyright>Original episodes and audio remain copyright their respective publishers.</copyright>
+    <itunes:author>Fantasy Lore GM listening index (independent curation)</itunes:author>
+    <itunes:summary>Curated links to original fantasy-lore podcast audio; not endorsed by creators.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fantasy-lore/cover.png" />
+    <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fantasy-lore/worldbuilding.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Monster Man] Special Episode: Worldbuilding with Elites</title>
+      <guid isPermaLink="false">fantasy-lore-7ec1eefd062cbfdbf0762df83a22b6c44addeaa596414d50e72aeff7ed4f795d</guid>
+      <link>https://monsterman.libsyn.com/special-episode-storytelling-with-elites</link>
+      <description>From Monster Man — James Holloway. Themes: gm, creatures. Original publisher episode: &lt;p data-pm-slice="1 1 []"&gt;Patreon backer Luke brings you this special episode all about those special monsters and what you can learn from them.&lt;/p&gt; &lt;p data-node-text-align="start"&gt;If you're enjoying the show, why not consider &lt;a href="https://www.patreon.com/monsterman" target="_blank" rel="noopener noreferrer nofollow"&gt;supporting it on Patreon&lt;/a&gt;? You'll get access to lots of new bonus content, including my other podcast, Patron Deities!&lt;/p&gt; &lt;p data-node-text-align="start"&gt;Thanks to &lt;a href= </description>
+      <pubDate>Thu, 26 Feb 2026 22:48:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/monsterman/elitespecial.mp3?dest-id=572259" length="34282857" type="audio/mpeg" />
+      <itunes:duration>29:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://monsterman.libsyn.com/rss">Monster Man</source>
+    </item>
+    <item>
+      <title>[Monster Man] Special Episode: From Monster Manual to Mothership</title>
+      <guid isPermaLink="false">fantasy-lore-94462c5c82a85222b01805f9706e188f8295ee3acd5604bece263189a6c38718</guid>
+      <link>https://monsterman.libsyn.com/special-episode-from-monster-manual-to-mothership</link>
+      <description>From Monster Man — James Holloway. Themes: creatures, gm. Original publisher episode: &lt;p&gt;Patreon backer Rafe brings you this special episode all about what makes a good horror monster in general and a good Mothership monster in particular -- starring the monsters of season one!&lt;/p&gt; &lt;p data-pm-slice="1 1 []"&gt;If you're enjoying the show, why not consider &lt;a href= "https://www.patreon.com/monsterman"&gt;supporting it on Patreon&lt;/a&gt;? You'll get access to lots of new bonus content, including my other podcast, Patron Deities!&lt;/p&gt; &lt;p data-pm-slice="1 1 []"&gt;&lt;span data-offset-key= "6hjnf-0-0</description>
+      <pubDate>Thu, 14 Aug 2025 21:48:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/monsterman/mothershipmanualspecial2.mp3?dest-id=572259" length="29599717" type="audio/mpeg" />
+      <itunes:duration>25:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://monsterman.libsyn.com/rss">Monster Man</source>
+    </item>
+    <item>
+      <title>[Dungeons &amp; Dragons Lorecast] DnD Lorecast Presents: Undead Legions w/ Christian Allaire of Garnet Gaming</title>
+      <guid isPermaLink="false">fantasy-lore-32c5068590b11f76745d3fbdf1fc9ec96c389991f00fc038a7bf52f760bc3bf7</guid>
+      <link>https://linktr.ee/dndlorecast</link>
+      <description>From Dungeons &amp; Dragons Lorecast — DnD Lorecast. Themes: creatures, gm. Original publisher episode: We sit down with Christian Alliaire of Garnet Gaming to discuss their latest project, UNDEAD LEGIONS, on Kickstarter NOW! We yap about spooky aesthetic, the success (and trials) of their last crowdfunded project, RISE OF THE BLACK COVEN, as well as get the inside scoop on what Christian will be for Halloween this year.
+
+BACK UNDEAD LEGIONS NOW - A collection of four adventures designed for parties of varying levels. Each has a flexible setting, optional backstory, and sample plot hooks that make</description>
+      <pubDate>Mon, 07 Oct 2024 01:06:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/ROBR8003045996.mp3?updated=1728263724" length="46389887" type="audio/mpeg" />
+      <itunes:duration>3257</itunes:duration>
+      <source url="https://feeds.megaphone.fm/robr3326069327">Dungeons &amp; Dragons Lorecast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Time Dragons - The Dungeoncast Ep.394</title>
+      <guid isPermaLink="false">fantasy-lore-fb60208a17b5e08d6d54a91b3af32cdc2821a1e87ad4c074c8c093634e7a1df5</guid>
+      <link>https://www.thedungeoncast.com/</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: William and Brian get messy in the time stream of the D&amp;D multiverse with creatures that can move and manipulate the chronology of actions and events. Learn all about Time Dragons and their dependence on all things past, present, and future this week on The Dungeoncast!
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Looking to sponsor an episode or just say hello? Reach out thedungeoncast@gmail.com
+Or send us something by mail at: Po Box 1784, Upland, CA -</description>
+      <pubDate>Mon, 27 May 2024 07:00:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/SBP3756563866.mp3?updated=1716791680" length="70580532" type="audio/mpeg" />
+      <itunes:duration>3462</itunes:duration>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[Dark Dice] Season 4 | Ep. 5 | The Storyteller &amp; the Pirate</title>
+      <guid isPermaLink="false">fantasy-lore-bce5c5e4957d415a6510ee694b2cdadf8a2820f4129243125df47a89740b4d52</guid>
+      <link>https://darkdice.com</link>
+      <description>From Dark Dice — Fool &amp; Scholar Productions. Themes: gm. Original publisher episode: Introductions and under-table dealings are made within Sorrow's Edge.
+
+
+
+Story by K.A. Statz &amp; Travis Vengroff (Co Game Masters)
+
+Produced, Edited, and with Sound Design by Travis Vengroff
+
+Executive Producers: Dennis Greenhill, Carol Vengroff, AJ Punk'n, &amp; Maico Villegas
+
+Dialogue Editing (first round) by Kasch Wilder
+
+Mixing and Mastering by Dayn Leonardson
+
+Transcriptions by Shion Francois
+
+
+
+Cast:
+
+Narrator / Game Master - K.A. Statz
+
+Narrator / Game Master - Travis Vengroff
+
+Agé Ogun – Jasp</description>
+      <pubDate>Wed, 30 Aug 2023 02:08:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/traffic.megaphone.fm/SBP6534529637.mp3?updated=1750163349" length="87475738" type="audio/mpeg" />
+      <itunes:duration>5330</itunes:duration>
+      <source url="https://feeds.megaphone.fm/SBP9028289759">Dark Dice</source>
+    </item>
+    <item>
+      <title>[Monsters &amp; Multiclass] The Purple Worm: How to run fights with larger than life monsters</title>
+      <guid isPermaLink="false">fantasy-lore-82acc2c9e0083c4e9dcb997baff3d293bb0e481b017dff319f5dc43d7f291759</guid>
+      <link>https://www.buzzsprout.com/222686/episodes</link>
+      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Themes: creatures, gm. Original publisher episode: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In this week&amp;apos;s episode Ellie, Jarred, and Will take a look at running larger than life monster fights! How do you handle the monster taking up the whole battlefield? Or what if the monster IS the battlefield??&lt;br/&gt;&lt;br/&gt;FanRoll (use code MM10) - https://fanrolldice.com/&lt;br/&gt;&lt;br/&gt;Support the show: https://monstersandmulticlass.com/support&lt;br/&gt;&lt;br/&gt;Intro music by @Thisisbardcore. https://twit</description>
+      <pubDate>Thu, 26 Jan 2023 03:00:00 -0500</pubDate>
+      <enclosure url="https://www.buzzsprout.com/222686/episodes/12117469-the-purple-worm-how-to-run-fights-with-larger-than-life-monsters.mp3" length="40611173" type="audio/mpeg" />
+      <itunes:duration>3369</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.buzzsprout.com/222686.rss">Monsters &amp; Multiclass</source>
+    </item>
+    <item>
+      <title>[Monsters &amp; Multiclass] Worldbuilding: Making holidays important and memorable in your world!</title>
+      <guid isPermaLink="false">fantasy-lore-8f1e6e9cc8519df128b52c08ece1e51c3ef7dd82c0eb93511f38fd3090e5ca58</guid>
+      <link>https://www.buzzsprout.com/222686/episodes</link>
+      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Themes: cultures, gm. Original publisher episode: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In this episode Ellie, Jarred, and Will tackle a new subject for the show: worldbuilding. For this episode specifically holiday worldbuilding! How can you make interesting and memorable holidays in your fantasy world?? Check out the episode to find out!&lt;br/&gt;&lt;br/&gt;FanRoll (use code MM10) - https://fanrolldice.com/&lt;br/&gt;&lt;br/&gt;Support the show: https://monstersandmulticlass.com/support&lt;br/&gt;&lt;br/&gt;Intro</description>
+      <pubDate>Thu, 22 Dec 2022 03:00:00 -0500</pubDate>
+      <enclosure url="https://www.buzzsprout.com/222686/episodes/11905078-worldbuilding-making-holidays-important-and-memorable-in-your-world.mp3" length="29362885" type="audio/mpeg" />
+      <itunes:duration>2437</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.buzzsprout.com/222686.rss">Monsters &amp; Multiclass</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Dragonturtles - The Dungeoncast Ep.306</title>
+      <guid isPermaLink="false">fantasy-lore-db804f18b39c3293a3be8baf9ff84d55c90093e196db9f79c2d4c485813a7ec6</guid>
+      <link>https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: William and Brian are diving into the oceans of Dungeons &amp; Dragons once more to study the revamped and reimagined Dragonturtle of Fizban's Treasury of Dragons! This episode topic was chosen by the fine supporters on our Patreon. Find out just how powerful these dynamic creatures can become this week on The Dungeoncast!
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hello? Reach out thedungeoncas</description>
+      <pubDate>Mon, 19 Sep 2022 07:00:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU9523757393.mp3?updated=1716399538" length="62879219" type="audio/mpeg" />
+      <itunes:duration>3077</itunes:duration>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[Monsters &amp; Multiclass] Monsters of the Multiverse: Design Philosophies Revealed (D&amp;D 5e)</title>
+      <guid isPermaLink="false">fantasy-lore-95209f189d1564788a43b42fc57ad24f6c5b67e9385d0791a01291a11cb423ff</guid>
+      <link>https://www.buzzsprout.com/222686/episodes</link>
+      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Themes: creatures, gm. Original publisher episode: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In this episode, we dive into Monsters of the Multiverse and take a look at the bigger changes to see what that means for the future of Dungeons and Dragons!&lt;br/&gt;&lt;br/&gt;The Crafty Gamer: Tabletop Inspired Merchandise (use code MM10) - https://www.thecraftygamer.com/&lt;br/&gt;&lt;br/&gt;Support the show: https://monstersandmulticlass.com/support&lt;br/&gt;&lt;br/&gt;Intro music by @Thisisbardcore. https://twitter.com/th</description>
+      <pubDate>Thu, 26 May 2022 03:00:00 -0400</pubDate>
+      <enclosure url="https://www.buzzsprout.com/222686/episodes/10674661-monsters-of-the-multiverse-design-philosophies-revealed-d-d-5e.mp3" length="46692751" type="audio/mpeg" />
+      <itunes:duration>3877</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.buzzsprout.com/222686.rss">Monsters &amp; Multiclass</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Crystal Dragons - The Dungeoncast Ep.287</title>
+      <guid isPermaLink="false">fantasy-lore-9ec17184ea34f87428b4705166ea24aa05f946377a0c5c7abfbfdd863070cdea</guid>
+      <link>https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian are concluding their Journey through the main additions to Fizban's Treasury of Dragons with the illustrious Crystal Dragons! Their Neutral natures leave them with some dubious social behaviors, but are generally receptive to outsiders with good intentions. Find out just how powerful and quirky they are this week on The Dungeoncast!
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say </description>
+      <pubDate>Mon, 09 May 2022 07:00:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU9999165634.mp3?updated=1716400456" length="74742021" type="audio/mpeg" />
+      <itunes:duration>3616</itunes:duration>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Travel Log] Dungeons of Waterdeep</title>
+      <guid isPermaLink="false">fantasy-lore-c5fa0fb3491f24323b421761f594a40e5643f803ed24bcc25f2d3c128b25ca80</guid>
+      <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Dungeons-of-Waterdeep-e1hvtbe</link>
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: gm, cultures. Original publisher episode: &lt;p&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the various Dungeons and hidden adventure areas of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.&lt;br&gt;
+Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)&lt;br&gt;
+Logo Design by: Lily Lavin&lt;br&gt;
+Logo Text by: Lizbeth Poirier&lt;br&gt;</description>
+      <pubDate>Wed, 04 May 2022 13:00:13 GMT</pubDate>
+      <enclosure url="https://anchor.fm/s/66ad0ab4/podcast/play/51426094/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-2%2F1315566b-b471-d6a1-bbab-e059b31356c7.mp3" length="163530857" type="audio/mpeg" />
+      <itunes:duration>01:08:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://anchor.fm/s/66ad0ab4/podcast/rss">The Travel Log</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Topaz Dragons - The Dungeoncast Ep.285</title>
+      <guid isPermaLink="false">fantasy-lore-8e803c394344c0efc5cc8abb04a0c3a44edef0593c9e29420618f1d48a09b1bd</guid>
+      <link>https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian are once again scouring Fizban's Treasury of Dragons for the seclusive and elusive Topaz dragons! Their abundant negativity is only outclassed by their illustriously lit hordes. Find out all the epic details about this gem dragon this week on The Dungeoncast!
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hello? Reach out thedungeoncast@gmail.com
+Or send us something by mail at: </description>
+      <pubDate>Mon, 25 Apr 2022 23:09:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU5066876582.mp3?updated=1716400515" length="49313231" type="audio/mpeg" />
+      <itunes:duration>2344</itunes:duration>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Amethyst Dragons - The Dungeoncast Ep.280</title>
+      <guid isPermaLink="false">fantasy-lore-b05ffdb3a5f216f5138df1878981b94a72b27390f284dd6ce7ddc458289c00fd</guid>
+      <link>https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian are studying a creature infatuated with the echoes of the multiverse. Learn about the wise but aloof Amethyst Dragons of Fizban's Treasury of Dragons this week on The Dungeoncast!
+
+Be sure to check out our sponsor:
+
+Furhaven Kickstarter
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hello? Reach out thedungeoncast@gmail.com
+Or send us something by mail at: Po Box 1784, Upland, CA</description>
+      <pubDate>Mon, 21 Mar 2022 07:00:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU4175246757.mp3?updated=1716400731" length="53390647" type="audio/mpeg" />
+      <itunes:duration>2602</itunes:duration>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Travel Log] History of Waterdeep</title>
+      <guid isPermaLink="false">fantasy-lore-a037dcdeba021ab8cffcb77e6190020a75817f03a07438ea9a93d114960f777e</guid>
+      <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/History-of-Waterdeep-e1f3711</link>
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: cultures, gm. Original publisher episode: &lt;p&gt;&lt;strong&gt;The Travel log sets out to explore the world of Faerun, week by week, town by town. Hosts Lily Lavin and Steven Hoffart cover the History of Waterdeep. They provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep. &lt;br&gt;
+&lt;br&gt;
+Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/) &lt;br&gt;
+Logo Design by: Lily Lavin &lt;br&gt;
+Logo Text by: Lizbeth Poirier &lt;br&gt;
+Follow us @DndTrav</description>
+      <pubDate>Wed, 02 Mar 2022 14:00:00 GMT</pubDate>
+      <enclosure url="https://anchor.fm/s/66ad0ab4/podcast/play/48388577/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-1%2F2aa0eb7f-4544-3877-b170-deffc26ebd2f.mp3" length="138192084" type="audio/mpeg" />
+      <itunes:duration>00:57:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://anchor.fm/s/66ad0ab4/podcast/rss">The Travel Log</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Emerald Dragons - The Dungeoncast Ep.276</title>
+      <guid isPermaLink="false">fantasy-lore-16927d43969f7670432625bf613265c5f952c67dd9b5c751b800ca00963fbfb2</guid>
+      <link>https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian are diving back in to Fizban's Treasury of Dragons to talk about the highly intelligent Emerald Dragons! Find out their favorite pass times, food, and so much more this week on The Dungeoncast!
+
+Be sure to check out our sponsors:
+Elements of Inspiration Kickstarter
+Arrow Road Creations
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hello? Reach out thedungeoncast@gmail.com
+Or sen</description>
+      <pubDate>Mon, 21 Feb 2022 08:00:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU5496963670.mp3?updated=1716400932" length="62421414" type="audio/mpeg" />
+      <itunes:duration>3000</itunes:duration>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Sapphire Dragons - The Dungeoncast Ep.272</title>
+      <guid isPermaLink="false">fantasy-lore-a771343c0aa93b3f5a3370990dbe300073fa8d1239c18e4c0798f22da8259ea0</guid>
+      <link>https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian return to Fizban's Treasury of Dragons to take an in depth look at the neutrally aligned Sapphire Dragon! This master of tactics boasts true power with it's horrifyingly wide range of movement on the battlefield. Learn about all their unique abilities and personality traits this week on The Dungeoncast!
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hello? Reach out thedungeoncas</description>
+      <pubDate>Mon, 24 Jan 2022 08:00:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU2662043672.mp3?updated=1716401182" length="62515612" type="audio/mpeg" />
+      <itunes:duration>3059</itunes:duration>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Travel Log] Adventures in the Forgotten Realms Lands</title>
+      <guid isPermaLink="false">fantasy-lore-7087af778d616d5357ff8aa76d395ce418a4cabc48723ac1dce148473192c8b6</guid>
+      <link>https://podcasters.spotify.com/pod/show/thetravellog/episodes/Adventures-in-the-Forgotten-Realms-Lands-e15ghpl</link>
+      <description>From The Travel Log — Lily Lavin and Steven Hoffart. Themes: gm, cultures. Original publisher episode: The Travel log sets out to explore the world of Faerun, week by week, town by town. Host Steven Hoffart and guest Kyle from Tasty Doom cover the locations depicted on the lands from the Magic the Gathering DND set, Adventures in the Forgotten Realms. We try to provide lore for DMs and Players as well as suggestions of encounters you can run in the areas covered. Think of it as the audiobook for your session prep.
+
+Song by: "Around the Fire" by Blood and Dust (blood-and-dust.bandcamp.com/)
+Logo b</description>
+      <pubDate>Wed, 04 Aug 2021 13:43:08 GMT</pubDate>
+      <enclosure url="https://anchor.fm/s/66ad0ab4/podcast/play/38339829/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-5%2F210415623-44100-2-6f982a256ad0187a.mp3" length="60697703" type="audio/mpeg" />
+      <itunes:duration>01:03:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://anchor.fm/s/66ad0ab4/podcast/rss">The Travel Log</source>
+    </item>
+    <item>
+      <title>[Monster Man] Special Episode: Monsters of Warhammer Fantasy Roleplay</title>
+      <guid isPermaLink="false">fantasy-lore-aca71506c08450bd9470a66706f1dce2505f4e9e564f344eb2c531fa9eb7dfbd</guid>
+      <link>https://monsterman.libsyn.com/special-episode-monsters-of-warhammer-fantasy-roleplay</link>
+      <description>From Monster Man — James Holloway. Themes: creatures, cultures, gm. Original publisher episode: &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="2392o" data-offset-key="n6f9-0-0"&gt; Patreon backer Stan brings you this special episode all about the creatures of the definitive British RPG of the mid-80s!&lt;/div&gt; &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="2392o" data-offset-key="n6f9-0-0"&gt;  &lt;/div&gt; &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-edito</description>
+      <pubDate>Tue, 18 May 2021 22:17:24 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/monsterman/whfrpspecial.mp3?dest-id=572259" length="24878962" type="audio/mpeg" />
+      <itunes:duration>22:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://monsterman.libsyn.com/rss">Monster Man</source>
+    </item>
+    <item>
+      <title>[Monster Man] Special Episode: Creating monsters for a new campaign</title>
+      <guid isPermaLink="false">fantasy-lore-bf1fd4413477110e5fc278992b653ec0f43f2e55bcb9d306c6ae5dc81a860d87</guid>
+      <link>https://monsterman.libsyn.com/special-episode-creating-monsters-for-a-new-campaign</link>
+      <description>From Monster Man — James Holloway. Themes: creatures, gm. Original publisher episode: &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="2392o" data-offset-key="n6f9-0-0"&gt; &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="chd0e" data-offset-key="d8o5a-0-0"&gt; &lt;div class= "public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="d8o5a-0-0"&gt;&lt;span data-offset-key= "d8o5a-0-0"&gt;Patreon backer Laurie asked me to talk about how I integrate my thoughts on monsters into my g</description>
+      <pubDate>Thu, 08 Apr 2021 21:51:58 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/monsterman/campaignspecial.mp3?dest-id=572259" length="28687821" type="audio/mpeg" />
+      <itunes:duration>26:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://monsterman.libsyn.com/rss">Monster Man</source>
+    </item>
+    <item>
+      <title>[Dragon Talk — Lore You Should Know] Dragon Talk: Encounter Party, LYSK on Tasha</title>
+      <guid isPermaLink="false">fantasy-lore-d34a648181d5dad5706744a4ba8f106df426ea9dc6f5b4ca020356d5cc60c4c0</guid>
+      <link>https://share.transistor.fm/s/06963231</link>
+      <description>From Dragon Talk — Lore You Should Know — Wizards of the Coast. Themes: creatures, gm. Original publisher episode: &lt;p&gt;Greg and Shelly start things up with a fresh look at the latest D&amp;amp;D news! Afterwards, Jeremy Crawford joins us for a special edition of Lore You Should Know, this week focusing on the character of Tasha from Tasha's Cauldron of Everything which releases November 17th in North America and everywhere else December 1st! Later, we are joined by Ned Donovan and Brian David Judkins from the actual play D&amp;amp;D podcast, Encounter Party! Dragon Talk is executively produced by Greg Tito, Shelly Ma</description>
+      <pubDate>Thu, 12 Nov 2020 16:00:00 -0800</pubDate>
+      <enclosure url="https://media.transistor.fm/06963231/8c6bf54a.mp3" length="113963682" type="audio/mpeg" />
+      <itunes:duration>7122</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+      <source url="https://feeds.transistor.fm/dragon-talk-an-official-dungeons-dragons-podcast">Dragon Talk — Lore You Should Know</source>
+    </item>
+    <item>
+      <title>[Monsters &amp; Multiclass] Cursed Items and Spooky Monsters with Guest, Benjamin, from Lawful Great Adventures!</title>
+      <guid isPermaLink="false">fantasy-lore-c1e96b1f7de1360ae5aa104781e208fb102afcded5a6abcef9471310b7ec3c96</guid>
+      <link>https://www.buzzsprout.com/222686/episodes</link>
+      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Themes: creatures, magic, gm. Original publisher episode: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;On this episode of Monsters &amp;amp; Multiclass Kevin, Will, and Jarred are joined by &lt;a href='https://anchor.fm/lawfulgreat'&gt;Benjamin, the DM from Lawful Great Adventures&lt;/a&gt;, for a deep dive into D&amp;amp;D  cursed items! Then for Halloween, we take a look at classic spooky monsters.&lt;br/&gt;&lt;br/&gt;Also, don&amp;apos;t forget to check out Lawful Great Adventures:&lt;br/&gt;Podcast: &lt;a href='https://anchor.fm/lawfu</description>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 -0400</pubDate>
+      <enclosure url="https://www.buzzsprout.com/222686/episodes/6110407-cursed-items-and-spooky-monsters-with-guest-benjamin-from-lawful-great-adventures.mp3" length="83339244" type="audio/mpeg" />
+      <itunes:duration>6942</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.buzzsprout.com/222686.rss">Monsters &amp; Multiclass</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Empyreans and Ogre Mercenaries - The Dungeoncast Ep.202</title>
+      <guid isPermaLink="false">fantasy-lore-0c4c8043427392afe5d46a69fd3575041686bb4b43af9603f508957804f7b3f0</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Empyreans-and-Ogre-Mercenaries---The-Dungeoncast-Ep-202-elg6ge</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian press on through the Year of the Giant with a double feature! As a child of the gods, the mighty Empyrean will crush many foes with earth shattering strikes, perfect for a campaign ending battle. Ogre Mercenaries can be huge trouble of their own in numbers; designed to overwhelm foes with stifling attacks that can bash through walls and knock players prone. Come learn about these big bad behemoths this week on The Dungeoncast! 
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+</description>
+      <pubDate>Mon, 21 Sep 2020 00:49:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU3132131986.mp3?updated=1716404509" length="53364319" type="audio/mpeg" />
+      <itunes:duration>2547</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[Monsters &amp; Multiclass] Barbarian/Cleric and Hutijin, From Mythic Encounters</title>
+      <guid isPermaLink="false">fantasy-lore-320ff35b7eb1ee0ab3d38692fb7eb8794e7a204bb8283091c2e0ab4d2944116c</guid>
+      <link>https://www.buzzsprout.com/222686/episodes</link>
+      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Themes: magic, gm. Original publisher episode: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;On this episode of Monsters &amp;amp; Multiclass Kevin, Will, and Jarred will discuss the Barbarian/Cleric multiclass. Then we cover Hutijin from Mordenkainen&amp;apos;s Tome of Foes with a special mythic twist from the Mythic Encounters supplemental book, created by &lt;a href='https://twitter.com/vorpaldicepress'&gt;@VorpalDicePress&lt;/a&gt;, &lt;a href='https://twitter.com/FallenWyvern'&gt;@FallenWyvern&lt;/a&gt;, and &lt;a </description>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 -0400</pubDate>
+      <enclosure url="https://www.buzzsprout.com/222686/episodes/4303295-barbarian-cleric-and-hutijin-from-mythic-encounters.mp3" length="63063996" type="audio/mpeg" />
+      <itunes:duration>5252</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.buzzsprout.com/222686.rss">Monsters &amp; Multiclass</source>
+    </item>
+    <item>
+      <title>[Monsters &amp; Multiclass] Mythic Odysseys of Theros Discussion - New Character Creation Options and Mythic Monsters</title>
+      <guid isPermaLink="false">fantasy-lore-4f288c2fba345af28761dd22ec7dd8b0a9ed389794290109e481211a5605b408</guid>
+      <link>https://www.buzzsprout.com/222686/episodes</link>
+      <description>From Monsters &amp; Multiclass — Ellie Ode, Jarred Bournigal and Will Meldon. Themes: creatures, magic, gm. Original publisher episode: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/222686/fan_mail/new"&gt;Send us Fan Mail&lt;/a&gt;&lt;/p&gt;&lt;p&gt;On this episode of Monsters &amp;amp; Multiclass Kevin, Will, and Jarred will discuss the new character creation options in the Mythic Odysseys of Theros book. Then we cover the &lt;br/&gt;Tromokratis from the book, a new Mythic monster that adds a cool twist to a boss fight!&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel="payment" href="https://www.patreon.com/monstersandmulticlass"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 -0400</pubDate>
+      <enclosure url="https://www.buzzsprout.com/222686/episodes/4117394-mythic-odysseys-of-theros-discussion-new-character-creation-options-and-mythic-monsters.mp3" length="88706899" type="audio/mpeg" />
+      <itunes:duration>7389</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.buzzsprout.com/222686.rss">Monsters &amp; Multiclass</source>
+    </item>
+    <item>
+      <title>[Monster Man] Episode 276: Monster Manual II Wrap-up</title>
+      <guid isPermaLink="false">fantasy-lore-aa6f2d3ef8e5cf1d0437a08946ea22cb28245aef94bebbab5ec6ad7a1d12579d</guid>
+      <link>https://monsterman.libsyn.com/episode-276-monster-manual-ii-wrap-up</link>
+      <description>From Monster Man — James Holloway. Themes: creatures, gm. Original publisher episode: &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="77ek6" data-offset-key="208oe-0-0"&gt; &lt;div class= "public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="208oe-0-0"&gt;&lt;span data-offset-key="208oe-0-0"&gt;What have we learned from MMII -- and what's next?&lt;/span&gt;&lt;/div&gt; &lt;/div&gt; &lt;div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="77ek6" data-offset-key="a5n6m-0-0"&gt;  &lt;/div&gt; &lt;div class="_2T</description>
+      <pubDate>Thu, 14 May 2020 22:59:56 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/monsterman/monsterman276.mp3?dest-id=572259" length="13860772" type="audio/mpeg" />
+      <itunes:duration>12:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://monsterman.libsyn.com/rss">Monster Man</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Gold Dragons - The Dungeoncast Ep.162</title>
+      <guid isPermaLink="false">fantasy-lore-f8226a31637d2a7b5f66636afc6170eb204f85c8734e74f0acf703b50cf87293</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Gold-Dragons---The-Dungeoncast-Ep-162-elg6jm</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian bring the Year of the Dragon to a close. Come learn about the highest ranked dragon amongst those below godhood! Their lawful good, golden personas shall shine with the bright rays of goodness this week on The Dungeoncast!
+
+This week's episode was brought to you by: Heroforge
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hello? Reach out thedungeoncast@gmail.com
+Or send us somet</description>
+      <pubDate>Mon, 09 Dec 2019 00:19:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU9293440114.mp3?updated=1716406438" length="58363237" type="audio/mpeg" />
+      <itunes:duration>2852</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: White Dragons - The Dungeoncast Ep.159</title>
+      <guid isPermaLink="false">fantasy-lore-f4947be31000c598cbcd69a73d62db7361f380c4612ffc2fc12e20d63fa13529</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-White-Dragons---The-Dungeoncast-Ep-159-elg6ej</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian discuss one of the weakest dragons n the chromatic scale, but that doesn't mean they aren't entirely terrifying to face. White Dragons hold domain over any place cold, whether it be frozen tundra or a vast mountain scape. Find out what makes them the ultimate survivors this week on The Dungeoncast!
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hello? Reach out thedungeoncast@gma</description>
+      <pubDate>Mon, 18 Nov 2019 00:09:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU5575078539.mp3?updated=1716406634" length="50716000" type="audio/mpeg" />
+      <itunes:duration>2469</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[Dragon Talk — Lore You Should Know] Dragon Talk: DOTS RPG</title>
+      <guid isPermaLink="false">fantasy-lore-8448e2146952faf9ff66442b48c4b8e4e87ea95dbb0aa0b1d41676e865bfe91d</guid>
+      <link>https://share.transistor.fm/s/2c43897b</link>
+      <description>From Dragon Talk — Lore You Should Know — Wizards of the Coast. Themes: creatures, gm. Original publisher episode: &lt;p&gt;What exactly are you allowed to stow in an overhead bin on an airplane? Shelly explains proper airplane travel etiquette to Greg with varying degrees of success. Later, Adam Lee joins us for Lore You Should Know on Warforged Collosus. Our special guests this week are Jess Dempsey and Joey Iovino from DOTS RPG. Here's a guide to when each segment on the podcast begins: 00:00: Intro with Greg Tito and Shelly Mazzanoble 14:12: Lore You Should Know with Adam Lee 35:33: Interview with Jess Dempsey</description>
+      <pubDate>Thu, 10 Oct 2019 15:00:00 -0700</pubDate>
+      <enclosure url="https://media.transistor.fm/2c43897b/dff2934d.mp3" length="94467075" type="audio/mpeg" />
+      <itunes:duration>5904</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+      <source url="https://feeds.transistor.fm/dragon-talk-an-official-dungeons-dragons-podcast">Dragon Talk — Lore You Should Know</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Brass Dragons - The Dungeoncast Ep.152</title>
+      <guid isPermaLink="false">fantasy-lore-d104c58ce7b8453d88c882ea88b125252dad43836857994a7e836d560f324097</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Brass-Dragons---The-Dungeoncast-Ep-152-elg6e8</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian continue to move down the list of metallic dragons to one of the lowest CR variants in the game, but that doesn't make them any less interesting. Find out all about how a seriously Brass Dragons take their social interests, and why this terrifies Brian, this week on The Dungeoncast!
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hello? Reach out thedungeoncast@gmail.com
+Or send u</description>
+      <pubDate>Sun, 29 Sep 2019 21:49:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU3209357565.mp3?updated=1716406943" length="38157815" type="audio/mpeg" />
+      <itunes:duration>1842</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Green Dragons - The Dungeoncast Ep.149</title>
+      <guid isPermaLink="false">fantasy-lore-90734559cb54566f6a27e85af7973164d14b222a3970234b0a7f23fe238022a4</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Green-Dragons---The-Dungeoncast---Ep-149-elg6fp</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian continue to move forward with the Year of the Dragon by breaking down one of the most cunning creatures to roam the forests! While in the middle of the pack in terms of physical power, Green Dragons will initiate diplomatic deceit against more powerful foes while maintaining a petty and vicious facade toward those with nothing to offer. Find out about the rest of their powers and quirks this week on The Dungeoncast!
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Disc</description>
+      <pubDate>Mon, 09 Sep 2019 01:39:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU1722957710.mp3?updated=1716407082" length="49151746" type="audio/mpeg" />
+      <itunes:duration>2390</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Copper Dragons - The Dungeoncast Ep.145</title>
+      <guid isPermaLink="false">fantasy-lore-663237fcec8149e3120de40ce7525f9245ebd7f908b4f07d70027b7e0dd77330</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Copper-Dragons---The-Dungeoncast-Ep-145-elg6gq</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian are going in depth on another metallic dragon! Copper Dragons are boisterous entertainers and pranksters! Getting on their bad side might be more annoying than dangerous. Find out all their unique quirks this week on The Dungeoncast!
+
+Don't forget this week's sponsor: Bubblelazer on - Facebook - Instagram - Fiverr
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hello? Reach out th</description>
+      <pubDate>Tue, 13 Aug 2019 00:31:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU5174787779.mp3?updated=1716407250" length="46647175" type="audio/mpeg" />
+      <itunes:duration>2266</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Black Dragons - The Dungeoncast Ep.142</title>
+      <guid isPermaLink="false">fantasy-lore-fa007795bf92fa15da6636384e1b919960b73baf0497e5e0896f893f41c2fecb</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Black-Dragons---The-Dungeoncast-Ep-142-elg6ca</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian continue onward with the Year of the Dragon, and this time it's another evil chromatic. Black Dragons are vile and vicious in their own right, despite the drop in physical power compared to other different colored rivals. Find out what makes them dangerously unique this week on The Dungeoncast!
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hello? Reach out thedungeoncast@gmail.c</description>
+      <pubDate>Sun, 21 Jul 2019 23:55:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU7127456549.mp3?updated=1716407357" length="46348823" type="audio/mpeg" />
+      <itunes:duration>2251</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Bronze Dragons - The Dungeoncast Ep.137</title>
+      <guid isPermaLink="false">fantasy-lore-842c417337136802c79e3d6944a41409197168e0b7a9abd8338e90745455a918</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Bronze-Dragons---The-Dungeoncast-Ep-137-elg6ht</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian are back to dragons! This time it's another aligned with the side of good - the Bronze Dragon! Discover their unique personality traits and abilities this week on The Dungeoncast!
+
+Don't forget this week's sponsor: Bubblelazer on - Facebook - Instagram - Fiverr
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hello? Reach out thedungeoncast@gmail.com
+Or send us something by mail at</description>
+      <pubDate>Sun, 16 Jun 2019 19:18:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU9537905796.mp3?updated=1716407493" length="46643835" type="audio/mpeg" />
+      <itunes:duration>2266</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Silver Dragons - The Dungeoncast Ep.133</title>
+      <guid isPermaLink="false">fantasy-lore-6aea4b89d77b7c0233b9ee58be9df73af2ebcc3eb01c5866f118ca399c530a4d</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Silver-Dragons---The-Dungeoncast-Ep-133-elg6eu</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian are talking about their first singular metallic dragon! Silver Dragons enjoy spending time disguised amongst humans and elves, but will step in to tip the scales when it matter most. Find out just how powerful they are this week on The Dungeoncast!
+
+Don't forget this week's sponsor: Bubblelazer on - Facebook - Instagram - Fiverr
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hell</description>
+      <pubDate>Sun, 19 May 2019 21:04:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU8451586505.mp3?updated=1716407667" length="49109014" type="audio/mpeg" />
+      <itunes:duration>2389</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Blue Dragons - The Dungeoncast Ep.129</title>
+      <guid isPermaLink="false">fantasy-lore-377761292c9dc79579a9052c2d6028f4bc5a9ac00afcf337131c1a8f9dd86e1c</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Blue-Dragons---The-Dungeoncast-Ep-129-elg6k1</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian delve into an electrically terrifying Blue Dragons. This Chromatic may be smaller on average than their flaming red cousins, but their ferocity and cunning are nothing short of spectacular in their own right. Find out what makes these winged atrocities so dangerous this week on The Dungeoncast!
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say hello? Reach out thedungeoncast@gmail.c</description>
+      <pubDate>Sun, 21 Apr 2019 19:47:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU8760373148.mp3?updated=1716407809" length="55845897" type="audio/mpeg" />
+      <itunes:duration>2726</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Red Dragons - The Dungeoncast Ep.125</title>
+      <guid isPermaLink="false">fantasy-lore-3554f75c7de4f5a4c756227f38899507698c641328cd502da67ecd33dfb91f8b</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Red-Dragons---The-Dungeoncast-Ep-125-elg6gj</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian are taking on individual chromatic dragons at last! We aren't nearly high enough level to fight them, so we are just talking about them instead. Learn the true ferocity and terror of the mighty Red Dragon this week on The Dungeoncast!
+
+This episode is brought to you by Classless Characters; https://classlesscharacters.buzzsprout.com/
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an episode or just say</description>
+      <pubDate>Mon, 25 Mar 2019 00:20:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU7232004577.mp3?updated=1716407989" length="73805531" type="audio/mpeg" />
+      <itunes:duration>3624</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Metallic Dragons II - The Dungeoncast Ep.121</title>
+      <guid isPermaLink="false">fantasy-lore-4bde6245de068de38fc2268527921124c7581729f7de86442d8a9d0262ce3c6e</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Metallic-Dragons-II---The-Dungeoncast-Ep-121-elg6gh</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian are back at it again with the Year of the Dragon! It's a brand new batch of Metallic Dragons to talk about, all with unique and somewhat alien personalities this week on The Dungeoncast!
+
+This week's episode was brought to you by the Airship of Brackas - available now on Kickstarter: https://www.kickstarter.com/projects/jstreissand/airships-of-brackas-a-supplement-for-5e?ref=user_menu
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon</description>
+      <pubDate>Mon, 25 Feb 2019 01:37:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU3967463148.mp3?updated=1716408106" length="70946631" type="audio/mpeg" />
+      <itunes:duration>3481</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Chromatic Dragons II - The Dungeoncast Ep.117</title>
+      <guid isPermaLink="false">fantasy-lore-91f799256bc8aa7941c18ebf7487c243a4a3cf337fd508bfc9cbfd2ef8ed198d</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Chromatic-Dragons-II---The-Dungeoncast-Ep-117-elg6dq</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian are finally getting into Dragons - the evil ones! Again! The more obscure of the bunch have surfaced, at last! But they're no less dangerous should you happen to encounter one in your travels.
+
+This week's episode has been brought to you by The Dungeon Booth! Check them out at the links below:
+Website - thedungeonbooth.com/ - iTunes - YouTube - Stitcher
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+Twitter
+Instagram
+Our Amazon Wishlist 
+Looking to sponsor an</description>
+      <pubDate>Mon, 28 Jan 2019 00:28:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU1605720355.mp3?updated=1716408259" length="61520945" type="audio/mpeg" />
+      <itunes:duration>3009</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Wyverns and Faerie Dragons - The Dungeoncast Ep.114</title>
+      <guid isPermaLink="false">fantasy-lore-41b2437229ac0afdd6bb862995214b8c044d4e0df7e80495738251bd3faacebe</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Wyverns-and-Faerie-Dragons---The-Dungeoncast-Ep-114-elg6hi</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Will and Brian are tackling two different kinds of creatures relative of dragon kind this week on The Dungeoncast! Where the traditional Wyvern is very much a wild beast of sorts compared to some of their dragon counterparts, Farie Dragons show much more agency and camaraderie as they mischievously heckle travelers of the Fey wilds.
+
+This week's episode has been brought to you by The Dungeon Booth! Check them out at the links below:
+Website - thedungeonbooth.com/ - iTunes - YouTube - Stitcher
+
+O</description>
+      <pubDate>Mon, 07 Jan 2019 01:02:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU5889847053.mp3?updated=1716408415" length="50297693" type="audio/mpeg" />
+      <itunes:duration>2448</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Death Knights - The Dungeoncast Ep.103</title>
+      <guid isPermaLink="false">fantasy-lore-dc71722d19d64f8addb08d5bb37bd6cd3d8ab019bf6a3b47a99d91106ae4924b</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Death-Knights---The-Dungeoncast-Ep-103-elg6fv</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Brian and Will are talking about one of the greater, more twisted forces of evil from beyond the grave - the infamous Death Knight! Tremble before the crooked soul of the mighty fallen from grace this week on The Dungeoncast!
+Check out Raven of the Scythe at the links below:
+Drivethru: https://www.drivethrurpg.com/product/224029…f&amp;test_epoch=0 
+Kickstarter: https://www.kickstarter.com/projects/crossroadrpg/raven-of-the-scythe 
+
+Our D&amp;D Liveplay, Superquest Saga
+Dungeoncast Merch
+Patreon
+Discord
+</description>
+      <pubDate>Sun, 21 Oct 2018 23:07:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU7921383473.mp3?updated=1716408760" length="46249569" type="audio/mpeg" />
+      <itunes:duration>2822</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Ogres and Trolls - The Dungeoncast Ep.85</title>
+      <guid isPermaLink="false">fantasy-lore-be159305f110ab440c4011521f849bc32ab9c4b6cfb69e471a80ee52c6ca3ee7</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Ogres-and-Trolls---The-Dungeoncast-Ep-85-elg6jq</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: It's BOGO week on The Dungeoncast! Will and Brian are talking about the 5E Ogres and Trolls. These hulking masses of monster are as dangerous as they are stupid. A perfect edition to your campaign; sure to strike fear into the hearts of your adventurers. Especially if they show up in their birthday suits. Talking Points: Building Blocks, Force Of Nature, Smash Everything, The Worst Place To Be, Naked And Stupid And Hungry And Angry, Alternate Ogre Realities, Troublesome Trolls, The Hows And Whys</description>
+      <pubDate>Sun, 17 Jun 2018 21:00:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU7921268477.mp3?updated=1716409458" length="46998326" type="audio/mpeg" />
+      <itunes:duration>2283</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Hags - The Dungeoncast Ep.77</title>
+      <guid isPermaLink="false">fantasy-lore-4c6d7249d584d8e61054532697198c2ab23ff0d330b6d1ca5f85a95f8c679a28</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Hags---The-Dungeoncast-Ep-77-elg6j6</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, magic, gm. Original publisher episode: Is that The Wicked Witch of the West riding a sled mushed on by four Bullywugs at the edge of the woods? Nope, just a Hag and you should stay away from it. Will and Brian are getting into the mind of a creature that's as ruthless and repulsive as it is strange and whimsical this week on The Dungeoncast! Talking Points: Favorite Kind Of Lady, Mythology VS D&amp;D, Babas Bad Witches, Living Forever 101, Misery Business, Hag Classic, Triggering The Donner Party, Part Of The Ship, The Worst Wallet, Mega</description>
+      <pubDate>Mon, 23 Apr 2018 01:04:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU3364553874.mp3?updated=1716409881" length="58452442" type="audio/mpeg" />
+      <itunes:duration>2856</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+    <item>
+      <title>[The Dungeoncast] Monster Mythos: Drow (Dark Elves)- The Dungeoncast Ep.71</title>
+      <guid isPermaLink="false">fantasy-lore-9c0110ece948733be977c3be5ed2bfd185ce1da43dee6975bea24e443ea71c8d</guid>
+      <link>https://anchor.fm/the-dungeoncast/episodes/Monster-Mythos-Drow-Dark-Elves--The-Dungeoncast-Ep-71-elg6is</link>
+      <description>From The Dungeoncast — Will and Brian / Realm. Themes: creatures, cultures, magic, gm. Original publisher episode: The ill will of Lolth permeates every facet of this culture down to the absence of love and the worshipping of spiders. Will and Brian are working over the details of Drow sociology this week on The Dungeoncast! This one is a wild ride from start to finish. Talking Points: Heavy Lore, Responsible For Everything, Centaurology, Not Talkin' 'Bout Drizzt, The Murky Matriarchy, Beating The Love Out Of You, All The Treachery And Murder, I Skinned Your Boyfriend, A Plethora Of Spiders, Living In The Sh</description>
+      <pubDate>Mon, 12 Mar 2018 00:21:00 -0000</pubDate>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/prfx.byspotify.com/e/pscrb.fm/rss/p/p.podderapp.com/3154757013/traffic.megaphone.fm/BLU6826734017.mp3?updated=1716410091" length="51064929" type="audio/mpeg" />
+      <itunes:duration>2432</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/BLU8261889823">The Dungeoncast</source>
+    </item>
+  </channel>
+</rss>

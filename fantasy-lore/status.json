@@ -1,11 +1,134 @@
 {
-  "generated_at": "2026-10-13",
-  "state": "configured_not_published",
-  "total_episodes": 0,
-  "feeds": {},
-  "sources": [],
+  "generated_at": "2026-10-13T20:30:23.578694+00:00",
+  "state": "published",
+  "sources": [
+    {
+      "id": "monster-man",
+      "state": "included",
+      "source_rss": "https://monsterman.libsyn.com/rss",
+      "episodes": 28,
+      "skipped": {
+        "not_relevant": 7,
+        "invalid_audio": 2,
+        "duplicated": 0
+      }
+    },
+    {
+      "id": "dungeoncast",
+      "state": "included",
+      "source_rss": "https://feeds.megaphone.fm/BLU8261889823",
+      "episodes": 25,
+      "skipped": {
+        "not_relevant": 15,
+        "invalid_audio": 1,
+        "duplicated": 0
+      }
+    },
+    {
+      "id": "dnd-lorecast",
+      "state": "included",
+      "source_rss": "https://feeds.megaphone.fm/robr3326069327",
+      "episodes": 24,
+      "skipped": {
+        "not_relevant": 159,
+        "invalid_audio": 0,
+        "duplicated": 0
+      }
+    },
+    {
+      "id": "travel-log",
+      "state": "included",
+      "source_rss": "https://anchor.fm/s/66ad0ab4/podcast/rss",
+      "episodes": 22,
+      "skipped": {
+        "not_relevant": 0,
+        "invalid_audio": 0,
+        "duplicated": 0
+      }
+    },
+    {
+      "id": "monsters-multiclass",
+      "state": "included",
+      "source_rss": "https://feeds.buzzsprout.com/222686.rss",
+      "episodes": 22,
+      "skipped": {
+        "not_relevant": 129,
+        "invalid_audio": 0,
+        "duplicated": 0
+      }
+    },
+    {
+      "id": "dragon-talk",
+      "state": "included",
+      "source_rss": "https://feeds.transistor.fm/dragon-talk-an-official-dungeons-dragons-podcast",
+      "episodes": 14,
+      "skipped": {
+        "not_relevant": 330,
+        "invalid_audio": 0,
+        "duplicated": 0
+      }
+    },
+    {
+      "id": "legends-and-lore",
+      "state": "included",
+      "source_rss": "https://feeds.megaphone.fm/dndlegendsandlore",
+      "episodes": 20,
+      "skipped": {
+        "not_relevant": 3,
+        "invalid_audio": 0,
+        "duplicated": 0
+      }
+    },
+    {
+      "id": "worlds-beyond-number",
+      "state": "unavailable",
+      "reason": "No suitable episodes with verifiable HTTPS enclosures"
+    },
+    {
+      "id": "silt-verses",
+      "state": "included",
+      "source_rss": "https://access.acast.com/rss/5fec690f8211cf453a1b89e2/",
+      "episodes": 8,
+      "skipped": {
+        "not_relevant": 45,
+        "invalid_audio": 0,
+        "duplicated": 0
+      }
+    },
+    {
+      "id": "dark-dice",
+      "state": "included",
+      "source_rss": "https://feeds.megaphone.fm/SBP9028289759",
+      "episodes": 7,
+      "skipped": {
+        "not_relevant": 96,
+        "invalid_audio": 0,
+        "duplicated": 0
+      }
+    },
+    {
+      "id": "once-future-nerd",
+      "state": "included",
+      "source_rss": "https://onceandfuturenerd.com/feed/podcast",
+      "episodes": 8,
+      "skipped": {
+        "not_relevant": 130,
+        "invalid_audio": 0,
+        "duplicated": 0
+      }
+    }
+  ],
+  "feeds": {
+    "feed-v2.xml": 178,
+    "feed.xml": 178,
+    "creatures.xml": 127,
+    "cultures.xml": 62,
+    "magic-planar.xml": 75,
+    "worldbuilding.xml": 43
+  },
   "publisher_audio_rehosted": false,
   "warnings": [
-    "Initial build has not been verified; subscribe after GitHub Actions publishes the RSS files."
-  ]
+    "Source skipped: worlds-beyond-number"
+  ],
+  "total_episodes": 178
 }
