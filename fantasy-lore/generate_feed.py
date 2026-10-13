@@ -6,7 +6,7 @@ Each source is independent. Publication is atomic after aggregate validation.
 """
 from __future__ import annotations
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime, parsedate_to_datetime
 import hashlib
 import json
@@ -17,6 +17,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from ranked import story_chapters, score, rank, manifest, markdown
 
 HOME = Path(__file__).resolve().parent
 CONFIG = json.loads((HOME / "catalog.json").read_text(encoding="utf-8"))
@@ -25,7 +26,7 @@ ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 ATOM = "http://www.w3.org/2005/Atom"
 ET.register_namespace("itunes", ITUNES)
 ET.register_namespace("atom", ATOM)
-USER_AGENT = "Mozilla/5.0 (compatible; Fantasy LoreLoreFeed/1.0; +https://github.com/Quarky/shadowrunfeed)"
+USER_AGENT = "Mozilla/5.0 (compatible; FantasyLoreFeed/2.0; +https://github.com/Quarky/shadowrunfeed)"
 HEADERS = {"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/xml, text/xml, */*"}
 
 def norm(s):
@@ -153,7 +154,7 @@ def curated_items(source, originals):
             rejected["invalid_audio"] += 1
             continue
         ready.append({"score":score,"published":publication,"item":item,
-                      "themes":themes,"length":length,"source":source})
+                      "themes":themes,"length":length,"source":source,"role":"lore"})
     return ready, rejected
 
 def child(parent, name, content):
@@ -189,12 +190,12 @@ def artwork(output):
     d.text((800,1360),"FANTASY LORE LIBRARY",fill=(205,160,89),font=medium,anchor="mt")
     im.save(output,format="PNG",optimize=True)
 
-def build_feed(filename, entries, label):
+def build_feed(filename, entries, label, ranked=False):
     root=ET.Element("rss",{"version":"2.0"})
     channel=ET.SubElement(root,"channel")
-    child(channel,"title","Fantasy Lore / Anomaly — " + label)
+    child(channel,"title","Fantasy Lore — " + label)
     child(channel,"link","https://github.com/Quarky/shadowrunfeed/tree/main/fantasy-lore")
-    child(channel,"description","Independent curated fantasy worldbuilding inspiration for Fantasy Lore / Anomaly GMs: creatures, culture, deities, planar mysteries and practical encounters. Not original-world canon; publisher-hosted recordings only. Source shows and episode credits retained.")
+    child(channel,"description","Independent fantasy lore and story listening library from original publishers. Ranked editions alternate lore with storytelling; show ratings are never represented as episode ratings.")
     child(channel,"language","en")
     child(channel,"copyright","Original episodes and audio remain copyright their respective publishers.")
     child(channel,f"{{{ITUNES}}}author","Fantasy Lore GM listening index (independent curation)")
@@ -202,21 +203,25 @@ def build_feed(filename, entries, label):
     child(channel,f"{{{ITUNES}}}type","episodic")
     ET.SubElement(channel,f"{{{ITUNES}}}image",{"href":PUBLIC+"cover.png"})
     ET.SubElement(channel,f"{{{ATOM}}}link",{"href":PUBLIC+filename,"rel":"self","type":"application/rss+xml"})
-    # Podcast apps order by original broadcast dates, with source credit in the title.
-    for entry in sorted(entries,key=lambda e:e["published"],reverse=True):
+    # Ranked feeds intentionally encode listening order in synthetic publication dates.
+    # Original publisher dates are retained in each ranked item description.
+    for position,entry in enumerate(entries if ranked else sorted(entries,key=lambda e:e["published"],reverse=True),1):
         item = entry["item"]; source = entry["source"]
         title = (item.findtext("title") or "").strip()
         url = item.find("enclosure").get("url")
         entry_id = hashlib.sha256((source["id"]+"\n"+url).encode()).hexdigest()
         dest=ET.SubElement(channel,"item")
-        child(dest,"title",f"[{source['title']}] {title}")
+        child(dest,"title",(f"{position:02d} • {entry['role'].upper()} • " if ranked else "") + f"[{source['title']}] {title}")
         child(dest,"guid","fantasy-lore-"+entry_id).set("isPermaLink","false")
         child(dest,"link",(item.findtext("link") or source["publisher_site"]).strip())
         desc=(item.findtext("description") or "").strip()
         # Keep short publisher show-note excerpt plus clear source credit.
-        child(dest,"description",f"From {source['title']} — {source['publisher']}. Themes: {', '.join(entry['themes'])}. Original publisher episode: "+desc[:500])
+        child(dest,"description",f"From {source['title']} — {source['publisher']}. Kind: {entry['role']}. Editorial algorithm score (not listener episode rating): {entry['score']:.1f}/100. Show-level Apple US rating: {source.get('rating_us',{}).get('stars','unrated')}/5. Original publisher date: {item.findtext('pubDate') or 'unknown'}. Themes: {', '.join(entry['themes'])}. Publisher description: "+desc[:500])
         original_date=item.findtext("pubDate")
-        if original_date:
+        if ranked:
+            synthetic=datetime(2026,10,13,12,0,tzinfo=timezone.utc)-timedelta(minutes=position)
+            child(dest,"pubDate",format_datetime(synthetic))
+        elif original_date:
             child(dest,"pubDate",original_date)
         ET.SubElement(dest,"enclosure",{"url":url,"length":str(entry["length"]),
                                       "type":item.find("enclosure").get("type","audio/mpeg") or "audio/mpeg"})
@@ -238,7 +243,7 @@ def main():
     for source in CONFIG["sources"]:
         try:
             rss, originals=fetch_rss(source)
-            items, skipped=curated_items(source, originals)
+            items, skipped=(story_chapters(source,originals,resolved_length) if source.get("kind")=="story" else curated_items(source, originals))
             if not items:
                 raise ValueError("No suitable episodes with verifiable HTTPS enclosures")
             for entry in items:
@@ -261,29 +266,38 @@ def main():
         by_enclosure.setdefault(url,entry)
     all_entries=list(by_enclosure.values())
     contents={}
-    main=build_feed("feed-v2.xml",all_entries,"Curated Lore & Creature Anthology")
+    ordered=rank(all_entries,CONFIG)
+    main=build_feed("feed-v2.xml",ordered,"Alternating Lore & Story",ranked=True)
     contents["feed-v2.xml"]=main
-    contents["feed.xml"]=build_feed("feed.xml",all_entries,"Curated Lore & Creature Anthology")
-    report["feeds"]["feed-v2.xml"]=len(all_entries)
-    report["feeds"]["feed.xml"]=len(all_entries)
+    contents["feed.xml"]=build_feed("feed.xml",ordered,"Alternating Lore & Story",ranked=True)
+    contents["ranked-feed.xml"]=build_feed("ranked-feed.xml",ordered,"Alternating Lore & Story",ranked=True)
+    report["feeds"]["feed-v2.xml"]=len(ordered)
+    report["feeds"]["feed.xml"]=len(ordered)
+    report["feeds"]["ranked-feed.xml"]=len(ordered)
+    report["ranked_pairs"]=len(ordered)//2
     for theme, file_name, title in [
         ("creatures","creatures.xml","Creatures & Ecology"),
         ("cultures","cultures.xml","Societies & Settlements"),
         ("magic","magic-planar.xml","Magic, Gods & Planes"),
         ("gm","worldbuilding.xml","Worldbuilding & GM Craft")]:
-        selected=[e for e in all_entries if theme in e["themes"]]
+        selected=[e for e in all_entries if e["role"]=="lore" and theme in e["themes"]]
         if selected:
             contents[file_name]=build_feed(file_name,selected,title)
             report["feeds"][file_name]=len(selected)
     artwork(HOME/"cover.png")
+    (HOME/"episode-list.json").write_text(json.dumps({
+        "generated_at":report["generated_at"],
+        "rating_type":"Show-level Apple US only, episode ranking is editorial heuristic",
+        "episodes":manifest(ordered)},indent=2)+"\n",encoding="utf-8")
+    (HOME/"episode-list.md").write_text(markdown(ordered),encoding="utf-8")
     for filename,data in contents.items():
         tmp=HOME/(filename+".tmp")
         tmp.write_bytes(data)
         tmp.replace(HOME/filename)
     report["state"]="published"
-    report["total_episodes"]=len(all_entries)
+    report["total_episodes"]=len(ordered)
     (HOME/"status.json").write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
-    print("Published: "+str(report["feeds"])+" using original publisher audio")
+    print("Published original-hosted alternating fantasy audio: "+str(report["feeds"]))
 if __name__=="__main__":
     try:
         main()
