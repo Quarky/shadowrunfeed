@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "title": "Fantasy Lore — Creatures, Mythology & Worldbuilding",
+  "created": "2026-10-13",
+  "editorial_policy": "Public index of fantasy lore audio and reading references. Episodes are linked from the original publishers; no copyrighted sound files are rehosted. General D&D, myth and worldbuilding inspiration only.",
+  "feeds": {
+    "combined": "feed-v2.xml",
+    "creatures": "creatures.xml",
+    "cultures": "cultures.xml",
+    "magic": "magic-planar.xml",
+    "gm": "worldbuilding.xml"
+  },
+  "themes": {
+    "creatures": {
+      "title": "Creatures & Monster Ecology",
+      "terms": [
+        "monster",
+        "creature",
+        "dragon",
+        "beholder",
+        "aberration",
+        "aboleth",
+        "illithid",
+        "mind flayer",
+        "elder brain",
+        "bulette",
+        "worm",
+        "cloaker",
+        "hydra",
+        "ooze",
+        "mimic",
+        "golem",
+        "beast",
+        "spider",
+        "insect",
+        "troll",
+        "vampire",
+        "undead",
+        "lich",
+        "horror",
+        "hag",
+        "fiend",
+        "demon",
+        "ghost",
+        "fey",
+        "sphinx",
+        "basilisk",
+        "kraken",
+        "giant",
+        "kobold",
+        "goblin",
+        "werewolf",
+        "chimera",
+        "dinosaur",
+        "elemental",
+        "owlbear",
+        "displacer",
+        "ecology",
+        "devourer",
+        "sahuagin",
+        "myconid",
+        "ettin",
+        "manticore",
+        "predator",
+        "monster manual"
+      ]
+    },
+    "cultures": {
+      "title": "Cultures, Locations & History",
+      "terms": [
+        "society",
+        "civilization",
+        "faction",
+        "kingdom",
+        "empire",
+        "town",
+        "city",
+        "settlement",
+        "village",
+        "forest",
+        "mountain",
+        "dwarf",
+        "elf",
+        "drow",
+        "underdark",
+        "tribe",
+        "ruin",
+        "castle",
+        "culture",
+        "custom",
+        "politic",
+        "history",
+        "faith",
+        "religion",
+        "tradition",
+        "outpost",
+        "war",
+        "ancient",
+        "swamp",
+        "guild",
+        "holiday",
+        "trade",
+        "community",
+        "monastery"
+      ]
+    },
+    "magic": {
+      "title": "Magic, Gods & Planes",
+      "terms": [
+        "magic",
+        "astral",
+        "arcane",
+        "weave",
+        "spell",
+        "portal",
+        "planar",
+        "plane",
+        "rift",
+        "void",
+        "curse",
+        "ritual",
+        "enchant",
+        "goddess",
+        "god ",
+        "god of",
+        "deity",
+        "pantheon",
+        "shadow",
+        "far realm",
+        "chaos",
+        "feywild",
+        "shadowfell",
+        "ravenloft",
+        "barovia",
+        "psychic",
+        "psionic",
+        "transmut",
+        "myth",
+        "divine",
+        "celestial",
+        "elemental",
+        "dream",
+        "telepath"
+      ]
+    },
+    "gm": {
+      "title": "Worldbuilding & GM Techniques",
+      "terms": [
+        "worldbuilding",
+        "world building",
+        "how to",
+        "encounter",
+        "campaign",
+        "setting",
+        "story",
+        "storytelling",
+        "roleplay",
+        "rpg",
+        "lair",
+        "ecology",
+        "dungeon",
+        "adventure",
+        "faction",
+        "villain",
+        "treasure",
+        "travel",
+        "mystery",
+        "design",
+        "creat",
+        "monster manual"
+      ]
+    }
+  },
+  "exclude_title_terms": [
+    "book club",
+    "review of",
+    "reviewing",
+    "tier list",
+    "news roundup",
+    "news and releases",
+    "announcement",
+    "special announcement",
+    "one d&d",
+    "playtest",
+    "unearthed arcana",
+    "multiclass",
+    "subclass",
+    "class changes"
+  ],
+  "spotlight_terms": [
+    "monster",
+    "ecology",
+    "myth",
+    "underdark",
+    "mind flayer",
+    "dragon",
+    "god",
+    "goddess",
+    "far realm",
+    "aberration",
+    "folklore",
+    "fey",
+    "civilization",
+    "society",
+    "undead",
+    "settlement",
+    "worldbuilding",
+    "culture"
+  ],
+  "sources": [
+    {
+      "id": "monster-man",
+      "title": "Monster Man",
+      "publisher": "James Holloway",
+      "publisher_site": "https://www.monsterman.org/monsterman",
+      "rss_candidates": [
+        "https://monsterman.libsyn.com/rss"
+      ],
+      "itunes_id": 1286915333,
+      "limit": 28,
+      "default_theme": "creatures",
+      "note": "Monsters, mythology, ecology and folklore."
+    },
+    {
+      "id": "dungeoncast",
+      "title": "The Dungeoncast",
+      "publisher": "Will and Brian / Realm",
+      "publisher_site": "https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354",
+      "rss_candidates": [],
+      "itunes_id": 1175886354,
+      "limit": 25,
+      "default_theme": null,
+      "note": "D&D creature histories, gods, settings and lore."
+    },
+    {
+      "id": "dnd-lorecast",
+      "title": "Dungeons & Dragons Lorecast",
+      "publisher": "DnD Lorecast",
+      "publisher_site": "https://linktr.ee/dndlorecast",
+      "rss_candidates": [
+        "https://feeds.megaphone.fm/robr3326069327"
+      ],
+      "itunes_id": 1504682770,
+      "limit": 24,
+      "default_theme": null,
+      "note": "D&D gods, factions, world history and planar lore."
+    },
+    {
+      "id": "travel-log",
+      "title": "The Travel Log",
+      "publisher": "Lily Lavin and Steven Hoffart",
+      "publisher_site": "https://podcasts.apple.com/us/podcast/the-travel-log/id1556137924",
+      "rss_candidates": [],
+      "itunes_id": 1556137924,
+      "limit": 22,
+      "default_theme": "cultures",
+      "note": "Setting locations, local history, travel and cultural inspiration."
+    },
+    {
+      "id": "monsters-multiclass",
+      "title": "Monsters & Multiclass",
+      "publisher": "Ellie Ode, Jarred Bournigal and Will Meldon",
+      "publisher_site": "https://www.buzzsprout.com/222686/episodes",
+      "rss_candidates": [
+        "https://feeds.buzzsprout.com/222686.rss"
+      ],
+      "itunes_id": 1441153618,
+      "limit": 22,
+      "default_theme": null,
+      "note": "Monster abilities and encounter design."
+    },
+    {
+      "id": "dragon-talk",
+      "title": "Dragon Talk — Lore You Should Know",
+      "publisher": "Wizards of the Coast",
+      "publisher_site": "https://dragontalk.transistor.fm/",
+      "rss_candidates": [
+        "https://feeds.transistor.fm/dragon-talk-an-official-dungeons-dragons-podcast"
+      ],
+      "itunes_id": 189053885,
+      "limit": 14,
+      "default_theme": null,
+      "require_description_term": "lore you should know",
+      "note": "Official D&D lore segments; exclude unrelated interviews."
+    }
+  ],
+  "reading": [
+    {
+      "title": "D&D 2014 Monster Manual",
+      "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "use": "2014 monster lore, behavior and abilities; may require purchase."
+    },
+    {
+      "title": "Official Systems Reference Document",
+      "url": "https://dnd.wizards.com/resources/systems-reference-document",
+      "use": "Open D&D rules and creature reference."
+    },
+    {
+      "title": "Pathfinder 2e — Archives of Nethys",
+      "url": "https://2e.aonprd.com/Monsters.aspx",
+      "use": "Additional monster and encounter concepts; convert system mechanics separately."
+    },
+    {
+      "title": "Forgotten Realms Wiki",
+      "url": "https://forgottenrealms.fandom.com/wiki/Main_Page",
+      "use": "Third-party setting lore; verify original sources."
+    },
+    {
+      "title": "The Alexandrian",
+      "url": "https://thealexandrian.net/",
+      "use": "Nonlinear adventures, mysteries and worldbuilding."
+    },
+    {
+      "title": "The Monsters Know What They're Doing",
+      "url": "https://www.themonstersknow.com/why-these-tactics/",
+      "use": "Creature tactics and believable behavior."
+    },
+    {
+      "title": "Sly Flourish — Lazy World Building",
+      "url": "https://slyflourish.com/lazy_world_building.html",
+      "use": "Practical faction and settlement development."
+    },
+    {
+      "title": "Resources for World-Builders",
+      "url": "https://acoup.blog/resources-for-world-builders/",
+      "use": "Historical economy, logistics and societies."
+    }
+  ]
+}
