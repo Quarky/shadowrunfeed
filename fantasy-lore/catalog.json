@@ -1,14 +1,15 @@
 {
-  "schema_version": 1,
-  "title": "Fantasy Lore — Creatures, Mythology & Worldbuilding",
+  "schema_version": 2,
+  "title": "Fantasy Lore — Ranked Discovery and Story Queue",
   "created": "2026-10-13",
-  "editorial_policy": "Public index of fantasy lore audio and reading references. Episodes are linked from the original publishers; no copyrighted sound files are rehosted. General D&D, myth and worldbuilding inspiration only.",
+  "editorial_policy": "General fantasy audio only, using original publisher-hosted enclosures. An alternating lore / story listening order is generated from show-level ratings and episode-level editorial relevance. No episode-level rating is inferred from show ratings.",
   "feeds": {
     "combined": "feed-v2.xml",
     "creatures": "creatures.xml",
     "cultures": "cultures.xml",
     "magic": "magic-planar.xml",
-    "gm": "worldbuilding.xml"
+    "gm": "worldbuilding.xml",
+    "ranked": "ranked-feed.xml"
   },
   "themes": {
     "creatures": {
@@ -185,7 +186,16 @@
     "unearthed arcana",
     "multiclass",
     "subclass",
-    "class changes"
+    "class changes",
+    "bonus drop:",
+    "crossover",
+    "promo",
+    "introducing:",
+    "trailer",
+    "what is new",
+    "roundtable:",
+    "lorecast roundtable",
+    "fan mail"
   ],
   "spotlight_terms": [
     "monster",
@@ -205,7 +215,19 @@
     "undead",
     "settlement",
     "worldbuilding",
-    "culture"
+    "culture",
+    "drow",
+    "feywild",
+    "deity",
+    "river god",
+    "death knight",
+    "hags",
+    "ogre",
+    "tavern",
+    "settlement",
+    "rural",
+    "mystery",
+    "ritual"
   ],
   "sources": [
     {
@@ -219,7 +241,14 @@
       "itunes_id": 1286915333,
       "limit": 28,
       "default_theme": "creatures",
-      "note": "Monsters, mythology, ecology and folklore."
+      "note": "Monsters, mythology, ecology and folklore.",
+      "kind": "lore",
+      "rating_us": {
+        "stars": 4.8,
+        "count": 80,
+        "url": "https://podcasts.apple.com/us/podcast/monster-man/id1286915333",
+        "checked": "2026-10-13"
+      }
     },
     {
       "id": "dungeoncast",
@@ -230,7 +259,14 @@
       "itunes_id": 1175886354,
       "limit": 25,
       "default_theme": null,
-      "note": "D&D creature histories, gods, settings and lore."
+      "note": "D&D creature histories, gods, settings and lore.",
+      "kind": "lore",
+      "rating_us": {
+        "stars": 4.9,
+        "count": 1377,
+        "url": "https://podcasts.apple.com/us/podcast/the-dungeoncast/id1175886354",
+        "checked": "2026-10-13"
+      }
     },
     {
       "id": "dnd-lorecast",
@@ -243,7 +279,14 @@
       "itunes_id": 1504682770,
       "limit": 24,
       "default_theme": null,
-      "note": "D&D gods, factions, world history and planar lore."
+      "note": "D&D gods, factions, world history and planar lore.",
+      "kind": "lore",
+      "rating_us": {
+        "stars": 4.7,
+        "count": 126,
+        "url": "https://podcasts.apple.com/us/podcast/dungeons-dragons-lorecast/id1504682770",
+        "checked": "2026-10-13"
+      }
     },
     {
       "id": "travel-log",
@@ -254,7 +297,14 @@
       "itunes_id": 1556137924,
       "limit": 22,
       "default_theme": "cultures",
-      "note": "Setting locations, local history, travel and cultural inspiration."
+      "note": "Setting locations, local history, travel and cultural inspiration.",
+      "kind": "lore",
+      "rating_us": {
+        "stars": 4.7,
+        "count": 13,
+        "url": "https://podcasts.apple.com/us/podcast/the-travel-log/id1556137924",
+        "checked": "2026-10-13"
+      }
     },
     {
       "id": "monsters-multiclass",
@@ -267,7 +317,14 @@
       "itunes_id": 1441153618,
       "limit": 22,
       "default_theme": null,
-      "note": "Monster abilities and encounter design."
+      "note": "Monster abilities and encounter design.",
+      "kind": "lore",
+      "rating_us": {
+        "stars": 4.9,
+        "count": 68,
+        "url": "https://podcasts.apple.com/us/podcast/monsters-multiclass/id1441153618",
+        "checked": "2026-10-13"
+      }
     },
     {
       "id": "dragon-talk",
@@ -281,7 +338,131 @@
       "limit": 14,
       "default_theme": null,
       "require_description_term": "lore you should know",
-      "note": "Official D&D lore segments; exclude unrelated interviews."
+      "note": "Official D&D lore segments; exclude unrelated interviews.",
+      "kind": "lore",
+      "rating_us": {
+        "stars": 4.3,
+        "count": 805,
+        "url": "https://podcasts.apple.com/us/podcast/dragon-talk-an-official-dungeons-dragons-podcast/id189053885",
+        "checked": "2026-10-13"
+      }
+    },
+    {
+      "id": "legends-and-lore",
+      "title": "D&D Legends and Lore",
+      "publisher": "William Stark and Omar Timsah / Realm",
+      "publisher_site": "https://podcasts.apple.com/us/podcast/d-d-legends-and-lore/id1769219620",
+      "rss_candidates": [],
+      "itunes_id": 1769219620,
+      "limit": 20,
+      "default_theme": "creatures",
+      "kind": "lore",
+      "note": "Narrative-driven explorations of D&D monsters, peoples, gods and history; exclude trailer and cross-promotion.",
+      "rating_us": {
+        "stars": 4.8,
+        "count": 114,
+        "url": "https://podcasts.apple.com/us/podcast/d-d-legends-and-lore/id1769219620",
+        "checked": "2026-10-13"
+      }
+    },
+    {
+      "id": "worlds-beyond-number",
+      "title": "Worlds Beyond Number",
+      "publisher": "Worlds Beyond Number",
+      "publisher_site": "https://worlds-beyond-number.simplecast.com/",
+      "rss_candidates": [],
+      "itunes_id": 1670750937,
+      "limit": 7,
+      "kind": "story",
+      "note": "Character voice, social customs, forest spirits, witches and deep NPC characterization.",
+      "story_playlist": [
+        "The Wizard, the Witch, and the Wild One: Preludes",
+        "#1: The Open Door",
+        "#2: The Naming of Things",
+        "#3: The Charter"
+      ],
+      "rating_us": {
+        "stars": 4.9,
+        "count": 3408,
+        "url": "https://podcasts.apple.com/us/podcast/worlds-beyond-number/id1670750937",
+        "checked": "2026-10-13"
+      }
+    },
+    {
+      "id": "silt-verses",
+      "title": "The Silt Verses",
+      "publisher": "Eskew Productions",
+      "publisher_site": "https://shows.acast.com/the-silt-verses",
+      "rss_candidates": [
+        "https://access.acast.com/rss/5fec690f8211cf453a1b89e2/"
+      ],
+      "itunes_id": 1547222295,
+      "limit": 8,
+      "kind": "story",
+      "note": "Horror-fantasy audio drama: religion, dangerous deities, ordinary NPCs and ritual consequences.",
+      "story_playlist": [
+        "Chapter 1: Let Me Speak First Of Revelations",
+        "Chapter 2: And Next Of Dark Deceit",
+        "Chapter 3: Then I'll Speak Of Champions",
+        "Chapter 4: Of Lovers, Gods and Beasts",
+        "Chapter 5: My Song Is Long And Twisted",
+        "Chapter 6: It Winds, It Worms, It Wends"
+      ],
+      "rating_us": {
+        "stars": 4.8,
+        "count": 641,
+        "url": "https://podcasts.apple.com/us/podcast/the-silt-verses/id1547222295",
+        "checked": "2026-10-13"
+      }
+    },
+    {
+      "id": "dark-dice",
+      "title": "Dark Dice",
+      "publisher": "Fool & Scholar Productions",
+      "publisher_site": "https://darkdice.com/",
+      "rss_candidates": [],
+      "itunes_id": 1437360249,
+      "limit": 7,
+      "kind": "story",
+      "note": "Performed NPC dialogue, immersive audio, fantasy travel encounters and unsettling creatures.",
+      "story_playlist": [
+        "Embark",
+        "In the Willow’s Wake",
+        "The Calm",
+        "Lure"
+      ],
+      "rating_us": {
+        "stars": 4.7,
+        "count": 742,
+        "url": "https://podcasts.apple.com/us/podcast/dark-dice/id1437360249",
+        "checked": "2026-10-13"
+      }
+    },
+    {
+      "id": "once-future-nerd",
+      "title": "The Once and Future Nerd",
+      "publisher": "Glass & Madera",
+      "publisher_site": "https://onceandfuturenerd.com/episode-guide/",
+      "rss_candidates": [
+        "https://onceandfuturenerd.com/feed/podcast"
+      ],
+      "itunes_id": 711119555,
+      "limit": 8,
+      "kind": "story",
+      "note": "Character and society-focused high fantasy fiction with feudal cultures and strong dialogue.",
+      "story_playlist": [
+        "The Prince of Iorden COMPLETE",
+        "Life In A Corner, Pt. 1",
+        "Life In A Corner, Pt. 2",
+        "Life In A Corner, Pt. 3",
+        "Life In A Corner, Pt. 4"
+      ],
+      "rating_us": {
+        "stars": 4.8,
+        "count": 702,
+        "url": "https://podcasts.apple.com/us/podcast/the-once-and-future-nerd/id711119555",
+        "checked": "2026-10-13"
+      }
     }
   ],
   "reading": [
@@ -325,5 +506,23 @@
       "url": "https://acoup.blog/resources-for-world-builders/",
       "use": "Historical economy, logistics and societies."
     }
-  ]
+  ],
+  "ranking": {
+    "version": "1.0",
+    "rating_market": "US Apple Podcasts",
+    "rating_checked": "2026-10-13",
+    "shrinkage_prior": 4.5,
+    "shrinkage_weight": 250,
+    "rating_weight": 0.16,
+    "episode_relevance_weight": 0.52,
+    "creative_utility_weight": 0.22,
+    "diversity_weight": 0.1,
+    "desired_story_fraction": 0.5,
+    "max_pairs": 22,
+    "max_lore_per_show": 6,
+    "max_story_per_show": 6,
+    "disclaimer": "Platform reviews are show-level, not individual episodes. Episode scores are transparent editorial heuristics, not listener-voted episode ratings. Ratings are dated snapshots, updated manually, not scraping or fabricated.",
+    "ordering": "One lore research episode followed by one story episode, repeating. Serial story chapters stay in their original order. Synthetic RSS publication dates encode the editorial listening order, not the original broadcast dates; original dates are retained in episode notes.",
+    "essay_link": "episode-list.md"
+  }
 }
