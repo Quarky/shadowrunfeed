@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "Ravnica audio fiction — curated listening catalog",
-  "updated": "2026-10-08",
+  "updated": "2026-10-14",
   "podcast_source": {
     "publisher": "Unspoken Realms",
     "rss": "https://feeds.libsyn.com/70890/rss",
@@ -120,7 +120,9 @@
         {
           "episode_number": 192,
           "title": "RNA#3 — The Principles of Unnatural Selection",
-          "feed_match": null
+          "feed_match": null,
+          "enclosure_url_override": "https://traffic.libsyn.com/unspokenrealms/Unspoken_Realms_-_192_-_The_Principles_of_Unnatural_Selection.mp3",
+          "feed_guid_revision": "publisher-audio-fix-20261014"
         },
         {
           "episode_number": 193,

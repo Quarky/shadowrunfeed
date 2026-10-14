@@ -21,7 +21,7 @@ These are **official audiobooks**, not free podcast episodes. They are cataloged
 
 ## Unspoken Realms — curated Ravnica stories
 
-Listen in roughly setting chronology below (within the series, ascending episode/story number). All feed episode names and audio locations are resolved from the **publisher RSS** rather than guessed MP3 URLs. Publisher: [Unspoken Realms](https://unspokenrealms.wordpress.com/).
+Listen in roughly setting chronology below (within the series, ascending episode/story number). Episode names and audio locations come from the **publisher RSS**, except a documented link from the **publisher's own episode page** when an enclosure needs repair. Publisher: [Unspoken Realms](https://unspokenrealms.wordpress.com/).
 
 ### Return to Ravnica stories
 
@@ -91,6 +91,10 @@ Listen in roughly setting chronology below (within the series, ascending episode
 - The earlier *Return to Ravnica* material spans episodes **145, 158, 159, 172, 176, 179**, with *Gatecrash* follow-up stories in **183, 187, 188, 189**. This is **not** a claim that *The Secretist* novels have been recorded in full.
 - The 20 chapters of *The Gathering Storm* are **201–220**, authored by Django Wexler and narrated by the podcast. These prequel stories precede the *War of the Spark* climax.
 - **Optional additional Ravnica-era audio** not included in this narrowly requested list: the six *War of the Spark* web-fiction recordings at **195–200**, overlapping the novel's events from a different perspective.
+
+## Episode 192 audio repair (2026-10-14)
+
+Episode **192 — The Principles of Unnatural Selection** uses the [publisher's direct MP3 download](https://traffic.libsyn.com/unspokenrealms/Unspoken_Realms_-_192_-_The_Principles_of_Unnatural_Selection.mp3) instead of the older Libsyn `/secure/` enclosure. It is a stable publisher entry URL that issues fresh signed download redirects; **do not copy a `content.libsyn.com` signed URL into the catalog**. The catalog's `enclosure_url_override` and `feed_guid_revision` are applied by the weekly generator so subsequent refreshes retain the repair. Only episode 192's GUID was revised once so subscribed podcast apps can pick up a new entry; some players may briefly show a duplicate until their subscriptions refresh. The rest of the curated 36-story sequence is unchanged. The original creator still hosts the MP3.
 
 ## Maintenance
 

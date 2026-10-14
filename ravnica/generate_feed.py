@@ -85,7 +85,26 @@ def main():
                 missing.append(f"{group['id']}: duplicate guid for {selection['title']}")
                 continue
             used.add(guid)
-            selected.append(copy.deepcopy(item))
+            edited = copy.deepcopy(item)
+            # An explicit replacement must be a stable download link published by
+            # the original creator, never a time-limited content.libsyn.com URL.
+            override_url = selection.get("enclosure_url_override")
+            if override_url:
+                from urllib.parse import urlsplit
+                parsed = urlsplit(override_url)
+                if (parsed.scheme != "https" or parsed.hostname != "traffic.libsyn.com"
+                        or not parsed.path.startswith("/unspokenrealms/")
+                        or not parsed.path.endswith(".mp3") or parsed.query or parsed.fragment):
+                    raise ValueError(f"Invalid publisher audio override for {selection['title']}")
+                edited.find("enclosure").set("url", override_url)
+            # A changed enclosure with the old GUID is often ignored by podcast
+            # clients. Bump this episode's GUID once; keep it stable thereafter.
+            revision = selection.get("feed_guid_revision")
+            if revision:
+                if not re.fullmatch(r"[a-zA-Z0-9._-]+", revision):
+                    raise ValueError(f"Invalid feed GUID revision for {selection['title']}")
+                edited.find("guid").text = f"{guid}:revision:{revision}"
+            selected.append(edited)
     if missing:
         raise RuntimeError("Publisher RSS lacks required Ravnica recordings; refusing partial feed:\n - " + "\n - ".join(missing))
     if len(selected) != 36:
