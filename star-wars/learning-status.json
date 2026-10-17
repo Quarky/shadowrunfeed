@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-17T18:24:21.262865+00:00",
+  "generated_utc": "2026-10-17T19:08:30.465077+00:00",
   "state": "published",
   "lore_sources": [
     {
@@ -66,13 +66,22 @@
     }
   ],
   "outputs": {
-    "learning-feed-v2.xml": 56,
+    "learning-base-v2.xml": 56,
     "learning-lore.xml": 28,
     "learning-story.xml": 28,
-    "learning-episodes.md": 56
+    "learning-base-episodes.md": 56,
+    "learning-feed-v2.xml": 61,
+    "learning-episodes.md": 61
   },
   "copyrighted_audio_rehosted": false,
   "warnings": [],
-  "episodes": 56,
-  "pairs": 28
+  "episodes": 61,
+  "pairs": 28,
+  "main_feed": "learning-feed-v2.xml",
+  "featured_prefix": 20,
+  "core_episodes": 56,
+  "core_unique_remaining": 41,
+  "duplicates_suppressed": 15,
+  "bonus_lore": 5,
+  "original_ranked_content_retained": true
 }
