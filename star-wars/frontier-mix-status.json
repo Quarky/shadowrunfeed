@@ -1,0 +1,60 @@
+{
+  "state": "published",
+  "built_at": "2026-10-17T19:00:05.257226+00:00",
+  "dramas": [
+    {
+      "id": "alien-ruins",
+      "status": "verified",
+      "episode": "S1E1 - \"The Key to Humanity's Future\""
+    },
+    {
+      "id": "remote-station",
+      "status": "verified",
+      "episode": "S1E1: On the Ice"
+    },
+    {
+      "id": "remote-outpost",
+      "status": "verified",
+      "episode": "Season 1 | Ep. 1 | Fristed"
+    },
+    {
+      "id": "empty-colony-ship",
+      "status": "verified",
+      "episode": "Season 1 | Ep. 1 | Stirred"
+    },
+    {
+      "id": "asteroid-miners",
+      "status": "verified",
+      "episode": "Episode 1 - Just Doing a Job"
+    }
+  ],
+  "actual_plays": [
+    {
+      "id": "dreamscapes",
+      "episode": "Star Wars: Dreamscapes - Ep 1. Field of View (Star Wars d6)"
+    },
+    {
+      "id": "coldfire",
+      "episode": "Coldfire Chronicles S01 E01 - Prison Planet Blues"
+    },
+    {
+      "id": "empires-end",
+      "episode": "Empire's End 1: Flash Traffic (Star Wars)"
+    },
+    {
+      "id": "empires-edge",
+      "episode": "Empire's Edge - Ep. 01: Empire's Edge"
+    },
+    {
+      "id": "mynock",
+      "episode": "Episode One"
+    }
+  ],
+  "normal_pairs": 5,
+  "publisher_audio_rehosted": false,
+  "warnings": [],
+  "count": 20,
+  "themed_count": 10,
+  "drama_count": 5,
+  "actual_play_count": 5
+}
