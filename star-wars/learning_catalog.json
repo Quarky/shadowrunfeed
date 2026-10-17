@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "created": "2026-10-17",
+  "title": "Star Wars RPG — Lore and Story Inspiration Queue",
+  "public_scope": "General Star Wars RPG inspiration, Canon and Legends clearly distinct. No private campaign worldbuilding, characters, or personal data.",
+  "methodology": {
+    "score_weights": {
+      "episode_relevance": 0.52,
+      "npc_story_utility": 0.22,
+      "show_rating": 0.16,
+      "diversity": 0.1
+    },
+    "rating_prior": 4.5,
+    "rating_prior_votes": 250,
+    "max_pairs": 24,
+    "per_lore_show_limit": 7,
+    "lore_story_ratio": "1:1",
+    "source_diversity": true,
+    "story_order": "in each selected story arc: episode 1, then consecutive chapters only; stop at first missing episode",
+    "ratings_note": "US Apple Podcasts rating snapshots only. Show-wide ratings do NOT imply episode-level ratings. Qualitative podcast community endorsement is not a star-rating substitute."
+  },
+  "lore_sources": [
+    {
+      "id": "star-wars-in-character",
+      "title": "Star Wars In Character",
+      "apple_id": 420574267,
+      "show_rating": {
+        "stars": 4.8,
+        "count": 720,
+        "market": "US",
+        "verified": "2026-10-17",
+        "url": "https://podcasts.apple.com/us/podcast/star-wars-in-character/id420574267"
+      },
+      "publisher": "NEOZAZ",
+      "why": "Overlooked alien species, minor NPCs, background culture, world texture.",
+      "minimum_match": 1,
+      "mode": "character",
+      "max_candidates": 28
+    },
+    {
+      "id": "swic-archives",
+      "title": "Star Wars In Character Archives",
+      "apple_id": 1491547719,
+      "show_rating": {
+        "stars": 4.9,
+        "count": 56,
+        "market": "US",
+        "verified": "2026-10-17",
+        "url": "https://podcasts.apple.com/us/podcast/star-wars-in-character-archives/id1491547719"
+      },
+      "publisher": "NEOZAZ",
+      "why": "Deep-cut obscure characters, creatures and cantina-background lore.",
+      "minimum_match": 1,
+      "mode": "character",
+      "max_candidates": 20
+    },
+    {
+      "id": "canon-timeline",
+      "title": "The Star Wars Canon Timeline Podcast",
+      "apple_id": 1744643686,
+      "show_rating": {
+        "stars": 4.6,
+        "count": 57,
+        "market": "US",
+        "verified": "2026-10-17",
+        "url": "https://podcasts.apple.com/us/podcast/the-star-wars-canon-timeline-podcast/id1744643686"
+      },
+      "publisher": "The Lorehounds Network",
+      "why": "Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends.",
+      "minimum_match": 1,
+      "mode": "history",
+      "max_candidates": 26
+    },
+    {
+      "id": "old-canon-book-club",
+      "title": "Star Wars: Old Canon Book Club",
+      "apple_id": 1686249893,
+      "show_rating": {
+        "stars": 4.8,
+        "count": 172,
+        "market": "US",
+        "verified": "2026-10-17",
+        "url": "https://podcasts.apple.com/us/podcast/star-wars-old-canon-book-club/id1686249893"
+      },
+      "publisher": "Old Canon Book Club",
+      "why": "Legends societies, space opera adventure structure, character arcs and expanded setting fiction.",
+      "minimum_match": 1,
+      "mode": "history",
+      "max_candidates": 18
+    },
+    {
+      "id": "star-wars-explained",
+      "title": "Star Wars Explained",
+      "apple_id": 1488511803,
+      "show_rating": {
+        "stars": 4.3,
+        "count": 417,
+        "market": "US",
+        "verified": "2026-10-17",
+        "url": "https://podcasts.apple.com/us/podcast/star-wars-explained/id1488511803"
+      },
+      "publisher": "Big IP / Realm",
+      "why": "Compact Canon and Legends explainers on species, factions, Force lore, starships and locations. Exclude roundup and marketing news.",
+      "minimum_match": 1,
+      "mode": "explained",
+      "max_candidates": 22
+    },
+    {
+      "id": "eye-on-canon",
+      "title": "Eye on Canon",
+      "apple_id": 1780459329,
+      "show_rating": null,
+      "publisher": "Matthew Neugebauer and Joel Davis",
+      "why": "In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed.",
+      "minimum_match": 1,
+      "mode": "history",
+      "max_candidates": 16
+    }
+  ],
+  "story_arcs": [
+    {
+      "id": "mynock",
+      "show_id": "campaign-mynock",
+      "feed": "campaign-mynock.xml",
+      "title": "Campaign — The Mynock",
+      "publisher": "One Shot / Campaign",
+      "match": "english_number",
+      "max_chapters": 5,
+      "system": "FFG",
+      "why": "Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes.",
+      "community_bonus": 0.1,
+      "rating": null
+    },
+    {
+      "id": "coldfire",
+      "show_id": "force-majeure",
+      "feed": "force-majeure.xml",
+      "title": "Force Majeure — Coldfire Chronicles",
+      "publisher": "Force Majeure",
+      "match": "coldfire",
+      "max_chapters": 5,
+      "system": "FFG",
+      "why": "Force-sensitive character relationships, active NPC goals and escalating consequences.",
+      "community_bonus": 0.06,
+      "rating": null
+    },
+    {
+      "id": "dice-first",
+      "show_id": "dice-for-brains",
+      "feed": "dice-for-brains.xml",
+      "title": "Dice for Brains",
+      "publisher": "Dice for Brains",
+      "match": "dice",
+      "max_chapters": 5,
+      "system": "FFG",
+      "why": "Awarded community praise for narrative dice, social scenes, emotional character decisions.",
+      "community_bonus": 0.1,
+      "rating": null
+    },
+    {
+      "id": "empires-edge",
+      "show_id": "respect-the-crit",
+      "feed": "respect-the-crit.xml",
+      "title": "Respect the Crit — Empire's Edge",
+      "publisher": "Respect the Crit",
+      "match": "empire-edge",
+      "max_chapters": 5,
+      "system": "FFG",
+      "why": "Cinematic soundscapes, character voices and narrative tension.",
+      "community_bonus": 0.05,
+      "rating": null
+    },
+    {
+      "id": "empires-end",
+      "show_id": "nastygram-d6",
+      "feed": "nastygram-d6.xml",
+      "title": "Nastygram — Empire's End",
+      "publisher": "Nastygram",
+      "match": "empires-end",
+      "max_chapters": 4,
+      "system": "D6",
+      "why": "Imperial officers, bureaucracy, moral tension, faction conflict.",
+      "community_bonus": 0.03,
+      "rating": {
+        "stars": 5,
+        "count": 72,
+        "market": "US",
+        "verified": "2026-10-11",
+        "url": "https://podcasts.apple.com/us/podcast/nastygram-an-rpg-podcast/id1565416693",
+        "qualification": "Rating applies to all Nastygram campaigns, not the D6 arc."
+      }
+    },
+    {
+      "id": "dreamscapes",
+      "show_id": "nastygram-d6",
+      "feed": "nastygram-d6.xml",
+      "title": "Nastygram — Dreamscapes",
+      "publisher": "Nastygram",
+      "match": "dreamscapes",
+      "max_chapters": 4,
+      "system": "D6",
+      "why": "Jedi investigative process, unusual phenomena and mystery scenes.",
+      "community_bonus": 0.03,
+      "rating": {
+        "stars": 5,
+        "count": 72,
+        "market": "US",
+        "verified": "2026-10-11",
+        "url": "https://podcasts.apple.com/us/podcast/nastygram-an-rpg-podcast/id1565416693",
+        "qualification": "Rating applies to all Nastygram campaigns, not the D6 arc."
+      }
+    }
+  ],
+  "themes": {
+    "species": {
+      "label": "Species, Wildlife and Civilizations",
+      "terms": [
+        "species",
+        "alien",
+        "wookiee",
+        "twilek",
+        "twi'lek",
+        "mon calamari",
+        "ewok",
+        "hutt",
+        "droid",
+        "sarlacc",
+        "rancor",
+        "tusken",
+        "mandalorian",
+        "creature",
+        "beast",
+        "nightsister",
+        "jawa",
+        "utapau",
+        "wampa",
+        "zabrak",
+        "kamino",
+        "rodian",
+        "trandoshan"
+      ]
+    },
+    "locations": {
+      "label": "Planets, Societies and the Underworld",
+      "terms": [
+        "planet",
+        "tatooine",
+        "coruscant",
+        "nar shaddaa",
+        "outer rim",
+        "jedha",
+        "city",
+        "temple",
+        "cantina",
+        "republic",
+        "empire",
+        "criminal",
+        "syndicate",
+        "trade",
+        "culture",
+        "underworld",
+        "settlement",
+        "civilization",
+        "history",
+        "alderaan",
+        "corellia",
+        "bounty hunter",
+        "frontier",
+        "kessel",
+        "hyperspace"
+      ]
+    },
+    "force": {
+      "label": "The Force, Rituals and the Unknown",
+      "terms": [
+        "jedi",
+        "sith",
+        "force",
+        "holocron",
+        "kyber",
+        "ritual",
+        "vision",
+        "dream",
+        "witch",
+        "nightsister",
+        "mortis",
+        "prophecy",
+        "ancient",
+        "artifact",
+        "temple",
+        "mystic",
+        "spirit",
+        "legends",
+        "myth",
+        "old republic",
+        "high republic"
+      ]
+    },
+    "tech": {
+      "label": "Droids, Starships and Ancient Technology",
+      "terms": [
+        "droid",
+        "ship",
+        "starship",
+        "hyperspace",
+        "planetary",
+        "station",
+        "star destroyer",
+        "technology",
+        "weapon",
+        "lightsaber",
+        "saber",
+        "crystal",
+        "hyperdrive",
+        "archive",
+        "ancient",
+        "fleet",
+        "engineering",
+        "navigation",
+        "relic"
+      ]
+    },
+    "npc": {
+      "label": "NPC Portrayal, Politics and Intrigue",
+      "terms": [
+        "character",
+        "background",
+        "history",
+        "politic",
+        "smuggler",
+        "sith",
+        "jedi",
+        "mandalorian",
+        "rebel",
+        "empire",
+        "republic",
+        "bounty",
+        "criminal",
+        "pirate",
+        "traitor",
+        "family",
+        "friend",
+        "villain",
+        "motivation",
+        "faction",
+        "senate",
+        "story"
+      ]
+    }
+  },
+  "blacklist": [
+    "last week in star wars",
+    "spoiler review",
+    "reaction",
+    "trailer",
+    "box office",
+    "casting",
+    "merch",
+    "convention",
+    "news",
+    "weekly roundup",
+    "podcast update",
+    "comic review",
+    "episode review",
+    "recap",
+    "preview",
+    "q&a",
+    "questions and answers",
+    "interview",
+    "may the fourth",
+    "calendar",
+    "top 10",
+    "top 5",
+    "rankings",
+    "tier list",
+    "all about maul: shadow lord"
+  ],
+  "spotlight": [
+    "lore",
+    "culture",
+    "species",
+    "alien",
+    "history",
+    "myth",
+    "force witches",
+    "ancient",
+    "rancor",
+    "sarlacc",
+    "sith",
+    "jedi",
+    "droids",
+    "bounty",
+    "outer rim",
+    "old republic",
+    "mandalorian",
+    "mystery",
+    "legends",
+    "folklore",
+    "holocron",
+    "nightsisters"
+  ],
+  "excluded": [
+    "Heroes of the Hydian Way (explicit user exclusion)"
+  ],
+  "reading": [
+    {
+      "title": "Star Wars Databank (official)",
+      "url": "https://www.starwars.com/databank",
+      "use": "Canon character, planet, ship, species and faction profiles."
+    },
+    {
+      "title": "Star Wars RPG official community resources",
+      "url": "https://www.edge-studio.net/categories-games/star-wars/",
+      "use": "Current Star Wars FFG/EDGE RPG line details."
+    },
+    {
+      "title": "Wookieepedia",
+      "url": "https://starwars.fandom.com/wiki/Main_Page",
+      "use": "Canon versus Legends lore cross-references; check the continuity label."
+    },
+    {
+      "title": "Star Wars: The Old Republic Codex",
+      "url": "https://swtorista.com/articles/category/lore/",
+      "use": "Old Republic lore context, planets, professions and organizations."
+    }
+  ]
+}
