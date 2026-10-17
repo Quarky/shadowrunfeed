@@ -1,27 +1,28 @@
-# Star Wars RPG — Ranked Lore + Story Inspiration Feed
+# Star Wars RPG — Ranked Listening Subscription with Featured Story Opening
 
-An independently curated Star Wars roleplaying inspiration queue. Learn a piece of the galaxy's lore, then hear a performed Star Wars RPG scene showing how characters, culture, dialogue, and choices work in play.
+The **existing ranked Star Wars podcast URL has not changed**. It now starts with the newly selected 20 episodes, then continues into the original curated lore/story library without repeating audio.
 
-## Scene-first fiction and actual-play listening mix
+## Existing combined RSS — use this address
 
-A separate 20-track listening sequence is being added for **remote installations, ruined alien machinery, hazardous exploration, and the people dealing with containment and equipment failures**.
+**[Main Star Wars RSS (same as before)](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-feed-v2.xml)**
 
-It follows the exact pattern:
+The first 20 entries have a deliberate two-phase order:
 
-- **First 10:** 5 complete science-fiction audio drama pilot episodes alternating with 5 original-publisher Star Wars RPG actual-play campaign openings. No standalone lore explanation interrupts this section.
-- **Next 10:** 5 ordinary lore → story pairs from the ranked Star Wars feed, continuing the same story arc in chapter order.
+- **1–10:** Five full-cast/sound-designed science-fiction drama pilot episodes alternating with five distinct Star Wars FFG/D6 actual-play campaign openings. There are no lore interruptions here.
+- **11–20:** Five conventional Star Wars lore → story pairs from the original ranked feed, maintaining consecutive chapters of a story campaign.
+- **21 onward:** The remaining unique episodes from the previous ranked library. Original subscriber GUIDs remain unchanged, and previously featured episodes are not repeated. Additional lore-only entries at the end retain subjects whose story partner was moved to the start.
 
-**[Combined scene-first RSS](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/frontier-mix.xml)** · [Verified episode list](frontier-mix-episodes.md) · [Build status](frontier-mix-status.json) · [Editorial selection](frontier-mix-catalog.json)
+The first published combined build contains **61 verified publisher-hosted episodes**, 20 specially featured and 41 remaining from the older ranked collection, after suppressing 15 duplicated entries. New builds update the *same* feed automatically once a week.
 
-The audio drama pilots are expressly **cross-genre inspiration, not Star Wars canon**. All recordings remain at their publishers. Official commercial Star Wars full-cast audiobook suggestions are in the episode guide as store/library links only; no paid audio is placed into RSS.
+[Full current combined episode list](learning-episodes.md) · [Validation/status](learning-status.json) · [Merged playlist JSON](learning-episodes.json)
 
-## Recommended podcast subscriptions
+For reference, the original 56-episode ranked content is preserved independently as [the lore/story base](learning-base-episodes.md) and [base RSS](learning-base-v2.xml). The [separate 20-episode sampler](frontier-mix.xml), [its notes](frontier-mix-episodes.md), [source selections](frontier-mix-catalog.json), [lore-only RSS](learning-lore.xml) and [story-only RSS](learning-story.xml) are still available, but require no new subscription if you already follow the main URL.
 
-- **[Ranked 1:1 Lore → Story feed](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-feed-v2.xml)** — alternates topical lore and continuous, publisher-hosted actual-play fiction.
-- **[Lore only](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-lore.xml)** — species, creatures, culture, planets, technology and Force mythology.
-- **[Story only](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-story.xml)** — publisher-hosted, consecutively ordered story chapters.
+All dramatized non-Star-Wars shows are labeled **cross-genre inspiration**, not Star Wars canon. Paid official full-cast audiobook recommendations are publisher/store links in the separate sampler notes, never copied into RSS. No episode audio is rehosted.
 
-Before subscribing check **[publication status](learning-status.json)** (state must be `published`) and the **[complete episode list](learning-episodes.md)**. In Podbean choose Search → + Add Feed URL. Existing [FFG sampler](feed-v2.xml), [D6 anthology](d6-feed.xml), and all show-specific RSS files are untouched.
+## Automatic updates
+
+The [single weekly GitHub Actions workflow](../.github/workflows/update-star-wars-learning.yml) first rebuilds the normal lore/story base, then rebuilds the 20-episode featured sequence, merges both into the existing subscription address, preserves original episode identities, verifies unique publisher enclosures, and publishes all generated files together. The older discovery sampler, D6 anthology and individual show collections remain untouched.
 
 ## How it selects episodes
 
@@ -55,7 +56,7 @@ Only links and metadata are published; no licensed audio, paid audiobook, full t
 ## Maintenance
 
 - [`learning_catalog.json`](learning_catalog.json) — editorial policy, source links, original evidence and ranking settings.
-- [`generate_learning.py`](generate_learning.py) — validates sources and publisher-hosted episode enclosures, generates an alternating feed and rated ordered list.
+- [`generate_learning.py`](generate_learning.py) — validates publisher-hosted episodes and produces the independent original lore/story base.\n- [`generate_frontier_mix.py`](generate_frontier_mix.py) — appends the special to the top of the original subscribed feed, deduplicates audio, and preserves existing episode identities.
 - [`learning-episodes.md`](learning-episodes.md) and [`learning-episodes.json`](learning-episodes.json) — generated exact episode sequence with ranking rationale.
 - [`learning-status.json`](learning-status.json) — generated coverage and missing sources; an unavailable source is not represented as published.
 - [GitHub Actions updater](../.github/workflows/update-star-wars-learning.yml) — independent build, runs weekly and on source/script updates.
