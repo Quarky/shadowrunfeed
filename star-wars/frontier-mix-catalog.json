@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "title": "Star Wars RPG — Frontier Mystery Story & Actual-Play Listening Mix",
+  "privacy": "General sci-fi inspiration only. No private adventure names, world details, original characters, session events or private source links.",
+  "policy": "First 10 alternating five licensed publisher-hosted standalone podcast-drama pilots and five Star Wars tabletop actual-play arc pilots (no lore interruptions); next five ordinary lore + story pairs from the preexisting ranked collection, preserving their story sequence. No paid audiobook enclosures or generated recordings.",
+  "sequence": {
+    "themed_pairs": 5,
+    "followup_normal_pairs": 5,
+    "expected_total": 20
+  },
+  "dramas": [
+    {
+      "id": "alien-ruins",
+      "apple_id": 1452049352,
+      "title": "Among the Stars and Bones",
+      "publisher": "Ungodly Hour Productions",
+      "pilot_fragments": [
+        "episode 1",
+        "s1e1",
+        "s01e01",
+        "chapter one",
+        "chapter 1"
+      ],
+      "motive": "Alien archaeology: field reports, exploration teams, unfamiliar ruins and protective ancient structures.",
+      "page": "https://www.amongthestarsandbones.com/"
+    },
+    {
+      "id": "remote-station",
+      "apple_id": 1654016045,
+      "title": "Station 151",
+      "publisher": "Pale Matter / Realm",
+      "pilot_fragments": [
+        "s1e1: on the ice",
+        "s1e1",
+        "on the ice"
+      ],
+      "motive": "Isolated research team, corporate secrecy and the social effect of dangerous infrastructure.",
+      "page": "https://www.station151.com/s1e1-on-the-ice/"
+    },
+    {
+      "id": "remote-outpost",
+      "apple_id": 1267043823,
+      "title": "The White Vault",
+      "publisher": "Fool & Scholar Productions",
+      "pilot_fragments": [
+        "season 1 | ep. 1 | fristed",
+        "season 1 ep 1",
+        "fristed"
+      ],
+      "motive": "Multilingual repair expedition, hostile exterior, outpost routines and the discovery of buried secrets.",
+      "page": "https://www.foolandscholar.com/the-white-vault-1"
+    },
+    {
+      "id": "empty-colony-ship",
+      "apple_id": 1461884747,
+      "title": "VAST Horizon",
+      "publisher": "Fool & Scholar Productions",
+      "pilot_fragments": [
+        "season 1 | ep. 1 | stirred",
+        "ep. 1 | stirred",
+        "stirred"
+      ],
+      "motive": "Abandoned colonization vessel, malfunctioning AI, environmental controls and emergency survival.",
+      "page": "https://www.vasthorizonpodcast.com/"
+    },
+    {
+      "id": "asteroid-miners",
+      "apple_id": 1321203327,
+      "title": "The Hyacinth Disaster",
+      "publisher": "David Carlson",
+      "pilot_fragments": [
+        "episode 1 - just doing a job",
+        "just doing a job"
+      ],
+      "motive": "Working-class asteroid crew, failing equipment, rescue pressure and believable decisions under stress.",
+      "page": "https://shows.acast.com/the-hyacinth-disaster/episodes"
+    }
+  ],
+  "actual_plays": [
+    {
+      "arc": "dreamscapes",
+      "chapter": 1,
+      "purpose": "Mystery-led Jedi expedition and uncertain evidence"
+    },
+    {
+      "arc": "coldfire",
+      "chapter": 1,
+      "purpose": "Prison-planet atmosphere, organizational control and lived-in frontier scenes"
+    },
+    {
+      "arc": "empires-end",
+      "chapter": 1,
+      "purpose": "Imperial personnel, chain of command and moral nuance"
+    },
+    {
+      "arc": "empires-edge",
+      "chapter": 1,
+      "purpose": "Cinematic FFG improvisation, new settlements and equipment"
+    },
+    {
+      "arc": "mynock",
+      "chapter": 1,
+      "purpose": "Crew banter, negotiations, improvisational contacts and local culture"
+    }
+  ],
+  "official_star_wars_audio_books": [
+    {
+      "title": "Dooku: Jedi Lost",
+      "url": "https://www.penguinrandomhouse.com/books/607498/dooku-jedi-lost-star-wars-by-script-by-cavan-scott/audio/",
+      "use": "Ancient Force traditions, master/apprentice intrigue and relics",
+      "type": "commercial full-cast audiobook"
+    },
+    {
+      "title": "Tempest Runner",
+      "url": "https://www.penguinrandomhouse.com/books/679156/star-wars-tempest-runner-the-high-republic-by-cavan-scott/",
+      "use": "Prisoner social dynamics, confinement, authority and crew relationships",
+      "type": "commercial full-cast audiobook"
+    },
+    {
+      "title": "The Battle of Jedha",
+      "url": "https://penguinrandomhouseaudio.com/posts/star-wars-canon-audiobook-timeline/",
+      "use": "Conflicting Force institutions and dangerous historic sites",
+      "type": "commercial full-cast audiobook"
+    },
+    {
+      "title": "Doctor Aphra",
+      "url": "https://penguinrandomhouseaudio.com/posts/star-wars-canon-audiobook-timeline/",
+      "use": "Artifact hunting, betrayals, expedition dialogue",
+      "type": "commercial full-cast audiobook"
+    }
+  ],
+  "notes": "Non-Star-Wars science fiction and horror are labeled CROSS-GENRE INSPIRATION; Star Wars continuity is not implied. Themes: ancient structures, hidden life support, failing automated equipment, isolated communities, risky ruins and psychological consequences. These are broad creative themes only."
+}
