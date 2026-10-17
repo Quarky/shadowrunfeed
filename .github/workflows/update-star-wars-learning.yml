@@ -1,0 +1,95 @@
+name: Build Star Wars Lore and Story Listening Feed
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "star-wars/learning_catalog.json"
+      - "star-wars/generate_learning.py"
+      - "star-wars/learning-README.md"
+      - ".github/workflows/update-star-wars-learning.yml"
+  schedule:
+    - cron: "13 6 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: star-wars-lore-story-learning
+  cancel-in-progress: false
+
+jobs:
+  rank-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Check Python syntax
+        run: python3 -m py_compile star-wars/generate_learning.py star-wars/generate_feed.py
+
+      - name: Remember original curated feed checksums
+        run: |
+          sha256sum star-wars/feed-v2.xml star-wars/d6-feed.xml star-wars/campaign-mynock.xml star-wars/dice-for-brains.xml star-wars/force-majeure.xml star-wars/nastygram-d6.xml star-wars/respect-the-crit.xml > /tmp/star-wars-untouched-feeds.sha256
+
+      - name: Generate ranked lore and continuous story RSS
+        run: python3 star-wars/generate_learning.py
+
+      - name: Validate podcast audio, alternation, story continuity and no regressions
+        run: |
+          sha256sum --check /tmp/star-wars-untouched-feeds.sha256
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          root=Path("star-wars")
+          report=json.loads((root/"learning-status.json").read_text(encoding="utf-8"))
+          entries=json.loads((root/"learning-episodes.json").read_text(encoding="utf-8"))["episodes"]
+          assert report["state"]=="published"
+          assert report["pairs"]>=10 and report["episodes"]==2*report["pairs"]
+          assert len(entries)==report["episodes"]
+          assert len([s for s in report["lore_sources"] if s["status"]=="included"])>=2
+          assert len([s for s in report["story_arcs"] if s["status"]=="included"])>=3
+          for i,row in enumerate(entries):
+              assert row["order"]==i+1
+              assert row["kind"]==("LORE" if i%2==0 else "STORY")
+              assert "show_rating_us" in row and "editorial_score" in row
+          stories=[e for e in entries if e["kind"]=="STORY"]
+          seen={}
+          for row in stories:
+              arc=row["source_id"]
+              expected=seen.get(arc,0)+1
+              assert row["story_chapter"]==expected, f"Story continuity {arc}: {row['story_chapter']} != {expected}"
+              seen[arc]=expected
+          for name in ("learning-feed-v2.xml","learning-lore.xml","learning-story.xml"):
+              tree=ET.parse(root/name)
+              channel=tree.getroot().find("channel")
+              assert channel is not None
+              logo=channel.find("{http://www.itunes.com/dtds/podcast-1.0.dtd}image")
+              assert logo is not None and logo.get("href","").endswith("/cover.png")
+              items=channel.findall("item")
+              assert len(items)==(report["episodes"] if name=="learning-feed-v2.xml" else report["pairs"])
+              assert all(e.find("enclosure") is not None and
+                         e.find("enclosure").get("url","").startswith("https://") and
+                         int(e.find("enclosure").get("length","0"))>0 for e in items)
+              assert len(set(it.findtext("guid") for it in items))==len(items)
+          titles=[x.findtext("title") for x in ET.parse(root/"learning-feed-v2.xml").findall("./channel/item")]
+          assert all(("LORE" if n%2==0 else "STORY") in t for n,t in enumerate(titles))
+          assert (root/"learning-episodes.md").read_text(encoding="utf-8").count(" | ")>=report["episodes"]
+          print("Validated",report["pairs"],"lore/story pairs from",len(seen),"continuous story arcs")
+          PY
+
+      - name: Commit independently generated learning feeds
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add star-wars/learning-feed-v2.xml star-wars/learning-lore.xml star-wars/learning-story.xml star-wars/learning-episodes.md star-wars/learning-episodes.json star-wars/learning-status.json
+          if git diff --cached --quiet; then
+            echo "Ranked Star Wars lore/story feed unchanged"
+          else
+            git commit -m "Publish validated ranked Star Wars lore and continuous story listening feed"
+            git push
+          fi
