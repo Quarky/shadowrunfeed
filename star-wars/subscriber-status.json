@@ -1,0 +1,19 @@
+{
+  "state": "published",
+  "generated_at": "2026-10-17T19:56:13.724131+00:00",
+  "subscription_urls": [
+    "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml",
+    "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed.xml"
+  ],
+  "episode_count": 70,
+  "special_prefix": 20,
+  "ranked_source_entries": 61,
+  "legacy_original_count": 16,
+  "original_subscriber_guids_preserved": 16,
+  "legacy_unique_appended": 9,
+  "duplicates_removed": 7,
+  "all_new_audio_owned_by_publishers": true,
+  "old_sampler_source": "sampler-v2.xml",
+  "ranked_source": "learning-feed-v2.xml",
+  "warnings": []
+}
