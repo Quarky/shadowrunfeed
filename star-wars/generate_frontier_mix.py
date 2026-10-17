@@ -268,7 +268,7 @@ def main():
     if [e["role"] for e in out]!=expected:raise RuntimeError("Unexpected listening pattern")
     for e in out:
         enc=e["item"].find("enclosure")
-        if not enc or not enc.get("url","").startswith("https://") or int(enc.get("length","0"))<1:
+        if enc is None or not enc.get("url","").startswith("https://") or int(enc.get("length","0"))<1:
             raise RuntimeError("Invalid source-verified publisher enclosure")
     rows=episode_rows(out)
     files={
