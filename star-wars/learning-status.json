@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-17T18:21:53.785393+00:00",
+  "generated_utc": "2026-10-17T18:23:22.503132+00:00",
   "state": "published",
   "lore_sources": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "star-wars-explained",
       "status": "included",
-      "episodes": 20
+      "episodes": 2
     },
     {
       "id": "eye-on-canon",
