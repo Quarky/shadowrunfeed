@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Ranked, alternating Star Wars lore / RPG-story podcast feed.
+"""Generate stable base lore/story playlist for the main combined podcast feed.
 
-Independent of existing FFG/D6 podcast samplers; audio stays on publisher hosts.
+Independent of existing FFG/D6 podcast samplers; final main feed is assembled later.
 No private campaign information. No invented RSS enclosures or episode ratings.
 """
 from __future__ import annotations
@@ -411,21 +411,21 @@ def main():
         raise RuntimeError("Alternation failed")
     rows=episode_metadata(result)
     outputs={
-      "learning-feed-v2.xml":serialize(result,"learning-feed-v2.xml","Star Wars RPG — Ranked Lore + Story"),
+      "learning-base-v2.xml":serialize(result,"learning-base-v2.xml","Star Wars RPG — Ranked Lore + Story (Base Sequence)"),
       "learning-lore.xml":serialize(result[::2],"learning-lore.xml","Star Wars RPG — Curated Lore Only"),
       "learning-story.xml":serialize(result[1::2],"learning-story.xml","Star Wars RPG — Continuous Actual-Play Story"),
-      "learning-episodes.md":episode_markdown(rows).encode("utf-8"),
-      "learning-episodes.json":(json.dumps({"generated_utc":report["generated_utc"],
+      "learning-base-episodes.md":episode_markdown(rows).encode("utf-8"),
+      "learning-base-episodes.json":(json.dumps({"generated_utc":report["generated_utc"],
           "rating_basis":"US Apple show-level only; editorial scores are not episode ratings",
           "episodes":rows},indent=2,ensure_ascii=False)+"\n").encode("utf-8")}
     for name,data in outputs.items():checked_write(name,data)
-    report["outputs"]={"learning-feed-v2.xml":len(result),"learning-lore.xml":len(result)//2,
-                        "learning-story.xml":len(result)//2,"learning-episodes.md":len(rows)}
+    report["outputs"]={"learning-base-v2.xml":len(result),"learning-lore.xml":len(result)//2,
+                        "learning-story.xml":len(result)//2,"learning-base-episodes.md":len(rows)}
     report["state"]="published"
     report["episodes"]=len(result)
     report["pairs"]=len(result)//2
-    checked_write("learning-status.json",(json.dumps(report,indent=2,ensure_ascii=False)+"\n").encode("utf-8"))
-    print("Published verified original-hosted Star Wars audio",report["outputs"])
+    checked_write("learning-base-status.json",(json.dumps(report,indent=2,ensure_ascii=False)+"\n").encode("utf-8"))
+    print("Generated verified independent lore/story base; final subscription assembled by generate_frontier_mix.py",report["outputs"])
 
 if __name__=="__main__":
     try:main()
