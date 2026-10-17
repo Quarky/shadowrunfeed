@@ -56,7 +56,8 @@ Only links and metadata are published; no licensed audio, paid audiobook, full t
 ## Maintenance
 
 - [`learning_catalog.json`](learning_catalog.json) — editorial policy, source links, original evidence and ranking settings.
-- [`generate_learning.py`](generate_learning.py) — validates publisher-hosted episodes and produces the independent original lore/story base.\n- [`generate_frontier_mix.py`](generate_frontier_mix.py) — appends the special to the top of the original subscribed feed, deduplicates audio, and preserves existing episode identities.
+- [`generate_learning.py`](generate_learning.py) — validates publisher-hosted episodes and produces the independent original lore/story base.
+- [`generate_frontier_mix.py`](generate_frontier_mix.py) — appends the special to the top of the original subscribed feed, deduplicates audio, and preserves existing episode identities.
 - [`learning-episodes.md`](learning-episodes.md) and [`learning-episodes.json`](learning-episodes.json) — generated exact episode sequence with ranking rationale.
 - [`learning-status.json`](learning-status.json) — generated coverage and missing sources; an unavailable source is not represented as published.
 - [GitHub Actions updater](../.github/workflows/update-star-wars-learning.yml) — independent build, runs weekly and on source/script updates.
