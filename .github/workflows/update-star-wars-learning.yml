@@ -9,6 +9,7 @@ on:
       - "star-wars/frontier-mix-catalog.json"
       - "star-wars/generate_learning.py"
       - "star-wars/generate_frontier_mix.py"
+      - "star-wars/publish_original_subscription.py"
       - ".github/workflows/update-star-wars-learning.yml"
   schedule:
     - cron: "13 6 * * 1"
@@ -39,17 +40,20 @@ jobs:
 
       - name: Verify Python builders
         run: |
-          python3 -m py_compile star-wars/generate_learning.py star-wars/generate_frontier_mix.py star-wars/generate_feed.py
+          python3 -m py_compile star-wars/generate_learning.py star-wars/generate_frontier_mix.py star-wars/publish_original_subscription.py star-wars/generate_feed.py
 
       - name: Protect all independent Star Wars feeds
         run: |
-          sha256sum star-wars/feed-v2.xml star-wars/feed.xml star-wars/d6-feed.xml star-wars/campaign-mynock.xml star-wars/dice-for-brains.xml star-wars/force-majeure.xml star-wars/nastygram-d6.xml star-wars/redemption.xml star-wars/respect-the-crit.xml > /tmp/untouched-star-wars-feeds.sha256
+          sha256sum star-wars/d6-feed.xml star-wars/campaign-mynock.xml star-wars/dice-for-brains.xml star-wars/force-majeure.xml star-wars/nastygram-d6.xml star-wars/redemption.xml star-wars/respect-the-crit.xml > /tmp/untouched-star-wars-feeds.sha256
 
       - name: Rebuild original Lore/Story base from publisher feeds
         run: python3 star-wars/generate_learning.py
 
       - name: Prepend ten themed episodes and five lore/story pairs to subscribed main feed
         run: python3 star-wars/generate_frontier_mix.py
+
+      - name: Publish combined episodes to actual originally subscribed RSS path
+        run: python3 star-wars/publish_original_subscription.py
 
       - name: Validate merged subscriber feed and source episode identities
         run: |
@@ -129,8 +133,29 @@ jobs:
           assert dates==sorted(dates,reverse=True), "Main feed not in listening order"
           assert [r["order"] for r in main_rows]==list(range(1,len(main_rows)+1))
           assert (root/"learning-episodes.md").read_text(encoding="utf-8").count(" | ")>=len(main_rows)
-          print("PASS:",len(main_rows),"unique episodes in original subscribed RSS;",
-                "20 featured first,",len(base_rows),"original entries preserved,",main["duplicates_suppressed"],"duplicates suppressed")
+          subscriber=load("subscriber-status.json")
+          assert subscriber["state"]=="published"
+          assert subscriber["special_prefix"]==20
+          assert subscriber["legacy_original_count"]>=16
+          assert subscriber["original_subscriber_guids_preserved"]==subscriber["legacy_original_count"]
+          assert subscriber["episode_count"]>=len(main_rows)
+          old_channel,old_episodes=parse("sampler-v2.xml",subscriber["legacy_original_count"])
+          live_channel,live_episodes=parse("feed-v2.xml",subscriber["episode_count"])
+          alias_channel,alias_episodes=parse("feed.xml",subscriber["episode_count"])
+          assert [i.findtext("guid") for i in alias_episodes]==[i.findtext("guid") for i in live_episodes]
+          for filename,ch in (("feed-v2.xml",live_channel),("feed.xml",alias_channel)):
+              link=ch.find("{http://www.w3.org/2005/Atom}link")
+              assert link is not None and link.get("href","").endswith("/star-wars/"+filename)
+          assert [i.find("enclosure").get("url") for i in live_episodes[:20]]==[i.find("enclosure").get("url") for i in main_items[:20]]
+          old_guid_set={i.findtext("guid") for i in old_episodes}
+          new_guid_set={i.findtext("guid") for i in live_episodes}
+          assert old_guid_set<=new_guid_set, "Original Podbean episode GUIDs disappeared"
+          assert len(old_guid_set)==subscriber["legacy_original_count"]
+          assert len({i.find("enclosure").get("url").split("?")[0] for i in live_episodes})==len(live_episodes), "Original subscriber feed repeats publisher audio"
+          publish_dates=[parsedate_to_datetime(i.findtext("pubDate")) for i in live_episodes]
+          assert publish_dates==sorted(publish_dates,reverse=True), "Subscriber feed ordering incorrect"
+          print("PASS:",len(live_episodes),"entries at actually subscribed feed-v2.xml;",
+                "20 featured first, all original subscriber episode IDs preserved")
           PY
 
       - name: Commit all coherent generated Star Wars feeds without racing another updater
@@ -153,6 +178,9 @@ jobs:
             star-wars/frontier-mix-episodes.md
             star-wars/frontier-mix-episodes.json
             star-wars/frontier-mix-status.json
+            star-wars/feed-v2.xml
+            star-wars/feed.xml
+            star-wars/subscriber-status.json
           )
           tar -cf /tmp/star-wars-generated.tar "${generated[@]}"
           sourcefiles=(
@@ -161,6 +189,7 @@ jobs:
             star-wars/generate_learning.py
             star-wars/generate_frontier_mix.py
             .github/workflows/update-star-wars-learning.yml
+            star-wars/publish_original_subscription.py
           )
           for attempt in 1 2 3 4; do
             git fetch origin main
