@@ -12,6 +12,16 @@ This is a **separate collection** in the existing public [Quarky/shadowrunfeed](
 
 This is a separate listening feed: the older 16-item discovery sampler, complete D6 archive and each filtered actual-play show remain available at their original addresses.
 
+## Scene-first drama, live play and lore follow-up (20 episodes)
+
+A **separate verified 20-track RSS** now provides five independent full-cast/sound-designed science-fiction drama pilot episodes alternating with five Star Wars RPG actual-play openings, then five normal lore/story pairs. The first ten **do not alternate with lore**; the last ten preserve a five-chapter story arc.
+
+- **[Subscribe to the 20-episode RSS](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/frontier-mix.xml)**
+- [Full ordered episode list, creative uses and legitimate commercial audiobook links](frontier-mix-episodes.md)
+- [Automated verification status](frontier-mix-status.json) · [Source selection and policy](frontier-mix-catalog.json)
+
+The independent fiction productions are marked **cross-genre inspiration rather than Star Wars canon**. Their original publisher-hosted audio is linked, never copied. Commercial Star Wars audiobooks are included only as purchase/library references, not RSS audio. The older general learning and actual-play feeds are unchanged.
+
 ## Subscribe (Podbean / any RSS-capable player)
 
 **Podbean-compatible combined sampler (FFG + D6):** `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml`
