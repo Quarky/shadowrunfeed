@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-17T18:20:03.611106+00:00",
+  "generated_utc": "2026-10-17T18:21:53.785393+00:00",
   "state": "published",
   "lore_sources": [
     {
@@ -20,12 +20,12 @@
     {
       "id": "old-canon-book-club",
       "status": "included",
-      "episodes": 8
+      "episodes": 7
     },
     {
       "id": "star-wars-explained",
       "status": "included",
-      "episodes": 22
+      "episodes": 20
     },
     {
       "id": "eye-on-canon",
