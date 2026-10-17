@@ -2,6 +2,19 @@
 
 An independently curated Star Wars roleplaying inspiration queue. Learn a piece of the galaxy's lore, then hear a performed Star Wars RPG scene showing how characters, culture, dialogue, and choices work in play.
 
+## Scene-first fiction and actual-play listening mix
+
+A separate 20-track listening sequence is being added for **remote installations, ruined alien machinery, hazardous exploration, and the people dealing with containment and equipment failures**.
+
+It follows the exact pattern:
+
+- **First 10:** 5 complete science-fiction audio drama pilot episodes alternating with 5 original-publisher Star Wars RPG actual-play campaign openings. No standalone lore explanation interrupts this section.
+- **Next 10:** 5 ordinary lore → story pairs from the ranked Star Wars feed, continuing the same story arc in chapter order.
+
+**[Combined scene-first RSS](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/frontier-mix.xml)** · [Verified episode list](frontier-mix-episodes.md) · [Build status](frontier-mix-status.json) · [Editorial selection](frontier-mix-catalog.json)
+
+The audio drama pilots are expressly **cross-genre inspiration, not Star Wars canon**. All recordings remain at their publishers. Official commercial Star Wars full-cast audiobook suggestions are in the episode guide as store/library links only; no paid audio is placed into RSS.
+
 ## Recommended podcast subscriptions
 
 - **[Ranked 1:1 Lore → Story feed](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-feed-v2.xml)** — alternates topical lore and continuous, publisher-hosted actual-play fiction.
