@@ -12,12 +12,13 @@
     },
     "rating_prior": 4.5,
     "rating_prior_votes": 250,
-    "max_pairs": 24,
+    "max_pairs": 28,
     "per_lore_show_limit": 7,
     "lore_story_ratio": "1:1",
     "source_diversity": true,
     "story_order": "in each selected story arc: episode 1, then consecutive chapters only; stop at first missing episode",
-    "ratings_note": "US Apple Podcasts rating snapshots only. Show-wide ratings do NOT imply episode-level ratings. Qualitative podcast community endorsement is not a star-rating substitute."
+    "ratings_note": "US Apple Podcasts rating snapshots only. Show-wide ratings do NOT imply episode-level ratings. Qualitative podcast community endorsement is not a star-rating substitute.",
+    "lore_chapter_policy": "Part 2+ episodes without earlier companion context are excluded; recaps, flashbacks, rumors, interviews and unrelated media news are deprioritized/omitted."
   },
   "lore_sources": [
     {
@@ -373,7 +374,29 @@
     "top 5",
     "rankings",
     "tier list",
-    "all about maul: shadow lord"
+    "all about maul: shadow lord",
+    "flashback",
+    "rumor patrol",
+    "rumors",
+    "talks ",
+    "bonus!",
+    "mailbag",
+    "star wars comics",
+    "new book",
+    "celebration news",
+    "panel:",
+    "author interview",
+    "creator interview",
+    "book club roundtable",
+    "roundtable",
+    "live show",
+    "sneak peek",
+    "sneak preview",
+    "behind the scenes",
+    "latest updates",
+    "upcoming projects",
+    "tv review",
+    "first look"
   ],
   "spotlight": [
     "lore",
@@ -420,7 +443,7 @@
     },
     {
       "title": "Star Wars: The Old Republic Codex",
-      "url": "https://swtorista.com/articles/category/lore/",
+      "url": "https://swtorista.com/articles/category/swtor/lore-codex-entries/",
       "use": "Old Republic lore context, planets, professions and organizations."
     }
   ]
