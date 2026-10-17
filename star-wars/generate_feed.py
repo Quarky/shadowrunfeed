@@ -259,7 +259,7 @@ def make_feed(title: str, description: str, filename: str, entries: list[tuple[d
     ET.SubElement(picture, "title").text = title
     ET.SubElement(picture, "link").text = REPO
     ET.SubElement(channel, f"{{{ITUNES}}}image", {"href": image_url})
-    combined = filename in ("feed.xml", "d6-feed.xml")
+    combined = filename in ("sampler.xml", "d6-feed.xml")
     # Podcast apps typically display newest entries first.
     entries = sorted(entries, key=lambda record: date_of(record[1]) or dt.datetime.min.replace(tzinfo=dt.timezone.utc), reverse=True)
     for show, item in entries:
@@ -336,18 +336,18 @@ def main() -> int:
         combined = make_feed(
             "Star Wars RPG — recommended FFG and D6 actual-play sampler",
             "An independently curated discovery sampler of audience-favorite Star Wars RPG shows. Episode picks are editorial or limited community signals, NOT a validated highest-rated episode chart. Original publishers host all audio.",
-            "feed.xml", usable_featured,
+            "sampler.xml", usable_featured,
         )
-        safe_write(HERE / "feed.xml", combined)
-        safe_write(HERE / "feed-v2.xml", combined.replace(
-            b"/star-wars/feed.xml", b"/star-wars/feed-v2.xml"))
+        safe_write(HERE / "sampler.xml", combined)
+        safe_write(HERE / "sampler-v2.xml", combined.replace(
+            b"/star-wars/sampler.xml", b"/star-wars/sampler-v2.xml"))
         report["combined"] = {
             "status": "published", "items": len(usable_featured),
             "shows": len({show["id"] for show, _ in usable_featured}),
-            "file": "feed.xml", "podbean_fresh_url": "feed-v2.xml",
+            "file": "sampler.xml", "original_subscribed_address_is_managed_by": "generate_frontier_mix.py",
             "invalid_items_excluded": len(omitted),
         }
-        print(f"Strict combined sampler: {len(usable_featured)} verified HTTPS audio enclosures; omitted {len(omitted)}")
+        print(f"Standalone legacy sampler (main subscriber URL built separately): {len(usable_featured)} verified HTTPS enclosures; omitted {len(omitted)}")
     else:
         report["combined"] = {"status": "unavailable", "reason": "No usable original publisher audio"}
     if d6_entries:
