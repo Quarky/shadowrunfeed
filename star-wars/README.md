@@ -2,25 +2,18 @@
 
 This is a **separate collection** in the existing public [Quarky/shadowrunfeed](../README.md) repository, modeled after the existing [Ravnica catalog + filtered RSS builder](../ravnica/README.md). **Shadowrun and Ravnica were not changed or merged.** `Heroes of the Hydian Way` is deliberately omitted.
 
-## Ranked lore and story listening queue
+## Main Star Wars listening feed — now with the special at the top
 
-**New:** [Star Wars RPG Lore → Story — ranking, ratings and learning episodes](learning-README.md) combines original-publisher Star Wars lore explainers with continuous FFG/D6 actual-play story chapters.
+**[Existing ranked Star Wars RSS — unchanged subscription URL](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-feed-v2.xml)**
 
-- **[Ranked 1:1 lore/story RSS](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-feed-v2.xml)** — alternating learning order (after successful builder publication).
-- [Full verified episode list](learning-episodes.md) · [Live build status](learning-status.json) · [Independent updater](../.github/workflows/update-star-wars-learning.yml).
-- Also publishes [lore-only RSS](learning-lore.xml) and [story-only RSS](learning-story.xml).
+The existing Star Wars learning feed now automatically publishes a combined ranked playlist: **first 10** are five full-cast/sound-designed sci-fi audio dramas alternating with five Star Wars actual plays, **next 10** are five lore/story pairs, and the remaining original ranked episodes follow. The 2026-10-17 verified build has **61 unique recordings**, with existing publisher episodes and subscription GUIDs preserved.
 
-This is a separate listening feed: the older 16-item discovery sampler, complete D6 archive and each filtered actual-play show remain available at their original addresses.
+- [Complete combined episode list](learning-episodes.md) · [Combined feed validation](learning-status.json) · [One automatic weekly updater](../.github/workflows/update-star-wars-learning.yml).
+- [Standalone 20-episode sampler](frontier-mix.xml) · [Special-only listening notes](frontier-mix-episodes.md) · [Selection policy](frontier-mix-catalog.json).
+- [Lore-only RSS](learning-lore.xml), [story-only RSS](learning-story.xml) and [original unfeatured ranking](learning-base-episodes.md) remain accessible.
+- The earlier discovery sampler, complete D6 anthology and individual show RSS URLs are unchanged.
 
-## Scene-first drama, live play and lore follow-up (20 episodes)
-
-A **separate verified 20-track RSS** now provides five independent full-cast/sound-designed science-fiction drama pilot episodes alternating with five Star Wars RPG actual-play openings, then five normal lore/story pairs. The first ten **do not alternate with lore**; the last ten preserve a five-chapter story arc.
-
-- **[Subscribe to the 20-episode RSS](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/frontier-mix.xml)**
-- [Full ordered episode list, creative uses and legitimate commercial audiobook links](frontier-mix-episodes.md)
-- [Automated verification status](frontier-mix-status.json) · [Source selection and policy](frontier-mix-catalog.json)
-
-The independent fiction productions are marked **cross-genre inspiration rather than Star Wars canon**. Their original publisher-hosted audio is linked, never copied. Commercial Star Wars audiobooks are included only as purchase/library references, not RSS audio. The older general learning and actual-play feeds are unchanged.
+The outside sci-fi dramas are **cross-genre inspiration, not Star Wars canon**. Paid official audiobook recommendations appear only as publisher/store links in the notes. All audio comes from its original publishers; no recording is copied or rehosted.
 
 ## Subscribe (Podbean / any RSS-capable player)
 
