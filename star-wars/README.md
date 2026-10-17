@@ -2,24 +2,29 @@
 
 This is a **separate collection** in the existing public [Quarky/shadowrunfeed](../README.md) repository, modeled after the existing [Ravnica catalog + filtered RSS builder](../ravnica/README.md). **Shadowrun and Ravnica were not changed or merged.** `Heroes of the Hydian Way` is deliberately omitted.
 
-## Main Star Wars listening feed — now with the special at the top
+## Main Star Wars listening feed — originally supplied Podbean address
 
-**[Existing ranked Star Wars RSS — unchanged subscription URL](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-feed-v2.xml)**
+**[Original Star Wars RSS with the 20 episodes added first](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml)**
 
-The existing Star Wars learning feed now automatically publishes a combined ranked playlist: **first 10** are five full-cast/sound-designed sci-fi audio dramas alternating with five Star Wars actual plays, **next 10** are five lore/story pairs, and the remaining original ranked episodes follow. The 2026-10-17 verified build has **61 unique recordings**, with existing publisher episodes and subscription GUIDs preserved.
+This is the original `feed-v2.xml` subscription supplied for Podbean—not the newer separate `learning-feed-v2.xml`. On 2026-10-17 the original feed was expanded from 16 to **70 verified publisher-hosted recordings**:
 
-- [Complete combined episode list](learning-episodes.md) · [Combined feed validation](learning-status.json) · [One automatic weekly updater](../.github/workflows/update-star-wars-learning.yml).
-- [Standalone 20-episode sampler](frontier-mix.xml) · [Special-only listening notes](frontier-mix-episodes.md) · [Selection policy](frontier-mix-catalog.json).
-- [Lore-only RSS](learning-lore.xml), [story-only RSS](learning-story.xml) and [original unfeatured ranking](learning-base-episodes.md) remain accessible.
-- The earlier discovery sampler, complete D6 anthology and individual show RSS URLs are unchanged.
+- **Episodes 1–10:** 5 science-fiction audio dramas alternating with 5 Star Wars actual-play starts, no lore interruptions.
+- **Episodes 11–20:** 5 normal lore/story pairs.
+- **Episodes 21 onward:** The remaining ranked episodes, plus 9 original sampler recordings not already present. All original 16 subscriber GUIDs remain present, and overlapping recordings are deduplicated.
 
-The outside sci-fi dramas are **cross-genre inspiration, not Star Wars canon**. Paid official audiobook recommendations appear only as publisher/store links in the notes. All audio comes from its original publishers; no recording is copied or rehosted.
+[Subscriber feed status](subscriber-status.json) · [Complete 61-episode themed/ranked core](learning-episodes.md) · [Original 16-episode sampler](sampler-v2.xml) · [Automatic weekly updater](../.github/workflows/update-star-wars-learning.yml).
+
+The old `feed.xml` is also updated as an equivalent feed. The `learning-feed-v2.xml` remains a separate 61-episode listening collection, so neither new nor existing listeners are forced to resubscribe. Separate D6 and individual actual-play RSS remain intact.
+
+The original Podbean URL uses jsDelivr's `@main` branch CDN, which may cache responses for **up to 12 hours** even after GitHub publishes updates. Refreshing inside a podcast app cannot always bypass the CDN cache; the updater checks and requests invalidation when it detects a stale response. <https://github.com/jsdelivr/jsdelivr#caching>
+
+Outside sci-fi audio dramas are clearly marked cross-genre creative inspiration, not Star Wars canon. No publisher recordings or paid audiobooks are redistributed.
 
 ## Subscribe (Podbean / any RSS-capable player)
 
-**Podbean-compatible combined sampler (FFG + D6):** `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml`
+**Original subscribed Star Wars FFG/D6 feed (expanded collection):** `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml`
 
-The earlier `feed.xml` URL remains an alias after publication, but `feed-v2.xml` is recommended for a fresh subscription because it avoids prior CDN/app caching of the incomplete feed. **Do not subscribe until `feed-v2.xml` exists and the [status report](status.json) confirms it was built.**
+This feed has been successfully published with 70 original publisher-hosted recordings; see the [subscriber-specific status](subscriber-status.json). The original `feed.xml` address is an equivalent alias. The 16-episode original discovery sampler is preserved separately at [sampler-v2.xml](sampler-v2.xml).
 
 **Complete Star Wars D6 anthology (publisher-hosted):** `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/d6-feed.xml`
 
@@ -39,7 +44,7 @@ In Podbean, use **Search → + Add Feed URL**, or your player's equivalent **Add
 
 ## Episode picks and ratings: avoid false precision
 
-**The original five FFG series were selected based on overall show-level reviews/recommendations**, *not* because every episode is individually rated highly. Podcast services generally publish show-level stars, not per-episode rating tables. Different regions/platforms give incomparable vote counts. The combined `feed-v2.xml` is an **editorial discovery sampler**; it is not advertised as a verified ranking of the highest-rated individual episodes.
+**The original five FFG series were selected based on overall show-level reviews/recommendations**, *not* because every episode is individually rated highly. Podcast services generally publish show-level stars, not per-episode rating tables. Different regions/platforms give incomparable vote counts. The archived `sampler-v2.xml` is an **editorial discovery sampler**; the active `feed-v2.xml` combines it with the themed and ranked selections. Neither is a verified chart of individually star-rated episodes.
 
 | Show | Highlight / entry point (only included when publisher feed verifies it) | What the evidence actually says |
 | --- | --- | --- |
