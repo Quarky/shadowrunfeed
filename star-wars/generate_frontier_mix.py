@@ -98,11 +98,11 @@ def original_entry(row,by_url,role,purpose):
             "chap":row.get("story_chapter"),"date":original_date(item)}
 
 def load_verified_previous():
-    status=json.loads((HERE/"learning-status.json").read_text(encoding="utf-8"))
+    status=json.loads((HERE/"learning-base-status.json").read_text(encoding="utf-8"))
     if status.get("state")!="published" or status.get("pairs",0)<5:
         raise RuntimeError("The ordinary lore/story feed has not been verified")
-    rows=json.loads((HERE/"learning-episodes.json").read_text(encoding="utf-8"))["episodes"]
-    root=ET.parse(HERE/"learning-feed-v2.xml").getroot()
+    rows=json.loads((HERE/"learning-base-episodes.json").read_text(encoding="utf-8"))["episodes"]
+    root=ET.parse(HERE/"learning-base-v2.xml").getroot()
     channel=root.find("channel")
     if channel is None:raise RuntimeError("Original published RSS is invalid")
     mapping={}
@@ -168,7 +168,8 @@ def xml_feed(entries):
         prefix="CROSS-GENRE INSPIRATION" if e["role"]=="DRAMA" else e["role"]
         put(item,"title",f"{n:02d} · {prefix} · [{e['source']['title']}] {e['title']}")
         encl=e["item"].find("enclosure")
-        digest=hashlib.sha256((e["source_id"]+"|"+encl.get("url")).encode()).hexdigest()
+        # Feed GUID is stable across expiring publisher audio signatures and weekly updates.
+        digest=hashlib.sha256((e["source_id"]+"|"+normalized(e["title"])).encode()).hexdigest()
         guid=put(item,"guid","urn:sw-frontier:"+digest);guid.set("isPermaLink","false")
         link=e["item"].findtext("link") or e["source"].get("publisher_site") or REPO
         put(item,"link",link)
@@ -239,6 +240,162 @@ def atomic_bytes(path,bytes_data):
     tmp.write_bytes(bytes_data)
     tmp.replace(HERE/path)
 
+
+def build_combined_subscription(special_entries, special_rows, base_rows, base_map):
+    """Prepend the 20-track special to the existing subscribed learning feed.
+
+    Keep every unique previous episode. Original lore/story pairs are retained
+    where possible, while lore orphaned by a duplicate story pilot is preserved
+    at the end as a bonus rather than removed. This is reproducible from two
+    independent inputs and doesn't depend on a previously merged output.
+    """
+    base_xml=ET.parse(HERE/"learning-base-v2.xml").getroot()
+    base_channel=base_xml.find("channel")
+    if base_channel is None:raise RuntimeError("Missing current original lore/story RSS channel")
+    old_items=base_channel.findall("item")
+    if len(old_items)!=len(base_rows):raise RuntimeError("Base RSS and base episode manifest disagree")
+    if len(base_rows)%2:raise RuntimeError("Base lore/story playlist has incomplete pair")
+    special_xml=ET.fromstring(xml_feed(special_entries))
+    special_items=special_xml.findall("./channel/item")
+    if len(special_items)!=20:raise RuntimeError("Special must contain exactly twenty items")
+    by_audio={}
+    for item in old_items:
+        enc=item.find("enclosure")
+        if enc is None or not enc.get("url"):raise RuntimeError("Invalid base audio")
+        by_audio[enc.get("url")]=item
+    special_urls={x["publisher_audio_url"] for x in special_rows}
+    if len(special_urls)!=20:raise RuntimeError("Special URL uniqueness failed")
+    # Reuse a previous GUID on any already-subscribed episode; users who have
+    # listened to it should not receive an apparently new duplicated download.
+    for item in special_items:
+        uri=item.find("enclosure").get("url")
+        if uri in by_audio:
+            guid=by_audio[uri].find("guid")
+            item_guid=item.find("guid")
+            if guid is not None and item_guid is not None:
+                item_guid.text=guid.text
+                item_guid.attrib.clear()
+                item_guid.attrib.update(guid.attrib)
+    preserved_pairs=[]
+    bonus_lore=[]
+    repeated_base=[]
+    for i in range(0,len(base_rows),2):
+        lore,story=base_rows[i:i+2]
+        if (lore["kind"],story["kind"])!=("LORE","STORY"):
+            raise RuntimeError("Unexpected original pair at "+str(i))
+        l_url=lore["publisher_audio_url"];s_url=story["publisher_audio_url"]
+        if l_url in special_urls or s_url in special_urls:
+            if l_url not in special_urls:bonus_lore.append((old_items[i],lore))
+            if s_url not in special_urls:
+                # Retain any unusual free-standing story entry rather than
+                # losing access to original published audio.
+                repeated_base.append((old_items[i+1],story))
+        else:
+            preserved_pairs.extend(((old_items[i],lore),(old_items[i+1],story)))
+    def as_row(previous):
+        return {"category":previous["kind"],"show":previous["show"],
+                "episode":previous["episode"],"source_id":previous["source_id"],
+                "inspiration":previous.get("inspiration",""),
+                "original_date":previous.get("original_date"),
+                "episode_page":previous.get("episode_url"),
+                "publisher_audio_url":previous["publisher_audio_url"],
+                "show_rating_us":previous.get("show_rating_us"),
+                "review_count_us":previous.get("show_rating_count_us"),
+                "editorial_score":previous.get("editorial_score"),
+                "story_chapter":previous.get("story_chapter"),
+                "continuity":"Star Wars RPG / setting"}
+    for old_item in old_items:
+        base_channel.remove(old_item)
+    # Existing subscription feed identity and Atom self URL are preserved.
+    title=base_channel.find("title")
+    if title is not None:title.text="Star Wars RPG — Ranked Lore + Story"
+    description=base_channel.find("description")
+    if description is not None:
+        description.text=("Combined RPG discovery feed: the first twenty are "
+          "five sci-fi audio drama pilots interleaved with five Star Wars actual "
+          "plays, then five ordinary lore/story pairs, followed by the remaining "
+          "original ranked Star Wars content. Publisher-hosted audio only; "
+          "cross-genre fiction is explicitly distinguished from Star Wars canon.")
+    atom=base_channel.find(f"{{{ATOM}}}link")
+    if atom is None:atom=ET.SubElement(base_channel,f"{{{ATOM}}}link")
+    atom.attrib.update({"href":PUBLIC+"learning-feed-v2.xml",
+                        "rel":"self","type":"application/rss+xml"})
+    assembled=[(it,row) for it,row in zip(special_items,special_rows)]
+    assembled += [(copy.deepcopy(it),as_row(row)) for it,row in preserved_pairs]
+    assembled += [(copy.deepcopy(it),as_row(row)) for it,row in repeated_base]
+    for it,row in bonus_lore:
+        metadata=as_row(row);metadata["category"]="BONUS_LORE"
+        assembled.append((copy.deepcopy(it),metadata))
+    used=set();uids=set();manifest=[]
+    for number,(item,row) in enumerate(assembled,1):
+        enc=item.find("enclosure")
+        if enc is None:raise RuntimeError("Combined item has no audio")
+        uri=enc.get("url","")
+        if not uri.startswith("https://") or int(enc.get("length","0"))<=0:
+            raise RuntimeError("Invalid combined publisher audio")
+        if uri in used:raise RuntimeError("Duplicate media in main feed")
+        used.add(uri)
+        guid=item.find("guid")
+        if guid is None or not guid.text or guid.text in uids:
+            raise RuntimeError("Duplicate or missing podcast GUID")
+        uids.add(guid.text)
+        text=item.find("title")
+        if text is None:raise RuntimeError("Episode lacks title")
+        text.text=f"{number:02d} • "+re.sub(r"^\d+\s*[•·]\s*", "",text.text or "")
+        published=item.find("pubDate")
+        if published is None:published=ET.SubElement(item,"pubDate")
+        published.text=format_datetime(datetime(2026,10,17,16,0,tzinfo=timezone.utc)-timedelta(minutes=number))
+        base_channel.append(item)
+        row=dict(row);row["order"]=number;manifest.append(row)
+    if len(used)!=len(special_urls)+len(base_rows)-sum(r["publisher_audio_url"] in special_urls for r in base_rows):
+        raise RuntimeError("Original episodes were unexpectedly lost in combined feed")
+    if [r["category"] for r in manifest[:20]]!=["DRAMA","ACTUAL_PLAY"]*5+["LORE","STORY"]*5:
+        raise RuntimeError("Featured section was reordered")
+    ET.indent(base_xml,space="  ")
+    xml=ET.tostring(base_xml,encoding="utf-8",xml_declaration=True)
+    ET.fromstring(xml)
+    status=json.loads((HERE/"learning-base-status.json").read_text(encoding="utf-8"))
+    status.update({
+        "state":"published",
+        "main_feed":"learning-feed-v2.xml",
+        "featured_prefix":20,
+        "core_episodes":len(base_rows),
+        "core_unique_remaining":len(assembled)-20,
+        "duplicates_suppressed":len(base_rows)-(len(assembled)-20),
+        "bonus_lore":len(bonus_lore),
+        "episodes":len(assembled),
+        "original_ranked_content_retained":True,
+        "outputs":{**status["outputs"],"learning-feed-v2.xml":len(assembled),
+                   "learning-episodes.md":len(assembled)},
+    })
+    return xml,manifest,status
+
+def combined_notes(rows,status):
+    lines=[
+        "# Star Wars RPG — Combined Listening Queue",
+        "",
+        "This is the **existing subscribed ranked Star Wars feed**, automatically regenerated once weekly.",
+        "",
+        "**1–10:** Five non-Star-Wars sci-fi audio drama pilots alternating with five Star Wars actual plays. No lore interludes.",
+        "**11–20:** Five normal Star Wars lore/story pairs, preserving the story's first five consecutive episodes.",
+        "**After 20:** All remaining unique entries from the earlier ranked listening queue; episodes already featured are not duplicated. Some additional lore entries appear at the end to retain older content when their original story partner has been featured.",
+        "",
+        f"**Validated count:** {status['episodes']} episodes, of which 20 are at the top; {status['duplicates_suppressed']} repeated original entries suppressed, {status['bonus_lore']} unpaired lore items retained.",
+        "",
+        "**Audio ownership:** Publishers host all episodes. External science-fiction dramas are cross-genre inspiration, not Star Wars canon.",
+        "",
+        "| Play | Category | Publisher episode | Inspiration |",
+        "| ---: | --- | --- | --- |"]
+    for row in rows:
+        title=row["episode"].replace("|","–")
+        link=row.get("episode_page")
+        if not link or link.rstrip("/") in ("https://thelorehounds.com","https://www.theswu.com"):
+            link=row["publisher_audio_url"]
+        why=(row.get("inspiration") or "").replace("|","–")
+        lines.append(f'| {row["order"]} | {row["category"]} | [{title}]({link}) — {row["show"]} | {why} |')
+    lines+=["","[Separate 20-episode sampler](frontier-mix-episodes.md) · [Original lore/story base](learning-base-episodes.md) · [Machine-readable final playlist](learning-episodes.json)",""]
+    return "\n".join(lines)
+
 def main():
     report={"state":"building","built_at":datetime.now(timezone.utc).isoformat(),
             "dramas":[],"actual_plays":[],"normal_pairs":0,"publisher_audio_rehosted":False,"warnings":[]}
@@ -276,7 +433,18 @@ def main():
         "frontier-mix-episodes.md":notes_markdown(rows).encode("utf-8"),
         "frontier-mix-episodes.json":(json.dumps({"built_at":report["built_at"],"episodes":rows},indent=2,ensure_ascii=False)+"\n").encode("utf-8")
     }
-    # Build all outputs before publishing any.
+    merged_xml,merged_rows,merged_status=build_combined_subscription(
+        out,rows,normal_rows,by_url)
+    files.update({
+        "learning-feed-v2.xml":merged_xml,
+        "learning-episodes.md":combined_notes(merged_rows,merged_status).encode("utf-8"),
+        "learning-episodes.json":(json.dumps({
+            "generated_utc":report["built_at"],"editorial_source":"Base Star Wars ranking with 20 upfront curated features; stable subscription URL",
+            "featured_count":20,"episodes":merged_rows
+        },indent=2,ensure_ascii=False)+"\n").encode("utf-8"),
+        "learning-status.json":(json.dumps(merged_status,indent=2,ensure_ascii=False)+"\n").encode("utf-8"),
+    })
+    # Build all outputs and validate the entire combined feed before writing.
     for name,data in files.items():atomic_bytes(name,data)
     report["state"]="published";report["count"]=len(out);report["themed_count"]=len(themed)
     report["drama_count"]=len(dramas);report["actual_play_count"]=len(plays)
