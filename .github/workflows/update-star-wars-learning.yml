@@ -133,37 +133,56 @@ jobs:
                 "20 featured first,",len(base_rows),"original entries preserved,",main["duplicates_suppressed"],"duplicates suppressed")
           PY
 
-      - name: Commit all coherent generated Star Wars feeds
+      - name: Commit all coherent generated Star Wars feeds without racing another updater
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add \
-            star-wars/learning-base-v2.xml \
-            star-wars/learning-base-episodes.md \
-            star-wars/learning-base-episodes.json \
-            star-wars/learning-base-status.json \
-            star-wars/learning-feed-v2.xml \
-            star-wars/learning-lore.xml \
-            star-wars/learning-story.xml \
-            star-wars/learning-episodes.md \
-            star-wars/learning-episodes.json \
-            star-wars/learning-status.json \
-            star-wars/frontier-mix.xml \
-            star-wars/frontier-mix-episodes.md \
-            star-wars/frontier-mix-episodes.json \
+          generated=(
+            star-wars/learning-base-v2.xml
+            star-wars/learning-base-episodes.md
+            star-wars/learning-base-episodes.json
+            star-wars/learning-base-status.json
+            star-wars/learning-feed-v2.xml
+            star-wars/learning-lore.xml
+            star-wars/learning-story.xml
+            star-wars/learning-episodes.md
+            star-wars/learning-episodes.json
+            star-wars/learning-status.json
+            star-wars/frontier-mix.xml
+            star-wars/frontier-mix-episodes.md
+            star-wars/frontier-mix-episodes.json
             star-wars/frontier-mix-status.json
-          if git diff --cached --quiet; then
-            echo "Ranked Star Wars subscription already current"
-          else
-            git commit -m "Prepend featured sci-fi dramas and RPG play to existing Star Wars subscription, retain original episodes"
-            for attempt in 1 2 3; do
-              git fetch origin main
-              git rebase origin/main
-              if git push origin HEAD:main; then
-                echo "Published updated original subscription feed"
-                exit 0
+          )
+          tar -cf /tmp/star-wars-generated.tar "${generated[@]}"
+          sourcefiles=(
+            star-wars/learning_catalog.json
+            star-wars/frontier-mix-catalog.json
+            star-wars/generate_learning.py
+            star-wars/generate_frontier_mix.py
+            .github/workflows/update-star-wars-learning.yml
+          )
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            if ! git merge-base --is-ancestor origin/main HEAD; then
+              if ! git diff --quiet HEAD origin/main -- "${sourcefiles[@]}"; then
+                echo "Upstream generator or source catalog changed; refusing to publish stale source output" >&2
+                exit 1
               fi
-            done
-            echo "Safe publish failed; no force-push used" >&2
-            exit 1
-          fi
+              git reset --hard origin/main
+              tar -xf /tmp/star-wars-generated.tar
+            fi
+            git add "${generated[@]}"
+            if git diff --cached --quiet; then
+              echo "Main ranked Star Wars RSS already up to date"
+              exit 0
+            fi
+            git commit -m "Publish auto-updated Star Wars ranked RSS with featured story opening"
+            if git push origin HEAD:main; then
+              echo "Published to existing Star Wars subscription on attempt $attempt"
+              exit 0
+            fi
+            echo "Main advanced during push; reconciling generated files" >&2
+          done
+          echo "Could not safely publish within four reconciliation attempts" >&2
+          exit 1
