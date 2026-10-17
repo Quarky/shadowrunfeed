@@ -9,7 +9,6 @@ on:
       - "star-wars/frontier-mix-catalog.json"
       - "star-wars/generate_learning.py"
       - "star-wars/generate_frontier_mix.py"
-      - "star-wars/learning-README.md"
       - ".github/workflows/update-star-wars-learning.yml"
   schedule:
     - cron: "13 6 * * 1"
@@ -29,6 +28,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
+          ref: main
+          fetch-depth: 0
+
+      - name: Sync latest main before regenerating
+        run: |
+          git fetch origin main
+          git checkout main
+          git pull --ff-only origin main
 
       - name: Verify Python builders
         run: |
