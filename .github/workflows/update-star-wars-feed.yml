@@ -1,4 +1,4 @@
-name: Update Star Wars FFG curated RSS
+name: Update Star Wars FFG Source Feeds and Legacy Sampler
 
 on:
   workflow_dispatch:
@@ -63,14 +63,14 @@ jobs:
               channel = root.find("channel")
               image = channel.find("{http://www.itunes.com/dtds/podcast-1.0.dtd}image")
               assert image is not None and image.get("href", "").startswith("https://"), f"Missing HTTPS artwork: {path}"
-              if path.name in ("feed.xml", "feed-v2.xml", "d6-feed.xml"):
+              if path.name in ("feed.xml", "feed-v2.xml", "sampler.xml", "sampler-v2.xml", "d6-feed.xml"):
                   assert image.get("href", "").endswith("/cover.png"), f"Sampler must use original PNG art: {path}"
               items = channel.findall("item")
               assert items, f"Empty podcast feed: {path}"
               for item in items:
                   enclosure = item.find("enclosure")
                   assert enclosure is not None and enclosure.get("url", "").startswith(("http://", "https://")), path
-              if path.name in ("feed.xml", "feed-v2.xml"):
+              if path.name in ("feed.xml", "feed-v2.xml", "sampler.xml", "sampler-v2.xml"):
                   assert all(
                       int(x.find("enclosure").get("length", "0")) > 0
                       and x.find("enclosure").get("url", "").startswith("https://")
@@ -83,7 +83,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add star-wars/*.xml star-wars/status.json star-wars/cover.png
+          git add star-wars/sampler.xml star-wars/sampler-v2.xml star-wars/status.json star-wars/cover.png
+          git add star-wars/d6-feed.xml star-wars/force-majeure.xml star-wars/dice-for-brains.xml star-wars/campaign-mynock.xml star-wars/redemption.xml star-wars/respect-the-crit.xml star-wars/nastygram-d6.xml
           if git diff --cached --quiet; then
             echo "Star Wars podcast feed unchanged"
           else
