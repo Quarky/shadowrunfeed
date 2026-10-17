@@ -67,6 +67,8 @@ def is_lore(item,source):
     title=norm(item.findtext("title"))
     description=norm(ET.tostring(item.find("description"),encoding="unicode",method="text") if item.find("description") is not None else "")
     if not title or any(term in title for term in CFG["blacklist"]):return None
+    if re.search(r"\blast\b.{0,25}\bweeks?\b",title) or "best of" in title:
+        return None
     # Do not introduce a serialized lore explanation at chapter 2 or later.
     if re.search(r"\b(?:part|pt\.?)\s*[2-9]\b",title):return None
     mode=source.get("mode","")
