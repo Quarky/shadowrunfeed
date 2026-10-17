@@ -2,6 +2,16 @@
 
 This is a **separate collection** in the existing public [Quarky/shadowrunfeed](../README.md) repository, modeled after the existing [Ravnica catalog + filtered RSS builder](../ravnica/README.md). **Shadowrun and Ravnica were not changed or merged.** `Heroes of the Hydian Way` is deliberately omitted.
 
+## Ranked lore and story listening queue
+
+**New:** [Star Wars RPG Lore → Story — ranking, ratings and learning episodes](learning-README.md) combines original-publisher Star Wars lore explainers with continuous FFG/D6 actual-play story chapters.
+
+- **[Ranked 1:1 lore/story RSS](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-feed-v2.xml)** — alternating learning order (after successful builder publication).
+- [Full verified episode list](learning-episodes.md) · [Live build status](learning-status.json) · [Independent updater](../.github/workflows/update-star-wars-learning.yml).
+- Also publishes [lore-only RSS](learning-lore.xml) and [story-only RSS](learning-story.xml).
+
+This is a separate listening feed: the older 16-item discovery sampler, complete D6 archive and each filtered actual-play show remain available at their original addresses.
+
 ## Subscribe (Podbean / any RSS-capable player)
 
 **Podbean-compatible combined sampler (FFG + D6):** `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml`
