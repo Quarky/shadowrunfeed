@@ -1,4 +1,4 @@
-name: Build Star Wars Lore and Story Listening Feed
+name: Update Star Wars Ranked Feed and Featured Story Mix
 
 on:
   workflow_dispatch:
@@ -6,7 +6,9 @@ on:
     branches: [main]
     paths:
       - "star-wars/learning_catalog.json"
+      - "star-wars/frontier-mix-catalog.json"
       - "star-wars/generate_learning.py"
+      - "star-wars/generate_frontier_mix.py"
       - "star-wars/learning-README.md"
       - ".github/workflows/update-star-wars-learning.yml"
   schedule:
@@ -16,80 +18,145 @@ permissions:
   contents: write
 
 concurrency:
-  group: star-wars-lore-story-learning
+  group: star-wars-main-ranked-feed
   cancel-in-progress: false
 
 jobs:
-  rank-and-publish:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 22
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
 
-      - name: Check Python syntax
-        run: python3 -m py_compile star-wars/generate_learning.py star-wars/generate_feed.py
-
-      - name: Remember original curated feed checksums
+      - name: Verify Python builders
         run: |
-          sha256sum star-wars/feed-v2.xml star-wars/d6-feed.xml star-wars/campaign-mynock.xml star-wars/dice-for-brains.xml star-wars/force-majeure.xml star-wars/nastygram-d6.xml star-wars/respect-the-crit.xml > /tmp/star-wars-untouched-feeds.sha256
+          python3 -m py_compile star-wars/generate_learning.py star-wars/generate_frontier_mix.py star-wars/generate_feed.py
 
-      - name: Generate ranked lore and continuous story RSS
+      - name: Protect all independent Star Wars feeds
+        run: |
+          sha256sum star-wars/feed-v2.xml star-wars/feed.xml star-wars/d6-feed.xml star-wars/campaign-mynock.xml star-wars/dice-for-brains.xml star-wars/force-majeure.xml star-wars/nastygram-d6.xml star-wars/redemption.xml star-wars/respect-the-crit.xml > /tmp/untouched-star-wars-feeds.sha256
+
+      - name: Rebuild original Lore/Story base from publisher feeds
         run: python3 star-wars/generate_learning.py
 
-      - name: Validate podcast audio, alternation, story continuity and no regressions
+      - name: Prepend ten themed episodes and five lore/story pairs to subscribed main feed
+        run: python3 star-wars/generate_frontier_mix.py
+
+      - name: Validate merged subscriber feed and source episode identities
         run: |
-          sha256sum --check /tmp/star-wars-untouched-feeds.sha256
+          sha256sum --check /tmp/untouched-star-wars-feeds.sha256
           python3 - <<'PY'
           import json
           from pathlib import Path
           import xml.etree.ElementTree as ET
+          from email.utils import parsedate_to_datetime
+
           root=Path("star-wars")
-          report=json.loads((root/"learning-status.json").read_text(encoding="utf-8"))
-          entries=json.loads((root/"learning-episodes.json").read_text(encoding="utf-8"))["episodes"]
-          assert report["state"]=="published"
-          assert report["pairs"]>=10 and report["episodes"]==2*report["pairs"]
-          assert len(entries)==report["episodes"]
-          assert len([s for s in report["lore_sources"] if s["status"]=="included"])>=2
-          assert len([s for s in report["story_arcs"] if s["status"]=="included"])>=3
-          for i,row in enumerate(entries):
-              assert row["order"]==i+1
-              assert row["kind"]==("LORE" if i%2==0 else "STORY")
-              assert "show_rating_us" in row and "editorial_score" in row
-          stories=[e for e in entries if e["kind"]=="STORY"]
-          seen={}
-          for row in stories:
-              arc=row["source_id"]
-              expected=seen.get(arc,0)+1
-              assert row["story_chapter"]==expected, f"Story continuity {arc}: {row['story_chapter']} != {expected}"
-              seen[arc]=expected
-          for name in ("learning-feed-v2.xml","learning-lore.xml","learning-story.xml"):
-              tree=ET.parse(root/name)
-              channel=tree.getroot().find("channel")
+          load=lambda f: json.loads((root/f).read_text(encoding="utf-8"))
+          base=load("learning-base-status.json")
+          main=load("learning-status.json")
+          special=load("frontier-mix-status.json")
+          base_rows=load("learning-base-episodes.json")["episodes"]
+          main_rows=load("learning-episodes.json")["episodes"]
+          special_rows=load("frontier-mix-episodes.json")["episodes"]
+          assert base["state"]==main["state"]==special["state"]=="published"
+          assert base["pairs"]>=10 and base["episodes"]==2*base["pairs"]
+          assert len(base_rows)==base["episodes"]
+          assert len(main_rows)==main["episodes"]
+          assert len(special_rows)==special["count"]==20
+          assert main["featured_prefix"]==20
+          assert special["drama_count"]==special["actual_play_count"]==special["normal_pairs"]==5
+          assert [r["category"] for r in main_rows[:20]]==["DRAMA","ACTUAL_PLAY"]*5+["LORE","STORY"]*5
+          assert [r["publisher_audio_url"] for r in main_rows[:20]]==[r["publisher_audio_url"] for r in special_rows]
+          assert len({r["show"] for r in main_rows[:10:2]})==5
+          assert len({r["show"] for r in main_rows[1:10:2]})==5
+          assert [r["story_chapter"] for r in main_rows[11:20:2]]==[1,2,3,4,5]
+          assert [r["kind"] for r in base_rows]==["LORE","STORY"]*base["pairs"]
+          featured_urls={r["publisher_audio_url"] for r in special_rows}
+          base_urls={r["publisher_audio_url"] for r in base_rows}
+          main_urls={r["publisher_audio_url"] for r in main_rows}
+          assert len(main_urls)==len(main_rows), "Duplicated main audio!"
+          assert main_urls==featured_urls|base_urls, "Lost original episode when merging"
+          assert main["episodes"]==len(featured_urls|base_urls)
+          assert main["duplicates_suppressed"]==len(base_urls & featured_urls)
+          assert main["core_unique_remaining"]==len(base_urls-featured_urls)
+          assert main["original_ranked_content_retained"] is True
+          assert main["warnings"]==base["warnings"]
+          assert special["warnings"]==[]
+          assert len([x for x in base["lore_sources"] if x["status"]=="included"])>=2
+          assert len([x for x in base["story_arcs"] if x["status"]=="included"])>=3
+
+          def parse(name,count):
+              parsed=ET.parse(root/name)
+              channel=parsed.getroot().find("channel")
               assert channel is not None
+              items=channel.findall("item")
+              assert len(items)==count,(name,len(items),count)
               logo=channel.find("{http://www.itunes.com/dtds/podcast-1.0.dtd}image")
               assert logo is not None and logo.get("href","").endswith("/cover.png")
-              items=channel.findall("item")
-              assert len(items)==(report["episodes"] if name=="learning-feed-v2.xml" else report["pairs"])
-              assert all(e.find("enclosure") is not None and
-                         e.find("enclosure").get("url","").startswith("https://") and
-                         int(e.find("enclosure").get("length","0"))>0 for e in items)
-              assert len(set(it.findtext("guid") for it in items))==len(items)
-          titles=[x.findtext("title") for x in ET.parse(root/"learning-feed-v2.xml").findall("./channel/item")]
-          assert all(("LORE" if n%2==0 else "STORY") in t for n,t in enumerate(titles))
-          assert (root/"learning-episodes.md").read_text(encoding="utf-8").count(" | ")>=report["episodes"]
-          print("Validated",report["pairs"],"lore/story pairs from",len(seen),"continuous story arcs")
+              for item in items:
+                  enclosure=item.find("enclosure")
+                  assert enclosure is not None
+                  assert enclosure.get("url","").startswith("https://")
+                  assert int(enclosure.get("length","0"))>0
+              guids=[i.findtext("guid") for i in items]
+              assert all(guids) and len(set(guids))==len(guids)
+              return channel,items
+
+          _,base_items=parse("learning-base-v2.xml",len(base_rows))
+          main_channel,main_items=parse("learning-feed-v2.xml",len(main_rows))
+          _,mix_items=parse("frontier-mix.xml",20)
+          parse("learning-lore.xml",base["pairs"])
+          parse("learning-story.xml",base["pairs"])
+          link=main_channel.find("{http://www.w3.org/2005/Atom}link")
+          assert link is not None and link.get("href","").endswith("/star-wars/learning-feed-v2.xml")
+          assert [i.find("enclosure").get("url") for i in main_items[:20]]==[i.find("enclosure").get("url") for i in mix_items]
+          base_guid={x.find("enclosure").get("url"):x.findtext("guid") for x in base_items}
+          for x in main_items:
+              url=x.find("enclosure").get("url")
+              if url in base_guid:
+                  assert x.findtext("guid")==base_guid[url],f"GUID changed for existing subscriber: {url[:70]}"
+          dates=[parsedate_to_datetime(x.findtext("pubDate")) for x in main_items]
+          assert dates==sorted(dates,reverse=True), "Main feed not in listening order"
+          assert [r["order"] for r in main_rows]==list(range(1,len(main_rows)+1))
+          assert (root/"learning-episodes.md").read_text(encoding="utf-8").count(" | ")>=len(main_rows)
+          print("PASS:",len(main_rows),"unique episodes in original subscribed RSS;",
+                "20 featured first,",len(base_rows),"original entries preserved,",main["duplicates_suppressed"],"duplicates suppressed")
           PY
 
-      - name: Commit independently generated learning feeds
+      - name: Commit all coherent generated Star Wars feeds
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add star-wars/learning-feed-v2.xml star-wars/learning-lore.xml star-wars/learning-story.xml star-wars/learning-episodes.md star-wars/learning-episodes.json star-wars/learning-status.json
+          git add \
+            star-wars/learning-base-v2.xml \
+            star-wars/learning-base-episodes.md \
+            star-wars/learning-base-episodes.json \
+            star-wars/learning-base-status.json \
+            star-wars/learning-feed-v2.xml \
+            star-wars/learning-lore.xml \
+            star-wars/learning-story.xml \
+            star-wars/learning-episodes.md \
+            star-wars/learning-episodes.json \
+            star-wars/learning-status.json \
+            star-wars/frontier-mix.xml \
+            star-wars/frontier-mix-episodes.md \
+            star-wars/frontier-mix-episodes.json \
+            star-wars/frontier-mix-status.json
           if git diff --cached --quiet; then
-            echo "Ranked Star Wars lore/story feed unchanged"
+            echo "Ranked Star Wars subscription already current"
           else
-            git commit -m "Publish validated ranked Star Wars lore and continuous story listening feed"
-            git push
+            git commit -m "Prepend featured sci-fi dramas and RPG play to existing Star Wars subscription, retain original episodes"
+            for attempt in 1 2 3; do
+              git fetch origin main
+              git rebase origin/main
+              if git push origin HEAD:main; then
+                echo "Published updated original subscription feed"
+                exit 0
+              fi
+            done
+            echo "Safe publish failed; no force-push used" >&2
+            exit 1
           fi
