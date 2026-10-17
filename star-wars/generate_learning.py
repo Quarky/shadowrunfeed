@@ -274,7 +274,7 @@ def serialize(entries,filename,title):
         put("title",f"{index:02d} • {entry['role']} • [{src['title']}] {entry['title']}",it)
         uid=hashlib.sha256((entry["source_id"]+"|"+original.find("enclosure").get("url")).encode()).hexdigest()
         guid=put("guid","urn:sw-learning:"+uid,it);guid.set("isPermaLink","false")
-        put("link",original.findtext("link") or src.get("publisher_site") or src.get("show_rating",{}).get("url") or REPO,it)
+        put("link",original.findtext("link") or src.get("publisher_site") or (src.get("show_rating") or src.get("rating") or {}).get("url") or REPO,it)
         rating=src.get("show_rating") or src.get("rating")
         stars=f"{rating['stars']}/5 over {rating['count']} ratings" if rating else "unrated / unverified"
         description=(original.findtext("description") or "").strip()
