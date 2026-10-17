@@ -67,6 +67,8 @@ def is_lore(item,source):
     title=norm(item.findtext("title"))
     description=norm(ET.tostring(item.find("description"),encoding="unicode",method="text") if item.find("description") is not None else "")
     if not title or any(term in title for term in CFG["blacklist"]):return None
+    # Do not introduce a serialized lore explanation at chapter 2 or later.
+    if re.search(r"\b(?:part|pt\.?)\s*[2-9]\b",title):return None
     mode=source.get("mode","")
     if mode=="character" and ("calendar" in title or "special" in title and "character" not in title):
         return None
@@ -309,6 +311,7 @@ def episode_metadata(entries):
             "editorial_score":e["score"],"themes":e["themes"],
             "original_date":e["item"].findtext("pubDate"),
             "episode_url":e["item"].findtext("link") or e["rss"],
+            "publisher_audio_url":e["item"].find("enclosure").get("url"),
             "story_chapter":e["chap"],"inspiration":e["source"]["why"]})
     return rows
 
@@ -325,7 +328,10 @@ def episode_markdown(rows):
         title=r["episode"].replace("|","–")
         name=r["show"].replace("|","–")
         note=r["inspiration"].replace("|","–")
-        lines.append(f'| {r["order"]} | {r["kind"]} | [{title}]({r["episode_url"]}) — {name} | {rating} | {r["editorial_score"]:.1f} | {note} |')
+        link=r["episode_url"]
+        if link.rstrip("/") in ("https://thelorehounds.com","https://www.theswu.com","https://starwarsunderworld.net"):
+            link=r["publisher_audio_url"]
+        lines.append(f'| {r["order"]} | {r["kind"]} | [{title}]({link}) — {name} | {rating} | {r["editorial_score"]:.1f} | {note} |')
     lines+=["","## How the ranking works","",
     "52% topical relevance (species, regions, technology, history, Force traditions), 22% NPC and performed-story usefulness, 16% Bayesian-smoothed show-wide US Apple rating, 10% diversity, followed by pairing and repetitive-topic penalties.",
     "Story excerpts are whole original episodes, not redistributed or clipped. No published audio content is copied. Source podcast quality signals are not individual episode reviews.",
