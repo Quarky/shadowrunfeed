@@ -1,10 +1,10 @@
-# Star Wars RPG — Ranked Listening Subscription with Featured Story Opening
+# Star Wars RPG — Ranked Listening with Featured Story Opening
 
-The **existing ranked Star Wars podcast URL has not changed**. It now starts with the newly selected 20 episodes, then continues into the original curated lore/story library without repeating audio.
+**Original Podbean subscription:** [Star Wars combined RSS — feed-v2.xml](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml). This is the address first supplied to existing listeners; it now starts with the 20 special episodes, followed by the ranked collection and all original subscriber recordings. It contains **70 unique publisher-hosted recordings**, with all original 16 podcast GUIDs preserved. See the [subscriber publication status](subscriber-status.json).
 
-## Existing combined RSS — use this address
+## Alternative curated-only RSS
 
-**[Main Star Wars RSS (same as before)](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-feed-v2.xml)**
+**[Standalone 61-episode ranked Star Wars RSS](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-feed-v2.xml)** remains available for those already following that second address. It has the same 20-track opening, followed by 41 unique remaining ranked selections; it omits nine historical subscriber-sampler extras.
 
 The first 20 entries have a deliberate two-phase order:
 
@@ -12,7 +12,7 @@ The first 20 entries have a deliberate two-phase order:
 - **11–20:** Five conventional Star Wars lore → story pairs from the original ranked feed, maintaining consecutive chapters of a story campaign.
 - **21 onward:** The remaining unique episodes from the previous ranked library. Original subscriber GUIDs remain unchanged, and previously featured episodes are not repeated. Additional lore-only entries at the end retain subjects whose story partner was moved to the start.
 
-The first published combined build contains **61 verified publisher-hosted episodes**, 20 specially featured and 41 remaining from the older ranked collection, after suppressing 15 duplicated entries. New builds update the *same* feed automatically once a week.
+The original Podbean feed contains **70 episodes**: the 61-episode curated playlist plus 9 unique extras preserved from the originally subscribed 16-episode sampler. The 61-episode ranked-only address remains separately available. The automatic publisher rebuild updates both every week.
 
 [Full current combined episode list](learning-episodes.md) · [Validation/status](learning-status.json) · [Merged playlist JSON](learning-episodes.json)
 
@@ -22,7 +22,7 @@ All dramatized non-Star-Wars shows are labeled **cross-genre inspiration**, not 
 
 ## Automatic updates
 
-The [single weekly GitHub Actions workflow](../.github/workflows/update-star-wars-learning.yml) first rebuilds the normal lore/story base, then rebuilds the 20-episode featured sequence, merges both into the existing subscription address, preserves original episode identities, verifies unique publisher enclosures, and publishes all generated files together. The older discovery sampler, D6 anthology and individual show collections remain untouched.
+The [unified weekly GitHub Actions workflow](../.github/workflows/update-star-wars-learning.yml) rebuilds the normal lore/story base, adds the 20-episode featured sequence, then publishes both the 61-item ranked playlist and the expanded 70-item original Podbean `feed-v2.xml` subscription. It explicitly preserves the original 16 GUIDs, checks publisher audio and de-duplicates overlapping titles. The older source-feed builder updates the separately archived sampler rather than overwriting the subscribed URL. The original 16-episode discovery sampler is archived as [sampler-v2.xml](sampler-v2.xml); D6 and individual source collections remain untouched.
 
 ## How it selects episodes
 
