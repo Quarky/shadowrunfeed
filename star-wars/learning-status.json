@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-17T18:17:32.972015+00:00",
+  "generated_utc": "2026-10-17T18:20:03.611106+00:00",
   "state": "published",
   "lore_sources": [
     {
@@ -15,12 +15,12 @@
     {
       "id": "canon-timeline",
       "status": "included",
-      "episodes": 20
+      "episodes": 16
     },
     {
       "id": "old-canon-book-club",
       "status": "included",
-      "episodes": 9
+      "episodes": 8
     },
     {
       "id": "star-wars-explained",
@@ -66,13 +66,13 @@
     }
   ],
   "outputs": {
-    "learning-feed-v2.xml": 48,
-    "learning-lore.xml": 24,
-    "learning-story.xml": 24,
-    "learning-episodes.md": 48
+    "learning-feed-v2.xml": 56,
+    "learning-lore.xml": 28,
+    "learning-story.xml": 28,
+    "learning-episodes.md": 56
   },
   "copyrighted_audio_rehosted": false,
   "warnings": [],
-  "episodes": 48,
-  "pairs": 24
+  "episodes": 56,
+  "pairs": 28
 }
