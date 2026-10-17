@@ -78,6 +78,23 @@ def is_lore(item,source):
         "season three","season two","rumor","new show","trailer","commentary",
         "movie discussion","podcast","you missed","watching","episodes")):
         return None
+    if mode=="explained":
+        # This mixed-genre feed publishes weekly entertainment news and reviews
+        # as well as evergreen lore. Require a genuine lore-bearing headline.
+        if any(x in title for x in (
+            "live","updates","the good, the bad","movie","biggest questions",
+            "the book of boba fett","mandalorian and grogu",
+            "trailer","upcoming","release","reaction","ranking","explaining the news",
+            "new star wars","what we know","premiere","star wars fans","rewatch")):
+            return None
+        if not any(x in title for x in (
+            "lore","history","timeline","explained","origins","species",
+            "ancient","sith lord","jedi order","sith order","holocron",
+            "technology","droid","starship","weapon","who is","all about",
+            "what is","force power","how does","everything you need","creature",
+            "planet","culture","faction","mandalorian history","force lore",
+            "the mystery of","dark side","lightsaber")):
+            return None
     if source["id"]=="eye-on-canon" and any(x in title for x in (
         "big screen","publishing","episode special","200th","watch party",
         "movie review","season review","all about maul","future of star wars",
