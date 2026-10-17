@@ -1,0 +1,926 @@
+{
+  "generated_utc": "2026-10-17T18:17:32.972015+00:00",
+  "rating_basis": "US Apple show-level only; editorial scores are not episode ratings",
+  "episodes": [
+    {
+      "order": 1,
+      "kind": "LORE",
+      "show": "The Star Wars Canon Timeline Podcast",
+      "episode": "(FLASHBACK) EII: ep 5 – Canon folklore of the Old Republic, pt. 2 + TOR mailbag 1",
+      "source_id": "canon-timeline",
+      "show_rating_us": 4.6,
+      "show_rating_count_us": 57,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/the-star-wars-canon-timeline-podcast/id1744643686",
+      "editorial_score": 71.87,
+      "themes": [
+        "species",
+        "locations",
+        "force",
+        "npc"
+      ],
+      "original_date": "Mon, 23 Sep 2024 11:00:00 +0000",
+      "episode_url": "https://thelorehounds.com",
+      "story_chapter": null,
+      "inspiration": "Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends."
+    },
+    {
+      "order": 2,
+      "kind": "STORY",
+      "show": "Dice for Brains",
+      "episode": "Dice For Brains Podcast | Episode 1 – Gone Fishin’",
+      "source_id": "dice-first",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 46.93,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Sun, 20 Dec 2015 02:53:27 +0000",
+      "episode_url": "https://diceforbrains.com/the-adventure-begins-2/?utm_source=rss&utm_medium=rss&utm_campaign=the-adventure-begins-2",
+      "story_chapter": 1,
+      "inspiration": "Awarded community praise for narrative dice, social scenes, emotional character decisions."
+    },
+    {
+      "order": 3,
+      "kind": "LORE",
+      "show": "Eye on Canon",
+      "episode": "Tessa Gratton talks High Republic and The Crystal Crown!",
+      "source_id": "eye-on-canon",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 68.73,
+      "themes": [
+        "locations",
+        "force",
+        "tech",
+        "npc"
+      ],
+      "original_date": "Tue, 16 Sep 2025 02:39:30 GMT",
+      "episode_url": "https://podcasters.spotify.com/pod/show/eye-on-canon-podcast/episodes/Tessa-Gratton-talks-High-Republic-and-The-Crystal-Crown-e389dmb",
+      "story_chapter": null,
+      "inspiration": "In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed."
+    },
+    {
+      "order": 4,
+      "kind": "STORY",
+      "show": "Dice for Brains",
+      "episode": "Dice For Brains Podcast | Episode 2 – Unlikely Mentors",
+      "source_id": "dice-first",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 49.27,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Sun, 20 Dec 2015 02:56:48 +0000",
+      "episode_url": "https://diceforbrains.com/the-adventure-begins-3/?utm_source=rss&utm_medium=rss&utm_campaign=the-adventure-begins-3",
+      "story_chapter": 2,
+      "inspiration": "Awarded community praise for narrative dice, social scenes, emotional character decisions."
+    },
+    {
+      "order": 5,
+      "kind": "LORE",
+      "show": "The Star Wars Canon Timeline Podcast",
+      "episode": "EII: ep 4 – Canon Folklore of the Old Republic, pt. 1",
+      "source_id": "canon-timeline",
+      "show_rating_us": 4.6,
+      "show_rating_count_us": 57,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/the-star-wars-canon-timeline-podcast/id1744643686",
+      "editorial_score": 71.87,
+      "themes": [
+        "species",
+        "locations",
+        "force",
+        "npc"
+      ],
+      "original_date": "Fri, 17 May 2024 21:50:43 +0000",
+      "episode_url": "https://thelorehounds.com",
+      "story_chapter": null,
+      "inspiration": "Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends."
+    },
+    {
+      "order": 6,
+      "kind": "STORY",
+      "show": "Dice for Brains",
+      "episode": "Dice For Brains Podcast | Episode 3 – The Crane Situation",
+      "source_id": "dice-first",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 46.93,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Sun, 20 Dec 2015 03:03:08 +0000",
+      "episode_url": "https://diceforbrains.com/the-adventure-begins-4/?utm_source=rss&utm_medium=rss&utm_campaign=the-adventure-begins-4",
+      "story_chapter": 3,
+      "inspiration": "Awarded community praise for narrative dice, social scenes, emotional character decisions."
+    },
+    {
+      "order": 7,
+      "kind": "LORE",
+      "show": "Star Wars Explained",
+      "episode": "The Mandalorian Chapter 13: The Jedi - This is the Show #5 with Pink Milk",
+      "source_id": "star-wars-explained",
+      "show_rating_us": 4.3,
+      "show_rating_count_us": 417,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-explained/id1488511803",
+      "editorial_score": 63.67,
+      "themes": [
+        "species",
+        "force",
+        "npc"
+      ],
+      "original_date": "Mon, 30 Nov 2020 18:00:00 -0000",
+      "episode_url": "https://pscrb.fm/rss/p/clrtpod.com/m/arttrk.com/p/ADCT2/traffic.libsyn.com/secure/3335bc7a-1085-4db0-96cb-15726d092193/The_Mandalorian_Chapter_13_The_Jedi_-_This_is_the_Show_5_with_Pink_Milk.mp3",
+      "story_chapter": null,
+      "inspiration": "Compact Canon and Legends explainers on species, factions, Force lore, starships and locations. Exclude roundup and marketing news."
+    },
+    {
+      "order": 8,
+      "kind": "STORY",
+      "show": "Dice for Brains",
+      "episode": "Dice For Brains Podcast | Episode 4 – Fragile Acquisitions",
+      "source_id": "dice-first",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 46.93,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Mon, 28 Dec 2015 02:51:38 +0000",
+      "episode_url": "https://diceforbrains.com/dice-for-brains-podcast-episode-4/?utm_source=rss&utm_medium=rss&utm_campaign=dice-for-brains-podcast-episode-4",
+      "story_chapter": 4,
+      "inspiration": "Awarded community praise for narrative dice, social scenes, emotional character decisions."
+    },
+    {
+      "order": 9,
+      "kind": "LORE",
+      "show": "Star Wars In Character",
+      "episode": "Star Wars In Character – Kyber Crystals",
+      "source_id": "star-wars-in-character",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 720,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-in-character/id420574267",
+      "editorial_score": 63.56,
+      "themes": [
+        "force",
+        "tech",
+        "npc"
+      ],
+      "original_date": "Mon, 12 Nov 2018 11:00:52 +0000",
+      "episode_url": "https://neozaz.com/kyber-crystals/?utm_source=rss&utm_medium=rss&utm_campaign=kyber-crystals",
+      "story_chapter": null,
+      "inspiration": "Overlooked alien species, minor NPCs, background culture, world texture."
+    },
+    {
+      "order": 10,
+      "kind": "STORY",
+      "show": "Dice for Brains",
+      "episode": "Dice For Brains Podcast | Episode 5 – Crimes and Favors",
+      "source_id": "dice-first",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 46.93,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Mon, 04 Jan 2016 01:11:54 +0000",
+      "episode_url": "https://diceforbrains.com/dice-for-brains-podcast-episode-5/?utm_source=rss&utm_medium=rss&utm_campaign=dice-for-brains-podcast-episode-5",
+      "story_chapter": 5,
+      "inspiration": "Awarded community praise for narrative dice, social scenes, emotional character decisions."
+    },
+    {
+      "order": 11,
+      "kind": "LORE",
+      "show": "Star Wars In Character Archives",
+      "episode": "Star Wars In Character – DLC-13 Mining Droid – NEOZAZ",
+      "source_id": "swic-archives",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 56,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-in-character-archives/id1491547719",
+      "editorial_score": 63.1,
+      "themes": [
+        "species",
+        "force",
+        "tech",
+        "npc"
+      ],
+      "original_date": "Sun, 28 Apr 2013 04:47:46 +0000",
+      "episode_url": "https://neozaz.com/star-wars-in-character-dlc-13-mining-droid/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-dlc-13-mining-droid",
+      "story_chapter": null,
+      "inspiration": "Deep-cut obscure characters, creatures and cantina-background lore."
+    },
+    {
+      "order": 12,
+      "kind": "STORY",
+      "show": "Campaign — The Mynock",
+      "episode": "Episode One",
+      "source_id": "mynock",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 51.61,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Wed, 08 Oct 2014 01:30:48 -0000",
+      "episode_url": "http://www.oneshotpodcast.com/category/campaign/campaign-podcast/",
+      "story_chapter": 1,
+      "inspiration": "Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes."
+    },
+    {
+      "order": 13,
+      "kind": "LORE",
+      "show": "Eye on Canon",
+      "episode": "BONUS! Tessa Gratton on The Crystal Crown, The High Republic",
+      "source_id": "eye-on-canon",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 66.31,
+      "themes": [
+        "locations",
+        "force",
+        "tech",
+        "npc"
+      ],
+      "original_date": "Thu, 18 Sep 2025 22:35:18 GMT",
+      "episode_url": "https://podcasters.spotify.com/pod/show/eye-on-canon-podcast/episodes/BONUS--Tessa-Gratton-on-The-Crystal-Crown--The-High-Republic-e38dqnl",
+      "story_chapter": null,
+      "inspiration": "In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed."
+    },
+    {
+      "order": 14,
+      "kind": "STORY",
+      "show": "Campaign — The Mynock",
+      "episode": "Episode Two",
+      "source_id": "mynock",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 49.27,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Wed, 15 Oct 2014 12:29:29 -0000",
+      "episode_url": "http://www.oneshotpodcast.com/category/campaign/campaign-podcast/",
+      "story_chapter": 2,
+      "inspiration": "Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes."
+    },
+    {
+      "order": 15,
+      "kind": "LORE",
+      "show": "Star Wars: Old Canon Book Club",
+      "episode": "39: Droids Part 2",
+      "source_id": "old-canon-book-club",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 172,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-old-canon-book-club/id1686249893",
+      "editorial_score": 57.99,
+      "themes": [
+        "species",
+        "force",
+        "tech"
+      ],
+      "original_date": "Thu, 19 Feb 2026 19:00:00 +0000",
+      "episode_url": "https://audioboom.com/posts/8860641",
+      "story_chapter": null,
+      "inspiration": "Legends societies, space opera adventure structure, character arcs and expanded setting fiction."
+    },
+    {
+      "order": 16,
+      "kind": "STORY",
+      "show": "Campaign — The Mynock",
+      "episode": "Episode Three",
+      "source_id": "mynock",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 51.61,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Wed, 22 Oct 2014 12:31:38 -0000",
+      "episode_url": "http://www.oneshotpodcast.com/category/campaign/campaign-podcast/",
+      "story_chapter": 3,
+      "inspiration": "Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes."
+    },
+    {
+      "order": 17,
+      "kind": "LORE",
+      "show": "Star Wars In Character",
+      "episode": "Star Wars In Character – Rancor",
+      "source_id": "star-wars-in-character",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 720,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-in-character/id420574267",
+      "editorial_score": 62.61,
+      "themes": [
+        "species",
+        "locations",
+        "force",
+        "npc"
+      ],
+      "original_date": "Mon, 03 Jun 2019 12:00:37 +0000",
+      "episode_url": "https://neozaz.com/star-wars-in-character-rancor/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-rancor",
+      "story_chapter": null,
+      "inspiration": "Overlooked alien species, minor NPCs, background culture, world texture."
+    },
+    {
+      "order": 18,
+      "kind": "STORY",
+      "show": "Campaign — The Mynock",
+      "episode": "Episode Four",
+      "source_id": "mynock",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 56.29,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Wed, 29 Oct 2014 12:35:12 -0000",
+      "episode_url": "http://www.oneshotpodcast.com/category/campaign/campaign-podcast/",
+      "story_chapter": 4,
+      "inspiration": "Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes."
+    },
+    {
+      "order": 19,
+      "kind": "LORE",
+      "show": "Star Wars Explained",
+      "episode": "Charles Soule Talks the Future of The High Republic and Star Wars Comics and His New Book!",
+      "source_id": "star-wars-explained",
+      "show_rating_us": 4.3,
+      "show_rating_count_us": 417,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-explained/id1488511803",
+      "editorial_score": 62.11,
+      "themes": [
+        "species",
+        "locations",
+        "force",
+        "tech",
+        "npc"
+      ],
+      "original_date": "Mon, 05 Jun 2023 19:00:00 -0000",
+      "episode_url": "https://pscrb.fm/rss/p/clrtpod.com/m/arttrk.com/p/ADCT2/traffic.libsyn.com/secure/3335bc7a-1085-4db0-96cb-15726d092193/Charles_Soule_Talks_the_Future_of_The_High_Republic_and_Star_Wars_Comics_and_His_New_Book.mp3",
+      "story_chapter": null,
+      "inspiration": "Compact Canon and Legends explainers on species, factions, Force lore, starships and locations. Exclude roundup and marketing news."
+    },
+    {
+      "order": 20,
+      "kind": "STORY",
+      "show": "Campaign — The Mynock",
+      "episode": "Episode Five",
+      "source_id": "mynock",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 46.93,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Wed, 05 Nov 2014 13:14:23 -0000",
+      "episode_url": "http://www.oneshotpodcast.com/category/campaign/campaign-podcast/",
+      "story_chapter": 5,
+      "inspiration": "Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes."
+    },
+    {
+      "order": 21,
+      "kind": "LORE",
+      "show": "Star Wars In Character Archives",
+      "episode": "Star Wars In Character – IT-0 Interrogator Droid – NEOZAZ",
+      "source_id": "swic-archives",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 56,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-in-character-archives/id1491547719",
+      "editorial_score": 60.76,
+      "themes": [
+        "species",
+        "tech",
+        "npc"
+      ],
+      "original_date": "Mon, 06 Apr 2015 15:00:54 +0000",
+      "episode_url": "https://neozaz.com/star-wars-in-character-it-0-interrogator-droid/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-it-0-interrogator-droid",
+      "story_chapter": null,
+      "inspiration": "Deep-cut obscure characters, creatures and cantina-background lore."
+    },
+    {
+      "order": 22,
+      "kind": "STORY",
+      "show": "Force Majeure — Coldfire Chronicles",
+      "episode": "Coldfire Chronicles S01 E01 - Prison Planet Blues",
+      "source_id": "coldfire",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 56.81,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Mon, 22 Jan 2018 19:11:06 +0000",
+      "episode_url": "https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e01",
+      "story_chapter": 1,
+      "inspiration": "Force-sensitive character relationships, active NPC goals and escalating consequences."
+    },
+    {
+      "order": 23,
+      "kind": "LORE",
+      "show": "The Star Wars Canon Timeline Podcast",
+      "episode": "EII: ep 2 – Visions S2-e5,1,2 – Sith of the Old Republic (LEGENDS)",
+      "source_id": "canon-timeline",
+      "show_rating_us": 4.6,
+      "show_rating_count_us": 57,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/the-star-wars-canon-timeline-podcast/id1744643686",
+      "editorial_score": 69.53,
+      "themes": [
+        "locations",
+        "force",
+        "npc"
+      ],
+      "original_date": "Mon, 13 May 2024 16:38:25 +0000",
+      "episode_url": "https://thelorehounds.com",
+      "story_chapter": null,
+      "inspiration": "Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends."
+    },
+    {
+      "order": 24,
+      "kind": "STORY",
+      "show": "Force Majeure — Coldfire Chronicles",
+      "episode": "Coldfire Chronicles S01 E02 - A Sense Of Foreboding...",
+      "source_id": "coldfire",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 51.61,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Mon, 05 Feb 2018 05:30:00 +0000",
+      "episode_url": "https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e02",
+      "story_chapter": 2,
+      "inspiration": "Force-sensitive character relationships, active NPC goals and escalating consequences."
+    },
+    {
+      "order": 25,
+      "kind": "LORE",
+      "show": "Star Wars: Old Canon Book Club",
+      "episode": "36: Caravan of Courage: An Ewok Adventure",
+      "source_id": "old-canon-book-club",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 172,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-old-canon-book-club/id1686249893",
+      "editorial_score": 49.67,
+      "themes": [
+        "species",
+        "locations",
+        "npc"
+      ],
+      "original_date": "Thu, 20 Nov 2025 19:00:00 +0000",
+      "episode_url": "https://audioboom.com/posts/8808856",
+      "story_chapter": null,
+      "inspiration": "Legends societies, space opera adventure structure, character arcs and expanded setting fiction."
+    },
+    {
+      "order": 26,
+      "kind": "STORY",
+      "show": "Force Majeure — Coldfire Chronicles",
+      "episode": "Coldfire Chronicles S01 E03 - Whiteout",
+      "source_id": "coldfire",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 51.61,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Mon, 19 Feb 2018 05:30:00 +0000",
+      "episode_url": "https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e03",
+      "story_chapter": 3,
+      "inspiration": "Force-sensitive character relationships, active NPC goals and escalating consequences."
+    },
+    {
+      "order": 27,
+      "kind": "LORE",
+      "show": "The Star Wars Canon Timeline Podcast",
+      "episode": "Era II: THE OLD REPUBLIC – overview",
+      "source_id": "canon-timeline",
+      "show_rating_us": 4.6,
+      "show_rating_count_us": 57,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/the-star-wars-canon-timeline-podcast/id1744643686",
+      "editorial_score": 65.63,
+      "themes": [
+        "species",
+        "locations",
+        "force",
+        "npc"
+      ],
+      "original_date": "Sat, 11 May 2024 23:18:00 +0000",
+      "episode_url": "https://thelorehounds.com",
+      "story_chapter": null,
+      "inspiration": "Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends."
+    },
+    {
+      "order": 28,
+      "kind": "STORY",
+      "show": "Force Majeure — Coldfire Chronicles",
+      "episode": "Coldfire Chronicles S01 E04 - Shacks, Secrets and Schemes",
+      "source_id": "coldfire",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 53.95,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Mon, 05 Mar 2018 05:30:00 +0000",
+      "episode_url": "https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e04",
+      "story_chapter": 4,
+      "inspiration": "Force-sensitive character relationships, active NPC goals and escalating consequences."
+    },
+    {
+      "order": 29,
+      "kind": "LORE",
+      "show": "Star Wars In Character",
+      "episode": "Star Wars In Character – LIN Droid",
+      "source_id": "star-wars-in-character",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 720,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-in-character/id420574267",
+      "editorial_score": 62.35,
+      "themes": [
+        "species",
+        "tech",
+        "npc"
+      ],
+      "original_date": "Mon, 27 Apr 2020 12:05:00 +0000",
+      "episode_url": "https://neozaz.com/star-wars-in-character-lin-droid/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-lin-droid",
+      "story_chapter": null,
+      "inspiration": "Overlooked alien species, minor NPCs, background culture, world texture."
+    },
+    {
+      "order": 30,
+      "kind": "STORY",
+      "show": "Force Majeure — Coldfire Chronicles",
+      "episode": "Coldfire Chronicles S01 E05  - In Which The Definition Of A Heist Is Argued",
+      "source_id": "coldfire",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 51.61,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Mon, 19 Mar 2018 04:30:00 +0000",
+      "episode_url": "https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e05",
+      "story_chapter": 5,
+      "inspiration": "Force-sensitive character relationships, active NPC goals and escalating consequences."
+    },
+    {
+      "order": 31,
+      "kind": "LORE",
+      "show": "Eye on Canon",
+      "episode": "Do Jedi give Sunday Sermons?",
+      "source_id": "eye-on-canon",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 60.24,
+      "themes": [
+        "force",
+        "tech",
+        "npc"
+      ],
+      "original_date": "Tue, 02 Sep 2025 02:49:37 GMT",
+      "episode_url": "https://podcasters.spotify.com/pod/show/eye-on-canon-podcast/episodes/Do-Jedi-give-Sunday-Sermons-e37kigb",
+      "story_chapter": null,
+      "inspiration": "In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed."
+    },
+    {
+      "order": 32,
+      "kind": "STORY",
+      "show": "Respect the Crit — Empire's Edge",
+      "episode": "Empire's Edge - Ep. 01: Empire's Edge",
+      "source_id": "empires-edge",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 69.03,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Wed, 04 Dec 2019 16:00:00 -0000",
+      "episode_url": "https://respectthecrit.libsyn.com/empires-edge-episode-001",
+      "story_chapter": 1,
+      "inspiration": "Cinematic soundscapes, character voices and narrative tension."
+    },
+    {
+      "order": 33,
+      "kind": "LORE",
+      "show": "Star Wars Explained",
+      "episode": "The Mandalorian Chapter 18 LIVE Discussion with Tony Thaxton of Motion City Soundtrack",
+      "source_id": "star-wars-explained",
+      "show_rating_us": 4.3,
+      "show_rating_count_us": 417,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-explained/id1488511803",
+      "editorial_score": 60.55,
+      "themes": [
+        "species",
+        "locations",
+        "npc"
+      ],
+      "original_date": "Thu, 09 Mar 2023 03:17:57 -0000",
+      "episode_url": "https://pscrb.fm/rss/p/clrtpod.com/m/arttrk.com/p/ADCT2/traffic.libsyn.com/secure/3335bc7a-1085-4db0-96cb-15726d092193/The_Mandalorian_Chapter_18_LIVE_Discussion_with_Tony_Thaxton_of_Motion_City_Soundtrack.mp3",
+      "story_chapter": null,
+      "inspiration": "Compact Canon and Legends explainers on species, factions, Force lore, starships and locations. Exclude roundup and marketing news."
+    },
+    {
+      "order": 34,
+      "kind": "STORY",
+      "show": "Respect the Crit — Empire's Edge",
+      "episode": "Empire's Edge - Ep. 02: Can You Dug It?",
+      "source_id": "empires-edge",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 66.69,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Wed, 04 Dec 2019 16:01:00 -0000",
+      "episode_url": "https://respectthecrit.libsyn.com/empires-edge-episode-002",
+      "story_chapter": 2,
+      "inspiration": "Cinematic soundscapes, character voices and narrative tension."
+    },
+    {
+      "order": 35,
+      "kind": "LORE",
+      "show": "Star Wars In Character Archives",
+      "episode": "Star Wars In Character – OG-9 Spider Droid – NEOZAZ",
+      "source_id": "swic-archives",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 56,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-in-character-archives/id1491547719",
+      "editorial_score": 60.76,
+      "themes": [
+        "species",
+        "tech",
+        "npc"
+      ],
+      "original_date": "Mon, 08 Jul 2013 15:05:49 +0000",
+      "episode_url": "https://neozaz.com/star-wars-in-character-og-9-spider-droid/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-og-9-spider-droid",
+      "story_chapter": null,
+      "inspiration": "Deep-cut obscure characters, creatures and cantina-background lore."
+    },
+    {
+      "order": 36,
+      "kind": "STORY",
+      "show": "Respect the Crit — Empire's Edge",
+      "episode": "Empire's Edge - Ep. 03: Bound to Bothawui",
+      "source_id": "empires-edge",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 69.03,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Wed, 11 Dec 2019 14:00:00 -0000",
+      "episode_url": "https://respectthecrit.libsyn.com/empires-edge-episode-003",
+      "story_chapter": 3,
+      "inspiration": "Cinematic soundscapes, character voices and narrative tension."
+    },
+    {
+      "order": 37,
+      "kind": "LORE",
+      "show": "The Star Wars Canon Timeline Podcast",
+      "episode": "EII: ep 3 – The (Knights of the) Old Republic games – (LEGENDS)",
+      "source_id": "canon-timeline",
+      "show_rating_us": 4.6,
+      "show_rating_count_us": 57,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/the-star-wars-canon-timeline-podcast/id1744643686",
+      "editorial_score": 65.2,
+      "themes": [
+        "locations",
+        "force",
+        "npc"
+      ],
+      "original_date": "Wed, 15 May 2024 10:15:00 +0000",
+      "episode_url": "https://thelorehounds.com",
+      "story_chapter": null,
+      "inspiration": "Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends."
+    },
+    {
+      "order": 38,
+      "kind": "STORY",
+      "show": "Respect the Crit — Empire's Edge",
+      "episode": "Empire's Edge - Ep. 04: Storm on The Way",
+      "source_id": "empires-edge",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 64.35,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Wed, 18 Dec 2019 14:00:00 -0000",
+      "episode_url": "https://respectthecrit.libsyn.com/empires-edge-episode-004",
+      "story_chapter": 4,
+      "inspiration": "Cinematic soundscapes, character voices and narrative tension."
+    },
+    {
+      "order": 39,
+      "kind": "LORE",
+      "show": "Star Wars In Character",
+      "episode": "SWIC – The Sarlacc",
+      "source_id": "star-wars-in-character",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 720,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-in-character/id420574267",
+      "editorial_score": 55.07,
+      "themes": [
+        "species",
+        "locations",
+        "npc"
+      ],
+      "original_date": "Mon, 05 Sep 2016 13:00:24 +0000",
+      "episode_url": "https://neozaz.com/star-wars-in-character-the-sarlacc/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-the-sarlacc",
+      "story_chapter": null,
+      "inspiration": "Overlooked alien species, minor NPCs, background culture, world texture."
+    },
+    {
+      "order": 40,
+      "kind": "STORY",
+      "show": "Respect the Crit — Empire's Edge",
+      "episode": "Empire's Edge - Ep. 05: Loose Ends at Lightspeed",
+      "source_id": "empires-edge",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 66.69,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Wed, 01 Jan 2020 14:00:00 -0000",
+      "episode_url": "https://respectthecrit.libsyn.com/empires-edge-episode-005-loose-ends-at-lightspeed",
+      "story_chapter": 5,
+      "inspiration": "Cinematic soundscapes, character voices and narrative tension."
+    },
+    {
+      "order": 41,
+      "kind": "LORE",
+      "show": "Star Wars: Old Canon Book Club",
+      "episode": "23: Return of Return of the Jedi",
+      "source_id": "old-canon-book-club",
+      "show_rating_us": 4.8,
+      "show_rating_count_us": 172,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-old-canon-book-club/id1686249893",
+      "editorial_score": 57.99,
+      "themes": [
+        "force",
+        "tech",
+        "npc"
+      ],
+      "original_date": "Wed, 25 Dec 2024 20:10:42 +0000",
+      "episode_url": "https://audioboom.com/posts/8629146",
+      "story_chapter": null,
+      "inspiration": "Legends societies, space opera adventure structure, character arcs and expanded setting fiction."
+    },
+    {
+      "order": 42,
+      "kind": "STORY",
+      "show": "Nastygram — Dreamscapes",
+      "episode": "Star Wars: Dreamscapes - Ep 1. Field of View (Star Wars d6)",
+      "source_id": "dreamscapes",
+      "show_rating_us": 5,
+      "show_rating_count_us": 72,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/nastygram-an-rpg-podcast/id1565416693",
+      "editorial_score": 62.68,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Tue, 28 Oct 2025 05:00:00 +0000",
+      "episode_url": "https://nastygram.libsyn.com/star-wars-dreamscapes-ep-1-field-of-view-star-wars-d6",
+      "story_chapter": 1,
+      "inspiration": "Jedi investigative process, unusual phenomena and mystery scenes."
+    },
+    {
+      "order": 43,
+      "kind": "LORE",
+      "show": "Star Wars In Character Archives",
+      "episode": "Star Wars In Character – Ziro the Hutt – NEOZAZ",
+      "source_id": "swic-archives",
+      "show_rating_us": 4.9,
+      "show_rating_count_us": 56,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-in-character-archives/id1491547719",
+      "editorial_score": 53.22,
+      "themes": [
+        "species",
+        "npc"
+      ],
+      "original_date": "Sat, 01 Nov 2014 23:07:14 +0000",
+      "episode_url": "https://neozaz.com/star-wars-in-character-ziro-the-hutt/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-ziro-the-hutt",
+      "story_chapter": null,
+      "inspiration": "Deep-cut obscure characters, creatures and cantina-background lore."
+    },
+    {
+      "order": 44,
+      "kind": "STORY",
+      "show": "Nastygram — Dreamscapes",
+      "episode": "Star Wars: Dreamscapes - Ep 2. The Impossible (Star Wars d6)",
+      "source_id": "dreamscapes",
+      "show_rating_us": 5,
+      "show_rating_count_us": 72,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/nastygram-an-rpg-podcast/id1565416693",
+      "editorial_score": 62.68,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Tue, 11 Nov 2025 06:00:00 +0000",
+      "episode_url": "https://nastygram.libsyn.com/star-wars-dreamscapes-the-impossible-star-wars-d6",
+      "story_chapter": 2,
+      "inspiration": "Jedi investigative process, unusual phenomena and mystery scenes."
+    },
+    {
+      "order": 45,
+      "kind": "LORE",
+      "show": "Star Wars Explained",
+      "episode": "STAR WARS RUMOR PATROL: The High Republic, the Rebels Sequel Series, and More!",
+      "source_id": "star-wars-explained",
+      "show_rating_us": 4.3,
+      "show_rating_count_us": 417,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/star-wars-explained/id1488511803",
+      "editorial_score": 57.43,
+      "themes": [
+        "locations",
+        "force",
+        "npc"
+      ],
+      "original_date": "Mon, 13 Jan 2020 20:00:00 -0000",
+      "episode_url": "https://pscrb.fm/rss/p/clrtpod.com/m/arttrk.com/p/ADCT2/traffic.libsyn.com/secure/3335bc7a-1085-4db0-96cb-15726d092193/STAR_WARS_RUMOR_PATROL_The_High_Republic_the_Rebels_Sequel_Series_and_More.mp3",
+      "story_chapter": null,
+      "inspiration": "Compact Canon and Legends explainers on species, factions, Force lore, starships and locations. Exclude roundup and marketing news."
+    },
+    {
+      "order": 46,
+      "kind": "STORY",
+      "show": "Nastygram — Dreamscapes",
+      "episode": "Star Wars: Dreamscapes - Ep 3. The Underbelly (Star Wars d6)",
+      "source_id": "dreamscapes",
+      "show_rating_us": 5,
+      "show_rating_count_us": 72,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/nastygram-an-rpg-podcast/id1565416693",
+      "editorial_score": 62.68,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Tue, 25 Nov 2025 06:00:00 +0000",
+      "episode_url": "https://nastygram.libsyn.com/star-wars-dreamscapes-ep-3-the-underbelly-star-wars-d6",
+      "story_chapter": 3,
+      "inspiration": "Jedi investigative process, unusual phenomena and mystery scenes."
+    },
+    {
+      "order": 47,
+      "kind": "LORE",
+      "show": "Eye on Canon",
+      "episode": "Jedi, the Force, and Normies",
+      "source_id": "eye-on-canon",
+      "show_rating_us": null,
+      "show_rating_count_us": null,
+      "show_rating_reference": null,
+      "editorial_score": 59.11,
+      "themes": [
+        "locations",
+        "force",
+        "npc"
+      ],
+      "original_date": "Tue, 26 Nov 2024 03:46:13 GMT",
+      "episode_url": "https://podcasters.spotify.com/pod/show/eye-on-canon-podcast/episodes/Jedi--the-Force--and-Normies-e2rgn4t",
+      "story_chapter": null,
+      "inspiration": "In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed."
+    },
+    {
+      "order": 48,
+      "kind": "STORY",
+      "show": "Nastygram — Dreamscapes",
+      "episode": "Star Wars: Dreamscapes - Ep 4. Proxy (Star Wars d6)",
+      "source_id": "dreamscapes",
+      "show_rating_us": 5,
+      "show_rating_count_us": 72,
+      "show_rating_reference": "https://podcasts.apple.com/us/podcast/nastygram-an-rpg-podcast/id1565416693",
+      "editorial_score": 60.34,
+      "themes": [
+        "npc"
+      ],
+      "original_date": "Tue, 09 Dec 2025 06:00:00 +0000",
+      "episode_url": "https://nastygram.libsyn.com/star-wars-dreamscapes-ep-4-proxy-star-wars-d6",
+      "story_chapter": 4,
+      "inspiration": "Jedi investigative process, unusual phenomena and mystery scenes."
+    }
+  ]
+}

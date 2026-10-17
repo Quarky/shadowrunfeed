@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Star Wars RPG — Ranked Lore + Story</title>
+    <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
+    <description>Curated independent Star Wars RPG inspiration. Original lore and fully produced actual-play audio remain hosted by their publishers. Ranked playlist alternates research and continuous story chapters. Stars refer only to entire shows, never individual episodes.</description>
+    <language>en</language>
+    <copyright>Audio and original program descriptions copyright their publishers.</copyright>
+    <itunes:author>Independent Star Wars RPG Listening Index</itunes:author>
+    <itunes:summary>Star Wars lore, species, planets, history, Force mysteries and dramatized RPG storycraft.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png" />
+    <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-feed-v2.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 • LORE • [The Star Wars Canon Timeline Podcast] (FLASHBACK) EII: ep 5 – Canon folklore of the Old Republic, pt. 2 + TOR mailbag 1</title>
+      <guid isPermaLink="false">urn:sw-learning:8a969846abed3fc08629d974539793082300007788a736c85922e96164bb0feb</guid>
+      <link>https://thelorehounds.com</link>
+      <description>Role: LORE. Publisher show: The Star Wars Canon Timeline Podcast. US Apple show-wide rating: 4.6/5 over 57 ratings (NOT this episode's rating). Editorial algorithm estimate: 71.9/100. Original publication: Mon, 23 Sep 2024 11:00:00 +0000. Creative application: Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends.. Original notes: &lt;p&gt;Elysia welcomes back fantasy literature and history scholar Marilyn R. Pukkila to finish their discussion of Canon stories set during the Old Republic. They dive back in with two more Sith stories about female Sith Lords who find succeed in their quests for immortality – kind of (&lt;strong&gt;00:10:43&lt;/strong&gt;), plus a &amp;#34;werewolf&amp;#34; story about a mad Shistavanen (&lt;strong&gt;00:48:49&lt;/strong&gt;) – a species that will appear in December&amp;#39;s &lt;em&gt;Ske…</description>
+      <pubDate>Sat, 17 Oct 2026 14:59:00 +0000</pubDate>
+      <enclosure url="https://pdst.fm/e/audio4.redcircle.com/episodes/be6542c2-05d0-45bf-be72-36cb68068c86/stream.mp3" length="118359771" type="audio/mpeg" />
+      <itunes:duration>7397</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.redcircle.com/f30b97a3-58b5-4f9e-933e-29dff031dbd6">The Star Wars Canon Timeline Podcast</source>
+    </item>
+    <item>
+      <title>02 • STORY • [Dice for Brains] Dice For Brains Podcast | Episode 1 – Gone Fishin’</title>
+      <guid isPermaLink="false">urn:sw-learning:0bf0ef8d2711903e6624df927f70592014ece038c828cc883c0d7ec2a9ef4f17</guid>
+      <link>https://diceforbrains.com/the-adventure-begins-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-adventure-begins-2</link>
+      <description>Role: STORY. Publisher show: Dice for Brains. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 46.9/100. Original publication: Sun, 20 Dec 2015 02:53:27 +0000. Creative application: Awarded community praise for narrative dice, social scenes, emotional character decisions.. Original notes: &lt;p&gt;Just in case you didn’t get enough Star Wars this weekend (and I know we didn’t), we are releasing the first THREE EPISODES of The Dice For Brains Podcast a day early exclusively on the website. Listen now, but don’t forget to subscribe, rate, and review on iTunes tomorrow! We hope you enjoy the show. … &lt;a href="https://diceforbrains.com/the-adventure-begins-2/" class="more-link"&gt;Continue reading &lt;span class="screen-reader-text"&gt;Dice For Brain…</description>
+      <pubDate>Sat, 17 Oct 2026 14:58:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e01.mp3" length="67867123" type="audio/mpeg" />
+      <itunes:duration>47:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/dice-for-brains.xml">Dice for Brains</source>
+    </item>
+    <item>
+      <title>03 • LORE • [Eye on Canon] Tessa Gratton talks High Republic and The Crystal Crown!</title>
+      <guid isPermaLink="false">urn:sw-learning:463b3ba357c017e69d3ab84021f9634fdee24ba6c5c55ab9e0962f811f00cab5</guid>
+      <link>https://podcasters.spotify.com/pod/show/eye-on-canon-podcast/episodes/Tessa-Gratton-talks-High-Republic-and-The-Crystal-Crown-e389dmb</link>
+      <description>Role: LORE. Publisher show: Eye on Canon. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 68.7/100. Original publication: Tue, 16 Sep 2025 02:39:30 GMT. Creative application: In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed.. Original notes: &lt;p&gt;EP.   176&lt;/p&gt;&lt;p&gt;The Crystal Crown is a fun and gripping adventure! It continues Tessa Gratton’s strong work from The High Republic of writing diverse young characters stepping out into a larger world. Matthew got a chance to interview Tessa all about her impressive Star Wars output and what she brings to our favourite sandbox. Catch the full interview, followed by Matthew’s and Joel’s thoughts on Tessa’s comments. And yes, we’re bringing back …</description>
+      <pubDate>Sat, 17 Oct 2026 14:57:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/fd306288/podcast/play/108360843/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-16%2F186bd1cf-db94-6311-44b9-9b17463679c1.mp3" length="102643919" type="audio/mpeg" />
+      <itunes:duration>01:46:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://anchor.fm/s/fd306288/podcast/rss">Eye on Canon</source>
+    </item>
+    <item>
+      <title>04 • STORY • [Dice for Brains] Dice For Brains Podcast | Episode 2 – Unlikely Mentors</title>
+      <guid isPermaLink="false">urn:sw-learning:ae713ae4040fdd7cd886805480a295c4d9d9c04721a0e8998ee54a2a6824d326</guid>
+      <link>https://diceforbrains.com/the-adventure-begins-3/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-adventure-begins-3</link>
+      <description>Role: STORY. Publisher show: Dice for Brains. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 49.3/100. Original publication: Sun, 20 Dec 2015 02:56:48 +0000. Creative application: Awarded community praise for narrative dice, social scenes, emotional character decisions.. Original notes: &lt;p&gt;Episode 2: The gang meets their interactive holo-teacher and a gangster; no relation. Listen as they inadvertently start The Ki-do Rebellion!&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://diceforbrains.com/the-adventure-begins-3/"&gt;Dice For Brains Podcast | Episode 2 – Unlikely Mentors&lt;/a&gt; appeared first on &lt;a href="https://diceforbrains.com"&gt;Dice For Brains&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 14:56:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e02.mp3" length="66417991" type="audio/mpeg" />
+      <itunes:duration>46:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/dice-for-brains.xml">Dice for Brains</source>
+    </item>
+    <item>
+      <title>05 • LORE • [The Star Wars Canon Timeline Podcast] EII: ep 4 – Canon Folklore of the Old Republic, pt. 1</title>
+      <guid isPermaLink="false">urn:sw-learning:e6fe80a3ed0291ccdaea3f2b0c9646b8fdee2fe60617c1180c157648a3a0eb50</guid>
+      <link>https://thelorehounds.com</link>
+      <description>Role: LORE. Publisher show: The Star Wars Canon Timeline Podcast. US Apple show-wide rating: 4.6/5 over 57 ratings (NOT this episode's rating). Editorial algorithm estimate: 71.9/100. Original publication: Fri, 17 May 2024 21:50:43 +0000. Creative application: Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends.. Original notes: &lt;p&gt;Fantasy literature and history scholar Marilyn R. Pukkila joins Elysia to discuss Canon stories set during the Old Republic that might be more true than factual.&lt;/p&gt;&lt;p&gt;After they establish what the different words for stories – legends, myths, fairytales, fables, etc. – actually mean, they recap one Star Wars flood myth (00:27:40) and two stories about the legendary Sith Lord Darth Caldoth (01:01:44), getting into the physiology of key Star Wa…</description>
+      <pubDate>Sat, 17 Oct 2026 14:55:00 +0000</pubDate>
+      <enclosure url="https://pdst.fm/e/audio4.redcircle.com/episodes/870ae05f-f178-4878-b071-dee19c79b71d/stream.mp3" length="122227983" type="audio/mpeg" />
+      <itunes:duration>7639</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.redcircle.com/f30b97a3-58b5-4f9e-933e-29dff031dbd6">The Star Wars Canon Timeline Podcast</source>
+    </item>
+    <item>
+      <title>06 • STORY • [Dice for Brains] Dice For Brains Podcast | Episode 3 – The Crane Situation</title>
+      <guid isPermaLink="false">urn:sw-learning:c762d883de2ad2df693fa957979c38761a6052e0ecb46efd01e0674badf5f778</guid>
+      <link>https://diceforbrains.com/the-adventure-begins-4/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-adventure-begins-4</link>
+      <description>Role: STORY. Publisher show: Dice for Brains. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 46.9/100. Original publication: Sun, 20 Dec 2015 03:03:08 +0000. Creative application: Awarded community praise for narrative dice, social scenes, emotional character decisions.. Original notes: &lt;p&gt;Episode 3: The gang plans a daring break-in at the local Imperial base. Can they complete the recon and change a man’s life forever?&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://diceforbrains.com/the-adventure-begins-4/"&gt;Dice For Brains Podcast | Episode 3 – The Crane Situation&lt;/a&gt; appeared first on &lt;a href="https://diceforbrains.com"&gt;Dice For Brains&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 14:54:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e03.mp3" length="66764642" type="audio/mpeg" />
+      <itunes:duration>46:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/dice-for-brains.xml">Dice for Brains</source>
+    </item>
+    <item>
+      <title>07 • LORE • [Star Wars Explained] The Mandalorian Chapter 13: The Jedi - This is the Show #5 with Pink Milk</title>
+      <guid isPermaLink="false">urn:sw-learning:428711ba4a71135567ac98fe91f9cdef5e347e1cf63f0a871cd077adbcda1d35</guid>
+      <link>https://pscrb.fm/rss/p/clrtpod.com/m/arttrk.com/p/ADCT2/traffic.libsyn.com/secure/3335bc7a-1085-4db0-96cb-15726d092193/The_Mandalorian_Chapter_13_The_Jedi_-_This_is_the_Show_5_with_Pink_Milk.mp3</link>
+      <description>Role: LORE. Publisher show: Star Wars Explained. US Apple show-wide rating: 4.3/5 over 417 ratings (NOT this episode's rating). Editorial algorithm estimate: 63.7/100. Original publication: Mon, 30 Nov 2020 18:00:00 -0000. Creative application: Compact Canon and Legends explainers on species, factions, Force lore, starships and locations. Exclude roundup and marketing news.. Original notes: Today we're breaking down Chapter 13 of The Mandalorian, titled The Jedi, with Pink Milk Podcast! We'll discuss our favorite aspects of the latest episode and answer some fan questions!Follow Pink Milk!https://www.youtube.com/channel/UCtz5...https://twitter.com/ServingPinkMilkhttps://servingpinkmilk.com/ Support the show (https://www.patreon.com/starwarsexplain) Learn more about your ad choices. Visit megaphone.fm/adchoices
+Learn more about your …</description>
+      <pubDate>Sat, 17 Oct 2026 14:53:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/SBP1921930069.mp3?key=1cf42e85a31fd4049c5652aa9d05386b&amp;request_event_id=44ba8726-27a3-4b0d-9383-02c8c04b3be2&amp;session_id=44ba8726-27a3-4b0d-9383-02c8c04b3be2&amp;timetoken=1792268260_88C65C3869BA75D20F1033D027D2CF7F" length="79546508" type="audio/mpeg" />
+      <itunes:duration>6715</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/SBP1768354909">Star Wars Explained</source>
+    </item>
+    <item>
+      <title>08 • STORY • [Dice for Brains] Dice For Brains Podcast | Episode 4 – Fragile Acquisitions</title>
+      <guid isPermaLink="false">urn:sw-learning:af3631d1937feca947cde56fca40344b7e3f63c822492825749727d800aa202c</guid>
+      <link>https://diceforbrains.com/dice-for-brains-podcast-episode-4/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dice-for-brains-podcast-episode-4</link>
+      <description>Role: STORY. Publisher show: Dice for Brains. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 46.9/100. Original publication: Mon, 28 Dec 2015 02:51:38 +0000. Creative application: Awarded community praise for narrative dice, social scenes, emotional character decisions.. Original notes: &lt;p&gt;The gang executes a haphazard break-in. Will 5 triumphs and a heaping dose of blaster fire make for a successful mission?&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://diceforbrains.com/dice-for-brains-podcast-episode-4/"&gt;Dice For Brains Podcast | Episode 4 – Fragile Acquisitions&lt;/a&gt; appeared first on &lt;a href="https://diceforbrains.com"&gt;Dice For Brains&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 14:52:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e04.mp3" length="65212643" type="audio/mpeg" />
+      <itunes:duration>45:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/dice-for-brains.xml">Dice for Brains</source>
+    </item>
+    <item>
+      <title>09 • LORE • [Star Wars In Character] Star Wars In Character – Kyber Crystals</title>
+      <guid isPermaLink="false">urn:sw-learning:600755f6cca9b2d041e3b8eac1ec99586cc769167f0a9df4a293575c0278cb5f</guid>
+      <link>https://neozaz.com/kyber-crystals/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=kyber-crystals</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character. US Apple show-wide rating: 4.8/5 over 720 ratings (NOT this episode's rating). Editorial algorithm estimate: 63.6/100. Original publication: Mon, 12 Nov 2018 11:00:52 +0000. Creative application: Overlooked alien species, minor NPCs, background culture, world texture.. Original notes: &lt;p&gt;In this episode we discuss the force-attuned crystals scene in every film from the Star Wars saga. To learn how you can help support the show and get access to...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://neozaz.com/kyber-crystals/"&gt;Star Wars In Character – Kyber Crystals&lt;/a&gt; first appeared on &lt;a href="https://neozaz.com"&gt;NEOZAZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 14:51:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/0/2/2/02285624db7fb2d6/SWIC-EPISODE-240.mp3?c_id=25806095&amp;cs_id=25806095&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792265171&amp;Signature=ODGWxgHQcEcCyuVw1-Uu74cvCsBHa7ggHEaHT-eS9qmt5PQHnuCqZ9cJPHHrXraF~gS3~pKRXdd7VZB78bh8UTUWY9aLRHvBqlGOZt-PiQT16fzVoWhGJWxAgqKCjekMjfCMtK1nIH2avQywLJQ6FNGhPkAMDk0mIt3Zm3e5DUT18rAlqz8X00jCsUt~whaSsd3aydy4BWsphUiWPyaZC5MJonabSrUlFvk8cc2iW~CbNkMAtF~yk~QulyhkTkrMcU3h9LfQUQAQHFjYp8y-HHLLp1gaxcbpQOy0yD6j2HX1X9kLDXdRYJpaaNw9GIg60inH7B7qurcf49RU2PgEjQ__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="43341972" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://neozaz.com/feed/podcast/swiccast/">Star Wars In Character</source>
+    </item>
+    <item>
+      <title>10 • STORY • [Dice for Brains] Dice For Brains Podcast | Episode 5 – Crimes and Favors</title>
+      <guid isPermaLink="false">urn:sw-learning:6772dae811b7c7f08d6477b18d236a0566551ca847128d4547083e88556bef24</guid>
+      <link>https://diceforbrains.com/dice-for-brains-podcast-episode-5/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dice-for-brains-podcast-episode-5</link>
+      <description>Role: STORY. Publisher show: Dice for Brains. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 46.9/100. Original publication: Mon, 04 Jan 2016 01:11:54 +0000. Creative application: Awarded community praise for narrative dice, social scenes, emotional character decisions.. Original notes: &lt;p&gt;Gree, Xen, and Bher flee the Imperial FOB. Will they need more than one favor from a crime lord to keep out of Imperial clutches?&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://diceforbrains.com/dice-for-brains-podcast-episode-5/"&gt;Dice For Brains Podcast | Episode 5 – Crimes and Favors&lt;/a&gt; appeared first on &lt;a href="https://diceforbrains.com"&gt;Dice For Brains&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 14:50:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e05.mp3" length="68277243" type="audio/mpeg" />
+      <itunes:duration>47:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/dice-for-brains.xml">Dice for Brains</source>
+    </item>
+    <item>
+      <title>11 • LORE • [Star Wars In Character Archives] Star Wars In Character – DLC-13 Mining Droid – NEOZAZ</title>
+      <guid isPermaLink="false">urn:sw-learning:b9509a5cea881794497f31e034e6c5860932509447ddea7df15a22933b893cdf</guid>
+      <link>https://neozaz.com/star-wars-in-character-dlc-13-mining-droid/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-dlc-13-mining-droid</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character Archives. US Apple show-wide rating: 4.9/5 over 56 ratings (NOT this episode's rating). Editorial algorithm estimate: 63.1/100. Original publication: Sun, 28 Apr 2013 04:47:46 +0000. Creative application: Deep-cut obscure characters, creatures and cantina-background lore.. Original notes: &lt;p&gt;Episode 88 – “DLC-13 Mining Droid”. In this episode we discuss the career changing utility droid from “Revenge of the Sith”, Episode 3 of the Star Wars saga. Sites Featured...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://neozaz.com/star-wars-in-character-dlc-13-mining-droid/"&gt;Star Wars In Character – DLC-13 Mining Droid – NEOZAZ&lt;/a&gt; first appeared on &lt;a href="https://neozaz.com"&gt;NEOZAZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 14:49:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/9/0/b/90b8dd36b537a67d/SWIC-EPISODE-88.mp3?c_id=13787006&amp;cs_id=13787006&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792265079&amp;Signature=DpWrAn1iNXdu-3kHXImVTBbBiAuZ-Vw1XZxlIOyCvQiATQSPKPcnNgejg~rN0R7PLwsMO3d2kuH2N0IiLcRQtK9I51lsan3d-jtTP9erpmHs8DRBnzlLaQk7CjVBNNAUmfviWjH4WY9QaX00DsutAfbMiWimx2c2VK~MU9joaFeuNQkOES1YEuFQbi-PPlKTQl18~vxWnnVipS~Mcv69Uc7CQpOahvsshzgwruw8Eju08NPGw3ITwbLTvqc-7CSeOv8uyJoyTWLLcBhn6ZOw0GE~1uUjlqdGvjNhWmacBiIFk6~6OQfNGE8B12e-J41xtRkZDI0kGz5MkjgDd9HwaQ__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="72669376" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://neozaz.com/feed/podcast/swicarchcast/">Star Wars In Character Archives</source>
+    </item>
+    <item>
+      <title>12 • STORY • [Campaign — The Mynock] Episode One</title>
+      <guid isPermaLink="false">urn:sw-learning:95f620b745a859354b7ce961474ccb8e9061ee8db68d0f3230be56489fdceaaa</guid>
+      <link>http://www.oneshotpodcast.com/category/campaign/campaign-podcast/</link>
+      <description>Role: STORY. Publisher show: Campaign — The Mynock. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 51.6/100. Original publication: Wed, 08 Oct 2014 01:30:48 -0000. Creative application: Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes.. Original notes: Fleeing their misadventure aboard the unfinished Death Star, the crew of the Mynock find themselves low on fuel in an unfamiliar system. Worse yet, this strange world may be a hideout for smugglers and bounty hunters who have ties to the Empire. New to the Trsy, Leenik, and Bacta's escapades? Check out their earlier adventures under the banner of the ONE SHOT podcast: Episode 1 Episode 2 Episode 3 Episode 4 Episode 5 Episode 6
+
+Learn more about y…</description>
+      <pubDate>Sat, 17 Oct 2026 14:48:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/OSPN8187310956.mp3?key=b48e63025c127d5193bf31e2bb38ebfe&amp;request_event_id=c4dc8940-535d-4de3-a5d2-63718b7da62b&amp;session_id=c4dc8940-535d-4de3-a5d2-63718b7da62b&amp;timetoken=1792268266_0E60E0A59F4676C8AF909599AD99E050" length="66083664" type="audio/mpeg" />
+      <itunes:duration>5500</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/campaign-mynock.xml">Campaign — The Mynock</source>
+    </item>
+    <item>
+      <title>13 • LORE • [Eye on Canon] BONUS! Tessa Gratton on The Crystal Crown, The High Republic</title>
+      <guid isPermaLink="false">urn:sw-learning:386f892dd72a41fd7f4735d31726e0477276caa322bae262d6d232e542873b9b</guid>
+      <link>https://podcasters.spotify.com/pod/show/eye-on-canon-podcast/episodes/BONUS--Tessa-Gratton-on-The-Crystal-Crown--The-High-Republic-e38dqnl</link>
+      <description>Role: LORE. Publisher show: Eye on Canon. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 66.3/100. Original publication: Thu, 18 Sep 2025 22:35:18 GMT. Creative application: In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed.. Original notes: &lt;p&gt;It&amp;#39;s an Eye on Canon bonus episode!&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Matthew got a chance to talk with Tessa Gratton, author of The Acolyte: The Crystal Crown, four High Republic novels and multiple books outside the galaxy far, far away. Give the full interview a listen here!&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Tessa&amp;#39;s socials: &lt;/p&gt;&lt;p&gt;&lt;a href="https://bsky.app/profile/tessagratton.bsky.social" target="_blank" rel="noopener noreferer"&gt;Bluesky&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://…</description>
+      <pubDate>Sat, 17 Oct 2026 14:47:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/fd306288/podcast/play/108505269/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-18%2Fd3f8ebc3-f1a0-fd3e-a531-4fc2f337a41e.mp3" length="64953073" type="audio/mpeg" />
+      <itunes:duration>00:45:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://anchor.fm/s/fd306288/podcast/rss">Eye on Canon</source>
+    </item>
+    <item>
+      <title>14 • STORY • [Campaign — The Mynock] Episode Two</title>
+      <guid isPermaLink="false">urn:sw-learning:9bde2ba3e00fd8c2b436cd0bc63824acefb20c8da9214f6cff0ffbed00a92455</guid>
+      <link>http://www.oneshotpodcast.com/category/campaign/campaign-podcast/</link>
+      <description>Role: STORY. Publisher show: Campaign — The Mynock. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 49.3/100. Original publication: Wed, 15 Oct 2014 12:29:29 -0000. Creative application: Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes.. Original notes: Last episode painted Myrkr as a sylvan bastion of relaxation and profusely poured potables. This week, the claws come out as local wildlife closes in around the crew of the Mynock. Will the boys be able to resist the Vornskr's venom? Will force-sensitive monsters make off with little Tamlin? Roll for initiative!
+
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Sat, 17 Oct 2026 14:46:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/OSPN1631445863.mp3?key=70a07f498406a3dd5540b88bcd88a561&amp;request_event_id=41f6af4c-6d56-4282-919b-0b55f7c2aed4&amp;session_id=41f6af4c-6d56-4282-919b-0b55f7c2aed4&amp;timetoken=1792268266_0E60E0A59F4676C8AF909599AD99E050" length="46410545" type="audio/mpeg" />
+      <itunes:duration>3861</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/campaign-mynock.xml">Campaign — The Mynock</source>
+    </item>
+    <item>
+      <title>15 • LORE • [Star Wars: Old Canon Book Club] 39: Droids Part 2</title>
+      <guid isPermaLink="false">urn:sw-learning:def030d0d564803ec13b04dbf2f2ea415030dfb4df7a3e1bb451644bfacb4d17</guid>
+      <link>https://audioboom.com/posts/8860641</link>
+      <description>Role: LORE. Publisher show: Star Wars: Old Canon Book Club. US Apple show-wide rating: 4.8/5 over 172 ratings (NOT this episode's rating). Editorial algorithm estimate: 58.0/100. Original publication: Thu, 19 Feb 2026 19:00:00 +0000. Creative application: Legends societies, space opera adventure structure, character arcs and expanded setting fiction.. Original notes: &lt;div&gt;
+&lt;p&gt;Everyone has a breaking point, and this week on the second half of Alex, Davis, and Jesse's look at Droids: The Adventures of R2-D2 and C-3P0, them bois may or may not have found theirs. But not all is lost! There IS an all astro-mech 1980's Vegas-style harem lounge, so please, join us for another week of SWOCBC: the road to the 90's!&lt;/p&gt;&lt;p&gt;To support the show and listen to the Remastered SWNCBC Legends Archive completely for free, which…</description>
+      <pubDate>Sat, 17 Oct 2026 14:45:00 +0000</pubDate>
+      <enclosure url="https://audioboom.com/posts/8860641.mp3?modified=1770928164&amp;sid=5106290&amp;source=rss" length="61763859" type="audio/mpeg" />
+      <itunes:duration>3807</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://audioboom.com/channels/5106290.rss">Star Wars: Old Canon Book Club</source>
+    </item>
+    <item>
+      <title>16 • STORY • [Campaign — The Mynock] Episode Three</title>
+      <guid isPermaLink="false">urn:sw-learning:3233aacbf703743c2329857e2c109631d41b8c26de09390456a0d63831cf191f</guid>
+      <link>http://www.oneshotpodcast.com/category/campaign/campaign-podcast/</link>
+      <description>Role: STORY. Publisher show: Campaign — The Mynock. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 51.6/100. Original publication: Wed, 22 Oct 2014 12:31:38 -0000. Creative application: Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes.. Original notes: With Bacta an Tamlin suffering from the effects of vornskr poison, Leenik and Tryst must find an antidote on their own. Meanwhile, the scouting droid has returned with information about a mysterious signal on Myrkr.
+
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Sat, 17 Oct 2026 14:44:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/OSPN3427523578.mp3?key=bbd1c5d63ee003dc289e577727de21a0&amp;request_event_id=89d43757-2789-4113-b574-0b20c17b3de1&amp;session_id=89d43757-2789-4113-b574-0b20c17b3de1&amp;timetoken=1792268267_63529B26B4D3C79DF2B255B3A5E24979" length="63188505" type="audio/mpeg" />
+      <itunes:duration>3944</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/campaign-mynock.xml">Campaign — The Mynock</source>
+    </item>
+    <item>
+      <title>17 • LORE • [Star Wars In Character] Star Wars In Character – Rancor</title>
+      <guid isPermaLink="false">urn:sw-learning:c06885a268634b6c769123dc3271a7b5fbc431e702ba801ce78030c2ae0dd67a</guid>
+      <link>https://neozaz.com/star-wars-in-character-rancor/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-rancor</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character. US Apple show-wide rating: 4.8/5 over 720 ratings (NOT this episode's rating). Editorial algorithm estimate: 62.6/100. Original publication: Mon, 03 Jun 2019 12:00:37 +0000. Creative application: Overlooked alien species, minor NPCs, background culture, world texture.. Original notes: &lt;p&gt;In this episode we discuss the best of burden native to one planet, but found on many, from Return of the Jedi, Episode VI of the Star Wars Saga.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://neozaz.com/star-wars-in-character-rancor/"&gt;Star Wars In Character – Rancor&lt;/a&gt; first appeared on &lt;a href="https://neozaz.com"&gt;NEOZAZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 14:43:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/1/4/4/14451be5e9d82680/SWIC-RANCOR.mp3?c_id=43067684&amp;cs_id=43067684&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792266122&amp;Signature=He8ggcbHLn8TMZJyHPnsfgpNz8jOI-ACqZcQ2otC9wAZZbfr~MZAAQ6WOlv8~YCIb8auQfM70qpXPLcTvytUauT~jCjHqRe1FC6g4PktJw3JIQhT5x3LPfC4GiVFXLqqrj2Ir8riMsC-SdNrT6FrqhI1wNcNcQFjK5YJFlykU2z4GTJIuZgjh6Y-C7QVDgeXYOnCosxRQ3K43ZPN~qKJgNIbKRE3tWEVFpiNsS9ZJcDVXdA~bhP4-gdFKeqV0AnZplxTwTKLD~k8Eq2IDQSQ8e9JOqx9YU9~Ph~QhemhfTLHznk2dOlCQuvJ72mvLnsYbbHqVoVBzvPJDHi8Q8TiTA__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="53344989" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://neozaz.com/feed/podcast/swiccast/">Star Wars In Character</source>
+    </item>
+    <item>
+      <title>18 • STORY • [Campaign — The Mynock] Episode Four</title>
+      <guid isPermaLink="false">urn:sw-learning:dbfe515a07c578a64f92e3e4e2e2469b2bc6993ca827b539a32dc85517e885ad</guid>
+      <link>http://www.oneshotpodcast.com/category/campaign/campaign-podcast/</link>
+      <description>Role: STORY. Publisher show: Campaign — The Mynock. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 56.3/100. Original publication: Wed, 29 Oct 2014 12:35:12 -0000. Creative application: Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes.. Original notes: After happening upon a mysterious ship hidden in the forests of Myrkr the crew of the Mynok decides the planet hold too many mysteries to leave unexplored. After some debate they decide to head into the forest and discover the disturbance in the force luring at the hear of this alien wood.
+
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Sat, 17 Oct 2026 14:42:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/OSPN3096715760.mp3?key=eeaa16b0bc6cbf113ee698e0d4840ea6&amp;request_event_id=d1b83241-3e67-4a66-b276-5314d4c35e89&amp;session_id=d1b83241-3e67-4a66-b276-5314d4c35e89&amp;timetoken=1792268267_63529B26B4D3C79DF2B255B3A5E24979" length="62790488" type="audio/mpeg" />
+      <itunes:duration>3919</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/campaign-mynock.xml">Campaign — The Mynock</source>
+    </item>
+    <item>
+      <title>19 • LORE • [Star Wars Explained] Charles Soule Talks the Future of The High Republic and Star Wars Comics and His New Book!</title>
+      <guid isPermaLink="false">urn:sw-learning:18ec9e65a3cd3e417dc12e7f99a8fefcf9bdb87c57f4b8817c16cc1e0bcdaf87</guid>
+      <link>https://pscrb.fm/rss/p/clrtpod.com/m/arttrk.com/p/ADCT2/traffic.libsyn.com/secure/3335bc7a-1085-4db0-96cb-15726d092193/Charles_Soule_Talks_the_Future_of_The_High_Republic_and_Star_Wars_Comics_and_His_New_Book.mp3</link>
+      <description>Role: LORE. Publisher show: Star Wars Explained. US Apple show-wide rating: 4.3/5 over 417 ratings (NOT this episode's rating). Editorial algorithm estimate: 62.1/100. Original publication: Mon, 05 Jun 2023 19:00:00 -0000. Creative application: Compact Canon and Legends explainers on species, factions, Force lore, starships and locations. Exclude roundup and marketing news.. Original notes: I got the chance to sit down with the incredible Charles Soule to discuss his new book, The Endless Vessel, as well as teases for what's to come in The High Republic and the upcoming Star Wars comic crossover event, Dark Droids!
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Sat, 17 Oct 2026 14:41:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/SBP5460958471.mp3?key=1020ce8cf0785e15ad03315f8bd1fc6e&amp;request_event_id=ddaddc93-9ff6-46cb-a9f2-65ed86a6d2a2&amp;session_id=ddaddc93-9ff6-46cb-a9f2-65ed86a6d2a2&amp;timetoken=1792268260_88C65C3869BA75D20F1033D027D2CF7F" length="49872159" type="audio/mpeg" />
+      <itunes:duration>3204</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/SBP1768354909">Star Wars Explained</source>
+    </item>
+    <item>
+      <title>20 • STORY • [Campaign — The Mynock] Episode Five</title>
+      <guid isPermaLink="false">urn:sw-learning:0c0c207bb7b03d2a8cc086eed0a5f3fe992a74fc83fed8c37fa3a095c1794299</guid>
+      <link>http://www.oneshotpodcast.com/category/campaign/campaign-podcast/</link>
+      <description>Role: STORY. Publisher show: Campaign — The Mynock. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 46.9/100. Original publication: Wed, 05 Nov 2014 13:14:23 -0000. Creative application: Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes.. Original notes: A poorly conceived plan becomes a poorly implemented plan as the boys investigate an Imperial research camp on Myrkr.
+
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Sat, 17 Oct 2026 14:40:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/OSPN5112586296.mp3?key=ec577e8789171b8c73764823912676f5&amp;request_event_id=c64f1fff-744a-4b63-9d0f-24cd26dd8de6&amp;session_id=c64f1fff-744a-4b63-9d0f-24cd26dd8de6&amp;timetoken=1792268267_63529B26B4D3C79DF2B255B3A5E24979" length="80726932" type="audio/mpeg" />
+      <itunes:duration>5040</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/campaign-mynock.xml">Campaign — The Mynock</source>
+    </item>
+    <item>
+      <title>21 • LORE • [Star Wars In Character Archives] Star Wars In Character – IT-0 Interrogator Droid – NEOZAZ</title>
+      <guid isPermaLink="false">urn:sw-learning:06898ce83e58dfa1628c2f42f51176a2a8e140cca244bac778f322c89ca73fa3</guid>
+      <link>https://neozaz.com/star-wars-in-character-it-0-interrogator-droid/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-it-0-interrogator-droid</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character Archives. US Apple show-wide rating: 4.9/5 over 56 ratings (NOT this episode's rating). Editorial algorithm estimate: 60.8/100. Original publication: Mon, 06 Apr 2015 15:00:54 +0000. Creative application: Deep-cut obscure characters, creatures and cantina-background lore.. Original notes: &lt;p&gt;Episode 146 &amp;#8211; “IT-0 Interrogator Droid” In this episode we discuss the over engineered hypermedia delivering droid from “A New Hope”, Episode 4 of the Star Wars Saga [powerpress channel=&amp;#8221;swic&amp;#8221;]...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://neozaz.com/star-wars-in-character-it-0-interrogator-droid/"&gt;Star Wars In Character – IT-0 Interrogator Droid – NEOZAZ&lt;/a&gt; first appeared on &lt;a href="https://neozaz.com"&gt;NEOZAZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 14:39:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/3/e/5/3e5ed02970b2f364/SWIC-EPISODE-146.mp3?c_id=13786452&amp;cs_id=13786452&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792265446&amp;Signature=c9LAsivnU8ptBcSG-1-wB4mD~KNoxX-Q5fJl~45cQ~Cjrw7Nt-OOOOg5yFCewpI9W5kzpi-ueYgprWDeG3vwV77PTAJ2rbUT0lA1dp4H3QuV-wR3oljyV9QgZdDEB2WIFLPGNO5whuY7NG4csGez97yk4n7zLcFv7AWurXMc~mdMWEkCXhG42~qJ1hKKE1c4~dCk8O8a-DHPP-XoTxUKduYHk5px5YoAq~QuegXF5R8qFP17TKFjDjHzdCbNQOxn~4EDgcc9shMj6fj7-FTdWoSMDHQfFqLEiDVhKdOoBz3sxfIJse~DwMgn9jO~314GlwItO3Pr7SjGgVl1zadc0Q__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="46234735" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://neozaz.com/feed/podcast/swicarchcast/">Star Wars In Character Archives</source>
+    </item>
+    <item>
+      <title>22 • STORY • [Force Majeure — Coldfire Chronicles] Coldfire Chronicles S01 E01 - Prison Planet Blues</title>
+      <guid isPermaLink="false">urn:sw-learning:b42349812b7d541b4b6af9a93a63753540c69b2ba13b4061da73be39ab376d7f</guid>
+      <link>https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e01</link>
+      <description>Role: STORY. Publisher show: Force Majeure — Coldfire Chronicles. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 56.8/100. Original publication: Mon, 22 Jan 2018 19:11:06 +0000. Creative application: Force-sensitive character relationships, active NPC goals and escalating consequences.. Original notes: &lt;p&gt;This is Force Majeure - an actual play Star Wars podcast.&lt;/p&gt; &lt;p&gt;On the frozen prison moon of Daxos, an unlikely group of Force-sensitive misfits are about to have their worlds turned upside down.&lt;/p&gt; &lt;p&gt;Presenting Episode 1 of the Coldfire Chronicles!&lt;/p&gt; &lt;p&gt;&lt;span style="text-decoration: underline;"&gt;Get in contact at:&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt; Twitter: @forcemajeurepod&lt;br /&gt; Instagram: forcemajeurepod&lt;br /&gt; Email: &lt;a href= "mailto:forcemajeurepod@…</description>
+      <pubDate>Sat, 17 Oct 2026 14:38:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/forcemajeurepod/CFC_S01_E01_New_Intro.mp3?dest-id=604132" length="29346727" type="audio/mpeg" />
+      <itunes:duration>38:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/force-majeure.xml">Force Majeure — Coldfire Chronicles</source>
+    </item>
+    <item>
+      <title>23 • LORE • [The Star Wars Canon Timeline Podcast] EII: ep 2 – Visions S2-e5,1,2 – Sith of the Old Republic (LEGENDS)</title>
+      <guid isPermaLink="false">urn:sw-learning:a2b1b5fd76823224333ec057b8160e680f79db8ee83c7d37171069f8ad123c28</guid>
+      <link>https://thelorehounds.com</link>
+      <description>Role: LORE. Publisher show: The Star Wars Canon Timeline Podcast. US Apple show-wide rating: 4.6/5 over 57 ratings (NOT this episode's rating). Editorial algorithm estimate: 69.5/100. Original publication: Mon, 13 May 2024 16:38:25 +0000. Creative application: Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends.. Original notes: &lt;p&gt;Elysia is joined by professional animator Hjalti and Sith aficionado Marcin to talk through 3 episodes of the global animated anthology series &lt;em&gt;Star Wars: Visions &lt;/em&gt;that – if they were Canon – would be set in the Old Republic, starting in the height of the Jedi-Sith Civil War, and ending after the Rule of Two.&lt;/p&gt;&lt;p&gt;All from season 2, in chronological order: episode 5 – &amp;#34;Journey to the Dark Head,&amp;#34; episode 1 – &amp;#34;Sith,&amp;#34; and …</description>
+      <pubDate>Sat, 17 Oct 2026 14:37:00 +0000</pubDate>
+      <enclosure url="https://pdst.fm/e/audio4.redcircle.com/episodes/cda01eda-c6f2-42dd-85bd-98da03cfc93c/stream.mp3" length="77120156" type="audio/mpeg" />
+      <itunes:duration>4820</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.redcircle.com/f30b97a3-58b5-4f9e-933e-29dff031dbd6">The Star Wars Canon Timeline Podcast</source>
+    </item>
+    <item>
+      <title>24 • STORY • [Force Majeure — Coldfire Chronicles] Coldfire Chronicles S01 E02 - A Sense Of Foreboding...</title>
+      <guid isPermaLink="false">urn:sw-learning:f0429c128308206c754bd4a62630ad2eb1a8bcfef25f22d15cde2ef8fb26c681</guid>
+      <link>https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e02</link>
+      <description>Role: STORY. Publisher show: Force Majeure — Coldfire Chronicles. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 51.6/100. Original publication: Mon, 05 Feb 2018 05:30:00 +0000. Creative application: Force-sensitive character relationships, active NPC goals and escalating consequences.. Original notes: &lt;p&gt;This is Force Majeure - an actual play Star Wars podcast.&lt;/p&gt; &lt;p&gt;A disappearing mentor, an encroaching storm and a sense of impending threat. Will our heroes unravel the mysteries in front of them? Or turn their backs and return to the comforting regime of prison life?&lt;/p&gt; &lt;p&gt;Presenting Episode 2 of the Coldfire Chronicles.&lt;/p&gt; &lt;p&gt;Get in contact at:&lt;/p&gt; &lt;p&gt;Twitter: @forcemajeurepod&lt;br /&gt; Instagram: forcemajeurepod&lt;br /&gt; Email: &lt;a href= "mailto…</description>
+      <pubDate>Sat, 17 Oct 2026 14:36:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/forcemajeurepod/CFC_S01_E02.mp3?dest-id=604132" length="42589327" type="audio/mpeg" />
+      <itunes:duration>35:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/force-majeure.xml">Force Majeure — Coldfire Chronicles</source>
+    </item>
+    <item>
+      <title>25 • LORE • [Star Wars: Old Canon Book Club] 36: Caravan of Courage: An Ewok Adventure</title>
+      <guid isPermaLink="false">urn:sw-learning:f1eaf4770360408d5668ff5541b143a39766eeb5878161a82417e337c1a172a3</guid>
+      <link>https://audioboom.com/posts/8808856</link>
+      <description>Role: LORE. Publisher show: Star Wars: Old Canon Book Club. US Apple show-wide rating: 4.8/5 over 172 ratings (NOT this episode's rating). Editorial algorithm estimate: 49.7/100. Original publication: Thu, 20 Nov 2025 19:00:00 +0000. Creative application: Legends societies, space opera adventure structure, character arcs and expanded setting fiction.. Original notes: &lt;div&gt;Yub-NUB, you feeching beechas, it's time for the gauntlet of cuteness, a crucible of cartoonishness and camp built of bears, bots, and babies! Will Alex, Davis, and Jesse survive Caravan of Courage: An Ewok Adventure? Will Heir to the Empire ever come? What's Joe Johnston doing in the credits? Listen and find out! (And pardon our Ewokese...)&lt;/div&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 14:35:00 +0000</pubDate>
+      <enclosure url="https://audioboom.com/posts/8808856.mp3?modified=1763662624&amp;sid=5106290&amp;source=rss" length="59971287" type="audio/mpeg" />
+      <itunes:duration>3690</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://audioboom.com/channels/5106290.rss">Star Wars: Old Canon Book Club</source>
+    </item>
+    <item>
+      <title>26 • STORY • [Force Majeure — Coldfire Chronicles] Coldfire Chronicles S01 E03 - Whiteout</title>
+      <guid isPermaLink="false">urn:sw-learning:87734d5e6bda635c4247114c0a2158067b2737f07496823750a054e22774540a</guid>
+      <link>https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e03</link>
+      <description>Role: STORY. Publisher show: Force Majeure — Coldfire Chronicles. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 51.6/100. Original publication: Mon, 19 Feb 2018 05:30:00 +0000. Creative application: Force-sensitive character relationships, active NPC goals and escalating consequences.. Original notes: &lt;p&gt;Having fended off one attack by ice wolves, our weary heroes continue their trek through the storm to Lasa's shack and, hopefully, sanctuary. However, navigating through a whiteout is often easier said than done...&lt;/p&gt; &lt;p&gt;Presenting Episode 3 of the Coldfire Chronicles&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;p&gt;Get in contact at:&lt;/p&gt; &lt;p&gt;Twitter: @forcemajeurepod&lt;br /&gt; Instagram: forcemajeurepod&lt;br /&gt; Email: &lt;a href= "mailto:forcemajeurepod@gmail.com"&gt;forcemajeurepod@gma…</description>
+      <pubDate>Sat, 17 Oct 2026 14:34:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/forcemajeurepod/CFC_S01_E03.mp3?dest-id=604132" length="46303750" type="audio/mpeg" />
+      <itunes:duration>37:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/force-majeure.xml">Force Majeure — Coldfire Chronicles</source>
+    </item>
+    <item>
+      <title>27 • LORE • [The Star Wars Canon Timeline Podcast] Era II: THE OLD REPUBLIC – overview</title>
+      <guid isPermaLink="false">urn:sw-learning:e1470c94d9c9452bfd56d62bf3087c99690c4cf0b94766d0eb49c2ec920ea734</guid>
+      <link>https://thelorehounds.com</link>
+      <description>Role: LORE. Publisher show: The Star Wars Canon Timeline Podcast. US Apple show-wide rating: 4.6/5 over 57 ratings (NOT this episode's rating). Editorial algorithm estimate: 65.6/100. Original publication: Sat, 11 May 2024 23:18:00 +0000. Creative application: Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends.. Original notes: &lt;p&gt;DeadeyeJediBob joins Elysia to sort Canon from Legends in the era of the Old Republic – one of the coolest and most fantastical eras of Star Wars lore, dominated by the Jedi-Sith Civil Wars, the Mandalorians, and other intriguing groups of Force users and non-Force users.&lt;/p&gt;&lt;p&gt;Join us as we talk Darth Bane and the Rule of Two, Force witches, and failed Wookie impressions while covering 24,000 years of Star Wars history.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;R…</description>
+      <pubDate>Sat, 17 Oct 2026 14:33:00 +0000</pubDate>
+      <enclosure url="https://pdst.fm/e/audio4.redcircle.com/episodes/dcb7a842-b769-45e4-ad6a-0a45e6e623cf/stream.mp3" length="70437407" type="audio/mpeg" />
+      <itunes:duration>4402</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.redcircle.com/f30b97a3-58b5-4f9e-933e-29dff031dbd6">The Star Wars Canon Timeline Podcast</source>
+    </item>
+    <item>
+      <title>28 • STORY • [Force Majeure — Coldfire Chronicles] Coldfire Chronicles S01 E04 - Shacks, Secrets and Schemes</title>
+      <guid isPermaLink="false">urn:sw-learning:fc638e4042be43c69955ba59fbbcf60140a21c1ced6dd21f3f1e2d8b25846872</guid>
+      <link>https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e04</link>
+      <description>Role: STORY. Publisher show: Force Majeure — Coldfire Chronicles. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 54.0/100. Original publication: Mon, 05 Mar 2018 05:30:00 +0000. Creative application: Force-sensitive character relationships, active NPC goals and escalating consequences.. Original notes: &lt;p&gt;Having spent the night in a cave, our heroes finally make it to Lasa's shack. What they find there will set them on a path which defines their future and may send them rushing headlong into a confrontation with the Empire!&lt;/p&gt; &lt;p&gt;Presenting Episode 4 of the Coldfire Chronicles.&lt;/p&gt; &lt;p&gt;&lt;span style="text-decoration: underline;"&gt;Follow us on social media!&lt;/span&gt;&lt;/p&gt; &lt;p&gt;Twitter: @forcemajeurepod&lt;br /&gt; Instagram: forcemajeurepod&lt;br /&gt; Online: &lt;a hr…</description>
+      <pubDate>Sat, 17 Oct 2026 14:32:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/forcemajeurepod/CFC_S01_E04.mp3?dest-id=604132" length="35961851" type="audio/mpeg" />
+      <itunes:duration>32:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/force-majeure.xml">Force Majeure — Coldfire Chronicles</source>
+    </item>
+    <item>
+      <title>29 • LORE • [Star Wars In Character] Star Wars In Character – LIN Droid</title>
+      <guid isPermaLink="false">urn:sw-learning:d9fc732bcbfdf63f1995e7a557948fb2ab22a2449539aac99119c55a81bd1e42</guid>
+      <link>https://neozaz.com/star-wars-in-character-lin-droid/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-lin-droid</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character. US Apple show-wide rating: 4.8/5 over 720 ratings (NOT this episode's rating). Editorial algorithm estimate: 62.4/100. Original publication: Mon, 27 Apr 2020 12:05:00 +0000. Creative application: Overlooked alien species, minor NPCs, background culture, world texture.. Original notes: &lt;p&gt;In this episode we discuss the most poorly, or the most well thought out designed droid in the Star Wars Galaxy.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://neozaz.com/star-wars-in-character-lin-droid/"&gt;Star Wars In Character – LIN Droid&lt;/a&gt; first appeared on &lt;a href="https://neozaz.com"&gt;NEOZAZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 14:31:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/2/d/d/2ddbfe0e3113c93f/SWIC-LINDROID.mp3?c_id=70740650&amp;cs_id=70740650&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792266067&amp;Signature=fVm-tLSup81iaTzaThkfmF170ieXITtTSB8cmbVJhff4b~YWjtiHHte14cF0drmrDfDzIofT1nsoX2lwar8ccLG4vJRvXabaE1qGDFskZ2ZIlU0KxrAtIJb9ISHVEvoa9SvrDNDS~FNHTboQSsHXTfs4nCv7ntN2TnWfdAwzo5sDwGRHo0wUcKrH43mWv4oBgyWleEebJt4pOQ8j2QsPczYGydHjGmIwZHQ-OEKp7iqm9~QKi48cNgnj7-oXXDRYTseSoue37nNe~e8k5XhdsuXkHv506HyHE~-OS3VQ540o~LUTUCQVXgayAQP-dM2ZKp1x45y9nmeWIRMmBy5drA__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="52779595" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://neozaz.com/feed/podcast/swiccast/">Star Wars In Character</source>
+    </item>
+    <item>
+      <title>30 • STORY • [Force Majeure — Coldfire Chronicles] Coldfire Chronicles S01 E05  - In Which The Definition Of A Heist Is Argued</title>
+      <guid isPermaLink="false">urn:sw-learning:775608e3d70f2a6bce29ad437672814650b2f457058501ffde439272d47e5945</guid>
+      <link>https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e05</link>
+      <description>Role: STORY. Publisher show: Force Majeure — Coldfire Chronicles. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 51.6/100. Original publication: Mon, 19 Mar 2018 04:30:00 +0000. Creative application: Force-sensitive character relationships, active NPC goals and escalating consequences.. Original notes: &lt;p&gt;Their mentor, Pyjak, is in Imperial hands. Coded warnings from the Rebel Alliance hint that he may be more than first thought. And behind all this the threat of Tenth Brother looms ever closer. It's time for our heroes to stop reacting and start planning, before it's too late for everyone.&lt;/p&gt; &lt;p&gt;Presenting Episode 5 of The Coldfire Chronicles.&lt;/p&gt; &lt;p&gt;&lt;span style="text-decoration: underline;"&gt;Follow us online:&lt;/span&gt;&lt;/p&gt; &lt;p&gt;Twitter: @forcemaje…</description>
+      <pubDate>Sat, 17 Oct 2026 14:30:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/forcemajeurepod/CFC_S01_E05.mp3?dest-id=604132" length="40737360" type="audio/mpeg" />
+      <itunes:duration>38:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/force-majeure.xml">Force Majeure — Coldfire Chronicles</source>
+    </item>
+    <item>
+      <title>31 • LORE • [Eye on Canon] Do Jedi give Sunday Sermons?</title>
+      <guid isPermaLink="false">urn:sw-learning:7d0fbcd140c002567675153147b8230f82e6fea972fb8d3bf4155955c37d3324</guid>
+      <link>https://podcasters.spotify.com/pod/show/eye-on-canon-podcast/episodes/Do-Jedi-give-Sunday-Sermons-e37kigb</link>
+      <description>Role: LORE. Publisher show: Eye on Canon. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 60.2/100. Original publication: Tue, 02 Sep 2025 02:49:37 GMT. Creative application: In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed.. Original notes: &lt;p&gt;EP. 174Ritual, material, cultural adaptation, genuine faith: these are a few things that mark real-world communities defined by metaphysical beliefs, what we call “religions” nowadays. How well does Star Wars depict religions and their communities, at least analogously? Does it show widespread beliefs and practices, or confine them to a select few practitioners? When does it explore the relationship between the elites and the masses of a relig…</description>
+      <pubDate>Sat, 17 Oct 2026 14:29:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/fd306288/podcast/play/107677643/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-2%2F18e8c0c9-6fb1-6935-09fd-0e4feb351b9f.mp3" length="58300223" type="audio/mpeg" />
+      <itunes:duration>01:00:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://anchor.fm/s/fd306288/podcast/rss">Eye on Canon</source>
+    </item>
+    <item>
+      <title>32 • STORY • [Respect the Crit — Empire's Edge] Empire's Edge - Ep. 01: Empire's Edge</title>
+      <guid isPermaLink="false">urn:sw-learning:af68638a4fb7dd9478e37f2132f6339ba3e2e63bbcc88f829f7bbedc57e068ce</guid>
+      <link>https://respectthecrit.libsyn.com/empires-edge-episode-001</link>
+      <description>Role: STORY. Publisher show: Respect the Crit — Empire's Edge. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 69.0/100. Original publication: Wed, 04 Dec 2019 16:00:00 -0000. Creative application: Cinematic soundscapes, character voices and narrative tension.. Original notes: It is a period of uncertainty and fear. The Clone Wars are over, the Jedi are destroyed, and the newly formed GALACTIC EMPIRE controls the galaxy through oppression and tyranny.
+ In this dark era, the lone droid LO-RNA returns with their recently deceased master to the planet Bothawui, home world of the Bothan species and their infamous espionage network.  Bound by a sombre duty to their late owner, the droid Elo is compelled to take on one final…</description>
+      <pubDate>Sat, 17 Oct 2026 14:28:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD1251028918.mp3?key=1822290827b842cfc01a36dc834d1d0f&amp;request_event_id=07f13ac1-7cb8-4700-a957-ffa9bfb73258&amp;session_id=07f13ac1-7cb8-4700-a957-ffa9bfb73258&amp;timetoken=1792268269_B5123D887FCDE3C1AD57325FA76FC839" length="64933122" type="audio/mpeg" />
+      <itunes:duration>2679</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/respect-the-crit.xml">Respect the Crit — Empire's Edge</source>
+    </item>
+    <item>
+      <title>33 • LORE • [Star Wars Explained] The Mandalorian Chapter 18 LIVE Discussion with Tony Thaxton of Motion City Soundtrack</title>
+      <guid isPermaLink="false">urn:sw-learning:afdb6070e572bf723b63d0bccb67b7693f30184307a224decb647425439c126c</guid>
+      <link>https://pscrb.fm/rss/p/clrtpod.com/m/arttrk.com/p/ADCT2/traffic.libsyn.com/secure/3335bc7a-1085-4db0-96cb-15726d092193/The_Mandalorian_Chapter_18_LIVE_Discussion_with_Tony_Thaxton_of_Motion_City_Soundtrack.mp3</link>
+      <description>Role: LORE. Publisher show: Star Wars Explained. US Apple show-wide rating: 4.3/5 over 417 ratings (NOT this episode's rating). Editorial algorithm estimate: 60.5/100. Original publication: Thu, 09 Mar 2023 03:17:57 -0000. Creative application: Compact Canon and Legends explainers on species, factions, Force lore, starships and locations. Exclude roundup and marketing news.. Original notes: Right now, get up to 55% off your subscription when you go to https://babbel.com/starwars.
+ Today we're talking about the newest episode of The Mandalorian, Chapter 18: The Mines of Mandalore, with Tony Thaxton, the drummer for Motion City Soundtrack! Follow him below:
+ https://twitter.com/tonythaxton https://www.tonythaxton.com/ https://twitter.com/bizarrealbums https://twitter.com/MotionCityMusic
+ Video Game Soldiers by Twin Musicom is licensed…</description>
+      <pubDate>Sat, 17 Oct 2026 14:27:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/SBP8692948386.mp3?key=35880f87ea05152b14901697ccf1ab95&amp;request_event_id=be38e060-7dd8-471f-9633-9142a9b28fae&amp;session_id=be38e060-7dd8-471f-9633-9142a9b28fae&amp;timetoken=1792268259_76F586D5EFA56990CDAA037712BF97B3" length="228320347" type="audio/mpeg" />
+      <itunes:duration>14251</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/SBP1768354909">Star Wars Explained</source>
+    </item>
+    <item>
+      <title>34 • STORY • [Respect the Crit — Empire's Edge] Empire's Edge - Ep. 02: Can You Dug It?</title>
+      <guid isPermaLink="false">urn:sw-learning:10a3404a716947c56fe38b9de9d784c7bf0a290def9b294d40ef2e1883dc13e5</guid>
+      <link>https://respectthecrit.libsyn.com/empires-edge-episode-002</link>
+      <description>Role: STORY. Publisher show: Respect the Crit — Empire's Edge. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 66.7/100. Original publication: Wed, 04 Dec 2019 16:01:00 -0000. Creative application: Cinematic soundscapes, character voices and narrative tension.. Original notes: It is a time of celebration on Bothawui.
+ Fugitive slicer, Beegax Botano, avoids the crowds and consequences of the bounty on his head, but a sinister assailant stalks him from the shadows.
+ Meanwhile, the masterless droid, Elo makes their way through the city throng, hoping to make contact with the renegade slicer. They are charged to find their late master’s son, Gir Tu’Tey, whose location is concealed by the Bothan Spy Network.
+  
+ For more in…</description>
+      <pubDate>Sat, 17 Oct 2026 14:26:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD9499678150.mp3?key=cfc97c7f934cea79a8e0969984d1b010&amp;request_event_id=acb19ea0-8dff-41d9-8e43-fa175d37c334&amp;session_id=acb19ea0-8dff-41d9-8e43-fa175d37c334&amp;timetoken=1792268270_B89504E39C96F8B23481BCD170C86E47" length="86051845" type="audio/mpeg" />
+      <itunes:duration>3604</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/respect-the-crit.xml">Respect the Crit — Empire's Edge</source>
+    </item>
+    <item>
+      <title>35 • LORE • [Star Wars In Character Archives] Star Wars In Character – OG-9 Spider Droid – NEOZAZ</title>
+      <guid isPermaLink="false">urn:sw-learning:1945a020a8e98b842c751367e75eaaaae4057d3cc5855e48e01a178b9c3971e1</guid>
+      <link>https://neozaz.com/star-wars-in-character-og-9-spider-droid/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-og-9-spider-droid</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character Archives. US Apple show-wide rating: 4.9/5 over 56 ratings (NOT this episode's rating). Editorial algorithm estimate: 60.8/100. Original publication: Mon, 08 Jul 2013 15:05:49 +0000. Creative application: Deep-cut obscure characters, creatures and cantina-background lore.. Original notes: &lt;p&gt;Episode 97 &amp;#8211; &amp;#8220;OG-9 Spider Droid&amp;#8221;. In this episode we discuss everyone&amp;#8217;s favorite spider (among the many) from Episode 2 &amp;#8220;Attack of the Clones&amp;#8221; and Episode 3 &amp;#8220;Revenge of the...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://neozaz.com/star-wars-in-character-og-9-spider-droid/"&gt;Star Wars In Character – OG-9 Spider Droid – NEOZAZ&lt;/a&gt; first appeared on &lt;a href="https://neozaz.com"&gt;NEOZAZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 14:25:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/a/d/5/ad57fe263357dabe/SWIC-EPISODE-97.mp3?c_id=13786961&amp;cs_id=13786961&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792264236&amp;Signature=dfZQzVzfpRKAMFmA1wVdha-wshbTlVrSgWWAgU8V04Y4WhHb5hHtXQ3KEJMrjwhRMEDpEFhALRfucvZRUOdAb3h9AwXxDt6jyjGkt-wLA41wPCuO~yC4dnX320XPciNaHW-mZJWaQXDJl1oclJy1bT8wwxrCvwP36DtbFhjh7T7gcVgdRh3reTzoMcH5ju2BouaoXGj~hRDHEDMPRj2HOPxFXv4AXSPxDRhcntXdTYhjfECVZddvWh5YPiIoxvUBMdOAF~toAW1O~LsU1TO7rMmAO4sRDCRFPSq1-aS7pAqvUAJLDmBvhNfPLczMrVJH5yuS8XMKN9gxr1ClrjeKmw__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="57447519" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://neozaz.com/feed/podcast/swicarchcast/">Star Wars In Character Archives</source>
+    </item>
+    <item>
+      <title>36 • STORY • [Respect the Crit — Empire's Edge] Empire's Edge - Ep. 03: Bound to Bothawui</title>
+      <guid isPermaLink="false">urn:sw-learning:111471ef017585ddd5f14bbe4ab006ddc3bbba2e70ee8fdb8e37a5201d0a46a7</guid>
+      <link>https://respectthecrit.libsyn.com/empires-edge-episode-003</link>
+      <description>Role: STORY. Publisher show: Respect the Crit — Empire's Edge. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 69.0/100. Original publication: Wed, 11 Dec 2019 14:00:00 -0000. Creative application: Cinematic soundscapes, character voices and narrative tension.. Original notes: Floating above the Bothan homeworld, the droid Elo and the renegade slicer, Beegax Botano, recuperate from their skirmish down on the planet.
+ Both are anxious to leave Bothan space after escaping a terrifying Trandoshan bounty hunter set on capturing Beegax and his customized slicing deck. However, Elo must learn the secret location of Gir Tu’Tey, to fulfill a final request given to them by their deceased Bothan master.
+ With threats looming and…</description>
+      <pubDate>Sat, 17 Oct 2026 14:24:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD8954744252.mp3?key=76b7cfeb0b8ed8637b9935fb4231f226&amp;request_event_id=a284ba91-3a7f-4575-8e3f-f786d54ad4a5&amp;session_id=a284ba91-3a7f-4575-8e3f-f786d54ad4a5&amp;timetoken=1792268272_0A1ECF3657E89F5A737E596B3C77A436" length="85886983" type="audio/mpeg" />
+      <itunes:duration>3604</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/respect-the-crit.xml">Respect the Crit — Empire's Edge</source>
+    </item>
+    <item>
+      <title>37 • LORE • [The Star Wars Canon Timeline Podcast] EII: ep 3 – The (Knights of the) Old Republic games – (LEGENDS)</title>
+      <guid isPermaLink="false">urn:sw-learning:eebea30fc685320feb70bf6c5a887a717c4864059e886c15426dae3b458376b3</guid>
+      <link>https://thelorehounds.com</link>
+      <description>Role: LORE. Publisher show: The Star Wars Canon Timeline Podcast. US Apple show-wide rating: 4.6/5 over 57 ratings (NOT this episode's rating). Editorial algorithm estimate: 65.2/100. Original publication: Wed, 15 May 2024 10:15:00 +0000. Creative application: Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends.. Original notes: &lt;p&gt;Elysia wanders off the Canon path, this time with the help of Marcin, to talk about one of the most important and beloved series in the history of Star Wars games: &lt;em&gt;The Knights of the Old Republic&lt;/em&gt;, &lt;em&gt;The Knights of Old Republic II: The Sith Lords&lt;/em&gt;, and &lt;em&gt;The Old Republic&lt;/em&gt; MMO.&lt;/p&gt;&lt;p&gt;We summarize the plots (full spoilers), the gameplay, and what makes these games so special – plus the lore that already has or probably will m…</description>
+      <pubDate>Sat, 17 Oct 2026 14:23:00 +0000</pubDate>
+      <enclosure url="https://pdst.fm/e/audio4.redcircle.com/episodes/df010e58-49af-4e92-96bd-f04b1b1b5873/stream.mp3" length="76513280" type="audio/mpeg" />
+      <itunes:duration>4782</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://feeds.redcircle.com/f30b97a3-58b5-4f9e-933e-29dff031dbd6">The Star Wars Canon Timeline Podcast</source>
+    </item>
+    <item>
+      <title>38 • STORY • [Respect the Crit — Empire's Edge] Empire's Edge - Ep. 04: Storm on The Way</title>
+      <guid isPermaLink="false">urn:sw-learning:3fcc7305776df5b4348a74cd4ca0509258b4e2e37c205c2f5c99b2620db5f26c</guid>
+      <link>https://respectthecrit.libsyn.com/empires-edge-episode-004</link>
+      <description>Role: STORY. Publisher show: Respect the Crit — Empire's Edge. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 64.3/100. Original publication: Wed, 18 Dec 2019 14:00:00 -0000. Creative application: Cinematic soundscapes, character voices and narrative tension.. Original notes: Returning to Bothawui, the droid Elo and renegade slicer Beegax Botano smuggled their way onto a doonium ore facility down on the planet. Disguising themselves as common transporters, they attempted to access a Bothan Spy Net intelligence drop, hidden in plain sight.
+ After creating a convincing distraction, Beegax had seconds to slice his way into the network and uncover the whereabouts of Gir Tu’Tey, a young Bothan spy and son of Elo’s former m…</description>
+      <pubDate>Sat, 17 Oct 2026 14:22:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD4594362007.mp3?key=389905094dc9655f649f335f6cf282b4&amp;request_event_id=a8e7bc96-7886-4260-84b9-f6c0702af435&amp;session_id=a8e7bc96-7886-4260-84b9-f6c0702af435&amp;timetoken=1792268273_78EF85544F4824CC18DC4C33912F04FB" length="71099298" type="audio/mpeg" />
+      <itunes:duration>2988</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/respect-the-crit.xml">Respect the Crit — Empire's Edge</source>
+    </item>
+    <item>
+      <title>39 • LORE • [Star Wars In Character] SWIC – The Sarlacc</title>
+      <guid isPermaLink="false">urn:sw-learning:50ed92d8afe6b38e1b4bd3aa820bd957a75a78c8c541b26050d3e5d065f0c6d0</guid>
+      <link>https://neozaz.com/star-wars-in-character-the-sarlacc/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-the-sarlacc</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character. US Apple show-wide rating: 4.8/5 over 720 ratings (NOT this episode's rating). Editorial algorithm estimate: 55.1/100. Original publication: Mon, 05 Sep 2016 13:00:24 +0000. Creative application: Overlooked alien species, minor NPCs, background culture, world texture.. Original notes: &lt;p&gt;Episode 186 &amp;#8211; “The Sarlacc” It’s another Patreon supporter pick! In this episode we discuss the beaked tongue, stubby tentacle, multi tooth, water hogging, immobile scourge of Tatooine from Return...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://neozaz.com/star-wars-in-character-the-sarlacc/"&gt;SWIC – The Sarlacc&lt;/a&gt; first appeared on &lt;a href="https://neozaz.com"&gt;NEOZAZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 14:21:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/a/6/d/a6dc96593d47f0ed/SWIC-EPISODE-186.mp3?c_id=13785973&amp;cs_id=13785973&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792266618&amp;Signature=XxhlpsSKi85JCP34F5VgyInic-fwJyvJADA980VmJF22F8pOeb66dDajVEi0PmZOAzpEZIODto3kjvM3A75CrM4gtrWFKYmilLfVETTyzmK~a5jf-LpVz3aqTq04Qc3zqj4InAs5SqK66Sox-EwMHrFTsEPQxDbZ5v0gCqpokLfbaC4d0ZoosH-ku9t05DXSWuJDCVC~0uydTJJgCvaSYKFypLxJcFUcPx7jo1Q7BVQ9xdR~S55P~78tvR6gqWRukZhCY-53FHBGnVp-Z9Ur7MtZO3O5digahWcNNJ3pz16B9jU77C61aJTYE8HtfBQrjdjP6CvFFJ0pVvZp7rrDww__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="58571412" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://neozaz.com/feed/podcast/swiccast/">Star Wars In Character</source>
+    </item>
+    <item>
+      <title>40 • STORY • [Respect the Crit — Empire's Edge] Empire's Edge - Ep. 05: Loose Ends at Lightspeed</title>
+      <guid isPermaLink="false">urn:sw-learning:828bfeaff474e8a77492074e40970d6ca4673596edb67490d9249c9cc4ef76ee</guid>
+      <link>https://respectthecrit.libsyn.com/empires-edge-episode-005-loose-ends-at-lightspeed</link>
+      <description>Role: STORY. Publisher show: Respect the Crit — Empire's Edge. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 66.7/100. Original publication: Wed, 01 Jan 2020 14:00:00 -0000. Creative application: Cinematic soundscapes, character voices and narrative tension.. Original notes: After discovering the possible last known location of Gir Tu’Tey, newly allied Elo and Beegax Botano are anxious to leave Bothawui for the Socorro system.  But before they could set out, the two tangled with a tough and treacherous Trandoshan.  Their gallant gambles to overcome the relentless bounty hunter paid off in tenuous victory, but left brave Beegax benumbed and the disparate droid in disrepair.
+ Have they finally put down their persistent…</description>
+      <pubDate>Sat, 17 Oct 2026 14:20:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD6428498786.mp3?key=b7ad4a042970f9f862b729df251d1c0d&amp;request_event_id=7ea6ea6a-c0c4-495a-9bc1-7c5885a824d5&amp;session_id=7ea6ea6a-c0c4-495a-9bc1-7c5885a824d5&amp;timetoken=1792268274_4A7731F9C126A1EE6D6A6B7C984D63CE" length="85874591" type="audio/mpeg" />
+      <itunes:duration>3585</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/respect-the-crit.xml">Respect the Crit — Empire's Edge</source>
+    </item>
+    <item>
+      <title>41 • LORE • [Star Wars: Old Canon Book Club] 23: Return of Return of the Jedi</title>
+      <guid isPermaLink="false">urn:sw-learning:fbeeff21d57ed6ead7cc4867481df39e43d478f03d4fcb553ca6920543da7efa</guid>
+      <link>https://audioboom.com/posts/8629146</link>
+      <description>Role: LORE. Publisher show: Star Wars: Old Canon Book Club. US Apple show-wide rating: 4.8/5 over 172 ratings (NOT this episode's rating). Editorial algorithm estimate: 58.0/100. Original publication: Wed, 25 Dec 2024 20:10:42 +0000. Creative application: Legends societies, space opera adventure structure, character arcs and expanded setting fiction.. Original notes: &lt;div&gt;You've read the book and now it's time for the movie! Return of the Jedi! What's a holiday without a tentpole? Alex, Davis, and Jesse, aka a time lapse of Scott Calving turning into Santa, are here to discuss the big trilogy ender and to look forward to the future! Happy Holidays!&lt;br&gt;&lt;br&gt;Want more boys? Love rappin' about the 'Wars? Get our entire Inside the Insider archive now! Issue 9 is live! &lt;a href="http://Patreon.com/SWOCBC"&gt;Patreon.co…</description>
+      <pubDate>Sat, 17 Oct 2026 14:19:00 +0000</pubDate>
+      <enclosure url="https://audioboom.com/posts/8629146.mp3?modified=1735157592&amp;sid=5106290&amp;source=rss" length="135409338" type="audio/mpeg" />
+      <itunes:duration>8427</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://audioboom.com/channels/5106290.rss">Star Wars: Old Canon Book Club</source>
+    </item>
+    <item>
+      <title>42 • STORY • [Nastygram — Dreamscapes] Star Wars: Dreamscapes - Ep 1. Field of View (Star Wars d6)</title>
+      <guid isPermaLink="false">urn:sw-learning:fb8793efe9566fbd474072f8215514991278763793fbbeba6f5cafd136be9e89</guid>
+      <link>https://nastygram.libsyn.com/star-wars-dreamscapes-ep-1-field-of-view-star-wars-d6</link>
+      <description>Role: STORY. Publisher show: Nastygram — Dreamscapes. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode's rating). Editorial algorithm estimate: 62.7/100. Original publication: Tue, 28 Oct 2025 05:00:00 +0000. Creative application: Jedi investigative process, unusual phenomena and mystery scenes.. Original notes: &lt;p&gt;A Jedi Knight and his apprentice are sent by the Council at the request of an investigator at a strange space station to help solve a series of murders and disappearances...&lt;/p&gt; &lt;p&gt;Theme song for Star Wars Dreamscapes is "Pluto" by Adrian von Ziegler. More from this amazing composer at &lt;a href= "https://adrianvonziegler.bandcamp.com/"&gt;https://adrianvonziegler.bandcamp.com/&lt;/a&gt;  All other scores are by Adrian von Zielger and Antti Martikainen &lt;…</description>
+      <pubDate>Sat, 17 Oct 2026 14:18:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Star_Wars_Dreamscapes_-_Field_of_View.mp3?dest-id=2773544" length="80591677" type="audio/mpeg" />
+      <itunes:duration>01:35:07</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/nastygram-d6.xml">Nastygram — Dreamscapes</source>
+    </item>
+    <item>
+      <title>43 • LORE • [Star Wars In Character Archives] Star Wars In Character – Ziro the Hutt – NEOZAZ</title>
+      <guid isPermaLink="false">urn:sw-learning:f51427747c6837a2f6f3ff2a24de9bcb271e4a91280b1eac94ed57ab1aea71df</guid>
+      <link>https://neozaz.com/star-wars-in-character-ziro-the-hutt/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-ziro-the-hutt</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character Archives. US Apple show-wide rating: 4.9/5 over 56 ratings (NOT this episode's rating). Editorial algorithm estimate: 53.2/100. Original publication: Sat, 01 Nov 2014 23:07:14 +0000. Creative application: Deep-cut obscure characters, creatures and cantina-background lore.. Original notes: &lt;p&gt;Episode 133 &amp;#8211; &amp;#8220;Ziro the Hutt&amp;#8221;. Hello there! We&amp;#8217;re back from our vacation time away and return the second most famous but first most annoying Hutt from &amp;#8220;The Clone Wars&amp;#8221;...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://neozaz.com/star-wars-in-character-ziro-the-hutt/"&gt;Star Wars In Character – Ziro the Hutt – NEOZAZ&lt;/a&gt; first appeared on &lt;a href="https://neozaz.com"&gt;NEOZAZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 14:17:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/0/6/d/06dcaeff0616784f/SWIC-EPISODE-133.mp3?c_id=13787112&amp;cs_id=13787112&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792266018&amp;Signature=bbqfexlwaAZOjF19MfrkLgO1jUP8h0uxWGkoSNtXkZmy6xZxU2z65sEG5vqPzXlrX5CtoUmScno6GSL0oqNYB~~nG1t2hMAHw9BL2JaypnkvcG7bHJ00DJvgKV~z5VN~~0hZN8HO8WAqyjIfEplXa14w3C-HVjYDgd1N8mzdFHf0BcYn8glSDGU6jtAmcb4Fs2LKmkJo3NmlbYtXqrdCq5BYlEiRNYBmwy8AP5ImtImrovsh6sMW1usY7H7GT6p0DXCD5zeJ5y-kLdeNCk4-eKy-b3sJIVKym91vEkuCsfrkqTUYbyg9idezWWnCc2EVf3ZrHTDenuVhrjNhKHzZYA__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="52277835" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://neozaz.com/feed/podcast/swicarchcast/">Star Wars In Character Archives</source>
+    </item>
+    <item>
+      <title>44 • STORY • [Nastygram — Dreamscapes] Star Wars: Dreamscapes - Ep 2. The Impossible (Star Wars d6)</title>
+      <guid isPermaLink="false">urn:sw-learning:fdaedaa196321d77e724d2174fe6dd54325a6b2f6a52a2bae9ffddfd200c20e2</guid>
+      <link>https://nastygram.libsyn.com/star-wars-dreamscapes-the-impossible-star-wars-d6</link>
+      <description>Role: STORY. Publisher show: Nastygram — Dreamscapes. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode's rating). Editorial algorithm estimate: 62.7/100. Original publication: Tue, 11 Nov 2025 06:00:00 +0000. Creative application: Jedi investigative process, unusual phenomena and mystery scenes.. Original notes: &lt;p&gt;Two Jedis continue to investigate the murders and disappearances that have happened aboard remote Takari Station.  Technology offers some surprising threats and possibly some insight into these crimes...&lt;/p&gt; &lt;p&gt;Theme song for Star Wars Dreamscapes is "Pluto" by Adrian von Ziegler. More from this amazing composer at &lt;a href= "https://adrianvonziegler.bandcamp.com/"&gt;https://adrianvonziegler.bandcamp.com/&lt;/a&gt;  All other scores are by Adrian von Z…</description>
+      <pubDate>Sat, 17 Oct 2026 14:16:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Star_Wars_Dreamscapes_-_The_Impossible_v3.mp3?dest-id=2773544" length="75802021" type="audio/mpeg" />
+      <itunes:duration>01:28:27</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/nastygram-d6.xml">Nastygram — Dreamscapes</source>
+    </item>
+    <item>
+      <title>45 • LORE • [Star Wars Explained] STAR WARS RUMOR PATROL: The High Republic, the Rebels Sequel Series, and More!</title>
+      <guid isPermaLink="false">urn:sw-learning:c9e731ebf39d8a9d1e53f085040e8655563322201c3be6413ec2bc2d50f92396</guid>
+      <link>https://pscrb.fm/rss/p/clrtpod.com/m/arttrk.com/p/ADCT2/traffic.libsyn.com/secure/3335bc7a-1085-4db0-96cb-15726d092193/STAR_WARS_RUMOR_PATROL_The_High_Republic_the_Rebels_Sequel_Series_and_More.mp3</link>
+      <description>Role: LORE. Publisher show: Star Wars Explained. US Apple show-wide rating: 4.3/5 over 417 ratings (NOT this episode's rating). Editorial algorithm estimate: 57.4/100. Original publication: Mon, 13 Jan 2020 20:00:00 -0000. Creative application: Compact Canon and Legends explainers on species, factions, Force lore, starships and locations. Exclude roundup and marketing news.. Original notes: Support the channel: https://www.patreon.com/starwarsexplainIs the High Republic really going to be the focus of the next Star Wars era? Is the JJ cut of The Rise of Skywalker a thing? What about that rumored Star Wars Rebels sequel series? We address the rumors that have popped up over the past couple weeks.---Subscribe for more Star Wars videos every day!---Instagram: http://instagram.com/starwarsexplainedTwitter: https://twitter.com/StarWarsEx…</description>
+      <pubDate>Sat, 17 Oct 2026 14:15:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/SBP4747433616.mp3?key=310f1389d8468b3ea4a8be5aeaa76f79&amp;request_event_id=3cb014fa-c3c4-4336-bb3b-879bd232c740&amp;session_id=3cb014fa-c3c4-4336-bb3b-879bd232c740&amp;timetoken=1792268262_E5089618BAABC4E7C870D46962EC4B3C" length="23534272" type="audio/mpeg" />
+      <itunes:duration>2047</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <source url="https://feeds.megaphone.fm/SBP1768354909">Star Wars Explained</source>
+    </item>
+    <item>
+      <title>46 • STORY • [Nastygram — Dreamscapes] Star Wars: Dreamscapes - Ep 3. The Underbelly (Star Wars d6)</title>
+      <guid isPermaLink="false">urn:sw-learning:124ad40c093459d3e92ad5b12d80067c269b327cabcfc6025a4a7caa664be4e8</guid>
+      <link>https://nastygram.libsyn.com/star-wars-dreamscapes-ep-3-the-underbelly-star-wars-d6</link>
+      <description>Role: STORY. Publisher show: Nastygram — Dreamscapes. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode's rating). Editorial algorithm estimate: 62.7/100. Original publication: Tue, 25 Nov 2025 06:00:00 +0000. Creative application: Jedi investigative process, unusual phenomena and mystery scenes.. Original notes: &lt;p&gt;The Jedi investigators dig deeper into the secrets of Takari station and find powerful agents at the top as well as in an underbelly of crime and the connections between the victims start to become more clear as threats grow...&lt;/p&gt; &lt;p&gt;Theme song for Star Wars Dreamscapes is "Pluto" by Adrian von Ziegler. More from this amazing composer at &lt;a href= "https://adrianvonziegler.bandcamp.com/"&gt;https://adrianvonziegler.bandcamp.com/&lt;/a&gt;  All other sc…</description>
+      <pubDate>Sat, 17 Oct 2026 14:14:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Star_Wars_Dreamscapes_-_The_Underbelly_v3.mp3?dest-id=2773544" length="94795318" type="audio/mpeg" />
+      <itunes:duration>01:54:50</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/nastygram-d6.xml">Nastygram — Dreamscapes</source>
+    </item>
+    <item>
+      <title>47 • LORE • [Eye on Canon] Jedi, the Force, and Normies</title>
+      <guid isPermaLink="false">urn:sw-learning:d446a61c2caf03b3c6187ae1f68cc10b62117ff81fd363c7833ade25456dfd94</guid>
+      <link>https://podcasters.spotify.com/pod/show/eye-on-canon-podcast/episodes/Jedi--the-Force--and-Normies-e2rgn4t</link>
+      <description>Role: LORE. Publisher show: Eye on Canon. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 59.1/100. Original publication: Tue, 26 Nov 2024 03:46:13 GMT. Creative application: In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed.. Original notes: &lt;p&gt;EP.   138&lt;/p&gt;
+&lt;p&gt;Last week we talked all about the Jedi and their relatability in our own world. This week we follow that right up with some in-universe commentary- the Jedi, and the Force itself, and how “normies” or non-Force-users relate to them. We also dive into some comics news and look at the new Outlaws DLC!&lt;/p&gt;
+&lt;p&gt;You can watch our episodes live every &lt;strong&gt;Monday at 5:30 PM PT, 8:30 PM ET &lt;/strong&gt;at &lt;a href="https://www.youtube.co…</description>
+      <pubDate>Sat, 17 Oct 2026 14:13:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/fd306288/podcast/play/94968413/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-26%2F169c0c35-83d9-d4cc-bf0e-cace5095f4a9.mp3" length="114106552" type="audio/mpeg" />
+      <itunes:duration>01:58:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <source url="https://anchor.fm/s/fd306288/podcast/rss">Eye on Canon</source>
+    </item>
+    <item>
+      <title>48 • STORY • [Nastygram — Dreamscapes] Star Wars: Dreamscapes - Ep 4. Proxy (Star Wars d6)</title>
+      <guid isPermaLink="false">urn:sw-learning:3b5d943ccee4c76515cab72bf70410e3409861bf76ea7be18bfb062e780af3fa</guid>
+      <link>https://nastygram.libsyn.com/star-wars-dreamscapes-ep-4-proxy-star-wars-d6</link>
+      <description>Role: STORY. Publisher show: Nastygram — Dreamscapes. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode's rating). Editorial algorithm estimate: 60.3/100. Original publication: Tue, 09 Dec 2025 06:00:00 +0000. Creative application: Jedi investigative process, unusual phenomena and mystery scenes.. Original notes: &lt;p&gt;Flashes of visions from the Force reveal themselves to Jedi Knight Cavinn Solimar, diriving him and his apprentice Tritian Adulis into action, but the future is never certain...&lt;/p&gt; &lt;p&gt;Theme song for Star Wars Dreamscapes is "Pluto" by Adrian von Ziegler. More from this amazing composer at &lt;a href= "https://adrianvonziegler.bandcamp.com/"&gt;https://adrianvonziegler.bandcamp.com/&lt;/a&gt;  All other scores are by Adrian von Zielger and Antti Martikain…</description>
+      <pubDate>Sat, 17 Oct 2026 14:12:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Star_Wars_Dreamscapes_-_Proxy.mp3?dest-id=2773544" length="66825920" type="audio/mpeg" />
+      <itunes:duration>01:16:00</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <source url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/nastygram-d6.xml">Nastygram — Dreamscapes</source>
+    </item>
+  </channel>
+</rss>

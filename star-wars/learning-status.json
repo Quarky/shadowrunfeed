@@ -1,10 +1,78 @@
 {
-  "created": "2026-10-17",
-  "state": "configured_not_published",
-  "episodes": 0,
-  "pairs": 0,
-  "warnings": [
-    "Source verification and initial GitHub Actions build required before using any new RSS link."
+  "generated_utc": "2026-10-17T18:17:32.972015+00:00",
+  "state": "published",
+  "lore_sources": [
+    {
+      "id": "star-wars-in-character",
+      "status": "included",
+      "episodes": 28
+    },
+    {
+      "id": "swic-archives",
+      "status": "included",
+      "episodes": 20
+    },
+    {
+      "id": "canon-timeline",
+      "status": "included",
+      "episodes": 20
+    },
+    {
+      "id": "old-canon-book-club",
+      "status": "included",
+      "episodes": 9
+    },
+    {
+      "id": "star-wars-explained",
+      "status": "included",
+      "episodes": 22
+    },
+    {
+      "id": "eye-on-canon",
+      "status": "included",
+      "episodes": 16
+    }
   ],
-  "copyrighted_audio_rehosted": false
+  "story_arcs": [
+    {
+      "id": "mynock",
+      "status": "included",
+      "episodes": 5
+    },
+    {
+      "id": "coldfire",
+      "status": "included",
+      "episodes": 5
+    },
+    {
+      "id": "dice-first",
+      "status": "included",
+      "episodes": 5
+    },
+    {
+      "id": "empires-edge",
+      "status": "included",
+      "episodes": 5
+    },
+    {
+      "id": "empires-end",
+      "status": "included",
+      "episodes": 4
+    },
+    {
+      "id": "dreamscapes",
+      "status": "included",
+      "episodes": 4
+    }
+  ],
+  "outputs": {
+    "learning-feed-v2.xml": 48,
+    "learning-lore.xml": 24,
+    "learning-story.xml": 24,
+    "learning-episodes.md": 48
+  },
+  "copyrighted_audio_rehosted": false,
+  "warnings": [],
+  "episodes": 48,
+  "pairs": 24
 }
