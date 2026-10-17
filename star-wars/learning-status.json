@@ -1,0 +1,10 @@
+{
+  "created": "2026-10-17",
+  "state": "configured_not_published",
+  "episodes": 0,
+  "pairs": 0,
+  "warnings": [
+    "Source verification and initial GitHub Actions build required before using any new RSS link."
+  ],
+  "copyrighted_audio_rehosted": false
+}
