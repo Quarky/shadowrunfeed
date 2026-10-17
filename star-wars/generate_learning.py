@@ -72,7 +72,20 @@ def is_lore(item,source):
     mode=source.get("mode","")
     if mode=="character" and ("calendar" in title or "special" in title and "character" not in title):
         return None
-    if mode=="explained" and ("last week" in title or "reaction" in title or "reviews" in title):
+    if mode=="explained" and any(x in title for x in (
+        "last week","reaction","reviews","chapter ","this is the show",
+        "live discussion","what to read","what to watch","watch before",
+        "season three","season two","rumor","new show","trailer","commentary",
+        "movie discussion","podcast","you missed","watching","episodes")):
+        return None
+    if source["id"]=="eye-on-canon" and any(x in title for x in (
+        "big screen","publishing","episode special","200th","watch party",
+        "movie review","season review","all about maul","future of star wars",
+        "live watch","trailer","what's new","what we think")):
+        return None
+    if source["id"]=="old-canon-book-club" and any(x in title for x in (
+        "return of return","movie review","season 2","episode special",
+        "tracking bantha","production history","box office","film review")):
         return None
     # Explicit lexical signals. Prevent news/promotion episodes of mixed feeds.
     title_hits=sum(bool(re.search(r"\b"+re.escape(term)+r"\b",title)) for cat in CFG["themes"].values() for term in cat["terms"])
