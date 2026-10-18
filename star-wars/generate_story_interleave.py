@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify thirty sequential original fiction episodes for interleaving.
+"""Verify twenty sequential original fiction episodes for interleaving.
 
 Pairs with the independent actual-play playlist at publication time.
 Never copy, host, or synthesize audio. All titles are original publisher RSS.
@@ -127,10 +127,10 @@ def main():
             except Exception as err:
                 diagnostics.append({"source":sid,"chapter":ch,"reason":str(err)[:1600]})
     if diagnostics:print("STORY VERIFICATION BLOCKERS:",json.dumps(diagnostics,indent=2))
-    if len(out)!=30 or diagnostics:
-        raise RuntimeError("Refusing incomplete publisher story/audio-drama series: "+str(len(out))+"/30 validated")
-    if any(group!="remote-complex" for group,_,_,_,_ in out[:20]):raise ValueError("Remote facility stories not grouped first")
-    if any(group!="sith-ruins" for group,_,_,_,_ in out[20:]):raise ValueError("Star Wars Sith fan-fiction not grouped last")
+    if len(out)!=20 or diagnostics:
+        raise RuntimeError("Refusing incomplete publisher story/audio-drama series: "+str(len(out))+"/20 validated")
+    if any(group!="remote-complex" for group,_,_,_,_ in out[:10]):raise ValueError("Remote facility stories not grouped first")
+    if any(group!="sith-ruins" for group,_,_,_,_ in out[10:]):raise ValueError("Star Wars Sith fan-fiction not grouped last")
     used=set();book={}
     for group,source,episode,item,rss in out:
         key=item.find("enclosure").get("url").split("?")[0]
@@ -146,7 +146,7 @@ def main():
         e=ET.SubElement(container,tag);e.text=str(value);return e
     put(chan,"title","Star Wars RPG — Original Fiction Interleaved with Actual Play")
     put(chan,"link","https://github.com/Quarky/shadowrunfeed/tree/main/star-wars")
-    put(chan,"description","Thirty original fiction episodes for pairing with thirty actual-play episodes. First twenty: isolated facilities and alien environments; then ten: Star Wars community audio drama and dark-side intrigue. Publisher audio only.")
+    put(chan,"description","Twenty original fiction episodes for pairing with twenty actual-play episodes. First ten: isolated facilities and alien environments; then ten: Star Wars community audio drama and dark-side intrigue. Publisher audio only.")
     put(chan,"language","en")
     ET.SubElement(chan,f"{{{ITUNES}}}image",{"href":"https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png"})
     ET.SubElement(chan,f"{{{ATOM}}}link",{"href":"https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/story-interleave.xml","rel":"self","type":"application/rss+xml"})
@@ -175,12 +175,12 @@ def main():
     payload=ET.tostring(root,encoding="utf-8",xml_declaration=True)
     ET.fromstring(payload)
     status={"state":"published","generated_utc":datetime.now(timezone.utc).isoformat(),
-        "fiction_episodes":30,"facility_fiction":20,"ancient_force_fiction":10,
+        "fiction_episodes":20,"facility_fiction":10,"ancient_force_fiction":10,
         "source_count":len(book),"fan_fiction_count":10,"copyrighted_audio_mirrored":False,
         "warnings":[]}
     lines=["# Original science-fiction and Star Wars community dramas — interleaving companion","",
-        "These thirty publisher-hosted, original fiction episodes are paired one-for-one with the newly selected actual plays in the **original Podbean subscription**. All scripts and recordings remain with their original creators.",
-        "","The first twenty story chapters portray scientific isolation, archaeological facilities, emergency conditions, alien ruins and character consequences. The final ten are **unofficial Star Wars fan audio dramas** portraying Sith, relics, loyalty, Force traditions and risky artifacts.",
+        "These twenty publisher-hosted, original fiction episodes are paired one-for-one with the newly selected actual plays in the **original Podbean subscription**. All scripts and recordings remain with their original creators.",
+        "","The first ten story chapters portray scientific isolation, archaeological facilities, emergency conditions, alien ruins and character consequences. The final ten are **unofficial Star Wars fan audio dramas** portraying Sith, relics, loyalty, Force traditions and risky artifacts.",
         "","| Story # | Genre | Original publisher chapter | Creative use |",
         "| ---: | --- | --- | --- |"]
     for row in episodes:
