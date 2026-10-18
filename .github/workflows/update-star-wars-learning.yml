@@ -233,32 +233,36 @@ jobs:
           echo "Could not safely publish within four reconciliation attempts" >&2
           exit 1
 
-      - name: Check podcast CDN cache and request refresh when stale
+      - name: Refresh originally subscribed RSS on every jsDelivr edge
         if: success()
         continue-on-error: true
         run: |
           set -euo pipefail
-          url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml"
-          expected=$(grep -c '<item>' star-wars/feed-v2.xml)
-          echo "Published original subscriber RSS items: $expected"
-          if curl --fail --silent --show-error --location --max-time 20 "$url" -o /tmp/subscriber-cdn.xml; then
-            actual=$(grep -c '<item>' /tmp/subscriber-cdn.xml || true)
-            echo "Currently cached at original subscription URL: $actual"
-            if [ "$actual" -ne "$expected" ]; then
-              echo "CDN branch cache is stale; asking jsDelivr to invalidate this public URL"
-              curl --silent --show-error --location --max-time 20                 "https://purge.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml"                 | head -c 800 || true
-              echo
-              sleep 4
-              if curl --fail --silent --show-error --location --max-time 20 "$url" -o /tmp/subscriber-cdn-refreshed.xml; then
-                fresh=$(grep -c '<item>' /tmp/subscriber-cdn-refreshed.xml || true)
-                echo "CDN after purge request: $fresh items (expecting $expected)"
-                if [ "$fresh" -ne "$expected" ]; then
-                  echo "::warning::GitHub RSS has $expected episodes, but jsDelivr's 12-hour branch cache currently has $fresh. Podbean will update after CDN cache expiration."
-                fi
+          local_feed="star-wars/feed-v2.xml"
+          expected=$(grep -c '<item>' "$local_feed")
+          echo "Verified repository original subscription: $expected playable episodes"
+          for alias in feed-v2.xml feed.xml; do
+            url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/$alias"
+            purge="https://purge.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/$alias"
+            reached=false
+            for attempt in 1 2 3 4 5 6; do
+              if curl --fail --silent --show-error --location --max-time 20 "$url" -o "/tmp/cdn-$alias"; then
+                count=$(grep -c '<item>' "/tmp/cdn-$alias" || true)
+              else
+                count=0
               fi
-            else
-              echo "PASS: Existing Podbean CDN URL currently shows all $expected episodes"
+              echo "$alias check $attempt: $count of $expected episodes on CDN"
+              if [ "$count" -eq "$expected" ]; then
+                echo "PASS: $alias serves all $expected playable episodes"
+                reached=true
+                break
+              fi
+              # purge request is idempotent and does not change publisher audio
+              curl --fail --silent --show-error --location --max-time 25 "$purge" -o "/tmp/purge-$alias" || true
+              echo "Requested CDN invalidation $alias"
+              sleep 12
+            done
+            if [ "$reached" != true ]; then
+              echo "::warning::$alias currently stale. All $expected episodes are safely published on GitHub, but public CDN may still lag."
             fi
-          else
-            echo "::warning::Could not read public CDN from this runner; GitHub source is published and validated."
-          fi
+          done
