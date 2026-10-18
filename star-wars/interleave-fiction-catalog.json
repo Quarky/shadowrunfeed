@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "description": "Twenty original-fiction episodes interleaved with the preexisting twenty thematic actual plays: ten remote-facility/survival pairs and ten Sith-ruins/Force-mystery pairs. The separately published later bonus feed remains unchanged.",
+  "description": "Interleave 10 remote-facility science-fiction drama chapters with 10 existing actual plays, followed by 10 consecutive Old Republic Star Wars community audio drama chapters paired with the existing ten Sith-ruin live plays. Retain separately published bonus feed.",
   "publication": "Adds only original publisher-hosted fiction audio, without rehosting, mirroring or generating copyrighted works. Not official Star Wars stories.",
   "source_policy": "Use original RSS/iTunes metadata and strict series+chapter evidence. Never select trailers, discussion, highlights, book excerpts without publishing authorization, prelude recaps, or story episodes without confirmed enclosure.",
   "sources": [
@@ -45,13 +45,6 @@
       "apple_id": 1617149300,
       "role": "Star Wars fan audio drama (unofficial)",
       "focus": "Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power."
-    },
-    {
-      "id": "crusade",
-      "title": "Star Wars: Crusade of the Rebellion",
-      "apple_id": 1031779621,
-      "role": "Star Wars fan audio drama (unofficial)",
-      "focus": "A secret Imperial project pursuing ancient artifacts; conspiracies, domination and the cost of dangerous relics."
     }
   ],
   "segments": [
@@ -110,15 +103,7 @@
           "chapter": 1
         },
         {
-          "show": "crusade",
-          "chapter": 1
-        },
-        {
           "show": "legacy",
-          "chapter": 2
-        },
-        {
-          "show": "crusade",
           "chapter": 2
         },
         {
@@ -126,15 +111,7 @@
           "chapter": 3
         },
         {
-          "show": "crusade",
-          "chapter": 3
-        },
-        {
           "show": "legacy",
-          "chapter": 4
-        },
-        {
-          "show": "crusade",
           "chapter": 4
         },
         {
@@ -144,6 +121,22 @@
         {
           "show": "legacy",
           "chapter": 6
+        },
+        {
+          "show": "legacy",
+          "chapter": 7
+        },
+        {
+          "show": "legacy",
+          "chapter": 8
+        },
+        {
+          "show": "legacy",
+          "chapter": 9
+        },
+        {
+          "show": "legacy",
+          "chapter": 10
         }
       ]
     }
