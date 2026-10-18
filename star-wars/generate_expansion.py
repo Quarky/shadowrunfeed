@@ -108,7 +108,7 @@ def main():
             print("SELECTED",row["id"],"::",picked["episode"])
     if len(selected)!=20:
         print("VALIDATION MISSING:",json.dumps(diagnostics,indent=2))
-        raise RuntimeError("Refusing partial podcast publication: "+str(len(selected))+"/30 verified sources")
+        raise RuntimeError("Refusing partial podcast publication: "+str(len(selected))+"/20 verified sources")
     used_ids=set();used_audio=set()
     for selection in selected:
         ident=selection["row"]["id"]
@@ -168,7 +168,7 @@ def main():
            "new_publisher_programs":len({r["publisher"] for r in rows}),
            "non_star_wars_actual_plays":sum(not r["star_wars_setting"] for r in rows),
            "no_audio_rehosted":True,"all_enclosures_https_valid":True,"warnings":[]}
-    lines=["# Additional Star Wars RPG actual-play inspiration: 30 episodes","",
+    lines=["# Additional Star Wars RPG actual-play inspiration: 20 episodes","",
         "Twenty existing expansion episodes appended **after** the original Star Wars subscriber's existing seventy. First ten are remote-complex/experimental-science/survival inspired; next ten are Sith-temple, relic, tomb and Force inspired. These are broad public genres only, never private campaign story canon.",
         "",
         "Some shows are other science-fiction systems, **not Star Wars**; they provide encounter structure and world portrayal without being Star Wars source lore. An episode explicitly marked *mid-arc* may need preceding story context.",
