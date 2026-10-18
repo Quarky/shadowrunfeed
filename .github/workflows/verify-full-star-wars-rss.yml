@@ -1,0 +1,105 @@
+name: Verify Published Full Star Wars RSS (140 episodes)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "star-wars/feed-v2.xml"
+      - "star-wars/feed.xml"
+      - ".github/workflows/verify-full-star-wars-rss.yml"
+  schedule:
+    - cron: "27 7 * * *"
+permissions:
+  contents: read
+concurrency:
+  group: star-wars-140-rss-validation
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Validate complete RSS XML and historic episode identities
+        run: |
+          set -euo pipefail
+          python3 -m pip install --disable-pip-version-check --quiet feedparser
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          from email.utils import parsedate_to_datetime
+          import feedparser
+          root=Path("star-wars")
+          def load(n):
+              payload=(root/n).read_bytes()
+              tree=ET.fromstring(payload)
+              assert tree.tag=="rss" and tree.attrib.get("version")=="2.0",n
+              channel=tree.find("channel")
+              assert channel is not None,n
+              entries=channel.findall("item")
+              ids=[x.findtext("guid") for x in entries]
+              assert len(ids)==len(set(ids))==len(entries),n
+              for episode in entries:
+                  enclosure=episode.find("enclosure")
+                  assert enclosure is not None,n
+                  assert enclosure.get("url","").startswith("https://"),n
+                  assert int(enclosure.get("length","0"))>0,n
+                  assert enclosure.get("type") in ("audio/mpeg","audio/mp4"),n
+                  parsedate_to_datetime(episode.findtext("pubDate"))
+              return payload,entries
+          original,old=load("feed-100-baseline.xml")
+          main,full=load("feed-v2.xml")
+          alias,alias_items=load("feed.xml")
+          assert len(old)==100 and len(full)==len(alias_items)==140
+          assert [x.findtext("guid") for x in full]==[x.findtext("guid") for x in alias_items]
+          assert [x.findtext("guid") for x in old]==[x.findtext("guid") for x in full[:100]]
+          assert [(x.findtext("title"),x.findtext("pubDate")) for x in old]==[(x.findtext("title"),x.findtext("pubDate")) for x in full[:100]]
+          assert [x.find("enclosure").get("url") for x in old]==[x.find("enclosure").get("url") for x in full[:100]]
+          assert len({x.find("enclosure").get("url").split("?")[0] for x in full})==140
+          for payload in (main,alias):
+              text=payload.decode("utf-8")
+              assert text.startswith('<?xml version="1.0" encoding="UTF-8"?>')
+              assert 'xmlns:ns2' not in text and 'xmlns:ns3' not in text
+              assert '<source' not in text and '<ns2:' not in text
+              parsed=feedparser.parse(payload)
+              assert not parsed.bozo, repr(parsed.bozo_exception)
+              assert len(parsed.entries)==140
+          print("PASS: strict XML + feedparser + 140 unique entries + 100 original episode identities",flush=True)
+          PY
+      - name: Verify the ACTUAL subscribed jsDelivr URL and regional CDN mirrors
+        run: |
+          python3 - <<'PY'
+          import urllib.request,xml.etree.ElementTree as ET,time
+          expected=140
+          path="gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml"
+          hosts=["cdn.jsdelivr.net","fastly.jsdelivr.net","gcore.jsdelivr.net"]
+          def inspect(host):
+              url="https://"+host+"/"+path
+              request=urllib.request.Request(url,headers={"User-Agent":"PodbeanPodcast/Android","Accept":"application/rss+xml, application/xml"})
+              with urllib.request.urlopen(request,timeout=25) as response:
+                  data=response.read()
+                  channel=ET.fromstring(data).find("channel")
+                  items=channel.findall("item")
+                  ids=[x.findtext("guid") for x in items]
+                  assert len(ids)==len(set(ids))
+                  return len(items),response.headers.get("Age","unknown"),response.headers.get("Content-Type")
+          for host in hosts:
+              try:
+                  n,age,ctype=inspect(host)
+                  print(f"CDN {host}: {n} items, Age {age}, Content-Type {ctype}",flush=True)
+                  if n==expected:continue
+                  if host=="cdn.jsdelivr.net":
+                      try:
+                          url="https://purge.jsdelivr.net/"+path
+                          with urllib.request.urlopen(url,timeout=25) as res:print("Purge request:",res.status,flush=True)
+                      except Exception as exc:print("Purge request failed:",repr(exc),flush=True)
+                      time.sleep(3)
+                      n2,age2,_=inspect(host)
+                      print(f"CDN recheck {host}: {n2} items, Age {age2}",flush=True)
+                      if n2==expected:continue
+                  print(f"WARNING: {host} is still serving {n}/{expected} entries; app may keep the stale feed",flush=True)
+              except Exception as exc:print(f"WARNING: {host} public check failed: {exc}",flush=True)
+          print("HTTP validation is NOT a real Podbean in-app import test",flush=True)
+          PY
