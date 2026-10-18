@@ -1,0 +1,57 @@
+name: Publish FATHOM Complete Season RSS
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "fathom/build_feed.py"
+      - ".github/workflows/update-fathom-feed.yml"
+  schedule:
+    - cron: "41 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fathom-season-rss
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build FATHOM RSS from official publisher
+        run: |
+          python3 -m py_compile fathom/build_feed.py
+          python3 fathom/build_feed.py
+      - name: Validate complete season and audio metadata
+        run: |
+          python3 - <<'PY'
+          import json, xml.etree.ElementTree as ET
+          root = ET.parse("fathom/feed.xml").getroot()
+          channel = root.find("channel")
+          items = channel.findall("item")
+          assert root.tag == "rss" and len(items) == 10
+          assert len(set(item.findtext("guid") for item in items)) == 10
+          for n, item in enumerate(items, 1):
+              assert f"FATHOM" in item.findtext("title", "").upper(), n
+              assert item.find("enclosure").get("url", "").startswith("https://"), n
+          assert json.load(open("fathom/status.json"))["episodes"] == 10
+          print("Validated FATHOM E1–E10 in story order")
+          PY
+      - name: Publish independent FATHOM RSS only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fathom/feed.xml fathom/status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish verified FATHOM ten-episode RSS"
+            git push
+          fi
