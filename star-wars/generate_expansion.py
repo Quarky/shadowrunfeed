@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Select exactly 30 new, verified publisher-hosted actual-play episodes.
+"""Select exactly 20 existing verified publisher-hosted actual-play episodes.
 
-Twenty general remote/alien/automated-facility sessions, followed by ten Star Wars
+Ten general remote/alien/automated-facility sessions, followed by ten Star Wars
 dark-side/ancient-ruins sessions. Keep public descriptions generic and private
 campaign canon outside public source. Abort on missing title or invalid audio.
 """
@@ -86,7 +86,7 @@ def atomically_write(name,data):
     tmp.replace(output)
 
 def main():
-    if len(CFG["entries"])!=30:raise RuntimeError("Expected twenty remote-science episodes and ten Sith-ruins episodes")
+    if len(CFG["entries"])!=20:raise RuntimeError("Expected twenty remote-science episodes and ten Sith-ruins episodes")
     shows={}
     diagnostics=[]
     for row in CFG["entries"]:
@@ -106,7 +106,7 @@ def main():
         elif picked:
             selected.append(picked)
             print("SELECTED",row["id"],"::",picked["episode"])
-    if len(selected)!=30:
+    if len(selected)!=20:
         print("VALIDATION MISSING:",json.dumps(diagnostics,indent=2))
         raise RuntimeError("Refusing partial podcast publication: "+str(len(selected))+"/30 verified sources")
     used_ids=set();used_audio=set()
@@ -116,15 +116,15 @@ def main():
         if ident in used_ids or audio in used_audio:
             raise RuntimeError("Duplicate publisher audio or playlist identity")
         used_ids.add(ident);used_audio.add(audio)
-    assert all(e["row"]["group"]=="remote-complex" for e in selected[:20])
-    assert all(e["row"]["group"]=="sith-ruins" for e in selected[20:])
+    assert all(e["row"]["group"]=="remote-complex" for e in selected[:10])
+    assert all(e["row"]["group"]=="sith-ruins" for e in selected[10:])
     root=ET.Element("rss",{"version":"2.0"})
     channel=ET.SubElement(root,"channel")
     def put(parent,tag,value):
         e=ET.SubElement(parent,tag);e.text=str(value);return e
     put(channel,"title","Star Wars RPG — Additional Actual Play Inspiration")
     put(channel,"link","https://github.com/Quarky/shadowrunfeed/tree/main/star-wars")
-    put(channel,"description","Thirty new actual-play selections. First twenty: hazardous research installations, ruins and sci-fi survival. Following ten: ancient Sith relics, tombs and dark-side mysteries. Non-Star-Wars games are labeled as cross-genre inspiration.")
+    put(channel,"description","Twenty actual-play selections. First twenty: hazardous research installations, ruins and sci-fi survival. Following ten: ancient Sith relics, tombs and dark-side mysteries. Non-Star-Wars games are labeled as cross-genre inspiration.")
     put(channel,"language","en")
     put(channel,f"{{{ITUNES}}}author","Independent RPG Listening Index")
     ET.SubElement(channel,f"{{{ITUNES}}}image",{"href":"https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png"})
@@ -164,12 +164,12 @@ def main():
     xml=ET.tostring(root,encoding="utf-8",xml_declaration=True)
     ET.fromstring(xml)
     report={"state":"published","generated_utc":datetime.now(timezone.utc).isoformat(),
-           "count":len(rows),"first_section":20,"second_section":10,
+           "count":len(rows),"first_section":10,"second_section":10,
            "new_publisher_programs":len({r["publisher"] for r in rows}),
            "non_star_wars_actual_plays":sum(not r["star_wars_setting"] for r in rows),
            "no_audio_rehosted":True,"all_enclosures_https_valid":True,"warnings":[]}
     lines=["# Additional Star Wars RPG actual-play inspiration: 30 episodes","",
-        "Thirty NEW episodes appended **after** the original Star Wars subscriber's existing seventy. First twenty are remote-complex/experimental-science/survival inspired; next ten are Sith-temple, relic, tomb and Force inspired. These are broad public genres only, never private campaign story canon.",
+        "Twenty existing expansion episodes appended **after** the original Star Wars subscriber's existing seventy. First ten are remote-complex/experimental-science/survival inspired; next ten are Sith-temple, relic, tomb and Force inspired. These are broad public genres only, never private campaign story canon.",
         "",
         "Some shows are other science-fiction systems, **not Star Wars**; they provide encounter structure and world portrayal without being Star Wars source lore. An episode explicitly marked *mid-arc* may need preceding story context.",
         "",
