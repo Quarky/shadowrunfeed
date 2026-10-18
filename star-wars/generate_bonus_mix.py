@@ -40,13 +40,14 @@ def match(row, rss, items):
     candidates = []
     excluded = (" trailer ", " teaser ", " preview ", " behind the scenes ", " interview ",
                 " discussion ", " episode recap ", " bonus episode ", " character creation ",
-                " behind the mic ", " announcement ", " cast chat ")
+                " behind the mic ", " announcement ", " cast chat ", " director commentary ", " commentary on ", " commentary ",
+                " behind the scenes ", " q and a ", " recap ", " making of ")
     for item in items:
         title = item.findtext("title") or ""
         normalized = " " + cleaned(title) + " "
         if any(stop in normalized for stop in excluded):
             continue
-        found = [(n, term) for n,term in enumerate(terms) if term and term in normalized]
+        found = [(n, term) for n,term in enumerate(terms) if term and (" " + term + " ") in normalized]
         if found:
             best = min(n for n,_ in found)
             candidates.append((best, -max(len(t) for _,t in found), len(title), item))
