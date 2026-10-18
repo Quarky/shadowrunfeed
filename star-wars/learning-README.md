@@ -12,6 +12,11 @@ The original subscribed RSS now adds [thirty new recorded actual plays](expansio
 
 [View the 30-episode playlist](expansion-episodes.md) · [Source-specific details and systems](expansion-episodes.json) · [Verified source status](expansion-status.json). Some selections begin in an established arc and are marked as such. Non-Star-Wars actual plays are explicitly labeled as cross-genre references.
 
+
+## Additional themed listening (episodes 71–110 of the original Podbean feed)
+
+The original subscriber queue now retains the earlier **20 thematic actual plays** (71–80 remote research and survival; 81–90 Sith-tomb mysteries). Following those, **20 more unique audio recordings** use a deliberately different format mix: **91–100 Moraband-style** ancient magic, secret societies and ruins (five scripted audio dramas / five tabletop actual plays) and **101–110 Shard Moon-style** ancient laboratories, experimental facilities and survival (five dramas / five actual plays). All twenty new shows are different productions, with no reused recordings and no cross-genre episode misrepresented as Star Wars canon. See the [source-verified, playable additions](bonus-20-episodes.md) and [publication status](bonus-20-status.json).
+
 ## Alternative curated-only RSS
 
 **[Standalone 61-episode ranked Star Wars RSS](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-feed-v2.xml)** remains available for those already following that second address. It has the same 20-track opening, followed by 41 unique remaining ranked selections; it omits nine historical subscriber-sampler extras.
