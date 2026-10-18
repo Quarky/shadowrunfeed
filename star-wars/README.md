@@ -6,13 +6,17 @@ This is a **separate collection** in the existing public [Quarky/shadowrunfeed](
 
 **[Original Star Wars RSS with the 20 episodes added first](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml)**
 
-This is the original `feed-v2.xml` subscription supplied for Podbean—not the newer separate `learning-feed-v2.xml`. On 2026-10-17 the original feed was expanded from 16 to **70 verified publisher-hosted recordings**:
+This is the original `feed-v2.xml` subscription supplied for Podbean—not the newer separate `learning-feed-v2.xml`. As of 2026-10-18 the original feed contains **100 verified publisher-hosted recordings**:
 
 - **Episodes 1–10:** 5 science-fiction audio dramas alternating with 5 Star Wars actual-play starts, no lore interruptions.
 - **Episodes 11–20:** 5 normal lore/story pairs.
-- **Episodes 21 onward:** The remaining ranked episodes, plus 9 original sampler recordings not already present. All original 16 subscriber GUIDs remain present, and overlapping recordings are deduplicated.
+- **Episodes 21–70:** The remaining ranked episodes plus 9 previously subscribed sampler recordings not already present.
+- **Episodes 71–90:** 20 *new* performed sci-fi/Star Wars actual plays featuring isolated installations, dangerous automated facilities, alien experiments, equipment failures, and hazardous exploration.
+- **Episodes 91–100:** 10 *new* Star Wars actual-play episodes emphasizing Sith temples, ancient relics, Force mysteries, and dark-side traditions.
 
-[Subscriber feed status](subscriber-status.json) · [Complete 61-episode themed/ranked core](learning-episodes.md) · [Original 16-episode sampler](sampler-v2.xml) · [Automatic weekly updater](../.github/workflows/update-star-wars-learning.yml).
+All original 16 subscriber GUIDs remain present; repeated audio is deduplicated. The new thirty recordings come from **16 distinct actual-play programs**.
+
+[Subscriber feed status](subscriber-status.json) · [Full new 30-episode actual-play list](expansion-episodes.md) · [Complete earlier 61-episode themed/ranked core](learning-episodes.md) · [Original 16-episode sampler](sampler-v2.xml) · [Automatic weekly updater](../.github/workflows/update-star-wars-learning.yml).
 
 The old `feed.xml` is also updated as an equivalent feed. The `learning-feed-v2.xml` remains a separate 61-episode listening collection, so neither new nor existing listeners are forced to resubscribe. Separate D6 and individual actual-play RSS remain intact.
 
@@ -24,7 +28,7 @@ Outside sci-fi audio dramas are clearly marked cross-genre creative inspiration,
 
 **Original subscribed Star Wars FFG/D6 feed (expanded collection):** `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml`
 
-This feed has been successfully published with 70 original publisher-hosted recordings; see the [subscriber-specific status](subscriber-status.json). The original `feed.xml` address is an equivalent alias. The 16-episode original discovery sampler is preserved separately at [sampler-v2.xml](sampler-v2.xml).
+This feed has been successfully published with 100 original publisher-hosted recordings; see the [subscriber-specific status](subscriber-status.json). The original `feed.xml` address is an equivalent alias. The 16-episode original discovery sampler is preserved separately at [sampler-v2.xml](sampler-v2.xml).
 
 **Complete Star Wars D6 anthology (publisher-hosted):** `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/d6-feed.xml`
 
