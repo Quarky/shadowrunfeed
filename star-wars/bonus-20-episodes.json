@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-18T17:58:00.708960+00:00",
+  "generated_utc": "2026-10-18T18:01:11.833891+00:00",
   "episodes": [
     {
       "selection": 1,
@@ -48,7 +48,7 @@
       "episode": "13 Omens #1",
       "episode_url": "https://feeds.megaphone.fm/NSR3713660967",
       "publisher_rss": "https://feeds.megaphone.fm/NSR3713660967",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/NSR1885090879.mp3?key=b2bbb1330adb372034c3aec0961e9288&request_event_id=ba752af0-cb7a-409b-ad61-b949bf648d23&session_id=ba752af0-cb7a-409b-ad61-b949bf648d23&timetoken=1792353464_B166A6344AAE594330A68E263818CB69",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/NSR1885090879.mp3?key=8a89f1327fe9795726586fd22f96f255&request_event_id=7286ee27-b37d-496b-aeac-2f3b14c04129&session_id=7286ee27-b37d-496b-aeac-2f3b14c04129&timetoken=1792353652_E0EE9CE0AB33793224B228A3092FF897",
       "creative_use": "Inheritance, old obligations, family secrets and investigation of a ritual curse.",
       "star_wars_setting": false,
       "original_publication": "Fri, 11 Sep 2026 16:00:00 -0000"
@@ -123,13 +123,13 @@
       "theme": "moraband",
       "kind": "ACTUAL_PLAY",
       "show": "The Glass Cannon Podcast",
-      "episode": "DMV | Time For Chaos S1 E10 | Call of Cthulhu Masks of Nyarlathotep",
+      "episode": "Pisco Sour | Time For Chaos S1 E2 | Call of Cthulhu Masks of Nyarlathotep",
       "episode_url": "https://feeds.megaphone.fm/QCD8414694967",
       "publisher_rss": "https://feeds.megaphone.fm/QCD8414694967",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/SBP2998762349.mp3?key=3d969fe72c12ac464fcac9f1c98fc8fc&request_event_id=4b08abcd-d17b-40e2-a3f2-c1258731089f&session_id=4b08abcd-d17b-40e2-a3f2-c1258731089f&timetoken=1792353469_C4E89995C105825345B636C592EED47A",
-      "creative_use": "Investigators pursuing ancient cult conspiracies; inspiration for layered relic and tomb plots.",
+      "publisher_audio_url": "https://dcs-spotify.megaphone.fm/SBP9728638374.mp3?key=aa6dfd670bff6fba1687dec10a4b5ee5&request_event_id=1731e5ee-7c4e-4215-9ae6-4eb6e1e172b8&session_id=1731e5ee-7c4e-4215-9ae6-4eb6e1e172b8&timetoken=1792353660_4430FDA8B1C70EAF9BDBF3AB45A1D621",
+      "creative_use": "Character-driven investigation during an expedition into a dangerous ancient conspiracy; opening in-character play rather than character creation.",
       "star_wars_setting": false,
-      "original_publication": "Fri, 23 May 2025 04:00:00 -0000"
+      "original_publication": "Tue, 13 May 2025 04:00:00 -0000"
     },
     {
       "selection": 11,
@@ -165,7 +165,7 @@
       "episode": "1: The Cleaner",
       "episode_url": "https://feeds.megaphone.fm/SBP7220818085",
       "publisher_rss": "https://feeds.megaphone.fm/SBP7220818085",
-      "publisher_audio_url": "https://dcs-spotify.megaphone.fm/SBP9273307737.mp3?key=de5b64f6bdf64c48ad09129d4cc8f166&request_event_id=b9e46bac-e03c-45e1-85a2-a915d29bcab3&session_id=b9e46bac-e03c-45e1-85a2-a915d29bcab3&timetoken=1792353473_77AD8074BB27D7DCF25A9C8D59716FDE",
+      "publisher_audio_url": "https://dcs-spotify.megaphone.fm/SBP9273307737.mp3?key=3799257c4255dedbb1aaad67c12a7be7&request_event_id=9b6f26bf-486a-4d7e-a11b-dc0fb9601384&session_id=9b6f26bf-486a-4d7e-a11b-dc0fb9601384&timetoken=1792353664_25710CC86C180E42019FAA4C18C8A2FB",
       "creative_use": "A controlled enclosed habitat with identity, surveillance and unexplained experiments.",
       "star_wars_setting": false,
       "original_publication": "Mon, 11 Mar 2019 03:00:00 -0000"
@@ -178,7 +178,7 @@
       "episode": "FRONTIERS -  Prologue: The Space Before",
       "episode_url": "https://noquestcast.podbean.com/e/frontiers-the-space-before-prologue/",
       "publisher_rss": "https://feeds.megaphone.fm/NSR2697497777",
-      "publisher_audio_url": "https://dcs-spotify.megaphone.fm/NSR5016040794.mp3?key=8f2dd36e400bb31ee3549e5389104106&request_event_id=37305ebf-c2b1-4af4-a5bf-7ad56c14af35&session_id=37305ebf-c2b1-4af4-a5bf-7ad56c14af35&timetoken=1792353475_101C48E06CED0B7863C55D7DA0FE764D",
+      "publisher_audio_url": "https://dcs-spotify.megaphone.fm/NSR5016040794.mp3?key=366b015718a033f8cd248ffa4ebbc00f&request_event_id=58d9a9f7-8e2d-41c1-b82a-ac7746bebe06&session_id=58d9a9f7-8e2d-41c1-b82a-ac7746bebe06&timetoken=1792353665_A1CA1C98E14D3C4282810CB4E337BC9F",
       "creative_use": "A science-fiction crew evaluates a catastrophic dimensional anomaly and its consequences.",
       "star_wars_setting": false,
       "original_publication": "Wed, 23 Apr 2025 18:00:00 -0000"
@@ -201,26 +201,26 @@
       "theme": "shard-moon",
       "kind": "ACTUAL_PLAY",
       "show": "Cosmic Crit: A Starfinder Actual Play Podcast",
-      "episode": "Guilt of the Grave World | 018: Rotting Hill",
-      "episode_url": "https://cosmiccrit.com/guilt-of-the-grave-world-018-rotting-hill/",
+      "episode": "Guilt of the Grave World | 010: Orb Your Enthusiasm",
+      "episode_url": "https://cosmiccrit.com/guilt-of-the-grave-world-010-orb-your-enthusiasm/",
       "publisher_rss": "https://cosmiccrit.com/feed/podcast/",
-      "publisher_audio_url": "https://cosmiccrit.com/podcast-download/3820/guilt-of-the-grave-world-018-rotting-hill.mp3",
-      "creative_use": "Sci-fi adventurers navigate perilous worlds and suspicious technological/biological infrastructure.",
+      "publisher_audio_url": "https://cosmiccrit.com/podcast-download/3802/guilt-of-the-grave-world-010-orb-your-enthusiasm.mp3",
+      "creative_use": "Exploration of a damaged Station Alpha arcane laboratory, with stranded people, strange experiments and negotiated threats.",
       "star_wars_setting": false,
-      "original_publication": "Mon, 15 Jun 2026 04:05:00 +0000"
+      "original_publication": "Mon, 20 Apr 2026 04:05:00 +0000"
     },
     {
       "selection": 17,
       "theme": "shard-moon",
       "kind": "DRAMA",
       "show": "Celeritas",
-      "episode": "Director Commentary on Episode 1",
+      "episode": "S1E1 | Engine Test 2B",
       "episode_url": "https://feeds.megaphone.fm/SBP2001311146",
       "publisher_rss": "https://feeds.megaphone.fm/SBP2001311146",
-      "publisher_audio_url": "https://dcs-spotify.megaphone.fm/SBP2626322863.mp3?key=80e0a0a7f470b6718f75bcc629426335&request_event_id=7dd8c952-5dc0-4373-b9fe-d5daca07094b&session_id=7dd8c952-5dc0-4373-b9fe-d5daca07094b&timetoken=1792353478_D3AF6FD7CAF6C187680B42D1069B47D3",
-      "creative_use": "Experimental space technology, isolation and practical problem-solving under extreme uncertainty.",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/SBP7900470313.mp3?key=8fb939ef52bfcd83196f3056bcc57ba1&request_event_id=c92237b6-ffc5-4466-8b82-8784aa3bd9aa&session_id=c92237b6-ffc5-4466-8b82-8784aa3bd9aa&timetoken=1792353669_FF3AC1833FE0922BAD7D1746D93AD6FE",
+      "creative_use": "First-light experimental propulsion flight becomes survival science when testing goes wrong; opening fictional chapter, not creator commentary.",
       "star_wars_setting": false,
-      "original_publication": "Wed, 23 Oct 2024 19:36:00 -0000"
+      "original_publication": "Wed, 13 Oct 2021 15:00:00 -0000"
     },
     {
       "selection": 18,
@@ -230,7 +230,7 @@
       "episode": "Triple Agents Chapter 01 [Triangle Agency]",
       "episode_url": "https://feeds.megaphone.fm/houseofbob",
       "publisher_rss": "https://feeds.megaphone.fm/houseofbob",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/FAFO1494708149.mp3?key=1e95a45706e3695a81f4c58736b8f34c&request_event_id=e005282f-bd36-44bc-9008-964bf8865360&session_id=e005282f-bd36-44bc-9008-964bf8865360&timetoken=1792353479_50143A983733A3D034DD70211DE18810",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/FAFO1494708149.mp3?key=1675d0c8522c4570b6ed72ad7ff03610&request_event_id=d3b2787a-d4eb-4936-a2a3-879a4df086dd&session_id=d3b2787a-d4eb-4936-a2a3-879a4df086dd&timetoken=1792353670_0CB71A8FD621405473B64A436FAE71A6",
       "creative_use": "Team members respond to an anomalous corporate site where everyday procedures mask danger.",
       "star_wars_setting": false,
       "original_publication": "Mon, 01 Dec 2025 08:00:00 -0000"
