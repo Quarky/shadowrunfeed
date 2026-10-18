@@ -10,6 +10,8 @@ on:
       - "star-wars/generate_learning.py"
       - "star-wars/generate_frontier_mix.py"
       - "star-wars/publish_original_subscription.py"
+      - "star-wars/expansion-catalog.json"
+      - "star-wars/generate_expansion.py"
       - ".github/workflows/update-star-wars-learning.yml"
   schedule:
     - cron: "13 6 * * 1"
@@ -24,7 +26,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
         with:
@@ -40,7 +42,7 @@ jobs:
 
       - name: Verify Python builders
         run: |
-          python3 -m py_compile star-wars/generate_learning.py star-wars/generate_frontier_mix.py star-wars/publish_original_subscription.py star-wars/generate_feed.py
+          python3 -m py_compile star-wars/generate_learning.py star-wars/generate_frontier_mix.py star-wars/generate_expansion.py star-wars/publish_original_subscription.py star-wars/generate_feed.py
 
       - name: Protect all independent Star Wars feeds
         run: |
@@ -51,6 +53,9 @@ jobs:
 
       - name: Prepend ten themed episodes and five lore/story pairs to subscribed main feed
         run: python3 star-wars/generate_frontier_mix.py
+
+      - name: Verify twenty additional thematic actual plays from independent publishers
+        run: python3 star-wars/generate_expansion.py
 
       - name: Publish combined episodes to actual originally subscribed RSS path
         run: python3 star-wars/publish_original_subscription.py
@@ -133,11 +138,26 @@ jobs:
           assert dates==sorted(dates,reverse=True), "Main feed not in listening order"
           assert [r["order"] for r in main_rows]==list(range(1,len(main_rows)+1))
           assert (root/"learning-episodes.md").read_text(encoding="utf-8").count(" | ")>=len(main_rows)
+          expansion=load("expansion-status.json")
+          extension_rows=load("expansion-episodes.json")["episodes"]
+          assert expansion["state"]=="published" and expansion["count"]==20
+          assert len(extension_rows)==20 and expansion["first_section"]==expansion["second_section"]==10
+          assert len({r["publisher_audio_url"] for r in extension_rows})==20
+          assert all(r["theme"]=="remote-complex" for r in extension_rows[:10])
+          assert all(r["theme"]=="sith-ruins" for r in extension_rows[10:])
+          assert expansion["new_publisher_programs"]>=8, "Too few distinct new actual-play productions"
+          parse("expansion.xml",20)
           subscriber=load("subscriber-status.json")
           assert subscriber["state"]=="published"
           assert subscriber["special_prefix"]==20
           assert subscriber["legacy_original_count"]>=16
           assert subscriber["original_subscriber_guids_preserved"]==subscriber["legacy_original_count"]
+          assert subscriber["previous_episode_count"]>=70
+          assert subscriber["new_actual_plays"]==20
+          assert subscriber["episode_count"]==subscriber["previous_episode_count"]+20
+          assert subscriber["new_unique_productions"]==expansion["new_publisher_programs"]
+          assert subscriber["new_groups"][0]["start"]==subscriber["previous_episode_count"]+1
+          assert subscriber["new_groups"][1]["start"]==subscriber["previous_episode_count"]+11
           assert subscriber["episode_count"]>=len(main_rows)
           old_channel,old_episodes=parse("sampler-v2.xml",subscriber["legacy_original_count"])
           live_channel,live_episodes=parse("feed-v2.xml",subscriber["episode_count"])
@@ -147,6 +167,8 @@ jobs:
               link=ch.find("{http://www.w3.org/2005/Atom}link")
               assert link is not None and link.get("href","").endswith("/star-wars/"+filename)
           assert [i.find("enclosure").get("url") for i in live_episodes[:20]]==[i.find("enclosure").get("url") for i in main_items[:20]]
+          assert [i.find("enclosure").get("url") for i in live_episodes[-20:]]==[i.find("enclosure").get("url") for i in ET.parse(root/"expansion.xml").findall("./channel/item")]
+          assert {i.findtext("guid") for i in live_episodes[-20:]}.isdisjoint({i.findtext("guid") for i in live_episodes[:-20]})
           old_guid_set={i.findtext("guid") for i in old_episodes}
           new_guid_set={i.findtext("guid") for i in live_episodes}
           assert old_guid_set<=new_guid_set, "Original Podbean episode GUIDs disappeared"
@@ -155,7 +177,7 @@ jobs:
           publish_dates=[parsedate_to_datetime(i.findtext("pubDate")) for i in live_episodes]
           assert publish_dates==sorted(publish_dates,reverse=True), "Subscriber feed ordering incorrect"
           print("PASS:",len(live_episodes),"entries at actually subscribed feed-v2.xml;",
-                "20 featured first, all original subscriber episode IDs preserved")
+                "20 featured first, 20 new thematic actual plays last, all original IDs preserved")
           PY
 
       - name: Commit all coherent generated Star Wars feeds without racing another updater
@@ -181,6 +203,10 @@ jobs:
             star-wars/feed-v2.xml
             star-wars/feed.xml
             star-wars/subscriber-status.json
+            star-wars/expansion.xml
+            star-wars/expansion-episodes.md
+            star-wars/expansion-episodes.json
+            star-wars/expansion-status.json
           )
           tar -cf /tmp/star-wars-generated.tar "${generated[@]}"
           sourcefiles=(
@@ -190,6 +216,8 @@ jobs:
             star-wars/generate_frontier_mix.py
             .github/workflows/update-star-wars-learning.yml
             star-wars/publish_original_subscription.py
+            star-wars/expansion-catalog.json
+            star-wars/generate_expansion.py
           )
           for attempt in 1 2 3 4; do
             git fetch origin main
