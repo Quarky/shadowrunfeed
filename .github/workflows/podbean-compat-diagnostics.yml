@@ -1,0 +1,83 @@
+name: Build Podbean RSS Compatibility Tests (No Production Changes)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "star-wars/build_podbean_compat.py"
+      - ".github/workflows/podbean-compat-diagnostics.yml"
+permissions:
+  contents: write
+concurrency:
+  group: star-wars-podbean-compat
+  cancel-in-progress: false
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+          fetch-depth: 0
+      - name: Protect subscribed RSS and build minimal compatibility diagnostics
+        run: |
+          set -euo pipefail
+          sha256sum star-wars/feed-v2.xml star-wars/feed.xml > /tmp/star-wars-prod-before.sha
+          python3 -m py_compile star-wars/build_podbean_compat.py
+          python3 star-wars/build_podbean_compat.py
+          sha256sum --check /tmp/star-wars-prod-before.sha
+          python3 - <<'PY'
+          from pathlib import Path
+          import json, xml.etree.ElementTree as ET
+          p=Path("star-wars")
+          status=json.loads((p/"podbean-compat-status.json").read_text())
+          assert status["original_count"]==100 and len(status["tests"])==4
+          assert status["stable_unsigned_mp3"]>=10
+          for row in status["tests"]:
+              root=ET.parse(p/row["file"]).getroot()
+              assert root.tag=="rss"
+              ch=root.find("channel")
+              items=ch.findall("item")
+              assert len(items)==row["episodes"]
+              assert len({x.findtext("guid") for x in items})==len(items)
+              assert all(x.find("enclosure").get("url","").startswith("https://") for x in items)
+              assert ch.find("{http://www.itunes.com/dtds/podcast-1.0.dtd}image") is not None
+              print("PASS:",row["file"],len(items))
+          PY
+      - name: Commit only diagnostic copies
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add star-wars/podbean-smoke-1.xml star-wars/podbean-smoke-10.xml star-wars/podbean-smoke-stable.xml star-wars/podbean-clean-100.xml star-wars/podbean-compat-status.json
+          if git diff --cached --quiet; then
+            echo "No change in diagnostics"
+          else
+            git commit -m "Publish isolated minimal Podbean diagnostic RSS feeds"
+            git push origin HEAD:main
+          fi
+      - name: Verify HTTP-served diagnostics (not Podbean import)
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,urllib.request,xml.etree.ElementTree as ET,time
+          status=json.loads(Path("star-wars/podbean-compat-status.json").read_text())
+          for f in status["tests"]:
+              name=f["file"]
+              url="https://fastly.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/"+name
+              for attempt in range(3):
+                  try:
+                      with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"PodbeanPodcast/Android"}),timeout=20) as r:
+                          ch=ET.fromstring(r.read()).find("channel")
+                          count=len(ch.findall("item"))
+                          assert count==f["episodes"],(count,f["episodes"])
+                          print("HTTP PASS",name,"count",count,"type",r.headers.get("Content-Type"),"age",r.headers.get("Age"),flush=True)
+                          break
+                  except Exception as e:
+                      print("HTTP RETRY",name,repr(e),flush=True)
+                      if attempt==2:raise
+                      time.sleep(2)
+          print("HTTP checks do not constitute a Podbean app-import PASS")
+          PY
