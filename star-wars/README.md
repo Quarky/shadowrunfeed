@@ -6,13 +6,14 @@ This is a **separate collection** in the existing public [Quarky/shadowrunfeed](
 
 **[Original Star Wars RSS with the 20 episodes added first](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml)**
 
-This is the original `feed-v2.xml` subscription supplied for Podbean—not the newer separate `learning-feed-v2.xml`. As of 2026-10-18 the original feed contains **100 verified publisher-hosted recordings**:
+This is the original `feed-v2.xml` subscription supplied for Podbean—not the newer separate `learning-feed-v2.xml`. As of 2026-10-18 the original feed contains **130 verified publisher-hosted recordings**:
 
 - **Episodes 1–10:** 5 science-fiction audio dramas alternating with 5 Star Wars actual-play starts, no lore interruptions.
 - **Episodes 11–20:** 5 normal lore/story pairs.
 - **Episodes 21–70:** The remaining ranked episodes plus 9 previously subscribed sampler recordings not already present.
-- **Episodes 71–90:** 20 *new* performed sci-fi/Star Wars actual plays featuring isolated installations, dangerous automated facilities, alien experiments, equipment failures, and hazardous exploration.
-- **Episodes 91–100:** 10 *new* Star Wars actual-play episodes emphasizing Sith temples, ancient relics, Force mysteries, and dark-side traditions.
+- **Episodes 71–90:** 10 original science-fiction audio-drama chapters alternated with 10 new themed actual-play performances, featuring dangerous installations, alien experiments and survival.
+- **Episodes 91–110:** 10 chapters of Star Wars community-made Old Republic audio drama alternated with 10 actual plays about Sith temples, relics and Force mysteries.
+- **Episodes 111–130:** The additional fiction and actual-play bonus block, also alternating dramas and performances.
 
 All original 16 subscriber GUIDs remain present; repeated audio is deduplicated. The new thirty recordings come from **16 distinct actual-play programs**.
 
@@ -24,11 +25,23 @@ The original Podbean URL uses jsDelivr's `@main` branch CDN, which may cache res
 
 Outside sci-fi audio dramas are clearly marked cross-genre creative inspiration, not Star Wars canon. No publisher recordings or paid audiobooks are redistributed.
 
+## Original-scripted fiction now interleaves the actual plays
+
+The originally subscribed Star Wars RSS has **130 playable episodes**. All former episode identities are retained, including the 16 GUIDs from the first sampler. The special theme-based additions now play as **a story episode followed by its matching real tabletop actual-play episode**, rather than grouping all actual plays together:
+
+- **71–90:** Ten facility, survival, alien-archaeology and dangerous-machine fiction/actual-play pairs; original sci-fi drama from *DERELICT: FATHOM*, *The Orphans*, *Station 151*, and *Among the Stars and Bones*.
+- **91–110:** Ten old-Sith and Force-mystery fiction/actual-play pairs. The stories are ten consecutive chapters from *Legacy: A Star Wars Audio Drama*, a creator-performed **unofficial Star Wars fan-fiction series**, not narrated commentary.
+- **111–130:** The separately added twenty-episode fiction/actual-play bonus remains untouched and internally alternates stories and actual play.
+
+[Publisher-verified fiction chapters](story-interleave-episodes.md) · [Fiction selection verification](story-interleave-status.json) · [Earlier actual-play selections](expansion-episodes.md) · [Exact current original-subscriber status](subscriber-status.json).
+
+These are original publisher-hosted audio episodes only. Some fiction comes from other science-fiction settings and is **cross-genre inspiration, not Star Wars canon**. The weekly updater regenerates the original `feed-v2.xml` and `feed.xml` URLs and checks their CDN copies.
+
 ## Subscribe (Podbean / any RSS-capable player)
 
 **Original subscribed Star Wars FFG/D6 feed (expanded collection):** `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml`
 
-This feed has been successfully published with 100 original publisher-hosted recordings; see the [subscriber-specific status](subscriber-status.json). The original `feed.xml` address is an equivalent alias. The 16-episode original discovery sampler is preserved separately at [sampler-v2.xml](sampler-v2.xml).
+This feed has been successfully published with 130 original publisher-hosted recordings; see the [subscriber-specific status](subscriber-status.json). The original `feed.xml` address is an equivalent alias. The 16-episode original discovery sampler is preserved separately at [sampler-v2.xml](sampler-v2.xml).
 
 **Complete Star Wars D6 anthology (publisher-hosted):** `https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/d6-feed.xml`
 
