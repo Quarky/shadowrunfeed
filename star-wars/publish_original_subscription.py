@@ -99,6 +99,30 @@ def build():
             combined.append(extra)
             seen.add(key)
             legacy_extra+=1
+    # Append the separately validated twenty NEW actual-play recordings only
+    # after all original ranked + sampler items. Never change old episode IDs.
+    expansion_status=json.loads((HERE/"expansion-status.json").read_text(encoding="utf-8"))
+    if expansion_status.get("state")!="published" or expansion_status.get("count")!=20:
+        raise ValueError("Twenty-episode original-publisher expansion not verified")
+    _,_,expansion_items=read_feed(HERE/"expansion.xml")
+    expansion_rows=json.loads((HERE/"expansion-episodes.json").read_text(encoding="utf-8"))["episodes"]
+    if len(expansion_items)!=20 or len(expansion_rows)!=20:
+        raise ValueError("Expansion RSS and exact-title playlist disagree")
+    old_count=len(combined)
+    for index,item in enumerate(expansion_items):
+        row=expansion_rows[index]
+        if row["new_selection"]!=index+1:
+            raise ValueError("Expansion episode order mismatch")
+        if index<10 and row["theme"]!="remote-complex":
+            raise ValueError("First ten expansion selections must be remote-complex")
+        if index>=10 and row["theme"]!="sith-ruins":
+            raise ValueError("Second ten expansion selections must be Sith-ruins themed")
+        key=audio_identity(item_audio(item))
+        if key in seen:
+            raise ValueError("New actual-play selection already in original podcast: "+row["episode"])
+        seen.add(key)
+        combined.append(copy.deepcopy(item))
+    if len(combined)!=old_count+20:raise ValueError("Podcast expansion did not add exactly 20 new tracks")
     expected_guids={x.findtext("guid") for x in legacy}
     if old_guids_kept!=expected_guids:
         raise ValueError("Original subscription episode GUIDs were lost")
@@ -119,8 +143,10 @@ def build():
     if description is not None:
         description.text=("Original Star Wars FFG/D6 sampler expanded with a 20-episode "
             "frontier audio-drama and actual-play opening, followed by the complete ranked "
-            "Star Wars lore/story selection and retained original sampler episodes. "
-            "External science-fiction drama is cross-genre inspiration, not Star Wars canon. "
+            "Star Wars lore/story selection and retained original sampler episodes, "
+            "then twenty additional actual plays themed around remote research complexes " 
+            "and ancient Sith ruins. External science-fiction drama and actual play " 
+            "are cross-genre inspiration, not Star Wars canon. "
             "All recordings remain on their publishers' servers.")
     summary=legacy_channel.find(f"{{{ITUNES}}}summary")
     if summary is not None:summary.text=description.text
@@ -156,6 +182,11 @@ def build():
         "subscription_urls":[URLBASE+"feed-v2.xml",URLBASE+"feed.xml"],
         "episode_count":len(combined),
         "special_prefix":20,
+        "previous_episode_count":old_count,
+        "new_actual_plays":20,
+        "new_groups":[{"section":"remote-complex","start":old_count+1,"end":old_count+10},
+                      {"section":"ancient-sith-ruins","start":old_count+11,"end":old_count+20}],
+        "new_unique_productions":expansion_status["new_publisher_programs"],
         "ranked_source_entries":len(ranked),
         "legacy_original_count":len(legacy),
         "original_subscriber_guids_preserved":len(expected_guids),
