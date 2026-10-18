@@ -1,0 +1,97 @@
+name: Probe Isolated Star Wars RSS and Publisher Audio
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "star-wars/feed-140-candidate.xml"
+      - ".github/workflows/probe-star-wars-staging.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: Diagnose CDN delivery, expiring audio URLs and sample media responses without modifying subscribed RSS
+        run: |
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET, urllib.request,urllib.parse,urllib.error
+          import concurrent.futures,time,collections
+          from pathlib import Path
+          root=Path("star-wars")
+          base="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/"
+          def load(content):
+              r=ET.fromstring(content)
+              assert r.tag=="rss"
+              ch=r.find("channel")
+              assert ch is not None
+              items=ch.findall("item")
+              ids=[x.findtext("guid") for x in items]
+              assert len(ids)==len(set(ids))
+              return items
+          original=load((root/"feed-v2.xml").read_bytes())
+          candidate=load((root/"feed-140-candidate.xml").read_bytes())
+          assert len(original)==100 and len(candidate)==140
+          for file,expect in (("feed-v2.xml",100),("feed-130-debug.xml",130),("feed-140-candidate.xml",140)):
+              url=base+file
+              try:
+                  req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0","Accept":"application/rss+xml,application/xml"})
+                  with urllib.request.urlopen(req,timeout=20) as r:
+                      fetched=load(r.read())
+                      print(f"CDN {file}: HTTP {r.status}, {len(fetched)} episodes, age={r.headers.get('Age')}, content-type={r.headers.get('Content-Type')}",flush=True)
+                      if len(fetched)!=expect:
+                          print(f"WARNING: CDN copy stale for {file}; expected {expect}",flush=True)
+              except Exception as e:
+                  print("CDN ERROR",file,repr(e),flush=True)
+          signed=[]
+          now=int(time.time())
+          for i,item in enumerate(candidate,1):
+              enc=item.find("enclosure")
+              u=enc.get("url","")
+              parsed=urllib.parse.urlsplit(u)
+              args=urllib.parse.parse_qs(parsed.query)
+              expires=args.get("Expires",[""])[0]
+              token=args.get("timetoken",[""])[0].split("_")[0]
+              ts=int(expires or token or "0") if (expires or token).isdigit() else 0
+              if ts:
+                  signed.append((i,ts,item.findtext("title"),u))
+          expired=[x for x in signed if x[1]<=now]
+          imminent=[x for x in signed if now<x[1]<=now+86400]
+          print("SIGNED_URL_AUDIT: total",len(signed),"already expired",len(expired),"expires in 24h",len(imminent),"current epoch",now,flush=True)
+          for i,exp,title,url in sorted(signed,key=lambda x:x[1])[:25]:
+              print("SIGNED",i,"expired" if exp<=now else "seconds_until_expiry="+str(exp-now),title[:100],flush=True)
+          # Probe all 40 NEW audio enclosures. A HEAD 403 alone is not definitive;
+          # a bounded GET range is used before classifying access.
+          additions=candidate[100:]
+          def probe(row):
+              i,item=row
+              url=item.find("enclosure").get("url")
+              title=(item.findtext("title") or "")[:80]
+              err=[]
+              for method in ("HEAD","GET"):
+                  try:
+                      headers={"User-Agent":"AppleCoreMedia/1.0.0","Accept":"audio/*,*/*"}
+                      if method=="GET":headers["Range"]="bytes=0-0"
+                      req=urllib.request.Request(url,method=method,headers=headers)
+                      with urllib.request.urlopen(req,timeout=12) as response:
+                          if method=="GET":response.read(64)
+                          return (i,title,response.status,response.headers.get("Content-Type",""),method,response.url[:100])
+                  except Exception as e:
+                      err.append(method+":"+str(e)[:100])
+              return(i,title,0,"; ".join(err),"FAILED","")
+          with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+              results=sorted(pool.map(probe,enumerate(additions,101)),key=lambda x:x[0])
+          failures=[x for x in results if x[2]==0]
+          incompatible=[x for x in results if x[2] and "audio" not in x[3].lower() and "octet-stream" not in x[3].lower()]
+          print("NEW_40_MEDIA_AUDIT:",len(results)-len(failures),"HTTP accessible,",len(failures),"failed,",len(incompatible),"unexpected content-type",flush=True)
+          for entry in results:print("MEDIA",repr(entry),flush=True)
+          if expired:print("WARNING: time-limited publisher enclosures already expired; podcast players may reject these even though RSS parses",flush=True)
+          if failures:print("WARNING: some source-hosted media URLs are not playable from GitHub Actions; they require investigation before promotion",flush=True)
+          # Diagnostic workflow intentionally does not mutate the original subscription.
+          print("DONE: diagnostics only, staging NOT approved for Podbean import",flush=True)
+          PY
