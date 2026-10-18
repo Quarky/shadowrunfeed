@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-18T17:38:59.607120+00:00",
+  "generated_utc": "2026-10-18T17:45:56.344448+00:00",
   "rating_basis": "US Apple show-level only; editorial scores are not episode ratings",
   "episodes": [
     {
@@ -60,7 +60,7 @@
       ],
       "original_date": "Mon, 12 Nov 2018 11:00:52 +0000",
       "episode_url": "https://neozaz.com/kyber-crystals/?utm_source=rss&utm_medium=rss&utm_campaign=kyber-crystals",
-      "publisher_audio_url": "https://content.libsyn.com/p/0/2/2/02285624db7fb2d6/SWIC-EPISODE-240.mp3?c_id=25806095&cs_id=25806095&response-content-type=audio%2Fmpeg&Expires=1792349258&Signature=Rix8T3FJkdWVR4YZUa~RBy6m5ywONsG6B2n9VDWVQsz1bjbsEe1dN-IKsTRiRNWIoSuLoxOZ4ApDvb3OLbtGx93xFoLjwuzHsmcpo5j119Fem-9KFp0VuN8v8rO1Ufwiz1Nhg6NCav6dojrFLsA6uq-OS1GDy2BVxw7C6GkPgCBMl9NHDB~oSca67mJK98V0QAzjDAxF8tqAycEsYuN3UR~rADMshgQ2W5x2ixZ6ro4jsTXITqaYPNc5SbSC-s9PzZV-D0YtVX2jQEX88mppXVmnOj74Syhf9omhaGN76lt4SWuoVQ0vR2-rYSM~X7gnmo7MYOODv2~7CiwvfDhbwg__&Key-Pair-Id=K1YS7LZGUP96OI",
+      "publisher_audio_url": "https://content.libsyn.com/p/0/2/2/02285624db7fb2d6/SWIC-EPISODE-240.mp3?c_id=25806095&cs_id=25806095&response-content-type=audio%2Fmpeg&Expires=1792349674&Signature=exq1hdvDHQiCfiWZDsbSemPBJ4IhLfHzSwye4AK6Kg4jUJ0xaRPnTCQkISQCWXG3FDMyHHJZF4bkD~pKyjoqaLia-8S9IqraP5B2ap7Q9MI5COVSp2Ob9sCBbkMY9xsRsh0kMA~mOv4JXdJCF7X15~tguykZz1DpyoF0xsNEubv5YC7pwNVob5dLjH1V6GwoRh2RWBFyAV5o2u9KKvBB4hENjHujY5873yPzzffr5m9bYz39R1mcxI7pouLzHaUt3l7XFAhOFtpfknK~FK3GMmCkpedI-QkYvgI2rMOW~O8pi49H4TCngvFdM1qGNXqrIahHXtso65BOi-k~uEp~ew__&Key-Pair-Id=K1YS7LZGUP96OI",
       "story_chapter": null,
       "inspiration": "Overlooked alien species, minor NPCs, background culture, world texture."
     },
@@ -101,7 +101,7 @@
       ],
       "original_date": "Sun, 28 Apr 2013 04:47:46 +0000",
       "episode_url": "https://neozaz.com/star-wars-in-character-dlc-13-mining-droid/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-dlc-13-mining-droid",
-      "publisher_audio_url": "https://content.libsyn.com/p/9/0/b/90b8dd36b537a67d/SWIC-EPISODE-88.mp3?c_id=13787006&cs_id=13787006&response-content-type=audio%2Fmpeg&Expires=1792349166&Signature=YMaMm-5UqTH9nuk1BM1FXrmjpqWFbhNusZYee1nhrPoH6CbbFME23PedSHp9m9JtT0Urq64W4csuNRibs-GEK5YTwApwADl~wxRpKR~QiybDVzIyviawgFb8Zw3bg3FSOB2luw0SAgy5GbSQYjUkC6FV0PReKdlyrJiInMg5qIVHTyz-5AFPnz9UUQJSH2ePU77Hd7x0qFf-cpCK3iV63racPAEw14ZSvconrOgJYfUqzRchroVaM0FqX52-RiYOkmbRAvGnfBk3zuhv3erH7escptr~A0UYOO8DomtHiUj2AHGzsn32jolr2tHS~hWMsuTuJ5OyqTksG7JbH1NN~g__&Key-Pair-Id=K1YS7LZGUP96OI",
+      "publisher_audio_url": "https://content.libsyn.com/p/9/0/b/90b8dd36b537a67d/SWIC-EPISODE-88.mp3?c_id=13787006&cs_id=13787006&response-content-type=audio%2Fmpeg&Expires=1792349582&Signature=egh30EJdxg3nonWcjuF3IXu~6Ihiurgf~HRKcFpnvX5EiIYc34JmaxykYjM~fiIBrxijZCrEPE0uYa0xqE4OE~up0PG~kVsv5N7-hhwZXk6lIALDl3elu71iJzJVoc3H3ki0ur968O7iS2PBNUhroiJfqPfTYNbDfBcfGkFVSUdFJEAy~tWDs8R-eigdA0Icube-NLg5g71OL2~m-lHShHDi0mMnz5LJ-YnZD4FEbsg2b-eZe2zQHghM6iQyArmevQb5~fD8arJxz1oSMutm4~tUrmnXSqMvPEjs~Em2BI3O4DEyrfJHIixXmooA9IVUex6PZq5X7ZS5e4g92Rz8pA__&Key-Pair-Id=K1YS7LZGUP96OI",
       "story_chapter": null,
       "inspiration": "Deep-cut obscure characters, creatures and cantina-background lore."
     },
@@ -239,7 +239,7 @@
       ],
       "original_date": "Wed, 08 Oct 2014 01:30:48 -0000",
       "episode_url": "http://www.oneshotpodcast.com/category/campaign/campaign-podcast/",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/OSPN8187310956.mp3?key=b48e63025c127d5193bf31e2bb38ebfe&request_event_id=997c095d-16fa-4386-bff2-0f7ef97ba0ea&session_id=997c095d-16fa-4386-bff2-0f7ef97ba0ea&timetoken=1792352347_9BA59893231AD9BF9E5209DA406302DD",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/OSPN8187310956.mp3?key=b48e63025c127d5193bf31e2bb38ebfe&request_event_id=61ec40db-3297-4978-b82e-852dc7b5cb9a&session_id=61ec40db-3297-4978-b82e-852dc7b5cb9a&timetoken=1792352761_9212C4311487F077698CF26EB1F42171",
       "story_chapter": 1,
       "inspiration": "Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes."
     },
@@ -261,7 +261,7 @@
       ],
       "original_date": "Mon, 03 Jun 2019 12:00:37 +0000",
       "episode_url": "https://neozaz.com/star-wars-in-character-rancor/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-rancor",
-      "publisher_audio_url": "https://content.libsyn.com/p/1/4/4/14451be5e9d82680/SWIC-RANCOR.mp3?c_id=43067684&cs_id=43067684&response-content-type=audio%2Fmpeg&Expires=1792350208&Signature=GcvQV9OlzVMnw7bUXUTvXA6qsuZj98sY5p2N0RLVI2Lb~p55tthAJzwazercBlhB6tbomxxi-RN5n5nYj-ZbHEGh4h0fx7RJM5mzP6iR9dCIAT2EiyIgoXE7ygdSirAK2q8w9uOulU4XqLg6Wlhk2ngXRj0xSx3W~JV7d0FGJFSjQJROWfh4jGH-tpE08IMIkaca6zpZkanRwEklNbIDQ4A1cJlMW3DBdn39licNn9WxgfdKhh9gRb8gyisra-dWEEslHlATcu05S66IHPV0hKmwQV7vlEnzOZujnvExiwQlBMGk3zBML6IszBd6lFCV0vP6oIxGdbsbRejK3UloVg__&Key-Pair-Id=K1YS7LZGUP96OI",
+      "publisher_audio_url": "https://content.libsyn.com/p/1/4/4/14451be5e9d82680/SWIC-RANCOR.mp3?c_id=43067684&cs_id=43067684&response-content-type=audio%2Fmpeg&Expires=1792350625&Signature=fi569hCQdFgVV5IZj4fE6ozMDY4fFpltnL7HcaDNG3U8s~Vi2jcgTZMEA7GZrRRpLP9MddTFm-l-c~Hf-qJObdwS7b~skOg3lxqHnNi~rJkQ2YGg6sbbtlgETcfk-0aogeyFvPadBbxBFWnqsy-tM0pMQcz-GxL716vVrSx-eTnazLJEIxb4pT42qs3VfEIxU7r1ulUUrztlZ7pUKtHsnwprZeGD8u2RvA8ujKb50EnyJKtVpB-BxdhBBgC~g-q-I35p7AnbG7-Z2n5grijrFqEKQ6HDdrPiHwRwCHnT7WhbuzBGXAjjTa6Xq9qbwrL73YA-nW3km38hslrIY3gnww__&Key-Pair-Id=K1YS7LZGUP96OI",
       "story_chapter": null,
       "inspiration": "Overlooked alien species, minor NPCs, background culture, world texture."
     },
@@ -280,7 +280,7 @@
       ],
       "original_date": "Wed, 15 Oct 2014 12:29:29 -0000",
       "episode_url": "http://www.oneshotpodcast.com/category/campaign/campaign-podcast/",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/OSPN1631445863.mp3?key=70a07f498406a3dd5540b88bcd88a561&request_event_id=73553540-144c-4880-9f86-873bc00ae869&session_id=73553540-144c-4880-9f86-873bc00ae869&timetoken=1792352347_9BA59893231AD9BF9E5209DA406302DD",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/OSPN1631445863.mp3?key=70a07f498406a3dd5540b88bcd88a561&request_event_id=24c2eecb-0d09-4dcb-82ac-64786c066d8a&session_id=24c2eecb-0d09-4dcb-82ac-64786c066d8a&timetoken=1792352762_60361245DBD2FEC5D7BC9F5DC0840755",
       "story_chapter": 2,
       "inspiration": "Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes."
     },
@@ -302,7 +302,7 @@
       ],
       "original_date": "Sat, 28 Oct 2023 13:00:00 -0000",
       "episode_url": "http://sites.libsyn.com/478302/who-is-the-scariest-sith-lord-and-other-spooky-star-wars-questions-answered",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/SBP5252741863.mp3?key=a846d45e3718df8bdefe2c4736ec21b2&request_event_id=c484e23b-4adf-4ce6-8031-8f54f92ba2f6&session_id=c484e23b-4adf-4ce6-8031-8f54f92ba2f6&timetoken=1792352346_EDB5CDBE0123B70491CB4514CE24DB9F",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/SBP5252741863.mp3?key=5bec4cac900d647c12979aa5fb5e4819&request_event_id=786749df-21fa-4eb0-9f82-45228a4ae975&session_id=786749df-21fa-4eb0-9f82-45228a4ae975&timetoken=1792352760_3ED5AE45839B1A48126D3540F147E946",
       "story_chapter": null,
       "inspiration": "Compact Canon and Legends explainers on species, factions, Force lore, starships and locations. Exclude roundup and marketing news."
     },
@@ -321,7 +321,7 @@
       ],
       "original_date": "Wed, 22 Oct 2014 12:31:38 -0000",
       "episode_url": "http://www.oneshotpodcast.com/category/campaign/campaign-podcast/",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/OSPN3427523578.mp3?key=bbd1c5d63ee003dc289e577727de21a0&request_event_id=6a769a83-cc24-4db1-b45f-2cde4b0aa5c4&session_id=6a769a83-cc24-4db1-b45f-2cde4b0aa5c4&timetoken=1792352347_9BA59893231AD9BF9E5209DA406302DD",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/OSPN3427523578.mp3?key=bbd1c5d63ee003dc289e577727de21a0&request_event_id=70b6e12a-57e7-4c4c-acd5-21b9beeec039&session_id=70b6e12a-57e7-4c4c-acd5-21b9beeec039&timetoken=1792352762_60361245DBD2FEC5D7BC9F5DC0840755",
       "story_chapter": 3,
       "inspiration": "Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes."
     },
@@ -341,7 +341,7 @@
       ],
       "original_date": "Wed, 06 Nov 2013 03:53:57 +0000",
       "episode_url": "https://neozaz.com/star-wars-in-character-special-mandalorian-armor/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-special-mandalorian-armor",
-      "publisher_audio_url": "https://content.libsyn.com/p/9/8/d/98d4c4ef2c13901a/SWIC-SPECIAL-MANDOARMOR.mp3?c_id=13786988&cs_id=13786988&response-content-type=audio%2Fmpeg&Expires=1792351922&Signature=C0l~xwL7HXPPhiLyhB7bIwCYi8ohkhNWuY6Twj4lfH9OQyoRvT65fitJnAppZmDSp1cyt9WtIykchlYaqv5VWV4mdBQNi0CRN1ftUaO1gb49vxXgtzs5ju3QbGWVWrBdjKOy8L~6tEWdw9qk625TBKSH5VL~b-EFRuDx35Khg7MIcGWSNZTzVYHZCSGNzMguadOgXnISky7nj1QWd9Gvl8Al6gPivAOh-cA6E8HEMiWYrLcn6hlowmaiwybrUm6-dlc25KnFoXmc38kKUS7hjgQ0bG49aPiC6fbPbD8ikd9awH6OGJql2fdKYPARq~4icdFw61gFHMjeJaUtr~6o~w__&Key-Pair-Id=K1YS7LZGUP96OI",
+      "publisher_audio_url": "https://content.libsyn.com/p/9/8/d/98d4c4ef2c13901a/SWIC-SPECIAL-MANDOARMOR.mp3?c_id=13786988&cs_id=13786988&response-content-type=audio%2Fmpeg&Expires=1792352338&Signature=IN2ZwcIsGs-apJbpXTL~8HSUbUZWNDB92K8sYdr~vlKcb3-3Nrzdxkj6JkfiakjGMxHV-dwDKPnMISt8g9-KezqZbalZ7RacOuYM-m-4~2aM7-L4X0H8eaiDcNFO3YtXNnn5cXSDYLFob6eyV2dR7kv~g-4M3oJGowZYoBXFhSAJETkyRaL17m3RJFSmPYorgmaAfOzPWeQL7U0lPfR6-ujEH8Pqn3T9L4Y9nK7sMbUsMshp9Y-68TKZzyhkvu~prJ3~oS8rIMnsD8x8kEY-eOpC4aCF00owgfDk9ZyVzE~xu2NYaWn0WAYIzdtTNpuNqeN5YH-UB-dB2E~CuzLdYw__&Key-Pair-Id=K1YS7LZGUP96OI",
       "story_chapter": null,
       "inspiration": "Deep-cut obscure characters, creatures and cantina-background lore."
     },
@@ -360,7 +360,7 @@
       ],
       "original_date": "Wed, 29 Oct 2014 12:35:12 -0000",
       "episode_url": "http://www.oneshotpodcast.com/category/campaign/campaign-podcast/",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/OSPN3096715760.mp3?key=eeaa16b0bc6cbf113ee698e0d4840ea6&request_event_id=d88566ce-bebd-47f6-888d-dfe00492eaf0&session_id=d88566ce-bebd-47f6-888d-dfe00492eaf0&timetoken=1792352347_9BA59893231AD9BF9E5209DA406302DD",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/OSPN3096715760.mp3?key=eeaa16b0bc6cbf113ee698e0d4840ea6&request_event_id=d8b2dd65-9716-4b3e-a759-e157bab38629&session_id=d8b2dd65-9716-4b3e-a759-e157bab38629&timetoken=1792352762_60361245DBD2FEC5D7BC9F5DC0840755",
       "story_chapter": 4,
       "inspiration": "Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes."
     },
@@ -400,7 +400,7 @@
       ],
       "original_date": "Wed, 05 Nov 2014 13:14:23 -0000",
       "episode_url": "http://www.oneshotpodcast.com/category/campaign/campaign-podcast/",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/OSPN5112586296.mp3?key=ec577e8789171b8c73764823912676f5&request_event_id=e4bdc24f-ea00-499e-8e68-1796a0479d37&session_id=e4bdc24f-ea00-499e-8e68-1796a0479d37&timetoken=1792352348_36371AB67C5EBF82E6C0F1B27127BAA4",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/OSPN5112586296.mp3?key=ec577e8789171b8c73764823912676f5&request_event_id=69c9be5c-2c14-47a5-9926-7bb6918a3ffd&session_id=69c9be5c-2c14-47a5-9926-7bb6918a3ffd&timetoken=1792352763_1B5410460030C76BCCAC2BF45A786A10",
       "story_chapter": 5,
       "inspiration": "Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes."
     },
@@ -422,7 +422,7 @@
       ],
       "original_date": "Wed, 28 Feb 2018 02:48:48 +0000",
       "episode_url": "https://neozaz.com/tusken-raiders/?utm_source=rss&utm_medium=rss&utm_campaign=tusken-raiders",
-      "publisher_audio_url": "https://content.libsyn.com/p/7/c/1/7c164593b777ee6d/SWIC-EPISODE-227.mp3?c_id=19356018&cs_id=19356018&response-content-type=audio%2Fmpeg&Expires=1792352509&Signature=Sj-f~pgM6M2r4vxOtbTPxvCAx9VH5RI9aSbWejkMFOu-ykhcWFPICrScOxEd8R~BA1boKAzamxxyY9A2wdEOycSGxGz4pM48vuqPBygcgt6wv~U0BibnbVs093WUL~T~LJs5O9IidFwLyHV9YG-74HTK03MQ-0gvaQYFdV368NCg0LrGdE0B2F53KUgh26j4Z~5BXlhUPuEzvYMcZa2MedEYmUGjOQJapb5ul5NLft4cJ01k~S1yUvvDZ-1s4b3qIKLx2Xw4rnfa8w~nijZaaFNF8tiUKLN~ql-J2gvFsAjOh0Dkd4CDhBxsOdo4G05NhjouRySVchhk8d9BUKOIJg__&Key-Pair-Id=K1YS7LZGUP96OI",
+      "publisher_audio_url": "https://content.libsyn.com/p/7/c/1/7c164593b777ee6d/SWIC-EPISODE-227.mp3?c_id=19356018&cs_id=19356018&response-content-type=audio%2Fmpeg&Expires=1792352925&Signature=dAeefrfq4hcJQ9zKlU1E5OQgoB9LAppSyHwCTQgGjau71ouF08iVTAb74zjUYLawbkG3c6Bb6NZeUfd~W28ijHPjOkOCFRdg7auitX8~EbNSwh7QnVV4p158DHaWjpIU2upsME0mxF8LwdY~a2NDmUL6AcvOvkF9LFh~gZz3DdhRWM3nRYiYNrPG4zruzrNhkN~KzE0i2g3Qa~8nuntSwP91PzrfiH394FY3QZphJIATE1o~NWxSit6WeifP7VCeKc0kNgCmbN~-U4Y6kaz8~amLVbMBYFaCdunr9fWvO~0Az4I5LiquYdeXhZS~zP5PdNTLzdVJpM8Fg~0eIk37cw__&Key-Pair-Id=K1YS7LZGUP96OI",
       "story_chapter": null,
       "inspiration": "Overlooked alien species, minor NPCs, background culture, world texture."
     },
@@ -462,7 +462,7 @@
       ],
       "original_date": "Mon, 06 Apr 2015 15:00:54 +0000",
       "episode_url": "https://neozaz.com/star-wars-in-character-it-0-interrogator-droid/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-it-0-interrogator-droid",
-      "publisher_audio_url": "https://content.libsyn.com/p/3/e/5/3e5ed02970b2f364/SWIC-EPISODE-146.mp3?c_id=13786452&cs_id=13786452&response-content-type=audio%2Fmpeg&Expires=1792349533&Signature=O3A8d0XnnAxWjS1mmBD94S8~8noeNoz8v3Mv1w1lenpYmgDiwsOW6q3HmmO56d3TvGjVP~wgrmphagX-gm1iUAr9m4blqwMF8gXc7OxS4ZsMw0QKhNMoExGYOXXCmhpxopD86epCuU8~lJd5nkPPfwbyhwuitwrecxL2F-oaDbO4EkY5C1jcPi8mL-~uWmiFllDiXX7vTyrdJaH71RWLNw2Xf1oBiChbS3LLE~CSggTARHE1ga7~6ynWSvZyHAh0rc0mYm4McBeCPwDBeLRHcKqHG~8gQcNZ7Y5IuEKOXGPIU3d23LBl4CpPflD1sZzXMuuFbjXR~x~JBfTzkMtb-A__&Key-Pair-Id=K1YS7LZGUP96OI",
+      "publisher_audio_url": "https://content.libsyn.com/p/3/e/5/3e5ed02970b2f364/SWIC-EPISODE-146.mp3?c_id=13786452&cs_id=13786452&response-content-type=audio%2Fmpeg&Expires=1792349949&Signature=PqK~ldffEFd0oErabpuXqdfQiwjvIBJUe1UWPethd49YSUVhygGGtgJnUXSBOcQvv73S0oQQ~DFajZwTk5BxKa7XDP44zcZywnlDGoTd~kpdC5DO5C9w8rF6LE7KmfGnMCuegg~xigi8GMl7gNkwTsHzprsmEDzk6N4BzlL0ch9eSrxBAQKr8gWprJULjnyfkwZAGkINpY6O3GHkrokf4N4tlaGLmdAR1uhl02CKDh57lneF-pXVUhDLXfE~1S9o38qSV5aEAMgCGlLKk5sRBDl2-GHdx1elhbEtsf6eLQYq-FJRSVRxPvNgjjLY4quCq~BO5-yFnyETCqJUPTW7rA__&Key-Pair-Id=K1YS7LZGUP96OI",
       "story_chapter": null,
       "inspiration": "Deep-cut obscure characters, creatures and cantina-background lore."
     },
@@ -623,7 +623,7 @@
       ],
       "original_date": "Mon, 27 Apr 2020 12:05:00 +0000",
       "episode_url": "https://neozaz.com/star-wars-in-character-lin-droid/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-lin-droid",
-      "publisher_audio_url": "https://content.libsyn.com/p/2/d/d/2ddbfe0e3113c93f/SWIC-LINDROID.mp3?c_id=70740650&cs_id=70740650&response-content-type=audio%2Fmpeg&Expires=1792350154&Signature=Ea-G8ENHxmaVVWKfM606DOZwB-oFe~qoIpNrnz6AFss3F4yEm32salb0hLq-JfhVvZFhfjDIcyr18ccDOxS3SxfIZi2Ibme21vKvrGi52fapW98KeX08dztNZhTXZTjnS7oQf3ptpwD1n7RY9GW-KkEvEM80lTs30nK1tI5MF9-AWZU-iSL0cgD2M9E7~E8jga79l9ugga74RAFbzye2PQETIpp5lEZDoFdi6KNemP6OMmxaPR~m55Q-2HgQnL72N8KStnh5JLyNIbhxopOPVn7O2KZfGglFm3RPG097fxZ-fwR~AX1qgE2TqmeKqP4fnvdjGP01WYbBUYJ6PNLfCQ__&Key-Pair-Id=K1YS7LZGUP96OI",
+      "publisher_audio_url": "https://content.libsyn.com/p/2/d/d/2ddbfe0e3113c93f/SWIC-LINDROID.mp3?c_id=70740650&cs_id=70740650&response-content-type=audio%2Fmpeg&Expires=1792350571&Signature=VR-e97IEa0n78Q-KXi2l4R4HqnM0haGFas46qt~se1LByXjHZCZz1wC3RIehM9v44ZZhU6WMxnriYDpKemfXPodK6VQur9yzLgpicxBbhvSlEhTrRvUy-ModOvgB1ROvburGyzDoFYPl01eCmxn~3ffzuco4vM9aB8trHNt59cN8yjFkik0HDyTvEj3HM8kk2Uj02~HEOk4ZIoZo8ujRiHzgVfVVUtgy3zzNN0OQLtlOXU4pI3dHVsk2-zlHSOBWOYvOtS8Qa1PwwMZurCHKxX~hK5-ZbvF1xqOll~waXqB9oeZnshMKN~ItkArgX4ARjdxCwtBM2WAyQ-g2pwKnZg__&Key-Pair-Id=K1YS7LZGUP96OI",
       "story_chapter": null,
       "inspiration": "Overlooked alien species, minor NPCs, background culture, world texture."
     },
@@ -642,7 +642,7 @@
       ],
       "original_date": "Wed, 04 Dec 2019 16:00:00 -0000",
       "episode_url": "https://respectthecrit.libsyn.com/empires-edge-episode-001",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/PODERATIONLTD1251028918.mp3?key=1cefdd6e9437b39bc2c7ebd08d77082f&request_event_id=6382107d-33e9-436f-bee3-f9a32970fe5c&session_id=6382107d-33e9-436f-bee3-f9a32970fe5c&timetoken=1792352350_FA4CB13A3D81875CD035F738B45FEE8C",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/PODERATIONLTD1251028918.mp3?key=80be59cd09c8fd42f0e7c0d162b4cb48&request_event_id=2f02e524-1484-4217-867d-360506887bb8&session_id=2f02e524-1484-4217-867d-360506887bb8&timetoken=1792352764_C3E7AABAA360FD56C5173D804E1087B2",
       "story_chapter": 1,
       "inspiration": "Cinematic soundscapes, character voices and narrative tension."
     },
@@ -682,7 +682,7 @@
       ],
       "original_date": "Wed, 04 Dec 2019 16:01:00 -0000",
       "episode_url": "https://respectthecrit.libsyn.com/empires-edge-episode-002",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/PODERATIONLTD9499678150.mp3?key=61a92a6d274a28317060f283084bdcc7&request_event_id=42cac4ba-195c-4ea4-810d-c366cc134a29&session_id=42cac4ba-195c-4ea4-810d-c366cc134a29&timetoken=1792352354_3E6B5009D7B1A126F1A440D1BEC88DCE",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/PODERATIONLTD9499678150.mp3?key=f1d7e4f0a0e978750ee23cadae35c54f&request_event_id=a7502b18-0cc5-463e-a18d-0be01880cd3c&session_id=a7502b18-0cc5-463e-a18d-0be01880cd3c&timetoken=1792352765_C830029909ACB35124C20EC3507D21A2",
       "story_chapter": 2,
       "inspiration": "Cinematic soundscapes, character voices and narrative tension."
     },
@@ -722,7 +722,7 @@
       ],
       "original_date": "Wed, 11 Dec 2019 14:00:00 -0000",
       "episode_url": "https://respectthecrit.libsyn.com/empires-edge-episode-003",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/PODERATIONLTD8954744252.mp3?key=2fb79d7dbeec5809f7a6bff3da182f1c&request_event_id=25d9e2d1-c88d-44db-b901-005d71196918&session_id=25d9e2d1-c88d-44db-b901-005d71196918&timetoken=1792352354_3E6B5009D7B1A126F1A440D1BEC88DCE",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/PODERATIONLTD8954744252.mp3?key=19f67c40fa91c29b9798e9a90d7ed04d&request_event_id=fa8c1544-0ab4-4e7b-a7c5-00a816f5f0dc&session_id=fa8c1544-0ab4-4e7b-a7c5-00a816f5f0dc&timetoken=1792352766_B08862036FBC88207F3F336A0041F96B",
       "story_chapter": 3,
       "inspiration": "Cinematic soundscapes, character voices and narrative tension."
     },
@@ -743,7 +743,7 @@
       ],
       "original_date": "Mon, 08 Jul 2013 15:05:49 +0000",
       "episode_url": "https://neozaz.com/star-wars-in-character-og-9-spider-droid/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-og-9-spider-droid",
-      "publisher_audio_url": "https://content.libsyn.com/p/a/d/5/ad57fe263357dabe/SWIC-EPISODE-97.mp3?c_id=13786961&cs_id=13786961&response-content-type=audio%2Fmpeg&Expires=1792348323&Signature=W-zbicQ8BSVfsEpQm2siJu3OjFubKcQ6zD~XY2sNxt~8KCl-uBYYck5E5sHfL8kZEQPGrOBuNLUEbmIUOrK-uDOoes6CUQIUL2rsIbAz6s9BMEr9r3wV9B0a1Q4s051maZaPYlIdRQ8MBgQ5rARVvfIHf6TJjG4ZvClkyaooAzoJ4H2Pwsmx-dX8MRDWyfHeb15l0UsQaR~GnBMywUYi9jAjnGvUVb2I18H4mzw81LocworQYVvhfEqs6WDL~px-8i2D0MLbCHZPLWXwmofb3p9Ui2BYhQ0XeiU1uCCUbMFhEMCl8aQumKVrroDyeFe8aOx7mEd~gAXaNW30UctnaQ__&Key-Pair-Id=K1YS7LZGUP96OI",
+      "publisher_audio_url": "https://content.libsyn.com/p/a/d/5/ad57fe263357dabe/SWIC-EPISODE-97.mp3?c_id=13786961&cs_id=13786961&response-content-type=audio%2Fmpeg&Expires=1792348739&Signature=aTabqUHhTry8Xlz8Pb89gCMo98IJ1r6ztWmmVO6qR0ZoaJp2MF05wAE~YZg-fxAv-nBQScyNCgzWmWD6kPFe9rlZVZjl1HEtqBiCk6KicjBcUX-h-EFjvSQfW0zOpeYyxS1IOwDYgmUQNgUS4~zldnrLiUkoPA~hsY9-gx0jzsdNxWJazYgZniaWk0TcU7qA~OLxu7ZR3QdmVZVoL~PzF-WqsQy149tY2WnsdplXVEanwc~rxh0NlCrra~l7BENr6-A3lV28di~W~s3LymA~q0ZY-7Pgy2Jvg7UAVWSWgKOKNZ2up4myNC~I2bT6PLzlRtCbrZ5OXfTdvunn9BxiOg__&Key-Pair-Id=K1YS7LZGUP96OI",
       "story_chapter": null,
       "inspiration": "Deep-cut obscure characters, creatures and cantina-background lore."
     },
@@ -762,7 +762,7 @@
       ],
       "original_date": "Wed, 18 Dec 2019 14:00:00 -0000",
       "episode_url": "https://respectthecrit.libsyn.com/empires-edge-episode-004",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/PODERATIONLTD4594362007.mp3?key=20ff77a567c0c92156e47375eed349e7&request_event_id=89222628-4a4f-4093-b5f4-1bd7919d98de&session_id=89222628-4a4f-4093-b5f4-1bd7919d98de&timetoken=1792352355_258B91799C8ADB723B111F3E0F77D7C9",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/PODERATIONLTD4594362007.mp3?key=cf6265eced6cc103f4dad650e259ad03&request_event_id=0b3b5fee-cc7c-4aa5-b6ad-5984a1d5b748&session_id=0b3b5fee-cc7c-4aa5-b6ad-5984a1d5b748&timetoken=1792352767_2E430175C2C62257BBC709D4C2DC56AC",
       "story_chapter": 4,
       "inspiration": "Cinematic soundscapes, character voices and narrative tension."
     },
@@ -802,7 +802,7 @@
       ],
       "original_date": "Wed, 01 Jan 2020 14:00:00 -0000",
       "episode_url": "https://respectthecrit.libsyn.com/empires-edge-episode-005-loose-ends-at-lightspeed",
-      "publisher_audio_url": "https://dcs-cached.megaphone.fm/PODERATIONLTD6428498786.mp3?key=5bb0f2e7ef1760148043137283d9881e&request_event_id=7cd4d1cb-938b-49d8-ae35-68a9bed98b61&session_id=7cd4d1cb-938b-49d8-ae35-68a9bed98b61&timetoken=1792352356_5EA8B25EFE0EB7C6476182C62AA719DF",
+      "publisher_audio_url": "https://dcs-cached.megaphone.fm/PODERATIONLTD6428498786.mp3?key=683f2ad10fe25a94d4acdcae11e5a19a&request_event_id=8a455023-ceb7-4fcf-b9a2-380f38cc3ce6&session_id=8a455023-ceb7-4fcf-b9a2-380f38cc3ce6&timetoken=1792352768_BA4C2898086FAAACD4AC8F053434DF98",
       "story_chapter": 5,
       "inspiration": "Cinematic soundscapes, character voices and narrative tension."
     },
@@ -863,7 +863,7 @@
       ],
       "original_date": "Tue, 24 May 2011 17:22:58 +0000",
       "episode_url": "https://neozaz.com/star-wars-in-character-wampa/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-wampa",
-      "publisher_audio_url": "https://content.libsyn.com/p/d/7/a/d7a91beea3a4cfc9/SWIC-EPISODE-15.mp3?c_id=13787224&cs_id=13787224&response-content-type=audio%2Fmpeg&Expires=1792349614&Signature=H8pab4tGD4Y65elI9T2LZj8S5GSmBnisIUQsvVfROGpeJQ1TkSxEwdeVqvofkD0iOgfBVYrI9gZIxFlLlR46G9bU2f82vREjSsGoBCvnJ1j7~Axc89ihlU1kbL7jZcKwlUNmbS13mgkektmqi17wOf88Yg9~c40kjoV-KdtyGYTf8fnP28j5oG5Gk4H5WATk5uwZx9rsztL3977NS7Ig1ctiM8ZTNVyXNxfJnerj4-SFujgmyvRRQGbYpJ8RlccGCuw0uybr9fruJL7iDBaPoRJAtqpOM3q8Ylc0aHLLPaFbWZC45TG5ZywC3WhRb6OUBaAGsnS9p4I-VYC628RIQw__&Key-Pair-Id=K1YS7LZGUP96OI",
+      "publisher_audio_url": "https://content.libsyn.com/p/d/7/a/d7a91beea3a4cfc9/SWIC-EPISODE-15.mp3?c_id=13787224&cs_id=13787224&response-content-type=audio%2Fmpeg&Expires=1792350030&Signature=HEG~kDMNkjIaaT6djcZnTYf31S9Tb~39iSmgOjvlv4P4o93el2LWhyQhnM5hiVc0CXEmAN19ZVRMLhwIrRWdbxyjJm-Jq2fOKk2ZZA8CFQW9lKACUiuBDRwgrMNHDkybkhEVgnH3SrXIYQ7QwlX32EHyKTx36Ijrsv65pcvgGsKxl188NvSLGMocwQYn2fo-eqiNIE2tWVPzQ07B3C0T4z2EBAV~kurUNKK30cBxI3vEjN~cX2lNQ3A-ouRlyURVha-I84YOOX4X~BqCQTYuDc3NjOrvnw9jnoFZXWtdDEsOw5cmzCSPLKt2zYnUDoO7yhTME42iKk60vZMw9wjJ-Q__&Key-Pair-Id=K1YS7LZGUP96OI",
       "story_chapter": null,
       "inspiration": "Deep-cut obscure characters, creatures and cantina-background lore."
     },
@@ -903,7 +903,7 @@
       ],
       "original_date": "Mon, 15 Jul 2019 12:00:56 +0000",
       "episode_url": "https://neozaz.com/star-wars-in-character-asp-droid/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-asp-droid",
-      "publisher_audio_url": "https://content.libsyn.com/p/b/a/5/ba573d21be2ccd2c/SWIC-ASPDROIDS.mp3?c_id=47043560&cs_id=47043560&response-content-type=audio%2Fmpeg&Expires=1792348806&Signature=eEFXa3ltEII2upEcOHmWBJcwdYc3EIVs1Y4cRyonwYMhRjp~ObWfDILpX6HCDPiORc7JtcEz2HSJiBWG5V4he1Ok-6pp6Nnx56y8p2PruMxLTiBov~C5aRfVCt0yBbeFBBhNGKzMeuqypVfKWNftXCxV5apZoenrJ229cUu0DARAu0vjDAycEufgGjYfTeLtczwAY9qX4NPfb2aorJl4UyIxDvURGgK~oga3mKqWuplT1O2WbcPcM~5GIf~nTg8fPQtfzNIVumshYULEy1MZnBeCCsDi3RQ9cG0xb0jlRU94QxdrDR23CiU25t03pEDxB-MeAfoGcG0EbsXC3H7fLA__&Key-Pair-Id=K1YS7LZGUP96OI",
+      "publisher_audio_url": "https://content.libsyn.com/p/b/a/5/ba573d21be2ccd2c/SWIC-ASPDROIDS.mp3?c_id=47043560&cs_id=47043560&response-content-type=audio%2Fmpeg&Expires=1792349223&Signature=SdtFtu1YWLaEs7UoCrhcpBLJUPABUPgGvVEcKTcOVF25Hsw58Db9EDxGCwlF7y61xy7KPVILMfS~-Qqbcxj07pr-JbPEw9Vap1F3eBssB-Ewj4ab3cBdOE58pCMMDP-COX12m~5gJ9P2KnKezd-An2w277IP3qytEUNO~wgkz86lVMNzfHmSgnBM~O2fOSVIvEFivumlrx2PhTYoog5t-RQN9XljxftwOq6W~gtRKkmzPuD8t6X-Zn7-xC2UHv7XNjXhg4txaM~OZ3l0s6NW~D9sHmDlx28npEMZUjRQVNxN5hbZ3WGBqrl343rFBnHr04ndyNVVYBnQS1Ro8QizzA__&Key-Pair-Id=K1YS7LZGUP96OI",
       "story_chapter": null,
       "inspiration": "Overlooked alien species, minor NPCs, background culture, world texture."
     },
@@ -981,7 +981,7 @@
       ],
       "original_date": "Sat, 01 Nov 2014 23:07:14 +0000",
       "episode_url": "https://neozaz.com/star-wars-in-character-ziro-the-hutt/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-ziro-the-hutt",
-      "publisher_audio_url": "https://content.libsyn.com/p/0/6/d/06dcaeff0616784f/SWIC-EPISODE-133.mp3?c_id=13787112&cs_id=13787112&response-content-type=audio%2Fmpeg&Expires=1792350105&Signature=SXprxRjhsZSpdVWEAANJYo8KIslakxFetY2utw6g7T2yJPoEvMcgQhUOzX88jwYfohA-qQycNbOI4lZ5w-w07eUlkJag7jdIVeFkJXZaWIRox3H0HF3Ped915Hr4ZCrsL4WUCWYQ9pHcp5My~hiybebnYHQE2LnppiNMt2v4-4YfktruL2JbkHGWc6ISJnpKOeggGxVbJSgq2pSGScp1RyjmjGZt6uXULTP7pyX2ut0wHBtWYVMW8iOMHfezMqClE4O1YpEgtSsHVUd5VulH4yq-jLU-RHeeHS1hbQo1y6X1XsegEc-4iGyHFPRDx8hcR6o7qI5dBJAx80KqLXVnYA__&Key-Pair-Id=K1YS7LZGUP96OI",
+      "publisher_audio_url": "https://content.libsyn.com/p/0/6/d/06dcaeff0616784f/SWIC-EPISODE-133.mp3?c_id=13787112&cs_id=13787112&response-content-type=audio%2Fmpeg&Expires=1792350521&Signature=fpmS04UJP4jvBkuPGxNDAsTNoHkgZeNXX3hNpfgCyuAxJ~Q0zgAoE1TwIP0tnuBCS5Q0vqarCGyBQEA2CbRLSHr59pKgUDGV0Nkpp3~kmKfvCCbzhHnDEh3SiPEiRCH3nYneZCoNTfaqkjYfs6CT9VF44jo~wIHpujBJ3krMmCOZvRB1hf-srMnC0lOGT7yMxHB6aC9VGuxhiE9-CsHLrdcVpYUk~e7JebxbogK8wBfRIe9rKG7NR-I8ch2D49yy6sKYsL9A~HrNhpIn0p5YC2w9eNAhCrgVAmK6J0NJLBq08cuSV4a6LUq9KBZrooAtlv28XAwaiPlb5ekP9Sv7fg__&Key-Pair-Id=K1YS7LZGUP96OI",
       "story_chapter": null,
       "inspiration": "Deep-cut obscure characters, creatures and cantina-background lore."
     },
@@ -1060,7 +1060,7 @@
       ],
       "original_date": "Mon, 14 Nov 2016 13:00:08 +0000",
       "episode_url": "https://neozaz.com/star-wars-in-character-ra-7-protocol-droid/?utm_source=rss&utm_medium=rss&utm_campaign=star-wars-in-character-ra-7-protocol-droid",
-      "publisher_audio_url": "https://content.libsyn.com/p/e/7/7/e770aa158af6ba54/SWIC-EPISODE-190.mp3?c_id=13785838&cs_id=13785838&response-content-type=audio%2Fmpeg&Expires=1792349147&Signature=GmQ1cbdSVxITjrH-0hLBQdQNF2tJd3kPxBdFvFXJqrySl90wZDS~GkXNOf0csyuGFzKbIWELoLyOJRr3fjRtULXe1a~3QB2VjDTkCwsz440gxbQR5aIILBNluonVKl7zVKZjjukBdY-oYTicnpidEjIl8n0BUzdYd7YvkN-09oWg7rEX0sDpwJU9rnHNAgXh98caqT-xPdsUg9RlmbpOFLCfIVgeLFqWxYJFLC7li8O1HC1hOk-3Yz6L7HXHFAMvXj~vhmdPeXqvdAT2DTks644~oExuc0Jeoq6V-8xip-OlNubSxlEA-DxUr3CupBMveeHP7z9UMaVP5QaW2Ba~aw__&Key-Pair-Id=K1YS7LZGUP96OI",
+      "publisher_audio_url": "https://content.libsyn.com/p/e/7/7/e770aa158af6ba54/SWIC-EPISODE-190.mp3?c_id=13785838&cs_id=13785838&response-content-type=audio%2Fmpeg&Expires=1792349564&Signature=guLBMyOtpxJtBzIHAo8VUnlAYFAHil2nGJY366BL8t5XkhjzkHecv9WzvX33v43GCJRXdB7kKBmjLb74xi9FJcGcSWoYXlbqXQ4wA1wVhjWcc2D3ATfFePUhP9bQzw1LzM0QtK2E9LEg8lAVZksQFVpwsAs0IfYBmMW2VhBzQ8A3mjl65F66YeV9qY4XkOVec6ULX4-ayF7W-JLVwIasTte6trz0BMTAKu9wU-QXGW-7XZNenSLft-Jz-rJpVroAkO7wzugUCuP52NuFQPeTvCvLFv48KtmdMJEmyCzwVGVab4Z3HRF3c01AK971SJpcYIyraD6O9u9BhIG3a~Un7Q__&Key-Pair-Id=K1YS7LZGUP96OI",
       "story_chapter": null,
       "inspiration": "Overlooked alien species, minor NPCs, background culture, world texture."
     },

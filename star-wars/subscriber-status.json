@@ -1,24 +1,24 @@
 {
   "state": "published",
-  "generated_at": "2026-10-18T17:39:34.036188+00:00",
+  "generated_at": "2026-10-18T17:46:16.021761+00:00",
   "subscription_urls": [
     "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml",
     "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed.xml"
   ],
-  "episode_count": 90,
+  "episode_count": 100,
   "special_prefix": 20,
   "previous_episode_count": 70,
-  "new_actual_plays": 20,
+  "new_actual_plays": 30,
   "new_groups": [
     {
       "section": "remote-complex",
       "start": 71,
-      "end": 80
+      "end": 90
     },
     {
       "section": "ancient-sith-ruins",
-      "start": 81,
-      "end": 90
+      "start": 91,
+      "end": 100
     }
   ],
   "new_unique_productions": 16,
