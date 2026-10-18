@@ -1,6 +1,16 @@
 # Star Wars RPG — Ranked Listening with Featured Story Opening
 
-**Original Podbean subscription:** [Star Wars combined RSS — feed-v2.xml](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml). This is the address first supplied to existing listeners; it now starts with the 20 special episodes, followed by the ranked collection and all original subscriber recordings. It contains **70 unique publisher-hosted recordings**, with all original 16 podcast GUIDs preserved. See the [subscriber publication status](subscriber-status.json).
+**Original Podbean subscription:** [Star Wars combined RSS — feed-v2.xml](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml). This is the address first supplied to existing listeners; it now starts with the 20 special episodes, followed by the ranked collection and all original subscriber recordings. It contains **100 unique publisher-hosted recordings**, with all original 16 podcast GUIDs preserved. See the [subscriber publication status](subscriber-status.json).
+
+## New actual-play selections (episodes 71–100)
+
+The original subscribed RSS now adds [thirty new recorded actual plays](expansion-episodes.md) **after** the existing 70 episodes, without duplicating earlier publisher audio.
+
+- **71–90: Remote facility and sci-fi survival.** Twenty new performances from Mothership, Alien RPG, and Star Wars FFG campaigns, exploring industrial science, abandoned structures, androids, containment, environmental threats, hostile fauna, and expedition decisions.
+- **91–100: Ancient Sith ruins and Force mysteries.** Ten Star Wars tabletop actual-play sessions on dark-side relics, tombs, Force traditions, and competing motives, including Old Republic adventures and Saga Edition.
+- The new thirty episodes represent **16 different shows**, including sources not used in the earlier collection. The two themed groups are curated for specific creative inspiration, not a claim that every episode takes place at those exact locations.
+
+[View the 30-episode playlist](expansion-episodes.md) · [Source-specific details and systems](expansion-episodes.json) · [Verified source status](expansion-status.json). Some selections begin in an established arc and are marked as such. Non-Star-Wars actual plays are explicitly labeled as cross-genre references.
 
 ## Alternative curated-only RSS
 
@@ -12,7 +22,7 @@ The first 20 entries have a deliberate two-phase order:
 - **11–20:** Five conventional Star Wars lore → story pairs from the original ranked feed, maintaining consecutive chapters of a story campaign.
 - **21 onward:** The remaining unique episodes from the previous ranked library. Original subscriber GUIDs remain unchanged, and previously featured episodes are not repeated. Additional lore-only entries at the end retain subjects whose story partner was moved to the start.
 
-The original Podbean feed contains **70 episodes**: the 61-episode curated playlist plus 9 unique extras preserved from the originally subscribed 16-episode sampler. The 61-episode ranked-only address remains separately available. The automatic publisher rebuild updates both every week.
+The original Podbean feed contains **100 episodes**: the 61-episode curated playlist, 9 unique historical subscriber extras, and 30 newly verified actual plays. The new episodes occupy positions 71–100. The 61-episode ranked-only address remains separately available. The automatic publisher rebuild updates both addresses every week, and retains all existing podcast GUIDs.
 
 [Full current combined episode list](learning-episodes.md) · [Validation/status](learning-status.json) · [Merged playlist JSON](learning-episodes.json)
 
