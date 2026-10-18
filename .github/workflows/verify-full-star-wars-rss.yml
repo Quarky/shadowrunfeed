@@ -52,13 +52,15 @@ jobs:
           original,old=load("feed-100-baseline.xml")
           main,full=load("feed-v2.xml")
           alias,alias_items=load("feed.xml")
-          assert len(old)==100 and len(full)==len(alias_items)==140
-          assert [x.findtext("guid") for x in full]==[x.findtext("guid") for x in alias_items]
+          fresh_copy,copy_items=load("podbean-complete-140.xml")
+          assert len(old)==100 and len(full)==len(alias_items)==len(copy_items)==140
+          assert [x.findtext("guid") for x in full]==[x.findtext("guid") for x in alias_items]==[x.findtext("guid") for x in copy_items]
+          assert [x.find("enclosure").get("url") for x in full]==[x.find("enclosure").get("url") for x in copy_items]
           assert [x.findtext("guid") for x in old]==[x.findtext("guid") for x in full[:100]]
           assert [(x.findtext("title"),x.findtext("pubDate")) for x in old]==[(x.findtext("title"),x.findtext("pubDate")) for x in full[:100]]
           assert [x.find("enclosure").get("url") for x in old]==[x.find("enclosure").get("url") for x in full[:100]]
           assert len({x.find("enclosure").get("url").split("?")[0] for x in full})==140
-          for payload in (main,alias):
+          for payload in (main,alias,fresh_copy):
               text=payload.decode("utf-8")
               assert text.startswith('<?xml version="1.0" encoding="UTF-8"?>')
               assert 'xmlns:ns2' not in text and 'xmlns:ns3' not in text
@@ -101,5 +103,14 @@ jobs:
                       if n2==expected:continue
                   print(f"WARNING: {host} is still serving {n}/{expected} entries; app may keep the stale feed",flush=True)
               except Exception as exc:print(f"WARNING: {host} public check failed: {exc}",flush=True)
+          fresh_path="gh/Quarky/shadowrunfeed@main/star-wars/podbean-complete-140.xml"
+          try:
+              request=urllib.request.Request("https://cdn.jsdelivr.net/"+fresh_path,headers={"User-Agent":"PodbeanPodcast/Android"})
+              with urllib.request.urlopen(request,timeout=25) as response:
+                  fresh=ET.fromstring(response.read()).find("channel").findall("item")
+                  assert len(fresh)==140,len(fresh)
+                  print(f"FRESH 140 test path: HTTP {response.status}, {len(fresh)} entries, Content-Type {response.headers.get('Content-Type')}",flush=True)
+          except Exception as exc:
+              print("WARNING: Fresh test path CDN check failed:",repr(exc),flush=True)
           print("HTTP validation is NOT a real Podbean in-app import test",flush=True)
           PY
