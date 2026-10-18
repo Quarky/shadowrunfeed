@@ -17,3 +17,20 @@ Run: https://github.com/Quarky/shadowrunfeed/actions/runs/39156360040
 - At probe time, **7 original production enclosures had already expired timestamps** (positions 13, 15, 41, 47, 53, 63, 64), and 21 other production enclosures expired within 24 hours. Candidate totals: 7 expired, another 35 due within 24 hours. A signed URL expiry does not conclusively prove HTTP rejection, but demonstrates an unmaintainable long-term RSS recording URL.
 - No live Podbean import has been completed or observed. **Promotion remains blocked**.
 
+
+## Podbean application-import isolation, 2026-10-18
+
+Source and successful [GitHub Actions build](https://github.com/Quarky/shadowrunfeed/actions/runs/39157048034) establish **HTTP XML delivery only**, not Podbean app acceptance. The production 100 was not touched.
+
+These new channel-distinct test copies are derived from the original frozen 100; original GUIDs are preserved and descriptions are normalized/HTML-free. Unknown publisher tags are stripped; M4A enclosure MIME is normalized to `audio/mp4` in the 100 copy. The first three contain only ordinary, unsigned MP3 enclosures.
+
+| Trial | Items | Purpose | URL |
+| --- | ---: | --- | --- |
+| smoke-1 | 1 | Minimal working enclosure and channel | [podbean-smoke-1.xml](podbean-smoke-1.xml) |
+| smoke-10 | 10 | Parser or episode count threshold | [podbean-smoke-10.xml](podbean-smoke-10.xml) |
+| unsigned-only | 66 | Strip volatile signed media and M4A; isolate media URL lifetime | [podbean-smoke-stable.xml](podbean-smoke-stable.xml) |
+| clean-100 | 100 | Test minimum RSS tag set but retain all original 100 items | [podbean-clean-100.xml](podbean-clean-100.xml) |
+
+At build time, the original 100 feed had 9 enclosures with expired query timestamps (original positions 13, 15, 29, 41, 45, 47, 53, 63, 64), another 19 expiring within 24 hours, and 6 M4A enclosures. These are media reliability blockers but no app-specific error message has been observed.
+
+**Required next decision:** In the Podbean *listener application* use Search → + Add Feed URL with the 1-episode test URL, leaving the existing 100-episode subscription untouched. If even the one-item feed fails, investigate app acceptance of custom/non-publisher curated RSS and CDN host; if it imports, test 10 → 66 → clean 100 to isolate the first failure. Do not replace the user's current feed or claim final success based only on HTTP 200.
