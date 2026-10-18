@@ -53,11 +53,28 @@ jobs:
         run: |
           sha256sum star-wars/feed-100-baseline.xml star-wars/d6-feed.xml star-wars/campaign-mynock.xml star-wars/dice-for-brains.xml star-wars/force-majeure.xml star-wars/nastygram-d6.xml star-wars/redemption.xml star-wars/respect-the-crit.xml > /tmp/untouched-star-wars-feeds.sha256
 
+      - name: Preserve the last verified lore/story base for upstream publisher changes
+        run: |
+          tar -cf /tmp/previous-verified-lore-base.tar \
+            star-wars/learning-base-v2.xml \
+            star-wars/learning-base-episodes.md \
+            star-wars/learning-base-episodes.json \
+            star-wars/learning-base-status.json
+
       - name: Rebuild original Lore/Story base from publisher feeds
         run: python3 star-wars/generate_learning.py
 
-      - name: Prepend ten themed episodes and five lore/story pairs to subscribed main feed
-        run: python3 star-wars/generate_frontier_mix.py
+      - name: Assemble ten themed episodes and five lore/story pairs with verified-source fallback
+        run: |
+          set -euo pipefail
+          if python3 star-wars/generate_frontier_mix.py; then
+            echo "PASS: live publisher indexes still include all required originally curated chapters"
+          else
+            echo "::warning::At least one publisher's current RSS removed a previously source-verified episode; reverting only the staged lore/story base to the last verified snapshot. Production 140-item subscription remains unchanged."
+            tar -xf /tmp/previous-verified-lore-base.tar
+            python3 star-wars/generate_frontier_mix.py
+            echo "::warning::Staging used the previous source-verified lore base; do not interpret this as current publisher-feed re-verification."
+          fi
 
       - name: Verify the twenty previously selected thematic actual plays from independent publishers
         run: python3 star-wars/generate_expansion.py
