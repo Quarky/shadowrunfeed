@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Star Wars RPG — Additional Actual Play Inspiration</title>
+    <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
+    <description>Twenty new actual-play selections. First ten: hazardous research installations, ruins and sci-fi survival. Following ten: ancient Sith relics, tombs and dark-side mysteries. Non-Star-Wars games are labeled as cross-genre inspiration.</description>
+    <language>en</language>
+    <itunes:author>Independent RPG Listening Index</itunes:author>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png" />
+    <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/expansion.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Darkstar — Mothership Actual Play] Darkstar Debrief: Distress Call from Boomertown 1 | Behind the Scenes</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:2731ee1f14dad5db0d35670233965a2a7b6172b49b88555ea776949b30bd6457</guid>
+      <link>https://dicecompanypodcast.com/category/darkstar/</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Crew investigates a deserted ship: hazard pacing, routine work turning into dread. System: Mothership.  Original publication: Thu, 05 Mar 2026 20:02:48 GMT. Publisher notes: &lt;p&gt;Darkstar Debrief: Distress Call from Boomertown 1 is a behind-the-scenes companion episode to Darkstar, a Mothership Actual Play Podcast from Dice Company.&lt;/p&gt;&lt;br&gt;&lt;p&gt;After the alarms fade and the dust settles, the crew step out of character to unpack the first chapter of Darkstar: Distress Call from Boomertown.&lt;/p&gt;&lt;br&gt;&lt;p&gt;In this debrief episode, we discuss the choices that shaped the story, the moments that surprised us, and the themes hidden </description>
+      <pubDate>Thu, 05 Mar 2026 20:02:48 GMT</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/6a5bbee9f782764c4cc06407/e/darkstar-mothership-actual-play.podbean.com%2F5ec42f99-113b-32dd-9aca-110f98e5a891/media.mp3" length="15124271" type="audio/mpeg" />
+      <itunes:duration>31:30</itunes:duration>
+      <source url="https://feeds.acast.com/public/shows/6a5bbee9f782764c4cc06407">Darkstar — Mothership Actual Play</source>
+    </item>
+    <item>
+      <title>02 · CROSS-GENRE SCI-FI ACTUAL PLAY · [3d6 Down The Line] Mothership: Gradient Descent Ep 01 - Sci-Fi Horror RPG | Thalassophobia</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:59d4afb3548b0ac377e7a0fce429dc36eab32ed34c9b0effd428b050eeefc55d</guid>
+      <link>https://podcasters.spotify.com/pod/show/3d6dtl/episodes/Mothership-Gradient-Descent-Ep-01---Sci-Fi-Horror-RPG--Thalassophobia-e370vvh</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Industrial android production facility, abandoned station, terminals, factions and uncertain android identity. System: Mothership.  Original publication: Tue, 19 Aug 2025 11:26:30 GMT. Publisher notes: &lt;p&gt;The reluctant and debt-ridden crew of the &lt;em&gt;Dashwood&lt;/em&gt; approach the Deep, an abandoned yet terribly active android production facility. They seek the lay of the land inside the Bell, a retrofitted thruster cast off from the station.&lt;/p&gt;&lt;p&gt;Gradient Descent is by Luke Gearing, Jarrett Crader, and Sean McCoy, published by Tuesday Knight Games, LLC. Purchase it &lt;a href="https://www.tuesdayknightgames.com/collections/mothership/products/gradie</description>
+      <pubDate>Tue, 19 Aug 2025 11:26:30 GMT</pubDate>
+      <enclosure url="https://traffic.megaphone.fm/APO9299250123.mp3" length="130343915" type="audio/mpeg" />
+      <itunes:duration>02:15:46</itunes:duration>
+      <source url="https://anchor.fm/s/815abb18/podcast/rss">3d6 Down The Line</source>
+    </item>
+    <item>
+      <title>03 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Nobody Wake The Bugbear] The Doom Of Verden Prime | Episode 1 | Our Best Hope</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:d4d8453e816de2f572adaad7d21c72785f3b7506af4e2ff2af61af7608aea44a</guid>
+      <link>https://NWTB.podbean.com/e/the-doom-of-verden-prime-episode-1-our-best-hope/</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Asteroid exploration and anomaly: first-contact danger, alien structures and constrained survival. System: Mothership.  Original publication: Fri, 02 Oct 2026 00:00:00 +0800. Publisher notes: &lt;p&gt;A small colony launches a Hail Mary mission to stop a massive asteroid on a collision course to their planet of Verden Prime.&lt;/p&gt;
+&lt;p&gt;----more----&lt;/p&gt;
+&lt;p&gt;Nobody Wake The Bugbear presents an actual play of The Doom Of Verden Prime by Lone Archivist for the Mothership Sci-Fi Horror RPG. The Doom Of Verden Prime was the 3rd place winner of the TripTech Game Jam 2025 hosted by LionHearth Games on &lt;a href='https://itch.io/jam/triptech-game-jam-05202</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0800</pubDate>
+      <enclosure url="https://mcdn.podbean.com/mf/web/6v5s5vzqcdytmtfa/NWTB_DOOM_01_RELEASE.mp3" length="49477793" type="audio/mpeg" />
+      <itunes:duration>6176</itunes:duration>
+      <source url="https://feed.podbean.com/NWTB/feed.xml">Nobody Wake The Bugbear</source>
+    </item>
+    <item>
+      <title>04 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Alien RPG: Fables of Nostromo] Ep. 1 | Ghost Ship | Alien RPG</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:211bb84bf9993e6eb633bc644cb789318ea6570322b522d6024d75aedbdd8c9c</guid>
+      <link>https://podcasters.spotify.com/pod/show/fablesd20/episodes/Ep--1--Ghost-Ship--Alien-RPG-e1g5l8h</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Investigating an abandoned vessel and clues of what happened to its crew. System: Alien RPG.  Original publication: Fri, 01 Apr 2022 22:04:36 GMT. Publisher notes: &lt;p&gt;USCSS Nostromo and its crew sail through space to find a missing vessel, the Cronus, but once the crew finds her, they find even more hidden in her halls.  This has mature language, graphic violence, &amp;amp; themes of horror.  It is not intended for children without adult supervision or permission.   &lt;br /&gt;Full Video on YouTube ►  https://bit.ly/JOINYOUTUBE_FablesD20&lt;br /&gt;Join Patreon  ►  https://bit.ly/PATREON_FablesD20Join&lt;br /&gt;Discord  ►  htt</description>
+      <pubDate>Fri, 01 Apr 2022 22:04:36 GMT</pubDate>
+      <enclosure url="https://anchor.fm/s/8a387194/podcast/play/49517265/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-29%2F738c1599-cc02-9851-3075-3f01d1cf9f59.mp3" length="134229807" type="audio/mpeg" />
+      <itunes:duration>01:04:18</itunes:duration>
+      <source url="https://anchor.fm/s/8a387194/podcast/rss">Alien RPG: Fables of Nostromo</source>
+    </item>
+    <item>
+      <title>05 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Actual Play Anthology Series] What's Behind Door #1 | C4E1 | Mothership Actual Play</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:499c4f24755555f1e90733b586e88eaec51e7bc44a80f243edc23e67c8687a6d</guid>
+      <link>https://podcasters.spotify.com/pod/show/adam-steiner9/episodes/Whats-Behind-Door-1--C4E1--Mothership-Actual-Play-e3n77ur</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Isolated expeditions across hazardous rocks and unexpected rooms and doors. System: Mothership.  Original publication: Mon, 10 Aug 2026 12:17:29 GMT. Publisher notes: &lt;p&gt;Welcome to the newest series from Sense Motive! We&amp;#39;re still in space, 5 years displaced from our last mission. The boys are jumping around from rock to rock smuggling for funds along the way. Here&amp;#39;s a great place to jump in. Enjoy!&lt;/p&gt;
+</description>
+      <pubDate>Mon, 10 Aug 2026 12:17:29 GMT</pubDate>
+      <enclosure url="https://anchor.fm/s/104d6d378/podcast/play/124018075/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-10%2F429560143-44100-2-af7bc4926a36c.m4a" length="48485883" type="audio/x-m4a" />
+      <itunes:duration>00:49:57</itunes:duration>
+      <source url="https://anchor.fm/s/104d6d378/podcast/rss">Actual Play Anthology Series</source>
+    </item>
+    <item>
+      <title>06 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Go Buff Yourself!] "Another Bug Hunt", Part 5.2 || MOTHERSHIP Actual Play Mini-Campaign</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:0b8df5c321379b413b80133634d95dccda36ae06b8e050dd1775acfb7fbf4983</guid>
+      <link>https://podcasters.spotify.com/pod/show/gobuffyourself/episodes/Another-Bug-Hunt--Part-5-2--MOTHERSHIP-Actual-Play-Mini-Campaign-e2tm0o5</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Hostile extraterrestrial life, scouting and survival operations. System: Mothership.  Original publication: Sun, 21 Jan 2024 02:10:00 GMT. Publisher notes: &lt;p&gt;Now for the other half of the conclusion....&lt;/p&gt;
+&lt;p&gt;Dr. Wilson, Dr. Carpenter, and the synthetic, Charles, have split from the other three members and prepare to make a desperate attempt to escape Samsa VI with their lives. Will they make it off the planet? Will the bring anyone else home alive? Find out in this, Part 2 of the conclusion of the "Another Bug Hunt" mini-campaign! &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;This episode and Part 5.1 will eventually be</description>
+      <pubDate>Sun, 21 Jan 2024 02:10:00 GMT</pubDate>
+      <enclosure url="https://anchor.fm/s/f2a5d1b8/podcast/play/97239237/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-19%2F393311529-44100-2-000d370366cff.m4a" length="122560339" type="audio/x-m4a" />
+      <itunes:duration>02:06:18</itunes:duration>
+      <source url="https://anchor.fm/s/f2a5d1b8/podcast/rss">Go Buff Yourself!</source>
+    </item>
+    <item>
+      <title>07 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Garblag Games — Alien RPG Actual Plays] The Bimble</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:f864c3ee6fe5883d01aad817d8ffadb0e0081b5b23c41ef8bc51a603ad7c58d1</guid>
+      <link>https://share.transistor.fm/s/9c2b4b8c</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Engineers repairing stations and equipment in harsh planetary training conditions. System: Alien RPG.  Original publication: Thu, 10 Sep 2026 14:39:43 -0700. Publisher notes: 
+        &lt;p&gt;Welcome to Salisbury. A Three World Empire planet designated for survival and endurance training of the elite Royal Marine Commandos. &lt;/p&gt;&lt;p&gt;You’re not them. &lt;/p&gt;&lt;p&gt;You’re part of The Royal Engineers training recalibration platoon. After the big boys from the RMC have passed through, you’re there to reset the supply caches and rebuild the training zones. The team you’re on is affectionately known as “The Bimble Section.”&lt;/p&gt;&lt;p&gt;Join Mi</description>
+      <pubDate>Thu, 10 Sep 2026 14:39:43 -0700</pubDate>
+      <enclosure url="https://media.transistor.fm/9c2b4b8c/8860464c.mp3" length="231003387" type="audio/mpeg" />
+      <itunes:duration>14436</itunes:duration>
+      <source url="https://feeds.transistor.fm/garblag-games-the-alien-rpg-actual-plays">Garblag Games — Alien RPG Actual Plays</source>
+    </item>
+    <item>
+      <title>08 · STAR WARS ACTUAL PLAY · [Tabletop Empire Actual Plays] [2.1] Celestial Fracture</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:ba8addd056c153a2f524ed591aed23c0fb1873d998cecd28c9fe645f7bcfe4ca</guid>
+      <link>https://tabletopempire.podbean.com/e/21-celestial-fracture/</link>
+      <description>Star Wars actual play; Outer Rim Force mystery, an unfamiliar threat and character choices early in a new campaign. System: Star Wars FFG Force &amp; Destiny.  Original publication: Thu, 13 Aug 2026 19:00:00 -0400. Publisher notes: &lt;p&gt;Welcome to The Unnaturals Episode 1! A Star Wars FFG RPG Actual Play using the Force and Destiny system. Journey to the Outer Rim with Mira, Kaden, Rinni, and Con as a dangerous new threat rises to alter their paths forever...&lt;/p&gt;
+&lt;p&gt;This campaign is powered by RPGSessions. Use the link below to sign up completely FREE: &lt;a href='https://rpgsessions.com'&gt;https://rpgsessions.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CAST:
+Jeff Ross as the Game Master @joress_id
+Nate Barbe</description>
+      <pubDate>Thu, 13 Aug 2026 19:00:00 -0400</pubDate>
+      <enclosure url="https://mcdn.podbean.com/mf/web/wy737czc6sm2dbu7/a_Episode_1_FINAL65frr.mp3" length="255460800" type="audio/mpeg" />
+      <itunes:duration>6386</itunes:duration>
+      <source url="https://feed.podbean.com/tabletopempire/feed.xml">Tabletop Empire Actual Plays</source>
+    </item>
+    <item>
+      <title>09 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Adventures in Lollygagging] Cinders of Heaven E01 (ch04)|| ALIEN RPG</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:72dace734b2245a17141a24c3ffad82688edf40353b44bbd8920d72020160316</guid>
+      <link>https://share.transistor.fm/s/96a6675b</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Crew explores catastrophic threats in an Alien RPG science-fiction survival scenario. System: Alien RPG.  Original publication: Wed, 06 Mar 2024 05:00:00 -0800. Publisher notes: 
+        &lt;p&gt;Explorers and prospectors arrive to establish the colony of New Joy. This is an actual-play of ALIEN RPG, a tabletop roleplaying campaign from Free League Publishing. Find us online at &lt;a href="https://www.thelollygaggers.com/"&gt;https://www.thelollygaggers.com/&lt;/a&gt; #ALIENrpg #ActualPlay #ttrpg #YearZeroEngine&lt;/p&gt;&lt;p&gt;&lt;strong&gt;- Cast -&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;em&gt;Stan "Scooter" Carter&lt;/em&gt;&lt;/strong&gt;. Roughneck. Played by Chuck. &lt;a href="https:/</description>
+      <pubDate>Wed, 06 Mar 2024 05:00:00 -0800</pubDate>
+      <enclosure url="https://2.gum.fm/op3.dev/e/pscrb.fm/rss/p/pdst.fm/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/96a6675b/105eceba.mp3" length="121662947" type="audio/mpeg" />
+      <itunes:duration>7600</itunes:duration>
+      <source url="https://feeds.transistor.fm/adventures-in-lollygagging-4b1c91f1-9282-46d3-84ab-10ac9187ea0a">Adventures in Lollygagging</source>
+    </item>
+    <item>
+      <title>10 · CROSS-GENRE SCI-FI ACTUAL PLAY · [The Alien RPG Actual Play from Millie the GM] Heart of Darkness - Part 1</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:6eba4202020caaed537e8a9ec90a25f8cc61804cf923dae69a6487a4b9451620</guid>
+      <link>https://share.transistor.fm/s/7bbeca6b</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Dangerous experimental technologies and uneasy crew decisions. Note: weaker field recording noted by listeners. System: Alien RPG.  Original publication: Tue, 15 Nov 2022 06:55:42 -0800. Publisher notes: 
+        &lt;p&gt;Join us for the Free League, Alien RPG cinematic scenario Heart of Darkness. &lt;/p&gt;&lt;p&gt;The audio in this podcast is not the best, we've not done in person recording since 2020, it will improve for session 2. &lt;/p&gt;&lt;p&gt;If you like this podcast, please subscribe and come check out &lt;a href="http://www.Patreon.com/MillietheGM"&gt;www.Patreon.com/MillietheGM&lt;/a&gt; to find more RPG Actual Plays and more. &lt;/p&gt;
+      </description>
+      <pubDate>Tue, 15 Nov 2022 06:55:42 -0800</pubDate>
+      <enclosure url="https://media.transistor.fm/7bbeca6b/25ed665a.mp3" length="152873050" type="audio/mpeg" />
+      <itunes:duration>7642</itunes:duration>
+      <source url="https://feeds.transistor.fm/alien-rpg-actual-play-from-millie-the-gm">The Alien RPG Actual Play from Millie the GM</source>
+    </item>
+    <item>
+      <title>11 · STAR WARS ACTUAL PLAY · [8bit Saga] Shadow of the Old Republic - Episode 53</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:81a466469c4283a0bf3cbdd7b3b941ec9b8a27187bd49a7f5a1f3aca8b126946</guid>
+      <link>https://audioboom.com/posts/7907596</link>
+      <description>Star Wars actual play; A crew pursues the Sith Gauntlet within an abandoned temple on a forgotten moon. System: Star Wars setting / D&amp;D rules. Later installment; earlier campaign context assumed. Original publication: Mon, 19 Jul 2021 04:00:00 +0000. Publisher notes: &lt;div&gt;The crew of the Tin Sparrow continue their search for the Sith Gauntlet in the forgotten temple on the moon of Draay 2.&lt;/div&gt;</description>
+      <pubDate>Mon, 19 Jul 2021 04:00:00 +0000</pubDate>
+      <enclosure url="https://audioboom.com/posts/7907596.mp3?modified=1626666633&amp;sid=4855872&amp;source=rss" length="37895170" type="audio/mpeg" />
+      <itunes:duration>2359</itunes:duration>
+      <source url="https://audioboom.com/channels/4855872.rss">8bit Saga</source>
+    </item>
+    <item>
+      <title>12 · STAR WARS ACTUAL PLAY · [Flight Risk — Star Wars Actual Play] Ghosts of the Past Episode 14</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:8510df0fd81089ce2e16d606153f2c26c360e1510242b25cc6c850e0329210a0</guid>
+      <link>https://podcasters.spotify.com/pod/show/flight-risk-podcast/episodes/Ghosts-of-the-Past-Episode-14-e2dujcs</link>
+      <description>Star Wars actual play; Mentor's summons, ancient Sith Empire politics, betrayal and dark-side intrigue. System: Star Wars RPG actual play. Later episode in established arc. Original publication: Wed, 03 Jan 2024 17:38:00 GMT. Publisher notes: &lt;p&gt;
+Ghost of the Past&lt;br&gt;A mysterious message from Dorrick&amp;#39;s mentor sends him on a quest into the depth of the Sith Empire. Will the trusted Bodyguard be able to stand on his own and right this historic wrong? &lt;br&gt;Additional voices by&lt;br&gt;Mark from Coruscant Nights&lt;br&gt;Zach from Tales of the Outer Rim&lt;br&gt;AJ Kimball
+
+&lt;/p&gt;
+</description>
+      <pubDate>Wed, 03 Jan 2024 17:38:00 GMT</pubDate>
+      <enclosure url="https://anchor.fm/s/8ecae96c/podcast/play/80743260/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-3%2Fbd66d5cc-9860-ba37-ebe7-68804b4e32d5.mp3" length="33417507" type="audio/mpeg" />
+      <itunes:duration>00:34:48</itunes:duration>
+      <source url="https://anchor.fm/s/8ecae96c/podcast/rss">Flight Risk — Star Wars Actual Play</source>
+    </item>
+    <item>
+      <title>13 · STAR WARS ACTUAL PLAY · [Fandible: SoloShot] SoloShot: Star Wars Force and Destiny, Episode 4×20</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:e1b22f47669cf831570556faf0f8256f26271ea890ec5b80838f544ac6869977</guid>
+      <link>https://fandible.com/soloshot-star-wars-force-and-destiny-episode-4x20/</link>
+      <description>Star Wars actual play; Search for missing Rebels leads to an ancient temple with dangerous forgotten secrets. System: Star Wars Force &amp; Destiny. Later campaign episode; not a standalone beginning. Original publication: Thu, 23 Sep 2021 14:00:00 +0000. Publisher notes: &lt;p&gt;Castian Saayah and Lariss are searching for lost rebels on Yavin Four. However, when the trail leads them to an ancient temple, they'll discover that some things are best left 'lost'.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://fandible.com/soloshot-star-wars-force-and-destiny-episode-4x20/"&gt;SoloShot: Star Wars Force and Destiny, Episode 4&amp;#215;20&lt;/a&gt; appeared first on &lt;a href="https://fandible.com"&gt;Fandible Actual Play Podcast&lt;/a&gt;.&lt;/p&gt;
+</description>
+      <pubDate>Thu, 23 Sep 2021 14:00:00 +0000</pubDate>
+      <enclosure url="https://www.fandible.com/wp-content/uploads/PodcastMp3/Soloshot/Soloshot_084_SWFAD_S4_Ep20.mp3" length="109428916" type="audio/mpeg" />
+      <itunes:duration>44:32</itunes:duration>
+      <source url="https://fandible.com/category/soloshot/feed/">Fandible: SoloShot</source>
+    </item>
+    <item>
+      <title>14 · STAR WARS ACTUAL PLAY · [Star Wars — Path of Shadows] Episode 10 Ancient Religions - Part 1</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:6ff4fdaad1969ee633da64c6dbf4bb81bc296a7a2f925397296a6d298abf99f0</guid>
+      <link>https://creators.podcasts.com/podcast/star-wars-path-of-shadows-episode-000-c36349f03/episode/210694082</link>
+      <description>Star Wars actual play; Jedi beliefs, forgotten cults, relic lore and Force-sensitive adventurers. System: Star Wars FFG.  Original publication: Wed, 15 Jul 2020 15:26:13 GMT. Publisher notes: &lt;p&gt;This is an actual play podcast using Fantasy Flight Game's Star Wars: &lt;br&gt;
+Force and Destiny and Edge of the Empire systems. Our cast includes:&lt;br&gt;&lt;br&gt;
+Tenette playing Twi'lek Jedi guardian Alema, Kevin playing Gank Bounty &lt;br&gt;
+Hunter D3X-T3R, Josh playing Zabrak Jedi artisan Sanjo, Daniel &lt;br&gt;
+playing the mysterious Force sensitive assassin Morda, and Pauly as the Mirialan Smuggler Thief. Our GM is &lt;br&gt;
+Jonathan Glass.&lt;br&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 15 Jul 2020 15:26:13 GMT</pubDate>
+      <enclosure url="https://awscdn.podcasts.com/Episode-10-Ancient-Religions-Part-1-354b.mp3" length="99562723" type="audio/mpeg" />
+      <itunes:duration>113:16</itunes:duration>
+      <source url="https://feed.podcasts.com/rss_feed/63b46f47a7d8461187f12ed919884ed2">Star Wars — Path of Shadows</source>
+    </item>
+    <item>
+      <title>15 · STAR WARS ACTUAL PLAY · [Star Wars: Knightfall] S1 Chapter One</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:198d0ca28f3140ea2d0e750e7f704dd6a49054625837e08ba9177fc5ec2f88f2</guid>
+      <link>https://rss.buzzsprout.com/1899483.rss</link>
+      <description>Star Wars actual play; Jedi pursuit of a lost world and institutional secrets under the Empire. System: Star Wars Saga Edition.  Original publication: Thu, 05 May 2022 00:00:00 -0700. Publisher notes: &lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/1899483/fan_mail/new"&gt;Send us a Text Message. Please note that we cannot respond.&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href='https://www.buzzsprout.com/twilio/text_messages/1899483/open_sms' rel='nofollow'&gt;Send us a Text Message. Please note that we cannot respond.&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Clone Wars have ended and the Great Jedi Purge has wiped out most of the Galaxy’s former heroes. &lt;br/&gt;&lt;br/&gt;Most survivors of the Purge have</description>
+      <pubDate>Thu, 05 May 2022 00:00:00 -0700</pubDate>
+      <enclosure url="https://www.buzzsprout.com/1899483/episodes/19742026-s1-chapter-one.mp3" length="139192927" type="audio/mpeg" />
+      <itunes:duration>5797</itunes:duration>
+      <source url="https://rss.buzzsprout.com/1899483.rss">Star Wars: Knightfall</source>
+    </item>
+    <item>
+      <title>16 · STAR WARS ACTUAL PLAY · [The Wandering Gamer Network] On the Brink Episode 15</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:e3f172857f7dbfa2905eba32192d7de2199d2f17dbecd91d5842048877fc05ac</guid>
+      <link>https://wanderinggamernetwork.podbean.com/e/on-the-brink-episode-15/</link>
+      <description>Star Wars actual play; Entanglements with a Sith-descended patron and competing obligations. System: Star Wars actual play. Mid-series episode; prior character relationships assumed. Original publication: Mon, 07 Sep 2026 21:09:14 -0400. Publisher notes: &lt;p&gt;We’re back with more Star Wars! Our crew of rogues is about to get their payday, but first they have a few promises to keep…to a Sith lord descendant and a mob boss. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Intro and Outro:&lt;/p&gt;
+&lt;p&gt;Alarm Ticking Loop - Zapsplat&lt;/p&gt;
+&lt;p&gt;Diamond - Music by&lt;a href='https://pixabay.com/users/grand_project-19033897/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=music&amp;amp;utm_content=332866'&gt; Grand_Project&lt;/a&gt; from&lt;a h</description>
+      <pubDate>Mon, 07 Sep 2026 21:09:14 -0400</pubDate>
+      <enclosure url="https://mcdn.podbean.com/mf/web/myzwt5xzwbn7qaja/OTB_Episode_15_Full_Episode9znye.mp3" length="71350647" type="audio/mpeg" />
+      <itunes:duration>4459</itunes:duration>
+      <source url="https://feed.podbean.com/wanderinggamernetwork/feed.xml">The Wandering Gamer Network</source>
+    </item>
+    <item>
+      <title>17 · STAR WARS ACTUAL PLAY · [Tabletop Empire Actual Plays] [2.5] Reclamation</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:bd118b6018acd121fe39a843b00a52ed38f7537b3b7bef5cc5475e73c44b539c</guid>
+      <link>https://tabletopempire.podbean.com/e/25-reclamation/</link>
+      <description>Star Wars actual play; An ancient dark relic is stolen; pursuit forces characters to weigh duty against danger. System: Star Wars FFG Force &amp; Destiny. Fifth chapter in a continuing campaign. Original publication: Thu, 10 Sep 2026 11:06:49 -0400. Publisher notes: &lt;p&gt;Oren's shop has been raided, and a dark relic left in safekeeping has fallen back into a familiar foe's hands, leading to a high-speed pursuit through the streets of Reles...&lt;/p&gt;
+&lt;p&gt;This campaign is powered by RPGSessions. Use the link below to sign up completely FREE: &lt;a href='https://rpgsessions.com'&gt;https://rpgsessions.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CAST:
+Jeff Ross as the Game Master @joress_id
+Nate Barber as Mira @heynatebarber
+Lacey Holliman as Rinni @ru</description>
+      <pubDate>Thu, 10 Sep 2026 11:06:49 -0400</pubDate>
+      <enclosure url="https://mcdn.podbean.com/mf/web/j3gbxj7fde6x37vn/a_Episode_5_FINAL9a6go.mp3" length="323840640" type="audio/mpeg" />
+      <itunes:duration>8096</itunes:duration>
+      <source url="https://feed.podbean.com/tabletopempire/feed.xml">Tabletop Empire Actual Plays</source>
+    </item>
+    <item>
+      <title>18 · STAR WARS ACTUAL PLAY · [Flight Risk — Star Wars Actual Play] Ghosts of the Past Episode 15</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:34535c0a4ab3f4b9f01fcd3c690796067df1df48edf470254ce89c71fd947b0b</guid>
+      <link>https://podcasters.spotify.com/pod/show/flight-risk-podcast/episodes/Ghosts-of-the-Past-Episode-15-e2e4org</link>
+      <description>Star Wars actual play; Developing the journey into Sith Empire secrets through changing allegiances. System: Star Wars RPG actual play. Continuation of an existing arc. Original publication: Mon, 08 Jan 2024 00:28:09 GMT. Publisher notes: &lt;p&gt;
+A mysterious message from Dorrick&amp;#39;s mentor sends him on a quest into the depth of the Sith Empire. Will the trusted Bodyguard be able to stand on his own and right this historic wrong? &lt;br&gt;Additional voices by&lt;br&gt;Mark from Coruscant Nights&lt;br&gt;Zach from Tales of the Outer Rim&lt;br&gt;AJ Kimball
+
+&lt;/p&gt;
+</description>
+      <pubDate>Mon, 08 Jan 2024 00:28:09 GMT</pubDate>
+      <enclosure url="https://anchor.fm/s/8ecae96c/podcast/play/80945456/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-8%2F63090199-010f-94d8-8bf0-b7e63a48edc7.mp3" length="37045393" type="audio/mpeg" />
+      <itunes:duration>00:38:35</itunes:duration>
+      <source url="https://anchor.fm/s/8ecae96c/podcast/rss">Flight Risk — Star Wars Actual Play</source>
+    </item>
+    <item>
+      <title>19 · STAR WARS ACTUAL PLAY · [Fandible: SoloShot] SoloShot: Star Wars Force and Destiny, Episode 4×21</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:5b8b287b561697a3f1f879f3b383060aa1bc21793c2b9511477edf82b27f5dc3</guid>
+      <link>https://fandible.com/soloshot-star-wars-force-and-destiny-episode-4x21/</link>
+      <description>Star Wars actual play; Darkness within the abandoned temple and hard choices for the explorers. System: Star Wars Force &amp; Destiny. Continuation of a continuing campaign. Original publication: Thu, 07 Oct 2021 14:00:00 +0000. Publisher notes: &lt;p&gt;The abandoned temple is dark, in more ways than one. If Castian and Lariss aren't careful, they'll be the ones in need of rescue next...and who is left to help them?&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://fandible.com/soloshot-star-wars-force-and-destiny-episode-4x21/"&gt;SoloShot: Star Wars Force and Destiny, Episode 4&amp;#215;21&lt;/a&gt; appeared first on &lt;a href="https://fandible.com"&gt;Fandible Actual Play Podcast&lt;/a&gt;.&lt;/p&gt;
+</description>
+      <pubDate>Thu, 07 Oct 2021 14:00:00 +0000</pubDate>
+      <enclosure url="https://www.fandible.com/wp-content/uploads/PodcastMp3/Soloshot/Soloshot_085_SWFAD_S4_Ep21.mp3" length="90877975" type="audio/mpeg" />
+      <itunes:duration>36:48</itunes:duration>
+      <source url="https://fandible.com/category/soloshot/feed/">Fandible: SoloShot</source>
+    </item>
+    <item>
+      <title>20 · STAR WARS ACTUAL PLAY · [8bit Saga] Shadow of the Old Republic - Episode 52</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:6bace63f5c54a8b227f0c50cd50f63c5cd00d04d3fdfe5a895e53e391c34291b</guid>
+      <link>https://audioboom.com/posts/7881782</link>
+      <description>Star Wars actual play; Escape from a Sith-aligned trap and regroup before exploring an ancient artifact site. System: Star Wars setting / D&amp;D rules. Previous episode within the same long storyline. Original publication: Mon, 07 Jun 2021 03:00:00 +0000. Publisher notes: After defeating Lin-Zee and escaping her death-trap, the crew of the Tin Sparrow take a moment to relax and heal aboard the Tin Sparrow before heading off on their next mission.</description>
+      <pubDate>Mon, 07 Jun 2021 03:00:00 +0000</pubDate>
+      <enclosure url="https://audioboom.com/posts/7881782.mp3?modified=1623032111&amp;sid=4855872&amp;source=rss" length="44789047" type="audio/mpeg" />
+      <itunes:duration>2790</itunes:duration>
+      <source url="https://audioboom.com/channels/4855872.rss">8bit Saga</source>
+    </item>
+  </channel>
+</rss>
