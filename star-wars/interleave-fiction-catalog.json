@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "description": "Story/actual-play interleaving: 20 remote-facility fiction chapters paired 1:1 with 20 existing actual plays, then 10 Star Wars fan audio drama chapters paired 1:1 with 10 existing Sith-ruin actual plays.",
+  "publication": "Adds only original publisher-hosted fiction audio, without rehosting, mirroring or generating copyrighted works. Not official Star Wars stories.",
+  "source_policy": "Use original RSS/iTunes metadata and strict series+chapter evidence. Never select trailers, discussion, highlights, book excerpts without publishing authorization, prelude recaps, or story episodes without confirmed enclosure.",
+  "sources": [
+    {
+      "id": "fathom",
+      "title": "DERELICT — FATHOM",
+      "apple_id": 1473460202,
+      "role": "cross-genre audio drama",
+      "focus": "Secret archaeological laboratory built around an ancient alien artifact; ethical conflicts, structural failures and environmental systems."
+    },
+    {
+      "id": "deca",
+      "title": "The Deca Tapes",
+      "apple_id": 1455127076,
+      "role": "cross-genre audio fiction",
+      "focus": "Captives in a controlled enclosure, changing loyalties, hidden procedures and institutional secrets."
+    },
+    {
+      "id": "orphans",
+      "title": "The Orphans",
+      "apple_id": 1155883792,
+      "role": "cross-genre audio drama",
+      "focus": "Castaways on a hostile world, emergent artificial intelligence and character-driven survival."
+    },
+    {
+      "id": "station",
+      "title": "Station 151",
+      "apple_id": 1654016045,
+      "role": "cross-genre audio drama",
+      "focus": "A remote station, its equipment and the personal consequences of isolation."
+    },
+    {
+      "id": "among",
+      "title": "Among the Stars and Bones",
+      "apple_id": 1452049352,
+      "role": "cross-genre audio drama",
+      "focus": "Field archaeologists examining an ancient site and the evidence left by vanished inhabitants."
+    },
+    {
+      "id": "legacy",
+      "title": "Legacy: A Star Wars Audio Drama",
+      "apple_id": 1617149300,
+      "role": "Star Wars fan audio drama (unofficial)",
+      "focus": "Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power."
+    },
+    {
+      "id": "crusade",
+      "title": "Star Wars: Crusade of the Rebellion",
+      "apple_id": 1031779621,
+      "role": "Star Wars fan audio drama (unofficial)",
+      "focus": "A secret Imperial project pursuing ancient artifacts; conspiracies, domination and the cost of dangerous relics."
+    }
+  ],
+  "segments": [
+    {
+      "group": "remote-complex",
+      "pair_count": 20,
+      "order": [
+        {
+          "show": "fathom",
+          "chapter": 1
+        },
+        {
+          "show": "deca",
+          "chapter": 1
+        },
+        {
+          "show": "orphans",
+          "chapter": 1
+        },
+        {
+          "show": "station",
+          "chapter": 2
+        },
+        {
+          "show": "among",
+          "chapter": 2
+        },
+        {
+          "show": "fathom",
+          "chapter": 2
+        },
+        {
+          "show": "deca",
+          "chapter": 2
+        },
+        {
+          "show": "orphans",
+          "chapter": 2
+        },
+        {
+          "show": "station",
+          "chapter": 3
+        },
+        {
+          "show": "among",
+          "chapter": 3
+        },
+        {
+          "show": "fathom",
+          "chapter": 3
+        },
+        {
+          "show": "deca",
+          "chapter": 3
+        },
+        {
+          "show": "orphans",
+          "chapter": 3
+        },
+        {
+          "show": "station",
+          "chapter": 4
+        },
+        {
+          "show": "among",
+          "chapter": 4
+        },
+        {
+          "show": "fathom",
+          "chapter": 4
+        },
+        {
+          "show": "deca",
+          "chapter": 4
+        },
+        {
+          "show": "orphans",
+          "chapter": 4
+        },
+        {
+          "show": "station",
+          "chapter": 5
+        },
+        {
+          "show": "among",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "group": "sith-ruins",
+      "pair_count": 10,
+      "order": [
+        {
+          "show": "legacy",
+          "chapter": 1
+        },
+        {
+          "show": "crusade",
+          "chapter": 1
+        },
+        {
+          "show": "legacy",
+          "chapter": 2
+        },
+        {
+          "show": "crusade",
+          "chapter": 2
+        },
+        {
+          "show": "legacy",
+          "chapter": 3
+        },
+        {
+          "show": "crusade",
+          "chapter": 3
+        },
+        {
+          "show": "legacy",
+          "chapter": 4
+        },
+        {
+          "show": "crusade",
+          "chapter": 4
+        },
+        {
+          "show": "legacy",
+          "chapter": 5
+        },
+        {
+          "show": "legacy",
+          "chapter": 6
+        }
+      ]
+    }
+  ],
+  "source_context": "Publisher RSS audio drama only; non-Star-Wars dramas labeled cross-genre. All thirty existing actual plays preserved, including their original episode GUIDs, story chapters within each source progress consecutively. No original private campaign canon appears in public repo.",
+  "excluded": [
+    "Heroes of the Hydian Way",
+    "Episode previews or trailers",
+    "Commentary/review content",
+    "Unlicensed rehosting of publisher recordings"
+  ]
+}
