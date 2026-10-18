@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "description": "20 additional verified publisher-hosted audio productions after the previous 20: ten Moraband-inspired (five scripted dramas, five tabletop actual plays), then ten Shard-Moon-inspired (five scripted dramas, five actual plays). All are cross-genre creative references, NOT Star Wars canon. No private campaign secrets are published.",
+  "required_total": 20,
+  "entries": [
+    {
+      "index": 1,
+      "theme": "moraband",
+      "kind": "DRAMA",
+      "show": "Archive 81",
+      "apple_id": 1098194172,
+      "terms": [
+        "01 - A Body In A New Place"
+      ],
+      "learning": "Occult recordings, hidden dimensions, investigative evidence and institutional secrets.",
+      "cross_genre": true
+    },
+    {
+      "index": 2,
+      "theme": "moraband",
+      "kind": "ACTUAL_PLAY",
+      "show": "Pretending to be People",
+      "apple_id": 1443447819,
+      "terms": [
+        "S1E1 - Blunt Force Trauma"
+      ],
+      "learning": "Mystery-first play with unreliable clues, grounded characters and mounting supernatural dread.",
+      "cross_genre": true
+    },
+    {
+      "index": 3,
+      "theme": "moraband",
+      "kind": "DRAMA",
+      "show": "The Silt Verses",
+      "apple_id": 1547222295,
+      "terms": [
+        "Chapter 1: Let Me Speak First Of Revelations"
+      ],
+      "learning": "Forbidden religions, devotion, doctrinal conflicts and disturbing ritual costs.",
+      "cross_genre": true
+    },
+    {
+      "index": 4,
+      "theme": "moraband",
+      "kind": "ACTUAL_PLAY",
+      "show": "Mystery Quest",
+      "apple_id": 1694756842,
+      "terms": [
+        "13 Omens #1"
+      ],
+      "learning": "Inheritance, old obligations, family secrets and investigation of a ritual curse.",
+      "cross_genre": true
+    },
+    {
+      "index": 5,
+      "theme": "moraband",
+      "kind": "DRAMA",
+      "show": "Old Gods of Appalachia",
+      "apple_id": 1485435369,
+      "terms": [
+        "Episode 108: The Offering",
+        "Episode 0: Prologue"
+      ],
+      "learning": "Ancient buried powers, corrupting bargains and communities living around forbidden places.",
+      "cross_genre": true
+    },
+    {
+      "index": 6,
+      "theme": "moraband",
+      "kind": "ACTUAL_PLAY",
+      "show": "The Old Ways Podcast",
+      "apple_id": 1482620539,
+      "terms": [
+        "Shards of San Francisco - Episode One",
+        "Horror on the Orient Express"
+      ],
+      "learning": "Character-led Gothic investigation and the personal price of ancient supernatural power.",
+      "cross_genre": true
+    },
+    {
+      "index": 7,
+      "theme": "moraband",
+      "kind": "DRAMA",
+      "show": "The Lovecraft Investigations",
+      "apple_id": 1444464816,
+      "terms": [
+        "The Case of Charles Dexter Ward: Episode 1"
+      ],
+      "learning": "Documentary-style mystery, hidden cult histories and clues that change their meaning.",
+      "cross_genre": true
+    },
+    {
+      "index": 8,
+      "theme": "moraband",
+      "kind": "ACTUAL_PLAY",
+      "show": "The Apocalypse Players",
+      "apple_id": 1582654902,
+      "terms": [
+        "Machine Tractor Station Kharkov-37 01",
+        "The Crack'd and Crook'd Manse 01"
+      ],
+      "learning": "An isolated investigation where an authority's orders conceal dangerous occult machinery.",
+      "cross_genre": true
+    },
+    {
+      "index": 9,
+      "theme": "moraband",
+      "kind": "DRAMA",
+      "show": "The Black Tapes",
+      "apple_id": 997522893,
+      "terms": [
+        "Episode 101 - A Tale of Two Tapes Part I"
+      ],
+      "learning": "A skeptical investigator uncovers disputed paranormal evidence and an escalating conspiracy.",
+      "cross_genre": true
+    },
+    {
+      "index": 10,
+      "theme": "moraband",
+      "kind": "ACTUAL_PLAY",
+      "show": "The Glass Cannon Podcast",
+      "apple_id": 1007021910,
+      "terms": [
+        "Time For Chaos",
+        "Time for Chaos"
+      ],
+      "learning": "Investigators pursuing ancient cult conspiracies; inspiration for layered relic and tomb plots.",
+      "cross_genre": true
+    },
+    {
+      "index": 11,
+      "theme": "shard-moon",
+      "kind": "DRAMA",
+      "show": "Janus Descending",
+      "apple_id": 1440409010,
+      "terms": [
+        "EPISODE 1: Entry 1"
+      ],
+      "learning": "Two xenoarchaeologists explore a lost civilization on a hostile world; strong expedition continuity.",
+      "cross_genre": true
+    },
+    {
+      "index": 12,
+      "theme": "shard-moon",
+      "kind": "ACTUAL_PLAY",
+      "show": "RPPR Actual Play",
+      "apple_id": 339817701,
+      "terms": [
+        "Mothership: The Oblivion Broadcast"
+      ],
+      "learning": "A team visits a remote asteroid relay after a mysterious death; environmental systems and clues.",
+      "cross_genre": true
+    },
+    {
+      "index": 13,
+      "theme": "shard-moon",
+      "kind": "DRAMA",
+      "show": "The Deca Tapes",
+      "apple_id": 1455127076,
+      "terms": [
+        "1: The Cleaner"
+      ],
+      "learning": "A controlled enclosed habitat with identity, surveillance and unexplained experiments.",
+      "cross_genre": true
+    },
+    {
+      "index": 14,
+      "theme": "shard-moon",
+      "kind": "ACTUAL_PLAY",
+      "show": "No Quest for the Wicked",
+      "apple_id": 1602869800,
+      "terms": [
+        "FRONTIERS - Prologue: The Space Before"
+      ],
+      "learning": "A science-fiction crew evaluates a catastrophic dimensional anomaly and its consequences.",
+      "cross_genre": true
+    },
+    {
+      "index": 15,
+      "theme": "shard-moon",
+      "kind": "DRAMA",
+      "show": "SAYER",
+      "apple_id": 831100527,
+      "terms": [
+        "Magically Efficient",
+        "The Mistake"
+      ],
+      "learning": "A highly controlled artificial moon, corporate AI, human subjects and ominous facility messaging.",
+      "cross_genre": true
+    },
+    {
+      "index": 16,
+      "theme": "shard-moon",
+      "kind": "ACTUAL_PLAY",
+      "show": "Cosmic Crit: A Starfinder Actual Play Podcast",
+      "apple_id": 1260099852,
+      "terms": [
+        "Guilt of the Grave World"
+      ],
+      "learning": "Sci-fi adventurers navigate perilous worlds and suspicious technological/biological infrastructure.",
+      "cross_genre": true
+    },
+    {
+      "index": 17,
+      "theme": "shard-moon",
+      "kind": "DRAMA",
+      "show": "Celeritas",
+      "apple_id": 1585759882,
+      "terms": [
+        "Celeritas 1",
+        "Episode 1",
+        "Celeritas - 1"
+      ],
+      "learning": "Experimental space technology, isolation and practical problem-solving under extreme uncertainty.",
+      "cross_genre": true
+    },
+    {
+      "index": 18,
+      "theme": "shard-moon",
+      "kind": "ACTUAL_PLAY",
+      "show": "House of Bob",
+      "apple_id": 1232011965,
+      "terms": [
+        "Triple Agents Chapter 01",
+        "Triple Agents Chapter 1"
+      ],
+      "learning": "Team members respond to an anomalous corporate site where everyday procedures mask danger.",
+      "cross_genre": true
+    },
+    {
+      "index": 19,
+      "theme": "shard-moon",
+      "kind": "DRAMA",
+      "show": "Primordial Deep",
+      "apple_id": 1536524717,
+      "terms": [
+        "One: Tiamat"
+      ],
+      "learning": "Research personnel confront revived prehistoric creatures and discoveries beneath a remote station.",
+      "cross_genre": true
+    },
+    {
+      "index": 20,
+      "theme": "shard-moon",
+      "kind": "ACTUAL_PLAY",
+      "show": "Ain't Slayed Nobody",
+      "apple_id": 1494530079,
+      "terms": [
+        "Cosmic Dark Campaign 1 - Time Murder 1"
+      ],
+      "learning": "A corporation sends a team to a lifeless anomaly world; decisions balance survival and exploitation.",
+      "cross_genre": true
+    }
+  ]
+}
