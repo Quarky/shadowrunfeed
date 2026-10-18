@@ -1,6 +1,6 @@
 # Star Wars RPG — Ranked Listening with Featured Story Opening
 
-**Original Podbean subscription:** [Star Wars combined RSS — feed-v2.xml](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml). This is the address first supplied to existing listeners; it now starts with the 20 special episodes, followed by the ranked collection and all original subscriber recordings. It contains **100 unique publisher-hosted recordings**, with all original 16 podcast GUIDs preserved. See the [subscriber publication status](subscriber-status.json).
+**Original Podbean subscription:** [Star Wars combined RSS — feed-v2.xml](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml). This is the address first supplied to existing listeners; it now starts with the 20 special episodes, followed by the ranked collection and all original subscriber recordings. It contains **130 unique publisher-hosted recordings**, with all original 16 podcast GUIDs preserved. See the [subscriber publication status](subscriber-status.json).
 
 ## New actual-play selections (episodes 71–100)
 
@@ -17,6 +17,16 @@ The original subscribed RSS now adds [thirty new recorded actual plays](expansio
 
 The original subscriber queue now retains the earlier **20 thematic actual plays** (71–80 remote research and survival; 81–90 Sith-tomb mysteries). Following those, **20 more unique audio recordings** use a deliberately different format mix: **91–100 Moraband-style** ancient magic, secret societies and ruins (five scripted audio dramas / five tabletop actual plays) and **101–110 Shard Moon-style** ancient laboratories, experimental facilities and survival (five dramas / five actual plays). All twenty new shows are different productions, with no reused recordings and no cross-genre episode misrepresented as Star Wars canon. See the [source-verified, playable additions](bonus-20-episodes.md) and [publication status](bonus-20-status.json).
 
+## Interleaved story and actual play
+
+The former actual-play-only expansion has been corrected:
+
+- **71–90:** Ten remote-facility / survival story → actual-play pairs; publisher-hosted scripted science fiction from *DERELICT: FATHOM*, *The Orphans*, *Station 151*, and *Among the Stars and Bones*.
+- **91–110:** Ten ancient Sith / Force-themed story → actual-play pairs. The story half is ten uninterrupted chapters of *Legacy: A Star Wars Audio Drama*, an independent fan-made Old Republic audio-fiction series.
+- **111–130:** The separately published twenty-episode bonus continues alternating dramatized fiction with tabletop actual play.
+
+[Story titles and original-publisher links](story-interleave-episodes.md) · [Actual-play titles](expansion-episodes.md) · [Subscriber count and preserved GUIDs](subscriber-status.json) · [Verified chapter status](story-interleave-status.json).
+
 ## Alternative curated-only RSS
 
 **[Standalone 61-episode ranked Star Wars RSS](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/learning-feed-v2.xml)** remains available for those already following that second address. It has the same 20-track opening, followed by 41 unique remaining ranked selections; it omits nine historical subscriber-sampler extras.
@@ -27,7 +37,7 @@ The first 20 entries have a deliberate two-phase order:
 - **11–20:** Five conventional Star Wars lore → story pairs from the original ranked feed, maintaining consecutive chapters of a story campaign.
 - **21 onward:** The remaining unique episodes from the previous ranked library. Original subscriber GUIDs remain unchanged, and previously featured episodes are not repeated. Additional lore-only entries at the end retain subjects whose story partner was moved to the start.
 
-The original Podbean feed contains **100 episodes**: the 61-episode curated playlist, 9 unique historical subscriber extras, and 30 newly verified actual plays. The new episodes occupy positions 71–100. The 61-episode ranked-only address remains separately available. The automatic publisher rebuild updates both addresses every week, and retains all existing podcast GUIDs.
+The original Podbean feed contains **130 episodes**: the 61-item ranked listening collection, 9 unique original subscriber recordings, 20 previously selected actual plays paired individually with 20 new scripted fiction chapters, and a later 20-episode alternating bonus. All publisher audio remains hosted by its creator. The 61-episode ranked-only address remains separately available. The automatic publisher rebuild updates both addresses every week, and retains all existing podcast GUIDs.
 
 [Full current combined episode list](learning-episodes.md) · [Validation/status](learning-status.json) · [Merged playlist JSON](learning-episodes.json)
 
