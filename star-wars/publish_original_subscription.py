@@ -99,11 +99,11 @@ def build():
             combined.append(extra)
             seen.add(key)
             legacy_extra+=1
-    # Append the separately validated thirty NEW actual-play recordings only
+    # Append the previously published twenty actual-play recordings only
     # after all original ranked + sampler items. Never change old episode IDs.
     expansion_status=json.loads((HERE/"expansion-status.json").read_text(encoding="utf-8"))
     if expansion_status.get("state")!="published" or expansion_status.get("count")!=20:
-        raise ValueError("Thirty-episode original-publisher expansion not verified")
+        raise ValueError("Previously published 20-episode expansion not verified")
     _,_,expansion_items=read_feed(HERE/"expansion.xml")
     expansion_rows=json.loads((HERE/"expansion-episodes.json").read_text(encoding="utf-8"))["episodes"]
     if len(expansion_items)!=20 or len(expansion_rows)!=20:
@@ -207,7 +207,9 @@ def build():
         "previous_episode_count":old_count,
         "new_actual_plays":20,
         "new_groups":[{"section":"remote-complex","start":old_count+1,"end":old_count+10},
-                      {"section":"ancient-sith-ruins","start":old_count+21,"end":old_count+40}],
+                      {"section":"ancient-sith-ruins","start":old_count+11,"end":old_count+20},
+                      {"section":"moraband-new-fiction-and-play","start":old_count+21,"end":old_count+30},
+                      {"section":"shard-moon-new-fiction-and-play","start":old_count+31,"end":old_count+40}],
         "new_unique_productions":expansion_status["new_publisher_programs"] + bonus_status["unique_productions"],
         "bonus_episodes":20,
         "bonus_drama_count":10,
