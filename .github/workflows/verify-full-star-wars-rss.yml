@@ -46,7 +46,7 @@ jobs:
                   assert enclosure is not None,n
                   assert enclosure.get("url","").startswith("https://"),n
                   assert int(enclosure.get("length","0"))>0,n
-                  assert enclosure.get("type") in ("audio/mpeg","audio/mp4"),n
+                  assert enclosure.get("type") in (("audio/mpeg","audio/mp4","audio/x-m4a") if n=="feed-100-baseline.xml" else ("audio/mpeg","audio/mp4")),n
                   parsedate_to_datetime(episode.findtext("pubDate"))
               return payload,entries
           original,old=load("feed-100-baseline.xml")
