@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "purpose": "Twenty publisher-hosted actual-play additions for the EXISTING Star Wars subscription, placed AFTER its current seventy items.",
+  "public_scope": "General Star Wars RPG creative inspiration. Section A: remote alien research stations, android production, environmental risk, survival; Section B: Sith tombs, ancient relics, Jedi trials, dark-side mysteries. No private-world locations, NPC names, session secrets or original story canon.",
+  "selection_policy": {
+    "episode_count": 20,
+    "sections": [
+      {
+        "id": "remote-complex",
+        "count": 10,
+        "order": "first"
+      },
+      {
+        "id": "sith-ruins",
+        "count": 10,
+        "order": "second"
+      }
+    ],
+    "preserve_existing": true,
+    "original_audio_only": true,
+    "subtitle": "Some programs are non-Star-Wars sci-fi actual plays. They are explicitly cross-genre, not Star Wars canon.",
+    "no_paid_audiobook_attachments": true,
+    "new_show_priority": true,
+    "strict": "Each requested episode must match a known publisher RSS title via episode-specific fragment; no generic first episode fallback, no invented audio, no trailers, no previews, no unverified enclosures."
+  },
+  "entries": [
+    {
+      "id": "derelict-recovery",
+      "group": "remote-complex",
+      "show": "Darkstar — Mothership Actual Play",
+      "apple_id": 1882737185,
+      "star_wars": false,
+      "terms": [
+        "Distress Call from Boomertown 1"
+      ],
+      "learning": "Crew investigates a deserted ship: hazard pacing, routine work turning into dread.",
+      "system": "Mothership"
+    },
+    {
+      "id": "android-station",
+      "group": "remote-complex",
+      "show": "3d6 Down The Line",
+      "apple_id": 1615596808,
+      "star_wars": false,
+      "terms": [
+        "Mothership: Gradient Descent Ep 01"
+      ],
+      "learning": "Industrial android production facility, abandoned station, terminals, factions and uncertain android identity.",
+      "system": "Mothership"
+    },
+    {
+      "id": "asteroid-anomaly",
+      "group": "remote-complex",
+      "show": "Nobody Wake The Bugbear",
+      "apple_id": 1564012107,
+      "star_wars": false,
+      "terms": [
+        "The Doom Of Verden Prime | Episode 1"
+      ],
+      "learning": "Asteroid exploration and anomaly: first-contact danger, alien structures and constrained survival.",
+      "system": "Mothership"
+    },
+    {
+      "id": "derelict-ghost-ship",
+      "group": "remote-complex",
+      "show": "Alien RPG: Fables of Nostromo",
+      "apple_id": 1621950629,
+      "star_wars": false,
+      "terms": [
+        "Ep. 1 | Ghost Ship"
+      ],
+      "learning": "Investigating an abandoned vessel and clues of what happened to its crew.",
+      "system": "Alien RPG"
+    },
+    {
+      "id": "cave-survival",
+      "group": "remote-complex",
+      "show": "Actual Play Anthology Series",
+      "apple_id": 1814112266,
+      "star_wars": false,
+      "terms": [
+        "What's Behind Door #1 | C4E1"
+      ],
+      "learning": "Isolated expeditions across hazardous rocks and unexpected rooms and doors.",
+      "system": "Mothership"
+    },
+    {
+      "id": "bug-hunt",
+      "group": "remote-complex",
+      "show": "Go Buff Yourself!",
+      "apple_id": 1749922836,
+      "star_wars": false,
+      "terms": [
+        "Another Bug Hunt"
+      ],
+      "learning": "Hostile extraterrestrial life, scouting and survival operations.",
+      "system": "Mothership"
+    },
+    {
+      "id": "repair-exercises",
+      "group": "remote-complex",
+      "show": "Garblag Games — Alien RPG Actual Plays",
+      "apple_id": 1553624931,
+      "star_wars": false,
+      "terms": [
+        "The Bimble"
+      ],
+      "learning": "Engineers repairing stations and equipment in harsh planetary training conditions.",
+      "system": "Alien RPG"
+    },
+    {
+      "id": "outer-rim-vergence",
+      "group": "remote-complex",
+      "show": "Tabletop Empire Actual Plays",
+      "apple_id": 1791904238,
+      "star_wars": true,
+      "terms": [
+        "[2.1] Celestial Fracture"
+      ],
+      "learning": "Outer Rim Force mystery, an unfamiliar threat and character choices early in a new campaign.",
+      "system": "Star Wars FFG Force & Destiny"
+    },
+    {
+      "id": "facility-breakout",
+      "group": "remote-complex",
+      "show": "Adventures in Lollygagging",
+      "apple_id": 1642651284,
+      "star_wars": false,
+      "terms": [
+        "Cinders of Heaven E01"
+      ],
+      "learning": "Crew explores catastrophic threats in an Alien RPG science-fiction survival scenario.",
+      "system": "Alien RPG"
+    },
+    {
+      "id": "dark-heart",
+      "group": "remote-complex",
+      "show": "The Alien RPG Actual Play from Millie the GM",
+      "apple_id": 1543463007,
+      "star_wars": false,
+      "terms": [
+        "Heart of Darkness - Part 1"
+      ],
+      "learning": "Dangerous experimental technologies and uneasy crew decisions. Note: weaker field recording noted by listeners.",
+      "system": "Alien RPG"
+    },
+    {
+      "id": "old-republic-tomb",
+      "group": "sith-ruins",
+      "show": "8bit Saga",
+      "apple_id": 1172843537,
+      "star_wars": true,
+      "terms": [
+        "Shadow of the Old Republic - Episode 53"
+      ],
+      "learning": "A crew pursues the Sith Gauntlet within an abandoned temple on a forgotten moon.",
+      "system": "Star Wars setting / D&D rules",
+      "context_warning": "Later installment; earlier campaign context assumed."
+    },
+    {
+      "id": "sith-empire-mentor",
+      "group": "sith-ruins",
+      "show": "Flight Risk — Star Wars Actual Play",
+      "apple_id": 1447708983,
+      "star_wars": true,
+      "terms": [
+        "Ghosts of the Past Episode 14",
+        "Ghost of the Past Episode 14"
+      ],
+      "learning": "Mentor's summons, ancient Sith Empire politics, betrayal and dark-side intrigue.",
+      "system": "Star Wars RPG actual play",
+      "context_warning": "Later episode in established arc."
+    },
+    {
+      "id": "ancient-jedi-temple",
+      "group": "sith-ruins",
+      "show": "Fandible: SoloShot",
+      "apple_id": 1348589696,
+      "star_wars": true,
+      "terms": [
+        "Episode 4×20",
+        "Episode 4x20"
+      ],
+      "learning": "Search for missing Rebels leads to an ancient temple with dangerous forgotten secrets.",
+      "system": "Star Wars Force & Destiny",
+      "context_warning": "Later campaign episode; not a standalone beginning."
+    },
+    {
+      "id": "ancient-religions",
+      "group": "sith-ruins",
+      "show": "Star Wars — Path of Shadows",
+      "apple_id": 1453187022,
+      "star_wars": true,
+      "terms": [
+        "Episode 10 Ancient Religions - Part 1",
+        "Episode 10 Ancient Religions"
+      ],
+      "learning": "Jedi beliefs, forgotten cults, relic lore and Force-sensitive adventurers.",
+      "system": "Star Wars FFG"
+    },
+    {
+      "id": "lost-planet",
+      "group": "sith-ruins",
+      "show": "Star Wars: Knightfall",
+      "apple_id": 1617351561,
+      "star_wars": true,
+      "terms": [
+        "S1 Chapter One",
+        "S1 Chapter 1",
+        "Chapter One"
+      ],
+      "learning": "Jedi pursuit of a lost world and institutional secrets under the Empire.",
+      "system": "Star Wars Saga Edition"
+    },
+    {
+      "id": "sith-descendant",
+      "group": "sith-ruins",
+      "show": "The Wandering Gamer Network",
+      "apple_id": 1144745988,
+      "star_wars": true,
+      "terms": [
+        "On the Brink Episode 15"
+      ],
+      "learning": "Entanglements with a Sith-descended patron and competing obligations.",
+      "system": "Star Wars actual play",
+      "context_warning": "Mid-series episode; prior character relationships assumed."
+    },
+    {
+      "id": "dark-relic-theft",
+      "group": "sith-ruins",
+      "show": "Tabletop Empire Actual Plays",
+      "apple_id": 1791904238,
+      "star_wars": true,
+      "terms": [
+        "[2.5] Reclamation"
+      ],
+      "learning": "An ancient dark relic is stolen; pursuit forces characters to weigh duty against danger.",
+      "system": "Star Wars FFG Force & Destiny",
+      "context_warning": "Fifth chapter in a continuing campaign."
+    },
+    {
+      "id": "sith-empire-return",
+      "group": "sith-ruins",
+      "show": "Flight Risk — Star Wars Actual Play",
+      "apple_id": 1447708983,
+      "star_wars": true,
+      "terms": [
+        "Ghosts of the Past Episode 15"
+      ],
+      "learning": "Developing the journey into Sith Empire secrets through changing allegiances.",
+      "system": "Star Wars RPG actual play",
+      "context_warning": "Continuation of an existing arc."
+    },
+    {
+      "id": "temple-darkness",
+      "group": "sith-ruins",
+      "show": "Fandible: SoloShot",
+      "apple_id": 1348589696,
+      "star_wars": true,
+      "terms": [
+        "Episode 4×21",
+        "Episode 4x21"
+      ],
+      "learning": "Darkness within the abandoned temple and hard choices for the explorers.",
+      "system": "Star Wars Force & Destiny",
+      "context_warning": "Continuation of a continuing campaign."
+    },
+    {
+      "id": "ancient-sith-hunt",
+      "group": "sith-ruins",
+      "show": "8bit Saga",
+      "apple_id": 1172843537,
+      "star_wars": true,
+      "terms": [
+        "Shadow of the Old Republic - Episode 52"
+      ],
+      "learning": "Escape from a Sith-aligned trap and regroup before exploring an ancient artifact site.",
+      "system": "Star Wars setting / D&D rules",
+      "context_warning": "Previous episode within the same long storyline."
+    }
+  ]
+}
