@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Star Wars RSS Test - 1 unsigned MP3</title>
+    <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
+    <description>Technical test copy of the Star Wars listening collection. Original publishers host all recordings; not a new podcast or audio mirror. Test this without removing the existing subscription.</description>
+    <language>en</language>
+    <itunes:author>Independent Quarky podcast curation</itunes:author>
+    <itunes:summary>RSS compatibility test; unchanged publisher recordings</itunes:summary>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:category text="Leisure" />
+    <itunes:image href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png" />
+    <image>
+      <title>Star Wars RSS Test - 1 unsigned MP3</title>
+      <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
+      <url>https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png</url>
+    </image>
+    <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/podbean-smoke-1.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 • CROSS-GENRE INSPIRATION · [Among the Stars and Bones] S1E1 - "The Key to Humanity's Future"</title>
+      <description>Role: DRAMA. NON-STAR-WARS FICTION, used for adaptable mood only. Creative use: Alien archaeology: field reports, exploration teams, unfamiliar ruins and protective ancient structures.. Original date: Wed, 03 Apr 2019 10:34:11 -0000. Publisher: Among the Stars and Bones. Original summary: SYNOPSIS The crew of the Herodotus Mission broadcast their first report from the Alpha and Beta sites on the planet Tefen. As they begin to search the sites, they uncover a city, a terraformer, over 200 skeletons...and a box. CONTENT WARNINGS: NONE Twitter: &lt;a href="https://twitt</description>
+      <pubDate>Sat, 17 Oct 2026 17:59:00 +0000</pubDate>
+      <guid isPermaLink="false">urn:sw-frontier:2e15e0cf0940b2180e618511087afe1a79fbcf190cc5e0bd0966e0863b90e734</guid>
+      <link>https://www.amongthestarsandbones.com/</link>
+      <enclosure url="https://pinecast.com/listen/50b66dbc-b376-49d1-bd02-a4cc64d51080.mp3?source=rss&amp;ext=asset.mp3" length="69057349" type="audio/mpeg" />
+      <itunes:duration>00:35:57</itunes:duration>
+    </item>
+  </channel>
+</rss>

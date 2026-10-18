@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Star Wars RSS Test - 10 unsigned MP3</title>
+    <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
+    <description>Technical test copy of the Star Wars listening collection. Original publishers host all recordings; not a new podcast or audio mirror. Test this without removing the existing subscription.</description>
+    <language>en</language>
+    <itunes:author>Independent Quarky podcast curation</itunes:author>
+    <itunes:summary>RSS compatibility test; unchanged publisher recordings</itunes:summary>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:category text="Leisure" />
+    <itunes:image href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png" />
+    <image>
+      <title>Star Wars RSS Test - 10 unsigned MP3</title>
+      <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
+      <url>https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png</url>
+    </image>
+    <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/podbean-smoke-10.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 • CROSS-GENRE INSPIRATION · [Among the Stars and Bones] S1E1 - "The Key to Humanity's Future"</title>
+      <description>Role: DRAMA. NON-STAR-WARS FICTION, used for adaptable mood only. Creative use: Alien archaeology: field reports, exploration teams, unfamiliar ruins and protective ancient structures.. Original date: Wed, 03 Apr 2019 10:34:11 -0000. Publisher: Among the Stars and Bones. Original summary: SYNOPSIS The crew of the Herodotus Mission broadcast their first report from the Alpha and Beta sites on the planet Tefen. As they begin to search the sites, they uncover a city, a terraformer, over 200 skeletons...and a box. CONTENT WARNINGS: NONE Twitter: &lt;a href="https://twitt</description>
+      <pubDate>Sat, 17 Oct 2026 17:59:00 +0000</pubDate>
+      <guid isPermaLink="false">urn:sw-frontier:2e15e0cf0940b2180e618511087afe1a79fbcf190cc5e0bd0966e0863b90e734</guid>
+      <link>https://www.amongthestarsandbones.com/</link>
+      <enclosure url="https://pinecast.com/listen/50b66dbc-b376-49d1-bd02-a4cc64d51080.mp3?source=rss&amp;ext=asset.mp3" length="69057349" type="audio/mpeg" />
+      <itunes:duration>00:35:57</itunes:duration>
+    </item>
+    <item>
+      <title>02 • ACTUAL_PLAY · [Nastygram — Dreamscapes] Star Wars: Dreamscapes - Ep 1. Field of View (Star Wars d6)</title>
+      <description>Role: ACTUAL_PLAY. Creative use: Mystery-led Jedi expedition and uncertain evidence. Original date: Tue, 28 Oct 2025 05:00:00 +0000. Publisher: Nastygram — Dreamscapes. Original summary: Role: STORY. Publisher show: Nastygram — Dreamscapes. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode's rating). Editorial algorithm estimate: 62.7/100. Original publication: Tue, 28 Oct 2025 05:00:00 +0000. Creative application: Jedi investigative process, unusual phenomena and mystery scenes.. Original notes: A Jedi Knight and</description>
+      <pubDate>Sat, 17 Oct 2026 17:58:00 +0000</pubDate>
+      <guid isPermaLink="false">urn:quarky:starwars:fad11994cb2458f294cf7261d436b791ee642bae126e7676bc9893c31fb857b0</guid>
+      <link>https://nastygram.libsyn.com/star-wars-dreamscapes-ep-1-field-of-view-star-wars-d6</link>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Star_Wars_Dreamscapes_-_Field_of_View.mp3?dest-id=2773544" length="80591677" type="audio/mpeg" />
+      <itunes:duration>01:35:07</itunes:duration>
+    </item>
+    <item>
+      <title>04 • ACTUAL_PLAY · [Force Majeure — Coldfire Chronicles] Coldfire Chronicles S01 E01 - Prison Planet Blues</title>
+      <description>Role: ACTUAL_PLAY. Creative use: Prison-planet atmosphere, organizational control and lived-in frontier scenes. Original date: Mon, 22 Jan 2018 19:11:06 +0000. Publisher: Force Majeure — Coldfire Chronicles. Original summary: Role: STORY. Publisher show: Force Majeure — Coldfire Chronicles. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 56.8/100. Original publication: Mon, 22 Jan 2018 19:11:06 +0000. Creative application: Force-sensitive character relationships, active NPC goals and escalating consequences.. Or</description>
+      <pubDate>Sat, 17 Oct 2026 17:56:00 +0000</pubDate>
+      <guid isPermaLink="false">urn:sw-learning:b42349812b7d541b4b6af9a93a63753540c69b2ba13b4061da73be39ab376d7f</guid>
+      <link>https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e01</link>
+      <enclosure url="https://traffic.libsyn.com/secure/forcemajeurepod/CFC_S01_E01_New_Intro.mp3?dest-id=604132" length="29346727" type="audio/mpeg" />
+      <itunes:duration>38:40</itunes:duration>
+    </item>
+    <item>
+      <title>06 • ACTUAL_PLAY · [Nastygram — Empire's End] Empire's End 1: Flash Traffic (Star Wars)</title>
+      <description>Role: ACTUAL_PLAY. Creative use: Imperial personnel, chain of command and moral nuance. Original date: Tue, 30 Nov 2021 06:00:00 +0000. Publisher: Nastygram — Empire's End. Original summary: Role: STORY. Publisher show: Nastygram — Empire's End. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode's rating). Editorial algorithm estimate: 60.9/100. Original publication: Tue, 30 Nov 2021 06:00:00 +0000. Creative application: Imperial officers, bureaucracy, moral tension, faction conflict.. Original notes: We meet the crew</description>
+      <pubDate>Sat, 17 Oct 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="false">urn:quarky:starwars:c3ea576c2c8820110d7f4121075c7d143f63007f8ac98aba415cc4ab54dae81a</guid>
+      <link>https://nastygram.libsyn.com/empires-end-1-flash-traffic-star-wars</link>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Empires_End_1_-_Flash_Traffic.mp3?dest-id=2773544" length="65453137" type="audio/mpeg" />
+      <itunes:duration>01:30:54</itunes:duration>
+    </item>
+    <item>
+      <title>09 • CROSS-GENRE INSPIRATION · [The Hyacinth Disaster] Episode 1 - Just Doing a Job</title>
+      <description>Role: DRAMA. NON-STAR-WARS FICTION, used for adaptable mood only. Creative use: Working-class asteroid crew, failing equipment, rescue pressure and believable decisions under stress.. Original date: Tue, 21 Nov 2017 02:27:00 GMT. Publisher: The Hyacinth Disaster. Original summary: EPISODE 1 - The Hyacinth crew struggle through breakdowns and alarms to scan a promising asteroid before time runs out for their friends on the Corvus . Transcript Hosted on</description>
+      <pubDate>Sat, 17 Oct 2026 17:51:00 +0000</pubDate>
+      <guid isPermaLink="false">urn:sw-frontier:914af3d5d45977be56c4f5fa0878ca05ec0d16e059ff379b79e5b27fa5fb1b28</guid>
+      <link>https://www.davidecarlson.net/episodes/1-there-goes-my-day</link>
+      <enclosure url="https://sphinx.acast.com/p/open/s/62713be4dd89b800134549c6/e/577e856d2e69cfa9dd337163%3A5a1883fe085229dccc674061%3A5a189cd671c10b644b6e427f/media.mp3" length="62750361" type="audio/mpeg" />
+      <itunes:duration>26:08</itunes:duration>
+    </item>
+    <item>
+      <title>11 • LORE · [The Star Wars Canon Timeline Podcast] EII: ep 4 – Canon Folklore of the Old Republic, pt. 1</title>
+      <description>Role: LORE. Creative use: Conventional world lore and character context. Original date: Fri, 17 May 2024 21:50:43 +0000. Publisher: The Star Wars Canon Timeline Podcast. Original summary: Role: LORE. Publisher show: The Star Wars Canon Timeline Podcast. US Apple show-wide rating: 4.6/5 over 57 ratings (NOT this episode's rating). Editorial algorithm estimate: 71.9/100. Original publication: Fri, 17 May 2024 21:50:43 +0000. Creative application: Galactic history, mythology, Force cultures, High Republic and distinction between Canon</description>
+      <pubDate>Sat, 17 Oct 2026 17:49:00 +0000</pubDate>
+      <guid isPermaLink="false">urn:sw-learning:e6fe80a3ed0291ccdaea3f2b0c9646b8fdee2fe60617c1180c157648a3a0eb50</guid>
+      <link>https://thelorehounds.com</link>
+      <enclosure url="https://pdst.fm/e/audio4.redcircle.com/episodes/870ae05f-f178-4878-b071-dee19c79b71d/stream.mp3" length="122227983" type="audio/mpeg" />
+      <itunes:duration>7639</itunes:duration>
+    </item>
+    <item>
+      <title>12 • STORY · [Dice for Brains] Dice For Brains Podcast | Episode 1 – Gone Fishin’</title>
+      <description>Role: STORY. Creative use: Consecutive character-driven actual play. Original date: Sun, 20 Dec 2015 02:53:27 +0000. Publisher: Dice for Brains. Original summary: Role: STORY. Publisher show: Dice for Brains. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 46.9/100. Original publication: Sun, 20 Dec 2015 02:53:27 +0000. Creative application: Awarded community praise for narrative dice, social scenes, emotional character decisions.. Original notes: &lt;p</description>
+      <pubDate>Sat, 17 Oct 2026 17:48:00 +0000</pubDate>
+      <guid isPermaLink="false">urn:sw-learning:0bf0ef8d2711903e6624df927f70592014ece038c828cc883c0d7ec2a9ef4f17</guid>
+      <link>https://diceforbrains.com/the-adventure-begins-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-adventure-begins-2</link>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e01.mp3" length="67867123" type="audio/mpeg" />
+      <itunes:duration>47:05</itunes:duration>
+    </item>
+    <item>
+      <title>14 • STORY · [Dice for Brains] Dice For Brains Podcast | Episode 2 – Unlikely Mentors</title>
+      <description>Role: STORY. Creative use: Consecutive character-driven actual play. Original date: Sun, 20 Dec 2015 02:56:48 +0000. Publisher: Dice for Brains. Original summary: Role: STORY. Publisher show: Dice for Brains. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 49.3/100. Original publication: Sun, 20 Dec 2015 02:56:48 +0000. Creative application: Awarded community praise for narrative dice, social scenes, emotional character decisions.. Original notes: &lt;p</description>
+      <pubDate>Sat, 17 Oct 2026 17:46:00 +0000</pubDate>
+      <guid isPermaLink="false">urn:sw-learning:ae713ae4040fdd7cd886805480a295c4d9d9c04721a0e8998ee54a2a6824d326</guid>
+      <link>https://diceforbrains.com/the-adventure-begins-3/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-adventure-begins-3</link>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e02.mp3" length="66417991" type="audio/mpeg" />
+      <itunes:duration>46:06</itunes:duration>
+    </item>
+    <item>
+      <title>16 • STORY · [Dice for Brains] Dice For Brains Podcast | Episode 3 – The Crane Situation</title>
+      <description>Role: STORY. Creative use: Consecutive character-driven actual play. Original date: Sun, 20 Dec 2015 03:03:08 +0000. Publisher: Dice for Brains. Original summary: Role: STORY. Publisher show: Dice for Brains. US Apple show-wide rating: unrated / unverified (NOT this episode's rating). Editorial algorithm estimate: 46.9/100. Original publication: Sun, 20 Dec 2015 03:03:08 +0000. Creative application: Awarded community praise for narrative dice, social scenes, emotional character decisions.. Original notes: &lt;p</description>
+      <pubDate>Sat, 17 Oct 2026 17:44:00 +0000</pubDate>
+      <guid isPermaLink="false">urn:sw-learning:c762d883de2ad2df693fa957979c38761a6052e0ecb46efd01e0674badf5f778</guid>
+      <link>https://diceforbrains.com/the-adventure-begins-4/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-adventure-begins-4</link>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e03.mp3" length="66764642" type="audio/mpeg" />
+      <itunes:duration>46:21</itunes:duration>
+    </item>
+    <item>
+      <title>17 • LORE · [The Star Wars Canon Timeline Podcast] EII: ep 2 – Visions S2-e5,1,2 – Sith of the Old Republic (LEGENDS)</title>
+      <description>Role: LORE. Creative use: Conventional world lore and character context. Original date: Mon, 13 May 2024 16:38:25 +0000. Publisher: The Star Wars Canon Timeline Podcast. Original summary: Role: LORE. Publisher show: The Star Wars Canon Timeline Podcast. US Apple show-wide rating: 4.6/5 over 57 ratings (NOT this episode's rating). Editorial algorithm estimate: 69.5/100. Original publication: Mon, 13 May 2024 16:38:25 +0000. Creative application: Galactic history, mythology, Force cultures, High Republic and distinction between Canon</description>
+      <pubDate>Sat, 17 Oct 2026 17:43:00 +0000</pubDate>
+      <guid isPermaLink="false">urn:sw-learning:a2b1b5fd76823224333ec057b8160e680f79db8ee83c7d37171069f8ad123c28</guid>
+      <link>https://thelorehounds.com</link>
+      <enclosure url="https://pdst.fm/e/audio4.redcircle.com/episodes/cda01eda-c6f2-42dd-85bd-98da03cfc93c/stream.mp3" length="77120156" type="audio/mpeg" />
+      <itunes:duration>4820</itunes:duration>
+    </item>
+  </channel>
+</rss>
