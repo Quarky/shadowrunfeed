@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Star Wars RPG — Moraband and Shard Moon Dramatic Listening</title>
+    <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
+    <language>en</language>
+    <description>Twenty distinct non-Star-Wars scripted dramas and RPG actual plays: 10 Moraband-like ancient mysteries, then 10 Shard Moon-like remote scientific and survival stories, five of each format per theme. Cross-genre inspiration, not Star Wars lore.</description>
+    <itunes:author>Independent RPG Listening Index</itunes:author>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png" />
+    <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/bonus-20.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 · CROSS-GENRE DRAMA · [Archive 81] 01 - A Body In A New Place</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:72da588cb78025733d62f8777cea6325bd1ab0b0f1d5fd5dea63ee0581da80bc</guid>
+      <link>https://archive81.libsyn.com/episode-1-a-body-in-a-new-place</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. Occult recordings, hidden dimensions, investigative evidence and institutional secrets. Not Star Wars canon. Original release: Wed, 06 Apr 2016 04:01:25 +0000. Publisher synopsis: &lt;p&gt;The enigmatic Mr. Davenport leads a tour of Archive 81. Melody fails to interview a member of a historical society. And Dan is unable to prevent the destruction of a tape. Please consider rating and reviewing this show on iTunes. Twitter: https://twitter.com/Archive81 Facebook: https://www.facebook.com/Archive81 Website: archive81.com Email: arc</description>
+      <pubDate>Wed, 06 Apr 2016 04:01:25 +0000</pubDate>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/archive81/257554324-archive81-episode-1-a-body-in-a-new-place.mp3?dest-id=733937" length="24970876" type="audio/mpeg" />
+      <itunes:duration>16:46</itunes:duration>
+      <source url="https://rss.libsyn.com/shows/124004/destinations/733937.xml">Archive 81</source>
+    </item>
+    <item>
+      <title>02 · CROSS-GENRE ACTUAL_PLAY · [Pretending to be People] S1E1 - Blunt Force Trauma</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:34eec521c8034a03290d815a5b09f798a1411c15d9c1d864089a2dc807224cb3</guid>
+      <link>https://pinecast.com/guid/5a59133a-050b-4d37-b564-4aadcdf931b3</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. Mystery-first play with unreliable clues, grounded characters and mounting supernatural dread. Not Star Wars canon. Original release: Mon, 19 Nov 2018 05:40:04 +0000. Publisher synopsis: &lt;p&gt;Pants are worn. Birthdays are forgotten. Faces are smashed.&lt;/p&gt; &lt;p&gt;Support the show on &lt;a href= "https://www.patreon.com/pretendingpod" rel= "nofollow"&gt;Patreon&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Follow along on &lt;a href= "https://www.instagram.com/pretendingpod/" rel= "nofollow"&gt;Instagram&lt;/a&gt;, &lt;a href= "https://twitter.com/PretendingPod" rel="nofollow"&gt;Twitter&lt;/a&gt;, and</description>
+      <pubDate>Mon, 19 Nov 2018 05:40:04 +0000</pubDate>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/a078e01c-caf9-4d42-8a8d-11a15d12fce5/91e991e014bad25320bd2b7076e74ee6.mp3?dest-id=4987575" length="33791006" type="audio/mpeg" />
+      <itunes:duration>01:10:24</itunes:duration>
+      <source url="https://rss.libsyn.com/shows/575895/destinations/4987575.xml">Pretending to be People</source>
+    </item>
+    <item>
+      <title>03 · CROSS-GENRE DRAMA · [The Silt Verses] Chapter 1: Let Me Speak First Of Revelations</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:d95a5c403b309beabe38019714f1e7da92df8459ea34a0fdca96c3dc4348aab7</guid>
+      <link>https://www.thesiltverses.com/</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. Forbidden religions, devotion, doctrinal conflicts and disturbing ritual costs. Not Star Wars canon. Original release: Mon, 04 Jan 2021 08:54:37 GMT. Publisher synopsis: &lt;p&gt;At the town of Marcel's Crossing, Carpenter and Faulkner begin their search for other members of their forgotten river-god faith.&lt;/p&gt;&lt;br&gt;&lt;p&gt;(Sound levels adjusted 3rd July 2022.)&lt;/p&gt;&lt;hr&gt;&lt;p style='color:grey; font-size:0.75em;'&gt; Hosted on Acast. See &lt;a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'&gt;</description>
+      <pubDate>Mon, 04 Jan 2021 08:54:37 GMT</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/5fec690f8211cf453a1b89e2/e/5fec6de02c11c711a01d7562/media.mp3" length="132511006" type="audio/mpeg" />
+      <itunes:duration>55:12</itunes:duration>
+      <source url="https://feeds.acast.com/public/shows/5fec690f8211cf453a1b89e2">The Silt Verses</source>
+    </item>
+    <item>
+      <title>04 · CROSS-GENRE ACTUAL_PLAY · [Mystery Quest] 13 Omens #1</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:e0afd9d1e6e03ac2f05b123a0bce0ea8b90336ba4dfcc7b3066cda9d25837eb7</guid>
+      <link>https://feeds.megaphone.fm/NSR3713660967</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. Inheritance, old obligations, family secrets and investigation of a ritual curse. Not Star Wars canon. Original release: Fri, 11 Sep 2026 16:00:00 -0000. Publisher synopsis: Welcome to Mystery Quest where we are playing 13 Omens by Paizo and the scenario, Bequeathed. After the sudden death of a wealthy vineyard owner, his heirs travel to Salazar Vineyards to attend the will reading of their late father. With bitter rivalries and bad blood could a terrible family secret tear this family apart...
+
+Join: https://www.youtu</description>
+      <pubDate>Fri, 11 Sep 2026 16:00:00 -0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/NSR1885090879.mp3?key=b2bbb1330adb372034c3aec0961e9288&amp;request_event_id=ba752af0-cb7a-409b-ad61-b949bf648d23&amp;session_id=ba752af0-cb7a-409b-ad61-b949bf648d23&amp;timetoken=1792353464_B166A6344AAE594330A68E263818CB69" length="221218544" type="audio/mpeg" />
+      <itunes:duration>5562</itunes:duration>
+      <source url="https://feeds.megaphone.fm/NSR3713660967">Mystery Quest</source>
+    </item>
+    <item>
+      <title>05 · CROSS-GENRE DRAMA · [Old Gods of Appalachia] Episode 108: The Offering</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:698a191d8d98419ebfad778ee12384f031ffbc4e86208c44557bb04cd5388190</guid>
+      <link>https://www.oldgodsofappalachia.com/episodes/2026-09-24/episode-108_the-offering/202609232014504287</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. Ancient buried powers, corrupting bargains and communities living around forbidden places. Not Star Wars canon. Original release: Thu, 24 Sep 2026 09:00:00 GMT. Publisher synopsis: &lt;p&gt;Summer brings rain of various kinds to Lonely Creek. &lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;em&gt;CW: Still more blood (this is Lavinia’s story — did you expect anything less?). Falls from various types of heights, broken bones, more eyeball injury, knife wounds, interpersonal conflict, domestic abuse, mention of the deaths of parents and wild animal mutilations (not describ</description>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 GMT</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/acast/s/old-gods-of-appalachia/e/6ab43660c974afb154ccdbe9/media.mp3" length="67122454" type="audio/mpeg" />
+      <itunes:duration>33:58</itunes:duration>
+      <source url="https://feeds.acast.com/public/shows/61ba0a431a8cbeb6ea3cf11a">Old Gods of Appalachia</source>
+    </item>
+    <item>
+      <title>06 · CROSS-GENRE ACTUAL_PLAY · [The Old Ways Podcast] The Old Ways Podcast - Shards of San Francisco - Episode One</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:bf2ab8630b11e2ab20a17b6083ecf10b550030121e01a261c4d6f25a4484d414</guid>
+      <link>https://5wspodcast.libsyn.com/the-old-ways-podcast-shards-of-san-francisco-episode-one</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. Character-led Gothic investigation and the personal price of ancient supernatural power. Not Star Wars canon. Original release: Fri, 13 Jan 2023 11:00:00 +0000. Publisher synopsis: Several months since have passed since the night of the Blood Moon and members of the San Francisco coterie are brought back together as the winter breeze brings new changes to their nights. Find us and our merch Follow us on Twitter Join our Discord Community</description>
+      <pubDate>Fri, 13 Jan 2023 11:00:00 +0000</pubDate>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/traffic.libsyn.com/secure/5wspodcast/VTM_S2_EP_1.mp3?dest-id=890846" length="83814190" type="audio/mpeg" />
+      <itunes:duration>01:27:19</itunes:duration>
+      <source url="https://rss.libsyn.com/shows/141641/destinations/890846.xml">The Old Ways Podcast</source>
+    </item>
+    <item>
+      <title>07 · CROSS-GENRE DRAMA · [The Lovecraft Investigations] The Case of Charles Dexter Ward: Episode 1</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:c92d454e4a9c684f6fa74905077d78069bb27a8adbdfc2273ecc7736c53b9034</guid>
+      <link>http://www.bbc.co.uk/programmes/p06w5zwg</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. Documentary-style mystery, hidden cult histories and clues that change their meaning. Not Star Wars canon. Original release: Fri, 10 Apr 2026 15:02:00 +0000. Publisher synopsis: &lt;p&gt;From H.P. Lovecraft: An investigation into the disappearance of a young man from a locked room in an asylum.&lt;/p&gt;&lt;p&gt;Cast includes Barnaby Kay, Jana Carpenter, Alun Armstrong, Adam Godley, Nicola Walker, Steven Mackintosh, Mark Bazeley, Samuel Barnett, Richard Cordery, Harry Kay, Penny Downie, Madeleine Potter, Phoebe Fox, Ben Crowe, Nathan Osgood</description>
+      <pubDate>Fri, 10 Apr 2026 15:02:00 +0000</pubDate>
+      <enclosure url="https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0ncq256.mp3" length="22362553" type="audio/mpeg" />
+      <itunes:duration>1390</itunes:duration>
+      <source url="https://podcasts.files.bbci.co.uk/m002xnkw.rss">The Lovecraft Investigations</source>
+    </item>
+    <item>
+      <title>08 · CROSS-GENRE ACTUAL_PLAY · [The Apocalypse Players] Machine Tractor Station Kharkov-37 01: ‘The Rabbit’ | Call of Cthulhu Actual Play</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:b27fff63d8f0577749bf7c7ae2e90ca798714be6909dbc6413c919824683d38c</guid>
+      <link>https://www.apocalypseplayers.com/e/machine-tractor-station-kharkov-37-ep-01-the-rabbit/</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. An isolated investigation where an authority's orders conceal dangerous occult machinery. Not Star Wars canon. Original release: Mon, 08 Nov 2021 23:00:00 +0000. Publisher synopsis: &lt;p class="p1"&gt;In which the Red Army are tasked with assisting the Telegraph Service of the Soviet Union in the investigation and repair of damaged lines at MTSKh-37.&lt;/p&gt;
+&lt;p class="p1"&gt; &lt;/p&gt;
+&lt;p class="p1"&gt;A Call of Cthulhu Scenario by Bret Kramer, set in Stalinist Russia. Episodes released weekly.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Visit &lt;a href='http://www.patreon.co</description>
+      <pubDate>Mon, 08 Nov 2021 23:00:00 +0000</pubDate>
+      <enclosure url="https://mcdn.podbean.com/mf/web/sm7aqk/MTSK37_ep1_Nov_7_STEREO68ty1.mp3" length="116046993" type="audio/mpeg" />
+      <itunes:duration>4835</itunes:duration>
+      <source url="https://www.apocalypseplayers.com/feed.xml">The Apocalypse Players</source>
+    </item>
+    <item>
+      <title>09 · CROSS-GENRE DRAMA · [The Black Tapes] Episode 101 - A Tale of Two Tapes Part I</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:521142d92f9a09a0c7b354235b52f34ef0a5def8e71f5d8491151e4475b29427</guid>
+      <link>https://theblacktapes.libsyn.com/episode-101-a-tale-of-two-tapes-part-i</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. A skeptical investigator uncovers disputed paranormal evidence and an escalating conspiracy. Not Star Wars canon. Original release: Thu, 21 May 2015 21:33:21 +0000. Publisher synopsis: &lt;p&gt;&lt;span id="docs-internal-guid-c82b5eba-783d-c206-170a-dcacd6e03ee1"&gt;&lt;span style="font-size: 15px; font-family: Arial; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt;Our host, Alex Reagan, enters the strange world of paranormal investigation and encounters the enigmatic Dr. Richard Strand: a ghost hunter who doesn</description>
+      <pubDate>Thu, 21 May 2015 21:33:21 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/theblacktapes/THE_BLACK_TAPES_PODCAST_EPISODE_101_-_A_Tale_of_Two_Tapes_Part_I.mp3?dest-id=276638" length="49208818" type="audio/mpeg" />
+      <itunes:duration>40:28</itunes:duration>
+      <source url="https://rss.libsyn.com/shows/67700/destinations/276638.xml">The Black Tapes</source>
+    </item>
+    <item>
+      <title>10 · CROSS-GENRE ACTUAL_PLAY · [The Glass Cannon Podcast] DMV | Time For Chaos S1 E10 | Call of Cthulhu Masks of Nyarlathotep</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:114fc518c7707bcb57abfe67c44c08a4cf91c5932ac3867c8b45809477cdc8d8</guid>
+      <link>https://feeds.megaphone.fm/QCD8414694967</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. Investigators pursuing ancient cult conspiracies; inspiration for layered relic and tomb plots. Not Star Wars canon. Original release: Fri, 23 May 2025 04:00:00 -0000. Publisher synopsis: After discovering their friend brutally murdered, the investigators begin trying to piece together what happened.
+
+
+
+Watch the video here: ⁠⁠⁠https://youtu.be/NfN8ZtFIm-A⁠
+
+
+
+For a limited time, use code "TFC" to save 15% on Cthulhu products at ⁠⁠chaosium.com⁠⁠.
+
+
+
+Access exclusive podcasts, ad-free episodes, and livestreams with a 30-day free tria</description>
+      <pubDate>Fri, 23 May 2025 04:00:00 -0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/SBP2998762349.mp3?key=3d969fe72c12ac464fcac9f1c98fc8fc&amp;request_event_id=4b08abcd-d17b-40e2-a3f2-c1258731089f&amp;session_id=4b08abcd-d17b-40e2-a3f2-c1258731089f&amp;timetoken=1792353469_C4E89995C105825345B636C592EED47A" length="70586357" type="audio/mpeg" />
+      <itunes:duration>8510</itunes:duration>
+      <source url="https://feeds.megaphone.fm/QCD8414694967">The Glass Cannon Podcast</source>
+    </item>
+    <item>
+      <title>11 · CROSS-GENRE DRAMA · [Janus Descending] EPISODE 1: Entry 1</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:ea7162a8bc7d33ccc4cd610599de50f579311ee865f48b7a0dcf55f5d92a0120</guid>
+      <link>https://janusdescending.libsyn.com/entry-1</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. Two xenoarchaeologists explore a lost civilization on a hostile world; strong expedition continuity. Not Star Wars canon. Original release: Wed, 31 Oct 2018 04:00:00 +0000. Publisher synopsis: &lt;p&gt;Remastered: &lt;em&gt;Chel, alone. An approach. A beginning...&lt;/em&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;p&gt;In this episode of &lt;strong&gt;Janus Descending&lt;/strong&gt;...&lt;/p&gt; &lt;p&gt;Chel - Jordan Cobb&lt;/p&gt; &lt;p&gt;Sound Editor - Julia Schifini&lt;/p&gt; &lt;p&gt;Composition - Daryl Banner&lt;/p&gt; &lt;p&gt;Monster Maker - Karyn Keene&lt;/p&gt; &lt;p&gt;Also featuring the voice talents of Anthony Olivieri, Zach Libresco, Julia</description>
+      <pubDate>Wed, 31 Oct 2018 04:00:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/janusdescending/Entry_1_-_Remaster.mp3?dest-id=799640" length="20318227" type="audio/mpeg" />
+      <itunes:duration>15:01</itunes:duration>
+      <source url="https://rss.libsyn.com/shows/131305/destinations/799640.xml">Janus Descending</source>
+    </item>
+    <item>
+      <title>12 · CROSS-GENRE ACTUAL_PLAY · [RPPR Actual Play] Mothership: The Oblivion Broadcast</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:07ffb0535c9ace066128402513f57dd22da6cc4ddd31b194cd42847215fe6d5c</guid>
+      <link>https://actualplay.roleplayingpublicradio.com/2026/05/genre/horror/mothership-the-oblivion-broadcast/</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. A team visits a remote asteroid relay after a mysterious death; environmental systems and clues. Not Star Wars canon. Original release: Thu, 14 May 2026 17:00:58 +0000. Publisher synopsis: Jackson Gemini, the pilot of a small survey ship, died under mysterious circumstances while at Broadcast Station 65X, a remote facility built on an asteroid in an uninhabited star system. The station is an important link in outer rim communications infrastructure, so it must remain operable at all times. A team is sent in to answer the distress cal</description>
+      <pubDate>Thu, 14 May 2026 17:00:58 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/rpg_actual_play/actualplay.roleplayingpublicradio.com/podcasts/RPPR-Mothership-Oblivion-Broadcast.mp3" length="84381128" type="audio/mpeg" />
+      <itunes:duration>2:46:58</itunes:duration>
+      <source url="https://actualplay.roleplayingpublicradio.com/feed/podcast/">RPPR Actual Play</source>
+    </item>
+    <item>
+      <title>13 · CROSS-GENRE DRAMA · [The Deca Tapes] 1: The Cleaner</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:2057c51ae36af353e2b9f0a1fcc3023b901237e645c10b570caa2a9b9f799527</guid>
+      <link>https://feeds.megaphone.fm/SBP7220818085</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. A controlled enclosed habitat with identity, surveillance and unexplained experiments. Not Star Wars canon. Original release: Mon, 11 Mar 2019 03:00:00 -0000. Publisher synopsis: Get Lex Noteboom's novel: ⁠https://fanlink.tv/TMWATF⁠
+
+Get access to all DECA without ads: https://patreon.com/lexnbm
+
+
+
+CREDITS
+
+The Deca Tapes is created by Lex Noteboom: https://www.lexnoteboom.com/
+
+Artwork by Lex Noteboom &amp; The Furrow &amp; Jurriaan Verdoold
+
+Mastering by Audio Brothers NL
+
+ 
+
+The Cleaner is voiced by Nick Messina
+
+The High School</description>
+      <pubDate>Mon, 11 Mar 2019 03:00:00 -0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP9273307737.mp3?key=de5b64f6bdf64c48ad09129d4cc8f166&amp;request_event_id=b9e46bac-e03c-45e1-85a2-a915d29bcab3&amp;session_id=b9e46bac-e03c-45e1-85a2-a915d29bcab3&amp;timetoken=1792353473_77AD8074BB27D7DCF25A9C8D59716FDE" length="34782362" type="audio/mpeg" />
+      <itunes:duration>2143</itunes:duration>
+      <source url="https://feeds.megaphone.fm/SBP7220818085">The Deca Tapes</source>
+    </item>
+    <item>
+      <title>14 · CROSS-GENRE ACTUAL_PLAY · [No Quest for the Wicked] FRONTIERS -  Prologue: The Space Before</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:73898a2a36f998e82e0519f37b85ebf0f88622a950b3cd67311702b46f33864e</guid>
+      <link>https://noquestcast.podbean.com/e/frontiers-the-space-before-prologue/</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. A science-fiction crew evaluates a catastrophic dimensional anomaly and its consequences. Not Star Wars canon. Original release: Wed, 23 Apr 2025 18:00:00 -0000. Publisher synopsis: A catastrophic Dimensional Event in a distant universe calls Extract Team 6 into action.  Neo-Plasm, Bexley and Voyage are tasked with observing and averting the apocalyptic anomaly.  Another end to another world awaits ET6 as they dive head first into danger and disaster.
+Special Guests:
+Candace the Magnificent
+Jeremy Cobb (3 Black Halflings)
+Liv </description>
+      <pubDate>Wed, 23 Apr 2025 18:00:00 -0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/NSR5016040794.mp3?key=8f2dd36e400bb31ee3549e5389104106&amp;request_event_id=37305ebf-c2b1-4af4-a5bf-7ad56c14af35&amp;session_id=37305ebf-c2b1-4af4-a5bf-7ad56c14af35&amp;timetoken=1792353475_101C48E06CED0B7863C55D7DA0FE764D" length="214267768" type="audio/mpeg" />
+      <itunes:duration>5422</itunes:duration>
+      <source url="https://feeds.megaphone.fm/NSR2697497777">No Quest for the Wicked</source>
+    </item>
+    <item>
+      <title>15 · CROSS-GENRE DRAMA · [SAYER] SAYER – Episode 85 – Magically Efficient</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:00250cda9a11397d8ec5d9c376e9e91ec3a1e44dcb28b575bbf72bf21659aeda</guid>
+      <link>https://iamsayer.com/sayer-episode-85-magically-efficient/</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. A highly controlled artificial moon, corporate AI, human subjects and ominous facility messaging. Not Star Wars canon. Original release: Sat, 12 Aug 2023 05:03:57 +0000. Publisher synopsis: Now that all of your questions about your brutal demise have been answered or ignored, I can tell you just how bad things have been for me personally. SAYER is voiced, written, and produced by Adam Bash. Intro and outro music composed by&amp;#160;Jesse &amp;#8220;Main Finger&amp;#8221; Gregory. This episode also features the following music: Cold War...</description>
+      <pubDate>Sat, 12 Aug 2023 05:03:57 +0000</pubDate>
+      <enclosure url="https://www.iamsayer.com/sayer/SAYER-85-Efficient.mp3" length="35493592" type="audio/mpeg" />
+      <itunes:duration>17:55</itunes:duration>
+      <source url="https://feeds.feedburner.com/sayer">SAYER</source>
+    </item>
+    <item>
+      <title>16 · CROSS-GENRE ACTUAL_PLAY · [Cosmic Crit: A Starfinder Actual Play Podcast] Guilt of the Grave World | 018: Rotting Hill</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:49b4e68659f48b542f14dfc337a60ffbdc73b38cae14e8504ac4fff8456f2c7f</guid>
+      <link>https://cosmiccrit.com/guilt-of-the-grave-world-018-rotting-hill/</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. Sci-fi adventurers navigate perilous worlds and suspicious technological/biological infrastructure. Not Star Wars canon. Original release: Mon, 15 Jun 2026 04:05:00 +0000. Publisher synopsis: An undead horde chases the party across the surface of Eox, and they have to fight tooth and nail to survive. Can the heroes make it to safety or will they succumb to the undead chase and become another victim of the zombie shamblers? Find out on this week’s Cosmic Crit!
+</description>
+      <pubDate>Mon, 15 Jun 2026 04:05:00 +0000</pubDate>
+      <enclosure url="https://cosmiccrit.com/podcast-download/3820/guilt-of-the-grave-world-018-rotting-hill.mp3" length="76978069" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+      <source url="https://cosmiccrit.com/feed/podcast/">Cosmic Crit: A Starfinder Actual Play Podcast</source>
+    </item>
+    <item>
+      <title>17 · CROSS-GENRE DRAMA · [Celeritas] Director Commentary on Episode 1</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:7d451908151a4da164021f2ba7a89502410547de3e786aa4ea658c037d387898</guid>
+      <link>https://feeds.megaphone.fm/SBP2001311146</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. Experimental space technology, isolation and practical problem-solving under extreme uncertainty. Not Star Wars canon. Original release: Wed, 23 Oct 2024 19:36:00 -0000. Publisher synopsis: Director commentary on episode 1 with writer / director Alexander Adell
+Join the Celeritas Discord for bonus content, AMA's and in-depth community discussion. Discord link at https://celeritaspod.com/
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Wed, 23 Oct 2024 19:36:00 -0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP2626322863.mp3?key=80e0a0a7f470b6718f75bcc629426335&amp;request_event_id=7dd8c952-5dc0-4373-b9fe-d5daca07094b&amp;session_id=7dd8c952-5dc0-4373-b9fe-d5daca07094b&amp;timetoken=1792353478_D3AF6FD7CAF6C187680B42D1069B47D3" length="38233052" type="audio/mpeg" />
+      <itunes:duration>2345</itunes:duration>
+      <source url="https://feeds.megaphone.fm/SBP2001311146">Celeritas</source>
+    </item>
+    <item>
+      <title>18 · CROSS-GENRE ACTUAL_PLAY · [House of Bob] Triple Agents Chapter 01 [Triangle Agency]</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:bf30460bbded4dd439f582ccc650624a9b8a2bbafff2aecc16686fc3af7dce53</guid>
+      <link>https://feeds.megaphone.fm/houseofbob</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. Team members respond to an anomalous corporate site where everyday procedures mask danger. Not Star Wars canon. Original release: Mon, 01 Dec 2025 08:00:00 -0000. Publisher synopsis: "Hot girls gotta stay hydrated"
+
+House of Bob embarks on a new adventure using the Triangle Agency system. 
+
+In the sleepy town of Three Corners, USA, we meet our agents who receive a new mission to investigate a strange string of deaths in the community of Caddy Corner.
+
+Episode Artwork by Jake @Javoc.bsky.social
+
+House of Bob Cover Artwork by @Sh</description>
+      <pubDate>Mon, 01 Dec 2025 08:00:00 -0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/FAFO1494708149.mp3?key=1e95a45706e3695a81f4c58736b8f34c&amp;request_event_id=e005282f-bd36-44bc-9008-964bf8865360&amp;session_id=e005282f-bd36-44bc-9008-964bf8865360&amp;timetoken=1792353479_50143A983733A3D034DD70211DE18810" length="48289578" type="audio/mpeg" />
+      <itunes:duration>3054</itunes:duration>
+      <source url="https://feeds.megaphone.fm/houseofbob">House of Bob</source>
+    </item>
+    <item>
+      <title>19 · CROSS-GENRE DRAMA · [Primordial Deep] One: Tiamat</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:2f4006c2724c7b7af2f96bcf4fa2e49f5ffee2b68e93545d30f52d1e93275cfa</guid>
+      <link>https://primordialdeep.libsyn.com/one-tiamat</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. Research personnel confront revived prehistoric creatures and discoveries beneath a remote station. Not Star Wars canon. Original release: Sat, 31 Oct 2020 04:00:00 +0000. Publisher synopsis: &lt;p&gt;When the body of a long extinct sea creature washes up on the shores of Coney Island, Dr. Marella Morgan must take her first steps beyond the bizarre... and into the blue...&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;p&gt;&lt;u&gt;&lt;strong&gt;In this episode of Primordial Deep,&lt;/strong&gt;&lt;/u&gt; &lt;u&gt;&lt;em&gt;&lt;strong&gt;Tiamat&lt;/strong&gt;&lt;/em&gt;&lt;/u&gt;&lt;u&gt;&lt;strong&gt;:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;Dr. Marella Morgan&lt;/e</description>
+      <pubDate>Sat, 31 Oct 2020 04:00:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/primordialdeep/Primordial_Deep_vfinal.mp3?dest-id=1496534" length="41648693" type="audio/mpeg" />
+      <itunes:duration>42:31</itunes:duration>
+      <source url="https://rss.libsyn.com/shows/208064/destinations/1496534.xml">Primordial Deep</source>
+    </item>
+    <item>
+      <title>20 · CROSS-GENRE ACTUAL_PLAY · [Ain't Slayed Nobody] Cosmic Dark Campaign 1 - Time Murder 1</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:9c25d3c430da437b0d2ba77bad4fe6f15939709fa67d8c6425bbf166f9df4422</guid>
+      <link>https://shows.acast.com/aint-slayed-nobody/episodes/cosmic-dark-campaign-1-time-murder-1</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. A corporation sends a team to a lifeless anomaly world; decisions balance survival and exploitation. Not Star Wars canon. Original release: Mon, 17 Mar 2025 14:55:09 GMT. Publisher synopsis: &lt;p&gt;Three childhood friends are now working for a corporate resource conglomerate. They descend to a lifeless planet with one anomaly, a golden field of chiming orchids. Unsettling questions quickly arise.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Graham is launching Cosmic Dark on Kickstarter soon. Sign up to be notified when it goes live! &lt;a href="https://www.kickstarter.com/pro</description>
+      <pubDate>Mon, 17 Mar 2025 14:55:09 GMT</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/632da7cf6d7ffa0012565ffa/e/67d837cdaf1d043055028736/media.mp3" length="211062791" type="audio/mpeg" />
+      <itunes:duration>1:49:55</itunes:duration>
+      <source url="https://feeds.acast.com/public/shows/632da7cf6d7ffa0012565ffa">Ain't Slayed Nobody</source>
+    </item>
+  </channel>
+</rss>
