@@ -1,0 +1,62 @@
+name: Diagnose Star Wars Podcast RSS Delivery
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/diagnose-star-wars-rss-delivery.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compare RSS subscribers' public HTTP endpoints and parsing
+        env:
+          GITHUB_SHA: ${{ github.sha }}
+        run: |
+          python3 - <<'PY'
+          import urllib.request, urllib.error, xml.etree.ElementTree as ET, time, os
+          from pathlib import Path
+          prefix="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/"
+          base="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml"
+          revision=os.environ.get("GITHUB_SHA","")[:10]
+          urls={
+            "ORIGINAL RSS":base,
+            "original with cache query":base+"?cb="+revision,
+            "original with cache query plus no-cache":base+"?podcast_refresh="+revision,
+            "alternate feed.xml":prefix+"feed.xml",
+            "raw GitHub source":"https://raw.githubusercontent.com/Quarky/shadowrunfeed/main/star-wars/feed-v2.xml",
+            "jsdelivr Fastly":base.replace("cdn.jsdelivr.net","fastly.jsdelivr.net"),
+            "jsdelivr Gcore":base.replace("cdn.jsdelivr.net","gcore.jsdelivr.net"),
+          }
+          def parse(raw):
+            root=ET.fromstring(raw)
+            assert root.tag=="rss"
+            channel=root.find("channel")
+            assert channel is not None
+            items=channel.findall("item")
+            ids=[i.findtext("guid") for i in items]
+            assert len(ids)==len(set(ids))
+            return len(ids),(channel.findtext("title") or "")[:65],len(raw)
+          local=Path("star-wars/feed-v2.xml").read_bytes()
+          print("LOCAL PUBLISHED",parse(local),flush=True)
+          for label,url in urls.items():
+            for ua in (["PodbeanPodcast/Android","Mozilla/5.0"] if label=="ORIGINAL RSS" else ["Mozilla/5.0"]):
+              try:
+                headers={"User-Agent":ua,"Accept":"application/rss+xml, application/xml, text/xml, */*"}
+                if "no-cache" in label:
+                  headers["Cache-Control"]="no-cache"
+                req=urllib.request.Request(url,headers=headers)
+                with urllib.request.urlopen(req,timeout=15) as f:
+                  h=f.headers
+                  data=f.read()
+                  print(label,"user-agent",ua,"http",f.status,"final",f.url,"content-type",h.get("Content-Type"),"cache-control",h.get("Cache-Control"),"age",h.get("Age"),"x-cache",h.get("X-Cache"),"cf-cache-status",h.get("CF-Cache-Status"),"etag",h.get("ETag"),"items-title-bytes",parse(data),flush=True)
+              except Exception as e:
+                print(label,"user-agent",ua,"FAILED",repr(e),flush=True)
+          PY
