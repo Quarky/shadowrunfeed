@@ -1,0 +1,85 @@
+name: Verify Original Star Wars RSS CDN
+
+on:
+  workflow_run:
+    workflows:
+      - Update Star Wars Ranked Feed and Featured Story Mix
+    types: [completed]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/verify-star-wars-cdn.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-original-star-wars-subscription-cdn
+  cancel-in-progress: true
+
+jobs:
+  verify-cdn:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Verify subscribed URL matches published RSS (retry stale CDN cache)
+        env:
+          ORIGINAL_SUBSCRIBED_URL: https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml
+          PURGE_URL: https://purge.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml
+        run: |
+          python3 - <<'PY'
+          import os
+          import time
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          origin = Path("star-wars/feed-v2.xml")
+          if not origin.exists():
+              raise SystemExit("Original feed-v2.xml is missing on main")
+
+          def guid_list(data):
+              root = ET.fromstring(data)
+              if root.tag != "rss":
+                  raise ValueError("Not RSS 2.0")
+              ch = root.find("channel")
+              if ch is None:
+                  raise ValueError("Missing RSS channel")
+              items = ch.findall("item")
+              ids = [x.findtext("guid") for x in items]
+              if not ids or None in ids or len(ids) != len(set(ids)):
+                  raise ValueError("Missing or duplicate episode GUIDs")
+              return ids
+
+          expected = guid_list(origin.read_bytes())
+          assert len(expected) >= 130, "Source unexpectedly dropped episodes"
+          feed = os.environ["ORIGINAL_SUBSCRIBED_URL"]
+          purge = os.environ["PURGE_URL"]
+
+          for attempt in range(1, 9):
+              try:
+                  req = urllib.request.Request(feed, headers={"User-Agent": "Quarky-RSS-publishing-check/1.0"})
+                  with urllib.request.urlopen(req, timeout=25) as response:
+                      actual = guid_list(response.read())
+                  print(f"CDN attempt {attempt}: {len(actual)} items, published {len(expected)}")
+                  if actual == expected:
+                      print("PASS: the original subscribed RSS URL serves exactly the published episode GUID list")
+                      raise SystemExit(0)
+              except Exception as exc:
+                  print(f"CDN attempt {attempt} failed: {exc}", flush=True)
+
+              if attempt < 8:
+                  try:
+                      with urllib.request.urlopen(purge, timeout=25) as response:
+                          print(f"Cache invalidation: HTTP {response.status}", flush=True)
+                  except Exception as exc:
+                      print(f"Cache invalidation failed: {exc}", flush=True)
+                  time.sleep(15)
+
+          raise SystemExit("FAIL: the unchanged original RSS URL is still stale after eight CDN checks; GitHub source is not the same as the subscriber response")
+          PY
