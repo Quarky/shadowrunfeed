@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Star Wars RPG — Full 140 XML Compatibility Copy</title>
+    <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
+    <description>Curated Star Wars RPG lore, scripted fiction, tabletop actual plays and science-fiction inspiration, including Shard Moon research-survival and Moraband dark-side mysteries. 140 distinct publisher-hosted recordings with existing episode identities preserved. Unofficial listening anthology; all audio remains with its original creators.</description>
+    <language>en</language>
+    <itunes:author>Independent Quarky listening catalog (not affiliated with the creators)</itunes:author>
+    <itunes:summary>Curated Star Wars RPG lore, scripted fiction, tabletop actual plays and science-fiction inspiration, including Shard Moon research-survival and Moraband dark-side mysteries. 140 distinct publisher-hosted recordings with existing episode identities preserved. Unofficial listening anthology; all audio remains with its original creators.</itunes:summary>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:category text="Leisure" />
+    <image><url>https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png</url><title>Star Wars RPG — recommended FFG and D6 actual-play sampler</title><link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link></image>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png" />
+    <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/podbean-complete-140.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Oct 2026 19:17:30 GMT</lastBuildDate>
+    <item>
+      <title>01 • CROSS-GENRE INSPIRATION · [Among the Stars and Bones] S1E1 - &quot;The Key to Humanity&apos;s Future&quot;</title>
+      <guid isPermaLink="false">urn:sw-frontier:2e15e0cf0940b2180e618511087afe1a79fbcf190cc5e0bd0966e0863b90e734</guid>
+      <link>https://www.amongthestarsandbones.com/</link>
+      <description>Role: DRAMA. NON-STAR-WARS FICTION, used for adaptable mood only. Creative use: Alien archaeology: field reports, exploration teams, unfamiliar ruins and protective ancient structures.. Original date: Wed, 03 Apr 2019 10:34:11 -0000. Publisher: Among the Stars and Bones. Original summary: SYNOPSIS The crew of the Herodotus Mission broadcast their first report from the Alpha and Beta sites on the planet Tefen. As they begin to search the sites, they uncover a city, a terraformer, over 200 skeletons...and a box. CONTENT WARNINGS: NONE Twitter: &lt;a href=&quot;https://twitt</description>
+      <pubDate>Sat, 17 Oct 2026 17:59:00 +0000</pubDate>
+      <enclosure url="https://pinecast.com/listen/50b66dbc-b376-49d1-bd02-a4cc64d51080.mp3?source=rss&amp;ext=asset.mp3" length="69057349" type="audio/mpeg" />
+      <itunes:duration>00:35:57</itunes:duration>
+    </item>
+    <item>
+      <title>02 • ACTUAL_PLAY · [Nastygram — Dreamscapes] Star Wars: Dreamscapes - Ep 1. Field of View (Star Wars d6)</title>
+      <guid isPermaLink="false">urn:quarky:starwars:fad11994cb2458f294cf7261d436b791ee642bae126e7676bc9893c31fb857b0</guid>
+      <link>https://nastygram.libsyn.com/star-wars-dreamscapes-ep-1-field-of-view-star-wars-d6</link>
+      <description>Role: ACTUAL_PLAY. Creative use: Mystery-led Jedi expedition and uncertain evidence. Original date: Tue, 28 Oct 2025 05:00:00 +0000. Publisher: Nastygram — Dreamscapes. Original summary: Role: STORY. Publisher show: Nastygram — Dreamscapes. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 62.7/100. Original publication: Tue, 28 Oct 2025 05:00:00 +0000. Creative application: Jedi investigative process, unusual phenomena and mystery scenes.. Original notes: A Jedi Knight and</description>
+      <pubDate>Sat, 17 Oct 2026 17:58:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Star_Wars_Dreamscapes_-_Field_of_View.mp3?dest-id=2773544" length="80591677" type="audio/mpeg" />
+      <itunes:duration>01:35:07</itunes:duration>
+    </item>
+    <item>
+      <title>03 • CROSS-GENRE INSPIRATION · [Station 151] S1E1: On the Ice</title>
+      <guid isPermaLink="false">urn:sw-frontier:7ca9589483a512490e08e69057efead75e405d6a787ab32494edaf4be22985c6</guid>
+      <link>https://www.station151.com/season-one/s1e1-on-the-ice/</link>
+      <description>Role: DRAMA. NON-STAR-WARS FICTION, used for adaptable mood only. Creative use: Isolated research team, corporate secrecy and the social effect of dangerous infrastructure.. Original date: Tue, 06 Dec 2022 11:00:00 -0000. Publisher: Station 151. Original summary: Astrophysicist Wayne Robertson arrives in Antarctica for a one-year solo contract with The Telders Corporation at a research station called Station 151. Pilot Richard Johns warns of Michael Telders&apos; shady practices and the dangers of wintering over alone in Antarctica. Wayne is confident the career opportunity outweighs the risks, but his worldview</description>
+      <pubDate>Sat, 17 Oct 2026 17:57:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/SBP5071485675.mp3?key=18d796fec9c6e43ce0584fa18b084ddb&amp;request_event_id=aa73f835-82b1-43fd-a7a0-7c498457841c&amp;session_id=aa73f835-82b1-43fd-a7a0-7c498457841c&amp;timetoken=1792352770_D6C84377777CF4344CED2B2DEA42D413" length="50863112" type="audio/mpeg" />
+      <itunes:duration>1141</itunes:duration>
+    </item>
+    <item>
+      <title>04 • ACTUAL_PLAY · [Force Majeure — Coldfire Chronicles] Coldfire Chronicles S01 E01 - Prison Planet Blues</title>
+      <guid isPermaLink="false">urn:sw-learning:b42349812b7d541b4b6af9a93a63753540c69b2ba13b4061da73be39ab376d7f</guid>
+      <link>https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e01</link>
+      <description>Role: ACTUAL_PLAY. Creative use: Prison-planet atmosphere, organizational control and lived-in frontier scenes. Original date: Mon, 22 Jan 2018 19:11:06 +0000. Publisher: Force Majeure — Coldfire Chronicles. Original summary: Role: STORY. Publisher show: Force Majeure — Coldfire Chronicles. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 56.8/100. Original publication: Mon, 22 Jan 2018 19:11:06 +0000. Creative application: Force-sensitive character relationships, active NPC goals and escalating consequences.. Or</description>
+      <pubDate>Sat, 17 Oct 2026 17:56:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/forcemajeurepod/CFC_S01_E01_New_Intro.mp3?dest-id=604132" length="29346727" type="audio/mpeg" />
+      <itunes:duration>38:40</itunes:duration>
+    </item>
+    <item>
+      <title>05 • CROSS-GENRE INSPIRATION · [The White Vault] Season 1 | Ep. 1 | Fristed</title>
+      <guid isPermaLink="false">urn:sw-frontier:cfef18f21a339ad21325bd8a2fe8b982a04ebb995ee67fadd5b36c38525a070f</guid>
+      <link>https://thewhitevault.com/</link>
+      <description>Role: DRAMA. NON-STAR-WARS FICTION, used for adaptable mood only. Creative use: Multilingual repair expedition, hostile exterior, outpost routines and the discovery of buried secrets.. Original date: Tue, 03 Oct 2017 04:01:00 -0000. Publisher: The White Vault. Original summary: Explore the far reaches of the world’s horrors in the audio drama podcast The White Vault. Follow the collected records of a repair team sent to Outpost Fristed in the vast white wastes of Svalbard and unravel what lies waiting in the ice below. Our premiere episode introduces our international team to the cold fields of Norway’s distant island, S</description>
+      <pubDate>Sat, 17 Oct 2026 17:55:00 +0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP4699056280.mp3?key=95d0792b2f7c63295198fcf20b4e7186&amp;request_event_id=7577483c-a069-4662-9ff6-38f8222a8146&amp;session_id=7577483c-a069-4662-9ff6-38f8222a8146&amp;timetoken=1792352771_5B1A509DAA5DC268CAC8CCD1588C7856" length="30375520" type="audio/mpeg" />
+      <itunes:duration>1240</itunes:duration>
+    </item>
+    <item>
+      <title>06 • ACTUAL_PLAY · [Nastygram — Empire&apos;s End] Empire&apos;s End 1: Flash Traffic (Star Wars)</title>
+      <guid isPermaLink="false">urn:quarky:starwars:c3ea576c2c8820110d7f4121075c7d143f63007f8ac98aba415cc4ab54dae81a</guid>
+      <link>https://nastygram.libsyn.com/empires-end-1-flash-traffic-star-wars</link>
+      <description>Role: ACTUAL_PLAY. Creative use: Imperial personnel, chain of command and moral nuance. Original date: Tue, 30 Nov 2021 06:00:00 +0000. Publisher: Nastygram — Empire&apos;s End. Original summary: Role: STORY. Publisher show: Nastygram — Empire&apos;s End. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 60.9/100. Original publication: Tue, 30 Nov 2021 06:00:00 +0000. Creative application: Imperial officers, bureaucracy, moral tension, faction conflict.. Original notes: We meet the crew</description>
+      <pubDate>Sat, 17 Oct 2026 17:54:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Empires_End_1_-_Flash_Traffic.mp3?dest-id=2773544" length="65453137" type="audio/mpeg" />
+      <itunes:duration>01:30:54</itunes:duration>
+    </item>
+    <item>
+      <title>07 • CROSS-GENRE INSPIRATION · [VAST Horizon] Season 1 | Ep. 1 | Stirred</title>
+      <guid isPermaLink="false">urn:sw-frontier:1506362f0127ec93b899b6ba0bd6b27cfa7d0b224f3ccfe468815af897796824</guid>
+      <link>https://vasthorizonpodcast.com/</link>
+      <description>Role: DRAMA. NON-STAR-WARS FICTION, used for adaptable mood only. Creative use: Abandoned colonization vessel, malfunctioning AI, environmental controls and emergency survival.. Original date: Tue, 28 May 2019 01:14:00 -0000. Publisher: VAST Horizon. Original summary: Nolira is an agronomist tasked with establishing agriculture in a new solar system, but when she wakes up on a now- empty colony ship, the whole of her plan disappears. The ship has been set adrift, with numerous mission-critical problems requiring immediate attendance outside of her area of expertise. Credits: Written by K.A. Statz Produced with</description>
+      <pubDate>Sat, 17 Oct 2026 17:53:00 +0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP7821336803.mp3?key=48f45265372604ef8c165003c6f12593&amp;request_event_id=682389ed-f4cd-48cc-abdc-46f7569019f8&amp;session_id=682389ed-f4cd-48cc-abdc-46f7569019f8&amp;timetoken=1792352771_5B1A509DAA5DC268CAC8CCD1588C7856" length="37530205" type="audio/mpeg" />
+      <itunes:duration>2337</itunes:duration>
+    </item>
+    <item>
+      <title>08 • ACTUAL_PLAY · [Respect the Crit — Empire&apos;s Edge] Empire&apos;s Edge - Ep. 01: Empire&apos;s Edge</title>
+      <guid isPermaLink="false">urn:quarky:starwars:7eff835be8f70f381fcba326b19398fef38fed66f967e24e39798995d090a0d2</guid>
+      <link>https://respectthecrit.libsyn.com/empires-edge-episode-001</link>
+      <description>Role: ACTUAL_PLAY. Creative use: Cinematic FFG improvisation, new settlements and equipment. Original date: Wed, 04 Dec 2019 16:00:00 -0000. Publisher: Respect the Crit — Empire&apos;s Edge. Original summary: Role: STORY. Publisher show: Respect the Crit — Empire&apos;s Edge. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 69.0/100. Original publication: Wed, 04 Dec 2019 16:00:00 -0000. Creative application: Cinematic soundscapes, character voices and narrative tension.. Original notes: It is a perio</description>
+      <pubDate>Sat, 17 Oct 2026 17:52:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD1251028918.mp3?key=80be59cd09c8fd42f0e7c0d162b4cb48&amp;request_event_id=2f02e524-1484-4217-867d-360506887bb8&amp;session_id=2f02e524-1484-4217-867d-360506887bb8&amp;timetoken=1792352764_C3E7AABAA360FD56C5173D804E1087B2" length="65334988" type="audio/mpeg" />
+      <itunes:duration>2679</itunes:duration>
+    </item>
+    <item>
+      <title>09 • CROSS-GENRE INSPIRATION · [The Hyacinth Disaster] Episode 1 - Just Doing a Job</title>
+      <guid isPermaLink="false">urn:sw-frontier:914af3d5d45977be56c4f5fa0878ca05ec0d16e059ff379b79e5b27fa5fb1b28</guid>
+      <link>https://www.davidecarlson.net/episodes/1-there-goes-my-day</link>
+      <description>Role: DRAMA. NON-STAR-WARS FICTION, used for adaptable mood only. Creative use: Working-class asteroid crew, failing equipment, rescue pressure and believable decisions under stress.. Original date: Tue, 21 Nov 2017 02:27:00 GMT. Publisher: The Hyacinth Disaster. Original summary: EPISODE 1 - The Hyacinth crew struggle through breakdowns and alarms to scan a promising asteroid before time runs out for their friends on the Corvus . Transcript Hosted on</description>
+      <pubDate>Sat, 17 Oct 2026 17:51:00 +0000</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/62713be4dd89b800134549c6/e/577e856d2e69cfa9dd337163%3A5a1883fe085229dccc674061%3A5a189cd671c10b644b6e427f/media.mp3" length="62750361" type="audio/mpeg" />
+      <itunes:duration>26:08</itunes:duration>
+    </item>
+    <item>
+      <title>10 • ACTUAL_PLAY · [Campaign — The Mynock] Episode One</title>
+      <guid isPermaLink="false">urn:quarky:starwars:72f245eb293f45c494dd0d3c346ec780ce25f6ee4ec355a492accf7b3ceb94ce</guid>
+      <description>Role: ACTUAL_PLAY. Creative use: Crew banter, negotiations, improvisational contacts and local culture. Original date: Wed, 08 Oct 2014 01:30:48 -0000. Publisher: Campaign — The Mynock. Original summary: Role: STORY. Publisher show: Campaign — The Mynock. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 51.6/100. Original publication: Wed, 08 Oct 2014 01:30:48 -0000. Creative application: Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes.. Original not</description>
+      <pubDate>Sat, 17 Oct 2026 17:50:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/OSPN8187310956.mp3?key=b48e63025c127d5193bf31e2bb38ebfe&amp;request_event_id=61ec40db-3297-4978-b82e-852dc7b5cb9a&amp;session_id=61ec40db-3297-4978-b82e-852dc7b5cb9a&amp;timetoken=1792352761_9212C4311487F077698CF26EB1F42171" length="66083664" type="audio/mpeg" />
+      <itunes:duration>5500</itunes:duration>
+    </item>
+    <item>
+      <title>11 • LORE · [The Star Wars Canon Timeline Podcast] EII: ep 4 – Canon Folklore of the Old Republic, pt. 1</title>
+      <guid isPermaLink="false">urn:sw-learning:e6fe80a3ed0291ccdaea3f2b0c9646b8fdee2fe60617c1180c157648a3a0eb50</guid>
+      <link>https://thelorehounds.com</link>
+      <description>Role: LORE. Creative use: Conventional world lore and character context. Original date: Fri, 17 May 2024 21:50:43 +0000. Publisher: The Star Wars Canon Timeline Podcast. Original summary: Role: LORE. Publisher show: The Star Wars Canon Timeline Podcast. US Apple show-wide rating: 4.6/5 over 57 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 71.9/100. Original publication: Fri, 17 May 2024 21:50:43 +0000. Creative application: Galactic history, mythology, Force cultures, High Republic and distinction between Canon</description>
+      <pubDate>Sat, 17 Oct 2026 17:49:00 +0000</pubDate>
+      <enclosure url="https://pdst.fm/e/audio4.redcircle.com/episodes/870ae05f-f178-4878-b071-dee19c79b71d/stream.mp3" length="122227983" type="audio/mpeg" />
+      <itunes:duration>7639</itunes:duration>
+    </item>
+    <item>
+      <title>12 • STORY · [Dice for Brains] Dice For Brains Podcast | Episode 1 – Gone Fishin’</title>
+      <guid isPermaLink="false">urn:sw-learning:0bf0ef8d2711903e6624df927f70592014ece038c828cc883c0d7ec2a9ef4f17</guid>
+      <link>https://diceforbrains.com/the-adventure-begins-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-adventure-begins-2</link>
+      <description>Role: STORY. Creative use: Consecutive character-driven actual play. Original date: Sun, 20 Dec 2015 02:53:27 +0000. Publisher: Dice for Brains. Original summary: Role: STORY. Publisher show: Dice for Brains. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 46.9/100. Original publication: Sun, 20 Dec 2015 02:53:27 +0000. Creative application: Awarded community praise for narrative dice, social scenes, emotional character decisions.. Original notes: &lt;p</description>
+      <pubDate>Sat, 17 Oct 2026 17:48:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e01.mp3" length="67867123" type="audio/mpeg" />
+      <itunes:duration>47:05</itunes:duration>
+    </item>
+    <item>
+      <title>13 • LORE · [Star Wars In Character] Star Wars In Character – Kyber Crystals</title>
+      <guid isPermaLink="false">urn:sw-learning:1955b18a41fdb9904f6ecb03d02917a403cf8f16fd10eccace290ca12519ed14</guid>
+      <link>https://neozaz.com/kyber-crystals/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=kyber-crystals</link>
+      <description>Role: LORE. Creative use: Conventional world lore and character context. Original date: Mon, 12 Nov 2018 11:00:52 +0000. Publisher: Star Wars In Character. Original summary: Role: LORE. Publisher show: Star Wars In Character. US Apple show-wide rating: 4.8/5 over 720 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 63.6/100. Original publication: Mon, 12 Nov 2018 11:00:52 +0000. Creative application: Overlooked alien species, minor NPCs, background culture, world texture.. Original notes: In this e</description>
+      <pubDate>Sat, 17 Oct 2026 17:47:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/0/2/2/02285624db7fb2d6/SWIC-EPISODE-240.mp3?c_id=25806095&amp;cs_id=25806095&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792349674&amp;Signature=exq1hdvDHQiCfiWZDsbSemPBJ4IhLfHzSwye4AK6Kg4jUJ0xaRPnTCQkISQCWXG3FDMyHHJZF4bkD~pKyjoqaLia-8S9IqraP5B2ap7Q9MI5COVSp2Ob9sCBbkMY9xsRsh0kMA~mOv4JXdJCF7X15~tguykZz1DpyoF0xsNEubv5YC7pwNVob5dLjH1V6GwoRh2RWBFyAV5o2u9KKvBB4hENjHujY5873yPzzffr5m9bYz39R1mcxI7pouLzHaUt3l7XFAhOFtpfknK~FK3GMmCkpedI-QkYvgI2rMOW~O8pi49H4TCngvFdM1qGNXqrIahHXtso65BOi-k~uEp~ew__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="43341972" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+    </item>
+    <item>
+      <title>14 • STORY · [Dice for Brains] Dice For Brains Podcast | Episode 2 – Unlikely Mentors</title>
+      <guid isPermaLink="false">urn:sw-learning:ae713ae4040fdd7cd886805480a295c4d9d9c04721a0e8998ee54a2a6824d326</guid>
+      <link>https://diceforbrains.com/the-adventure-begins-3/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-adventure-begins-3</link>
+      <description>Role: STORY. Creative use: Consecutive character-driven actual play. Original date: Sun, 20 Dec 2015 02:56:48 +0000. Publisher: Dice for Brains. Original summary: Role: STORY. Publisher show: Dice for Brains. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 49.3/100. Original publication: Sun, 20 Dec 2015 02:56:48 +0000. Creative application: Awarded community praise for narrative dice, social scenes, emotional character decisions.. Original notes: &lt;p</description>
+      <pubDate>Sat, 17 Oct 2026 17:46:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e02.mp3" length="66417991" type="audio/mpeg" />
+      <itunes:duration>46:06</itunes:duration>
+    </item>
+    <item>
+      <title>15 • LORE · [Star Wars In Character Archives] Star Wars In Character – DLC-13 Mining Droid – NEOZAZ</title>
+      <guid isPermaLink="false">urn:sw-learning:7c3d706ac4de70547e6d0dc042c3a5061b6565c8ec3166713105f6d58171c8dc</guid>
+      <link>https://neozaz.com/star-wars-in-character-dlc-13-mining-droid/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-dlc-13-mining-droid</link>
+      <description>Role: LORE. Creative use: Conventional world lore and character context. Original date: Sun, 28 Apr 2013 04:47:46 +0000. Publisher: Star Wars In Character Archives. Original summary: Role: LORE. Publisher show: Star Wars In Character Archives. US Apple show-wide rating: 4.9/5 over 56 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 63.1/100. Original publication: Sun, 28 Apr 2013 04:47:46 +0000. Creative application: Deep-cut obscure characters, creatures and cantina-background lore.. Original notes: Episod</description>
+      <pubDate>Sat, 17 Oct 2026 17:45:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/9/0/b/90b8dd36b537a67d/SWIC-EPISODE-88.mp3?c_id=13787006&amp;cs_id=13787006&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792349582&amp;Signature=egh30EJdxg3nonWcjuF3IXu~6Ihiurgf~HRKcFpnvX5EiIYc34JmaxykYjM~fiIBrxijZCrEPE0uYa0xqE4OE~up0PG~kVsv5N7-hhwZXk6lIALDl3elu71iJzJVoc3H3ki0ur968O7iS2PBNUhroiJfqPfTYNbDfBcfGkFVSUdFJEAy~tWDs8R-eigdA0Icube-NLg5g71OL2~m-lHShHDi0mMnz5LJ-YnZD4FEbsg2b-eZe2zQHghM6iQyArmevQb5~fD8arJxz1oSMutm4~tUrmnXSqMvPEjs~Em2BI3O4DEyrfJHIixXmooA9IVUex6PZq5X7ZS5e4g92Rz8pA__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="72669376" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+    </item>
+    <item>
+      <title>16 • STORY · [Dice for Brains] Dice For Brains Podcast | Episode 3 – The Crane Situation</title>
+      <guid isPermaLink="false">urn:sw-learning:c762d883de2ad2df693fa957979c38761a6052e0ecb46efd01e0674badf5f778</guid>
+      <link>https://diceforbrains.com/the-adventure-begins-4/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-adventure-begins-4</link>
+      <description>Role: STORY. Creative use: Consecutive character-driven actual play. Original date: Sun, 20 Dec 2015 03:03:08 +0000. Publisher: Dice for Brains. Original summary: Role: STORY. Publisher show: Dice for Brains. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 46.9/100. Original publication: Sun, 20 Dec 2015 03:03:08 +0000. Creative application: Awarded community praise for narrative dice, social scenes, emotional character decisions.. Original notes: &lt;p</description>
+      <pubDate>Sat, 17 Oct 2026 17:44:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e03.mp3" length="66764642" type="audio/mpeg" />
+      <itunes:duration>46:21</itunes:duration>
+    </item>
+    <item>
+      <title>17 • LORE · [The Star Wars Canon Timeline Podcast] EII: ep 2 – Visions S2-e5,1,2 – Sith of the Old Republic (LEGENDS)</title>
+      <guid isPermaLink="false">urn:sw-learning:a2b1b5fd76823224333ec057b8160e680f79db8ee83c7d37171069f8ad123c28</guid>
+      <link>https://thelorehounds.com</link>
+      <description>Role: LORE. Creative use: Conventional world lore and character context. Original date: Mon, 13 May 2024 16:38:25 +0000. Publisher: The Star Wars Canon Timeline Podcast. Original summary: Role: LORE. Publisher show: The Star Wars Canon Timeline Podcast. US Apple show-wide rating: 4.6/5 over 57 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 69.5/100. Original publication: Mon, 13 May 2024 16:38:25 +0000. Creative application: Galactic history, mythology, Force cultures, High Republic and distinction between Canon</description>
+      <pubDate>Sat, 17 Oct 2026 17:43:00 +0000</pubDate>
+      <enclosure url="https://pdst.fm/e/audio4.redcircle.com/episodes/cda01eda-c6f2-42dd-85bd-98da03cfc93c/stream.mp3" length="77120156" type="audio/mpeg" />
+      <itunes:duration>4820</itunes:duration>
+    </item>
+    <item>
+      <title>18 • STORY · [Dice for Brains] Dice For Brains Podcast | Episode 4 – Fragile Acquisitions</title>
+      <guid isPermaLink="false">urn:sw-learning:af3631d1937feca947cde56fca40344b7e3f63c822492825749727d800aa202c</guid>
+      <link>https://diceforbrains.com/dice-for-brains-podcast-episode-4/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dice-for-brains-podcast-episode-4</link>
+      <description>Role: STORY. Creative use: Consecutive character-driven actual play. Original date: Mon, 28 Dec 2015 02:51:38 +0000. Publisher: Dice for Brains. Original summary: Role: STORY. Publisher show: Dice for Brains. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 46.9/100. Original publication: Mon, 28 Dec 2015 02:51:38 +0000. Creative application: Awarded community praise for narrative dice, social scenes, emotional character decisions.. Original notes: &lt;p</description>
+      <pubDate>Sat, 17 Oct 2026 17:42:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e04.mp3" length="65212643" type="audio/mpeg" />
+      <itunes:duration>45:16</itunes:duration>
+    </item>
+    <item>
+      <title>19 • LORE · [Eye on Canon] Bring Back Legends….Characters to Canon</title>
+      <guid isPermaLink="false">urn:sw-learning:069876aebc5e05b2a1f17b0eda96adb8b3e145ff1e50933db9fecc1cbbfbc905</guid>
+      <link>https://podcasters.spotify.com/pod/show/eye-on-canon-podcast/episodes/Bring-Back-Legends-Characters-to-Canon-e3a4tnj</link>
+      <description>Role: LORE. Creative use: Conventional world lore and character context. Original date: Tue, 28 Oct 2025 02:50:26 GMT. Publisher: Eye on Canon. Original summary: Role: LORE. Publisher show: Eye on Canon. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 60.3/100. Original publication: Tue, 28 Oct 2025 02:50:26 GMT. Creative application: In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed.. Original not</description>
+      <pubDate>Sat, 17 Oct 2026 17:41:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/fd306288/podcast/play/110310579/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-28%2F67045e20-466b-1b96-13ea-54972ae998d8.mp3" length="120238799" type="audio/mpeg" />
+      <itunes:duration>02:05:14</itunes:duration>
+    </item>
+    <item>
+      <title>20 • STORY · [Dice for Brains] Dice For Brains Podcast | Episode 5 – Crimes and Favors</title>
+      <guid isPermaLink="false">urn:sw-learning:6772dae811b7c7f08d6477b18d236a0566551ca847128d4547083e88556bef24</guid>
+      <link>https://diceforbrains.com/dice-for-brains-podcast-episode-5/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dice-for-brains-podcast-episode-5</link>
+      <description>Role: STORY. Creative use: Consecutive character-driven actual play. Original date: Mon, 04 Jan 2016 01:11:54 +0000. Publisher: Dice for Brains. Original summary: Role: STORY. Publisher show: Dice for Brains. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 46.9/100. Original publication: Mon, 04 Jan 2016 01:11:54 +0000. Creative application: Awarded community praise for narrative dice, social scenes, emotional character decisions.. Original notes: &lt;p</description>
+      <pubDate>Sat, 17 Oct 2026 17:40:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e05.mp3" length="68277243" type="audio/mpeg" />
+      <itunes:duration>47:24</itunes:duration>
+    </item>
+    <item>
+      <title>21 • LORE • [Star Wars In Character] Star Wars In Character – Rancor</title>
+      <guid isPermaLink="false">urn:sw-learning:0392fc5ef1df40eb53f6c581b900c5f74404136aa15e22b0afc2b4948a6d916a</guid>
+      <link>https://neozaz.com/star-wars-in-character-rancor/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-rancor</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character. US Apple show-wide rating: 4.8/5 over 720 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 62.6/100. Original publication: Mon, 03 Jun 2019 12:00:37 +0000. Creative application: Overlooked alien species, minor NPCs, background culture, world texture.. Original notes: In this episode we discuss the best of burden native to one planet, but found on many, from Return of the Jedi, Episode VI of the Star Wars Saga. The post Star Wars In Character – Rancor first appeared on NEOZAZ .</description>
+      <pubDate>Sat, 17 Oct 2026 17:39:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/1/4/4/14451be5e9d82680/SWIC-RANCOR.mp3?c_id=43067684&amp;cs_id=43067684&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792350625&amp;Signature=fi569hCQdFgVV5IZj4fE6ozMDY4fFpltnL7HcaDNG3U8s~Vi2jcgTZMEA7GZrRRpLP9MddTFm-l-c~Hf-qJObdwS7b~skOg3lxqHnNi~rJkQ2YGg6sbbtlgETcfk-0aogeyFvPadBbxBFWnqsy-tM0pMQcz-GxL716vVrSx-eTnazLJEIxb4pT42qs3VfEIxU7r1ulUUrztlZ7pUKtHsnwprZeGD8u2RvA8ujKb50EnyJKtVpB-BxdhBBgC~g-q-I35p7AnbG7-Z2n5grijrFqEKQ6HDdrPiHwRwCHnT7WhbuzBGXAjjTa6Xq9qbwrL73YA-nW3km38hslrIY3gnww__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="53344989" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+    </item>
+    <item>
+      <title>22 • STORY • [Campaign — The Mynock] Episode Two</title>
+      <guid isPermaLink="false">urn:quarky:starwars:43fc2c4bb932643fc7816abce945c7a6e8b3da1ef9a3cc4e1cf03e687d0347ed</guid>
+      <description>Role: STORY. Publisher show: Campaign — The Mynock. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 49.3/100. Original publication: Wed, 15 Oct 2014 12:29:29 -0000. Creative application: Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes.. Original notes: Last episode painted Myrkr as a sylvan bastion of relaxation and profusely poured potables. This week, the claws come out as local wildlife closes in around the crew of the Mynock. Will the boys be able to resist the Vornskr&apos;s venom? Will force-sensitive monsters make off with little Tamlin? Roll for initiative! Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Sat, 17 Oct 2026 17:38:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/OSPN1631445863.mp3?key=70a07f498406a3dd5540b88bcd88a561&amp;request_event_id=24c2eecb-0d09-4dcb-82ac-64786c066d8a&amp;session_id=24c2eecb-0d09-4dcb-82ac-64786c066d8a&amp;timetoken=1792352762_60361245DBD2FEC5D7BC9F5DC0840755" length="46410545" type="audio/mpeg" />
+      <itunes:duration>3861</itunes:duration>
+    </item>
+    <item>
+      <title>23 • LORE • [Star Wars Explained] Who is the Scariest Sith Lord and Other Spooky Star Wars Questions Answered!</title>
+      <guid isPermaLink="false">urn:sw-learning:cb41ed3e3ffdf7cbe564fb2c56b223d95a28103bb4891ac9d60923ef8ca88c04</guid>
+      <description>Role: LORE. Publisher show: Star Wars Explained. US Apple show-wide rating: 4.3/5 over 417 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 57.7/100. Original publication: Sat, 28 Oct 2023 13:00:00 -0000. Creative application: Compact Canon and Legends explainers on species, factions, Force lore, starships and locations. Exclude roundup and marketing news.. Original notes: Who is the scariest Sith Lord? What about the scariest creature or droid? What Star Wars moments made us jump? These questions and more answered in our Halloween Q&amp;A special! Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Sat, 17 Oct 2026 17:37:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/SBP5252741863.mp3?key=5bec4cac900d647c12979aa5fb5e4819&amp;request_event_id=786749df-21fa-4eb0-9f82-45228a4ae975&amp;session_id=786749df-21fa-4eb0-9f82-45228a4ae975&amp;timetoken=1792352760_3ED5AE45839B1A48126D3540F147E946" length="30135048" type="audio/mpeg" />
+      <itunes:duration>1227</itunes:duration>
+    </item>
+    <item>
+      <title>24 • STORY • [Campaign — The Mynock] Episode Three</title>
+      <guid isPermaLink="false">urn:sw-learning:61a8803e071d2037725a3756ddec305508c443a918949113b48c4898093ec897</guid>
+      <description>Role: STORY. Publisher show: Campaign — The Mynock. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 51.6/100. Original publication: Wed, 22 Oct 2014 12:31:38 -0000. Creative application: Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes.. Original notes: With Bacta an Tamlin suffering from the effects of vornskr poison, Leenik and Tryst must find an antidote on their own. Meanwhile, the scouting droid has returned with information about a mysterious signal on Myrkr. Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Sat, 17 Oct 2026 17:36:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/OSPN3427523578.mp3?key=bbd1c5d63ee003dc289e577727de21a0&amp;request_event_id=70b6e12a-57e7-4c4c-acd5-21b9beeec039&amp;session_id=70b6e12a-57e7-4c4c-acd5-21b9beeec039&amp;timetoken=1792352762_60361245DBD2FEC5D7BC9F5DC0840755" length="63188505" type="audio/mpeg" />
+      <itunes:duration>3944</itunes:duration>
+    </item>
+    <item>
+      <title>25 • LORE • [Star Wars In Character Archives] Star Wars In Character Special – Mandalorian Armor – NEOZAZ</title>
+      <guid isPermaLink="false">urn:sw-learning:8ddae2128d64b80586a8fa1bcd420b2f9af31418454ca1df3856a15fc929706d</guid>
+      <link>https://neozaz.com/star-wars-in-character-special-mandalorian-armor/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-special-mandalorian-armor</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character Archives. US Apple show-wide rating: 4.9/5 over 56 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 56.3/100. Original publication: Wed, 06 Nov 2013 03:53:57 +0000. Creative application: Deep-cut obscure characters, creatures and cantina-background lore.. Original notes: Special Episode – “Mandalorian Armor”. In this special episode we discuss the icon Mandalorian Armor made famous by Boba Fett and Jango Fett. We also discuss in much more detail... The post Star Wars In Character Special – Mandalorian Armor – NEOZAZ first appeared on NEOZAZ .</description>
+      <pubDate>Sat, 17 Oct 2026 17:35:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/9/8/d/98d4c4ef2c13901a/SWIC-SPECIAL-MANDOARMOR.mp3?c_id=13786988&amp;cs_id=13786988&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792352338&amp;Signature=IN2ZwcIsGs-apJbpXTL~8HSUbUZWNDB92K8sYdr~vlKcb3-3Nrzdxkj6JkfiakjGMxHV-dwDKPnMISt8g9-KezqZbalZ7RacOuYM-m-4~2aM7-L4X0H8eaiDcNFO3YtXNnn5cXSDYLFob6eyV2dR7kv~g-4M3oJGowZYoBXFhSAJETkyRaL17m3RJFSmPYorgmaAfOzPWeQL7U0lPfR6-ujEH8Pqn3T9L4Y9nK7sMbUsMshp9Y-68TKZzyhkvu~prJ3~oS8rIMnsD8x8kEY-eOpC4aCF00owgfDk9ZyVzE~xu2NYaWn0WAYIzdtTNpuNqeN5YH-UB-dB2E~CuzLdYw__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="61225201" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+    </item>
+    <item>
+      <title>26 • STORY • [Campaign — The Mynock] Episode Four</title>
+      <guid isPermaLink="false">urn:sw-learning:bf7e7c1827160b7fa03e1f545e5507f455f9ccce571fe1c58d76b81d92d5c094</guid>
+      <description>Role: STORY. Publisher show: Campaign — The Mynock. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 56.3/100. Original publication: Wed, 29 Oct 2014 12:35:12 -0000. Creative application: Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes.. Original notes: After happening upon a mysterious ship hidden in the forests of Myrkr the crew of the Mynok decides the planet hold too many mysteries to leave unexplored. After some debate they decide to head into the forest and discover the disturbance in the force luring at the hear of this alien wood. Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Sat, 17 Oct 2026 17:34:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/OSPN3096715760.mp3?key=eeaa16b0bc6cbf113ee698e0d4840ea6&amp;request_event_id=d8b2dd65-9716-4b3e-a759-e157bab38629&amp;session_id=d8b2dd65-9716-4b3e-a759-e157bab38629&amp;timetoken=1792352762_60361245DBD2FEC5D7BC9F5DC0840755" length="62790488" type="audio/mpeg" />
+      <itunes:duration>3919</itunes:duration>
+    </item>
+    <item>
+      <title>27 • LORE • [Eye on Canon] Legends Lookback: X-Wing Rebel Opposition</title>
+      <guid isPermaLink="false">urn:sw-learning:2b1198ae3d4c3490b597695c0afb98ede2aa407d233680d78a900dcc9a54cc7e</guid>
+      <link>https://podcasters.spotify.com/pod/show/eye-on-canon-podcast/episodes/Legends-Lookback-X-Wing-Rebel-Opposition-e2u61ho</link>
+      <description>Role: LORE. Publisher show: Eye on Canon. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 59.1/100. Original publication: Tue, 28 Jan 2025 03:34:00 GMT. Creative application: In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed.. Original notes: EP. 146 This is RogueLeader standing by. That’s right friends this week Eye on Canon enters into the world of pilots and X-Wings as we do a Legends Lookback with the great X-Wing comic book run and its first arc, Rebel Opposition. You can watch our episodes live every Monday at 5:30 PM PT, 8:30 PM ET at https://www.youtube.com/@Starwarsunderworl…</description>
+      <pubDate>Sat, 17 Oct 2026 17:33:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/fd306288/podcast/play/97764344/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-30%2F20330d6e-fc5a-4293-144d-3c67b2cf2574.mp3" length="81659962" type="audio/mpeg" />
+      <itunes:duration>01:25:03</itunes:duration>
+    </item>
+    <item>
+      <title>28 • STORY • [Campaign — The Mynock] Episode Five</title>
+      <guid isPermaLink="false">urn:sw-learning:152c2c94d05c416527ead9f1b679ad02bbef48eed04c62c5b1630690ebf477b7</guid>
+      <description>Role: STORY. Publisher show: Campaign — The Mynock. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 46.9/100. Original publication: Wed, 05 Nov 2014 13:14:23 -0000. Creative application: Highly improvisational smuggler crew dialogue, NPC improvisation and interpersonal stakes.. Original notes: A poorly conceived plan becomes a poorly implemented plan as the boys investigate an Imperial research camp on Myrkr. Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Sat, 17 Oct 2026 17:32:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/OSPN5112586296.mp3?key=ec577e8789171b8c73764823912676f5&amp;request_event_id=69c9be5c-2c14-47a5-9926-7bb6918a3ffd&amp;session_id=69c9be5c-2c14-47a5-9926-7bb6918a3ffd&amp;timetoken=1792352763_1B5410460030C76BCCAC2BF45A786A10" length="80726932" type="audio/mpeg" />
+      <itunes:duration>5040</itunes:duration>
+    </item>
+    <item>
+      <title>29 • LORE • [Star Wars In Character Archives] Star Wars In Character – IT-0 Interrogator Droid – NEOZAZ</title>
+      <guid isPermaLink="false">urn:sw-learning:9993401aa3bb1023446b212c5de65759a5ae09df5230099f7650839b702b23a5</guid>
+      <link>https://neozaz.com/star-wars-in-character-it-0-interrogator-droid/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-it-0-interrogator-droid</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character Archives. US Apple show-wide rating: 4.9/5 over 56 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 60.8/100. Original publication: Mon, 06 Apr 2015 15:00:54 +0000. Creative application: Deep-cut obscure characters, creatures and cantina-background lore.. Original notes: Episode 146 &amp;#8211; “IT-0 Interrogator Droid” In this episode we discuss the over engineered hypermedia delivering droid from “A New Hope”, Episode 4 of the Star Wars Saga [powerpress channel=&amp;#8221;swic&amp;#8221;]... The post Star Wars In Character – IT-0 Interrogator Droid – NEOZAZ first appeared on NEOZAZ .</description>
+      <pubDate>Sat, 17 Oct 2026 17:31:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/3/e/5/3e5ed02970b2f364/SWIC-EPISODE-146.mp3?c_id=13786452&amp;cs_id=13786452&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792349949&amp;Signature=PqK~ldffEFd0oErabpuXqdfQiwjvIBJUe1UWPethd49YSUVhygGGtgJnUXSBOcQvv73S0oQQ~DFajZwTk5BxKa7XDP44zcZywnlDGoTd~kpdC5DO5C9w8rF6LE7KmfGnMCuegg~xigi8GMl7gNkwTsHzprsmEDzk6N4BzlL0ch9eSrxBAQKr8gWprJULjnyfkwZAGkINpY6O3GHkrokf4N4tlaGLmdAR1uhl02CKDh57lneF-pXVUhDLXfE~1S9o38qSV5aEAMgCGlLKk5sRBDl2-GHdx1elhbEtsf6eLQYq-FJRSVRxPvNgjjLY4quCq~BO5-yFnyETCqJUPTW7rA__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="46234735" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+    </item>
+    <item>
+      <title>30 • STORY • [Force Majeure — Coldfire Chronicles] Coldfire Chronicles S01 E02 - A Sense Of Foreboding...</title>
+      <guid isPermaLink="false">urn:quarky:starwars:5084a7f89dc167f3ecf96fa8a155a8a2ee36f79840275dbc46b023008c7e604d</guid>
+      <link>https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e02</link>
+      <description>Role: STORY. Publisher show: Force Majeure — Coldfire Chronicles. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 51.6/100. Original publication: Mon, 05 Feb 2018 05:30:00 +0000. Creative application: Force-sensitive character relationships, active NPC goals and escalating consequences.. Original notes: This is Force Majeure - an actual play Star Wars podcast. A disappearing mentor, an encroaching storm and a sense of impending threat. Will our heroes unravel the mysteries in front of them? Or turn their backs and return to the comforting regime of prison life? Presenting Episode 2 of the Coldfire Chronicles. Get in contact at: Twitter: @forcemajeurepod Instagram: forcemajeurepod Email: &lt;a href= &quot;mailto…</description>
+      <pubDate>Sat, 17 Oct 2026 17:30:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/forcemajeurepod/CFC_S01_E02.mp3?dest-id=604132" length="42589327" type="audio/mpeg" />
+      <itunes:duration>35:52</itunes:duration>
+    </item>
+    <item>
+      <title>31 • LORE • [Star Wars: Old Canon Book Club] 36: Caravan of Courage: An Ewok Adventure</title>
+      <guid isPermaLink="false">urn:sw-learning:f1eaf4770360408d5668ff5541b143a39766eeb5878161a82417e337c1a172a3</guid>
+      <link>https://audioboom.com/posts/8808856</link>
+      <description>Role: LORE. Publisher show: Star Wars: Old Canon Book Club. US Apple show-wide rating: 4.8/5 over 172 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 49.7/100. Original publication: Thu, 20 Nov 2025 19:00:00 +0000. Creative application: Legends societies, space opera adventure structure, character arcs and expanded setting fiction.. Original notes: Yub-NUB, you feeching beechas, it&apos;s time for the gauntlet of cuteness, a crucible of cartoonishness and camp built of bears, bots, and babies! Will Alex, Davis, and Jesse survive Caravan of Courage: An Ewok Adventure? Will Heir to the Empire ever come? What&apos;s Joe Johnston doing in the credits? Listen and find out! (And pardon our Ewokese...)</description>
+      <pubDate>Sat, 17 Oct 2026 17:29:00 +0000</pubDate>
+      <enclosure url="https://audioboom.com/posts/8808856.mp3?modified=1763662624&amp;sid=5106290&amp;source=rss" length="59971287" type="audio/mpeg" />
+      <itunes:duration>3690</itunes:duration>
+    </item>
+    <item>
+      <title>32 • STORY • [Force Majeure — Coldfire Chronicles] Coldfire Chronicles S01 E03 - Whiteout</title>
+      <guid isPermaLink="false">urn:sw-learning:87734d5e6bda635c4247114c0a2158067b2737f07496823750a054e22774540a</guid>
+      <link>https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e03</link>
+      <description>Role: STORY. Publisher show: Force Majeure — Coldfire Chronicles. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 51.6/100. Original publication: Mon, 19 Feb 2018 05:30:00 +0000. Creative application: Force-sensitive character relationships, active NPC goals and escalating consequences.. Original notes: Having fended off one attack by ice wolves, our weary heroes continue their trek through the storm to Lasa&apos;s shack and, hopefully, sanctuary. However, navigating through a whiteout is often easier said than done... Presenting Episode 3 of the Coldfire Chronicles Get in contact at: Twitter: @forcemajeurepod Instagram: forcemajeurepod Email: forcemajeurepod@gma…</description>
+      <pubDate>Sat, 17 Oct 2026 17:28:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/forcemajeurepod/CFC_S01_E03.mp3?dest-id=604132" length="46303750" type="audio/mpeg" />
+      <itunes:duration>37:47</itunes:duration>
+    </item>
+    <item>
+      <title>33 • LORE • [The Star Wars Canon Timeline Podcast] Era II: THE OLD REPUBLIC – overview</title>
+      <guid isPermaLink="false">urn:sw-learning:e1470c94d9c9452bfd56d62bf3087c99690c4cf0b94766d0eb49c2ec920ea734</guid>
+      <link>https://thelorehounds.com</link>
+      <description>Role: LORE. Publisher show: The Star Wars Canon Timeline Podcast. US Apple show-wide rating: 4.6/5 over 57 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 65.6/100. Original publication: Sat, 11 May 2024 23:18:00 +0000. Creative application: Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends.. Original notes: DeadeyeJediBob joins Elysia to sort Canon from Legends in the era of the Old Republic – one of the coolest and most fantastical eras of Star Wars lore, dominated by the Jedi-Sith Civil Wars, the Mandalorians, and other intriguing groups of Force users and non-Force users. Join us as we talk Darth Bane and the Rule of Two, Force witches, and failed Wookie impressions while covering 24,000 years of Star Wars history. R…</description>
+      <pubDate>Sat, 17 Oct 2026 17:27:00 +0000</pubDate>
+      <enclosure url="https://pdst.fm/e/audio4.redcircle.com/episodes/dcb7a842-b769-45e4-ad6a-0a45e6e623cf/stream.mp3" length="70437407" type="audio/mpeg" />
+      <itunes:duration>4402</itunes:duration>
+    </item>
+    <item>
+      <title>34 • STORY • [Force Majeure — Coldfire Chronicles] Coldfire Chronicles S01 E04 - Shacks, Secrets and Schemes</title>
+      <guid isPermaLink="false">urn:sw-learning:fc638e4042be43c69955ba59fbbcf60140a21c1ced6dd21f3f1e2d8b25846872</guid>
+      <link>https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e04</link>
+      <description>Role: STORY. Publisher show: Force Majeure — Coldfire Chronicles. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 54.0/100. Original publication: Mon, 05 Mar 2018 05:30:00 +0000. Creative application: Force-sensitive character relationships, active NPC goals and escalating consequences.. Original notes: Having spent the night in a cave, our heroes finally make it to Lasa&apos;s shack. What they find there will set them on a path which defines their future and may send them rushing headlong into a confrontation with the Empire! Presenting Episode 4 of the Coldfire Chronicles. Follow us on social media! Twitter: @forcemajeurepod Instagram: forcemajeurepod Online: &lt;a hr…</description>
+      <pubDate>Sat, 17 Oct 2026 17:26:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/forcemajeurepod/CFC_S01_E04.mp3?dest-id=604132" length="35961851" type="audio/mpeg" />
+      <itunes:duration>32:18</itunes:duration>
+    </item>
+    <item>
+      <title>35 • LORE • [Eye on Canon] Jedi, the Force, and Normies</title>
+      <guid isPermaLink="false">urn:sw-learning:d446a61c2caf03b3c6187ae1f68cc10b62117ff81fd363c7833ade25456dfd94</guid>
+      <link>https://podcasters.spotify.com/pod/show/eye-on-canon-podcast/episodes/Jedi--the-Force--and-Normies-e2rgn4t</link>
+      <description>Role: LORE. Publisher show: Eye on Canon. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 59.1/100. Original publication: Tue, 26 Nov 2024 03:46:13 GMT. Creative application: In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed.. Original notes: EP. 138 Last week we talked all about the Jedi and their relatability in our own world. This week we follow that right up with some in-universe commentary- the Jedi, and the Force itself, and how “normies” or non-Force-users relate to them. We also dive into some comics news and look at the new Outlaws DLC! You can watch our episodes live every Monday at 5:30 PM PT, 8:30 PM ET at &lt;a href=&quot;https://www.youtube.co…</description>
+      <pubDate>Sat, 17 Oct 2026 17:25:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/fd306288/podcast/play/94968413/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-26%2F169c0c35-83d9-d4cc-bf0e-cace5095f4a9.mp3" length="114106552" type="audio/mpeg" />
+      <itunes:duration>01:58:51</itunes:duration>
+    </item>
+    <item>
+      <title>36 • STORY • [Force Majeure — Coldfire Chronicles] Coldfire Chronicles S01 E05  - In Which The Definition Of A Heist Is Argued</title>
+      <guid isPermaLink="false">urn:quarky:starwars:9f583e4df53f387b7e3c13f7256f33d3496dce09ceb01fe2b5f0532e70711370</guid>
+      <link>https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e05</link>
+      <description>Role: STORY. Publisher show: Force Majeure — Coldfire Chronicles. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 51.6/100. Original publication: Mon, 19 Mar 2018 04:30:00 +0000. Creative application: Force-sensitive character relationships, active NPC goals and escalating consequences.. Original notes: Their mentor, Pyjak, is in Imperial hands. Coded warnings from the Rebel Alliance hint that he may be more than first thought. And behind all this the threat of Tenth Brother looms ever closer. It&apos;s time for our heroes to stop reacting and start planning, before it&apos;s too late for everyone. Presenting Episode 5 of The Coldfire Chronicles. Follow us online: Twitter: @forcemaje…</description>
+      <pubDate>Sat, 17 Oct 2026 17:24:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/forcemajeurepod/CFC_S01_E05.mp3?dest-id=604132" length="40737360" type="audio/mpeg" />
+      <itunes:duration>38:47</itunes:duration>
+    </item>
+    <item>
+      <title>37 • LORE • [The Star Wars Canon Timeline Podcast] Era III: THE HIGH REPUBLIC – overview</title>
+      <guid isPermaLink="false">urn:sw-learning:c7a8736e66bf360a297c80ebfae8548e9f4cb5d81f8717338271399c0dd83ab7</guid>
+      <link>https://thelorehounds.com</link>
+      <description>Role: LORE. Publisher show: The Star Wars Canon Timeline Podcast. US Apple show-wide rating: 4.6/5 over 57 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 60.2/100. Original publication: Wed, 22 May 2024 10:09:00 +0000. Creative application: Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends.. Original notes: Elysia and DeadeyeJediBob are back to break down a new era of Star Wars – in this episode, you&amp;#39;ll get a high-level overview of the biggest events set during the High Republic – the era in which the upcoming The Acolyte TV show is set, plus the biggest baddies, some key characters, and what makes this era unique. Recorded May 21, 2024 The High Republic multimedia project titles: &lt;a h…</description>
+      <pubDate>Sat, 17 Oct 2026 17:23:00 +0000</pubDate>
+      <enclosure url="https://pdst.fm/e/audio4.redcircle.com/episodes/6ae3eccd-e246-46cd-a92f-bf65c9ae5dee/stream.mp3" length="82996244" type="audio/mpeg" />
+      <itunes:duration>5187</itunes:duration>
+    </item>
+    <item>
+      <title>38 • STORY • [Respect the Crit — Empire&apos;s Edge] Empire&apos;s Edge - Ep. 02: Can You Dug It?</title>
+      <guid isPermaLink="false">urn:sw-learning:1ede87b2a2ef07a1948b776de378654f59f051166fc4e034c5ad071b95461651</guid>
+      <link>https://respectthecrit.libsyn.com/empires-edge-episode-002</link>
+      <description>Role: STORY. Publisher show: Respect the Crit — Empire&apos;s Edge. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 66.7/100. Original publication: Wed, 04 Dec 2019 16:01:00 -0000. Creative application: Cinematic soundscapes, character voices and narrative tension.. Original notes: It is a time of celebration on Bothawui. Fugitive slicer, Beegax Botano, avoids the crowds and consequences of the bounty on his head, but a sinister assailant stalks him from the shadows. Meanwhile, the masterless droid, Elo makes their way through the city throng, hoping to make contact with the renegade slicer. They are charged to find their late master’s son, Gir Tu’Tey, whose location is concealed by the Bothan Spy Network. For more in…</description>
+      <pubDate>Sat, 17 Oct 2026 17:22:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD9499678150.mp3?key=f1d7e4f0a0e978750ee23cadae35c54f&amp;request_event_id=a7502b18-0cc5-463e-a18d-0be01880cd3c&amp;session_id=a7502b18-0cc5-463e-a18d-0be01880cd3c&amp;timetoken=1792352765_C830029909ACB35124C20EC3507D21A2" length="87358383" type="audio/mpeg" />
+      <itunes:duration>3604</itunes:duration>
+    </item>
+    <item>
+      <title>39 • LORE • [Star Wars: Old Canon Book Club] 43: Ewoks Season 1</title>
+      <guid isPermaLink="false">urn:sw-learning:b2c633f0dd7482b4cbd650d2b69b38b4bae2805b39ce271772bab4cdc6406978</guid>
+      <link>https://audioboom.com/posts/8920879</link>
+      <description>Role: LORE. Publisher show: Star Wars: Old Canon Book Club. US Apple show-wide rating: 4.8/5 over 172 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 49.7/100. Original publication: Thu, 02 Jul 2026 18:00:00 +0000. Creative application: Legends societies, space opera adventure structure, character arcs and expanded setting fiction.. Original notes: With another inexplicably excellent and unexpected theme song to welcome them in, Alex, Davis, and Jesse are buckling down and housing an entire season of the Ewoks children&apos;s cartoon all in one go! But will Paul Dini and Taj Mahal be enough to save them from five hours of drudgery? Find out on this week&apos;s episode! And good news! SWNCBC Legends Collection Volume 3 is here, including our reviews of The Last Jedi, Phasma, and Inferno…</description>
+      <pubDate>Sat, 17 Oct 2026 17:21:00 +0000</pubDate>
+      <enclosure url="https://audioboom.com/posts/8920879.mp3?modified=1782400632&amp;sid=5106290&amp;source=rss" length="99612019" type="audio/mpeg" />
+      <itunes:duration>6174</itunes:duration>
+    </item>
+    <item>
+      <title>40 • STORY • [Respect the Crit — Empire&apos;s Edge] Empire&apos;s Edge - Ep. 03: Bound to Bothawui</title>
+      <guid isPermaLink="false">urn:sw-learning:41322090d213781c40ba7d901a279a6613eef7bc98dd16c4b80766159ec5d8ba</guid>
+      <link>https://respectthecrit.libsyn.com/empires-edge-episode-003</link>
+      <description>Role: STORY. Publisher show: Respect the Crit — Empire&apos;s Edge. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 69.0/100. Original publication: Wed, 11 Dec 2019 14:00:00 -0000. Creative application: Cinematic soundscapes, character voices and narrative tension.. Original notes: Floating above the Bothan homeworld, the droid Elo and the renegade slicer, Beegax Botano, recuperate from their skirmish down on the planet. Both are anxious to leave Bothan space after escaping a terrifying Trandoshan bounty hunter set on capturing Beegax and his customized slicing deck. However, Elo must learn the secret location of Gir Tu’Tey, to fulfill a final request given to them by their deceased Bothan master. With threats looming and…</description>
+      <pubDate>Sat, 17 Oct 2026 17:20:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD8954744252.mp3?key=19f67c40fa91c29b9798e9a90d7ed04d&amp;request_event_id=fa8c1544-0ab4-4e7b-a7c5-00a816f5f0dc&amp;session_id=fa8c1544-0ab4-4e7b-a7c5-00a816f5f0dc&amp;timetoken=1792352766_B08862036FBC88207F3F336A0041F96B" length="87653068" type="audio/mpeg" />
+      <itunes:duration>3604</itunes:duration>
+    </item>
+    <item>
+      <title>41 • LORE • [Star Wars In Character Archives] Star Wars In Character – OG-9 Spider Droid – NEOZAZ</title>
+      <guid isPermaLink="false">urn:sw-learning:450606cb086add4d50cb1f3fde1e0cd49886fa16323b76327a62f838421a8db6</guid>
+      <link>https://neozaz.com/star-wars-in-character-og-9-spider-droid/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-og-9-spider-droid</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character Archives. US Apple show-wide rating: 4.9/5 over 56 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 60.8/100. Original publication: Mon, 08 Jul 2013 15:05:49 +0000. Creative application: Deep-cut obscure characters, creatures and cantina-background lore.. Original notes: Episode 97 &amp;#8211; &amp;#8220;OG-9 Spider Droid&amp;#8221;. In this episode we discuss everyone&amp;#8217;s favorite spider (among the many) from Episode 2 &amp;#8220;Attack of the Clones&amp;#8221; and Episode 3 &amp;#8220;Revenge of the... The post Star Wars In Character – OG-9 Spider Droid – NEOZAZ first appeared on NEOZAZ .</description>
+      <pubDate>Sat, 17 Oct 2026 17:19:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/a/d/5/ad57fe263357dabe/SWIC-EPISODE-97.mp3?c_id=13786961&amp;cs_id=13786961&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792348739&amp;Signature=aTabqUHhTry8Xlz8Pb89gCMo98IJ1r6ztWmmVO6qR0ZoaJp2MF05wAE~YZg-fxAv-nBQScyNCgzWmWD6kPFe9rlZVZjl1HEtqBiCk6KicjBcUX-h-EFjvSQfW0zOpeYyxS1IOwDYgmUQNgUS4~zldnrLiUkoPA~hsY9-gx0jzsdNxWJazYgZniaWk0TcU7qA~OLxu7ZR3QdmVZVoL~PzF-WqsQy149tY2WnsdplXVEanwc~rxh0NlCrra~l7BENr6-A3lV28di~W~s3LymA~q0ZY-7Pgy2Jvg7UAVWSWgKOKNZ2up4myNC~I2bT6PLzlRtCbrZ5OXfTdvunn9BxiOg__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="57447519" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+    </item>
+    <item>
+      <title>42 • STORY • [Respect the Crit — Empire&apos;s Edge] Empire&apos;s Edge - Ep. 04: Storm on The Way</title>
+      <guid isPermaLink="false">urn:sw-learning:218180e0fa200c128b9544541219d73e80a027e198204457c4f55b31557c1535</guid>
+      <link>https://respectthecrit.libsyn.com/empires-edge-episode-004</link>
+      <description>Role: STORY. Publisher show: Respect the Crit — Empire&apos;s Edge. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 64.3/100. Original publication: Wed, 18 Dec 2019 14:00:00 -0000. Creative application: Cinematic soundscapes, character voices and narrative tension.. Original notes: Returning to Bothawui, the droid Elo and renegade slicer Beegax Botano smuggled their way onto a doonium ore facility down on the planet. Disguising themselves as common transporters, they attempted to access a Bothan Spy Net intelligence drop, hidden in plain sight. After creating a convincing distraction, Beegax had seconds to slice his way into the network and uncover the whereabouts of Gir Tu’Tey, a young Bothan spy and son of Elo’s former m…</description>
+      <pubDate>Sat, 17 Oct 2026 17:18:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD4594362007.mp3?key=cf6265eced6cc103f4dad650e259ad03&amp;request_event_id=0b3b5fee-cc7c-4aa5-b6ad-5984a1d5b748&amp;session_id=0b3b5fee-cc7c-4aa5-b6ad-5984a1d5b748&amp;timetoken=1792352767_2E430175C2C62257BBC709D4C2DC56AC" length="72691094" type="audio/mpeg" />
+      <itunes:duration>2988</itunes:duration>
+    </item>
+    <item>
+      <title>43 • LORE • [Eye on Canon] Do Jedi give Sunday Sermons?</title>
+      <guid isPermaLink="false">urn:sw-learning:7d0fbcd140c002567675153147b8230f82e6fea972fb8d3bf4155955c37d3324</guid>
+      <link>https://podcasters.spotify.com/pod/show/eye-on-canon-podcast/episodes/Do-Jedi-give-Sunday-Sermons-e37kigb</link>
+      <description>Role: LORE. Publisher show: Eye on Canon. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 60.2/100. Original publication: Tue, 02 Sep 2025 02:49:37 GMT. Creative application: In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed.. Original notes: EP. 174Ritual, material, cultural adaptation, genuine faith: these are a few things that mark real-world communities defined by metaphysical beliefs, what we call “religions” nowadays. How well does Star Wars depict religions and their communities, at least analogously? Does it show widespread beliefs and practices, or confine them to a select few practitioners? When does it explore the relationship between the elites and the masses of a relig…</description>
+      <pubDate>Sat, 17 Oct 2026 17:17:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/fd306288/podcast/play/107677643/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-2%2F18e8c0c9-6fb1-6935-09fd-0e4feb351b9f.mp3" length="58300223" type="audio/mpeg" />
+      <itunes:duration>01:00:43</itunes:duration>
+    </item>
+    <item>
+      <title>44 • STORY • [Respect the Crit — Empire&apos;s Edge] Empire&apos;s Edge - Ep. 05: Loose Ends at Lightspeed</title>
+      <guid isPermaLink="false">urn:sw-learning:7b0c3076aa9411206a5c58aaead91505342ea1ff093e0b6934daec9216366636</guid>
+      <link>https://respectthecrit.libsyn.com/empires-edge-episode-005-loose-ends-at-lightspeed</link>
+      <description>Role: STORY. Publisher show: Respect the Crit — Empire&apos;s Edge. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 66.7/100. Original publication: Wed, 01 Jan 2020 14:00:00 -0000. Creative application: Cinematic soundscapes, character voices and narrative tension.. Original notes: After discovering the possible last known location of Gir Tu’Tey, newly allied Elo and Beegax Botano are anxious to leave Bothawui for the Socorro system. But before they could set out, the two tangled with a tough and treacherous Trandoshan. Their gallant gambles to overcome the relentless bounty hunter paid off in tenuous victory, but left brave Beegax benumbed and the disparate droid in disrepair. Have they finally put down their persistent…</description>
+      <pubDate>Sat, 17 Oct 2026 17:16:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD6428498786.mp3?key=683f2ad10fe25a94d4acdcae11e5a19a&amp;request_event_id=8a455023-ceb7-4fcf-b9a2-380f38cc3ce6&amp;session_id=8a455023-ceb7-4fcf-b9a2-380f38cc3ce6&amp;timetoken=1792352768_BA4C2898086FAAACD4AC8F053434DF98" length="86895873" type="audio/mpeg" />
+      <itunes:duration>3585</itunes:duration>
+    </item>
+    <item>
+      <title>45 • LORE • [Star Wars In Character Archives] Star Wars In Character – Wampa – NEOZAZ</title>
+      <guid isPermaLink="false">urn:sw-learning:b4fa53503628207eca7c27d70af8c987e7b452aec0e10671a5e85a6254e4022f</guid>
+      <link>https://neozaz.com/star-wars-in-character-wampa/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-wampa</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character Archives. US Apple show-wide rating: 4.9/5 over 56 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 55.6/100. Original publication: Tue, 24 May 2011 17:22:58 +0000. Creative application: Deep-cut obscure characters, creatures and cantina-background lore.. Original notes: Episode 15 – “Wampa”. This week we discuss the furry and cuddly Wampa Ice Creature from Star wars Episode 5, “The Empire Strikes Back”. Sites featured in this episode: Wampa... The post Star Wars In Character – Wampa – NEOZAZ first appeared on NEOZAZ .</description>
+      <pubDate>Sat, 17 Oct 2026 17:15:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/d/7/a/d7a91beea3a4cfc9/SWIC-EPISODE-15.mp3?c_id=13787224&amp;cs_id=13787224&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792350030&amp;Signature=HEG~kDMNkjIaaT6djcZnTYf31S9Tb~39iSmgOjvlv4P4o93el2LWhyQhnM5hiVc0CXEmAN19ZVRMLhwIrRWdbxyjJm-Jq2fOKk2ZZA8CFQW9lKACUiuBDRwgrMNHDkybkhEVgnH3SrXIYQ7QwlX32EHyKTx36Ijrsv65pcvgGsKxl188NvSLGMocwQYn2fo-eqiNIE2tWVPzQ07B3C0T4z2EBAV~kurUNKK30cBxI3vEjN~cX2lNQ3A-ouRlyURVha-I84YOOX4X~BqCQTYuDc3NjOrvnw9jnoFZXWtdDEsOw5cmzCSPLKt2zYnUDoO7yhTME42iKk60vZMw9wjJ-Q__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="53839016" type="audio/mpeg" />
+      <itunes:duration>56:00</itunes:duration>
+    </item>
+    <item>
+      <title>46 • STORY • [Nastygram — Dreamscapes] Star Wars: Dreamscapes - Ep 2. The Impossible (Star Wars d6)</title>
+      <guid isPermaLink="false">urn:sw-learning:fdaedaa196321d77e724d2174fe6dd54325a6b2f6a52a2bae9ffddfd200c20e2</guid>
+      <link>https://nastygram.libsyn.com/star-wars-dreamscapes-the-impossible-star-wars-d6</link>
+      <description>Role: STORY. Publisher show: Nastygram — Dreamscapes. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 62.7/100. Original publication: Tue, 11 Nov 2025 06:00:00 +0000. Creative application: Jedi investigative process, unusual phenomena and mystery scenes.. Original notes: Two Jedis continue to investigate the murders and disappearances that have happened aboard remote Takari Station. Technology offers some surprising threats and possibly some insight into these crimes... Theme song for Star Wars Dreamscapes is &quot;Pluto&quot; by Adrian von Ziegler. More from this amazing composer at https://adrianvonziegler.bandcamp.com/ All other scores are by Adrian von Z…</description>
+      <pubDate>Sat, 17 Oct 2026 17:14:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Star_Wars_Dreamscapes_-_The_Impossible_v3.mp3?dest-id=2773544" length="75802021" type="audio/mpeg" />
+      <itunes:duration>01:28:27</itunes:duration>
+    </item>
+    <item>
+      <title>47 • LORE • [Star Wars In Character] Star Wars In Character – ASP Droid</title>
+      <guid isPermaLink="false">urn:sw-learning:9093d05c45dc17062cfb5902788b6f0f752049e10e24830a9cbec0f21da9ee8f</guid>
+      <link>https://neozaz.com/star-wars-in-character-asp-droid/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-asp-droid</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character. US Apple show-wide rating: 4.8/5 over 720 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 62.4/100. Original publication: Mon, 15 Jul 2019 12:00:56 +0000. Creative application: Overlooked alien species, minor NPCs, background culture, world texture.. Original notes: In this episode we discuss the working droid’s droid from Episode 4 Special Edition and Solo A Star Wars Story. The post Star Wars In Character – ASP Droid first appeared on NEOZAZ .</description>
+      <pubDate>Sat, 17 Oct 2026 17:13:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/b/a/5/ba573d21be2ccd2c/SWIC-ASPDROIDS.mp3?c_id=47043560&amp;cs_id=47043560&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792349223&amp;Signature=SdtFtu1YWLaEs7UoCrhcpBLJUPABUPgGvVEcKTcOVF25Hsw58Db9EDxGCwlF7y61xy7KPVILMfS~-Qqbcxj07pr-JbPEw9Vap1F3eBssB-Ewj4ab3cBdOE58pCMMDP-COX12m~5gJ9P2KnKezd-An2w277IP3qytEUNO~wgkz86lVMNzfHmSgnBM~O2fOSVIvEFivumlrx2PhTYoog5t-RQN9XljxftwOq6W~gtRKkmzPuD8t6X-Zn7-xC2UHv7XNjXhg4txaM~OZ3l0s6NW~D9sHmDlx28npEMZUjRQVNxN5hbZ3WGBqrl343rFBnHr04ndyNVVYBnQS1Ro8QizzA__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="38592806" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+    </item>
+    <item>
+      <title>48 • STORY • [Nastygram — Dreamscapes] Star Wars: Dreamscapes - Ep 3. The Underbelly (Star Wars d6)</title>
+      <guid isPermaLink="false">urn:sw-learning:124ad40c093459d3e92ad5b12d80067c269b327cabcfc6025a4a7caa664be4e8</guid>
+      <link>https://nastygram.libsyn.com/star-wars-dreamscapes-ep-3-the-underbelly-star-wars-d6</link>
+      <description>Role: STORY. Publisher show: Nastygram — Dreamscapes. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 62.7/100. Original publication: Tue, 25 Nov 2025 06:00:00 +0000. Creative application: Jedi investigative process, unusual phenomena and mystery scenes.. Original notes: The Jedi investigators dig deeper into the secrets of Takari station and find powerful agents at the top as well as in an underbelly of crime and the connections between the victims start to become more clear as threats grow... Theme song for Star Wars Dreamscapes is &quot;Pluto&quot; by Adrian von Ziegler. More from this amazing composer at https://adrianvonziegler.bandcamp.com/ All other sc…</description>
+      <pubDate>Sat, 17 Oct 2026 17:12:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Star_Wars_Dreamscapes_-_The_Underbelly_v3.mp3?dest-id=2773544" length="94795318" type="audio/mpeg" />
+      <itunes:duration>01:54:50</itunes:duration>
+    </item>
+    <item>
+      <title>49 • LORE • [Star Wars: Old Canon Book Club] 22: Return of the Jedi</title>
+      <guid isPermaLink="false">urn:sw-learning:7a202f02ff1e881f8a2af0ba227404a387f65433fbfc6eec6cc56867107738f0</guid>
+      <link>https://audioboom.com/posts/8615805</link>
+      <description>Role: LORE. Publisher show: Star Wars: Old Canon Book Club. US Apple show-wide rating: 4.8/5 over 172 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 55.6/100. Original publication: Thu, 28 Nov 2024 18:51:23 +0000. Creative application: Legends societies, space opera adventure structure, character arcs and expanded setting fiction.. Original notes: Have...we already hit peak Star Wars? James Kahn&apos;s novelization of Return of the Jedi was so good, Davis and Alex started yelling at each other because of how different they loved it! It&apos;s just like Thanksgiving Dinner! Will Jesse save the Macy&apos;s Day Parade? Come listen and find out! Support the show, get this week&apos;s episode of Inside the Insider, and OTHER GREAT EXCLUSIVE EXTRAS at Patreon.com/SWOC…</description>
+      <pubDate>Sat, 17 Oct 2026 17:11:00 +0000</pubDate>
+      <enclosure url="https://audioboom.com/posts/8615805.mp3?modified=1732820041&amp;sid=5106290&amp;source=rss" length="151564386" type="audio/mpeg" />
+      <itunes:duration>9441</itunes:duration>
+    </item>
+    <item>
+      <title>50 • STORY • [Nastygram — Dreamscapes] Star Wars: Dreamscapes - Ep 4. Proxy (Star Wars d6)</title>
+      <guid isPermaLink="false">urn:sw-learning:3b5d943ccee4c76515cab72bf70410e3409861bf76ea7be18bfb062e780af3fa</guid>
+      <link>https://nastygram.libsyn.com/star-wars-dreamscapes-ep-4-proxy-star-wars-d6</link>
+      <description>Role: STORY. Publisher show: Nastygram — Dreamscapes. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 60.3/100. Original publication: Tue, 09 Dec 2025 06:00:00 +0000. Creative application: Jedi investigative process, unusual phenomena and mystery scenes.. Original notes: Flashes of visions from the Force reveal themselves to Jedi Knight Cavinn Solimar, diriving him and his apprentice Tritian Adulis into action, but the future is never certain... Theme song for Star Wars Dreamscapes is &quot;Pluto&quot; by Adrian von Ziegler. More from this amazing composer at https://adrianvonziegler.bandcamp.com/ All other scores are by Adrian von Zielger and Antti Martikain…</description>
+      <pubDate>Sat, 17 Oct 2026 17:10:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Star_Wars_Dreamscapes_-_Proxy.mp3?dest-id=2773544" length="66825920" type="audio/mpeg" />
+      <itunes:duration>01:16:00</itunes:duration>
+    </item>
+    <item>
+      <title>51 • LORE • [Eye on Canon] From Republic to First Order: How Star Wars Handles Government Continuity</title>
+      <guid isPermaLink="false">urn:sw-learning:1f47e5318cc870d1786cd2a1298f2062c3afbab13696ab1bea55622847862f68</guid>
+      <link>https://podcasters.spotify.com/pod/show/eye-on-canon-podcast/episodes/From-Republic-to-First-Order-How-Star-Wars-Handles-Government-Continuity-e37vp93</link>
+      <description>Role: LORE. Publisher show: Eye on Canon. US Apple show-wide rating: unrated / unverified (NOT this episode&apos;s rating). Editorial algorithm estimate: 52.4/100. Original publication: Tue, 09 Sep 2025 02:56:37 GMT. Creative application: In-depth galactic politics, High Republic, cultures and continuity analysis. Show stars not confirmed.. Original notes: EP. 175 Did the Empire succeed the Republic? Did the First Order succeed the Empire? Does that mean the First Order succeeded the Republic? Real-world history abounds with examples of regime changes, successor states and sweeping constitutional amendments. How can they help us understand similar dynamics in Star Wars? This week we’ve got our poli sci hats back on so strap yourselves in for another classic EOC deep dive! You can w…</description>
+      <pubDate>Sat, 17 Oct 2026 17:09:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/fd306288/podcast/play/108045027/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-9%2Fa102443d-07dd-9f4d-e74a-f990652df744.mp3" length="116968271" type="audio/mpeg" />
+      <itunes:duration>02:01:50</itunes:duration>
+    </item>
+    <item>
+      <title>52 • STORY • [Nastygram — Empire&apos;s End] Empire&apos;s End 2: Taking Stock (Star Wars)</title>
+      <guid isPermaLink="false">urn:sw-learning:d4ba1141d2fc921d3302320d573a67d8b7240db28c70d2e70aa4ac966915d6cc</guid>
+      <link>https://nastygram.libsyn.com/empires-end-2-taking-stock-star-wars</link>
+      <description>Role: STORY. Publisher show: Nastygram — Empire&apos;s End. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 63.2/100. Original publication: Tue, 07 Dec 2021 06:00:00 +0000. Creative application: Imperial officers, bureaucracy, moral tension, faction conflict.. Original notes: Our crew has learned incredible news that will shake the entire Galactic Empire to its core... but before they can do anything for the greater cause, they need to ensure they are prepared to defend the Vierax System with all the challenges they face at home. But another threat will emerge before long... Check us out online at www.nastygrampod.com Find us on facebook at &lt;a href= &quot;http://www.fa…</description>
+      <pubDate>Sat, 17 Oct 2026 17:08:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Empires_End_2_-_Taking_Stock.mp3?dest-id=2773544" length="56466374" type="audio/mpeg" />
+      <itunes:duration>01:18:25</itunes:duration>
+    </item>
+    <item>
+      <title>53 • LORE • [Star Wars In Character] Star Wars In Character – RA-7 Protocol Droid – NEOZAZ</title>
+      <guid isPermaLink="false">urn:sw-learning:70dddf31f621c0d9f4c3c0d4e3243fb485181aed7f95fb51e2cdab90dae86392</guid>
+      <link>https://neozaz.com/star-wars-in-character-ra-7-protocol-droid/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-ra-7-protocol-droid</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character. US Apple show-wide rating: 4.8/5 over 720 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 62.4/100. Original publication: Mon, 14 Nov 2016 13:00:08 +0000. Creative application: Overlooked alien species, minor NPCs, background culture, world texture.. Original notes: Episode 190 &amp;#8211;&amp;#160;RA-7 Protocol Droid In the episode we discuss the shiny silver Death Star wandering droid from Episode IV of the Star Wars Saga “A New Hope”. Visit the... The post Star Wars In Character – RA-7 Protocol Droid – NEOZAZ first appeared on NEOZAZ .</description>
+      <pubDate>Sat, 17 Oct 2026 17:07:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/e/7/7/e770aa158af6ba54/SWIC-EPISODE-190.mp3?c_id=13785838&amp;cs_id=13785838&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792349564&amp;Signature=guLBMyOtpxJtBzIHAo8VUnlAYFAHil2nGJY366BL8t5XkhjzkHecv9WzvX33v43GCJRXdB7kKBmjLb74xi9FJcGcSWoYXlbqXQ4wA1wVhjWcc2D3ATfFePUhP9bQzw1LzM0QtK2E9LEg8lAVZksQFVpwsAs0IfYBmMW2VhBzQ8A3mjl65F66YeV9qY4XkOVec6ULX4-ayF7W-JLVwIasTte6trz0BMTAKu9wU-QXGW-7XZNenSLft-Jz-rJpVroAkO7wzugUCuP52NuFQPeTvCvLFv48KtmdMJEmyCzwVGVab4Z3HRF3c01AK971SJpcYIyraD6O9u9BhIG3a~Un7Q__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="42173880" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+    </item>
+    <item>
+      <title>54 • STORY • [Nastygram — Empire&apos;s End] Empire&apos;s End 3: Away Team (Star Wars)</title>
+      <guid isPermaLink="false">urn:sw-learning:68dfeb234599c5cb70e679c69da557d4bc2317c56994ca76fbbbf3faaa7ba734</guid>
+      <link>https://nastygram.libsyn.com/empires-end-3-away-team-star-wars</link>
+      <description>Role: STORY. Publisher show: Nastygram — Empire&apos;s End. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 63.2/100. Original publication: Tue, 14 Dec 2021 06:00:00 +0000. Creative application: Imperial officers, bureaucracy, moral tension, faction conflict.. Original notes: The CO remains missing on the planet and information the crew learns indicates it is anything but an accident. Sometimes the best way to get things done is to do them yourselves and Argus leads his key staff down to New Cailiri with just that in mind. They&apos;ll need to investigate, do some high level politicking, and ultimately take decisive action... Check us out online at www.nastygrampod.com …</description>
+      <pubDate>Sat, 17 Oct 2026 17:06:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Empires_End_3_-_Away_Team.mp3?dest-id=2773544" length="74652502" type="audio/mpeg" />
+      <itunes:duration>01:43:40</itunes:duration>
+    </item>
+    <item>
+      <title>55 • LORE • [Star Wars: Old Canon Book Club] 10: The Empire Strikes Back Strikes Back</title>
+      <guid isPermaLink="false">urn:sw-learning:73e1ac8d4d399ec2a19b282b351363c828f447e110e8e4a3de9b42959f93c7d4</guid>
+      <link>https://audioboom.com/posts/8470283</link>
+      <description>Role: LORE. Publisher show: Star Wars: Old Canon Book Club. US Apple show-wide rating: 4.8/5 over 172 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 52.5/100. Original publication: Thu, 07 Mar 2024 19:00:00 +0000. Creative application: Legends societies, space opera adventure structure, character arcs and expanded setting fiction.. Original notes: You&apos;ve read the book, now watch the film! It&apos;s the second half of a double dose of Empire-y goodness, now with Irvin Kershner in the mix, and a movie that looks like it was made by someone with some years under their belt! But is this REALLY one of the greatest films of ALL TIME? And what does it have to say about Star Wars as a whole? Join Alex, Davis, and Jesse to find out! Also, gain access to our brand-new side series &quot;Inside the …</description>
+      <pubDate>Sat, 17 Oct 2026 17:05:00 +0000</pubDate>
+      <enclosure url="https://audioboom.com/posts/8470283.mp3?modified=1709867011&amp;sid=5106290&amp;source=rss" length="99496076" type="audio/mpeg" />
+      <itunes:duration>6184</itunes:duration>
+    </item>
+    <item>
+      <title>56 • STORY • [Nastygram — Empire&apos;s End] Empire&apos;s End 4: Danger Close (Star Wars)</title>
+      <guid isPermaLink="false">urn:sw-learning:d9ed719c793d01aa4c05f098127e6d3b2ac9b21dc60096669ae70b54a2e68faa</guid>
+      <link>https://nastygram.libsyn.com/empires-end-4-danger-close-star-wars</link>
+      <description>Role: STORY. Publisher show: Nastygram — Empire&apos;s End. US Apple show-wide rating: 5/5 over 72 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 58.5/100. Original publication: Tue, 21 Dec 2021 06:00:00 +0000. Creative application: Imperial officers, bureaucracy, moral tension, faction conflict.. Original notes: Time sensitive intel was received from the TIE interceptors flying overhead that could lead to the location of RACO&apos;s captured Commanding Officer at a remote compound in the jungle of Veirax 2. Although Captain Cass and a couple of his Marines are with them, the command staff of RACO in a couple unarmed repulsorcraft aren&apos;t exactly the perfect strike team but there&apos;s no time to wait for perfect... the time to act is now no matter the risk!&lt;/p…</description>
+      <pubDate>Sat, 17 Oct 2026 17:04:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Empires_End_4_-_Danger_Close.mp3?dest-id=2773544" length="57134384" type="audio/mpeg" />
+      <itunes:duration>01:19:20</itunes:duration>
+    </item>
+    <item>
+      <title>57 • LORE • [Star Wars: Old Canon Book Club] 38: Droids Part 1</title>
+      <guid isPermaLink="false">urn:sw-learning:dfd2c91108d1db4f2c28f50af2cf587ebd31840445029d6cf6f8e31e29c9e9a1</guid>
+      <link>https://audioboom.com/posts/8860190</link>
+      <description>Role: LORE. Publisher show: Star Wars: Old Canon Book Club. US Apple show-wide rating: 4.8/5 over 172 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 58.0/100. Original publication: Thu, 12 Feb 2026 19:01:00 +0000. Creative application: Legends societies, space opera adventure structure, character arcs and expanded setting fiction.. Original notes: Is it weird to say that Stuart Copeland may be one of the best Star Wars composers of all time? Why is C-3P0 so caked up? How come so many things from the sequel trilogy seem to look to the Star Wars: Droids animated series for inspiration? Do Alex, Davis, and Jesse like this or hate this or both? What is anything anymore these days anyway, right? It&apos;s just this brain designed by man that&apos;s got me...in trouble again...trouble again! …</description>
+      <pubDate>Sat, 17 Oct 2026 17:03:00 +0000</pubDate>
+      <enclosure url="https://audioboom.com/posts/8860190.mp3?modified=1770853439&amp;sid=5106290&amp;source=rss" length="83533801" type="audio/mpeg" />
+      <itunes:duration>5167</itunes:duration>
+    </item>
+    <item>
+      <title>58 • LORE • [Star Wars In Character] Star Wars In Character – Tusken Raiders – NEOZAZ</title>
+      <guid isPermaLink="false">urn:sw-learning:bb40aa4849da8df07524bdab3e2096c9a22ce3fc2bb739f3f5b9eb46d2901d28</guid>
+      <link>https://neozaz.com/tusken-raiders/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=tusken-raiders</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character. US Apple show-wide rating: 4.8/5 over 720 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 59.5/100. Original publication: Wed, 28 Feb 2018 02:48:48 +0000. Creative application: Overlooked alien species, minor NPCs, background culture, world texture.. Original notes: In this episode we discuss the Tatooine nomadic natives from Episode 1, “The Phantom Menace”, Episode 2, “Attack of the Clones”, talked about in Episode, “Revenge of the Sith”, and... The post Star Wars In Character – Tusken Raiders – NEOZAZ first appeared on NEOZAZ .</description>
+      <pubDate>Sat, 17 Oct 2026 17:02:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/7/c/1/7c164593b777ee6d/SWIC-EPISODE-227.mp3?c_id=19356018&amp;cs_id=19356018&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792352925&amp;Signature=dAeefrfq4hcJQ9zKlU1E5OQgoB9LAppSyHwCTQgGjau71ouF08iVTAb74zjUYLawbkG3c6Bb6NZeUfd~W28ijHPjOkOCFRdg7auitX8~EbNSwh7QnVV4p158DHaWjpIU2upsME0mxF8LwdY~a2NDmUL6AcvOvkF9LFh~gZz3DdhRWM3nRYiYNrPG4zruzrNhkN~KzE0i2g3Qa~8nuntSwP91PzrfiH394FY3QZphJIATE1o~NWxSit6WeifP7VCeKc0kNgCmbN~-U4Y6kaz8~amLVbMBYFaCdunr9fWvO~0Az4I5LiquYdeXhZS~zP5PdNTLzdVJpM8Fg~0eIk37cw__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="77562224" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+    </item>
+    <item>
+      <title>59 • LORE • [Star Wars In Character] Star Wars In Character – LIN Droid</title>
+      <guid isPermaLink="false">urn:sw-learning:cb33b11f899255dc30e557386129f6f6ed5f834240d04d3de2023a1b07086293</guid>
+      <link>https://neozaz.com/star-wars-in-character-lin-droid/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-lin-droid</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character. US Apple show-wide rating: 4.8/5 over 720 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 62.4/100. Original publication: Mon, 27 Apr 2020 12:05:00 +0000. Creative application: Overlooked alien species, minor NPCs, background culture, world texture.. Original notes: In this episode we discuss the most poorly, or the most well thought out designed droid in the Star Wars Galaxy. The post Star Wars In Character – LIN Droid first appeared on NEOZAZ .</description>
+      <pubDate>Sat, 17 Oct 2026 17:01:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/2/d/d/2ddbfe0e3113c93f/SWIC-LINDROID.mp3?c_id=70740650&amp;cs_id=70740650&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792350571&amp;Signature=VR-e97IEa0n78Q-KXi2l4R4HqnM0haGFas46qt~se1LByXjHZCZz1wC3RIehM9v44ZZhU6WMxnriYDpKemfXPodK6VQur9yzLgpicxBbhvSlEhTrRvUy-ModOvgB1ROvburGyzDoFYPl01eCmxn~3ffzuco4vM9aB8trHNt59cN8yjFkik0HDyTvEj3HM8kk2Uj02~HEOk4ZIoZo8ujRiHzgVfVVUtgy3zzNN0OQLtlOXU4pI3dHVsk2-zlHSOBWOYvOtS8Qa1PwwMZurCHKxX~hK5-ZbvF1xqOll~waXqB9oeZnshMKN~ItkArgX4ARjdxCwtBM2WAyQ-g2pwKnZg__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="52779595" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+    </item>
+    <item>
+      <title>60 • LORE • [The Star Wars Canon Timeline Podcast] EII: ep 3 – The (Knights of the) Old Republic games – (LEGENDS)</title>
+      <guid isPermaLink="false">urn:sw-learning:eebea30fc685320feb70bf6c5a887a717c4864059e886c15426dae3b458376b3</guid>
+      <link>https://thelorehounds.com</link>
+      <description>Role: LORE. Publisher show: The Star Wars Canon Timeline Podcast. US Apple show-wide rating: 4.6/5 over 57 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 65.2/100. Original publication: Wed, 15 May 2024 10:15:00 +0000. Creative application: Galactic history, mythology, Force cultures, High Republic and distinction between Canon and Legends.. Original notes: Elysia wanders off the Canon path, this time with the help of Marcin, to talk about one of the most important and beloved series in the history of Star Wars games: The Knights of the Old Republic , The Knights of Old Republic II: The Sith Lords , and The Old Republic MMO. We summarize the plots (full spoilers), the gameplay, and what makes these games so special – plus the lore that already has or probably will m…</description>
+      <pubDate>Sat, 17 Oct 2026 17:00:00 +0000</pubDate>
+      <enclosure url="https://pdst.fm/e/audio4.redcircle.com/episodes/df010e58-49af-4e92-96bd-f04b1b1b5873/stream.mp3" length="76513280" type="audio/mpeg" />
+      <itunes:duration>4782</itunes:duration>
+    </item>
+    <item>
+      <title>61 • LORE • [Star Wars In Character Archives] Star Wars In Character – Ziro the Hutt – NEOZAZ</title>
+      <guid isPermaLink="false">urn:sw-learning:5e384bdddb3851af41433cfd48955d52b2874dc3925f22fa93aea955306d8ade</guid>
+      <link>https://neozaz.com/star-wars-in-character-ziro-the-hutt/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=star-wars-in-character-ziro-the-hutt</link>
+      <description>Role: LORE. Publisher show: Star Wars In Character Archives. US Apple show-wide rating: 4.9/5 over 56 ratings (NOT this episode&apos;s rating). Editorial algorithm estimate: 53.2/100. Original publication: Sat, 01 Nov 2014 23:07:14 +0000. Creative application: Deep-cut obscure characters, creatures and cantina-background lore.. Original notes: Episode 133 &amp;#8211; &amp;#8220;Ziro the Hutt&amp;#8221;. Hello there! We&amp;#8217;re back from our vacation time away and return the second most famous but first most annoying Hutt from &amp;#8220;The Clone Wars&amp;#8221;... The post Star Wars In Character – Ziro the Hutt – NEOZAZ first appeared on NEOZAZ .</description>
+      <pubDate>Sat, 17 Oct 2026 16:59:00 +0000</pubDate>
+      <enclosure url="https://content.libsyn.com/p/0/6/d/06dcaeff0616784f/SWIC-EPISODE-133.mp3?c_id=13787112&amp;cs_id=13787112&amp;response-content-type=audio%2Fmpeg&amp;Expires=1792350521&amp;Signature=fpmS04UJP4jvBkuPGxNDAsTNoHkgZeNXX3hNpfgCyuAxJ~Q0zgAoE1TwIP0tnuBCS5Q0vqarCGyBQEA2CbRLSHr59pKgUDGV0Nkpp3~kmKfvCCbzhHnDEh3SiPEiRCH3nYneZCoNTfaqkjYfs6CT9VF44jo~wIHpujBJ3krMmCOZvRB1hf-srMnC0lOGT7yMxHB6aC9VGuxhiE9-CsHLrdcVpYUk~e7JebxbogK8wBfRIe9rKG7NR-I8ch2D49yy6sKYsL9A~HrNhpIn0p5YC2w9eNAhCrgVAmK6J0NJLBq08cuSV4a6LUq9KBZrooAtlv28XAwaiPlb5ekP9Sv7fg__&amp;Key-Pair-Id=K1YS7LZGUP96OI" length="52277835" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+    </item>
+    <item>
+      <title>Nastygram — Star Wars D6 (Empire&apos;s End &amp; Dreamscapes) — Star Wars: Dreamscapes - Ep 8. Synchronous (Star Wars d6)</title>
+      <guid isPermaLink="false">urn:quarky:starwars:23035a6ccb586ae83c995a537d110c621019dd953a31f517b592d0efc426e646</guid>
+      <link>https://nastygram.libsyn.com/star-wars-dreamscapes-ep-8-synchronous-star-wars-d6</link>
+      <description>Original publisher: Nastygram — Star Wars D6 (Empire&apos;s End &amp; Dreamscapes). The Return of the Jedi made famous the now well-known Star Wars triple battle. Surely we can&apos;t pull that off here with only two PCs... unless time gets a little wonky. The Ashani will be needed if the Jedi investigators are going to claim the evidence they need and get off Takari Station, but can they be trusted to get out into the galaxy? Theme song for Star Wars Dreamscapes is &quot;Pluto&quot; by Adrian von Ziegler. More from this amazing composer at https://adrianvonziegler.bandcamp.com/ All other scores are by Adrian von Zielger and Antti Martikainen https://anttimartikainen.com/ Huge thanks to Galactic Empire for the Star Wars Theme outro - follow them at https://www.instagram.com/galacticempireofficial/ and website at www.galacticempireband.com and see them live whenever you get the chance! Also we are immensely grateful Please consider supporting us on Patreon at www.patreon.com/nastygram - it would mean the world to us! Check us out online at www.nastygramrpg.com Find us on Facebook at www.facebook.com/nastygram and our group is at https://www.facebook.com/groups/865467380821766 ; we are @nastygramrpg on both Instagram and Twitter and on Tik Tok at @nastygram.rpg Intro song is &quot;Walkin&apos; with Michael Douglas&quot; by A Wilhelm Scream; more here https://www.awilhelmscream.com/ Original source release date: Tue, 24 Feb 2026 06:00:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:58:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Star_Wars_Dreamscapes_-_Synchronous.mp3?dest-id=2773544" length="86711814" type="audio/mpeg" />
+      <itunes:duration>01:43:37</itunes:duration>
+    </item>
+    <item>
+      <title>Respect the Crit — Empire&apos;s Edge — Empire&apos;s Edge - Ep. 79: Back to Black Spire</title>
+      <guid isPermaLink="false">urn:quarky:starwars:3ad7dafa9a42ac2dfa5d86968d1b2525e1a6c17716e15319168985e9db5e7ef1</guid>
+      <link>https://respectthecrit.libsyn.com/empires-edge-ep-79-back-to-blackspire</link>
+      <description>Original publisher: Respect the Crit — Empire&apos;s Edge. At the edge of the galaxy so far away. Black was the Spire that called me to stay. Show social &amp; schedule - @RespectTheCrit Beegax Botano - Alex Herrera @aeherrera Elo - Jamie Lee-Bonés @jamiemfbones Xelora - Susan Spenader @sueslalues K&apos;Ruliss - Xavier Trudeau-Deschênes @xavierTD Host &amp; GM - Ian Duncan @iduncs Whatever the system, whether it&apos;s a miss or a hit, you always gotta respect the crit! ‼️ IMPORTANT LINKS ‼️ Boycott Movement for a Liberated Palestine Explained BDS Movement - How and Who to Boycott ICY Public Hearings uscpr.org - Resources, literature, campaigns to take action, donations 🍉🇵🇸 5calls.org - scripts, tools for finding US representatives, ways to take action Original music provided with license or permissions by: Solo (Fan Made) by Luis Humanoide Star Wars Epic Cover I by Parademics Star Wars Visions: The Ninth Jedi Theme | EPIC SUITE (feat. Rey&apos;s Theme) and Star Wars: The Mandalorian Suite | EPIC ORCHESTRAL MIX by Samuel Kim Additional music from Filmmusic.io under the CC BY 4.0 license Additional sound from Freesound.org Additional music and sound by TableTop Audio Additional music and sound by Syrinscape Additional music and sound by Pro Scores from Video Copilot Additional music and sound by Monument Studios Learn more about your ad choices. Visit megaphone.fm/adchoices Original source release date: Wed, 31 Jan 2024 13:00:00 -0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:57:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD8056140252.mp3?key=0966ce943e78fab22a9091a00947282d&amp;request_event_id=ff8f769d-b9f9-4540-b336-ce6564462035&amp;session_id=ff8f769d-b9f9-4540-b336-ce6564462035&amp;timetoken=1792274065_8DDE520C54DA1395F011C6982E337438" length="106485565" type="audio/mpeg" />
+      <itunes:duration>4448</itunes:duration>
+    </item>
+    <item>
+      <title>Respect the Crit — Empire&apos;s Edge — Empire&apos;s Edge - Ep. 46: What You Take With You Pt. 1</title>
+      <guid isPermaLink="false">urn:quarky:starwars:7a15e7af81a67a9d2516cca5437441fbbb6fc5fccb2e7e977978771a6be6134d</guid>
+      <link>https://respectthecrit.libsyn.com/empires-edge-ep-46-what-you-take-with-you-pt-1</link>
+      <description>Original publisher: Respect the Crit — Empire&apos;s Edge. Exploration of the second Rakatan temple lead Elo and Beegax into a malevolent maze of their own making. Show social &amp; schedule - @RespectTheCrit Elo - Jamie Lee-Bonés @jamiemfbones Beegax Botano - Alex Herrera @aeherrera Host &amp; GM - Ian Duncan @iduncs Whatever the system, whether it&apos;s a miss or a hit, you always gotta respect the crit! Original music provided with license or permissions by: &quot;Solo Fan Made&quot; - Luis Humanoide &quot;Star Wars Epic Cover I&quot; - Parademics Imperial March (Anakin&apos;s Suffering) | EPIC EMOTIONAL VERSION - Samuel Kim Music used with permission by the Cyro Chamber label: &quot;Babi Yar&quot; by Flowers for Bodysnatchers Find more dark ambient at cryochamber.bandcamp.com or on YouTube Additional sound from Freesound.org Additional music and sound by TableTop Audio Additional music and sound by Syrinscape Additional music and sound by Pro Scores from Video Copilot Additional music and sound by Monument Studios Learn more about your ad choices. Visit megaphone.fm/adchoices Original source release date: Wed, 22 Jun 2022 12:00:00 -0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:56:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/PODERATIONLTD7697081025.mp3?key=4799c4737d86c9e904207304b6900e6f&amp;request_event_id=86a42471-52f9-46e3-b6d0-1ddd06745837&amp;session_id=86a42471-52f9-46e3-b6d0-1ddd06745837&amp;timetoken=1792274064_D3DBED8FEB1774A9BF56B882AC131E80" length="107992348" type="audio/mpeg" />
+      <itunes:duration>4518</itunes:duration>
+    </item>
+    <item>
+      <title>Nastygram — Star Wars D6 (Empire&apos;s End &amp; Dreamscapes) — Empire&apos;s End 25: For the Empire (Star Wars)</title>
+      <guid isPermaLink="false">urn:quarky:starwars:ff7451ebe8228491f863c9e82d050b6b89cb74acda51422b102683fb4616b1e0</guid>
+      <link>https://nastygram.libsyn.com/empires-end-25-for-the-empire-star-wars</link>
+      <description>Original publisher: Nastygram — Star Wars D6 (Empire&apos;s End &amp; Dreamscapes). The final episode of Empire&apos;s End is here! The Aurora&apos;s Edge is coming to Vierax. But before a desperate final battle to free themselves from the &quot;old&quot; Empire, our crew of RACO will have to fight for their lives against the dedicated servant of the Empire - Lt Thorne. There will be no holds barred in this climatic conclusion - the fate of RACO and its crew and the future of all of the Vierax System hangs in the balance. Check us out online at www.nastygrampod.com Find us on facebook at www.facebook.com/nastygram and our group is at https://www.facebook.com/groups/865467380821766 ; we are @nastygramrpg on both Instagram and Twitter. Dig into LSG Media at www.libertystreetgeek.net We are lucky to have awesome music on our pod! More about A Wilhelm Scream here https://www.awilhelmscream.com/ Creepin Cadavers at https://www.youtube.com/channel/UCyQQnBSa1XqYY4huOfcDSiA composer Adrian von Ziegler at https://adrianvonziegler.bandcamp.com/album/the-complete-discography and composter Antti Martikainen at https://anttimartikainen.com/ Original source release date: Tue, 24 May 2022 05:00:12 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:55:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/nastygram/Empires_End_25_-_For_the_Empire.mp3?dest-id=2773544" length="98636888" type="audio/mpeg" />
+      <itunes:duration>02:16:59</itunes:duration>
+    </item>
+    <item>
+      <title>Redemption Productions — Rough Times</title>
+      <guid isPermaLink="false">urn:quarky:starwars:99af6f1acde2d4aa6bc74d88fc2bfb7890a23176eab1b8fda36d302895247361</guid>
+      <link>https://podcasters.spotify.com/pod/show/redemptionpod/episodes/Rough-Times-e184dld</link>
+      <description>Original publisher: Redemption Productions. It has been six months since the rise of the GALACTIC EMPIRE and the devastation of the JEDI ORDER. With Karrell taking the KRALLET’S FANG and her cargo of padawans out into WILD SPACE, those that have stayed behind are living in close quarters aboard the SOCIAL DETOX. As work and credits grow scarce and the EMPIRE consolidates its grasp, Tazi, Quinth, Zhaan, A-1 and D4 need to find a way to survive without their friend, and the ship that they called home... &amp;nbsp; Original source release date: Mon, 07 Jun 2021 04:00:31 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:54:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/6dbced10/podcast/play/41088109/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-30%2F221573811-44100-1-03c2be864abf2f3c.m4a" length="20462058" type="audio/mp4" />
+      <itunes:duration>00:41:06</itunes:duration>
+    </item>
+    <item>
+      <title>Force Majeure — Coldfire Chronicles S01 E08 - A Daring Escape!</title>
+      <guid isPermaLink="false">urn:quarky:starwars:482d86950c0e041732e23051acf402ea107a49f4daf198e3b1c000cf1c6b274b</guid>
+      <link>https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e08</link>
+      <description>Original publisher: Force Majeure. With Pyjak freed from his cell and out of Imperial hands, all that&apos;s left to do is escape from the base without being killed by Stormtroopers, unravel the mysteries of their mentor, work out exactly what Coldfire&apos;s Mercy is and get off planet before Tenth Brother arrives. And do this before their cups of tea go cold. Easy, right? Presenting Episode 8 of the Coldfire Chronicles. Follow us on social media! Twitter: @forcemajeurepod Instagram: forcemajeurepod Online: www.forcemajeurepod.com Email: forcemajeurepod@gmail.com Additional Music: Outcast by Purple Planet Mars, the Bringer of War by Gustav Holst For full accreditation and links please see the Credits page of our website. Hope you enjoy the show! Original source release date: Mon, 30 Apr 2018 04:30:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:53:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/forcemajeurepod/CFC_S01_E08.mp3?dest-id=604132" length="39743790" type="audio/mpeg" />
+      <itunes:duration>33:11</itunes:duration>
+    </item>
+    <item>
+      <title>Force Majeure — Coldfire Chronicles S01 E06  - An Ally Emerges</title>
+      <guid isPermaLink="false">urn:quarky:starwars:701126fa0c0a14b9d0d1f90a39c4dec38372c7273d171fa166d248d0ac3a82b8</guid>
+      <link>https://forcemajeurepod.libsyn.com/coldfire-chronicles-s01-e06</link>
+      <description>Original publisher: Force Majeure. Our heroes have successfully made their way into the Imperial base. As they work out how to get to their captive mentor, an ally emerges who may prove pivotal to their success. Presenting Episode 6 of the Coldfire Chronicles. Follow us on social media! Twitter: @forcemajeurepod Instagram: forcemajeurepod Online: www.forcemajeurepod.com Email: forcemajeurepod@gmail.com Additional Music: Disintegrating by Myuu Inertia by Di Evantile For full accreditation and links please see the Credits page of our website. Hope you enjoy the show! Original source release date: Mon, 02 Apr 2018 04:30:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:52:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/forcemajeurepod/CFC_S01_E06.mp3?dest-id=604132" length="38414334" type="audio/mpeg" />
+      <itunes:duration>33:38</itunes:duration>
+    </item>
+    <item>
+      <title>Redemption Productions — Episode S03E05 – Just Another Rock in the Wall</title>
+      <guid isPermaLink="false">urn:quarky:starwars:d2ca7eee8f933688cbf79a0b6cf35758477a7efa24846f77c6fc7b3718c663cb</guid>
+      <link>https://podcasters.spotify.com/pod/show/redemptionpod/episodes/Episode-S03E05--Just-Another-Rock-in-the-Wall-e184dpl</link>
+      <description>Original publisher: Redemption Productions. Digging through the rocks wasn’t the “buried treasure” that the crew was counting on, however they did manage to land on a planet without making enemies. As they continue to search for KAIO’s secret, it seems some of the crew may be making secret plans of their own... Special Guests: Quinn Wilson from Swallows of the South as Koshak Emily Morgan from She&apos;s a Super Geek as Isla Original source release date: Mon, 08 May 2017 04:00:11 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:51:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/6dbced10/podcast/play/41088245/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-30%2F221573958-32000-2-5af5eab490451a0e.m4a" length="27523094" type="audio/mp4" />
+      <itunes:duration>00:55:37</itunes:duration>
+    </item>
+    <item>
+      <title>Dice for Brains — Dice For Brains Podcast | Episode 10 – Mirages</title>
+      <guid isPermaLink="false">urn:quarky:starwars:63c963c4527a4881ecfa0aaad303931146931c8952e7e463b90ba01a28559f85</guid>
+      <link>https://diceforbrains.com/dice-for-brains-podcast-episode-10-mirages/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dice-for-brains-podcast-episode-10-mirages</link>
+      <description>Original publisher: Dice for Brains. With course of action settled and secrets unlocked Bher, Gree, and Xen will need to tap into every faculty for the battle ahead. The post Dice For Brains Podcast | Episode 10 – Mirages appeared first on Dice For Brains . Original source release date: Sun, 07 Feb 2016 23:23:39 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:50:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/diceforbrains/dfb_s01e10.mp3" length="68675997" type="audio/mpeg" />
+      <itunes:duration>47:39</itunes:duration>
+    </item>
+    <item>
+      <title>01 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Darkstar — Mothership Actual Play] Darkstar: Distress Call from Boomertown 1 | Mothership Actual Play</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:e9b5e7ce62730ae698c82825801c6395321753b1223cf418df10f5d879f67c27</guid>
+      <link>https://dicecompanypodcast.com/darkstar/mothership1-1/</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Crew investigates a deserted ship: hazard pacing, routine work turning into dread. System: Mothership. Original publication: Thu, 05 Mar 2026 19:34:19 GMT. Publisher notes: Distress Call from Boomertown 1 is the first episode of Darkstar, a Mothership Actual Play Podcast from Dice Company. A group of indentured employees of the Darkstar Corporation awaken from cryosleep to investigate the seemingly abandoned HMS Boomertown. What begins as a routine recovery mission quickly becomes a descent into the unknown, as the crew discover that something is very wrong aboard the derelict vessel. With cor Original source release date: Thu, 05 Mar 2026 19:34:19 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:49:00 +0000</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/6a5bbee9f782764c4cc06407/e/darkstar-mothership-actual-play.podbean.com%2F1ed3415e-4285-3043-b171-90178f0ca45c/media.mp3" length="40624796" type="audio/mpeg" />
+      <itunes:duration>42:18</itunes:duration>
+    </item>
+    <item>
+      <title>02 · CROSS-GENRE SCI-FI ACTUAL PLAY · [3d6 Down The Line] Mothership: Gradient Descent Ep 01 - Sci-Fi Horror RPG | Thalassophobia</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:59d4afb3548b0ac377e7a0fce429dc36eab32ed34c9b0effd428b050eeefc55d</guid>
+      <link>https://podcasters.spotify.com/pod/show/3d6dtl/episodes/Mothership-Gradient-Descent-Ep-01---Sci-Fi-Horror-RPG--Thalassophobia-e370vvh</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Industrial android production facility, abandoned station, terminals, factions and uncertain android identity. System: Mothership. Original publication: Tue, 19 Aug 2025 11:26:30 GMT. Publisher notes: The reluctant and debt-ridden crew of the Dashwood approach the Deep, an abandoned yet terribly active android production facility. They seek the lay of the land inside the Bell, a retrofitted thruster cast off from the station. Gradient Descent is by Luke Gearing, Jarrett Crader, and Sean McCoy, published by Tuesday Knight Games, LLC. Purchase it &lt;a href=&quot;https://www.tuesdayknightgames.com/collections/mothership/products/gradie Original source release date: Tue, 19 Aug 2025 11:26:30 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:48:00 +0000</pubDate>
+      <enclosure url="https://traffic.megaphone.fm/APO9299250123.mp3" length="130343915" type="audio/mpeg" />
+      <itunes:duration>02:15:46</itunes:duration>
+    </item>
+    <item>
+      <title>03 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Nobody Wake The Bugbear] The Doom Of Verden Prime | Episode 1 | Our Best Hope</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:d4d8453e816de2f572adaad7d21c72785f3b7506af4e2ff2af61af7608aea44a</guid>
+      <link>https://NWTB.podbean.com/e/the-doom-of-verden-prime-episode-1-our-best-hope/</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Asteroid exploration and anomaly: first-contact danger, alien structures and constrained survival. System: Mothership. Original publication: Fri, 02 Oct 2026 00:00:00 +0800. Publisher notes: A small colony launches a Hail Mary mission to stop a massive asteroid on a collision course to their planet of Verden Prime. ----more---- Nobody Wake The Bugbear presents an actual play of The Doom Of Verden Prime by Lone Archivist for the Mothership Sci-Fi Horror RPG. The Doom Of Verden Prime was the 3rd place winner of the TripTech Game Jam 2025 hosted by LionHearth Games on &lt;a href=&apos;https://itch.io/jam/triptech-game-jam-05202 Original source release date: Fri, 02 Oct 2026 00:00:00 +0800.</description>
+      <pubDate>Sat, 17 Oct 2026 16:47:00 +0000</pubDate>
+      <enclosure url="https://mcdn.podbean.com/mf/web/6v5s5vzqcdytmtfa/NWTB_DOOM_01_RELEASE.mp3" length="49477793" type="audio/mpeg" />
+      <itunes:duration>6176</itunes:duration>
+    </item>
+    <item>
+      <title>04 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Alien RPG: Fables of Nostromo] Ep. 1 | Ghost Ship | Alien RPG</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:211bb84bf9993e6eb633bc644cb789318ea6570322b522d6024d75aedbdd8c9c</guid>
+      <link>https://podcasters.spotify.com/pod/show/fablesd20/episodes/Ep--1--Ghost-Ship--Alien-RPG-e1g5l8h</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Investigating an abandoned vessel and clues of what happened to its crew. System: Alien RPG. Original publication: Fri, 01 Apr 2022 22:04:36 GMT. Publisher notes: USCSS Nostromo and its crew sail through space to find a missing vessel, the Cronus, but once the crew finds her, they find even more hidden in her halls. This has mature language, graphic violence, &amp;amp; themes of horror. It is not intended for children without adult supervision or permission. Full Video on YouTube ► https://bit.ly/JOINYOUTUBE_FablesD20 Join Patreon ► https://bit.ly/PATREON_FablesD20Join Discord ► htt Original source release date: Fri, 01 Apr 2022 22:04:36 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:46:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/8a387194/podcast/play/49517265/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-29%2F738c1599-cc02-9851-3075-3f01d1cf9f59.mp3" length="134229807" type="audio/mpeg" />
+      <itunes:duration>01:04:18</itunes:duration>
+    </item>
+    <item>
+      <title>05 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Actual Play Anthology Series] What&apos;s Behind Door #1 | C4E1 | Mothership Actual Play</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:499c4f24755555f1e90733b586e88eaec51e7bc44a80f243edc23e67c8687a6d</guid>
+      <link>https://podcasters.spotify.com/pod/show/adam-steiner9/episodes/Whats-Behind-Door-1--C4E1--Mothership-Actual-Play-e3n77ur</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Isolated expeditions across hazardous rocks and unexpected rooms and doors. System: Mothership. Original publication: Mon, 10 Aug 2026 12:17:29 GMT. Publisher notes: Welcome to the newest series from Sense Motive! We&amp;#39;re still in space, 5 years displaced from our last mission. The boys are jumping around from rock to rock smuggling for funds along the way. Here&amp;#39;s a great place to jump in. Enjoy! Original source release date: Mon, 10 Aug 2026 12:17:29 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:45:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/104d6d378/podcast/play/124018075/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-10%2F429560143-44100-2-af7bc4926a36c.m4a" length="48485883" type="audio/mp4" />
+      <itunes:duration>00:49:57</itunes:duration>
+    </item>
+    <item>
+      <title>06 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Go Buff Yourself!] &quot;Another Bug Hunt&quot;, Part 1 || MOTHERSHIP Actual Play Mini-Campaign</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:0d91599d63401ca497b085c3eee448fd7b38ee137f958e71449c607f7d3b5e0b</guid>
+      <link>https://podcasters.spotify.com/pod/show/gobuffyourself/episodes/Another-Bug-Hunt--Part-1--MOTHERSHIP-Actual-Play-Mini-Campaign-e2pd326</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Hostile extraterrestrial life, scouting and survival operations. System: Mothership. Original publication: Mon, 01 Jan 2024 23:35:00 GMT. Publisher notes: Suit up and get ready to drop into orbit! Episode one of a mini-campaign running the Mothership storyline, &quot;Another Bug Hunt&quot;! CONTENT WARNING: This is a sci-fi horror game and features numerous content warnings: arachnophobia, body horror, isolation, claustrophobia, violence, language, and gore. Players: Cory J Phillips as Staff Sgt Holliway Jolly Yellow Nerd Original source release date: Mon, 01 Jan 2024 23:35:00 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:44:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/f2a5d1b8/podcast/play/92752390/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-8%2F387747949-44100-2-91f2ed7d36a34.m4a" length="153491326" type="audio/mp4" />
+      <itunes:duration>02:38:10</itunes:duration>
+    </item>
+    <item>
+      <title>07 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Garblag Games — Alien RPG Actual Plays] The Bimble</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:f864c3ee6fe5883d01aad817d8ffadb0e0081b5b23c41ef8bc51a603ad7c58d1</guid>
+      <link>https://share.transistor.fm/s/9c2b4b8c</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Engineers repairing stations and equipment in harsh planetary training conditions. System: Alien RPG. Original publication: Thu, 10 Sep 2026 14:39:43 -0700. Publisher notes: Welcome to Salisbury. A Three World Empire planet designated for survival and endurance training of the elite Royal Marine Commandos. You’re not them. You’re part of The Royal Engineers training recalibration platoon. After the big boys from the RMC have passed through, you’re there to reset the supply caches and rebuild the training zones. The team you’re on is affectionately known as “The Bimble Section.” Join Mi Original source release date: Thu, 10 Sep 2026 14:39:43 -0700.</description>
+      <pubDate>Sat, 17 Oct 2026 16:43:00 +0000</pubDate>
+      <enclosure url="https://media.transistor.fm/9c2b4b8c/8860464c.mp3" length="231003387" type="audio/mpeg" />
+      <itunes:duration>14436</itunes:duration>
+    </item>
+    <item>
+      <title>08 · STAR WARS ACTUAL PLAY · [Tabletop Empire Actual Plays] [2.1] Celestial Fracture</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:ba8addd056c153a2f524ed591aed23c0fb1873d998cecd28c9fe645f7bcfe4ca</guid>
+      <link>https://tabletopempire.podbean.com/e/21-celestial-fracture/</link>
+      <description>Star Wars actual play; Outer Rim Force mystery, an unfamiliar threat and character choices early in a new campaign. System: Star Wars FFG Force &amp; Destiny. Original publication: Thu, 13 Aug 2026 19:00:00 -0400. Publisher notes: Welcome to The Unnaturals Episode 1! A Star Wars FFG RPG Actual Play using the Force and Destiny system. Journey to the Outer Rim with Mira, Kaden, Rinni, and Con as a dangerous new threat rises to alter their paths forever... This campaign is powered by RPGSessions. Use the link below to sign up completely FREE: https://rpgsessions.com CAST: Jeff Ross as the Game Master @joress_id Nate Barbe Original source release date: Thu, 13 Aug 2026 19:00:00 -0400.</description>
+      <pubDate>Sat, 17 Oct 2026 16:42:00 +0000</pubDate>
+      <enclosure url="https://mcdn.podbean.com/mf/web/wy737czc6sm2dbu7/a_Episode_1_FINAL65frr.mp3" length="255460800" type="audio/mpeg" />
+      <itunes:duration>6386</itunes:duration>
+    </item>
+    <item>
+      <title>09 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Adventures in Lollygagging] Cinders of Heaven E01 (ch04)|| ALIEN RPG</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:72dace734b2245a17141a24c3ffad82688edf40353b44bbd8920d72020160316</guid>
+      <link>https://share.transistor.fm/s/96a6675b</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Crew explores catastrophic threats in an Alien RPG science-fiction survival scenario. System: Alien RPG. Original publication: Wed, 06 Mar 2024 05:00:00 -0800. Publisher notes: Explorers and prospectors arrive to establish the colony of New Joy. This is an actual-play of ALIEN RPG, a tabletop roleplaying campaign from Free League Publishing. Find us online at https://www.thelollygaggers.com/ #ALIENrpg #ActualPlay #ttrpg #YearZeroEngine - Cast - Stan &quot;Scooter&quot; Carter . Roughneck. Played by Chuck. &lt;a href=&quot;https:/ Original source release date: Wed, 06 Mar 2024 05:00:00 -0800.</description>
+      <pubDate>Sat, 17 Oct 2026 16:41:00 +0000</pubDate>
+      <enclosure url="https://2.gum.fm/op3.dev/e/pscrb.fm/rss/p/pdst.fm/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/96a6675b/105eceba.mp3" length="121662947" type="audio/mpeg" />
+      <itunes:duration>7600</itunes:duration>
+    </item>
+    <item>
+      <title>10 · CROSS-GENRE SCI-FI ACTUAL PLAY · [The Alien RPG Actual Play from Millie the GM] Heart of Darkness - Part 1</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:6eba4202020caaed537e8a9ec90a25f8cc61804cf923dae69a6487a4b9451620</guid>
+      <link>https://share.transistor.fm/s/7bbeca6b</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Dangerous experimental technologies and uneasy crew decisions. Note: weaker field recording noted by listeners. System: Alien RPG. Original publication: Tue, 15 Nov 2022 06:55:42 -0800. Publisher notes: Join us for the Free League, Alien RPG cinematic scenario Heart of Darkness. The audio in this podcast is not the best, we&apos;ve not done in person recording since 2020, it will improve for session 2. If you like this podcast, please subscribe and come check out www.Patreon.com/MillietheGM to find more RPG Actual Plays and more. Original source release date: Tue, 15 Nov 2022 06:55:42 -0800.</description>
+      <pubDate>Sat, 17 Oct 2026 16:40:00 +0000</pubDate>
+      <enclosure url="https://media.transistor.fm/7bbeca6b/25ed665a.mp3" length="152873050" type="audio/mpeg" />
+      <itunes:duration>7642</itunes:duration>
+    </item>
+    <item>
+      <title>11 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Darkstar — Mothership Actual Play] Darkstar: Distress Call from Boomertown 2 | Mothership Actual Play</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:c76dbc4723176707b179b97f91227e33f35db5f466f9b49cf7c8a780d058647c</guid>
+      <link>https://dicecompanypodcast.com/darkstar/mothership1-2/</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Explore the original distress-call location further, building suspense through changing clues and deteriorating systems. System: Mothership. Original publication: Thu, 05 Mar 2026 19:38:15 GMT. Publisher notes: Distress Call from Boomertown 2 is the second episode of Darkstar, a Mothership Actual Play Podcast from Dice Company. The Darkstar crew, The 76ers, board the apparently abandoned HMS Boomertown in search of answers. What began as a routine investigation soon becomes a journey into the unknown as they explore the silent corridors of a derelict vessel. With no sign of the original crew and danger hidden around every corner, Original source release date: Thu, 05 Mar 2026 19:38:15 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:39:00 +0000</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/6a5bbee9f782764c4cc06407/e/darkstar-mothership-actual-play.podbean.com%2F8e0ead82-f790-3f94-bd7f-96018e2f48a1/media.mp3" length="74192770" type="audio/mpeg" />
+      <itunes:duration>1:17:16</itunes:duration>
+    </item>
+    <item>
+      <title>12 · CROSS-GENRE SCI-FI ACTUAL PLAY · [3d6 Down The Line] Mothership: Gradient Descent Ep 02 - Sci-Fi Horror RPG | Picked Over</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:6a4b5645bc5fe5759a863ec864fa0d8b28901cd0503d8414f987290a08e5d587</guid>
+      <link>https://podcasters.spotify.com/pod/show/3d6dtl/episodes/Mothership-Gradient-Descent-Ep-02---Sci-Fi-Horror-RPG--Picked-Over-e37ace9</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; A derelict facility&apos;s reception spaces, damaged terminals and android defenses show believable environmental storytelling. System: Mothership. Original publication: Tue, 26 Aug 2025 11:31:46 GMT. Publisher notes: The crew takes tentative steps deeper into the Reception area of the facility, discovering signs of struggle, desperate survival, and a few bizarre items. They attempt to bypass security checkpoints in order to push onward. Gradient Descent is by Luke Gearing, Jarrett Crader, and Sean McCoy, published by Tuesday Knight Games, LLC. Purchase it &lt;a href=&quot;https://www.tuesdayknightgames.com/collections/mothership/products/gradient-descent?var Original source release date: Tue, 26 Aug 2025 11:31:46 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:38:00 +0000</pubDate>
+      <enclosure url="https://traffic.megaphone.fm/APO7325629565.mp3" length="117584457" type="audio/mpeg" />
+      <itunes:duration>02:02:28</itunes:duration>
+    </item>
+    <item>
+      <title>13 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Nobody Wake The Bugbear] The Doom Of Verden Prime | Episode 2 | Sweet Surrender</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:13253322b432745583315a9a23e05ee443b9ce05619797dd5ec72462877d834e</guid>
+      <link>https://NWTB.podbean.com/e/the-doom-of-verden-prime-episode-2-sweet-surrender/</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; The crew moves into the heart of an unnatural asteroid, confronting the source of the threat. System: Mothership. Original publication: Mon, 12 Oct 2026 01:35:06 +0800. Publisher notes: The crew venture into the heart of the asteroid to uncover it&apos;s unnatural origins. ----more---- Nobody Wake The Bugbear presents the thrilling finale of our actual play of The Doom Of Verden Prime by Lone Archivist for the Mothership Sci-Fi Horror RPG. The Doom Of Verden Prime was the 3rd place winner of the TripTech Game Jam 2025 hosted by LionHearth Games on itch.io Original source release date: Mon, 12 Oct 2026 01:35:06 +0800.</description>
+      <pubDate>Sat, 17 Oct 2026 16:37:00 +0000</pubDate>
+      <enclosure url="https://mcdn.podbean.com/mf/web/jqzjj7iju5xec23u/NWTB_DOOM_02_RELEASE.mp3" length="41256352" type="audio/mpeg" />
+      <itunes:duration>5148</itunes:duration>
+    </item>
+    <item>
+      <title>14 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Alien RPG: Fables of Nostromo] Ep. 2 | Separated in Space | Alien RPG</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:835636056dce822c2e31a2afefedfe0607e12eae855e6edeb345e2799af4b537</guid>
+      <link>https://podcasters.spotify.com/pod/show/fablesd20/episodes/Ep--2--Separated-in-Space--Alien-RPG-e1gdeit</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Continuing the survey of a missing ship and investigating its increasingly dangerous internal environment. System: Alien RPG. Original publication: Sat, 09 Apr 2022 15:13:44 GMT. Publisher notes: USCSS Nostromo and its crew sail through space to find a missing vessel, the Cronus, but once the crew find her, they find even more hidden in her halls. This has mature language, graphic violence, &amp;amp; themes of horror. It is not intended for children without adult supervision or permission. Early Access Content for Backers! Full Video on YouTube ► https://bit.ly/JOINYOUTUBE_FablesD20 Join Patreon ► https://bit.ly/PATRE Original source release date: Sat, 09 Apr 2022 15:13:44 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:36:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/8a387194/podcast/play/49772573/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-29%2F9414292c-8a0a-efd7-06f1-923bbd3bba46.mp3" length="130172905" type="audio/mpeg" />
+      <itunes:duration>01:00:07</itunes:duration>
+    </item>
+    <item>
+      <title>15 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Actual Play Anthology Series] I Think We Made The Thing Mad | C4E2 | Mothership Actual Play</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:85fa467591ebd89441bf5bc99ec79a81bc81ed354ee182e3ccd2ab829fa5788f</guid>
+      <link>https://podcasters.spotify.com/pod/show/adam-steiner9/episodes/I-Think-We-Made-The-Thing-Mad--C4E2--Mothership-Actual-Play-e3nvbm1</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; A discovery unsettles a hostile environment and complicates the crew&apos;s decisions. System: Mothership. Original publication: Thu, 27 Aug 2026 12:03:32 GMT. Publisher notes: We gotta figure out what this thing is. Subscribe for more! Original source release date: Thu, 27 Aug 2026 12:03:32 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:35:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/104d6d378/podcast/play/124808321/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-27%2F430643094-44100-2-8ea208d71a05b.m4a" length="57228361" type="audio/mp4" />
+      <itunes:duration>00:58:58</itunes:duration>
+    </item>
+    <item>
+      <title>16 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Go Buff Yourself!] &quot;Another Bug Hunt&quot;, Part 2 || MOTHERSHIP Actual Play Mini-Campaign</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:4809f0f132c464886fbd8c3ee5bd83d86b23b72d6368ec37d0cdba555cb62b5f</guid>
+      <link>https://podcasters.spotify.com/pod/show/gobuffyourself/episodes/Another-Bug-Hunt--Part-2--MOTHERSHIP-Actual-Play-Mini-Campaign-e2qjhug</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Follow on from the first bug-hunt scene: survival decisions, creature behavior and team disagreements. System: Mothership. Original publication: Mon, 08 Jan 2024 23:35:00 GMT. Publisher notes: Suit up and get ready to drop into orbit! Episode two of a mini-campaign running the Mothership storyline, &quot;Another Bug Hunt&quot;! At the end of our first episode, three of the crew encountered a marine acting very strangely. Upon disturbing the marine, something burst from their body! MAKE A FEAR SAVE! CONTENT WARNING: This is a sci-fi horror game and features numerous content warnings: arachnophobia, bod Original source release date: Mon, 08 Jan 2024 23:35:00 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:34:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/f2a5d1b8/podcast/play/94012816/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-8%2F389451965-44100-2-340078d70614.m4a" length="152792872" type="audio/mp4" />
+      <itunes:duration>02:37:27</itunes:duration>
+    </item>
+    <item>
+      <title>17 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Garblag Games — Alien RPG Actual Plays] Heart of Darkness - E01</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:32b8264632d764568bf26ec8d20f8d1664beb280566cca8ec28d6c90a004191a</guid>
+      <link>https://share.transistor.fm/s/fb841f04</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; A separate expedition&apos;s opening scene shows how scientific staff respond to hidden threats and strange environments. System: Alien RPG. Original publication: Tue, 12 Jul 2022 06:00:00 -0700. Publisher notes: Please consider supporting the channel: Patreon: https://www.patreon.com/garblaggames Discord: https://discord.gg/DPgQjr7 FB Page: https://www.facebook.com/GarblagGames Twitter: https://twitter.com/GarblagGames RPG Products: http://bit.ly/Garblag_DriveThruRPG Merch: https://www.redbubble.com/people/garblag Original source release date: Tue, 12 Jul 2022 06:00:00 -0700.</description>
+      <pubDate>Sat, 17 Oct 2026 16:33:00 +0000</pubDate>
+      <enclosure url="https://media.transistor.fm/fb841f04/78927b43.mp3" length="100931544" type="audio/mpeg" />
+      <itunes:duration>6305</itunes:duration>
+    </item>
+    <item>
+      <title>18 · STAR WARS ACTUAL PLAY · [Tabletop Empire Actual Plays] [2.3] Unbound</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:7f6066b8da0b3190cab4851f40c39021605b595cb4cfd4233900bf9828ce5685</guid>
+      <link>https://tabletopempire.podbean.com/e/23-unbound/</link>
+      <description>Star Wars actual play; An archaeological team explores an unknown world where dangerous secrets lie beneath the surface. System: Star Wars FFG Force &amp; Destiny. Side-story within a continuing campaign. Original publication: Thu, 27 Aug 2026 19:00:00 -0400. Publisher notes: Journey with the Players back in time, to a distant, unknown system, where a group of archaeologists explores a hidden world, unaware that something sinister lies dormant beneath its surface... This campaign is powered by RPGSessions. Use the link below to sign up completely FREE: https://rpgsessions.com CAST: Jeff Ross as the Game Master @joress_id Nate Barber as Mira @heynatebarber Lacey Ho Original source release date: Thu, 27 Aug 2026 19:00:00 -0400.</description>
+      <pubDate>Sat, 17 Oct 2026 16:32:00 +0000</pubDate>
+      <enclosure url="https://mcdn.podbean.com/mf/web/3qpzhdcx8rh5gtaq/a_Episode_3_FINAL6fhok.mp3" length="191118720" type="audio/mpeg" />
+      <itunes:duration>4777</itunes:duration>
+    </item>
+    <item>
+      <title>19 · CROSS-GENRE SCI-FI ACTUAL PLAY · [Adventures in Lollygagging] Cinders of Heaven E02 (ch04)|| ALIEN RPG</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:08e255d2500050fd1a175d664f939db6e9136c646ec0b4ac554f8d700aaf0af2</guid>
+      <link>https://share.transistor.fm/s/e076474c</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Planetside synthetic threats and the risks of survival with limited supplies. System: Alien RPG. Original publication: Wed, 20 Mar 2024 05:00:00 -0700. Publisher notes: Skeeter finds a dead body within the colony, and an investigation ensues. This is an actual-play of ALIEN RPG, a tabletop roleplaying campaign from Free League Publishing. Find us online at https://www.thelollygaggers.com/ #ALIENrpg #ActualPlay #ttrpg #YearZeroEngine - Cast - Stan &quot;Scooter&quot; Carter . Roughneck. Played by Chuck. &lt;a href=&quot;ht Original source release date: Wed, 20 Mar 2024 05:00:00 -0700.</description>
+      <pubDate>Sat, 17 Oct 2026 16:31:00 +0000</pubDate>
+      <enclosure url="https://2.gum.fm/op3.dev/e/pscrb.fm/rss/p/pdst.fm/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/e076474c/db2eb5f2.mp3" length="119985259" type="audio/mpeg" />
+      <itunes:duration>7495</itunes:duration>
+    </item>
+    <item>
+      <title>20 · CROSS-GENRE SCI-FI ACTUAL PLAY · [The Alien RPG Actual Play from Millie the GM] Heart of Darkeness - Part 2</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:41db91c90a1dba24d3658a0e05a3cb38b9c3bed0503162507d10fbd281f9e6d1</guid>
+      <link>https://share.transistor.fm/s/d0bf0d8b</link>
+      <description>OTHER SCI-FI SETTING, not Star Wars canon; Continue the threat escalation and survivors&apos; decisions around dangerous experiments. System: Alien RPG. Original publication: Tue, 31 Jan 2023 06:31:09 -0800. Publisher notes: Join us for the Free League, Alien RPG cinematic scenario Heart of Darkness. If you like this podcast, please subscribe and come check out www.Patreon.com/MillietheGM to find more RPG Actual Plays and more. Original source release date: Tue, 31 Jan 2023 06:31:09 -0800.</description>
+      <pubDate>Sat, 17 Oct 2026 16:30:00 +0000</pubDate>
+      <enclosure url="https://media.transistor.fm/d0bf0d8b/370dbc89.mp3" length="187864276" type="audio/mpeg" />
+      <itunes:duration>7827</itunes:duration>
+    </item>
+    <item>
+      <title>21 · STAR WARS ACTUAL PLAY · [8bit Saga] Shadow of the Old Republic - Episode 52</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:6bace63f5c54a8b227f0c50cd50f63c5cd00d04d3fdfe5a895e53e391c34291b</guid>
+      <link>https://audioboom.com/posts/7881782</link>
+      <description>Star Wars actual play; Escape from a Sith-aligned trap and regroup before exploring an ancient artifact site. System: Star Wars setting / D&amp;D rules. Previous episode within the same long storyline. Original publication: Mon, 07 Jun 2021 03:00:00 +0000. Publisher notes: After defeating Lin-Zee and escaping her death-trap, the crew of the Tin Sparrow take a moment to relax and heal aboard the Tin Sparrow before heading off on their next mission. Original source release date: Mon, 07 Jun 2021 03:00:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:29:00 +0000</pubDate>
+      <enclosure url="https://audioboom.com/posts/7881782.mp3?modified=1623032111&amp;sid=4855872&amp;source=rss" length="44789047" type="audio/mpeg" />
+      <itunes:duration>2790</itunes:duration>
+    </item>
+    <item>
+      <title>22 · STAR WARS ACTUAL PLAY · [8bit Saga] Shadow of the Old Republic - Episode 53</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:81a466469c4283a0bf3cbdd7b3b941ec9b8a27187bd49a7f5a1f3aca8b126946</guid>
+      <link>https://audioboom.com/posts/7907596</link>
+      <description>Star Wars actual play; A crew pursues the Sith Gauntlet within an abandoned temple on a forgotten moon. System: Star Wars setting / D&amp;D rules. Later installment; earlier campaign context assumed. Original publication: Mon, 19 Jul 2021 04:00:00 +0000. Publisher notes: The crew of the Tin Sparrow continue their search for the Sith Gauntlet in the forgotten temple on the moon of Draay 2. Original source release date: Mon, 19 Jul 2021 04:00:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:28:00 +0000</pubDate>
+      <enclosure url="https://audioboom.com/posts/7907596.mp3?modified=1626666633&amp;sid=4855872&amp;source=rss" length="37895170" type="audio/mpeg" />
+      <itunes:duration>2359</itunes:duration>
+    </item>
+    <item>
+      <title>23 · STAR WARS ACTUAL PLAY · [Flight Risk — Star Wars Actual Play] Ghosts of the Past Episode 14</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:8510df0fd81089ce2e16d606153f2c26c360e1510242b25cc6c850e0329210a0</guid>
+      <link>https://podcasters.spotify.com/pod/show/flight-risk-podcast/episodes/Ghosts-of-the-Past-Episode-14-e2dujcs</link>
+      <description>Star Wars actual play; Mentor&apos;s summons, ancient Sith Empire politics, betrayal and dark-side intrigue. System: Star Wars RPG actual play. Later episode in established arc. Original publication: Wed, 03 Jan 2024 17:38:00 GMT. Publisher notes: Ghost of the Past A mysterious message from Dorrick&amp;#39;s mentor sends him on a quest into the depth of the Sith Empire. Will the trusted Bodyguard be able to stand on his own and right this historic wrong? Additional voices by Mark from Coruscant Nights Zach from Tales of the Outer Rim AJ Kimball Original source release date: Wed, 03 Jan 2024 17:38:00 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:27:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/8ecae96c/podcast/play/80743260/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-3%2Fbd66d5cc-9860-ba37-ebe7-68804b4e32d5.mp3" length="33417507" type="audio/mpeg" />
+      <itunes:duration>00:34:48</itunes:duration>
+    </item>
+    <item>
+      <title>24 · STAR WARS ACTUAL PLAY · [Flight Risk — Star Wars Actual Play] Ghosts of the Past Episode 15</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:34535c0a4ab3f4b9f01fcd3c690796067df1df48edf470254ce89c71fd947b0b</guid>
+      <link>https://podcasters.spotify.com/pod/show/flight-risk-podcast/episodes/Ghosts-of-the-Past-Episode-15-e2e4org</link>
+      <description>Star Wars actual play; Developing the journey into Sith Empire secrets through changing allegiances. System: Star Wars RPG actual play. Continuation of an existing arc. Original publication: Mon, 08 Jan 2024 00:28:09 GMT. Publisher notes: A mysterious message from Dorrick&amp;#39;s mentor sends him on a quest into the depth of the Sith Empire. Will the trusted Bodyguard be able to stand on his own and right this historic wrong? Additional voices by Mark from Coruscant Nights Zach from Tales of the Outer Rim AJ Kimball Original source release date: Mon, 08 Jan 2024 00:28:09 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:26:00 +0000</pubDate>
+      <enclosure url="https://anchor.fm/s/8ecae96c/podcast/play/80945456/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-8%2F63090199-010f-94d8-8bf0-b7e63a48edc7.mp3" length="37045393" type="audio/mpeg" />
+      <itunes:duration>00:38:35</itunes:duration>
+    </item>
+    <item>
+      <title>25 · STAR WARS ACTUAL PLAY · [Fandible: SoloShot] SoloShot: Star Wars Force and Destiny, Episode 4×20</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:e1b22f47669cf831570556faf0f8256f26271ea890ec5b80838f544ac6869977</guid>
+      <link>https://fandible.com/soloshot-star-wars-force-and-destiny-episode-4x20/</link>
+      <description>Star Wars actual play; Search for missing Rebels leads to an ancient temple with dangerous forgotten secrets. System: Star Wars Force &amp; Destiny. Later campaign episode; not a standalone beginning. Original publication: Thu, 23 Sep 2021 14:00:00 +0000. Publisher notes: Castian Saayah and Lariss are searching for lost rebels on Yavin Four. However, when the trail leads them to an ancient temple, they&apos;ll discover that some things are best left &apos;lost&apos;. The post SoloShot: Star Wars Force and Destiny, Episode 4&amp;#215;20 appeared first on Fandible Actual Play Podcast . Original source release date: Thu, 23 Sep 2021 14:00:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:25:00 +0000</pubDate>
+      <enclosure url="https://www.fandible.com/wp-content/uploads/PodcastMp3/Soloshot/Soloshot_084_SWFAD_S4_Ep20.mp3" length="109428916" type="audio/mpeg" />
+      <itunes:duration>44:32</itunes:duration>
+    </item>
+    <item>
+      <title>26 · STAR WARS ACTUAL PLAY · [Fandible: SoloShot] SoloShot: Star Wars Force and Destiny, Episode 4×21</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:5b8b287b561697a3f1f879f3b383060aa1bc21793c2b9511477edf82b27f5dc3</guid>
+      <link>https://fandible.com/soloshot-star-wars-force-and-destiny-episode-4x21/</link>
+      <description>Star Wars actual play; Darkness within the abandoned temple and hard choices for the explorers. System: Star Wars Force &amp; Destiny. Continuation of a continuing campaign. Original publication: Thu, 07 Oct 2021 14:00:00 +0000. Publisher notes: The abandoned temple is dark, in more ways than one. If Castian and Lariss aren&apos;t careful, they&apos;ll be the ones in need of rescue next...and who is left to help them? The post SoloShot: Star Wars Force and Destiny, Episode 4&amp;#215;21 appeared first on Fandible Actual Play Podcast . Original source release date: Thu, 07 Oct 2021 14:00:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:24:00 +0000</pubDate>
+      <enclosure url="https://www.fandible.com/wp-content/uploads/PodcastMp3/Soloshot/Soloshot_085_SWFAD_S4_Ep21.mp3" length="90877975" type="audio/mpeg" />
+      <itunes:duration>36:48</itunes:duration>
+    </item>
+    <item>
+      <title>27 · STAR WARS ACTUAL PLAY · [Star Wars — Path of Shadows] Episode 10 Ancient Religions - Part 1</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:6ff4fdaad1969ee633da64c6dbf4bb81bc296a7a2f925397296a6d298abf99f0</guid>
+      <link>https://creators.podcasts.com/podcast/star-wars-path-of-shadows-episode-000-c36349f03/episode/210694082</link>
+      <description>Star Wars actual play; Jedi beliefs, forgotten cults, relic lore and Force-sensitive adventurers. System: Star Wars FFG. Original publication: Wed, 15 Jul 2020 15:26:13 GMT. Publisher notes: This is an actual play podcast using Fantasy Flight Game&apos;s Star Wars: Force and Destiny and Edge of the Empire systems. Our cast includes: Tenette playing Twi&apos;lek Jedi guardian Alema, Kevin playing Gank Bounty Hunter D3X-T3R, Josh playing Zabrak Jedi artisan Sanjo, Daniel playing the mysterious Force sensitive assassin Morda, and Pauly as the Mirialan Smuggler Thief. Our GM is Jonathan Glass. Original source release date: Wed, 15 Jul 2020 15:26:13 GMT.</description>
+      <pubDate>Sat, 17 Oct 2026 16:23:00 +0000</pubDate>
+      <enclosure url="https://awscdn.podcasts.com/Episode-10-Ancient-Religions-Part-1-354b.mp3" length="99562723" type="audio/mpeg" />
+      <itunes:duration>6796</itunes:duration>
+    </item>
+    <item>
+      <title>28 · STAR WARS ACTUAL PLAY · [Star Wars: Knightfall] S1 Chapter One</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:198d0ca28f3140ea2d0e750e7f704dd6a49054625837e08ba9177fc5ec2f88f2</guid>
+      <link>https://rss.buzzsprout.com/1899483.rss</link>
+      <description>Star Wars actual play; Jedi pursuit of a lost world and institutional secrets under the Empire. System: Star Wars Saga Edition. Original publication: Thu, 05 May 2022 00:00:00 -0700. Publisher notes: Send us a Text Message. Please note that we cannot respond. Send us a Text Message. Please note that we cannot respond. The Clone Wars have ended and the Great Jedi Purge has wiped out most of the Galaxy’s former heroes. Most survivors of the Purge have Original source release date: Thu, 05 May 2022 00:00:00 -0700.</description>
+      <pubDate>Sat, 17 Oct 2026 16:22:00 +0000</pubDate>
+      <enclosure url="https://www.buzzsprout.com/1899483/episodes/19742026-s1-chapter-one.mp3" length="139192927" type="audio/mpeg" />
+      <itunes:duration>5797</itunes:duration>
+    </item>
+    <item>
+      <title>29 · STAR WARS ACTUAL PLAY · [The Wandering Gamer Network] On the Brink Episode 15</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:e3f172857f7dbfa2905eba32192d7de2199d2f17dbecd91d5842048877fc05ac</guid>
+      <link>https://wanderinggamernetwork.podbean.com/e/on-the-brink-episode-15/</link>
+      <description>Star Wars actual play; Entanglements with a Sith-descended patron and competing obligations. System: Star Wars actual play. Mid-series episode; prior character relationships assumed. Original publication: Mon, 07 Sep 2026 21:09:14 -0400. Publisher notes: We’re back with more Star Wars! Our crew of rogues is about to get their payday, but first they have a few promises to keep…to a Sith lord descendant and a mob boss. Intro and Outro: Alarm Ticking Loop - Zapsplat Diamond - Music by Grand_Project from&lt;a h Original source release date: Mon, 07 Sep 2026 21:09:14 -0400.</description>
+      <pubDate>Sat, 17 Oct 2026 16:21:00 +0000</pubDate>
+      <enclosure url="https://mcdn.podbean.com/mf/web/myzwt5xzwbn7qaja/OTB_Episode_15_Full_Episode9znye.mp3" length="71350647" type="audio/mpeg" />
+      <itunes:duration>4459</itunes:duration>
+    </item>
+    <item>
+      <title>30 · STAR WARS ACTUAL PLAY · [Tabletop Empire Actual Plays] [2.5] Reclamation</title>
+      <guid isPermaLink="false">urn:sw-new-actual-play:bd118b6018acd121fe39a843b00a52ed38f7537b3b7bef5cc5475e73c44b539c</guid>
+      <link>https://tabletopempire.podbean.com/e/25-reclamation/</link>
+      <description>Star Wars actual play; An ancient dark relic is stolen; pursuit forces characters to weigh duty against danger. System: Star Wars FFG Force &amp; Destiny. Fifth chapter in a continuing campaign. Original publication: Thu, 10 Sep 2026 11:06:49 -0400. Publisher notes: Oren&apos;s shop has been raided, and a dark relic left in safekeeping has fallen back into a familiar foe&apos;s hands, leading to a high-speed pursuit through the streets of Reles... This campaign is powered by RPGSessions. Use the link below to sign up completely FREE: https://rpgsessions.com CAST: Jeff Ross as the Game Master @joress_id Nate Barber as Mira @heynatebarber Lacey Holliman as Rinni @ru Original source release date: Thu, 10 Sep 2026 11:06:49 -0400.</description>
+      <pubDate>Sat, 17 Oct 2026 16:20:00 +0000</pubDate>
+      <enclosure url="https://mcdn.podbean.com/mf/web/j3gbxj7fde6x37vn/a_Episode_5_FINAL9a6go.mp3" length="323840640" type="audio/mpeg" />
+      <itunes:duration>8096</itunes:duration>
+    </item>
+    <item>
+      <title>01 · CROSS-GENRE SCI-FI STORY · [DERELICT — FATHOM] Season 1 - FATHOM - E1 - In the Dark We See</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:2f177f144db58ca1251a28d3382275fe9c8b421fc2dd5030f8e3312c36b863e5</guid>
+      <link>https://feeds.megaphone.fm/SBP4341397353</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Secret archaeological laboratory built around an ancient alien artifact; ethical conflicts, structural failures and environmental systems.. Original publisher date: Mon, 07 Jun 2021 14:00:00 -0000. Original notes: DERELICT Premium: https://derelict.supercast.com Something has been found at the bottom of Earth&apos;s ocean. An ancient artifact that can only be described as a giant door, inset into the ocean floor. It became known as the Vault. A gigantic enigma, buried and forgotten...nineteen thousand feet down. Just the kind of thing that would interest the galaxy&apos;s most powerful corporation, Maas-Dorian. To s Original source release date: Mon, 07 Jun 2021 14:00:00 -0000. Source release date: Sat, 17 Oct 2026 16:49:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:19:00 +0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP1450899020.mp3?key=4245d8d4b7f2a826867245e8d09cc3bd&amp;request_event_id=4ef56afc-4738-4117-9097-5ccd28b0add7&amp;session_id=4ef56afc-4738-4117-9097-5ccd28b0add7&amp;timetoken=1792356832_FA5A20C92F32F8FCBCC13199EFE54067" length="85649664" type="audio/mpeg" />
+      <itunes:duration>3334</itunes:duration>
+    </item>
+    <item>
+      <title>02 · CROSS-GENRE SCI-FI STORY · [The Orphans] Crash :: The Crash</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:91d1d4975b4ff17590e553c5266e8ce8867e253b4b071d43adbe6d56d96cb320</guid>
+      <link>https://art19.com/shows/the-orphans/episodes/e35ecd4d-b2c3-4e45-8f58-d9f6acaae268</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Castaways on a hostile world, emergent artificial intelligence and character-driven survival.. Original publisher date: Mon, 23 May 2016 18:10:00 -0000. Original notes: ** Content Warning at Bottom of Show Notes** OUR NEW SHOW | NO ADS &amp; MORE! | TRANSCRIPT | MERCH! | DISCORD A tale of survival on an unknown world. The Orphans is a cinematic audio drama chronicling the castaways of downed starship, The Venture - Stranded on a hostile planet, struggling to remember how they arrived and who they are. Find our affiliates here: www.fableandfolly.com/partners Writte Original source release date: Mon, 23 May 2016 18:10:00 -0000. Source release date: Sat, 17 Oct 2026 16:47:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:18:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/FAFO1808134534.mp3?key=5f05be1cde8bcf405cb9054ec1bd2e42&amp;request_event_id=aaceb208-5768-4a51-9ce5-ab116b9cb496&amp;session_id=aaceb208-5768-4a51-9ce5-ab116b9cb496&amp;timetoken=1792356834_047911AC700261CF561B3D6AC384CE26" length="40045597" type="audio/mpeg" />
+      <itunes:duration>1609</itunes:duration>
+    </item>
+    <item>
+      <title>03 · CROSS-GENRE SCI-FI STORY · [Station 151] S1E2: Orientation</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:b70b0fce6e5b122ededf836d2ce84036c00a4c48cd521772ac6445253b39650f</guid>
+      <link>https://www.station151.com/season-one/s1e2-orientation/</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: A remote station, its equipment and the personal consequences of isolation.. Original publisher date: Tue, 06 Dec 2022 12:00:00 -0000. Original notes: Having barely survived his journey to Antarctica, Astrophysicist Wayne Robertson is awakened by a strange and unexpected voice in his ear. Wayne struggles through his first day at Station 151, learning that the job he signed up for is very different, and far more dangerous, than he expected. Content warning: profanity Headphones highly recommended Support the show If you&apos;re enjoying the Station 15 Original source release date: Tue, 06 Dec 2022 12:00:00 -0000. Source release date: Sat, 17 Oct 2026 16:45:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:17:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/SBP3934947793.mp3?key=4a7dfe03d1ba744bc1148de5d8af6014&amp;request_event_id=e62df570-2392-4e3f-85ee-b1e3d5dc7fde&amp;session_id=e62df570-2392-4e3f-85ee-b1e3d5dc7fde&amp;timetoken=1792356836_AC08CE9BCBCE7F6E6E56D6B9DD4DB380" length="46922593" type="audio/mpeg" />
+      <itunes:duration>1048</itunes:duration>
+    </item>
+    <item>
+      <title>04 · CROSS-GENRE SCI-FI STORY · [Among the Stars and Bones] S1E2 - &quot;Seh-Par-Ay-Shun&quot;</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:72d4c7d6b92097ccc150690669029ccf6188ba128431c92d245735410fe85b6b</guid>
+      <link>https://pinecast.com/feed/among-the-stars-and-bones</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Field archaeologists examining an ancient site and the evidence left by vanished inhabitants.. Original publisher date: Wed, 17 Apr 2019 10:00:00 -0000. Original notes: SYNOPSIS Adrienne, Ben and Gordon have various bones to pick over their orders. Laura speculates on the benefits of Proximan technology. Kathy and Celia begin unravelling the mysteries of the dead. And Gordon begins to probe &quot;The Box.&quot; CONTENT WARNINGS Medical/Forensic procedure - An alien skeleton undergoes analysis (09 Original source release date: Wed, 17 Apr 2019 10:00:00 -0000. Source release date: Sat, 17 Oct 2026 16:43:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:16:00 +0000</pubDate>
+      <enclosure url="https://pinecast.com/listen/aeb49453-5789-43fb-8fec-827675a848ef.mp3?source=rss&amp;ext=asset.mp3" length="71558148" type="audio/mpeg" />
+      <itunes:duration>00:37:16</itunes:duration>
+    </item>
+    <item>
+      <title>05 · CROSS-GENRE SCI-FI STORY · [DERELICT — FATHOM] Season 1 - FATHOM - E2 - Hard Right</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:6f7127a2fa194b0aea97a15d59d247a54a05d6aa4d7156466ca2247b2c9b9e86</guid>
+      <link>https://feeds.megaphone.fm/SBP4341397353</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Secret archaeological laboratory built around an ancient alien artifact; ethical conflicts, structural failures and environmental systems.. Original publisher date: Wed, 23 Jun 2021 17:00:00 -0000. Original notes: DERELICT Premium: https://derelict.supercast.com After a surprise, cataclysmic tide surge hits Fathom base, Dr. Eva Graff is trapped in the west platform airlock. When she learns that base commander Joe Freeman is hurt and stuck in a slowly flooding circuitry conduit, she sets off on a perilous journey to save him; a journey that will push her beyond her breaking points... DERELICT Merch: https:// Original source release date: Wed, 23 Jun 2021 17:00:00 -0000. Source release date: Sat, 17 Oct 2026 16:41:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:15:00 +0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP1765881717.mp3?key=8b65367bf68a04e6def72f9218a9a8f6&amp;request_event_id=b1deb25d-2096-4c45-b3b5-679c4f1fb4d9&amp;session_id=b1deb25d-2096-4c45-b3b5-679c4f1fb4d9&amp;timetoken=1792356838_4C34C11FEE58990C995425436081A2F8" length="80283625" type="audio/mpeg" />
+      <itunes:duration>3153</itunes:duration>
+    </item>
+    <item>
+      <title>06 · CROSS-GENRE SCI-FI STORY · [The Orphans] Crash :: Above the Trees</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:66f42722f049951e8220004a406fd22b0d53f329482a2cc208eddecca6e5d24e</guid>
+      <link>https://art19.com/shows/the-orphans/episodes/a17c83ec-7434-4527-922d-14fe0abfcd16</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Castaways on a hostile world, emergent artificial intelligence and character-driven survival.. Original publisher date: Mon, 30 May 2016 18:16:00 -0000. Original notes: **Content Warnings at Bottom of Show Notes** OUR NEW SHOW | NO ADS &amp; MORE! | TRANSCRIPT | MERCH! |DISCORD As the team return from the remains of their ship, they have to once again fight for their lives, and in doing so, discover one of them has a hidden talent. They find shelter in the deadly terrain of the world, but it&apos;s not just this mysterious planet they have to worry about - even with the c Original source release date: Mon, 30 May 2016 18:16:00 -0000. Source release date: Sat, 17 Oct 2026 16:39:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:14:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/FAFO9948656277.mp3?key=fef7b3bd735986bbd67811f828a5845d&amp;request_event_id=4bfbedfa-6763-4d99-8919-de10ee20fdb7&amp;session_id=4bfbedfa-6763-4d99-8919-de10ee20fdb7&amp;timetoken=1792356840_6C5635EDE884650668EA65BFE2C7E1A4" length="34007171" type="audio/mpeg" />
+      <itunes:duration>1366</itunes:duration>
+    </item>
+    <item>
+      <title>07 · CROSS-GENRE SCI-FI STORY · [Station 151] S1E3: Buzz</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:1502deec7621ec56760dfb9ea05f89e6effae8f0371c9c1d4e6fee78759bee56</guid>
+      <link>https://www.station151.com/season-one/s1e3-buzz/</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: A remote station, its equipment and the personal consequences of isolation.. Original publisher date: Tue, 13 Dec 2022 09:00:00 -0000. Original notes: After a rude awakening from Wilkins, astrophysicist Wayne Robertson learns that a “companion” has been assigned to him for the duration of his stay at Station 151. Wayne also makes a startling discovery outside while surveying the radio telescope array that has him running for cover. Content warning: profanity Headphones highly recommended Support the show If you&apos;re enjoying the Station 151 scienc Original source release date: Tue, 13 Dec 2022 09:00:00 -0000. Source release date: Sat, 17 Oct 2026 16:37:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:13:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/SBP4611255935.mp3?key=eeb4215ae3ac511a80e32f16a74ef88e&amp;request_event_id=8b0a87c6-6a90-41dd-8664-e95810045297&amp;session_id=8b0a87c6-6a90-41dd-8664-e95810045297&amp;timetoken=1792356842_27A37F7E1028AF90746DD0436B4B1DDB" length="68757812" type="audio/mpeg" />
+      <itunes:duration>1610</itunes:duration>
+    </item>
+    <item>
+      <title>08 · CROSS-GENRE SCI-FI STORY · [Among the Stars and Bones] S1E3 - &quot;The Arecibo Message&quot;</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:85e99f5f272fc08efe469f664e1895a18404362095a7c00041bbcf66cd1b128f</guid>
+      <link>https://pinecast.com/feed/among-the-stars-and-bones</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Field archaeologists examining an ancient site and the evidence left by vanished inhabitants.. Original publisher date: Wed, 01 May 2019 10:00:58 -0000. Original notes: SYNOPSIS Adrienne and Gordon are concerned about glitches with Herodotus tech. Ben and Harry try to unlock and translate alien recordings. And Kathy and Celia investigate the story behind the lone Proximan skeleton found in the control room with the cube. CONTENT WARNINGS: Violence/Death - Discussion of mass death by suf Original source release date: Wed, 01 May 2019 10:00:58 -0000. Source release date: Sat, 17 Oct 2026 16:35:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:12:00 +0000</pubDate>
+      <enclosure url="https://pinecast.com/listen/d25ace9a-6bce-4026-a661-05823020757c.mp3?source=rss&amp;ext=asset.mp3" length="69709466" type="audio/mpeg" />
+      <itunes:duration>00:36:18</itunes:duration>
+    </item>
+    <item>
+      <title>09 · CROSS-GENRE SCI-FI STORY · [DERELICT — FATHOM] Season 1 - FATHOM - E3 - Wolves</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:03452246a9c2f7ad2a7e5bbeb7027ae478d6e63b90138733dbb5d9d212239203</guid>
+      <link>https://feeds.megaphone.fm/SBP4341397353</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Secret archaeological laboratory built around an ancient alien artifact; ethical conflicts, structural failures and environmental systems.. Original publisher date: Wed, 21 Jul 2021 16:00:00 -0000. Original notes: DERELICT Premium: https://derelict.supercast.com Dr. Eva Graff finds herself in her most precarious situation yet: trapped in the rubble of the collapsed western Control capsule, lost and alone, her odds of survival decreasing rapidly. More than that, the death of Joe Freeman has taken a great toll, a trauma similar to one she has already suffered...and it may have broken her, leaving her ill equi Original source release date: Wed, 21 Jul 2021 16:00:00 -0000. Source release date: Sat, 17 Oct 2026 16:33:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:11:00 +0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP6006750445.mp3?key=084fbee30527f9233f3b49e10b099d28&amp;request_event_id=8353a458-a5cf-426d-9713-67864f10e2cf&amp;session_id=8353a458-a5cf-426d-9713-67864f10e2cf&amp;timetoken=1792356844_B72EDDF28C5DE44F279D4889A521080E" length="94855205" type="audio/mpeg" />
+      <itunes:duration>3700</itunes:duration>
+    </item>
+    <item>
+      <title>10 · CROSS-GENRE SCI-FI STORY · [DERELICT — FATHOM] Season 1 - FATHOM - E4 - Pain</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:5b164d0fee2f9a8a83143a8bb09170c2424e5704a2e6911e8d2dc564308cda34</guid>
+      <link>https://feeds.megaphone.fm/SBP4341397353</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Secret archaeological laboratory built around an ancient alien artifact; ethical conflicts, structural failures and environmental systems.. Original publisher date: Tue, 07 Sep 2021 03:00:00 -0000. Original notes: DERELICT Premium: https://derelict.supercast.com Dr. Eva Graff and Brynn Emerson have barely survived their ordeal on the Vault when an even more dire complication rears its head. In order to save what&apos;s left of Fathom base, the two women must work together to stop a dark event from occurring on the abandoned Southern platform...but the events of the past day, including the reveal of Mack&apos;s true a Original source release date: Tue, 07 Sep 2021 03:00:00 -0000. Source release date: Sat, 17 Oct 2026 16:31:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:10:00 +0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP2200264607.mp3?key=79be126bc2f98d1bf337302abee85557&amp;request_event_id=a8f26065-fe99-4adf-be9d-314e2ff1b40b&amp;session_id=a8f26065-fe99-4adf-be9d-314e2ff1b40b&amp;timetoken=1792356845_1BA4397FE2146E5567C19AE2871B61A3" length="93823178" type="audio/mpeg" />
+      <itunes:duration>3703</itunes:duration>
+    </item>
+    <item>
+      <title>11 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode One: Family</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:50f17e0337b46fa903441ba505557ccfdfb852c77b4cf9fe7e4cd2bf6d89517d</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 05 Apr 2022 10:00:00 +0000. Original notes: Episode Synopsis: All Laresa Daklan ever wanted to be was a great Jedi. But, the Great Galactic War changed everything for her, and her family. Community: Find more Tales Shows at: https://talesoftheforgotten.com/ | Join our community of Tales Fans, Voice Actors, and the show crea Original source release date: Tue, 05 Apr 2022 10:00:00 +0000. Source release date: Sat, 17 Oct 2026 16:29:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:09:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/6a238657-7953-4865-9ca7-a277de039ac8/stream.mp3" length="26309694" type="audio/mpeg" />
+      <itunes:duration>1644</itunes:duration>
+    </item>
+    <item>
+      <title>12 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Two: The Fall</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:b663aa50003586d8c99eb2668dc20f13f667c986c9833555686b48863681cd03</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 12 Apr 2022 10:00:00 +0000. Original notes: Episode Synopsis: A tragic mistake drives a wedge in the Daklan family and sends Laresa on a quest to get answers. Content Warnings : The following episode contains adult content and violence. Listener discretion is advised. Community: Find more Tales Shows at: &lt;a href=&quot;https://talesoftheforgotten.com/&quot; rel=&quot;nof Original source release date: Tue, 12 Apr 2022 10:00:00 +0000. Source release date: Sat, 17 Oct 2026 16:27:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:08:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/4c9963db-e706-4b03-a9b6-559dd6b6fbc6/stream.mp3" length="26005002" type="audio/mpeg" />
+      <itunes:duration>1625</itunes:duration>
+    </item>
+    <item>
+      <title>13 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Three: The Betrayal</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:938615bb4baec529e512b7cbfd81d97e6842e56ee17484d17b8020f5b2922ca5</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 19 Apr 2022 09:16:36 +0000. Original notes: Episode Synopsis: Turned to the Darkside, Laresa returns to her family and experiences a painful lesson in betrayal. Content Warnings : The following episode contains adult content, violence and sex. Listener discretion is advised. Community: Find more Tales Shows at: &lt;a href=&quot;https://talesoftheforgotten.com/&quot; r Original source release date: Tue, 19 Apr 2022 09:16:36 +0000. Source release date: Sat, 17 Oct 2026 16:25:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:07:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/b48c4e23-5e6c-4177-a74c-d2e423671377/stream.mp3" length="25949831" type="audio/mpeg" />
+      <itunes:duration>1621</itunes:duration>
+    </item>
+    <item>
+      <title>14 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Four: Family is Complicated</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:2231ac76c6bafc2b72f2f2593ebb8a9afdfddcea469098b6b22e50297159b51e</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 26 Apr 2022 08:08:53 +0000. Original notes: Episode Synopsis: Xerrin discovers Laresa is a sith while Laresa must risk disobeying the Emperor to keep Xerrin safe. Content Warnings : The following episode contains adult content, violence and sex. Listener discretion is advised. Community: Find more Tales Shows at: &lt;a href=&quot;https://talesoftheforgotten.com/&quot; Original source release date: Tue, 26 Apr 2022 08:08:53 +0000. Source release date: Sat, 17 Oct 2026 16:23:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:06:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/73796f95-925a-42a1-ab6c-d6a1a3ab5ab6/stream.mp3" length="26180127" type="audio/mpeg" />
+      <itunes:duration>1636</itunes:duration>
+    </item>
+    <item>
+      <title>15 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Five: Advice and Good-byes</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:14f66e3a58ace5b5d5ab0d2c61aec3037301d14fd580f30ebfa1e4b8616e5d53</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 03 May 2022 10:00:00 +0000. Original notes: Episode Synopsis: Laresa and Xerrin make painful goodbyes to men they love. Lancoro visits his mother for some... parental advice unaware he is being watched... Community: Find more Tales Shows at: https://talesoftheforgotten.com/ | Join our community of Tales Fans, Voice Actors, Original source release date: Tue, 03 May 2022 10:00:00 +0000. Source release date: Sat, 17 Oct 2026 16:21:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:05:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/05a9164d-7a88-4768-9f3d-e353af1f7c5d/stream.mp3" length="31281319" type="audio/mpeg" />
+      <itunes:duration>1955</itunes:duration>
+    </item>
+    <item>
+      <title>16 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Six: Gang Breakup</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:ed2751a685e86b186d389f1cdb850643539d0b41de0021011047d616b2daed36</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 10 May 2022 10:00:00 +0000. Original notes: Episode Synopsis: Lancoro and Veltana break up a White Paw Gang Meeting. Afterwards Lancoro is accosted by Mekethia, who has sworn revenge on Laresa and her children. Content Warnings : The following episode contains adult content and violence. Listener discretion is advised. Community: Find more Tales Shows at: Original source release date: Tue, 10 May 2022 10:00:00 +0000. Source release date: Sat, 17 Oct 2026 16:19:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:04:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/9108738f-7f0f-4c3e-9aed-462b34570027/stream.mp3" length="26210220" type="audio/mpeg" />
+      <itunes:duration>1638</itunes:duration>
+    </item>
+    <item>
+      <title>17 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Seven: Sibling Rivlary</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:5733e49cf92d8d19a47f2403873e8c683f38e85f1dd7f40c3d3a0db4bdc74778</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 17 May 2022 10:00:00 +0000. Original notes: Episode Synopsis: Reide must fight her own sister to rescue her nephew. Meanwhile Lancoro and Veltana make a discovery. Content Warnings : The following episode contains adult content and violence. Listener discretion is advised. Community: Find more Tales Shows at: &lt;a href=&quot;https://talesoftheforgotten.com/&quot; rel Original source release date: Tue, 17 May 2022 10:00:00 +0000. Source release date: Sat, 17 Oct 2026 16:17:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:03:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/b48a3c69-a85a-41ba-8d29-96a2c9b2f1b5/stream.mp3" length="24484466" type="audio/mpeg" />
+      <itunes:duration>1530</itunes:duration>
+    </item>
+    <item>
+      <title>18 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Eight: The Lightside isn&apos;t so Light</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:04fbddc950f87a27d141c2799380d09db9b12188a1e5c59220f42af76447d2fd</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 24 May 2022 09:00:00 +0000. Original notes: Episode Synopsis: Xerrin confronts Elijah about his loyalties. Mekethia tightens the net around Laresa&amp;#39;s children, and Lancoro takes a step closer to the dark side. Community: Find more Tales Shows at: https://talesoftheforgotten.com/ | Join our community of Tales Fans, Voice Original source release date: Tue, 24 May 2022 09:00:00 +0000. Source release date: Sat, 17 Oct 2026 16:15:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:02:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/112fc7ef-8088-4352-837a-c11c4fa1119f/stream.mp3" length="27254700" type="audio/mpeg" />
+      <itunes:duration>1703</itunes:duration>
+    </item>
+    <item>
+      <title>19 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Nine: Xerrin&apos;s Discovery</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:3bd5619a337b827e49e105b0a4faa3a91a08dad76323d012da8a18e2debcdd69</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 07 Jun 2022 09:00:00 +0000. Original notes: Episode Synopsis: Moves are made on all sides. Xerrin learns about Laresa&amp;#39;s family and Mekethia&amp;#39;s plan to hunt down Laresa&amp;#39;s children. Community: Find more Tales Shows at: https://talesoftheforgotten.com/ | Join our community of Tales Fans, Voice Actors, and the show c Original source release date: Tue, 07 Jun 2022 09:00:00 +0000. Source release date: Sat, 17 Oct 2026 16:13:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:01:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/40acd7a3-4910-4654-83ea-2900814a3aae/stream.mp3" length="25177443" type="audio/mpeg" />
+      <itunes:duration>1573</itunes:duration>
+    </item>
+    <item>
+      <title>20 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Ten: A Daring Rescue</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:384718726279ee239d3ccdadb23287d6f1e5a652927c5a4e17b2738821ce6b96</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 14 Jun 2022 09:00:00 +0000. Original notes: Episode Synopsis: Reide must fight one of her sisters to try and rescue Veltana. Mekethia and Xerrin disagree on how to handle Laresa. Community: Find more Tales Shows at: https://talesoftheforgotten.com/ | Join our community of Tales Fans, Voice Actors, and the show creators at : Original source release date: Tue, 14 Jun 2022 09:00:00 +0000. Source release date: Sat, 17 Oct 2026 16:11:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 16:00:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/f1128b34-d0e8-4ebc-af43-b3e60a964fbd/stream.mp3" length="24920398" type="audio/mpeg" />
+      <itunes:duration>1557</itunes:duration>
+    </item>
+    <item>
+      <title>01 · CROSS-GENRE DRAMA · [Archive 81] 01 - A Body In A New Place</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:72da588cb78025733d62f8777cea6325bd1ab0b0f1d5fd5dea63ee0581da80bc</guid>
+      <link>https://archive81.libsyn.com/episode-1-a-body-in-a-new-place</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. Occult recordings, hidden dimensions, investigative evidence and institutional secrets. Not Star Wars canon. Original release: Wed, 06 Apr 2016 04:01:25 +0000. Publisher synopsis: The enigmatic Mr. Davenport leads a tour of Archive 81. Melody fails to interview a member of a historical society. And Dan is unable to prevent the destruction of a tape. Please consider rating and reviewing this show on iTunes. Twitter: https://twitter.com/Archive81 Facebook: https://www.facebook.com/Archive81 Website: archive81.com Email: arc Original source release date: Wed, 06 Apr 2016 04:01:25 +0000. Source release date: Sat, 17 Oct 2026 16:09:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:59:00 +0000</pubDate>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/archive81/257554324-archive81-episode-1-a-body-in-a-new-place.mp3?dest-id=733937" length="24970876" type="audio/mpeg" />
+      <itunes:duration>16:46</itunes:duration>
+    </item>
+    <item>
+      <title>02 · CROSS-GENRE ACTUAL_PLAY · [Pretending to be People] S1E1 - Blunt Force Trauma</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:34eec521c8034a03290d815a5b09f798a1411c15d9c1d864089a2dc807224cb3</guid>
+      <link>https://pinecast.com/guid/5a59133a-050b-4d37-b564-4aadcdf931b3</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. Mystery-first play with unreliable clues, grounded characters and mounting supernatural dread. Not Star Wars canon. Original release: Mon, 19 Nov 2018 05:40:04 +0000. Publisher synopsis: Pants are worn. Birthdays are forgotten. Faces are smashed. Support the show on Patreon . Follow along on Instagram , Twitter , and Original source release date: Mon, 19 Nov 2018 05:40:04 +0000. Source release date: Sat, 17 Oct 2026 16:08:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:58:00 +0000</pubDate>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/a078e01c-caf9-4d42-8a8d-11a15d12fce5/91e991e014bad25320bd2b7076e74ee6.mp3?dest-id=4987575" length="33791006" type="audio/mpeg" />
+      <itunes:duration>01:10:24</itunes:duration>
+    </item>
+    <item>
+      <title>03 · CROSS-GENRE DRAMA · [The Silt Verses] Chapter 1: Let Me Speak First Of Revelations</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:d95a5c403b309beabe38019714f1e7da92df8459ea34a0fdca96c3dc4348aab7</guid>
+      <link>https://www.thesiltverses.com/</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. Forbidden religions, devotion, doctrinal conflicts and disturbing ritual costs. Not Star Wars canon. Original release: Mon, 04 Jan 2021 08:54:37 GMT. Publisher synopsis: At the town of Marcel&apos;s Crossing, Carpenter and Faulkner begin their search for other members of their forgotten river-god faith. (Sound levels adjusted 3rd July 2022.) Hosted on Acast. See Original source release date: Mon, 04 Jan 2021 08:54:37 GMT. Source release date: Sat, 17 Oct 2026 16:07:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:57:00 +0000</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/5fec690f8211cf453a1b89e2/e/5fec6de02c11c711a01d7562/media.mp3" length="132511006" type="audio/mpeg" />
+      <itunes:duration>55:12</itunes:duration>
+    </item>
+    <item>
+      <title>04 · CROSS-GENRE ACTUAL_PLAY · [Mystery Quest] 13 Omens #1</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:e0afd9d1e6e03ac2f05b123a0bce0ea8b90336ba4dfcc7b3066cda9d25837eb7</guid>
+      <link>https://feeds.megaphone.fm/NSR3713660967</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. Inheritance, old obligations, family secrets and investigation of a ritual curse. Not Star Wars canon. Original release: Fri, 11 Sep 2026 16:00:00 -0000. Publisher synopsis: Welcome to Mystery Quest where we are playing 13 Omens by Paizo and the scenario, Bequeathed. After the sudden death of a wealthy vineyard owner, his heirs travel to Salazar Vineyards to attend the will reading of their late father. With bitter rivalries and bad blood could a terrible family secret tear this family apart... Join: https://www.youtu Original source release date: Fri, 11 Sep 2026 16:00:00 -0000. Source release date: Sat, 17 Oct 2026 16:06:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:56:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/NSR1885090879.mp3?key=9c4283af74a908b6c533161e9cd7f61b&amp;request_event_id=05bb8829-f2ee-45a6-ae59-2acbf6bdabb1&amp;session_id=05bb8829-f2ee-45a6-ae59-2acbf6bdabb1&amp;timetoken=1792356803_7DDCA43AD129BEB43BE2FAA0E9C04D81" length="217115236" type="audio/mpeg" />
+      <itunes:duration>5562</itunes:duration>
+    </item>
+    <item>
+      <title>05 · CROSS-GENRE DRAMA · [Old Gods of Appalachia] Episode 108: The Offering</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:698a191d8d98419ebfad778ee12384f031ffbc4e86208c44557bb04cd5388190</guid>
+      <link>https://www.oldgodsofappalachia.com/episodes/2026-09-24/episode-108_the-offering/202609232014504287</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. Ancient buried powers, corrupting bargains and communities living around forbidden places. Not Star Wars canon. Original release: Thu, 24 Sep 2026 09:00:00 GMT. Publisher synopsis: Summer brings rain of various kinds to Lonely Creek. CW: Still more blood (this is Lavinia’s story — did you expect anything less?). Falls from various types of heights, broken bones, more eyeball injury, knife wounds, interpersonal conflict, domestic abuse, mention of the deaths of parents and wild animal mutilations (not describ Original source release date: Thu, 24 Sep 2026 09:00:00 GMT. Source release date: Sat, 17 Oct 2026 16:05:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:55:00 +0000</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/acast/s/old-gods-of-appalachia/e/6ab43660c974afb154ccdbe9/media.mp3" length="67122454" type="audio/mpeg" />
+      <itunes:duration>33:58</itunes:duration>
+    </item>
+    <item>
+      <title>06 · CROSS-GENRE ACTUAL_PLAY · [The Old Ways Podcast] The Old Ways Podcast - Shards of San Francisco - Episode One</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:bf2ab8630b11e2ab20a17b6083ecf10b550030121e01a261c4d6f25a4484d414</guid>
+      <link>https://5wspodcast.libsyn.com/the-old-ways-podcast-shards-of-san-francisco-episode-one</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. Character-led Gothic investigation and the personal price of ancient supernatural power. Not Star Wars canon. Original release: Fri, 13 Jan 2023 11:00:00 +0000. Publisher synopsis: Several months since have passed since the night of the Blood Moon and members of the San Francisco coterie are brought back together as the winter breeze brings new changes to their nights. Find us and our merch Follow us on Twitter Join our Discord Community Original source release date: Fri, 13 Jan 2023 11:00:00 +0000. Source release date: Sat, 17 Oct 2026 16:04:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:54:00 +0000</pubDate>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/traffic.libsyn.com/secure/5wspodcast/VTM_S2_EP_1.mp3?dest-id=890846" length="83814190" type="audio/mpeg" />
+      <itunes:duration>01:27:19</itunes:duration>
+    </item>
+    <item>
+      <title>07 · CROSS-GENRE DRAMA · [The Lovecraft Investigations] The Case of Charles Dexter Ward: Episode 1</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:c92d454e4a9c684f6fa74905077d78069bb27a8adbdfc2273ecc7736c53b9034</guid>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. Documentary-style mystery, hidden cult histories and clues that change their meaning. Not Star Wars canon. Original release: Fri, 10 Apr 2026 15:02:00 +0000. Publisher synopsis: From H.P. Lovecraft: An investigation into the disappearance of a young man from a locked room in an asylum. Cast includes Barnaby Kay, Jana Carpenter, Alun Armstrong, Adam Godley, Nicola Walker, Steven Mackintosh, Mark Bazeley, Samuel Barnett, Richard Cordery, Harry Kay, Penny Downie, Madeleine Potter, Phoebe Fox, Ben Crowe, Nathan Osgood Original source release date: Fri, 10 Apr 2026 15:02:00 +0000. Source release date: Sat, 17 Oct 2026 16:03:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:53:00 +0000</pubDate>
+      <enclosure url="https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0ncq256.mp3" length="22362553" type="audio/mpeg" />
+      <itunes:duration>1390</itunes:duration>
+    </item>
+    <item>
+      <title>08 · CROSS-GENRE ACTUAL_PLAY · [The Apocalypse Players] Machine Tractor Station Kharkov-37 01: ‘The Rabbit’ | Call of Cthulhu Actual Play</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:b27fff63d8f0577749bf7c7ae2e90ca798714be6909dbc6413c919824683d38c</guid>
+      <link>https://www.apocalypseplayers.com/e/machine-tractor-station-kharkov-37-ep-01-the-rabbit/</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. An isolated investigation where an authority&apos;s orders conceal dangerous occult machinery. Not Star Wars canon. Original release: Mon, 08 Nov 2021 23:00:00 +0000. Publisher synopsis: In which the Red Army are tasked with assisting the Telegraph Service of the Soviet Union in the investigation and repair of damaged lines at MTSKh-37. A Call of Cthulhu Scenario by Bret Kramer, set in Stalinist Russia. Episodes released weekly. Visit &lt;a href=&apos;http://www.patreon.co Original source release date: Mon, 08 Nov 2021 23:00:00 +0000. Source release date: Sat, 17 Oct 2026 16:02:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:52:00 +0000</pubDate>
+      <enclosure url="https://mcdn.podbean.com/mf/web/sm7aqk/MTSK37_ep1_Nov_7_STEREO68ty1.mp3" length="116046993" type="audio/mpeg" />
+      <itunes:duration>4835</itunes:duration>
+    </item>
+    <item>
+      <title>09 · CROSS-GENRE DRAMA · [The Black Tapes] Episode 101 - A Tale of Two Tapes Part I</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:521142d92f9a09a0c7b354235b52f34ef0a5def8e71f5d8491151e4475b29427</guid>
+      <link>https://theblacktapes.libsyn.com/episode-101-a-tale-of-two-tapes-part-i</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. A skeptical investigator uncovers disputed paranormal evidence and an escalating conspiracy. Not Star Wars canon. Original release: Thu, 21 May 2015 21:33:21 +0000. Publisher synopsis: Our host, Alex Reagan, enters the strange world of paranormal investigation and encounters the enigmatic Dr. Richard Strand: a ghost hunter who doesn Original source release date: Thu, 21 May 2015 21:33:21 +0000. Source release date: Sat, 17 Oct 2026 16:01:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:51:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/theblacktapes/THE_BLACK_TAPES_PODCAST_EPISODE_101_-_A_Tale_of_Two_Tapes_Part_I.mp3?dest-id=276638" length="49208818" type="audio/mpeg" />
+      <itunes:duration>40:28</itunes:duration>
+    </item>
+    <item>
+      <title>10 · CROSS-GENRE ACTUAL_PLAY · [The Glass Cannon Podcast] Pisco Sour | Time For Chaos S1 E2 | Call of Cthulhu Masks of Nyarlathotep</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:bd719714dbc6f5677652a40075ffd5ca238402e0becd02342d97e3e17c0d9c74</guid>
+      <link>https://feeds.megaphone.fm/QCD8414694967</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. Character-driven investigation during an expedition into a dangerous ancient conspiracy; opening in-character play rather than character creation. Not Star Wars canon. Original release: Tue, 13 May 2025 04:00:00 -0000. Publisher synopsis: The investigators head to Peru to join a mysterious expedition. Watch the video here: ⁠https://youtu.be/K42DPqLsOXg For a limited time, use code &quot;TFC&quot; to save 15% on Cthulhu products at ⁠chaosium.com⁠. Access exclusive podcasts, ad-free episodes, and livestreams with a 30-day free trial with code &quot;GCN30&quot; at ⁠⁠⁠jointhenaish.com⁠⁠⁠. Join Original source release date: Tue, 13 May 2025 04:00:00 -0000. Source release date: Sat, 17 Oct 2026 16:00:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:50:00 +0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP9728638374.mp3?key=7acc57001cb06714a6a2a491291e6efb&amp;request_event_id=13217600-7baf-4fa7-928b-d98ba33f025f&amp;session_id=13217600-7baf-4fa7-928b-d98ba33f025f&amp;timetoken=1792356813_B17FF675244A372E4CA913E393A40FB4" length="72721135" type="audio/mpeg" />
+      <itunes:duration>8927</itunes:duration>
+    </item>
+    <item>
+      <title>11 · CROSS-GENRE DRAMA · [Janus Descending] EPISODE 1: Entry 1</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:ea7162a8bc7d33ccc4cd610599de50f579311ee865f48b7a0dcf55f5d92a0120</guid>
+      <link>https://janusdescending.libsyn.com/entry-1</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. Two xenoarchaeologists explore a lost civilization on a hostile world; strong expedition continuity. Not Star Wars canon. Original release: Wed, 31 Oct 2018 04:00:00 +0000. Publisher synopsis: Remastered: Chel, alone. An approach. A beginning... In this episode of Janus Descending ... Chel - Jordan Cobb Sound Editor - Julia Schifini Composition - Daryl Banner Monster Maker - Karyn Keene Also featuring the voice talents of Anthony Olivieri, Zach Libresco, Julia Original source release date: Wed, 31 Oct 2018 04:00:00 +0000. Source release date: Sat, 17 Oct 2026 15:59:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:49:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/janusdescending/Entry_1_-_Remaster.mp3?dest-id=799640" length="20318227" type="audio/mpeg" />
+      <itunes:duration>15:01</itunes:duration>
+    </item>
+    <item>
+      <title>12 · CROSS-GENRE ACTUAL_PLAY · [RPPR Actual Play] Mothership: The Oblivion Broadcast</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:07ffb0535c9ace066128402513f57dd22da6cc4ddd31b194cd42847215fe6d5c</guid>
+      <link>https://actualplay.roleplayingpublicradio.com/2026/05/genre/horror/mothership-the-oblivion-broadcast/</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. A team visits a remote asteroid relay after a mysterious death; environmental systems and clues. Not Star Wars canon. Original release: Thu, 14 May 2026 17:00:58 +0000. Publisher synopsis: Jackson Gemini, the pilot of a small survey ship, died under mysterious circumstances while at Broadcast Station 65X, a remote facility built on an asteroid in an uninhabited star system. The station is an important link in outer rim communications infrastructure, so it must remain operable at all times. A team is sent in to answer the distress cal Original source release date: Thu, 14 May 2026 17:00:58 +0000. Source release date: Sat, 17 Oct 2026 15:58:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:48:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/rpg_actual_play/actualplay.roleplayingpublicradio.com/podcasts/RPPR-Mothership-Oblivion-Broadcast.mp3" length="84381128" type="audio/mpeg" />
+      <itunes:duration>2:46:58</itunes:duration>
+    </item>
+    <item>
+      <title>13 · CROSS-GENRE DRAMA · [The Deca Tapes] 1: The Cleaner</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:2057c51ae36af353e2b9f0a1fcc3023b901237e645c10b570caa2a9b9f799527</guid>
+      <link>https://feeds.megaphone.fm/SBP7220818085</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. A controlled enclosed habitat with identity, surveillance and unexplained experiments. Not Star Wars canon. Original release: Mon, 11 Mar 2019 03:00:00 -0000. Publisher synopsis: Get Lex Noteboom&apos;s novel: ⁠https://fanlink.tv/TMWATF⁠ Get access to all DECA without ads: https://patreon.com/lexnbm CREDITS The Deca Tapes is created by Lex Noteboom: https://www.lexnoteboom.com/ Artwork by Lex Noteboom &amp; The Furrow &amp; Jurriaan Verdoold Mastering by Audio Brothers NL The Cleaner is voiced by Nick Messina The High School Original source release date: Mon, 11 Mar 2019 03:00:00 -0000. Source release date: Sat, 17 Oct 2026 15:57:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:47:00 +0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP9273307737.mp3?key=ae47b7b8e3a460e75e5b8f87b7db73ca&amp;request_event_id=965d66be-4fa2-4038-861c-1908acc1f3ba&amp;session_id=965d66be-4fa2-4038-861c-1908acc1f3ba&amp;timetoken=1792356818_F7B9F1E6CE87691C7DEC3FFA60FCBB47" length="35411809" type="audio/mpeg" />
+      <itunes:duration>2143</itunes:duration>
+    </item>
+    <item>
+      <title>14 · CROSS-GENRE ACTUAL_PLAY · [No Quest for the Wicked] FRONTIERS -  Prologue: The Space Before</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:73898a2a36f998e82e0519f37b85ebf0f88622a950b3cd67311702b46f33864e</guid>
+      <link>https://noquestcast.podbean.com/e/frontiers-the-space-before-prologue/</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. A science-fiction crew evaluates a catastrophic dimensional anomaly and its consequences. Not Star Wars canon. Original release: Wed, 23 Apr 2025 18:00:00 -0000. Publisher synopsis: A catastrophic Dimensional Event in a distant universe calls Extract Team 6 into action. Neo-Plasm, Bexley and Voyage are tasked with observing and averting the apocalyptic anomaly. Another end to another world awaits ET6 as they dive head first into danger and disaster. Special Guests: Candace the Magnificent Jeremy Cobb (3 Black Halflings) Liv Original source release date: Wed, 23 Apr 2025 18:00:00 -0000. Source release date: Sat, 17 Oct 2026 15:56:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:46:00 +0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/NSR5016040794.mp3?key=55308af2c2f6cbb3bbea455b67c526f5&amp;request_event_id=771b4f4e-f223-4945-9767-d7cb84965d1f&amp;session_id=771b4f4e-f223-4945-9767-d7cb84965d1f&amp;timetoken=1792356820_DB17DC8A801D29237B62578D7F12D37E" length="213063002" type="audio/mpeg" />
+      <itunes:duration>5422</itunes:duration>
+    </item>
+    <item>
+      <title>15 · CROSS-GENRE DRAMA · [SAYER] SAYER – Episode 85 – Magically Efficient</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:00250cda9a11397d8ec5d9c376e9e91ec3a1e44dcb28b575bbf72bf21659aeda</guid>
+      <link>https://iamsayer.com/sayer-episode-85-magically-efficient/</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. A highly controlled artificial moon, corporate AI, human subjects and ominous facility messaging. Not Star Wars canon. Original release: Sat, 12 Aug 2023 05:03:57 +0000. Publisher synopsis: Now that all of your questions about your brutal demise have been answered or ignored, I can tell you just how bad things have been for me personally. SAYER is voiced, written, and produced by Adam Bash. Intro and outro music composed by&amp;#160;Jesse &amp;#8220;Main Finger&amp;#8221; Gregory. This episode also features the following music: Cold War... Original source release date: Sat, 12 Aug 2023 05:03:57 +0000. Source release date: Sat, 17 Oct 2026 15:55:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:45:00 +0000</pubDate>
+      <enclosure url="https://www.iamsayer.com/sayer/SAYER-85-Efficient.mp3" length="35493592" type="audio/mpeg" />
+      <itunes:duration>17:55</itunes:duration>
+    </item>
+    <item>
+      <title>16 · CROSS-GENRE ACTUAL_PLAY · [Cosmic Crit: A Starfinder Actual Play Podcast] Guilt of the Grave World | 010: Orb Your Enthusiasm</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:80ed807f94233df42759de47d78dd93abea5203af4c073ba3e16f792a9b60153</guid>
+      <link>https://cosmiccrit.com/guilt-of-the-grave-world-010-orb-your-enthusiasm/</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. Exploration of a damaged Station Alpha arcane laboratory, with stranded people, strange experiments and negotiated threats. Not Star Wars canon. Original release: Mon, 20 Apr 2026 04:05:00 +0000. Publisher synopsis: The mystical secrets of Station Alpha begin to reveal themselves as the heroes of the Nova Rush investigate the Arcane Laboratory. Can they make peace with the outside entities that have seemed to take up residency here or will their orbs be cooked? Find out on another thrilling adventure of Cosmic Crit! Original source release date: Mon, 20 Apr 2026 04:05:00 +0000. Source release date: Sat, 17 Oct 2026 15:54:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:44:00 +0000</pubDate>
+      <enclosure url="https://cosmiccrit.com/podcast-download/3802/guilt-of-the-grave-world-010-orb-your-enthusiasm.mp3" length="77667503" type="audio/mpeg" />
+      <itunes:duration>0:00</itunes:duration>
+    </item>
+    <item>
+      <title>17 · CROSS-GENRE DRAMA · [Celeritas] S1E1 | Engine Test 2B</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:1c5c8886dbdc8ba386314ef8352f08d26337fc4592ae6a715e0afa303284ca78</guid>
+      <link>https://feeds.megaphone.fm/SBP2001311146</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. First-light experimental propulsion flight becomes survival science when testing goes wrong; opening fictional chapter, not creator commentary. Not Star Wars canon. Original release: Wed, 13 Oct 2021 15:00:00 -0000. Publisher synopsis: Owen fails to have a normal conversation with his daughter during a spacewalk. Then a routine engine test is anything but. Episode 1 of 12. Join the Celeritas Discord for bonus content, AMA&apos;s and in-depth community discussion. Discord link at https://celeritaspod.com/ Learn more about your ad choices. Visit megaphone.fm/adchoices Original source release date: Wed, 13 Oct 2021 15:00:00 -0000. Source release date: Sat, 17 Oct 2026 15:53:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:43:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/SBP7900470313.mp3?key=8fb939ef52bfcd83196f3056bcc57ba1&amp;request_event_id=b117bc38-e7f5-4b39-9c28-84efdc384913&amp;session_id=b117bc38-e7f5-4b39-9c28-84efdc384913&amp;timetoken=1792356825_0F06EE6F7DAC42BF0EEB371249C6EB22" length="20314885" type="audio/mpeg" />
+      <itunes:duration>816</itunes:duration>
+    </item>
+    <item>
+      <title>18 · CROSS-GENRE ACTUAL_PLAY · [House of Bob] Triple Agents Chapter 01 [Triangle Agency]</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:bf30460bbded4dd439f582ccc650624a9b8a2bbafff2aecc16686fc3af7dce53</guid>
+      <link>https://feeds.megaphone.fm/houseofbob</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. Team members respond to an anomalous corporate site where everyday procedures mask danger. Not Star Wars canon. Original release: Mon, 01 Dec 2025 08:00:00 -0000. Publisher synopsis: &quot;Hot girls gotta stay hydrated&quot; House of Bob embarks on a new adventure using the Triangle Agency system. In the sleepy town of Three Corners, USA, we meet our agents who receive a new mission to investigate a strange string of deaths in the community of Caddy Corner. Episode Artwork by Jake @Javoc.bsky.social House of Bob Cover Artwork by @Sh Original source release date: Mon, 01 Dec 2025 08:00:00 -0000. Source release date: Sat, 17 Oct 2026 15:52:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:42:00 +0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/FAFO1494708149.mp3?key=b57c56c94bf1e28448505ad54e93e3af&amp;request_event_id=8258be45-eb59-4dfa-b9f2-d955add8aaba&amp;session_id=8258be45-eb59-4dfa-b9f2-d955add8aaba&amp;timetoken=1792356827_DC84F51DB040E2CDE3B577B29C872C08" length="47326602" type="audio/mpeg" />
+      <itunes:duration>3054</itunes:duration>
+    </item>
+    <item>
+      <title>19 · CROSS-GENRE DRAMA · [Primordial Deep] One: Tiamat</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:2f4006c2724c7b7af2f96bcf4fa2e49f5ffee2b68e93545d30f52d1e93275cfa</guid>
+      <link>https://primordialdeep.libsyn.com/one-tiamat</link>
+      <description>NON-STAR-WARS CROSS-GENRE DRAMA. Research personnel confront revived prehistoric creatures and discoveries beneath a remote station. Not Star Wars canon. Original release: Sat, 31 Oct 2020 04:00:00 +0000. Publisher synopsis: When the body of a long extinct sea creature washes up on the shores of Coney Island, Dr. Marella Morgan must take her first steps beyond the bizarre... and into the blue... In this episode of Primordial Deep, Tiamat : Dr. Marella Morgan&lt;/e Original source release date: Sat, 31 Oct 2020 04:00:00 +0000. Source release date: Sat, 17 Oct 2026 15:51:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:41:00 +0000</pubDate>
+      <enclosure url="https://traffic.libsyn.com/secure/primordialdeep/Primordial_Deep_vfinal.mp3?dest-id=1496534" length="41648693" type="audio/mpeg" />
+      <itunes:duration>42:31</itunes:duration>
+    </item>
+    <item>
+      <title>20 · CROSS-GENRE ACTUAL_PLAY · [Ain&apos;t Slayed Nobody] Cosmic Dark Campaign 1 - Time Murder 1</title>
+      <guid isPermaLink="false">urn:sw-bonus-20:9c25d3c430da437b0d2ba77bad4fe6f15939709fa67d8c6425bbf166f9df4422</guid>
+      <link>https://shows.acast.com/aint-slayed-nobody/episodes/cosmic-dark-campaign-1-time-murder-1</link>
+      <description>NON-STAR-WARS CROSS-GENRE ACTUAL_PLAY. A corporation sends a team to a lifeless anomaly world; decisions balance survival and exploitation. Not Star Wars canon. Original release: Mon, 17 Mar 2025 14:55:09 GMT. Publisher synopsis: Three childhood friends are now working for a corporate resource conglomerate. They descend to a lifeless planet with one anomaly, a golden field of chiming orchids. Unsettling questions quickly arise. Graham is launching Cosmic Dark on Kickstarter soon. Sign up to be notified when it goes live! &lt;a href=&quot;https://www.kickstarter.com/pro Original source release date: Mon, 17 Mar 2025 14:55:09 GMT. Source release date: Sat, 17 Oct 2026 15:50:00 +0000.</description>
+      <pubDate>Sat, 17 Oct 2026 15:40:00 +0000</pubDate>
+      <enclosure url="https://sphinx.acast.com/p/open/s/632da7cf6d7ffa0012565ffa/e/67d837cdaf1d043055028736/media.mp3" length="211062791" type="audio/mpeg" />
+      <itunes:duration>1:49:55</itunes:duration>
+    </item>
+  </channel>
+</rss>
