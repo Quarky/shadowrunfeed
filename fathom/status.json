@@ -1,0 +1,60 @@
+{
+  "state": "published",
+  "source_feed": "https://feeds.megaphone.fm/SBP4341397353",
+  "feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fathom/feed.xml",
+  "episodes": 10,
+  "story_scope": "FATHOM season 1 only",
+  "built_at": "2026-10-18T21:22:33.217735+00:00",
+  "items": [
+    {
+      "number": 1,
+      "title": "Season 1 - FATHOM - E1 - In the Dark We See",
+      "guid": "Buzzsprout-8638228"
+    },
+    {
+      "number": 2,
+      "title": "Season 1 - FATHOM - E2 - Hard Right",
+      "guid": "Buzzsprout-8752038"
+    },
+    {
+      "number": 3,
+      "title": "Season 1 - FATHOM - E3 - Wolves",
+      "guid": "Buzzsprout-8900350"
+    },
+    {
+      "number": 4,
+      "title": "Season 1 - FATHOM - E4 - Pain",
+      "guid": "Buzzsprout-9150943"
+    },
+    {
+      "number": 5,
+      "title": "Season 1 - FATHOM - E5 - Seagulls",
+      "guid": "Buzzsprout-9593925"
+    },
+    {
+      "number": 6,
+      "title": "Season 1 - FATHOM - E6 - Don't Look Down",
+      "guid": "Buzzsprout-9780767"
+    },
+    {
+      "number": 7,
+      "title": "Season 1 - FATHOM - E7 - Into the Dark",
+      "guid": "Buzzsprout-10100851"
+    },
+    {
+      "number": 8,
+      "title": "Season 1 - FATHOM - E8 - Read 'Em and Weep",
+      "guid": "Buzzsprout-10635452"
+    },
+    {
+      "number": 9,
+      "title": "Season 1 - FATHOM - E9 - In the Silence We Listen",
+      "guid": "Buzzsprout-11018906"
+    },
+    {
+      "number": 10,
+      "title": "Season 1 - FATHOM - E10 - All Great Things",
+      "guid": "Buzzsprout-11552341"
+    }
+  ]
+}
