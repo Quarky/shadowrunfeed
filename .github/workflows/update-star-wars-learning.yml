@@ -10,6 +10,7 @@ on:
       - "star-wars/generate_learning.py"
       - "star-wars/generate_frontier_mix.py"
       - "star-wars/publish_original_subscription.py"
+      - "star-wars/build_staged_subscription.py"
       - "star-wars/expansion-catalog.json"
       - "star-wars/generate_expansion.py"
       - "star-wars/bonus-20-catalog.json"
@@ -46,7 +47,7 @@ jobs:
 
       - name: Verify Python builders
         run: |
-          python3 -m py_compile star-wars/generate_learning.py star-wars/generate_frontier_mix.py star-wars/generate_expansion.py star-wars/generate_bonus_mix.py star-wars/generate_story_interleave.py star-wars/publish_original_subscription.py star-wars/generate_feed.py
+          python3 -m py_compile star-wars/generate_learning.py star-wars/generate_frontier_mix.py star-wars/generate_expansion.py star-wars/generate_bonus_mix.py star-wars/generate_story_interleave.py star-wars/publish_original_subscription.py star-wars/build_staged_subscription.py star-wars/generate_feed.py
 
       - name: Protect all independent Star Wars feeds
         run: |
@@ -67,97 +68,46 @@ jobs:
       - name: Verify fiction chapters for pairing with the existing twenty actual plays
         run: python3 star-wars/generate_story_interleave.py
 
-      - name: Publish combined episodes to actual originally subscribed RSS path
+      - name: Build isolated 130 entry debug RSS only
         run: python3 star-wars/publish_original_subscription.py
 
-      - name: Validate full published subscriber feed, preserving earlier episode identities
+      - name: Build 140-entry deduplicated candidate while preserving 100 originals
+        run: python3 star-wars/build_staged_subscription.py
+
+      - name: Validate exact 100 original and separate 130 and 140 staging copies
         run: |
           sha256sum --check /tmp/untouched-star-wars-feeds.sha256
           python3 - <<'PY'
-          import json
+          import xml.etree.ElementTree as ET,json
           from pathlib import Path
-          import xml.etree.ElementTree as ET
-          from email.utils import parsedate_to_datetime
-          root=Path("star-wars")
-          load=lambda f: json.loads((root/f).read_text(encoding="utf-8"))
-          def rss(name,expected):
-              ch=ET.parse(root/name).getroot().find("channel")
-              assert ch is not None,name
-              items=ch.findall("item")
-              assert len(items)==expected,(name,len(items),expected)
-              for item in items:
-                  enc=item.find("enclosure")
-                  assert enc is not None and enc.get("url","").startswith("https://")
-                  assert int(enc.get("length","0"))>0
-              assert len({x.findtext("guid") for x in items})==len(items)
-              return items
-          base=load("learning-base-status.json")
-          ranked=load("learning-status.json")
-          special=load("frontier-mix-status.json")
-          assert base["state"]==ranked["state"]==special["state"]=="published"
-          assert special["count"]==20 and special["drama_count"]==5 and special["actual_play_count"]==5
-          ranked_items=rss("learning-feed-v2.xml",ranked["episodes"])
-          assert ranked["episodes"]>=60
-          assert len(rss("frontier-mix.xml",20))==20
-          assert len(rss("learning-base-v2.xml",base["episodes"]))==base["episodes"]
-          exp=load("expansion-status.json")
-          exp_rows=load("expansion-episodes.json")["episodes"]
-          assert exp["count"]==len(exp_rows)==20
-          assert exp["first_section"]==exp["second_section"]==10
-          assert [r["theme"] for r in exp_rows]==["remote-complex"]*10+["sith-ruins"]*10
-          exp_items=rss("expansion.xml",20)
-          bonus=load("bonus-20-status.json")
-          bonus_rows=load("bonus-20-episodes.json")["episodes"]
-          assert bonus["state"]=="published" and bonus["count"]==len(bonus_rows)==20
-          assert bonus["drama_count"]==bonus["actual_play_count"]==10
-          assert bonus["moraband_count"]==bonus["shard_moon_count"]==10
-          assert bonus["unique_productions"]==20
-          assert [r["theme"] for r in bonus_rows]==["moraband"]*10+["shard-moon"]*10
-          assert [r["kind"] for r in bonus_rows]==["DRAMA","ACTUAL_PLAY"]*10
-          assert len({r["show"] for r in bonus_rows})==20
-          bonus_items=rss("bonus-20.xml",20)
-          drama=load("story-interleave-status.json")
-          drama_rows=load("story-interleave-episodes.json")["episodes"]
-          assert drama["state"]=="published" and drama["fiction_episodes"]==20
-          assert drama["facility_fiction"]==drama["ancient_force_fiction"]==10
-          assert drama["fan_fiction_count"]==10
-          assert [r["theme"] for r in drama_rows]==["remote-complex"]*10+["sith-ruins"]*10
-          drama_items=rss("story-interleave.xml",20)
-          status=load("subscriber-status.json")
-          assert status["state"]=="published"
-          assert status["new_actual_plays"]==20 and status["new_fiction_episodes"]==20
-          assert status["new_interleaved_pairs"]==20 and status["community_star_wars_fiction"]==10
-          assert status["bonus_episodes"]==20
-          assert status["bonus_drama_count"]==status["bonus_actual_play_count"]==10
-          count=status["episode_count"]
-          assert count==status["previous_episode_count"]+60
-          assert count>=130
-          main=rss("feed-v2.xml",count)
-          alias=rss("feed.xml",count)
-          assert [x.findtext("guid") for x in main]==[x.findtext("guid") for x in alias]
-          assert [x.find("enclosure").get("url") for x in main[:20]]==[x.find("enclosure").get("url") for x in ranked_items[:20]]
-          paired=main[-60:-20]
-          assert len(paired)==40
-          assert [x.findtext("guid") for x in paired[::2]]==[x.findtext("guid") for x in drama_items]
-          assert [x.findtext("guid") for x in paired[1::2]]==[x.findtext("guid") for x in exp_items]
-          assert all("STORY" in (x.findtext("title") or "") or "DRAMA" in (x.findtext("title") or "") for x in paired[::2])
-          assert all("ACTUAL PLAY" in (x.findtext("title") or "") for x in paired[1::2])
-          assert [x.findtext("guid") for x in main[-20:]]==[x.findtext("guid") for x in bonus_items]
-          old=rss("sampler-v2.xml",status["legacy_original_count"])
-          assert {x.findtext("guid") for x in old}<={x.findtext("guid") for x in main}
-          assert status["original_subscriber_guids_preserved"]==len(old)
           from urllib.parse import urlsplit,unquote
-          def identity(url):
-              x=urlsplit(url)
-              return x.netloc.casefold().replace("dcs-cached.megaphone.fm","dcs-spotify.megaphone.fm")+unquote(x.path).replace("/secure/","/").casefold()
-          urls=[identity(x.find("enclosure").get("url")) for x in main]
-          assert len(set(urls))==len(urls),"A previously published audio recording was duplicated"
-          dates=[parsedate_to_datetime(x.findtext("pubDate")) for x in main]
-          assert dates==sorted(dates,reverse=True)
-          print("PASS: original subscription contains",count,"episodes, 20 fiction chapters interleaved with twenty original actual plays, separate bonus preserved, original GUIDs preserved")
+          p=Path("star-wars")
+          def items(name):
+              root=ET.parse(p/name).getroot()
+              assert root.tag=="rss",name
+              it=root.find("channel").findall("item")
+              assert len({x.findtext("guid") for x in it})==len(it),name
+              assert all(x.find("enclosure") is not None and x.find("enclosure").get("url","").startswith("https://") and int(x.find("enclosure").get("length","0"))>0 for x in it),name
+              return it
+          old,alias,debug,draft=(items(n) for n in ("feed-v2.xml","feed.xml","feed-130-debug.xml","feed-140-candidate.xml"))
+          assert (len(old),len(alias),len(debug),len(draft))==(100,100,130,140)
+          assert all(ET.tostring(x)==ET.tostring(y) for x,y in zip(old,alias))
+          assert all(ET.tostring(x)==ET.tostring(y) for x,y in zip(old,draft))
+          def audio(i):
+              u=urlsplit(i.find("enclosure").get("url"))
+              return u.netloc.casefold().replace("dcs-cached.megaphone.fm","dcs-spotify.megaphone.fm")+unquote(u.path).replace("/secure/","/").casefold()
+          assert len({audio(i) for i in draft})==140
+          assert {audio(i) for i in debug}<={audio(i) for i in draft}
+          prod=json.loads((p/"subscriber-status.json").read_text())
+          test=json.loads((p/"staging-130-status.json").read_text())
+          final=json.loads((p/"candidate-status.json").read_text())
+          assert prod["episode_count"]==100 and prod["state"]=="published"
+          assert test["episode_count"]==130 and test["state"]=="staging"
+          assert final["episode_count"]==140 and final["preserved_original_guids"]==100 and final["new_unique_audio"]==40 and final["release_approved"]==False
+          print("PASS: 100 frozen, 130 debug isolated, 140 unique candidate ready for import testing; NO production promotion")
           PY
 
-      - name: Commit all coherent generated Star Wars feeds without racing another updater
+      - name: Commit staging copies only; NEVER production
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -177,9 +127,10 @@ jobs:
             star-wars/frontier-mix-episodes.md
             star-wars/frontier-mix-episodes.json
             star-wars/frontier-mix-status.json
-            star-wars/feed-v2.xml
-            star-wars/feed.xml
-            star-wars/subscriber-status.json
+            star-wars/feed-130-debug.xml
+            star-wars/staging-130-status.json
+            star-wars/feed-140-candidate.xml
+            star-wars/candidate-status.json
             star-wars/expansion.xml
             star-wars/expansion-episodes.md
             star-wars/expansion-episodes.json
@@ -201,6 +152,7 @@ jobs:
             star-wars/generate_frontier_mix.py
             .github/workflows/update-star-wars-learning.yml
             star-wars/publish_original_subscription.py
+            star-wars/build_staged_subscription.py
             star-wars/expansion-catalog.json
             star-wars/generate_expansion.py
             star-wars/bonus-20-catalog.json
@@ -223,7 +175,7 @@ jobs:
               echo "Main ranked Star Wars RSS already up to date"
               exit 0
             fi
-            git commit -m "Publish auto-updated Star Wars ranked RSS with featured story opening"
+            git commit -m "Refresh isolated Star Wars 130/140 test RSS only"
             if git push origin HEAD:main; then
               echo "Published to existing Star Wars subscription on attempt $attempt"
               exit 0
@@ -233,36 +185,3 @@ jobs:
           echo "Could not safely publish within four reconciliation attempts" >&2
           exit 1
 
-      - name: Refresh originally subscribed RSS on every jsDelivr edge
-        if: success()
-        continue-on-error: true
-        run: |
-          set -euo pipefail
-          local_feed="star-wars/feed-v2.xml"
-          expected=$(grep -c '<item>' "$local_feed")
-          echo "Verified repository original subscription: $expected playable episodes"
-          for alias in feed-v2.xml feed.xml; do
-            url="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/$alias"
-            purge="https://purge.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/$alias"
-            reached=false
-            for attempt in 1 2 3 4 5 6; do
-              if curl --fail --silent --show-error --location --max-time 20 "$url" -o "/tmp/cdn-$alias"; then
-                count=$(grep -c '<item>' "/tmp/cdn-$alias" || true)
-              else
-                count=0
-              fi
-              echo "$alias check $attempt: $count of $expected episodes on CDN"
-              if [ "$count" -eq "$expected" ]; then
-                echo "PASS: $alias serves all $expected playable episodes"
-                reached=true
-                break
-              fi
-              # purge request is idempotent and does not change publisher audio
-              curl --fail --silent --show-error --location --max-time 25 "$purge" -o "/tmp/purge-$alias" || true
-              echo "Requested CDN invalidation $alias"
-              sleep 12
-            done
-            if [ "$reached" != true ]; then
-              echo "::warning::$alias currently stale. All $expected episodes are safely published on GitHub, but public CDN may still lag."
-            fi
-          done

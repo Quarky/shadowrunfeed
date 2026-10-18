@@ -1,0 +1,11 @@
+{
+  "state": "staging",
+  "episode_count": 140,
+  "preserved_original_guids": 100,
+  "original_subscriber_episodes": 100,
+  "new_unique_audio": 40,
+  "debug_source_episodes": 130,
+  "deduplicated_source_audio": 90,
+  "release_approved": false,
+  "candidate_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-140-candidate.xml"
+}

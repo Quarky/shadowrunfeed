@@ -200,9 +200,10 @@ def build():
                 desc.text=(desc.text or "")+f" Original source release date: {old_date}."
         legacy_channel.append(item)
     result={}
-    for filename in ("feed-v2.xml","feed.xml"):
+    for filename in ("feed-130-debug.xml",):
         root=copy.deepcopy(original_root)
         channel=root.find("channel")
+        channel.find("title").text="TEST COPY — Star Wars 130 episode unreconciled debug"
         atom=channel.find(f"{{{ATOM}}}link")
         if atom is None:atom=ET.SubElement(channel,f"{{{ATOM}}}link")
         atom.set("href",URLBASE+filename)
@@ -214,9 +215,9 @@ def build():
         ET.fromstring(payload)
         result[filename]=payload
     report={
-        "state":"published",
+        "state":"staging",
         "generated_at":datetime.now(timezone.utc).isoformat(),
-        "subscription_urls":[URLBASE+"feed-v2.xml",URLBASE+"feed.xml"],
+        "subscription_urls":[URLBASE+"feed-130-debug.xml"],
         "episode_count":len(combined),
         "special_prefix":20,
         "previous_episode_count":old_count,
@@ -242,10 +243,10 @@ def build():
         "ranked_source":"learning-feed-v2.xml",
         "warnings":[]
     }
-    result["subscriber-status.json"]=(json.dumps(report,indent=2,ensure_ascii=False)+"\n").encode("utf-8")
+    result["staging-130-status.json"]=(json.dumps(report,indent=2,ensure_ascii=False)+"\n").encode("utf-8")
     for filename,payload in result.items():
         atomic(HERE/filename,payload)
-    print("PASS: refreshed ORIGINAL Star Wars RSS",report)
+    print("PASS: staged 130-entry debug only; existing 100 untouched",report)
 
 if __name__=="__main__":
     build()

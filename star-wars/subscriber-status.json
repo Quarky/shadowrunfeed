@@ -1,43 +1,27 @@
 {
   "state": "published",
-  "generated_at": "2026-10-18T18:15:23.355272+00:00",
+  "generated_at": "2026-10-18T17:46:16.021761+00:00",
   "subscription_urls": [
     "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml",
     "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed.xml"
   ],
-  "episode_count": 130,
+  "episode_count": 100,
   "special_prefix": 20,
   "previous_episode_count": 70,
-  "new_actual_plays": 20,
-  "new_fiction_episodes": 20,
-  "new_interleaved_pairs": 20,
-  "community_star_wars_fiction": 10,
+  "new_actual_plays": 30,
   "new_groups": [
     {
-      "section": "remote-complex-interleaved-story-play",
+      "section": "remote-complex",
       "start": 71,
       "end": 90
     },
     {
-      "section": "ancient-sith-ruins-interleaved-story-play",
+      "section": "ancient-sith-ruins",
       "start": 91,
-      "end": 110
-    },
-    {
-      "section": "occult-mystery-bonus-story-play",
-      "start": 111,
-      "end": 120
-    },
-    {
-      "section": "remote-science-bonus-story-play",
-      "start": 121,
-      "end": 130
+      "end": 100
     }
   ],
-  "new_unique_productions": 41,
-  "bonus_episodes": 20,
-  "bonus_drama_count": 10,
-  "bonus_actual_play_count": 10,
+  "new_unique_productions": 16,
   "ranked_source_entries": 61,
   "legacy_original_count": 16,
   "original_subscriber_guids_preserved": 16,
