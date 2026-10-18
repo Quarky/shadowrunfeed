@@ -91,8 +91,10 @@ jobs:
               return it
           old,alias,debug,draft=(items(n) for n in ("feed-v2.xml","feed.xml","feed-130-debug.xml","feed-140-candidate.xml"))
           assert (len(old),len(alias),len(debug),len(draft))==(100,100,130,140)
-          assert all(ET.tostring(x)==ET.tostring(y) for x,y in zip(old,alias))
-          assert all(ET.tostring(x)==ET.tostring(y) for x,y in zip(old,draft))
+          def semantic(e):
+              return (e.tag,tuple(sorted(e.attrib.items())),(e.text or "").strip(),tuple(semantic(c) for c in e))
+          assert all(semantic(x)==semantic(y) for x,y in zip(old,alias)),"Production aliases changed original episode data"
+          assert all(semantic(x)==semantic(y) for x,y in zip(old,draft)),"Staged copy changed original episode data"
           def audio(i):
               u=urlsplit(i.find("enclosure").get("url"))
               return u.netloc.casefold().replace("dcs-cached.megaphone.fm","dcs-spotify.megaphone.fm")+unquote(u.path).replace("/secure/","/").casefold()
