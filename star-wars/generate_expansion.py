@@ -50,7 +50,7 @@ def choose_episode(row,rss,items):
         "character creation","interview","review","gm tips","table talk","retrospective"))]
     if row.get("series_ordinal"):
         def serial_sort(title):
-            parts=re.search(r"\\bpart\\s*(\\d+)(?:[.](\\d+))?",title.casefold())
+            parts=re.search("part\\s*([0-9]+)(?:[.]([0-9]+))?",title.casefold())
             return (int(parts.group(1)),int(parts.group(2) or 0)) if parts else (999,999)
         candidate.sort(key=lambda c:(serial_sort(c[1]),-c[0],len(c[1])))
         if len(candidate)<row["series_ordinal"]:
