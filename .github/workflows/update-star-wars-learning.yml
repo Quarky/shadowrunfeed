@@ -14,6 +14,8 @@ on:
       - "star-wars/generate_expansion.py"
       - "star-wars/bonus-20-catalog.json"
       - "star-wars/generate_bonus_mix.py"
+      - "star-wars/interleave-fiction-catalog.json"
+      - "star-wars/generate_story_interleave.py"
       - ".github/workflows/update-star-wars-learning.yml"
   schedule:
     - cron: "13 6 * * 1"
@@ -44,7 +46,7 @@ jobs:
 
       - name: Verify Python builders
         run: |
-          python3 -m py_compile star-wars/generate_learning.py star-wars/generate_frontier_mix.py star-wars/generate_expansion.py star-wars/generate_bonus_mix.py star-wars/publish_original_subscription.py star-wars/generate_feed.py
+          python3 -m py_compile star-wars/generate_learning.py star-wars/generate_frontier_mix.py star-wars/generate_expansion.py star-wars/generate_bonus_mix.py star-wars/generate_story_interleave.py star-wars/publish_original_subscription.py star-wars/generate_feed.py
 
       - name: Protect all independent Star Wars feeds
         run: |
@@ -61,6 +63,9 @@ jobs:
 
       - name: Verify twenty distinctive scripted drama and tabletop actual-play episodes
         run: python3 star-wars/generate_bonus_mix.py
+
+      - name: Verify fiction chapters for pairing with the existing twenty actual plays
+        run: python3 star-wars/generate_story_interleave.py
 
       - name: Publish combined episodes to actual originally subscribed RSS path
         run: python3 star-wars/publish_original_subscription.py
@@ -111,18 +116,32 @@ jobs:
           assert [r["kind"] for r in bonus_rows]==["DRAMA","ACTUAL_PLAY"]*10
           assert len({r["show"] for r in bonus_rows})==20
           bonus_items=rss("bonus-20.xml",20)
+          drama=load("story-interleave-status.json")
+          drama_rows=load("story-interleave-episodes.json")["episodes"]
+          assert drama["state"]=="published" and drama["fiction_episodes"]==20
+          assert drama["facility_fiction"]==drama["ancient_force_fiction"]==10
+          assert drama["fan_fiction_count"]==10
+          assert [r["theme"] for r in drama_rows]==["remote-complex"]*10+["sith-ruins"]*10
+          drama_items=rss("story-interleave.xml",20)
           status=load("subscriber-status.json")
           assert status["state"]=="published"
-          assert status["new_actual_plays"]==20 and status["bonus_episodes"]==20
+          assert status["new_actual_plays"]==20 and status["new_fiction_episodes"]==20
+          assert status["new_interleaved_pairs"]==20 and status["community_star_wars_fiction"]==10
+          assert status["bonus_episodes"]==20
           assert status["bonus_drama_count"]==status["bonus_actual_play_count"]==10
           count=status["episode_count"]
-          assert count==status["previous_episode_count"]+40
-          assert count>=110
+          assert count==status["previous_episode_count"]+60
+          assert count>=130
           main=rss("feed-v2.xml",count)
           alias=rss("feed.xml",count)
           assert [x.findtext("guid") for x in main]==[x.findtext("guid") for x in alias]
           assert [x.find("enclosure").get("url") for x in main[:20]]==[x.find("enclosure").get("url") for x in ranked_items[:20]]
-          assert [x.findtext("guid") for x in main[-40:-20]]==[x.findtext("guid") for x in exp_items]
+          paired=main[-60:-20]
+          assert len(paired)==40
+          assert [x.findtext("guid") for x in paired[::2]]==[x.findtext("guid") for x in drama_items]
+          assert [x.findtext("guid") for x in paired[1::2]]==[x.findtext("guid") for x in exp_items]
+          assert all("STORY" in (x.findtext("title") or "") or "DRAMA" in (x.findtext("title") or "") for x in paired[::2])
+          assert all("ACTUAL PLAY" in (x.findtext("title") or "") for x in paired[1::2])
           assert [x.findtext("guid") for x in main[-20:]]==[x.findtext("guid") for x in bonus_items]
           old=rss("sampler-v2.xml",status["legacy_original_count"])
           assert {x.findtext("guid") for x in old}<={x.findtext("guid") for x in main}
@@ -135,7 +154,7 @@ jobs:
           assert len(set(urls))==len(urls),"A previously published audio recording was duplicated"
           dates=[parsedate_to_datetime(x.findtext("pubDate")) for x in main]
           assert dates==sorted(dates,reverse=True)
-          print("PASS: original subscription contains",count,"episodes, 20 new (10 dramas + 10 actual plays), original GUIDs preserved")
+          print("PASS: original subscription contains",count,"episodes, 20 fiction chapters interleaved with twenty original actual plays, separate bonus preserved, original GUIDs preserved")
           PY
 
       - name: Commit all coherent generated Star Wars feeds without racing another updater
@@ -169,6 +188,10 @@ jobs:
             star-wars/bonus-20-episodes.md
             star-wars/bonus-20-episodes.json
             star-wars/bonus-20-status.json
+            star-wars/story-interleave.xml
+            star-wars/story-interleave-episodes.md
+            star-wars/story-interleave-episodes.json
+            star-wars/story-interleave-status.json
           )
           tar -cf /tmp/star-wars-generated.tar "${generated[@]}"
           sourcefiles=(
@@ -182,6 +205,8 @@ jobs:
             star-wars/generate_expansion.py
             star-wars/bonus-20-catalog.json
             star-wars/generate_bonus_mix.py
+            star-wars/interleave-fiction-catalog.json
+            star-wars/generate_story_interleave.py
           )
           for attempt in 1 2 3 4; do
             git fetch origin main
