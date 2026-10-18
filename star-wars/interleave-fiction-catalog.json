@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "description": "Story/actual-play interleaving: 20 remote-facility fiction chapters paired 1:1 with 20 existing actual plays, then 10 Star Wars fan audio drama chapters paired 1:1 with 10 existing Sith-ruin actual plays.",
+  "description": "Twenty original-fiction episodes interleaved with the preexisting twenty thematic actual plays: ten remote-facility/survival pairs and ten Sith-ruins/Force-mystery pairs. The separately published later bonus feed remains unchanged.",
   "publication": "Adds only original publisher-hosted fiction audio, without rehosting, mirroring or generating copyrighted works. Not official Star Wars stories.",
   "source_policy": "Use original RSS/iTunes metadata and strict series+chapter evidence. Never select trailers, discussion, highlights, book excerpts without publishing authorization, prelude recaps, or story episodes without confirmed enclosure.",
   "sources": [
@@ -57,17 +57,13 @@
   "segments": [
     {
       "group": "remote-complex",
-      "pair_count": 20,
+      "pair_count": 10,
       "order": [
         {
           "show": "fathom",
           "chapter": 1
         },
         {
-          "show": "deca",
-          "chapter": 1
-        },
-        {
           "show": "orphans",
           "chapter": 1
         },
@@ -84,10 +80,6 @@
           "chapter": 2
         },
         {
-          "show": "deca",
-          "chapter": 2
-        },
-        {
           "show": "orphans",
           "chapter": 2
         },
@@ -104,40 +96,8 @@
           "chapter": 3
         },
         {
-          "show": "deca",
-          "chapter": 3
-        },
-        {
-          "show": "orphans",
-          "chapter": 3
-        },
-        {
-          "show": "station",
-          "chapter": 4
-        },
-        {
-          "show": "among",
-          "chapter": 4
-        },
-        {
           "show": "fathom",
           "chapter": 4
-        },
-        {
-          "show": "deca",
-          "chapter": 4
-        },
-        {
-          "show": "orphans",
-          "chapter": 4
-        },
-        {
-          "show": "station",
-          "chapter": 5
-        },
-        {
-          "show": "among",
-          "chapter": 5
         }
       ]
     },
@@ -188,7 +148,7 @@
       ]
     }
   ],
-  "source_context": "Publisher RSS audio drama only; non-Star-Wars dramas labeled cross-genre. All thirty existing actual plays preserved, including their original episode GUIDs, story chapters within each source progress consecutively. No original private campaign canon appears in public repo.",
+  "source_context": "Exactly twenty source-verified story chapters paired before twenty preexisting tabletop plays, ten per theme. Old 70 and independently built extra twenty bonus episodes remain intact; no private campaign identifiers in public source.",
   "excluded": [
     "Heroes of the Hydian Way",
     "Episode previews or trailers",
