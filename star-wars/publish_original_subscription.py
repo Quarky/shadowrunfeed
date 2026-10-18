@@ -108,21 +108,35 @@ def build():
     expansion_rows=json.loads((HERE/"expansion-episodes.json").read_text(encoding="utf-8"))["episodes"]
     if len(expansion_items)!=20 or len(expansion_rows)!=20:
         raise ValueError("Expansion RSS and exact-title playlist disagree")
+    # Interleave one publisher-produced fiction chapter with each previously
+    # curated actual-play performance. This fixes the earlier actual-play-only
+    # section without altering original source recordings or podcast GUIDs.
+    story_status=json.loads((HERE/"story-interleave-status.json").read_text(encoding="utf-8"))
+    if story_status.get("state")!="published" or story_status.get("fiction_episodes")!=20:
+        raise ValueError("Twenty original publisher audio fiction chapters are not validated")
+    _,_,fiction_items=read_feed(HERE/"story-interleave.xml")
+    fiction_rows=json.loads((HERE/"story-interleave-episodes.json").read_text(encoding="utf-8"))["episodes"]
+    if len(fiction_items)!=20 or len(fiction_rows)!=20:
+        raise ValueError("Fiction RSS and exact chapters do not agree")
     old_count=len(combined)
     for index,item in enumerate(expansion_items):
         row=expansion_rows[index]
-        if row["new_selection"]!=index+1:
-            raise ValueError("Expansion episode order mismatch")
-        if index<10 and row["theme"]!="remote-complex":
-            raise ValueError("First ten expansion selections must be remote-complex")
-        if index>=10 and row["theme"]!="sith-ruins":
-            raise ValueError("Last ten expansion selections must be Sith-ruins themed")
-        key=audio_identity(item_audio(item))
-        if key in seen:
-            raise ValueError("New actual-play selection already in original podcast: "+row["episode"])
-        seen.add(key)
-        combined.append(copy.deepcopy(item))
-    if len(combined)!=old_count+20:raise ValueError("Podcast expansion did not retain exactly 20 earlier tracks")
+        fiction=fiction_items[index]
+        story=fiction_rows[index]
+        if row["new_selection"]!=index+1 or story["fiction_order"]!=index+1:
+            raise ValueError("Inconsistent interleaving order")
+        if index<10 and (row["theme"]!="remote-complex" or story["theme"]!="remote-complex"):
+            raise ValueError("First ten pairs must be about remote complexes")
+        if index>=10 and (row["theme"]!="sith-ruins" or story["theme"]!="sith-ruins"):
+            raise ValueError("Second ten pairs must be about ancient Sith ruins")
+        for selected in (fiction,item):
+            key=audio_identity(item_audio(selected))
+            if key in seen:
+                raise ValueError("Story/actual audio repeated in current podcast")
+            seen.add(key)
+            combined.append(copy.deepcopy(selected))
+    if len(combined)!=old_count+40:
+        raise ValueError("Required 20 alternating drama/actual-play pairs were not built")
 
     # Ten Moraband-inspired then ten Shard Moon-inspired cross-genre recordings.
     # The format alternates scripted fiction with real tabletop actual play.
@@ -143,8 +157,8 @@ def build():
         if key in seen:raise ValueError("Bonus publisher recording repeats previous audio: "+row["episode"])
         seen.add(key)
         combined.append(copy.deepcopy(item))
-    if len(combined)!=old_count+40:
-        raise ValueError("Combined expansion failed to append 20 new bonus episodes")
+    if len(combined)!=old_count+60:
+        raise ValueError("Interleaved earlier twenty and retained later bonus twenty count mismatch")
     expected_guids={x.findtext("guid") for x in legacy}
     if old_guids_kept!=expected_guids:
         raise ValueError("Original subscription episode GUIDs were lost")
@@ -166,7 +180,8 @@ def build():
         description.text=("Original Star Wars FFG/D6 sampler expanded with a 20-episode "
             "frontier audio-drama and actual-play opening, followed by the complete ranked "
             "Star Wars lore/story selection and retained original sampler episodes, "
-            "then twenty previous actual plays themed around remote research complexes " 
+            "then twenty publisher audio fiction stories alternating with twenty original " 
+            "actual plays themed around remote research complexes " 
             "and ancient Sith ruins; twenty NEW non-Star-Wars fiction and actual-play recordings then follow, Moraband mysteries first and Shard Moon research-survival second. External science-fiction drama and actual play " 
             "are cross-genre inspiration, not Star Wars canon. "
             "All recordings remain on their publishers' servers.")
@@ -206,11 +221,14 @@ def build():
         "special_prefix":20,
         "previous_episode_count":old_count,
         "new_actual_plays":20,
-        "new_groups":[{"section":"remote-complex","start":old_count+1,"end":old_count+10},
-                      {"section":"ancient-sith-ruins","start":old_count+11,"end":old_count+20},
-                      {"section":"moraband-new-fiction-and-play","start":old_count+21,"end":old_count+30},
-                      {"section":"shard-moon-new-fiction-and-play","start":old_count+31,"end":old_count+40}],
-        "new_unique_productions":expansion_status["new_publisher_programs"] + bonus_status["unique_productions"],
+        "new_fiction_episodes":20,
+        "new_interleaved_pairs":20,
+        "community_star_wars_fiction":10,
+        "new_groups":[{"section":"remote-complex-interleaved-story-play","start":old_count+1,"end":old_count+20},
+                      {"section":"ancient-sith-ruins-interleaved-story-play","start":old_count+21,"end":old_count+40},
+                      {"section":"occult-mystery-bonus-story-play","start":old_count+41,"end":old_count+50},
+                      {"section":"remote-science-bonus-story-play","start":old_count+51,"end":old_count+60}],
+        "new_unique_productions":expansion_status["new_publisher_programs"] + bonus_status["unique_productions"] + story_status["source_count"],
         "bonus_episodes":20,
         "bonus_drama_count":10,
         "bonus_actual_play_count":10,
