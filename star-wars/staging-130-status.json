@@ -1,6 +1,6 @@
 {
   "state": "staging",
-  "generated_at": "2026-10-18T18:15:23.355272+00:00",
+  "generated_at": "2026-10-18T18:54:06.626074+00:00",
   "subscription_urls": [
     "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-130-debug.xml"
   ],
@@ -45,6 +45,5 @@
   "all_new_audio_owned_by_publishers": true,
   "old_sampler_source": "sampler-v2.xml",
   "ranked_source": "learning-feed-v2.xml",
-  "warnings": [],
-  "release_approved": false
+  "warnings": []
 }
