@@ -16,7 +16,7 @@ This is the original `feed-v2.xml` subscription supplied for Podbean—not the n
 
 All original 16 subscriber GUIDs remain present; repeated audio is deduplicated. The new thirty recordings come from **16 distinct actual-play programs**.
 
-[Subscriber feed status](subscriber-status.json) · [Full new 30-episode actual-play list](expansion-episodes.md) · [Complete earlier 61-episode themed/ranked core](learning-episodes.md) · [Original 16-episode sampler](sampler-v2.xml) · [Automatic weekly updater](../.github/workflows/update-star-wars-learning.yml).
+[Subscriber feed status](subscriber-status.json) · [Twenty new exact audio picks](bonus-20-episodes.md) · [New selection catalog](bonus-20-catalog.json) · [Full new 30-episode actual-play list](expansion-episodes.md) · [Complete earlier 61-episode themed/ranked core](learning-episodes.md) · [Original 16-episode sampler](sampler-v2.xml) · [Automatic weekly updater](../.github/workflows/update-star-wars-learning.yml).
 
 The old `feed.xml` is also updated as an equivalent feed. The `learning-feed-v2.xml` remains a separate 61-episode listening collection, so neither new nor existing listeners are forced to resubscribe. Separate D6 and individual actual-play RSS remain intact.
 
