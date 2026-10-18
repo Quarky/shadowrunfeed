@@ -1,3 +1,13 @@
+# Star Wars RSS publication and import audit
+
+As authorized 2026-10-18, the original subscribed `feed-v2.xml` and its alias `feed.xml` now have **140 unique recordings**, including all original 100 GUIDs and source audio identities. The original 100 is backed up as `feed-100-baseline.xml`.
+
+Earlier 61-item learning RSS used only basic RSS/iTunes/Atom tags; later versions inherited unnecessary Libsyn and other source-specific XML elements. Production now uses a minimal RSS 2.0/XML structure, descriptions as plain text and canonical audio MIME types. XML simplification does not guarantee Podbean import; the user must verify in the actual app. Expiring publisher-signed URLs remain a separate unresolved playback risk.
+
+Scheduled feed generation writes staging-only files and does not rewrite live production.
+
+## Previous diagnostic evidence (historical)
+
 # Star Wars RSS — production release gate
 
 **Production:** `feed-v2.xml`, `feed.xml` and `subscriber-status.json` are frozen to the exact original 100 recordings (source commit `f4d59327b8`). Never let scheduled builders replace them.

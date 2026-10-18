@@ -34,10 +34,10 @@ jobs:
               ids=[x.findtext("guid") for x in items]
               assert len(ids)==len(set(ids))
               return items
-          original=load((root/"feed-v2.xml").read_bytes())
+          original=load((root/"feed-100-baseline.xml").read_bytes())
           candidate=load((root/"feed-140-candidate.xml").read_bytes())
           assert len(original)==100 and len(candidate)==140
-          for file,expect in (("feed-v2.xml",100),("feed-130-debug.xml",130),("feed-140-candidate.xml",140)):
+          for file,expect in (("feed-v2.xml",140),("feed-130-debug.xml",130),("feed-140-candidate.xml",140)):
               url=base+file
               try:
                   req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0","Accept":"application/rss+xml,application/xml"})

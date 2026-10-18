@@ -57,7 +57,7 @@ jobs:
               return ids
 
           expected = guid_list(origin.read_bytes())
-          assert len(expected) == 100, "Production is frozen at exactly 100 until the user approves promotion"
+          assert len(expected) == 140, "Subscribed RSS must contain all 140 distinct recordings"
           feed = os.environ["ORIGINAL_SUBSCRIBED_URL"]
           purge = os.environ["PURGE_URL"]
 

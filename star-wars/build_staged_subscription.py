@@ -6,7 +6,7 @@ import copy,json,xml.etree.ElementTree as ET
 from publish_original_subscription import HERE,URLBASE,ATOM,audio_identity,item_audio,atomic,read_feed
 
 def build():
-    root,ch,original=read_feed(HERE/"feed-v2.xml")
+    root,ch,original=read_feed(HERE/"feed-100-baseline.xml")
     _,_,source=read_feed(HERE/"feed-130-debug.xml")
     assert len(original)==100 and len(source)==130
     used={audio_identity(item_audio(x)) for x in original}

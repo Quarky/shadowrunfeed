@@ -2,13 +2,15 @@
 
 This is a **separate collection** in the existing public [Quarky/shadowrunfeed](../README.md) repository, modeled after the existing [Ravnica catalog + filtered RSS builder](../ravnica/README.md). **Shadowrun and Ravnica were not changed or merged.** `Heroes of the Hydian Way` is deliberately omitted.
 
-## Original subscribed feed — production frozen at 100
+## Original subscribed feed — all 140 unique recordings
 
-The [original Podbean RSS](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml) has **exactly the historical 100 recordings** and unchanged GUIDs, order, dates, and enclosures, restored from commit `f4d59327b8`. Its `feed.xml` alias also contains the same 100. No existing subscription URL is changed.
+**[Same original Podbean subscription URL, now holding 140 unique recordings](https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml)**
 
-Testing copies are isolated: [130-item unreconciled rebuild](feed-130-debug.xml) and [140-item deduplicated candidate](feed-140-candidate.xml). The latter retains all 100 originals and adds only 40 genuinely distinct audio recordings. The 130-item version is NOT simply 100 plus 30; it changed some GUIDs and repeated existing recordings. See [release gate](RELEASE-GATE.md).
+The old 100 recordings and their GUIDs, source-media identities and episode dates remain unchanged; 40 unique new publisher-hosted episodes are appended. The `feed.xml` alias has the same items. The earlier production 100 is backed up in [feed-100-baseline.xml](feed-100-baseline.xml).
 
-The scheduled updater writes only staging files. **Never promote additional episodes until real podcast import succeeds and the user approves.** GitHub XML validation alone does not establish that Podbean accepts the RSS.
+The published XML has been simplified to match the general structure of the earlier 61-episode RSS, stripping publisher-specific namespaces and tags, normalizing plain-text descriptions and M4A MIME types. This is a feed-compatibility improvement, not an audio mirror. Podbean import success **has not yet been observed**.
+
+The independent [1](podbean-smoke-1.xml), [10](podbean-smoke-10.xml), [66](podbean-smoke-stable.xml), [100](podbean-clean-100.xml), [130](feed-130-debug.xml) and [140](feed-140-candidate.xml) diagnostic copies remain available. Scheduled source updates operate only on staging; they cannot silently overwrite the original subscription.
 
 ## Subscribe (Podbean / any RSS-capable player)
 

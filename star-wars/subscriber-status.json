@@ -1,13 +1,13 @@
 {
   "state": "published",
-  "generated_at": "2026-10-18T17:46:16.021761+00:00",
+  "generated_at": "2026-10-18T19:17:30.370Z",
   "subscription_urls": [
     "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml",
     "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed.xml"
   ],
-  "episode_count": 100,
+  "episode_count": 140,
   "special_prefix": 20,
-  "previous_episode_count": 70,
+  "previous_episode_count": 100,
   "new_actual_plays": 30,
   "new_groups": [
     {
@@ -30,5 +30,15 @@
   "all_new_audio_owned_by_publishers": true,
   "old_sampler_source": "sampler-v2.xml",
   "ranked_source": "learning-feed-v2.xml",
-  "warnings": []
+  "warnings": [
+    "Actual Podbean import must be tested; GitHub XML validation is not an app-import test.",
+    "Publisher-signed enclosure URLs may expire."
+  ],
+  "new_unique_audio": 40,
+  "preserved_original_guids": 100,
+  "deduplicated_source_audio": 90,
+  "fully_deduplicated": true,
+  "xml_schema": "minimal-rss-2.0",
+  "release_approved_by_user": true,
+  "podbean_import_verified": false
 }

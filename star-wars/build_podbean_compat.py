@@ -86,7 +86,7 @@ def new_feed(rows,filename,title):
     return {"file":filename,"episodes":len(rows),"bytes":len(blob),"rss_url":BASE+filename}
 
 def main():
-    root=ET.parse(HERE/"feed-v2.xml").getroot()
+    root=ET.parse(HERE/"feed-100-baseline.xml").getroot()
     original=root.find("channel").findall("item")
     assert len(original)==100,"Only diagnose the protected 100-item original"
     ids=[x.findtext("guid") for x in original]

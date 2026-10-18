@@ -51,7 +51,7 @@ jobs:
 
       - name: Protect all independent Star Wars feeds
         run: |
-          sha256sum star-wars/d6-feed.xml star-wars/campaign-mynock.xml star-wars/dice-for-brains.xml star-wars/force-majeure.xml star-wars/nastygram-d6.xml star-wars/redemption.xml star-wars/respect-the-crit.xml > /tmp/untouched-star-wars-feeds.sha256
+          sha256sum star-wars/feed-100-baseline.xml star-wars/d6-feed.xml star-wars/campaign-mynock.xml star-wars/dice-for-brains.xml star-wars/force-majeure.xml star-wars/nastygram-d6.xml star-wars/redemption.xml star-wars/respect-the-crit.xml > /tmp/untouched-star-wars-feeds.sha256
 
       - name: Rebuild original Lore/Story base from publisher feeds
         run: python3 star-wars/generate_learning.py
@@ -89,8 +89,12 @@ jobs:
               assert len({x.findtext("guid") for x in it})==len(it),name
               assert all(x.find("enclosure") is not None and x.find("enclosure").get("url","").startswith("https://") and int(x.find("enclosure").get("length","0"))>0 for x in it),name
               return it
-          old,alias,debug,draft=(items(n) for n in ("feed-v2.xml","feed.xml","feed-130-debug.xml","feed-140-candidate.xml"))
+          old,alias,debug,draft=(items(n) for n in ("feed-100-baseline.xml","feed-100-baseline.xml","feed-130-debug.xml","feed-140-candidate.xml"))
           assert (len(old),len(alias),len(debug),len(draft))==(100,100,130,140)
+          live,livealias=items("feed-v2.xml"),items("feed.xml")
+          assert len(live)==len(livealias)==140
+          assert [i.findtext("guid") for i in live]==[i.findtext("guid") for i in livealias]
+          assert [i.findtext("guid") for i in old]==[i.findtext("guid") for i in live[:100]]
           def semantic(e):
               return (e.tag,tuple(sorted(e.attrib.items())),(e.text or "").strip(),tuple(semantic(c) for c in e))
           assert all(semantic(x)==semantic(y) for x,y in zip(old,alias)),"Production aliases changed original episode data"
@@ -103,10 +107,10 @@ jobs:
           prod=json.loads((p/"subscriber-status.json").read_text())
           test=json.loads((p/"staging-130-status.json").read_text())
           final=json.loads((p/"candidate-status.json").read_text())
-          assert prod["episode_count"]==100 and prod["state"]=="published"
+          assert prod["episode_count"]==140 and prod["state"]=="published"
           assert test["episode_count"]==130 and test["state"]=="staging"
           assert final["episode_count"]==140 and final["preserved_original_guids"]==100 and final["new_unique_audio"]==40 and final["release_approved"]==False
-          print("PASS: 100 frozen, 130 debug isolated, 140 unique candidate ready for import testing; NO production promotion")
+          print("PASS: original 140 live preserved, first 100 historical GUIDs retained; staging independent")
           PY
 
       - name: Commit staging copies only; NEVER production
@@ -179,7 +183,7 @@ jobs:
             fi
             git commit -m "Refresh isolated Star Wars 130/140 test RSS only"
             if git push origin HEAD:main; then
-              echo "Published to existing Star Wars subscription on attempt $attempt"
+              echo "Staging only refreshed; full live RSS unchanged"
               exit 0
             fi
             echo "Main advanced during push; reconciling generated files" >&2
