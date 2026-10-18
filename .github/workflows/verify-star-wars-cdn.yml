@@ -6,6 +6,8 @@ on:
       - Update Star Wars Ranked Feed and Featured Story Mix
     types: [completed]
   workflow_dispatch:
+  schedule:
+    - cron: "47 */2 * * *"
   push:
     branches: [main]
     paths:
@@ -61,25 +63,27 @@ jobs:
           feed = os.environ["ORIGINAL_SUBSCRIBED_URL"]
           purge = os.environ["PURGE_URL"]
 
-          for attempt in range(1, 9):
+          # Check periodically until the exact original @main URL, not an alias,
+          # matches the 140 historical GUIDs. One purge per run avoids CDN rate limits.
+          for attempt in range(1, 4):
               try:
                   req = urllib.request.Request(feed, headers={"User-Agent": "Quarky-RSS-publishing-check/1.0"})
                   with urllib.request.urlopen(req, timeout=25) as response:
                       actual = guid_list(response.read())
-                  print(f"CDN attempt {attempt}: {len(actual)} items, published {len(expected)}")
+                  print(f"ORIGINAL exact URL attempt {attempt}: {len(actual)} items, published {len(expected)}",flush=True)
                   if actual == expected:
                       print("PASS: the original subscribed RSS URL serves exactly the published episode GUID list")
                       raise SystemExit(0)
               except Exception as exc:
                   print(f"CDN attempt {attempt} failed: {exc}", flush=True)
 
-              if attempt < 8:
+              if attempt == 1:
                   try:
                       with urllib.request.urlopen(purge, timeout=25) as response:
-                          print(f"Cache invalidation: HTTP {response.status}", flush=True)
+                          print(f"One jsDelivr purge requested, HTTP {response.status}; this is not proof of cache invalidation",flush=True)
                   except Exception as exc:
-                      print(f"Cache invalidation failed: {exc}", flush=True)
-                  time.sleep(15)
+                      print(f"Cache invalidation request failed: {exc}",flush=True)
+              if attempt < 3: time.sleep(8)
 
-          raise SystemExit("FAIL: the unchanged original RSS URL is still stale after eight CDN checks; GitHub source is not the same as the subscriber response")
+          raise SystemExit("FAIL: original Podbean subscription URL still does not serve GitHub’s full 140 GUIDs. Do not mark feed updated solely from GitHub publication or purge HTTP 200")
           PY
