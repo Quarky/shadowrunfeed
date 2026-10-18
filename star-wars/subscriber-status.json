@@ -1,37 +1,40 @@
 {
   "state": "published",
-  "generated_at": "2026-10-18T18:01:11.925245+00:00",
+  "generated_at": "2026-10-18T18:12:12.579810+00:00",
   "subscription_urls": [
     "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed-v2.xml",
     "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/feed.xml"
   ],
-  "episode_count": 110,
+  "episode_count": 130,
   "special_prefix": 20,
   "previous_episode_count": 70,
   "new_actual_plays": 20,
+  "new_fiction_episodes": 20,
+  "new_interleaved_pairs": 20,
+  "community_star_wars_fiction": 10,
   "new_groups": [
     {
-      "section": "remote-complex",
+      "section": "remote-complex-interleaved-story-play",
       "start": 71,
-      "end": 80
-    },
-    {
-      "section": "ancient-sith-ruins",
-      "start": 81,
       "end": 90
     },
     {
-      "section": "moraband-new-fiction-and-play",
+      "section": "ancient-sith-ruins-interleaved-story-play",
       "start": 91,
-      "end": 100
+      "end": 110
     },
     {
-      "section": "shard-moon-new-fiction-and-play",
-      "start": 101,
-      "end": 110
+      "section": "occult-mystery-bonus-story-play",
+      "start": 111,
+      "end": 120
+    },
+    {
+      "section": "remote-science-bonus-story-play",
+      "start": 121,
+      "end": 130
     }
   ],
-  "new_unique_productions": 36,
+  "new_unique_productions": 41,
   "bonus_episodes": 20,
   "bonus_drama_count": 10,
   "bonus_actual_play_count": 10,

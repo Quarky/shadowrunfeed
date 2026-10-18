@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Star Wars RPG — Original Fiction Interleaved with Actual Play</title>
+    <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
+    <description>Twenty original fiction episodes for pairing with twenty actual-play episodes. First ten: isolated facilities and alien environments; then ten: Star Wars community audio drama and dark-side intrigue. Publisher audio only.</description>
+    <language>en</language>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png" />
+    <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/story-interleave.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 · CROSS-GENRE SCI-FI STORY · [DERELICT — FATHOM] Season 1 - FATHOM - E1 - In the Dark We See</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:2f177f144db58ca1251a28d3382275fe9c8b421fc2dd5030f8e3312c36b863e5</guid>
+      <link>https://feeds.megaphone.fm/SBP4341397353</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Secret archaeological laboratory built around an ancient alien artifact; ethical conflicts, structural failures and environmental systems.. Original publisher date: Mon, 07 Jun 2021 14:00:00 -0000. Original notes: DERELICT Premium: https://derelict.supercast.com
+Something has been found at the bottom of Earth's ocean. An ancient artifact that can only be described as a giant door, inset into the ocean floor. 
+It became known as the Vault. A gigantic enigma, buried and forgotten...nineteen thousand feet down.
+Just the kind of thing that would interest the galaxy's most powerful corporation, Maas-Dorian. To s</description>
+      <pubDate>Mon, 07 Jun 2021 14:00:00 -0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP1450899020.mp3?key=9d8fb6c111744ee7513ab4968ec007da&amp;request_event_id=dfcffd24-d39b-4e9a-b537-10ccfbe0bf77&amp;session_id=dfcffd24-d39b-4e9a-b537-10ccfbe0bf77&amp;timetoken=1792354321_DD435739C3978EE7EFD78A8A1AFB3E0A" length="78675593" type="audio/mpeg" />
+      <itunes:duration>3334</itunes:duration>
+      <source url="https://feeds.megaphone.fm/SBP4341397353">DERELICT — FATHOM</source>
+    </item>
+    <item>
+      <title>02 · CROSS-GENRE SCI-FI STORY · [The Orphans] Crash :: The Crash</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:91d1d4975b4ff17590e553c5266e8ce8867e253b4b071d43adbe6d56d96cb320</guid>
+      <link>https://art19.com/shows/the-orphans/episodes/e35ecd4d-b2c3-4e45-8f58-d9f6acaae268</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Castaways on a hostile world, emergent artificial intelligence and character-driven survival.. Original publisher date: Mon, 23 May 2016 18:10:00 -0000. Original notes: ** Content Warning at Bottom of Show Notes**
+OUR NEW SHOW | NO ADS &amp; MORE! | TRANSCRIPT | MERCH! | DISCORD
+A tale of survival on an unknown world. The Orphans is a cinematic audio drama chronicling the castaways of downed starship, The Venture - Stranded on a hostile planet, struggling to remember how they arrived and who they are. 
+
+Find our affiliates here: www.fableandfolly.com/partners
+
+Writte</description>
+      <pubDate>Mon, 23 May 2016 18:10:00 -0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/FAFO1808134534.mp3?key=bd3afbec8ac4952f94c9a80b54f09d73&amp;request_event_id=b67b971e-48b4-4991-b7ea-73606ba80a36&amp;session_id=b67b971e-48b4-4991-b7ea-73606ba80a36&amp;timetoken=1792354322_9FFA3FE92862BDB9934621B6415C7E5E" length="40340880" type="audio/mpeg" />
+      <itunes:duration>1609</itunes:duration>
+      <source url="https://feeds.megaphone.fm/FAFO6828665740">The Orphans</source>
+    </item>
+    <item>
+      <title>03 · CROSS-GENRE SCI-FI STORY · [Station 151] S1E2: Orientation</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:b70b0fce6e5b122ededf836d2ce84036c00a4c48cd521772ac6445253b39650f</guid>
+      <link>https://www.station151.com/season-one/s1e2-orientation/</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: A remote station, its equipment and the personal consequences of isolation.. Original publisher date: Tue, 06 Dec 2022 12:00:00 -0000. Original notes: Having barely survived his journey to Antarctica, Astrophysicist Wayne Robertson is awakened by a strange and unexpected voice in his ear. Wayne struggles through his first day at Station 151, learning that the job he signed up for is very different, and far more dangerous, than he expected.
+Content warning: profanity
+Headphones highly recommended
+Support the show
+If you're enjoying the Station 15</description>
+      <pubDate>Tue, 06 Dec 2022 12:00:00 -0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/SBP3934947793.mp3?key=bd96e5be8dd9f0cf8aa6ce9b41d34093&amp;request_event_id=3a434225-7718-4812-951f-bb07300de515&amp;session_id=3a434225-7718-4812-951f-bb07300de515&amp;timetoken=1792354324_8DD5A53E3CC1145BB1DDF536705BE96B" length="47151426" type="audio/mpeg" />
+      <itunes:duration>1048</itunes:duration>
+      <source url="https://feeds.megaphone.fm/SBP5007734520">Station 151</source>
+    </item>
+    <item>
+      <title>04 · CROSS-GENRE SCI-FI STORY · [Among the Stars and Bones] S1E2 - "Seh-Par-Ay-Shun"</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:72d4c7d6b92097ccc150690669029ccf6188ba128431c92d245735410fe85b6b</guid>
+      <link>https://pinecast.com/feed/among-the-stars-and-bones</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Field archaeologists examining an ancient site and the evidence left by vanished inhabitants.. Original publisher date: Wed, 17 Apr 2019 10:00:00 -0000. Original notes: &lt;p&gt;&lt;strong&gt;SYNOPSIS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Adrienne, Ben and Gordon have various bones to pick over their orders. Laura speculates on the benefits of Proximan technology. Kathy and Celia begin unravelling the mysteries of the dead. And Gordon begins to probe "The Box."&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CONTENT WARNINGS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Medical/Forensic procedure - An alien skeleton undergoes analysis (09</description>
+      <pubDate>Wed, 17 Apr 2019 10:00:00 -0000</pubDate>
+      <enclosure url="https://pinecast.com/listen/aeb49453-5789-43fb-8fec-827675a848ef.mp3?source=rss&amp;ext=asset.mp3" length="71558148" type="audio/mpeg" />
+      <itunes:duration>00:37:16</itunes:duration>
+      <source url="https://pinecast.com/feed/among-the-stars-and-bones">Among the Stars and Bones</source>
+    </item>
+    <item>
+      <title>05 · CROSS-GENRE SCI-FI STORY · [DERELICT — FATHOM] Season 1 - FATHOM - E2 - Hard Right</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:6f7127a2fa194b0aea97a15d59d247a54a05d6aa4d7156466ca2247b2c9b9e86</guid>
+      <link>https://feeds.megaphone.fm/SBP4341397353</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Secret archaeological laboratory built around an ancient alien artifact; ethical conflicts, structural failures and environmental systems.. Original publisher date: Wed, 23 Jun 2021 17:00:00 -0000. Original notes: DERELICT Premium: https://derelict.supercast.com
+After a surprise, cataclysmic tide surge hits Fathom base, Dr. Eva Graff is trapped in the west platform airlock. When she learns that base commander Joe Freeman is hurt and stuck in a slowly flooding circuitry conduit, she sets off on a perilous journey to save him; a journey that will push her beyond her breaking points...
+DERELICT Merch: https://</description>
+      <pubDate>Wed, 23 Jun 2021 17:00:00 -0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP1765881717.mp3?key=20acbabbaedcb26a7e08107fab63abb3&amp;request_event_id=c11fb1c5-6a41-44b0-9056-4b9c345296e4&amp;session_id=c11fb1c5-6a41-44b0-9056-4b9c345296e4&amp;timetoken=1792354325_91D15965CAA3983BA16A6FCAAF389D44" length="80932508" type="audio/mpeg" />
+      <itunes:duration>3153</itunes:duration>
+      <source url="https://feeds.megaphone.fm/SBP4341397353">DERELICT — FATHOM</source>
+    </item>
+    <item>
+      <title>06 · CROSS-GENRE SCI-FI STORY · [The Orphans] Crash :: Above the Trees</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:66f42722f049951e8220004a406fd22b0d53f329482a2cc208eddecca6e5d24e</guid>
+      <link>https://art19.com/shows/the-orphans/episodes/a17c83ec-7434-4527-922d-14fe0abfcd16</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Castaways on a hostile world, emergent artificial intelligence and character-driven survival.. Original publisher date: Mon, 30 May 2016 18:16:00 -0000. Original notes: **Content Warnings at Bottom of Show Notes**
+OUR NEW SHOW | NO ADS &amp; MORE! | TRANSCRIPT | MERCH! |DISCORD
+As the team return from the remains of their ship, they have to once again fight for their lives, and in doing so, discover one of them has a hidden talent. They find shelter in the deadly terrain of the world, but it's not just this mysterious planet they have to worry about - even with the c</description>
+      <pubDate>Mon, 30 May 2016 18:16:00 -0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/FAFO9948656277.mp3?key=c69b4d88c5a752ff36e0b37c4ebb001f&amp;request_event_id=14a78eea-ee8a-469d-be9b-fb15bc2224e0&amp;session_id=14a78eea-ee8a-469d-be9b-fb15bc2224e0&amp;timetoken=1792354326_47D36D66D50954EC8E4B892B05863430" length="34515613" type="audio/mpeg" />
+      <itunes:duration>1366</itunes:duration>
+      <source url="https://feeds.megaphone.fm/FAFO6828665740">The Orphans</source>
+    </item>
+    <item>
+      <title>07 · CROSS-GENRE SCI-FI STORY · [Station 151] S1E3: Buzz</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:1502deec7621ec56760dfb9ea05f89e6effae8f0371c9c1d4e6fee78759bee56</guid>
+      <link>https://www.station151.com/season-one/s1e3-buzz/</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: A remote station, its equipment and the personal consequences of isolation.. Original publisher date: Tue, 13 Dec 2022 09:00:00 -0000. Original notes: After a rude awakening from Wilkins, astrophysicist Wayne Robertson learns that a “companion” has been assigned to him for the duration of his stay at Station 151. Wayne also makes a startling discovery outside while surveying the radio telescope array that has him running for cover.
+Content warning: profanity
+Headphones highly recommended
+Support the show
+If you're enjoying the Station 151 scienc</description>
+      <pubDate>Tue, 13 Dec 2022 09:00:00 -0000</pubDate>
+      <enclosure url="https://dcs-cached.megaphone.fm/SBP4611255935.mp3?key=547ed2de625f71c1a53819336680de89&amp;request_event_id=a2c74b76-2cab-45b2-8871-472fa1bd73b1&amp;session_id=a2c74b76-2cab-45b2-8871-472fa1bd73b1&amp;timetoken=1792354329_080FC9EF2F3EEE9EC46B70D742E2031F" length="69639706" type="audio/mpeg" />
+      <itunes:duration>1610</itunes:duration>
+      <source url="https://feeds.megaphone.fm/SBP5007734520">Station 151</source>
+    </item>
+    <item>
+      <title>08 · CROSS-GENRE SCI-FI STORY · [Among the Stars and Bones] S1E3 - "The Arecibo Message"</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:85e99f5f272fc08efe469f664e1895a18404362095a7c00041bbcf66cd1b128f</guid>
+      <link>https://pinecast.com/feed/among-the-stars-and-bones</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Field archaeologists examining an ancient site and the evidence left by vanished inhabitants.. Original publisher date: Wed, 01 May 2019 10:00:58 -0000. Original notes: &lt;p&gt;&lt;strong&gt;SYNOPSIS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Adrienne and Gordon are concerned about glitches with Herodotus tech. Ben and Harry try to unlock and translate alien recordings. And Kathy and Celia investigate the story behind the lone Proximan skeleton found in the control room with the cube.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CONTENT WARNINGS:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Violence/Death - Discussion of mass death by suf</description>
+      <pubDate>Wed, 01 May 2019 10:00:58 -0000</pubDate>
+      <enclosure url="https://pinecast.com/listen/d25ace9a-6bce-4026-a661-05823020757c.mp3?source=rss&amp;ext=asset.mp3" length="69709466" type="audio/mpeg" />
+      <itunes:duration>00:36:18</itunes:duration>
+      <source url="https://pinecast.com/feed/among-the-stars-and-bones">Among the Stars and Bones</source>
+    </item>
+    <item>
+      <title>09 · CROSS-GENRE SCI-FI STORY · [DERELICT — FATHOM] Season 1 - FATHOM - E3 - Wolves</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:03452246a9c2f7ad2a7e5bbeb7027ae478d6e63b90138733dbb5d9d212239203</guid>
+      <link>https://feeds.megaphone.fm/SBP4341397353</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Secret archaeological laboratory built around an ancient alien artifact; ethical conflicts, structural failures and environmental systems.. Original publisher date: Wed, 21 Jul 2021 16:00:00 -0000. Original notes: DERELICT Premium: https://derelict.supercast.com
+Dr. Eva Graff finds herself in her most precarious situation yet: trapped in the rubble of the collapsed western Control capsule, lost and alone, her odds of survival decreasing rapidly. More than that, the death of Joe Freeman has taken a great toll, a trauma similar to one she has already suffered...and it may have broken her, leaving her ill equi</description>
+      <pubDate>Wed, 21 Jul 2021 16:00:00 -0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP6006750445.mp3?key=08be58d3e7c74d0c224e4d22081e6866&amp;request_event_id=06a14617-7843-4afb-a105-496afa61e247&amp;session_id=06a14617-7843-4afb-a105-496afa61e247&amp;timetoken=1792354330_515B245048756263F004189AA616233E" length="89119336" type="audio/mpeg" />
+      <itunes:duration>3700</itunes:duration>
+      <source url="https://feeds.megaphone.fm/SBP4341397353">DERELICT — FATHOM</source>
+    </item>
+    <item>
+      <title>10 · CROSS-GENRE SCI-FI STORY · [DERELICT — FATHOM] Season 1 - FATHOM - E4 - Pain</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:5b164d0fee2f9a8a83143a8bb09170c2424e5704a2e6911e8d2dc564308cda34</guid>
+      <link>https://feeds.megaphone.fm/SBP4341397353</link>
+      <description>CROSS-GENRE SCI-FI STORY. Original scripted fiction, not actual play or lore commentary. Use: Secret archaeological laboratory built around an ancient alien artifact; ethical conflicts, structural failures and environmental systems.. Original publisher date: Tue, 07 Sep 2021 03:00:00 -0000. Original notes: DERELICT Premium: https://derelict.supercast.com
+Dr. Eva Graff and Brynn Emerson have barely survived their ordeal on the Vault when an even more dire complication rears its head. In order to save what's left of Fathom base, the two women must work together to stop a dark event from occurring on the abandoned Southern platform...but the events of the past day, including the reveal of Mack's true a</description>
+      <pubDate>Tue, 07 Sep 2021 03:00:00 -0000</pubDate>
+      <enclosure url="https://dcs-spotify.megaphone.fm/SBP2200264607.mp3?key=a69288b8947b01adda3b8d8be9e67971&amp;request_event_id=b6b2bc42-b590-4824-9457-5576ebed492e&amp;session_id=b6b2bc42-b590-4824-9457-5576ebed492e&amp;timetoken=1792354332_95A84961AD1527FE6E05420AD72B5A27" length="92625725" type="audio/mpeg" />
+      <itunes:duration>3703</itunes:duration>
+      <source url="https://feeds.megaphone.fm/SBP4341397353">DERELICT — FATHOM</source>
+    </item>
+    <item>
+      <title>11 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode One: Family</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:50f17e0337b46fa903441ba505557ccfdfb852c77b4cf9fe7e4cd2bf6d89517d</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 05 Apr 2022 10:00:00 +0000. Original notes: &lt;p&gt;&lt;strong&gt;&lt;u&gt;Episode Synopsis:&lt;/u&gt;&lt;/strong&gt; All Laresa Daklan ever wanted to be was a great Jedi. But, the Great Galactic War changed everything for her, and her family.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Community:&lt;/u&gt; &lt;/strong&gt;Find more Tales Shows at: &lt;a href="https://talesoftheforgotten.com/" rel="nofollow"&gt;https://talesoftheforgotten.com/&lt;/a&gt; | Join our community of Tales Fans, Voice Actors, and the show crea</description>
+      <pubDate>Tue, 05 Apr 2022 10:00:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/6a238657-7953-4865-9ca7-a277de039ac8/stream.mp3" length="26309694" type="audio/mpeg" />
+      <itunes:duration>1644</itunes:duration>
+      <source url="https://feeds.redcircle.com/6150af3a-b99f-40fd-b65d-0f4163760465">Legacy: A Star Wars Audio Drama</source>
+    </item>
+    <item>
+      <title>12 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Two: The Fall</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:b663aa50003586d8c99eb2668dc20f13f667c986c9833555686b48863681cd03</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 12 Apr 2022 10:00:00 +0000. Original notes: &lt;p&gt;&lt;strong&gt;&lt;u&gt;Episode Synopsis:&lt;/u&gt;&lt;/strong&gt; A tragic mistake drives a wedge in the Daklan family and sends Laresa on a quest to get answers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Content Warnings&lt;/u&gt;&lt;/strong&gt;: The following episode contains adult content and violence. Listener discretion is advised. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Community:&lt;/u&gt; &lt;/strong&gt;Find more Tales Shows at: &lt;a href="https://talesoftheforgotten.com/" rel="nof</description>
+      <pubDate>Tue, 12 Apr 2022 10:00:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/4c9963db-e706-4b03-a9b6-559dd6b6fbc6/stream.mp3" length="26005002" type="audio/mpeg" />
+      <itunes:duration>1625</itunes:duration>
+      <source url="https://feeds.redcircle.com/6150af3a-b99f-40fd-b65d-0f4163760465">Legacy: A Star Wars Audio Drama</source>
+    </item>
+    <item>
+      <title>13 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Three: The Betrayal</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:938615bb4baec529e512b7cbfd81d97e6842e56ee17484d17b8020f5b2922ca5</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 19 Apr 2022 09:16:36 +0000. Original notes: &lt;p&gt;&lt;strong&gt;&lt;u&gt;Episode Synopsis:&lt;/u&gt;&lt;/strong&gt; Turned to the Darkside, Laresa returns to her family and experiences a painful lesson in betrayal.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Content Warnings&lt;/u&gt;&lt;/strong&gt;: The following episode contains adult content, violence and sex. Listener discretion is advised. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Community:&lt;/u&gt; &lt;/strong&gt;Find more Tales Shows at: &lt;a href="https://talesoftheforgotten.com/" r</description>
+      <pubDate>Tue, 19 Apr 2022 09:16:36 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/b48c4e23-5e6c-4177-a74c-d2e423671377/stream.mp3" length="25949831" type="audio/mpeg" />
+      <itunes:duration>1621</itunes:duration>
+      <source url="https://feeds.redcircle.com/6150af3a-b99f-40fd-b65d-0f4163760465">Legacy: A Star Wars Audio Drama</source>
+    </item>
+    <item>
+      <title>14 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Four: Family is Complicated</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:2231ac76c6bafc2b72f2f2593ebb8a9afdfddcea469098b6b22e50297159b51e</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 26 Apr 2022 08:08:53 +0000. Original notes: &lt;p&gt;&lt;strong&gt;&lt;u&gt;Episode Synopsis:&lt;/u&gt;&lt;/strong&gt; Xerrin discovers Laresa is a sith while Laresa must risk disobeying the Emperor to keep Xerrin safe.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Content Warnings&lt;/u&gt;&lt;/strong&gt;: The following episode contains adult content, violence and sex. Listener discretion is advised. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Community:&lt;/u&gt; &lt;/strong&gt;Find more Tales Shows at: &lt;a href="https://talesoftheforgotten.com/"</description>
+      <pubDate>Tue, 26 Apr 2022 08:08:53 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/73796f95-925a-42a1-ab6c-d6a1a3ab5ab6/stream.mp3" length="26180127" type="audio/mpeg" />
+      <itunes:duration>1636</itunes:duration>
+      <source url="https://feeds.redcircle.com/6150af3a-b99f-40fd-b65d-0f4163760465">Legacy: A Star Wars Audio Drama</source>
+    </item>
+    <item>
+      <title>15 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Five: Advice and Good-byes</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:14f66e3a58ace5b5d5ab0d2c61aec3037301d14fd580f30ebfa1e4b8616e5d53</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 03 May 2022 10:00:00 +0000. Original notes: &lt;p&gt;&lt;strong&gt;&lt;u&gt;Episode Synopsis:&lt;/u&gt;&lt;/strong&gt; Laresa and Xerrin make painful goodbyes to men they love. Lancoro visits his mother for some... parental advice unaware he is being watched...&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Community:&lt;/u&gt; &lt;/strong&gt;Find more Tales Shows at: &lt;a href="https://talesoftheforgotten.com/" rel="nofollow"&gt;https://talesoftheforgotten.com/&lt;/a&gt; | Join our community of Tales Fans, Voice Actors, </description>
+      <pubDate>Tue, 03 May 2022 10:00:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/05a9164d-7a88-4768-9f3d-e353af1f7c5d/stream.mp3" length="31281319" type="audio/mpeg" />
+      <itunes:duration>1955</itunes:duration>
+      <source url="https://feeds.redcircle.com/6150af3a-b99f-40fd-b65d-0f4163760465">Legacy: A Star Wars Audio Drama</source>
+    </item>
+    <item>
+      <title>16 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Six: Gang Breakup</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:ed2751a685e86b186d389f1cdb850643539d0b41de0021011047d616b2daed36</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 10 May 2022 10:00:00 +0000. Original notes: &lt;p&gt;&lt;strong&gt;&lt;u&gt;Episode Synopsis:&lt;/u&gt;&lt;/strong&gt; Lancoro and Veltana break up a White Paw Gang Meeting. Afterwards Lancoro is accosted by Mekethia, who has sworn revenge on Laresa and her children.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Content Warnings&lt;/u&gt;&lt;/strong&gt;: The following episode contains adult content and violence. Listener discretion is advised. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Community:&lt;/u&gt; &lt;/strong&gt;Find more Tales Shows at:</description>
+      <pubDate>Tue, 10 May 2022 10:00:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/9108738f-7f0f-4c3e-9aed-462b34570027/stream.mp3" length="26210220" type="audio/mpeg" />
+      <itunes:duration>1638</itunes:duration>
+      <source url="https://feeds.redcircle.com/6150af3a-b99f-40fd-b65d-0f4163760465">Legacy: A Star Wars Audio Drama</source>
+    </item>
+    <item>
+      <title>17 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Seven: Sibling Rivlary</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:5733e49cf92d8d19a47f2403873e8c683f38e85f1dd7f40c3d3a0db4bdc74778</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 17 May 2022 10:00:00 +0000. Original notes: &lt;p&gt;&lt;strong&gt;&lt;u&gt;Episode Synopsis:&lt;/u&gt;&lt;/strong&gt; Reide must fight her own sister to rescue her nephew. Meanwhile Lancoro and Veltana make a discovery.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Content Warnings&lt;/u&gt;&lt;/strong&gt;: The following episode contains adult content and violence. Listener discretion is advised. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Community:&lt;/u&gt; &lt;/strong&gt;Find more Tales Shows at: &lt;a href="https://talesoftheforgotten.com/" rel</description>
+      <pubDate>Tue, 17 May 2022 10:00:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/b48a3c69-a85a-41ba-8d29-96a2c9b2f1b5/stream.mp3" length="24484466" type="audio/mpeg" />
+      <itunes:duration>1530</itunes:duration>
+      <source url="https://feeds.redcircle.com/6150af3a-b99f-40fd-b65d-0f4163760465">Legacy: A Star Wars Audio Drama</source>
+    </item>
+    <item>
+      <title>18 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Eight: The Lightside isn't so Light</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:04fbddc950f87a27d141c2799380d09db9b12188a1e5c59220f42af76447d2fd</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 24 May 2022 09:00:00 +0000. Original notes: &lt;p&gt;&lt;strong&gt;&lt;u&gt;Episode Synopsis:&lt;/u&gt;&lt;/strong&gt; Xerrin confronts Elijah about his loyalties. Mekethia tightens the net around Laresa&amp;#39;s children, and Lancoro takes a step closer to the dark side.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Community:&lt;/u&gt; &lt;/strong&gt;Find more Tales Shows at: &lt;a href="https://talesoftheforgotten.com/" rel="nofollow"&gt;https://talesoftheforgotten.com/&lt;/a&gt; | Join our community of Tales Fans, Voice </description>
+      <pubDate>Tue, 24 May 2022 09:00:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/112fc7ef-8088-4352-837a-c11c4fa1119f/stream.mp3" length="27254700" type="audio/mpeg" />
+      <itunes:duration>1703</itunes:duration>
+      <source url="https://feeds.redcircle.com/6150af3a-b99f-40fd-b65d-0f4163760465">Legacy: A Star Wars Audio Drama</source>
+    </item>
+    <item>
+      <title>19 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Nine: Xerrin's Discovery</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:3bd5619a337b827e49e105b0a4faa3a91a08dad76323d012da8a18e2debcdd69</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 07 Jun 2022 09:00:00 +0000. Original notes: &lt;p&gt;&lt;strong&gt;&lt;u&gt;Episode Synopsis:&lt;/u&gt;&lt;/strong&gt; Moves are made on all sides. Xerrin learns about Laresa&amp;#39;s family and Mekethia&amp;#39;s plan to hunt down Laresa&amp;#39;s children.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Community:&lt;/u&gt; &lt;/strong&gt;Find more Tales Shows at: &lt;a href="https://talesoftheforgotten.com/" rel="nofollow"&gt;https://talesoftheforgotten.com/&lt;/a&gt; | Join our community of Tales Fans, Voice Actors, and the show c</description>
+      <pubDate>Tue, 07 Jun 2022 09:00:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/40acd7a3-4910-4654-83ea-2900814a3aae/stream.mp3" length="25177443" type="audio/mpeg" />
+      <itunes:duration>1573</itunes:duration>
+      <source url="https://feeds.redcircle.com/6150af3a-b99f-40fd-b65d-0f4163760465">Legacy: A Star Wars Audio Drama</source>
+    </item>
+    <item>
+      <title>20 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Ten: A Daring Rescue</title>
+      <guid isPermaLink="false">urn:sw-original-fiction:384718726279ee239d3ccdadb23287d6f1e5a652927c5a4e17b2738821ce6b96</guid>
+      <link>https://talesoftheforgotten.com/</link>
+      <description>STAR WARS FAN AUDIO DRAMA. Original scripted fiction, not actual play or lore commentary. Use: Old Republic Sith/Jedi traditions, divided loyalties, family relationships and the consequences of forbidden power.. Original publisher date: Tue, 14 Jun 2022 09:00:00 +0000. Original notes: &lt;p&gt;&lt;strong&gt;&lt;u&gt;Episode Synopsis:&lt;/u&gt;&lt;/strong&gt; Reide must fight one of her sisters to try and rescue Veltana. Mekethia and Xerrin disagree on how to handle Laresa.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Community:&lt;/u&gt; &lt;/strong&gt;Find more Tales Shows at: &lt;a href="https://talesoftheforgotten.com/" rel="nofollow"&gt;https://talesoftheforgotten.com/&lt;/a&gt; | Join our community of Tales Fans, Voice Actors, and the show creators at :</description>
+      <pubDate>Tue, 14 Jun 2022 09:00:00 +0000</pubDate>
+      <enclosure url="https://audio3.redcircle.com/episodes/f1128b34-d0e8-4ebc-af43-b3e60a964fbd/stream.mp3" length="24920398" type="audio/mpeg" />
+      <itunes:duration>1557</itunes:duration>
+      <source url="https://feeds.redcircle.com/6150af3a-b99f-40fd-b65d-0f4163760465">Legacy: A Star Wars Audio Drama</source>
+    </item>
+  </channel>
+</rss>
