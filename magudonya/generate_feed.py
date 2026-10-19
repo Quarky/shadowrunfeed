@@ -132,7 +132,9 @@ def load(src):
     errors=[]
     urls=src.get("rss_candidates",[])
     # Existing verified publisher RSS is preferred; Apple resolves the rest.
-    for url in list(dict.fromkeys(urls+apple_feed(src))):
+    # Resolve Apple only if configured publisher RSS candidates do not work.
+    for batch in (urls, None):
+      for url in list(dict.fromkeys(apple_feed(src) if batch is None else batch)):
         try:
             root=ET.fromstring(get(url))
             ch=root.find("channel") if root.tag != "channel" else root
