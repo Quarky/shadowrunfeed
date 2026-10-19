@@ -1,0 +1,515 @@
+{
+  "schema_version": 1,
+  "feed_title": "Magudonya — D&D Campaign Stories and Actual Plays",
+  "created": "2026-10-19",
+  "target_episodes": 120,
+  "story_episodes": 60,
+  "actual_play_episodes": 60,
+  "interleave": "story then actual play, ten matched pairs per campaign theme",
+  "themes": {
+    "reach": {
+      "title": "Veyrun’s Reach — Living City, Cultures and Conversations",
+      "description": "Everyday city life, magical conveniences, practical interactions, social customs, neighborhoods and negotiated relationships; not generic city law or class etiquette."
+    },
+    "eilistraee": {
+      "title": "Eilistraee — Drow Defectors, Refuge and Elven Relationships",
+      "description": "The sanctuary southeast of Veyrun's Reach, Eilistraee's followers, Lolth defectors, allied high/wood elves, forest protection, trust and self-determination."
+    },
+    "itich": {
+      "title": "Itich — Dwarven Ruins and Underground Survival",
+      "description": "Primitive Itich insectoid survivors occupy an abandoned dwarven mine/forge, with no functioning metalworking; culture, survival, coexistence and exploration."
+    },
+    "wall": {
+      "title": "The Wall — Screamers, Crystals and Psychic Echoes",
+      "description": "Collapsed earth wall, screamers as semiastral cave bacteria, tamed Wallfeeder, psychic impressions, infectious metal crystals and ancient predatory minds."
+    },
+    "attina": {
+      "title": "Attina — Transformations, Magic and Character-Driven Agency",
+      "description": "Attina's anomaly, magic, particles, relationships, choices and transformations; inspire believable conversations, not artificial pace metrics."
+    },
+    "aberrations": {
+      "title": "Ancient Minds — Aboleths, Illithids and Anomalies",
+      "description": "Elder-brain/aboleth/mind-flayer psychology, mind prison, illusions, Weave disruption, scientific mysteries and an intelligent living world."
+    }
+  },
+  "source_notes": "RSS enclosure URLs and lengths must be resolved from original publisher feeds, not invented. Source shows are inspiration and are not canon for Magudonya. Story serialization is sequential within each source; actual play remains distinct.",
+  "sources": [
+    {
+      "id": "once-future-nerd",
+      "name": "The Once and Future Nerd",
+      "role": "story",
+      "themes": [
+        "reach",
+        "eilistraee",
+        "itich"
+      ],
+      "rss_candidates": [
+        "https://onceandfuturenerd.com/feed/podcast"
+      ],
+      "apple_search": "The Once and Future Nerd"
+    },
+    {
+      "id": "silt-verses",
+      "name": "The Silt Verses",
+      "role": "story",
+      "themes": [
+        "eilistraee",
+        "wall",
+        "attina",
+        "aberrations"
+      ],
+      "rss_candidates": [
+        "https://access.acast.com/rss/5fec690f8211cf453a1b89e2/"
+      ],
+      "apple_search": "The Silt Verses"
+    },
+    {
+      "id": "inn-between",
+      "name": "Inn Between",
+      "role": "story",
+      "themes": [
+        "reach",
+        "eilistraee",
+        "attina"
+      ],
+      "rss_candidates": [
+        "https://innbetween.libsyn.com/rss"
+      ],
+      "apple_search": "Inn Between"
+    },
+    {
+      "id": "alba-salix",
+      "name": "Alba Salix Royal Physician",
+      "role": "story",
+      "themes": [
+        "reach",
+        "itich",
+        "attina"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Alba Salix Royal Physician"
+    },
+    {
+      "id": "counterbalance",
+      "name": "Counterbalance",
+      "role": "story",
+      "themes": [
+        "eilistraee",
+        "wall",
+        "attina"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Counterbalance"
+    },
+    {
+      "id": "carcerem",
+      "name": "Carcerem",
+      "role": "story",
+      "themes": [
+        "itich",
+        "attina",
+        "aberrations"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Carcerem"
+    },
+    {
+      "id": "call-flame",
+      "name": "The Call of the Flame",
+      "role": "story",
+      "themes": [
+        "eilistraee",
+        "itich",
+        "aberrations"
+      ],
+      "rss_candidates": [],
+      "apple_search": "The Call of the Flame"
+    },
+    {
+      "id": "aethuran",
+      "name": "Aethuran",
+      "role": "story",
+      "themes": [
+        "wall",
+        "itich",
+        "aberrations"
+      ],
+      "rss_candidates": [
+        "https://feeds.buzzsprout.com/160172.rss"
+      ],
+      "apple_search": "Aethuran Dark Saga"
+    },
+    {
+      "id": "penumbra",
+      "name": "The Penumbra Podcast",
+      "role": "story",
+      "themes": [
+        "reach",
+        "eilistraee",
+        "aberrations"
+      ],
+      "rss_candidates": [],
+      "apple_search": "The Penumbra Podcast",
+      "required_title": "second citadel"
+    },
+    {
+      "id": "old-gods",
+      "name": "Old Gods of Appalachia",
+      "role": "story",
+      "themes": [
+        "wall",
+        "itich",
+        "aberrations"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Old Gods of Appalachia"
+    },
+    {
+      "id": "hidden-people",
+      "name": "The Hidden People",
+      "role": "story",
+      "themes": [
+        "reach",
+        "attina",
+        "eilistraee"
+      ],
+      "rss_candidates": [],
+      "apple_search": "The Hidden People"
+    },
+    {
+      "id": "heart-pyre",
+      "name": "The Heart Pyre",
+      "role": "story",
+      "themes": [
+        "attina",
+        "wall",
+        "aberrations"
+      ],
+      "rss_candidates": [],
+      "apple_search": "The Heart Pyre"
+    },
+    {
+      "id": "warlock",
+      "name": "Warlock",
+      "role": "story",
+      "themes": [
+        "attina",
+        "reach",
+        "eilistraee"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Warlock audio drama"
+    },
+    {
+      "id": "dark-ages",
+      "name": "Dark Ages",
+      "role": "story",
+      "themes": [
+        "reach",
+        "itich",
+        "aberrations"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Dark Ages audio drama"
+    },
+    {
+      "id": "axe-crown",
+      "name": "The Axe & Crown",
+      "role": "story",
+      "themes": [
+        "reach",
+        "itich",
+        "eilistraee"
+      ],
+      "rss_candidates": [],
+      "apple_search": "The Axe & Crown"
+    },
+    {
+      "id": "ordinary-epic",
+      "name": "The Ordinary Epic",
+      "role": "story",
+      "themes": [
+        "reach",
+        "attina",
+        "itich"
+      ],
+      "rss_candidates": [],
+      "apple_search": "The Ordinary Epic"
+    },
+    {
+      "id": "worlds-beyond-number",
+      "name": "Worlds Beyond Number",
+      "role": "actual_play",
+      "themes": [
+        "reach",
+        "eilistraee",
+        "itich",
+        "attina"
+      ],
+      "rss_candidates": [
+        "https://feeds.simplecast.com/IAPnSSRO"
+      ],
+      "apple_search": "Worlds Beyond Number"
+    },
+    {
+      "id": "dark-dice",
+      "name": "Dark Dice",
+      "role": "actual_play",
+      "themes": [
+        "wall",
+        "itich",
+        "aberrations"
+      ],
+      "rss_candidates": [
+        "https://feeds.megaphone.fm/SBP9028289759"
+      ],
+      "apple_search": "Dark Dice"
+    },
+    {
+      "id": "drow-dracoliches",
+      "name": "RPPR — Drow and Dracoliches",
+      "role": "actual_play",
+      "themes": [
+        "eilistraee",
+        "attina",
+        "aberrations"
+      ],
+      "rss_candidates": [
+        "https://actualplay.roleplayingpublicradio.com/tag/drow-and-dracoliches/feed/",
+        "https://actualplay.roleplayingpublicradio.com/feed/"
+      ],
+      "apple_search": "RPPR Actual Play",
+      "required_title": "drow and dracoliches"
+    },
+    {
+      "id": "drakkenheim",
+      "name": "Dungeons of Drakkenheim",
+      "role": "actual_play",
+      "themes": [
+        "reach",
+        "wall",
+        "aberrations"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Dungeons of Drakkenheim"
+    },
+    {
+      "id": "naddpod",
+      "name": "Not Another D&D Podcast",
+      "role": "actual_play",
+      "themes": [
+        "reach",
+        "itich",
+        "eilistraee"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Not Another D&D Podcast"
+    },
+    {
+      "id": "high-rollers",
+      "name": "High Rollers DnD",
+      "role": "actual_play",
+      "themes": [
+        "eilistraee",
+        "attina",
+        "aberrations"
+      ],
+      "rss_candidates": [],
+      "apple_search": "High Rollers DnD"
+    },
+    {
+      "id": "lucky-die",
+      "name": "The Lucky Die",
+      "role": "actual_play",
+      "themes": [
+        "itich",
+        "wall",
+        "attina"
+      ],
+      "rss_candidates": [],
+      "apple_search": "The Lucky Die"
+    },
+    {
+      "id": "dungeons-randomness",
+      "name": "Dungeons and Randomness",
+      "role": "actual_play",
+      "themes": [
+        "reach",
+        "itich",
+        "wall"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Dungeons and Randomness"
+    },
+    {
+      "id": "girls-dnd",
+      "name": "Girls Who Don't DnD",
+      "role": "actual_play",
+      "themes": [
+        "reach",
+        "attina",
+        "eilistraee"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Girls Who Don't DnD"
+    },
+    {
+      "id": "dice-shame",
+      "name": "Dice Shame",
+      "role": "actual_play",
+      "themes": [
+        "itich",
+        "wall",
+        "aberrations"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Dice Shame"
+    },
+    {
+      "id": "venture-forth",
+      "name": "Venture Forth",
+      "role": "actual_play",
+      "themes": [
+        "attina",
+        "reach",
+        "wall"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Venture Forth D&D"
+    },
+    {
+      "id": "adventure-zone",
+      "name": "The Adventure Zone",
+      "role": "actual_play",
+      "themes": [
+        "reach",
+        "attina",
+        "aberrations"
+      ],
+      "rss_candidates": [],
+      "apple_search": "The Adventure Zone"
+    },
+    {
+      "id": "critical-role",
+      "name": "Critical Role",
+      "role": "actual_play",
+      "themes": [
+        "eilistraee",
+        "reach",
+        "attina"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Critical Role"
+    },
+    {
+      "id": "dungeons-daddies",
+      "name": "Dungeons and Daddies",
+      "role": "actual_play",
+      "themes": [
+        "reach",
+        "attina",
+        "wall"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Dungeons and Daddies"
+    },
+    {
+      "id": "stinky-dragon",
+      "name": "Tales from the Stinky Dragon",
+      "role": "actual_play",
+      "themes": [
+        "reach",
+        "itich",
+        "eilistraee"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Tales from the Stinky Dragon"
+    },
+    {
+      "id": "tabletop-gold",
+      "name": "Tabletop Gold",
+      "role": "actual_play",
+      "themes": [
+        "itich",
+        "wall",
+        "aberrations"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Tabletop Gold"
+    },
+    {
+      "id": "broadswords",
+      "name": "The Broadswords",
+      "role": "actual_play",
+      "themes": [
+        "eilistraee",
+        "attina",
+        "reach"
+      ],
+      "rss_candidates": [],
+      "apple_search": "The Broadswords"
+    },
+    {
+      "id": "encounter-party",
+      "name": "Encounter Party",
+      "role": "actual_play",
+      "themes": [
+        "reach",
+        "aberrations",
+        "wall"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Encounter Party"
+    },
+    {
+      "id": "adventures-erylia",
+      "name": "Adventures in Erylia",
+      "role": "actual_play",
+      "themes": [
+        "reach",
+        "itich",
+        "attina"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Adventures in Erylia"
+    },
+    {
+      "id": "rppr",
+      "name": "RPPR Actual Play",
+      "role": "actual_play",
+      "themes": [
+        "wall",
+        "itich",
+        "aberrations"
+      ],
+      "rss_candidates": [
+        "https://actualplay.roleplayingpublicradio.com/feed/"
+      ],
+      "apple_search": "RPPR Actual Play"
+    },
+    {
+      "id": "tale-of-manticore",
+      "name": "Tale of the Manticore",
+      "role": "actual_play",
+      "themes": [
+        "itich",
+        "wall",
+        "aberrations"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Tale of the Manticore"
+    },
+    {
+      "id": "join-party",
+      "name": "Join the Party",
+      "role": "actual_play",
+      "themes": [
+        "reach",
+        "eilistraee",
+        "attina"
+      ],
+      "rss_candidates": [],
+      "apple_search": "Join the Party"
+    }
+  ]
+}
