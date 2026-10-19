@@ -1,0 +1,69 @@
+name: Publish Magudonya Story and Actual Play RSS
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "magudonya/catalog.json"
+      - "magudonya/generate_feed.py"
+      - "magudonya/README.md"
+      - ".github/workflows/update-magudonya-feed.yml"
+  schedule:
+    - cron: "43 4 * * 2"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: magudonya-curated-rss
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python image dependency
+        run: python3 -m pip install --disable-pip-version-check pillow
+      - name: Build original publisher RSS anthology
+        run: python3 -u magudonya/generate_feed.py
+      - name: Validate 120-track interleave, integrity and artwork
+        run: |
+          python3 - <<'PY'
+          import json,xml.etree.ElementTree as E
+          from pathlib import Path
+          root=Path('magudonya')
+          status=json.loads((root/'status.json').read_text())
+          assert status['state']=='published',status
+          assert status['total_episodes']==120,status
+          assert status['story']==status['actual_play']==60
+          assert status['interleave_valid']
+          items=E.parse(root/'feed-v2.xml').findall('./channel/item')
+          assert len(items)==120,len(items)
+          assert len({x.findtext('guid') for x in items})==120
+          assert all((x.find('enclosure').get('url') or '').startswith('https://') for x in items)
+          assert all(int(x.find('enclosure').get('length',0))>0 for x in items)
+          assert len(E.parse(root/'feed.xml').findall('./channel/item'))==120
+          assert (root/'cover.png').read_bytes()[:8]==b'\x89PNG\r\n\x1a\n'
+          data=json.loads((root/'episodes.json').read_text())
+          assert len(data)==120
+          assert all(data[i]['role']=='story' if i%2==0 else data[i]['role']=='actual_play' for i in range(120))
+          assert {x['theme'] for x in data}==set(json.loads((root/'catalog.json').read_text())['themes'])
+          print('PASS: 120 unique direct-publisher enclosures, 60/60 interleave, 6 chapters, PNG')
+          PY
+      - name: Publish validated feed and manifest to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add magudonya/feed-v2.xml magudonya/feed.xml magudonya/cover.png magudonya/status.json magudonya/episodes.md magudonya/episodes.json magudonya/selection-lock.json
+          if git diff --cached --quiet; then
+            echo "No changes to Magudonya RSS"
+          else
+            git commit -m "Publish 120 verified Magudonya story and actual-play tracks"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
