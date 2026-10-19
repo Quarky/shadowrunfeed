@@ -1,0 +1,10 @@
+{
+  "generated_at": null,
+  "state": "configured_not_published",
+  "target_episodes": 120,
+  "verified_episodes": 0,
+  "stories": 0,
+  "actual_play": 0,
+  "audio_rehosted": false,
+  "message": "The generator, 38-source catalog and publishing workflow are committed. GitHub has not yet committed a successful validated output; the RSS URL must not be represented as live."
+}
