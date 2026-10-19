@@ -64,6 +64,8 @@ jobs:
             echo "No changes to Magudonya RSS"
           else
             git commit -m "Publish 120 verified Magudonya story and actual-play tracks"
-            git pull --rebase origin main
+            # Generated files are authoritative for this workflow; a concurrently
+            # committed placeholder status must not create an add/add conflict.
+            git pull --rebase -X theirs origin main
             git push origin HEAD:main
           fi
