@@ -1,10 +1,22 @@
 {
-  "generated_at": null,
-  "state": "configured_not_published",
-  "target_episodes": 120,
-  "verified_episodes": 0,
-  "stories": 0,
-  "actual_play": 0,
+  "generated_at": "2026-10-19T22:11:01.516221+00:00",
+  "state": "published",
+  "total_episodes": 120,
+  "story": 60,
+  "actual_play": 60,
+  "themes": {
+    "reach": 20,
+    "eilistraee": 20,
+    "itich": 20,
+    "wall": 20,
+    "attina": 20,
+    "aberrations": 20
+  },
+  "available_sources": 37,
+  "configured_sources": 38,
+  "unavailable_sources": {
+    "aethuran": "HTTPError: HTTP Error 404: Not Found"
+  },
   "audio_rehosted": false,
-  "message": "The generator, 38-source catalog and publishing workflow are committed. GitHub has not yet committed a successful validated output; the RSS URL must not be represented as live."
+  "interleave_valid": true
 }
