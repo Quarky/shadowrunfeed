@@ -105,8 +105,9 @@ def entries_from(src, channel):
         if enc is None: continue
         url = (enc.get("url") or "").strip()
         if not url.startswith("https://"): continue
-        length=validate_length(enc)
-        if length <= 0: continue
+        # Defer slow HEAD requests until episodes are actually selected.
+        try: length=max(0,int(enc.get("length") or 0))
+        except (TypeError, ValueError): length=0
         guid=(x.findtext("guid") or "").strip() or url
         link=(x.findtext("link") or "").strip()
         duration=x.findtext("{%s}duration" % ITUNES) or ""
@@ -283,6 +284,18 @@ def main():
             selected.append({"theme":theme,"episode":play})
     assert len(selected)==120, len(selected)
     assert len(set(x["episode"]["key"] for x in selected))==120
+    # Validate original RSS enclosure sizes only for the 120 winners.
+    # Some providers omit length in their feeds; HEAD provides actual bytes.
+    def selected_length(p):
+        e=p["episode"]
+        return validate_length(ET.Element("enclosure", {"url":e["url"],"length":str(e["length"])}))
+    with cf.ThreadPoolExecutor(max_workers=24) as pool:
+        lengths=list(pool.map(selected_length, selected))
+    missing=[f'{p["episode"]["source"]}: {p["episode"]["title"]}' for p,n in zip(selected,lengths) if n<1]
+    if missing:
+        raise RuntimeError("No verifiable audio size for selected episode(s): "+ "; ".join(missing))
+    for p,n in zip(selected,lengths):
+        p["episode"]["length"]=n
     make_rss(selected)
     create_cover(HERE/"cover.png")
     summary={"generated_at":datetime.now(timezone.utc).isoformat(),"state":"published","total_episodes":len(selected),"story":60,"actual_play":60,"themes":{t:20 for t in THEMES},"available_sources":len(sources)-len(errors),"configured_sources":len(sources),"unavailable_sources":errors,"audio_rehosted":False,"interleave_valid":all((x["episode"]["role"]=="story" if i%2==0 else x["episode"]["role"]=="actual_play") for i,x in enumerate(selected))}
