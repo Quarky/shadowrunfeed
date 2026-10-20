@@ -42,7 +42,56 @@ def main():
         image.save(path,format="PNG",optimize=True)
 
     engine["create_cover"] = cover
+
+    # Pin the 23 individually audited episode swaps to their original slots,
+    # preserving the other 97 items, their positions and their GUIDs.
+    plan = json.loads((HERE / "replacement-plan.json").read_text(encoding="utf-8"))
+    baseline = json.loads((HERE / "episode-baseline-2026-10-20.json").read_text(encoding="utf-8"))["episodes"]
+    original_lock = json.loads((HERE / "selection-lock.json").read_text(encoding="utf-8"))
+    positions = {int(p): record for p, record in plan["replacements"].items()}
+    assert len(positions) == 23 and len(baseline) == 120
+    assert len({r["episode_key"] for r in positions.values()}) == 23
+    themes = list(catalog["themes"])
+    for number, record in positions.items():
+        assert 1 <= number <= 120
+        theme = themes[(number - 1) // 20]
+        role = "story" if number % 2 else "actual_play"
+        offset = ((number - 1) % 20) // 2
+        assert record["number"] == number
+        assert record["theme"] == theme and record["role"] == role
+        src = next(s for s in catalog["sources"] if s["id"] == record["source"])
+        assert role == src["role"] and theme in src["themes"]
+        assert original_lock[theme][role][offset] != record["episode_key"]
+        original_lock[theme][role][offset] = record["episode_key"]
+    (HERE / "selection-lock.json").write_text(
+        json.dumps(original_lock, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
     engine["main"]()
+
+    # Fail the release before publishing if a publisher RSS has changed or a
+    # normal pre-existing episode moved. RSS GUIDs are authoritative identities.
+    generated = json.loads((HERE / "episodes.json").read_text(encoding="utf-8"))
+    import xml.etree.ElementTree as ET
+    xml_items = ET.parse(HERE / "feed-v2.xml").findall("./channel/item")
+    assert len(generated) == len(xml_items) == 120
+    bad = []
+    for i, (entry, item, prior) in enumerate(zip(generated, xml_items, baseline), 1):
+        guid = item.findtext("guid")
+        if i in positions:
+            wanted = positions[i]
+            wanted_source = next(s for s in catalog["sources"] if s["id"] == wanted["source"])
+            if not (entry["title"] == wanted["title"] and
+                    entry["publisher"] == wanted_source["name"] and
+                    entry["theme"] == wanted["theme"] and entry["role"] == wanted["role"] and
+                    guid != prior["guid"]):
+                bad.append((i, "Replacement not found", entry["title"]))
+        else:
+            if not (entry["title"] == prior["title"] and
+                    entry["publisher"] == prior["publisher"] and guid == prior["guid"]):
+                bad.append((i, "Original changed", entry["title"]))
+    if bad:
+        raise RuntimeError("Anomaly 23-swap integrity failed: " + repr(bad))
+    print("PASS 23 reviewed replacements, 97 original GUIDs unchanged, 120 entries", flush=True)
 
     for name in ("feed-v2.xml","feed.xml"):
         path=HERE/name
