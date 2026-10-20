@@ -53,7 +53,7 @@ RSS={
  "adventures-erylia":"https://rss.buzzsprout.com/2611503.rss"
 }
 # Full episodes only; remove promotional/metadata-only/genre-mismatched items.
-BAD=re.compile(r"\b(trailer|teaser|bonus|introduc(?:ing|tion)|promo|advert|recap|behind the scenes|bloop|table talk|meet the |start here|listening order|session zero|campaign announcement|welcome to worlds beyond number|prelude guide|feed drop|outtakes|episode 0\\b|episode zero|patreon|character creation)\b",re.I)
+BAD=re.compile(r"\b(trailer|teaser|bonus|introduc(?:ing|tion)|promo|advert|recap|behind the scenes|bloop|table talk|meet the |start here|listening order|session zero|campaign announcement|welcome to worlds beyond number|prelude guide|feed drop|outtakes|episode 0\b|episode zero|patreon|character creation)\b",re.I)
 SCI=re.compile(r"(?:Doctor Who|Dark Journey|Mutants in the Now|Delta Green|Cyberpunk|Star Wars|Traveller|The Expanse)",re.I)
 NEED=set(k for t in json.loads((ROOT/"selection-lock.json").read_text()).values() for l in t.values() for k in l)
 def load(s):
@@ -98,7 +98,7 @@ def main():
    # include only top 100 so reviewed payload remains modest
    grouped[theme][role]=reduced[:85]
  output["per_theme"]=grouped
- (ROOT/"replacement-candidates.json").write_text(json.dumps(output,indent=2,ensure_ascii=False)+"\\n")
+ (ROOT/"replacement-candidates.json").write_text(json.dumps(output,indent=2,ensure_ascii=False)+"\n")
  print("Candidate counts",json.dumps({t:{r:len(v) for r,v in roles.items()} for t,roles in grouped.items()}),flush=True)
  if not any(grouped[t]["story"] and grouped[t]["actual_play"] for t in grouped):
   raise RuntimeError("No usable authenticated podcast episodes discovered")
