@@ -243,21 +243,6 @@
       "apple_search": "The Ordinary Epic"
     },
     {
-      "id": "worlds-beyond-number",
-      "name": "Worlds Beyond Number",
-      "role": "actual_play",
-      "themes": [
-        "communities",
-        "eilistraee",
-        "itich",
-        "attina"
-      ],
-      "rss_candidates": [
-        "https://feeds.simplecast.com/IAPnSSRO"
-      ],
-      "apple_search": "Worlds Beyond Number"
-    },
-    {
       "id": "dark-dice",
       "name": "Dark Dice",
       "role": "actual_play",
@@ -286,20 +271,6 @@
       ],
       "apple_search": "RPPR Actual Play",
       "required_title": "drow and dracoliches"
-    },
-    {
-      "id": "drakkenheim",
-      "name": "Dungeons of Drakkenheim",
-      "role": "actual_play",
-      "themes": [
-        "communities",
-        "wall",
-        "aberrations"
-      ],
-      "rss_candidates": [
-        "https://rss.libsyn.com/shows/201575/destinations/1438583.xml"
-      ],
-      "apple_search": "Dungeons of Drakkenheim"
     },
     {
       "id": "naddpod",
@@ -554,5 +525,5 @@
       "apple_search": "Join the Party"
     }
   ],
-  "curating_notes": "Do not use show-level podcast roles as proof each episode is gameplay: curation-plan replacement keys are pinned to verified full episodes. Dark Ages was Doctor Who crossover, so removed. Generic RPPR restricted to Heart: The City Beneath rather than unrelated science fiction. Critical Role's Weave Mind eligible for aberrations."
+  "curating_notes": "Do not use show-level podcast roles as proof each episode is gameplay: curation-plan replacement keys are pinned to verified full episodes. Dark Ages was Doctor Who crossover, so removed. Generic RPPR restricted to Heart: The City Beneath rather than unrelated science fiction. Critical Role's Weave Mind eligible for aberrations. Already-listened Worlds Beyond Number and Drakkenheim recordings moved to separate optional RSS; both excluded from primary feed source selection."
 }
