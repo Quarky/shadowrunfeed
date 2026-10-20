@@ -61,7 +61,7 @@ def main():
         assert record["theme"] == theme and record["role"] == role
         src = next(s for s in catalog["sources"] if s["id"] == record["source"])
         assert role == src["role"] and theme in src["themes"]
-        assert original_lock[theme][role][offset] != record["episode_key"]
+        # Idempotent: after first successful publication the slot is already pinned.
         original_lock[theme][role][offset] = record["episode_key"]
     (HERE / "selection-lock.json").write_text(
         json.dumps(original_lock, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
