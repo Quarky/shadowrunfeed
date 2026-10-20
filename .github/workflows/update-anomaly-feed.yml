@@ -50,7 +50,7 @@ jobs:
           assert len(items)==120,len(items)
           ids=[x.findtext('guid') for x in items]
           assert len(set(ids))==120
-          assert all(x.startswith('urn:anomaly:fresh:2026:') for x in ids)
+          assert all(x.startswith('urn:uuid:') for x in ids)
           assert 'magudonya' not in (root/'feed-v2.xml').read_text(encoding='utf-8').lower()
           assert items[0].findtext('title').startswith('001 - STORY - ')
           assert E.parse(root/'feed-v2.xml').findtext('./channel/{http://www.itunes.com/dtds/podcast-1.0.dtd}explicit')=='true'
