@@ -6,20 +6,20 @@
       "inn-between::20e535b63690401d9d9a7626891f2e83",
       "ordinary-epic::cff3d916d373415198c52bdf795db566",
       "once-future-nerd::http://onceandfuturenerd.com/?p=215",
+      "alba-salix::9617346f72286509b6a676a44df20b98",
       "alba-salix::50588ca6a133b05ac793432cf0345755",
       "hidden-people::daytonwritersmovement.podbean.com/the-ant-farm-4026f120ed924b033f52c187c0f32077",
-      "penumbra::f248e5bf-c6c8-4c88-9ca8-5a6974bf6b5b",
-      "ordinary-epic::cadd87a659b44b5b892bdb8b319b6dd8",
-      "once-future-nerd::http://onceandfuturenerd.com/?p=334"
+      "inn-between::7f0e8704-5b9c-450a-bf1d-0e7ba3f1972a",
+      "penumbra::f248e5bf-c6c8-4c88-9ca8-5a6974bf6b5b"
     ],
     "actual_play": [
       "encounter-party::https://api.spreaker.com/episode/17392436",
       "drakkenheim::9844e5e25fa545a3a597106d6e0f30b3",
       "venture-forth::Buzzsprout-7949080",
-      "naddpod::gid://art19-episode-locator/V0/ztE9Nr7w6GLOL_uUhnU5GlOP1kH1bxt61FiNvq2KfRI",
-      "worlds-beyond-number::d09aee12-aadb-49bc-acd9-8ffa964c52cb",
-      "stinky-dragon::ca132244-a14b-11eb-b65d-0f796b5d4345",
-      "join-party::5c0599c2-411e-4129-9ec8-11e7fd1a71dc",
+      "adventures-erylia::adventuresinerylia.podbean.com/the-village-of-starren-erylian-epic-ep-12-fd71a1a8339d20a0ed69e6b3a0963f1d",
+      "encounter-party::610ecbf2-e2e8-4bc6-82bf-b042cc863ec3",
+      "stinky-dragon::35e93588-076f-11f1-ad3b-5b6a862894bc",
+      "drakkenheim::430a5f47-feba-4715-ab21-543fad57dc88",
       "girls-dnd::girlswhodontdnd.podbean.com/93ab983a-9258-3bcd-bc7d-6a3cfa2b68e6",
       "dungeons-daddies::eebf3190-f9b9-4e61-a50e-661684e50d59",
       "critical-role::critrole.podbean.com/c2e20-labenda-awaits-97f6cab0ce0765219353db63f0b1538b"
@@ -28,6 +28,7 @@
   "eilistraee": {
     "story": [
       "silt-verses::5fec6de02c11c711a01d7562",
+      "once-future-nerd::http://onceandfuturenerd.com/?p=334",
       "penumbra::9837f982-450b-4b12-a406-2f64fecb0d88",
       "inn-between::e1945bfa16a84363a525b9f4af7e4143",
       "hidden-people::daytonwritersmovement.podbean.com/official-statements-006a82d7c27686d519c6f0a90f85108f",
@@ -35,14 +36,13 @@
       "call-flame::5b2193093917ee91d5cf7090:5b3fde806d2a73e319353223:5b49a8ba562fa75c9602459a",
       "silt-verses::600429e77be22d077a2f40d0",
       "once-future-nerd::http://onceandfuturenerd.com/?p=336",
-      "penumbra::344952cc-e16b-4189-9f0f-6249276ec80c",
-      "once-future-nerd::http://onceandfuturenerd.com/?p=359"
+      "penumbra::344952cc-e16b-4189-9f0f-6249276ec80c"
     ],
     "actual_play": [
       "drow-dracoliches::https://actualplay.roleplayingpublicradio.com/?p=4299",
       "drow-dracoliches::https://actualplay.roleplayingpublicradio.com/?p=4308",
       "naddpod::gid://art19-episode-locator/V0/aXSCIOvhdGp-Nc3DF1UDZV6VjPMoF47uUck5qAqCLvI",
-      "join-party::9a026378-ee6c-45df-964f-066c5e291561",
+      "high-rollers::d40ab6e96fa64733b08ec0ba68037fb5",
       "worlds-beyond-number::568257b9-c518-4767-a8f8-a3c469298531",
       "stinky-dragon::5511cc7c-ac57-11eb-a746-cb935ee76be8",
       "high-rollers::be6acbb6ba3240cab82a26d14c2df24b",
@@ -53,28 +53,28 @@
   },
   "itich": {
     "story": [
+      "ordinary-epic::cadd87a659b44b5b892bdb8b319b6dd8",
+      "once-future-nerd::http://onceandfuturenerd.com/?p=359",
       "old-gods::http://www.oldgodsofappalachia.com/uploads/episodes/season01_episode00_prologue.m4a",
+      "old-gods::64f908a34b29d800114be7e5",
       "carcerem::dbbddee6-fc44-11ea-9d96-378e4e070be9",
       "call-flame::5b2193093917ee91d5cf7090:5b3fde806d2a73e319353223:5b5c33cc758d46f72cc3260a",
       "alba-salix::26a5cc2d4a4ced82b274a49bc86e82c8",
       "ordinary-epic::2bd255ea9ac94038b46bd5c6371aa0c9",
       "once-future-nerd::http://onceandfuturenerd.com/?p=460",
-      "old-gods::http://www.oldgodsofappalachia.com/uploads/episodes/season01_episode0.5_the-witch-queen.m4a",
-      "ordinary-epic::3ba17d01c56f4c2a92c15adb97ab18be",
-      "once-future-nerd::http://onceandfuturenerd.com/?p=486",
-      "carcerem::e0317d7c-fc47-11ea-8a95-e7f2225cc33f"
+      "old-gods::http://www.oldgodsofappalachia.com/uploads/episodes/season01_episode0.5_the-witch-queen.m4a"
     ],
     "actual_play": [
       "tabletop-gold::0d20fe80-7573-4cbd-ba15-a641e285ee71",
-      "tale-of-manticore::taleofthemanticore.podbean.com/bfbbf71b-f713-57e8-9ba0-7c164e576e97",
-      "adventures-erylia::adventuresinerylia.podbean.com/adventures-in-erylia-where-five-friends-sit-around-the-table-3dfc220d35638996d19cc047be0eaf9c",
+      "naddpod::gid://art19-episode-locator/V0/EJm6DDwfl6hocjcMABsXDdGD6_5h6AiwQ_CgveG5aWQ",
+      "stinky-dragon::ff6abbd6-61be-11f0-bbdc-4f97348025cd",
       "worlds-beyond-number::472b3635-251c-448c-bbd4-2365a724b93d",
       "stinky-dragon::7d185e30-b1ce-11eb-a432-8f677eb5fa69",
+      "dice-shame::68533deb0bed216db77c3caf",
       "naddpod::gid://art19-episode-locator/V0/gCenEjW9irmQ5iRssEWe9KAJW-RlU74Hwu594jT6fVY",
-      "lucky-die::1c0c6b36af2566ccff248fb538eb331b",
+      "dark-dice::6c576736-d5b1-4348-80e4-e31c25111cb1",
       "dice-shame::cf5ea7093d09463fa1e31c5715442f88",
-      "dark-dice::8373d18fa2a14f8bb8f1c39e062bcdd5",
-      "rppr::https://actualplay.roleplayingpublicradio.com/?p=3701"
+      "tabletop-gold::7480ead9-a91c-4f09-ad12-87cf95f25c18"
     ]
   },
   "wall": {
@@ -94,32 +94,32 @@
       "venture-forth::Buzzsprout-8179158",
       "tale-of-manticore::taleofthemanticore.podbean.com/6978113d-8443-5823-a110-657cd5df548a",
       "tabletop-gold::033c4304-429e-4571-8bb2-7b0ac5f655cd",
+      "rppr::https://actualplay.roleplayingpublicradio.com/?p=3701",
       "lucky-die::088f9ea79810e26b96693459a2dd3bba",
       "encounter-party::https://api.spreaker.com/episode/17411670",
-      "dungeons-daddies::eb7dc64f-7e0f-47c5-97a5-785cb2f2ed63",
+      "drakkenheim::f0b02872-a089-4849-afbf-5a0cf40728f6",
       "drakkenheim::1b606a62d0ac48f6ae4128438f041d12",
       "dice-shame::a7682c36ae8f48e2a87310fd7117ef7f",
-      "dark-dice::0fed1d7307894a82be0912c6e19b28fb",
-      "rppr::https://actualplay.roleplayingpublicradio.com/?p=3707"
+      "dark-dice::0fed1d7307894a82be0912c6e19b28fb"
     ]
   },
   "attina": {
     "story": [
       "silt-verses::604f17ec4dffb718f115fe6f",
+      "ordinary-epic::3ba17d01c56f4c2a92c15adb97ab18be",
       "inn-between::c6c9cdef92c14ad9ba92294ee51851f4",
       "hidden-people::daytonwritersmovement.podbean.com/a-game-of-thornes-e5c7b4f4b409ed3cdae90037535163de",
       "heart-pyre::Buzzsprout-10021423",
-      "counterbalance::1bd599bb7380468c8d51e67aee0afd5a",
+      "counterbalance::a230dbd0-b780-11f1-833b-d787e06db644",
+      "carcerem::e0317d7c-fc47-11ea-8a95-e7f2225cc33f",
       "alba-salix::6b5ef14248f4922b18c5207fadb72251",
-      "ordinary-epic::7c5b866676ed48d6b1e7cbd9f26094b7",
-      "carcerem::8444f938-fc49-11ea-8113-d310c325a153",
-      "silt-verses::606ac570f94283370ed1b6ca",
-      "ordinary-epic::8eab5b02953147c7968be84687f034de"
+      "counterbalance::9ec3532e-b780-11f1-833b-87de9a0c879d",
+      "carcerem::8444f938-fc49-11ea-8113-d310c325a153"
     ],
     "actual_play": [
       "venture-forth::Buzzsprout-8205499",
       "lucky-die::8815c74ffebecf8bf541294f484f99ab",
-      "join-party::f7d49175-777e-4f5c-818f-a544dd1a29a0",
+      "lucky-die::4405279a5e34ecc9b32dff1361fe0138",
       "critical-role::critrole.podbean.com/c2e22-lost-treasures-6462f2d4e4c228448e0c27c34f38ff6c",
       "worlds-beyond-number::4d09f201-14e9-48d2-b8de-f6ec50a721c7",
       "high-rollers::81d1b9f5fed74fc3aad0fddfe0075f08",
@@ -132,15 +132,15 @@
   "aberrations": {
     "story": [
       "penumbra::20a37c2f-4486-498a-b0bc-6d867d9e3837",
-      "old-gods::http://www.oldgodsofappalachia.com/uploads/episodes/season01_episode02.5_let-there-be-green.m4a",
+      "penumbra::1b256406-5eda-4e17-aa15-16fdbb2fe4fc",
+      "silt-verses::606ac570f94283370ed1b6ca",
+      "penumbra::71049a11-0823-4e13-9aa1-0bad002cbfdf",
       "heart-pyre::Buzzsprout-10109516",
       "carcerem::07290984-fcfe-11ea-b8c3-a77b70f7e881",
       "call-flame::5b2193093917ee91d5cf7090:5b3fde806d2a73e319353223:5b70b8994ae2373e2b08088e",
+      "old-gods::6a4f0d8bf8a80edf85104c8f",
       "penumbra::17152134-8661-43b9-8451-62305d0ae3aa",
-      "old-gods::http://www.oldgodsofappalachia.com/uploads/episodes/season01_episode03_the-covenant.m4a",
-      "silt-verses::607d2ce74ca26f19ed461f20",
-      "silt-verses::60a2108ab7d032227d1bd7ac",
-      "heart-pyre::Buzzsprout-10203507"
+      "old-gods::http://www.oldgodsofappalachia.com/uploads/episodes/season01_episode03_the-covenant.m4a"
     ],
     "actual_play": [
       "encounter-party::https://api.spreaker.com/episode/17469793",
@@ -148,11 +148,11 @@
       "dice-shame::4543559aacc644f49ee5669fd6a97d32",
       "tale-of-manticore::taleofthemanticore.podbean.com/bac8d02a-e767-5e1c-a06f-c827f487f3ff",
       "tabletop-gold::633b9ed5-d259-428e-af1c-c6705409cfbd",
+      "critical-role::189c38df-9210-481d-9a1f-6948cf2e4de7",
       "high-rollers::8fbb35fb98a14dd78342b71012b09779",
       "drakkenheim::deefc5e4152a42a7b5458a925eed51af",
-      "dark-dice::a42bad1642b9428680eb6996a56773c6",
-      "adventure-zone::f9343285c2bcbdcc9f5569b072d71833",
-      "critical-role::critrole.podbean.com/c2e23-have-bird-will-travel-335d27b4135a9dca93e6763144ccdfc6"
+      "high-rollers::f5136b3a-1c1e-4e15-953c-ccc96576d392",
+      "drakkenheim::360c06ca-e02a-48bc-b398-c99f0bd3cfbe"
     ]
   }
 }
