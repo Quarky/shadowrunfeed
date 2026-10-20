@@ -20,5 +20,5 @@
   "audio_rehosted": false,
   "interleave_valid": true,
   "published_rss_engine": "new-standalone-catalog",
-  "rss_identity": "anomaly:fresh:2026"
+  "rss_identity": "anomaly:new-2026-uuid"
 }
