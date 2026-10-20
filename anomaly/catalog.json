@@ -86,7 +86,9 @@
         "itich",
         "attina"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://rss.art19.com/alba-salix--royal-physician"
+      ],
       "apple_search": "Alba Salix Royal Physician"
     },
     {
@@ -98,7 +100,9 @@
         "wall",
         "attina"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.acast.com/public/shows/6ab68b65fb182c6fb5dc9171"
+      ],
       "apple_search": "Counterbalance"
     },
     {
@@ -110,7 +114,9 @@
         "attina",
         "aberrations"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.megaphone.fm/carceremtheseries"
+      ],
       "apple_search": "Carcerem"
     },
     {
@@ -122,7 +128,9 @@
         "itich",
         "aberrations"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://daisy-tangerine.squarespace.com/news?format=rss"
+      ],
       "apple_search": "The Call of the Flame"
     },
     {
@@ -148,7 +156,9 @@
         "eilistraee",
         "aberrations"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.acast.com/public/shows/6831c608381499796b234652"
+      ],
       "apple_search": "The Penumbra Podcast",
       "required_title": "second citadel"
     },
@@ -161,7 +171,9 @@
         "itich",
         "aberrations"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.acast.com/public/shows/61ba0a431a8cbeb6ea3cf11a"
+      ],
       "apple_search": "Old Gods of Appalachia"
     },
     {
@@ -173,7 +185,9 @@
         "attina",
         "eilistraee"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.megaphone.fm/SBP9476192479"
+      ],
       "apple_search": "The Hidden People"
     },
     {
@@ -185,7 +199,9 @@
         "wall",
         "aberrations"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://rss.buzzsprout.com/1896897.rss"
+      ],
       "apple_search": "The Heart Pyre"
     },
     {
@@ -199,18 +215,6 @@
       ],
       "rss_candidates": [],
       "apple_search": "Warlock audio drama"
-    },
-    {
-      "id": "dark-ages",
-      "name": "Dark Ages",
-      "role": "story",
-      "themes": [
-        "communities",
-        "itich",
-        "aberrations"
-      ],
-      "rss_candidates": [],
-      "apple_search": "Dark Ages audio drama"
     },
     {
       "id": "axe-crown",
@@ -233,7 +237,9 @@
         "attina",
         "itich"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.megaphone.fm/theordinaryepic"
+      ],
       "apple_search": "The Ordinary Epic"
     },
     {
@@ -290,7 +296,9 @@
         "wall",
         "aberrations"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://rss.libsyn.com/shows/201575/destinations/1438583.xml"
+      ],
       "apple_search": "Dungeons of Drakkenheim"
     },
     {
@@ -302,7 +310,9 @@
         "itich",
         "eilistraee"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://rss.art19.com/not-another-d-and-d-podcast"
+      ],
       "apple_search": "Not Another D&D Podcast"
     },
     {
@@ -314,7 +324,9 @@
         "attina",
         "aberrations"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.megaphone.fm/NSR8625352094"
+      ],
       "apple_search": "High Rollers DnD"
     },
     {
@@ -326,7 +338,9 @@
         "wall",
         "attina"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.acast.com/public/shows/6ab67e2362a47b6bec0eba41"
+      ],
       "apple_search": "The Lucky Die"
     },
     {
@@ -350,7 +364,9 @@
         "attina",
         "eilistraee"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.megaphone.fm/GWD8899491190"
+      ],
       "apple_search": "Girls Who Don't DnD"
     },
     {
@@ -362,7 +378,9 @@
         "wall",
         "aberrations"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.acast.com/public/shows/62691c6f17b69400149656fa"
+      ],
       "apple_search": "Dice Shame"
     },
     {
@@ -374,7 +392,9 @@
         "communities",
         "wall"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://rss.buzzsprout.com/1694983.rss"
+      ],
       "apple_search": "Venture Forth D&D"
     },
     {
@@ -386,7 +406,9 @@
         "attina",
         "aberrations"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.simplecast.com/cYQVc__c"
+      ],
       "apple_search": "The Adventure Zone"
     },
     {
@@ -396,9 +418,12 @@
       "themes": [
         "eilistraee",
         "communities",
-        "attina"
+        "attina",
+        "aberrations"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.simplecast.com/LXz4Q9rJ"
+      ],
       "apple_search": "Critical Role"
     },
     {
@@ -410,7 +435,9 @@
         "attina",
         "wall"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.acast.com/public/shows/46e42ca7-4921-5f04-a297-1970e72fd86d"
+      ],
       "apple_search": "Dungeons and Daddies"
     },
     {
@@ -422,7 +449,9 @@
         "itich",
         "eilistraee"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.megaphone.fm/stinkydragon"
+      ],
       "apple_search": "Tales from the Stinky Dragon"
     },
     {
@@ -434,7 +463,9 @@
         "wall",
         "aberrations"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.libsyn.com/355706/rss"
+      ],
       "apple_search": "Tabletop Gold"
     },
     {
@@ -446,7 +477,9 @@
         "attina",
         "communities"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.megaphone.fm/broadswords"
+      ],
       "apple_search": "The Broadswords"
     },
     {
@@ -458,7 +491,9 @@
         "aberrations",
         "wall"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://feeds.redcircle.com/925fac0e-79f3-49a1-b016-20c8de5ebaa0"
+      ],
       "apple_search": "Encounter Party"
     },
     {
@@ -470,7 +505,9 @@
         "itich",
         "attina"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://rss.buzzsprout.com/2611503.rss"
+      ],
       "apple_search": "Adventures in Erylia"
     },
     {
@@ -485,7 +522,8 @@
       "rss_candidates": [
         "https://actualplay.roleplayingpublicradio.com/feed/"
       ],
-      "apple_search": "RPPR Actual Play"
+      "apple_search": "RPPR Actual Play",
+      "required_title": "Heart The City Beneath"
     },
     {
       "id": "tale-of-manticore",
@@ -496,7 +534,9 @@
         "wall",
         "aberrations"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://www.spreaker.com/show/6276878/episodes/feed"
+      ],
       "apple_search": "Tale of the Manticore"
     },
     {
@@ -508,8 +548,11 @@
         "eilistraee",
         "attina"
       ],
-      "rss_candidates": [],
+      "rss_candidates": [
+        "https://rss.introcast.io/1238902672/rss.art19.com/join-the-party"
+      ],
       "apple_search": "Join the Party"
     }
-  ]
+  ],
+  "curating_notes": "Do not use show-level podcast roles as proof each episode is gameplay: curation-plan replacement keys are pinned to verified full episodes. Dark Ages was Doctor Who crossover, so removed. Generic RPPR restricted to Heart: The City Beneath rather than unrelated science fiction. Critical Role's Weave Mind eligible for aberrations."
 }
