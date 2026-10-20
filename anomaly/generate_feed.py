@@ -47,8 +47,8 @@ def main():
     baseline = json.loads((HERE / "episode-baseline-2026-10-20.json").read_text(encoding="utf-8"))["episodes"]
     original_lock = json.loads((HERE / "selection-lock-baseline-2026-10-20.json").read_text(encoding="utf-8"))
     positions = {int(p): record for p, record in plan["replacements"].items()}
-    assert len(positions) == 23 and len(baseline) == 120
-    assert len({r["episode_key"] for r in positions.values()}) == 23
+    assert len(positions) == 29 and len(baseline) == 120
+    assert len({r["episode_key"] for r in positions.values()}) == 29
     themes = list(catalog["themes"])
     for number, record in positions.items():
         assert 1 <= number <= 120
@@ -89,7 +89,10 @@ def main():
                 bad.append((i, "Original changed", entry["title"]))
     if bad:
         raise RuntimeError("Anomaly 23-swap integrity failed: " + repr(bad))
-    print("PASS 23 reviewed replacements, 97 original GUIDs unchanged, 120 entries", flush=True)
+    excluded = {"Worlds Beyond Number", "Dungeons of Drakkenheim"}
+    if any(ep["publisher"] in excluded for ep in generated):
+        raise RuntimeError("Already-listened shows still present in main feed")
+    print("PASS 29 reviewed positions, 91 original GUIDs unchanged, 120 entries", flush=True)
 
     for name in ("feed-v2.xml","feed.xml"):
         path=HERE/name
