@@ -92,7 +92,7 @@ def main() -> int:
         assert expected[CHECK[0]] == expected[CHECK[1]], (
             "The canonical and alternate feed paths differ"
         )
-        assert expected[CHECK[3]].startswith(b"\\x89PNG\\r\\n\\x1a\\n")
+        assert expected[CHECK[3]].startswith(b"\x89PNG\r\n\x1a\n")
         # The main feed is a discovery set. Already-listened shows are a
         # separate optional replay shelf; do not silently leak them back.
         main_entries = ET.fromstring(expected[CHECK[0]]).findall("./channel/item")
