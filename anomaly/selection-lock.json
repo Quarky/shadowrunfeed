@@ -14,12 +14,12 @@
     ],
     "actual_play": [
       "encounter-party::https://api.spreaker.com/episode/17392436",
-      "drakkenheim::9844e5e25fa545a3a597106d6e0f30b3",
+      "adventures-erylia::8b3b7183-9727-4a99-ba71-025573742326",
       "venture-forth::Buzzsprout-7949080",
       "adventures-erylia::adventuresinerylia.podbean.com/the-village-of-starren-erylian-epic-ep-12-fd71a1a8339d20a0ed69e6b3a0963f1d",
       "encounter-party::610ecbf2-e2e8-4bc6-82bf-b042cc863ec3",
       "stinky-dragon::35e93588-076f-11f1-ad3b-5b6a862894bc",
-      "drakkenheim::430a5f47-feba-4715-ab21-543fad57dc88",
+      "venture-forth::Buzzsprout-15640618",
       "girls-dnd::girlswhodontdnd.podbean.com/93ab983a-9258-3bcd-bc7d-6a3cfa2b68e6",
       "dungeons-daddies::eebf3190-f9b9-4e61-a50e-661684e50d59",
       "critical-role::critrole.podbean.com/c2e20-labenda-awaits-97f6cab0ce0765219353db63f0b1538b"
@@ -43,7 +43,7 @@
       "drow-dracoliches::https://actualplay.roleplayingpublicradio.com/?p=4308",
       "naddpod::gid://art19-episode-locator/V0/aXSCIOvhdGp-Nc3DF1UDZV6VjPMoF47uUck5qAqCLvI",
       "high-rollers::d40ab6e96fa64733b08ec0ba68037fb5",
-      "worlds-beyond-number::568257b9-c518-4767-a8f8-a3c469298531",
+      "critical-role::4efea02a-d6ff-4b31-8ab9-264c43e6b28e",
       "stinky-dragon::5511cc7c-ac57-11eb-a746-cb935ee76be8",
       "high-rollers::be6acbb6ba3240cab82a26d14c2df24b",
       "girls-dnd::girlswhodontdnd.podbean.com/57efd93c-1c90-37ba-a012-bde200f1d599",
@@ -68,7 +68,7 @@
       "tabletop-gold::0d20fe80-7573-4cbd-ba15-a641e285ee71",
       "naddpod::gid://art19-episode-locator/V0/EJm6DDwfl6hocjcMABsXDdGD6_5h6AiwQ_CgveG5aWQ",
       "stinky-dragon::ff6abbd6-61be-11f0-bbdc-4f97348025cd",
-      "worlds-beyond-number::472b3635-251c-448c-bbd4-2365a724b93d",
+      "dice-shame::68533d940bed216db77c239a",
       "stinky-dragon::7d185e30-b1ce-11eb-a432-8f677eb5fa69",
       "dice-shame::68533deb0bed216db77c3caf",
       "naddpod::gid://art19-episode-locator/V0/gCenEjW9irmQ5iRssEWe9KAJW-RlU74Hwu594jT6fVY",
@@ -97,8 +97,8 @@
       "rppr::https://actualplay.roleplayingpublicradio.com/?p=3701",
       "lucky-die::088f9ea79810e26b96693459a2dd3bba",
       "encounter-party::https://api.spreaker.com/episode/17411670",
-      "drakkenheim::f0b02872-a089-4849-afbf-5a0cf40728f6",
-      "drakkenheim::1b606a62d0ac48f6ae4128438f041d12",
+      "tabletop-gold::f85765cb-2d28-47a0-a2b3-b04b19f358f6",
+      "venture-forth::Buzzsprout-17228827",
       "dice-shame::a7682c36ae8f48e2a87310fd7117ef7f",
       "dark-dice::0fed1d7307894a82be0912c6e19b28fb"
     ]
@@ -121,7 +121,7 @@
       "lucky-die::8815c74ffebecf8bf541294f484f99ab",
       "lucky-die::4405279a5e34ecc9b32dff1361fe0138",
       "critical-role::critrole.podbean.com/c2e22-lost-treasures-6462f2d4e4c228448e0c27c34f38ff6c",
-      "worlds-beyond-number::4d09f201-14e9-48d2-b8de-f6ec50a721c7",
+      "broadswords::thebroadswords.podbean.com/s01e22-blood-magic-a0bb172f291ff1c779c29a5c549acc2a",
       "high-rollers::81d1b9f5fed74fc3aad0fddfe0075f08",
       "girls-dnd::girlswhodontdnd.podbean.com/e582b02a-e04e-38ad-8ac9-5120a1a06c15",
       "dungeons-daddies::825bab66-f33a-4fdd-bce9-734623c8207c",
@@ -150,9 +150,9 @@
       "tabletop-gold::633b9ed5-d259-428e-af1c-c6705409cfbd",
       "critical-role::189c38df-9210-481d-9a1f-6948cf2e4de7",
       "high-rollers::8fbb35fb98a14dd78342b71012b09779",
-      "drakkenheim::deefc5e4152a42a7b5458a925eed51af",
+      "tabletop-gold::c434192c-d7e5-4259-9752-faba8441868f",
       "high-rollers::f5136b3a-1c1e-4e15-953c-ccc96576d392",
-      "drakkenheim::360c06ca-e02a-48bc-b398-c99f0bd3cfbe"
+      "dice-shame::695f0d7b24334d02346e7949"
     ]
   }
 }

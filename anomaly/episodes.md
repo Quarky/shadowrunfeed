@@ -9,7 +9,7 @@ Settlements, societies, family ties, local customs, everyday interactions, allia
 001. **STORY** — [Something Happened](https://www.spreaker.com/user/16898964/something-happened) — *The Hidden People*
 002. **ACTUAL PLAY** — [Let's Get This Party Started](https://encounterparty.com/podcast/episode-1-lets-get-this-party-started) — *Encounter Party*
 003. **STORY** — [1.09: Second Citadel - The Head of the Janus Beast (Part 1)](https://sphinx.acast.com/p/open/s/6831c608381499796b234652/e/183cfb9a-25f5-497c-8acc-af68f9f230c8/media.mp3) — *The Penumbra Podcast*
-004. **ACTUAL PLAY** — [Episode 1: The Rat's Nest](https://dungeondudes.libsyn.com/dungeons-of-drakkenheim-episode-1-the-rats-nest) — *Dungeons of Drakkenheim*
+004. **ACTUAL PLAY** — [EE-3-12 - Interview With The Guild](https://www.buzzsprout.com/2611503/episodes/19297796-ee-3-12-interview-with-the-guild.mp3) — *Adventures in Erylia*
 005. **STORY** — [1.1: The Goblin's Head](https://traffic.libsyn.com/innbetween/1.1_-_The_Goblins_Head.mp3) — *Inn Between*
 006. **ACTUAL PLAY** — [Ep 1 - No Rest at Coldcrest](https://www.buzzsprout.com/1694983/episodes/7949080-ep-1-no-rest-at-coldcrest.mp3) — *Venture Forth*
 007. **STORY** — [Season One, Episode 1: The Group](https://tracking.swap.fm/track/WgbGgxzM3MFRwjmX5fnx/traffic.megaphone.fm/FAFO8053037422.mp3?updated=1630767504) — *The Ordinary Epic*
@@ -19,7 +19,7 @@ Settlements, societies, family ties, local customs, everyday interactions, allia
 011. **STORY** — [Alba Salix E105: To Market, To Market](https://albasalix.com/episodes/alba-s1-e5-to-market-to-market/) — *Alba Salix Royal Physician*
 012. **ACTUAL PLAY** — [[Tavern Tales] Infinights Interns and the Rules of Chaos](https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/pscrb.fm/rss/p/clrtpod.com/m/mgln.ai/e/485/traffic.megaphone.fm/GLSS6053232621.mp3?updated=1770832390) — *Tales from the Stinky Dragon*
 013. **STORY** — [Alba Salix E101: Well Met](https://albasalix.com/episodes/alba-s1-e1-well-met/) — *Alba Salix Royal Physician*
-014. **ACTUAL PLAY** — [Episode 46: Keys to the City](https://dungeondudes.libsyn.com/episode-46-keys-to-the-city) — *Dungeons of Drakkenheim*
+014. **ACTUAL PLAY** — [Ep 158 - Losers and Winners](https://www.buzzsprout.com/1694983/episodes/15640618-ep-158-losers-and-winners.mp3) — *Venture Forth*
 015. **STORY** — [The Ant Farm](https://www.spreaker.com/user/16898964/the-ant-farm) — *The Hidden People*
 016. **ACTUAL PLAY** — [S01E01: Throw it into the sea - GWDDnD - Ch1: The Amnesia Chronicles](https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/6bpBPtHL977KJxLX2zPs/pscrb.fm/rss/p/mgln.ai/e/485/traffic.megaphone.fm/GWD8183678378.mp3?updated=1752404993) — *Girls Who Don't DnD*
 017. **STORY** — [4.4: The Family](https://traffic.libsyn.com/innbetween/4.4_-_The_Family.mp3) — *Inn Between*
@@ -39,7 +39,7 @@ Eilistraee's followers, drow who reject Lolth, connections with high and wood el
 027. **STORY** — [1.2: The Gang](https://traffic.libsyn.com/innbetween/1.2_-_The_Gang.mp3) — *Inn Between*
 028. **ACTUAL PLAY** — [High Rollers: A Rogue's Gambit #8 |The Drow Who Loved Me](https://highrollersdnd.libsyn.com/high-rollers-a-rogues-gambit-8-the-drow-who-loved-me) — *High Rollers DnD*
 029. **STORY** — [Official Statements](https://www.spreaker.com/user/16898964/official-statements) — *The Hidden People*
-030. **ACTUAL PLAY** — [The Wizard, the Witch, and the Wild One: Preludes](https://worlds-beyond-number.simplecast.com/episodes/preludes-MuTbG6My) — *Worlds Beyond Number*
+030. **ACTUAL PLAY** — [C3E60 Faith or Famine](https://www.siriusxm.com) — *Critical Role*
 031. **STORY** — [01 | Windshell](https://trilunis.com/counterbalance-episode-01) — *Counterbalance*
 032. **ACTUAL PLAY** — [C01 - Ep. 01 - Infinight Interns - Welcome to Boulderay](https://www.patreon.com/posts/infinight-ep-1-105323414) — *Tales from the Stinky Dragon*
 033. **STORY** — [Chapter 1: The Barmaid of Gathland (Part 1 of 2)](https://thecalloftheflame.com/news/2018/7/14/chapter-1-the-barmaid-of-gathland-part-1-of-2) — *The Call of the Flame*
@@ -61,7 +61,7 @@ Primitive Itich insectoid survivors occupy an abandoned dwarven mine/forge, with
 045. **STORY** — [Episode 0: Prologue](https://www.oldgodsofappalachia.com/episodes/2019-10-31/episode-0_prologue/201910291201351048) — *Old Gods of Appalachia*
 046. **ACTUAL PLAY** — [C03 - Ep. 23 - Brig of Endridge Bay - Ancient Mistics](https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/pscrb.fm/rss/p/clrtpod.com/m/mgln.ai/e/485/traffic.megaphone.fm/GLSS4470018759.mp3?updated=1778449374) — *Tales from the Stinky Dragon*
 047. **STORY** — [Episode 52: The Men of the Rock](https://www.oldgodsofappalachia.com/episodes/2023-08-07/episode-52_the-men-of-the-rock/202309061918149633) — *Old Gods of Appalachia*
-048. **ACTUAL PLAY** — [The Wizard, the Witch, and the Wild One #1: The Open Door](https://worlds-beyond-number.simplecast.com/episodes/www-the-open-door-wq7sc3bz-WPwpb83x) — *Worlds Beyond Number*
+048. **ACTUAL PLAY** — [2-147 | 'What's Mine is Yours'](https://shows.acast.com/dice-shame/episodes/2-147-whats-mine-is-yours) — *Dice Shame*
 049. **STORY** — [Episode 1 - In the Land of Aaru - Part 1 of 2](https://pdst.fm/e/traffic.megaphone.fm/ADL7337341211.mp3?updated=1636397627) — *Carcerem*
 050. **ACTUAL PLAY** — [C01 - Ep. 02 - Infinight Interns - The Search for Dr. Ahem Pt. 1](https://www.patreon.com/posts/infinight-ep-2-1-105333768) — *Tales from the Stinky Dragon*
 051. **STORY** — [Chapter 1: The Barmaid of Gathland (Part 2 of 2)](https://thecalloftheflame.com/news/2018/7/28/chapter-2-the-barmaid-of-gathland-part-2-of-2) — *The Call of the Flame*
@@ -91,9 +91,9 @@ Collapsed earth wall, screamers as semiastral cave bacteria, tamed Wallfeeder, p
 071. **STORY** — [Episode 2: The Schoolhouse: Barlo Kentucky 1917: Part Two](https://www.oldgodsofappalachia.com/episodes/2019-11-14/episode-2_the-schoolhouse-barlo-kentucky-1917-part-two/201911140515406838) — *Old Gods of Appalachia*
 072. **ACTUAL PLAY** — [Deputized by the Boros](https://encounterparty.com/podcast/episode-2-deputized-by-the-boros) — *Encounter Party*
 073. **STORY** — [S1E2: Episode 2 - The Remains Of A Life](https://www.buzzsprout.com/1896897/episodes/9860394-s1e2-episode-2-the-remains-of-a-life.mp3) — *The Heart Pyre*
-074. **ACTUAL PLAY** — [Facing the Horrors of Drakkenheim Part 2: The Cacophonous Chimera](https://dungeondudes.libsyn.com/facing-the-horrors-of-drakkenheim-part-2-the-cacophonous-chimera) — *Dungeons of Drakkenheim*
+074. **ACTUAL PLAY** — [180 - "Poor Spore-ts" - The Roots of Ruin](https://tabletopgold.libsyn.com/180-poor-spore-ts-the-roots-of-ruin) — *Tabletop Gold*
 075. **STORY** — [03 | Ascending Deity](https://trilunis.com/counterbalance-episode-03) — *Counterbalance*
-076. **ACTUAL PLAY** — [Episode 2: Potion Inspectors](https://dungeondudes.libsyn.com/episode-2-potion-inspectors) — *Dungeons of Drakkenheim*
+076. **ACTUAL PLAY** — [Ep 188 - Scrap and Rubble](https://www.buzzsprout.com/1694983/episodes/17228827-ep-188-scrap-and-rubble.mp3) — *Venture Forth*
 077. **STORY** — [S1E3: Episode 3 - A Stranger In The Dark](https://www.buzzsprout.com/1896897/episodes/9935220-s1e3-episode-3-a-stranger-in-the-dark.mp3) — *The Heart Pyre*
 078. **ACTUAL PLAY** — [2 | 'The Break of Dawn'](https://diceshame.libsyn.com/2-the-break-of-dawn) — *Dice Shame*
 079. **STORY** — [Chapter 5: My Song Is Long And Twisted](https://www.thesiltverses.com/listen-now) — *The Silt Verses*
@@ -111,7 +111,7 @@ Attina's anomaly, magic, particles, relationships, choices and transformations; 
 087. **STORY** — [A Game of Thornes](https://www.spreaker.com/user/16898964/a-game-of-thornes) — *The Hidden People*
 088. **ACTUAL PLAY** — [C2E22 Lost Treasures](https://www.siriusxm.com) — *Critical Role*
 089. **STORY** — [S1E4: Episode 4 - A Cruel Silence](https://www.buzzsprout.com/1896897/episodes/10021423-s1e4-episode-4-a-cruel-silence.mp3) — *The Heart Pyre*
-090. **ACTUAL PLAY** — [WWW #2: The Naming of Things](https://worlds-beyond-number.simplecast.com/episodes/www-the-naming-of-things-slH7YYnZ) — *Worlds Beyond Number*
+090. **ACTUAL PLAY** — [S1E21: Blood Magic](https://traffic.megaphone.fm/FAFO5417318151.mp3?updated=1631752213) — *The Broadswords*
 091. **STORY** — [11 | Bonding Ritual](https://trilunis.com/counterbalance-episode-11/) — *Counterbalance*
 092. **ACTUAL PLAY** — [High Rollers: Aerois | #1 - Welcome to Aerois (Part 2)](https://highrollersdnd.libsyn.com/high-rollers-aerois-1-welcome-to-aerois-part-2) — *High Rollers DnD*
 093. **STORY** — [Episode 1 - In the Land of Aaru - Part 2 of 2](https://pdst.fm/e/traffic.megaphone.fm/ADL6727154803.mp3?updated=1636397791) — *Carcerem*
@@ -141,8 +141,8 @@ Elder-brain/aboleth/mind-flayer psychology, mind prison, illusions, Weave disrup
 113. **STORY** — [Chapter 2: The Gathering of the Voyagers (Part 1 of 2)](https://thecalloftheflame.com/news/2018/8/12/chapter-2-the-gathering-of-the-voyagers-part-1-of-2) — *The Call of the Flame*
 114. **ACTUAL PLAY** — [High Rollers: Aerois | #2 - Daddy's Lost Luggage (Part 1)](https://highrollersdnd.libsyn.com/high-rollers-aerois-2-into-the-lowlands-part-1) — *High Rollers DnD*
 115. **STORY** — [Episode 103: Final Arbitration](https://www.oldgodsofappalachia.com/episodes/2026-07-09/episode-103_final-arbitration/202607082152377976) — *Old Gods of Appalachia*
-116. **ACTUAL PLAY** — [Episode 3: Dog Days](https://dungeondudes.libsyn.com/episode-3-dog-days) — *Dungeons of Drakkenheim*
+116. **ACTUAL PLAY** — [21 - "Widdershins" - The Roots of Ruin](https://tabletopgold.libsyn.com/21-widdershins-the-roots-of-ruin) — *Tabletop Gold*
 117. **STORY** — [2.07: Second Citadel - Knight of the Crown, Lord of the Swamp (Part 2)](https://sphinx.acast.com/p/open/s/6831c608381499796b234652/e/17152134-8661-43b9-8451-62305d0ae3aa/media.mp3) — *The Penumbra Podcast*
 118. **ACTUAL PLAY** — [High Rollers: Aerois #73 | Minds of the Multiverse (Part 1)](https://highrollersdnd.libsyn.com/high-rollers-aerois-73-minds-of-the-multiverse-part-1) — *High Rollers DnD*
 119. **STORY** — [Episode 3: The Covenant: Barlo, Kentucky 1917:  Part Three](https://www.oldgodsofappalachia.com/episodes/2019-11-28/episode-3_the-covenant-barlo-kentucky-1917-part-three/201911140956046608) — *Old Gods of Appalachia*
-120. **ACTUAL PLAY** — [Fate of Drakkenheim Episode 41: Pirates of the Void](https://dungeondudes.libsyn.com/fate-of-drakkenheim-episode-41-pirates-of-the-void) — *Dungeons of Drakkenheim*
+120. **ACTUAL PLAY** — [2-176 | 'Mind Over Matter'](https://shows.acast.com/dice-shame/episodes/2-176-mind-over-matter) — *Dice Shame*
