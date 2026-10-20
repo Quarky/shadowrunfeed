@@ -1,4 +1,4 @@
-# Magudonya — Campaign-Matched 120-Episode Listening Order
+# Anomaly — Campaign-Matched 120-Episode Listening Order
 
 Stories and tabletop actual plays alternate one-for-one. Original chapter order preserved within each series. Themes are editorial inspiration; source events are **not** campaign canon.
 
