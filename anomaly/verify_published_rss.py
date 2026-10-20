@@ -166,7 +166,7 @@ def main() -> int:
 
         for p in CHECK:
             info = {"expected_sha256": sha(expected[p]), "matches": False}
-            for attempt in range(1, 8):
+            for attempt in range(1, 3):
                 try:
                     observed, headers = get(ROOT + p)
                     info.update(headers)
@@ -184,8 +184,8 @@ def main() -> int:
                 except Exception as e:
                     info["error"] = type(e).__name__ + ": " + str(e)[:240]
                     info["attempts"] = attempt
-                if attempt < 7:
-                    time.sleep(10)
+                if attempt < 2:
+                    time.sleep(4)
             report["paths"][p] = info
         report["state"] = ("verified" if all(x["matches"] for x in
                                              report["paths"].values())
