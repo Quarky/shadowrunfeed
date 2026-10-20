@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T16:34:26.178587+00:00",
+  "generated_at": "2026-10-20T16:34:43.678035+00:00",
   "state": "published",
   "total_episodes": 120,
   "story": 60,
@@ -12,8 +12,8 @@
     "attina": 20,
     "aberrations": 20
   },
-  "available_sources": 36,
-  "configured_sources": 37,
+  "available_sources": 34,
+  "configured_sources": 35,
   "unavailable_sources": {
     "aethuran": "HTTPError: HTTP Error 404: Not Found"
   },
