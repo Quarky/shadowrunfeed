@@ -7,6 +7,9 @@ on:
     paths:
       - "anomaly/catalog.json"
       - "anomaly/generate_feed.py"
+      - "anomaly/engine.py"
+      - "anomaly/replacement-plan.json"
+      - "anomaly/selection-lock-baseline-2026-10-20.json"
       - "anomaly/README.md"
       - ".github/workflows/update-anomaly-feed.yml"
   schedule:
@@ -43,6 +46,7 @@ jobs:
           assert status['story']==status['actual_play']==60
           assert status['interleave_valid']
           assert status['themes']['communities']==20
+          assert not (Path("magudonya")).exists(), "retired feed directory was recreated"
           assert "Veyrun" not in (root/"feed-v2.xml").read_text(encoding="utf-8")
           assert "/anomaly/" in (root/"feed-v2.xml").read_text(encoding="utf-8")
           items=E.parse(root/'feed-v2.xml').findall('./channel/item')
@@ -54,6 +58,9 @@ jobs:
           assert (root/'cover.png').read_bytes()[:8]==b'\x89PNG\r\n\x1a\n'
           data=json.loads((root/'episodes.json').read_text())
           assert len(data)==120
+          assert not any(x["publisher"] in ("Worlds Beyond Number", "Dungeons of Drakkenheim") for x in data), "familiar listening leaked into main feed"
+          optional=E.parse(root/'optional-listening'/'feed-v2.xml').findall('./channel/item')
+          assert len(optional)==9, "familiar replay shelf should hold nine original episodes"
           assert all(data[i]['role']=='story' if i%2==0 else data[i]['role']=='actual_play' for i in range(120))
           assert {x['theme'] for x in data}==set(json.loads((root/'catalog.json').read_text())['themes'])
           print('PASS: 120 unique direct-publisher enclosures, 60/60 interleave, 6 chapters, PNG')
