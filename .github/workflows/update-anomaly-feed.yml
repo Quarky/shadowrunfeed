@@ -8,6 +8,7 @@ on:
       - "anomaly/catalog.json"
       - "anomaly/generate_feed.py"
       - "anomaly/engine.py"
+      - "anomaly/verify_published_rss.py"
       - "anomaly/replacement-plan.json"
       - "anomaly/selection-lock-baseline-2026-10-20.json"
       - "anomaly/README.md"
@@ -25,7 +26,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 24
+    timeout-minutes: 28
     steps:
       - uses: actions/checkout@v4
         with:
@@ -79,3 +80,21 @@ jobs:
             git pull --rebase -X theirs origin main
             git push origin HEAD:main
           fi
+
+      - name: Purge cached branch URL and verify what Podbean can actually fetch
+        shell: bash
+        run: |
+          # A GitHub commit alone does not prove that @main is fresh at jsDelivr.
+          # The checker records HTTP/cache headers, exact RSS SHA-256 matches
+          # and Podbean-compatible episode metadata in cdn-health.json.
+          set +e
+          python3 -u anomaly/verify_published_rss.py
+          check_status=$?
+          set -e
+          git add anomaly/cdn-health.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record live Anomaly podcast CDN and RSS refresh evidence"
+            git pull --rebase -X theirs origin main
+            git push origin HEAD:main
+          fi
+          exit "$check_status"
