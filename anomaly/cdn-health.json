@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-20T18:41:52.255301+00:00",
+  "checked_at_utc": "2026-10-20T18:44:59.580955+00:00",
   "canonical_feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml",
   "state": "cdn_stale_or_inaccessible",
   "podbean_access": "External RSS compatibility checked; user account cannot be inspected",
@@ -9,10 +9,10 @@
       "matches": false,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "62",
+      "age": "60",
       "cache_control": "public, max-age=604800, s-maxage=43200",
-      "etag": "W/\"33c22-8da41e6e71288587\"",
-      "actual_sha256": "c72da4c0a33ea804905f1b471db283648eab7480d575a99143472186034414f2",
+      "etag": "W/\"33c22-f08a6e31b3a870d0\"",
+      "actual_sha256": "a3f9d348361afb5d0330471798bb25d86bf3cb7be24b3511a1455d8add0f1f42",
       "bytes": 212002,
       "attempts": 7
     },
@@ -21,13 +21,12 @@
       "matches": false,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "33",
+      "age": "60",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"33c22-f08a6e31b3a870d0\"",
       "actual_sha256": "a3f9d348361afb5d0330471798bb25d86bf3cb7be24b3511a1455d8add0f1f42",
       "bytes": 212002,
-      "attempts": 7,
-      "error": "TimeoutError: The read operation timed out"
+      "attempts": 7
     },
     "anomaly/optional-listening/feed-v2.xml": {
       "expected_sha256": "38675931e08dbb889e1988dc8a9a5fa4428f55d083f1b46262d77b27ceee2a82",
@@ -66,22 +65,22 @@
     "anomaly/feed-v2.xml": {
       "accepted": true,
       "http_status": 200,
-      "response": "{\n  \"id\": \"Ga0FWHroE2rES64k\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:41:52.434Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml\": {\n      \"throttled\": false,\n      \"providers\": {\n    "
+      "response": "{\n  \"id\": \"n3mgtnMVBBu8w71P\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:44:59.986Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml\": {\n      \"throttled\": true,\n      \"throttlingReset\": 8"
     },
     "anomaly/feed.xml": {
       "accepted": true,
       "http_status": 200,
-      "response": "{\n  \"id\": \"kKjat1UWGT4i5cgi\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:41:52.801Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/feed.xml\": {\n      \"throttled\": false,\n      \"providers\": {\n       "
+      "response": "{\n  \"id\": \"Pr2JAr2VliUuijS6\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:45:00.480Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/feed.xml\": {\n      \"throttled\": true,\n      \"throttlingReset\": 900\n"
     },
     "anomaly/optional-listening/feed-v2.xml": {
       "accepted": true,
       "http_status": 200,
-      "response": "{\n  \"id\": \"Yhwm7DWPbhf5db1K\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:41:53.166Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/optional-listening/feed-v2.xml\": {\n      \"throttled\": false,\n      "
+      "response": "{\n  \"id\": \"VfsZAltmXnxmYxcf\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:45:00.921Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/optional-listening/feed-v2.xml\": {\n      \"throttled\": true,\n      \""
     },
     "anomaly/cover.png": {
       "accepted": true,
       "http_status": 200,
-      "response": "{\n  \"id\": \"aP40tLO09GJI4Uqs\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:41:53.566Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/cover.png\": {\n      \"throttled\": false,\n      \"providers\": {\n      "
+      "response": "{\n  \"id\": \"Ye7kTZHgb0KUy9oE\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:45:01.340Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/cover.png\": {\n      \"throttled\": true,\n      \"throttlingReset\": 900"
     }
   }
 }
