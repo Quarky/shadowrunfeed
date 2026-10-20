@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-20T18:44:59.580955+00:00",
+  "checked_at_utc": "2026-10-20T18:47:13.877004+00:00",
   "canonical_feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml",
   "state": "cdn_stale_or_inaccessible",
   "podbean_access": "External RSS compatibility checked; user account cannot be inspected",
@@ -9,7 +9,7 @@
       "matches": false,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "60",
+      "age": "194",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"33c22-f08a6e31b3a870d0\"",
       "actual_sha256": "a3f9d348361afb5d0330471798bb25d86bf3cb7be24b3511a1455d8add0f1f42",
@@ -21,7 +21,7 @@
       "matches": false,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "60",
+      "age": "193",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"33c22-f08a6e31b3a870d0\"",
       "actual_sha256": "a3f9d348361afb5d0330471798bb25d86bf3cb7be24b3511a1455d8add0f1f42",
@@ -31,15 +31,14 @@
     "anomaly/optional-listening/feed-v2.xml": {
       "expected_sha256": "38675931e08dbb889e1988dc8a9a5fa4428f55d083f1b46262d77b27ceee2a82",
       "matches": true,
-      "error": "TimeoutError: The read operation timed out",
-      "attempts": 2,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "4",
+      "age": "133",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"415b-0f3b559fdcc67218\"",
       "actual_sha256": "38675931e08dbb889e1988dc8a9a5fa4428f55d083f1b46262d77b27ceee2a82",
       "bytes": 16731,
+      "attempts": 1,
       "rss_check": {
         "title": "Anomaly — Optional Familiar Listening",
         "episodes": 9,
@@ -53,7 +52,7 @@
       "matches": true,
       "http_status": 200,
       "content_type": "image/png",
-      "age": "",
+      "age": "132",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"8f32-17b1dfd66bb0247c\"",
       "actual_sha256": "58ca27e3069b596edfeae8e2699f403850eb59841e348099d97f7a64ebfcb93d",
@@ -65,22 +64,34 @@
     "anomaly/feed-v2.xml": {
       "accepted": true,
       "http_status": 200,
-      "response": "{\n  \"id\": \"n3mgtnMVBBu8w71P\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:44:59.986Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml\": {\n      \"throttled\": true,\n      \"throttlingReset\": 8"
+      "response": "{\n  \"id\": \"0Fui65WUav56aQiB\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:47:14.059Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml\": {\n      \"throttled\": true,\n      \"throttlingReset\": 765\n    }\n  }\n}"
     },
     "anomaly/feed.xml": {
       "accepted": true,
       "http_status": 200,
-      "response": "{\n  \"id\": \"Pr2JAr2VliUuijS6\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:45:00.480Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/feed.xml\": {\n      \"throttled\": true,\n      \"throttlingReset\": 900\n"
+      "response": "{\n  \"id\": \"mOZH8QGet5RkpjWT\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:47:14.277Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/feed.xml\": {\n      \"throttled\": true,\n      \"throttlingReset\": 766\n    }\n  }\n}"
     },
     "anomaly/optional-listening/feed-v2.xml": {
       "accepted": true,
       "http_status": 200,
-      "response": "{\n  \"id\": \"VfsZAltmXnxmYxcf\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:45:00.921Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/optional-listening/feed-v2.xml\": {\n      \"throttled\": true,\n      \""
+      "response": "{\n  \"id\": \"QsYSobkuAV5ov5Ii\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:47:14.495Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/optional-listening/feed-v2.xml\": {\n      \"throttled\": true,\n      \"throttlingReset\": 766\n    }\n  }\n}"
     },
     "anomaly/cover.png": {
       "accepted": true,
       "http_status": 200,
-      "response": "{\n  \"id\": \"Ye7kTZHgb0KUy9oE\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:45:01.340Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/cover.png\": {\n      \"throttled\": true,\n      \"throttlingReset\": 900"
+      "response": "{\n  \"id\": \"ddQo1xdWy9dFYzSL\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:47:14.703Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/cover.png\": {\n      \"throttled\": true,\n      \"throttlingReset\": 767\n    }\n  }\n}"
     }
+  },
+  "cache_busted_probe": {
+    "url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml?v=962d169e13d03a83de4b",
+    "matches": false,
+    "headers": {
+      "http_status": 200,
+      "content_type": "application/xml",
+      "age": "133",
+      "cache_control": "public, max-age=604800, s-maxage=43200",
+      "etag": "W/\"33c22-f08a6e31b3a870d0\""
+    },
+    "sha256": "a3f9d348361afb5d0330471798bb25d86bf3cb7be24b3511a1455d8add0f1f42"
   }
 }
