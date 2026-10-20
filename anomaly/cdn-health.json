@@ -1,0 +1,99 @@
+{
+  "checked_at_utc": "2026-10-20T17:59:59.383952+00:00",
+  "canonical_feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml",
+  "state": "verified",
+  "podbean_access": "External RSS compatibility checked; user account cannot be inspected",
+  "paths": {
+    "anomaly/feed-v2.xml": {
+      "expected_sha256": "c72da4c0a33ea804905f1b471db283648eab7480d575a99143472186034414f2",
+      "matches": true,
+      "http_status": 200,
+      "content_type": "application/xml",
+      "age": "",
+      "cache_control": "public, max-age=604800, s-maxage=43200",
+      "etag": "W/\"33c22-8da41e6e71288587\"",
+      "actual_sha256": "c72da4c0a33ea804905f1b471db283648eab7480d575a99143472186034414f2",
+      "bytes": 212002,
+      "attempts": 1,
+      "rss_check": {
+        "title": "Anomaly — D&D Campaign Stories and Actual Plays",
+        "episodes": 120,
+        "lastBuildDate": "Tue, 20 Oct 2026 17:59:57 +0000",
+        "unique_guids": 120,
+        "playable_enclosures": 120
+      }
+    },
+    "anomaly/feed.xml": {
+      "expected_sha256": "c72da4c0a33ea804905f1b471db283648eab7480d575a99143472186034414f2",
+      "matches": true,
+      "http_status": 200,
+      "content_type": "application/xml",
+      "age": "",
+      "cache_control": "public, max-age=604800, s-maxage=43200",
+      "etag": "W/\"33c22-8da41e6e71288587\"",
+      "actual_sha256": "c72da4c0a33ea804905f1b471db283648eab7480d575a99143472186034414f2",
+      "bytes": 212002,
+      "attempts": 1,
+      "rss_check": {
+        "title": "Anomaly — D&D Campaign Stories and Actual Plays",
+        "episodes": 120,
+        "lastBuildDate": "Tue, 20 Oct 2026 17:59:57 +0000",
+        "unique_guids": 120,
+        "playable_enclosures": 120
+      }
+    },
+    "anomaly/optional-listening/feed-v2.xml": {
+      "expected_sha256": "38675931e08dbb889e1988dc8a9a5fa4428f55d083f1b46262d77b27ceee2a82",
+      "matches": true,
+      "http_status": 200,
+      "content_type": "application/xml",
+      "age": "",
+      "cache_control": "public, max-age=604800, s-maxage=43200",
+      "etag": "W/\"415b-0f3b559fdcc67218\"",
+      "actual_sha256": "38675931e08dbb889e1988dc8a9a5fa4428f55d083f1b46262d77b27ceee2a82",
+      "bytes": 16731,
+      "attempts": 1,
+      "rss_check": {
+        "title": "Anomaly — Optional Familiar Listening",
+        "episodes": 9,
+        "lastBuildDate": null,
+        "unique_guids": 9,
+        "playable_enclosures": 9
+      }
+    },
+    "anomaly/cover.png": {
+      "expected_sha256": "58ca27e3069b596edfeae8e2699f403850eb59841e348099d97f7a64ebfcb93d",
+      "matches": true,
+      "http_status": 200,
+      "content_type": "image/png",
+      "age": "",
+      "cache_control": "public, max-age=604800, s-maxage=43200",
+      "etag": "W/\"8f32-17b1dfd66bb0247c\"",
+      "actual_sha256": "58ca27e3069b596edfeae8e2699f403850eb59841e348099d97f7a64ebfcb93d",
+      "bytes": 36658,
+      "attempts": 1
+    }
+  },
+  "purge": {
+    "anomaly/feed-v2.xml": {
+      "accepted": true,
+      "http_status": 200,
+      "response": "{\n  \"id\": \"sRxf53ym5hshcfVX\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T17:59:59.869Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml\": {\n      \"throttled\": false,\n      \"providers\": {\n    "
+    },
+    "anomaly/feed.xml": {
+      "accepted": true,
+      "http_status": 200,
+      "response": "{\n  \"id\": \"E7tW5gZSZYV6nXGI\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:00:00.640Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/feed.xml\": {\n      \"throttled\": false,\n      \"providers\": {\n       "
+    },
+    "anomaly/optional-listening/feed-v2.xml": {
+      "accepted": true,
+      "http_status": 200,
+      "response": "{\n  \"id\": \"DlrfcSoFN6mZmoJg\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:00:01.385Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/optional-listening/feed-v2.xml\": {\n      \"throttled\": false,\n      "
+    },
+    "anomaly/cover.png": {
+      "accepted": true,
+      "http_status": 200,
+      "response": "{\n  \"id\": \"tfIF0F8wVSwCm9Ki\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:00:02.120Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/cover.png\": {\n      \"throttled\": false,\n      \"providers\": {\n      "
+    }
+  }
+}
