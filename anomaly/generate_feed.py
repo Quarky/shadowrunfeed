@@ -48,13 +48,18 @@ def main():
         path=HERE/name
         raw=path.read_text(encoding="utf-8")
         raw=raw.replace("Magudonya/Anomaly themes", "Anomaly campaign themes")
+        raw=raw.replace("https://github.com/Quarky/shadowrunfeed/tree/main/magudonya", "https://github.com/Quarky/shadowrunfeed/tree/main/anomaly")
+        raw=raw.replace("Magudonya independent listening catalog", "Anomaly independent listening catalog")
+        raw=raw.replace("NOT as Magudonya canon", "NOT as Anomaly canon")
         # Existing episode GUIDs are intentionally kept under their original
         # URN namespace to prevent a 120-episode duplicate import.
         assert raw.count("urn:magudonya:1:")==120
         assert "Veyrun" not in raw
         assert "/anomaly/" in raw
         path.write_text(raw,encoding="utf-8")
-    print("Anomaly RSS validated: 120 stable episode GUIDs, no authors' city",flush=True)
+    index=HERE/"episodes.md"
+    index.write_text(index.read_text(encoding="utf-8").replace("# Magudonya —", "# Anomaly —"),encoding="utf-8")
+    print("Anomaly RSS validated: 120 stable episode GUIDs, corrected title and metadata",flush=True)
 
 if __name__=="__main__":
     main()
