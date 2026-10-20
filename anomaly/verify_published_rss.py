@@ -12,6 +12,8 @@ from __future__ import annotations
 import datetime as dt
 import hashlib
 import json
+import os
+import subprocess
 from pathlib import Path
 import sys
 import time
@@ -100,15 +102,45 @@ def main() -> int:
                    and "Dungeons of Drakkenheim" not in (x.findtext("title") or "")
                    for x in main_entries)
 
-        for p in CHECK:
-            try:
-                resp, headers = get(PURGE + p, timeout=14)
-                report["purge"][p] = {"accepted": True,
-                                      "http_status": headers["http_status"],
-                                      "response": resp[:3500].decode("utf-8", "replace")}
-            except Exception as e:
-                report["purge"][p] = {"accepted": False,
-                                      "error": type(e).__name__ + ": " + str(e)[:180]}
+        # Purges are opt-in, not repeated every publish. jsDelivr responds
+        # HTTP 200 even when a per-path purge is throttled; respect that result.
+        if os.getenv("ANOMALY_FORCE_PURGE") == "1":
+            for p in CHECK:
+                try:
+                    resp, headers = get(PURGE + p, timeout=14)
+                    payload = json.loads(resp.decode("utf-8"))
+                    path_data = payload.get("paths", {}).get("/gh/Quarky/shadowrunfeed@main/" + p, {})
+                    throttled = bool(path_data.get("throttled", False))
+                    report["purge"][p] = {
+                        "accepted": not throttled and headers["http_status"] == 200,
+                        "throttled": throttled,
+                        "throttling_reset_seconds": path_data.get("throttlingReset"),
+                        "response": payload,
+                    }
+                except Exception as e:
+                    report["purge"][p] = {"accepted": False, "error": str(e)[:200]}
+        else:
+            report["purge"] = {"skipped": "Rate-limit safe; no repeated automatic invalidation"}
+
+        # Immutable git-revision URL bypasses the mutable @main version cache
+        # and is useful as a temporary subscription URL for this fixed edition.
+        revision = subprocess.check_output(
+            ["git", "rev-parse", "HEAD"], cwd=BASE.parent, text=True).strip()
+        immutable = ("https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@"
+                     + revision + "/anomaly/feed-v2.xml")
+        try:
+            raw_pin, pin_headers = get(immutable)
+            ok_pin = raw_pin == expected[CHECK[0]]
+            report["immutable_revision_probe"] = {
+                "url": immutable, "matches": ok_pin,
+                "headers": pin_headers, "sha256": sha(raw_pin)}
+            if ok_pin:
+                report["immutable_revision_probe"]["rss_check"] = rss_check(
+                    raw_pin, 120, ROOT + CHECK[0])
+        except Exception as error:
+            report["immutable_revision_probe"] = {
+                "url": immutable, "matches": False,
+                "error": type(error).__name__ + ": " + str(error)[:250]}
 
         # Test alternate cache keys without changing the canonical feed file.
         # This checks if a Podbean subscription URL with a query string could
