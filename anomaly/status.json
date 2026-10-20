@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-10-19T22:11:21.217929+00:00",
+  "state": "published",
+  "total_episodes": 120,
+  "story": 60,
+  "actual_play": 60,
+  "themes": {
+    "communities": 20,
+    "eilistraee": 20,
+    "itich": 20,
+    "wall": 20,
+    "attina": 20,
+    "aberrations": 20
+  },
+  "available_sources": 37,
+  "configured_sources": 38,
+  "unavailable_sources": {
+    "aethuran": "HTTPError: HTTP Error 404: Not Found"
+  },
+  "audio_rehosted": false,
+  "interleave_valid": true,
+  "feed_path": "anomaly/feed-v2.xml",
+  "legacy_path": "magudonya/feed-v2.xml"
+}
