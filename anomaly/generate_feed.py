@@ -47,7 +47,7 @@ def main():
     # preserving the other 97 items, their positions and their GUIDs.
     plan = json.loads((HERE / "replacement-plan.json").read_text(encoding="utf-8"))
     baseline = json.loads((HERE / "episode-baseline-2026-10-20.json").read_text(encoding="utf-8"))["episodes"]
-    original_lock = json.loads((HERE / "selection-lock.json").read_text(encoding="utf-8"))
+    original_lock = json.loads((HERE / "selection-lock-baseline-2026-10-20.json").read_text(encoding="utf-8"))
     positions = {int(p): record for p, record in plan["replacements"].items()}
     assert len(positions) == 23 and len(baseline) == 120
     assert len({r["episode_key"] for r in positions.values()}) == 23
