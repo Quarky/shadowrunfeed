@@ -27,3 +27,7 @@ This is a 120-track original-publisher listening catalog: 60 performed stories i
 The historical `/magudonya/` path remains a legacy copy for any existing subscribers. It is **not** the name of the Anomaly feed.
 
 Publisher recordings remain with their creators; no MP3 is redistributed. GitHub workflow validation requires 120 unique HTTPS enclosures, a 60/60 story/actual-play split and valid artwork before publication.
+
+## Full selection rationale and source audit
+
+The [120-episode Markdown audit](https://github.com/Quarky/mdfiles/blob/main/Rpg/Development/Anomaly%20Audio%20Feed%20-%20120%20Episode%20Selection%20Reasons%20and%20Source%20Audit.md) documents **every included recording**: publisher show, original episode page or audio enclosure, original date, short source-synopsis evidence, an individualized reason for relevance to Anomaly, a candid fit grade, and flags for weak matches, cross-system episodes, introductory material or other-genre inclusions. It also explains how the original automated interleaver actually chose recordings and lists the 38 candidate sources. Canonical campaign documentation stays under `Quarky/mdfiles/Rpg/Development/`; this repository hosts the RSS source and generated media index.
