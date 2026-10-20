@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-20T18:47:13.877004+00:00",
+  "checked_at_utc": "2026-10-20T18:50:39.726570+00:00",
   "canonical_feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml",
   "state": "cdn_stale_or_inaccessible",
   "podbean_access": "External RSS compatibility checked; user account cannot be inspected",
@@ -9,7 +9,7 @@
       "matches": false,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "194",
+      "age": "565",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"33c22-f08a6e31b3a870d0\"",
       "actual_sha256": "a3f9d348361afb5d0330471798bb25d86bf3cb7be24b3511a1455d8add0f1f42",
@@ -21,7 +21,7 @@
       "matches": false,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "193",
+      "age": "539",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"33c22-f08a6e31b3a870d0\"",
       "actual_sha256": "a3f9d348361afb5d0330471798bb25d86bf3cb7be24b3511a1455d8add0f1f42",
@@ -33,7 +33,7 @@
       "matches": true,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "133",
+      "age": "482",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"415b-0f3b559fdcc67218\"",
       "actual_sha256": "38675931e08dbb889e1988dc8a9a5fa4428f55d083f1b46262d77b27ceee2a82",
@@ -52,7 +52,7 @@
       "matches": true,
       "http_status": 200,
       "content_type": "image/png",
-      "age": "132",
+      "age": "472",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"8f32-17b1dfd66bb0247c\"",
       "actual_sha256": "58ca27e3069b596edfeae8e2699f403850eb59841e348099d97f7a64ebfcb93d",
@@ -61,25 +61,25 @@
     }
   },
   "purge": {
-    "anomaly/feed-v2.xml": {
-      "accepted": true,
+    "skipped": "Rate-limit safe; no repeated automatic invalidation"
+  },
+  "immutable_revision_probe": {
+    "url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@b702bd728369f42556f6ecc240a944809a1861ba/anomaly/feed-v2.xml",
+    "matches": true,
+    "headers": {
       "http_status": 200,
-      "response": "{\n  \"id\": \"0Fui65WUav56aQiB\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:47:14.059Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml\": {\n      \"throttled\": true,\n      \"throttlingReset\": 765\n    }\n  }\n}"
+      "content_type": "application/xml",
+      "age": "0",
+      "cache_control": "public, max-age=31536000, s-maxage=31536000, immutable",
+      "etag": "W/\"28c91-26fc9306e8de7cfe\""
     },
-    "anomaly/feed.xml": {
-      "accepted": true,
-      "http_status": 200,
-      "response": "{\n  \"id\": \"mOZH8QGet5RkpjWT\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:47:14.277Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/feed.xml\": {\n      \"throttled\": true,\n      \"throttlingReset\": 766\n    }\n  }\n}"
-    },
-    "anomaly/optional-listening/feed-v2.xml": {
-      "accepted": true,
-      "http_status": 200,
-      "response": "{\n  \"id\": \"QsYSobkuAV5ov5Ii\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:47:14.495Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/optional-listening/feed-v2.xml\": {\n      \"throttled\": true,\n      \"throttlingReset\": 766\n    }\n  }\n}"
-    },
-    "anomaly/cover.png": {
-      "accepted": true,
-      "http_status": 200,
-      "response": "{\n  \"id\": \"ddQo1xdWy9dFYzSL\",\n  \"status\": \"finished\",\n  \"timestamp\": \"2026-10-20T18:47:14.703Z\",\n  \"paths\": {\n    \"/gh/Quarky/shadowrunfeed@main/anomaly/cover.png\": {\n      \"throttled\": true,\n      \"throttlingReset\": 767\n    }\n  }\n}"
+    "sha256": "962d169e13d03a83de4bb27afc78e37d49c291e10c34bf9e5f5697a7230f7fc5",
+    "rss_check": {
+      "title": "Anomaly - Stories and Tabletop Actual Plays",
+      "episodes": 120,
+      "lastBuildDate": "Tue, 20 Oct 2026 18:30:00 GMT",
+      "unique_guids": 120,
+      "playable_enclosures": 120
     }
   },
   "cache_busted_probe": {
@@ -88,7 +88,7 @@
     "headers": {
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "133",
+      "age": "504",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"33c22-f08a6e31b3a870d0\""
     },
