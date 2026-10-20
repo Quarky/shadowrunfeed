@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
-from hashlib import sha256
+import uuid
 import json
 from pathlib import Path
 import xml.etree.ElementTree as ET
@@ -103,8 +103,8 @@ def render(entries):
                    + "Episode description: " + ep["description"])
         child(item, "description", details)
         # A new show with entirely new, deterministic episode IDs.
-        identity = sha256((str(n) + "\n" + ep["audio_url"]).encode("utf-8")).hexdigest()
-        guid = child(item, "guid", "urn:anomaly:fresh:2026:" + identity)
+        identity = uuid.uuid5(uuid.NAMESPACE_URL, PUBLIC + str(n) + ep["audio_url"])
+        guid = child(item, "guid", "urn:uuid:" + str(identity))
         guid.set("isPermaLink", "false")
         child(item, "pubDate", format_datetime(LAUNCH-timedelta(minutes=n), usegmt=True))
         ET.SubElement(item, "enclosure", {
@@ -132,7 +132,7 @@ def main():
     items = parsed.findall("./channel/item")
     guids = [x.findtext("guid") for x in items]
     assert len(set(guids)) == len(guids) == 120
-    assert all(x.startswith("urn:anomaly:fresh:2026:") for x in guids)
+    assert all(x.startswith("urn:uuid:") for x in guids)
     assert b"magudonya" not in result.lower()
     for name in ("feed-v2.xml", "feed.xml"):
         target = HERE / name
@@ -142,7 +142,7 @@ def main():
     status = json.loads(status_path.read_text("utf-8"))
     status["state"] = "published"
     status["published_rss_engine"] = "new-standalone-catalog"
-    status["rss_identity"] = "anomaly:fresh:2026"
+    status["rss_identity"] = "anomaly:new-2026-uuid"
     status["total_episodes"] = 120
     status["story"] = status["actual_play"] = 60
     status["interleave_valid"] = True
