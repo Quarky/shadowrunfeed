@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-20T18:50:39.726570+00:00",
+  "checked_at_utc": "2026-10-20T18:52:52.671339+00:00",
   "canonical_feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml",
   "state": "cdn_stale_or_inaccessible",
   "podbean_access": "External RSS compatibility checked; user account cannot be inspected",
@@ -9,31 +9,31 @@
       "matches": false,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "565",
+      "age": "665",
       "cache_control": "public, max-age=604800, s-maxage=43200",
-      "etag": "W/\"33c22-f08a6e31b3a870d0\"",
-      "actual_sha256": "a3f9d348361afb5d0330471798bb25d86bf3cb7be24b3511a1455d8add0f1f42",
+      "etag": "W/\"33c22-8da41e6e71288587\"",
+      "actual_sha256": "c72da4c0a33ea804905f1b471db283648eab7480d575a99143472186034414f2",
       "bytes": 212002,
-      "attempts": 7
+      "attempts": 2
     },
     "anomaly/feed.xml": {
       "expected_sha256": "962d169e13d03a83de4bb27afc78e37d49c291e10c34bf9e5f5697a7230f7fc5",
       "matches": false,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "539",
+      "age": "606",
       "cache_control": "public, max-age=604800, s-maxage=43200",
-      "etag": "W/\"33c22-f08a6e31b3a870d0\"",
-      "actual_sha256": "a3f9d348361afb5d0330471798bb25d86bf3cb7be24b3511a1455d8add0f1f42",
-      "bytes": 212002,
-      "attempts": 7
+      "etag": "W/\"2a041-c628a7bf756b46cc\"",
+      "actual_sha256": "13b85a5aa8b88b2e740182ab52ab0a95c298994a14e74a09765c335f57129f37",
+      "bytes": 172097,
+      "attempts": 2
     },
     "anomaly/optional-listening/feed-v2.xml": {
       "expected_sha256": "38675931e08dbb889e1988dc8a9a5fa4428f55d083f1b46262d77b27ceee2a82",
       "matches": true,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "482",
+      "age": "0",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"415b-0f3b559fdcc67218\"",
       "actual_sha256": "38675931e08dbb889e1988dc8a9a5fa4428f55d083f1b46262d77b27ceee2a82",
@@ -52,7 +52,7 @@
       "matches": true,
       "http_status": 200,
       "content_type": "image/png",
-      "age": "472",
+      "age": "0",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"8f32-17b1dfd66bb0247c\"",
       "actual_sha256": "58ca27e3069b596edfeae8e2699f403850eb59841e348099d97f7a64ebfcb93d",
@@ -64,7 +64,7 @@
     "skipped": "Rate-limit safe; no repeated automatic invalidation"
   },
   "immutable_revision_probe": {
-    "url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@b702bd728369f42556f6ecc240a944809a1861ba/anomaly/feed-v2.xml",
+    "url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@572d2982bb483b7e2e2838ff3064f73b6fb04a61/anomaly/feed-v2.xml",
     "matches": true,
     "headers": {
       "http_status": 200,
@@ -88,10 +88,10 @@
     "headers": {
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "504",
+      "age": "661",
       "cache_control": "public, max-age=604800, s-maxage=43200",
-      "etag": "W/\"33c22-f08a6e31b3a870d0\""
+      "etag": "W/\"33c22-8da41e6e71288587\""
     },
-    "sha256": "a3f9d348361afb5d0330471798bb25d86bf3cb7be24b3511a1455d8add0f1f42"
+    "sha256": "c72da4c0a33ea804905f1b471db283648eab7480d575a99143472186034414f2"
   }
 }
