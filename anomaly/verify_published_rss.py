@@ -105,10 +105,32 @@ def main() -> int:
                 resp, headers = get(PURGE + p, timeout=14)
                 report["purge"][p] = {"accepted": True,
                                       "http_status": headers["http_status"],
-                                      "response": resp[:220].decode("utf-8", "replace")}
+                                      "response": resp[:3500].decode("utf-8", "replace")}
             except Exception as e:
                 report["purge"][p] = {"accepted": False,
                                       "error": type(e).__name__ + ": " + str(e)[:180]}
+
+        # Test alternate cache keys without changing the canonical feed file.
+        # This checks if a Podbean subscription URL with a query string could
+        # fetch the newly rebuilt podcast while an edge serves old @main bytes.
+        candidate = ROOT + CHECK[0] + "?v=" + sha(expected[CHECK[0]])[:20]
+        try:
+            probe_bytes, probe_headers = get(candidate)
+            matches = probe_bytes == expected[CHECK[0]]
+            report["cache_busted_probe"] = {
+                "url": candidate,
+                "matches": matches,
+                "headers": probe_headers,
+                "sha256": sha(probe_bytes),
+            }
+            if matches:
+                report["cache_busted_probe"]["rss_check"] = rss_check(
+                    probe_bytes, 120, ROOT + CHECK[0])
+        except Exception as error:
+            report["cache_busted_probe"] = {
+                "url": candidate, "matches": False,
+                "error": type(error).__name__ + ": " + str(error)[:250],
+            }
 
         for p in CHECK:
             info = {"expected_sha256": sha(expected[p]), "matches": False}
