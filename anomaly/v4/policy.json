@@ -1,0 +1,166 @@
+{
+  "edition": "V4",
+  "created_at": "2026-10-21",
+  "status": "candidate_selection_pending_publisher_verification",
+  "main_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v4.xml",
+  "layout": [
+    {
+      "name": "stories and live plays",
+      "from": 1,
+      "to": 20,
+      "pattern": [
+        "story",
+        "actual_play"
+      ]
+    },
+    {
+      "name": "lore and live plays",
+      "from": 21,
+      "to": 40,
+      "pattern": [
+        "lore",
+        "actual_play"
+      ]
+    },
+    {
+      "name": "live plays and stories",
+      "from": 41,
+      "to": 120,
+      "pattern": [
+        "actual_play",
+        "story"
+      ]
+    }
+  ],
+  "role_counts": {
+    "story": 50,
+    "actual_play": 60,
+    "lore": 10
+  },
+  "min_duration_minutes": 30,
+  "preferred_duration_minutes": 60,
+  "short_exception": "Allowed for independently strong match, transcript-backed character technique, distinct voice, or shortage of comparably good long stories; disclose exceptions in private audit and public RSS rationale.",
+  "source_v3": "anomaly/feed-v3.xml",
+  "private_mapping": "Quarky/mdfiles/Rpg/Development/Anomaly V4 - Private Semantic Reference Key.md",
+  "lore_specs": [
+    {
+      "publisher": "Religion in the Realms",
+      "feed": "https://feed.podbean.com/religionintherealms/feed.xml",
+      "needle": "Drow Pantheon: Eilistraee Revised",
+      "theme": "community faith",
+      "why": "Examines clerical responsibilities, rituals, places of worship and how faith shapes a community's everyday organization. Relates to an elven refuge, cultural identities and choices made by defectors.",
+      "focus": "Compare differences between official doctrine and lived routine; note the recorded chapter times on follower duties, rituals and sites of worship.",
+      "type": "publisher_chapters"
+    },
+    {
+      "publisher": "D&D Legends and Lore",
+      "feed": "https://feeds.megaphone.fm/dndlegendsandlore",
+      "needle": "The Lore of the Drow",
+      "theme": "culture",
+      "why": "A narrative exploration of drow traditions and social pressure that gives context to characters choosing another society. Relates to cultural difference, exile and shared identity.",
+      "focus": "Notice how internal ideology and individual motives differ; this lore is outside inspiration, not campaign history.",
+      "type": "publisher_summary"
+    },
+    {
+      "publisher": "Religion in the Realms",
+      "feed": "https://feed.podbean.com/religionintherealms/feed.xml",
+      "needle": "Dwarven Legacy: Ammarindar",
+      "theme": "ancient works",
+      "why": "Investigates a dwarven civilization, deep mining, relics, ruins and regional institutions. Connects to an abandoned forge, displaced communities and the history of places still inhabited.",
+      "focus": "Focus on settlement infrastructure and traces of craftsmanship rather than reusing Forgotten Realms geography.",
+      "type": "publisher_chapters"
+    },
+    {
+      "publisher": "D&D Legends and Lore",
+      "feed": "https://feeds.megaphone.fm/dndlegendsandlore",
+      "needle": "The Lore of Dwarves",
+      "theme": "craft culture",
+      "why": "Explores a nonhuman people's occupations, beliefs and historical institutions. Useful for thinking about dwarven craftsmanship and the contrasts between former builders and present inhabitants.",
+      "focus": "Look for lived traditions, materials and the human-scale consequences of a community's changing home.",
+      "type": "publisher_summary"
+    },
+    {
+      "publisher": "Religion in the Realms",
+      "feed": "https://feed.podbean.com/religionintherealms/feed.xml",
+      "needle": "Faerûnian Pantheon: Waukeen",
+      "theme": "economy",
+      "why": "Examines trade, money, religious obligations and the institutions of a functioning fantasy economy. Relates to markets, social status, civic rituals and ordinary city life.",
+      "focus": "Focus on merchant interactions and the practical role of institutions, not on copying a religious hierarchy.",
+      "type": "publisher_chapters"
+    },
+    {
+      "publisher": "D&D Legends and Lore",
+      "feed": "https://feeds.megaphone.fm/dndlegendsandlore",
+      "needle": "The Lore of Aboleths",
+      "theme": "ancient minds",
+      "why": "Traces strange ancient intelligence and its influence over people and environments. Connects to submerged history, memory, psychic threats and difficult choices under coercion.",
+      "focus": "Distinguish inherited genre material from the specific, independent laws of the campaign's anomalies.",
+      "type": "publisher_summary"
+    },
+    {
+      "publisher": "The Dungeoncast",
+      "feed": "https://feeds.megaphone.fm/BLU8261889823",
+      "needle": "Deities & Demigods: Eilistraee",
+      "theme": "faith in action",
+      "why": "Hosts discuss an elven deity's history, motives and religious practices from a different viewpoint. Provides a second voice on belief, choice, community and refuge.",
+      "focus": "Compare interpretation across different podcast styles instead of treating either as authoritative for this world.",
+      "type": "publisher_summary"
+    },
+    {
+      "publisher": "Religion in the Realms",
+      "feed": "https://feed.podbean.com/religionintherealms/feed.xml",
+      "needle": "Elven Pantheon: Corellon",
+      "theme": "forest faith",
+      "why": "Covers elven faith, clergy, worship spaces and rituals. Relates to intercommunity protections, settlements within forests, and how a culture's religious life is organized.",
+      "focus": "Attend to mundane and ceremonial obligations, not only magic and battles.",
+      "type": "publisher_chapters"
+    },
+    {
+      "publisher": "D&D Legends and Lore",
+      "feed": "https://feeds.megaphone.fm/dndlegendsandlore",
+      "needle": "The Lore of Lolth",
+      "theme": "contrasting belief",
+      "why": "Outlines pressures and values of a coercive religious society, useful contrast for people who leave such an order to build a different community.",
+      "focus": "Avoid flattening individuals into a single culture; keep prejudice and abuse as subjects to understand, not default NPC personalities.",
+      "type": "publisher_summary"
+    },
+    {
+      "publisher": "Kill Every Monster",
+      "feed": "https://feeds.megaphone.fm/CLDCA5657227714",
+      "needle": "Mind Flayer",
+      "theme": "psychic predators",
+      "why": "Pairs creature lore with a one-shot played example, offering both conceptual discussion and characters reacting in a scene. Relates to psychic communication, domination and the perspective of an unusual antagonist.",
+      "focus": "Study the difference between creature behavior and the characters' responses; do not borrow infection rules.",
+      "type": "publisher_summary"
+    }
+  ],
+  "privacy": {
+    "public_uses_safe_aliases": true,
+    "allowed_aliases": [
+      "a scholar city",
+      "an elven refuge",
+      "a nonhuman colony",
+      "an ancient forge",
+      "a transformed spellcaster",
+      "an anomalous barrier",
+      "a psychic threat",
+      "ordinary life in a magical city"
+    ],
+    "forbid": [
+      "Athena",
+      "author biography",
+      "private backstory",
+      "private session details",
+      "real names"
+    ]
+  },
+  "quality_gate": {
+    "new_lore_requires_publisher_rss": true,
+    "all_enclosures_positive_length": true,
+    "unique_episode_guids": 120,
+    "publish_separately_from_v2_v3": true,
+    "full_transcript_claims_require_actual_text_review": true
+  },
+  "transcript_quality_coverage": "V3 audit 5 final scripts reviewed; new lore candidates presently synopsis/chapter-index only, NOT transcripts",
+  "cms_public_reasoning": "Two or more individualized paragraphs built from grounded publisher synopsis and concept, without secret campaign chronology or private file sources"
+}
