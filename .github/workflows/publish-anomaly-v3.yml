@@ -1,0 +1,74 @@
+name: Publish Anomaly V3 Research Edition
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'anomaly/v3/generate.py'
+      - 'anomaly/v3/selection-policy.json'
+      - 'anomaly/fresh-episode-catalog.json'
+      - '.github/workflows/publish-anomaly-v3.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: anomaly-v3-curated-rss
+  cancel-in-progress: false
+
+jobs:
+  validate-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 17
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate V3 from original publisher RSS, fail if any enclosure is missing
+        run: python3 -u anomaly/v3/generate.py
+      - name: Audit RSS validity, independently from V2
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json, xml.etree.ElementTree as ET, collections
+          root=Path('anomaly')
+          f=root/'feed-v3.xml'
+          assert f.read_bytes()==(root/'v3'/'feed-v3.xml').read_bytes()
+          rss=ET.fromstring(f.read_bytes())
+          assert rss.tag=='rss' and rss.get('version')=='2.0'
+          channel=rss.find('channel')
+          assert channel.findtext('title','').startswith('Anomaly V3')
+          assert channel.findtext('{http://www.itunes.com/dtds/podcast-1.0.dtd}explicit')=='true'
+          assert channel.find('{http://www.w3.org/2005/Atom}link').get('href')=='https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v3.xml'
+          items=channel.findall('item')
+          assert len(items)==120
+          assert len({i.findtext('guid') for i in items})==120
+          assert all(i.findtext('guid').startswith('urn:uuid:') for i in items)
+          assert all(i.findtext('pubDate') and i.findtext('title') for i in items)
+          enclosure=[i.find('enclosure') for i in items]
+          assert all(e is not None and (e.get('url') or '').startswith('https://')
+                     and int(e.get('length') or 0)>0
+                     and (e.get('type') or '').startswith('audio/') for e in enclosure)
+          assert len({e.get('url') for e in enclosure})==120
+          assert 'magudonya' not in f.read_text().lower()
+          assert not (root/'magudonya').exists()
+          status=json.loads((root/'v3'/'status.json').read_text())
+          assert status['total']==120
+          assert status['story']==status['actual_play']==60
+          assert len(status['episode_swaps'])==2
+          assert status['publisher_count']>=29
+          expected=json.loads((root/'v3'/'selection-policy.json').read_text())['replacements']
+          assert {s['position'] for s in status['episode_swaps']}=={s['position'] for s in expected}
+          print('V3 PASS: 120 unique HTTPS audio items, two original publisher RSS swaps, standard podcast metadata')
+          PY
+      - name: Publish independent feed V3 on main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add anomaly/feed-v3.xml anomaly/v3/feed-v3.xml anomaly/v3/status.json
+          if git diff --cached --quiet; then
+            echo "V3 content unchanged, no artificial new episode dates"
+          else
+            git commit -m "Publish Anomaly V3 with two transcript-reviewed original-publisher swaps"
+            git pull --rebase -X theirs origin main
+            git push origin HEAD:main
+          fi
