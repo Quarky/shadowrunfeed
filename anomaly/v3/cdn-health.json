@@ -1,0 +1,48 @@
+{
+  "verified_at_utc": "2026-10-21T03:51:20.136804+00:00",
+  "expected_source_sha256": "88c875ced6f7ef8af4932a07fe6e931a5bb33ed606630aabc9bf1c1254a81ae7",
+  "github_commit": "b8a3b3ba536240b074ab50cdce1829b9a9671bc3",
+  "state": "canonical_live_verified",
+  "rss": {
+    "title": "Anomaly V3 - Immersive Fantasy Stories and Actual Plays",
+    "count": 120,
+    "unique_guids": 120,
+    "enclosures": 120,
+    "last_build": "Tue, 20 Oct 2026 18:30:00 GMT"
+  },
+  "podbean_import_tested": false,
+  "methods": {
+    "canonical": {
+      "url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v3.xml",
+      "matches": true,
+      "http_status": 200,
+      "content_type": "application/xml",
+      "age_seconds": "0",
+      "cache_control": "public, max-age=604800, s-maxage=43200",
+      "received_sha256": "88c875ced6f7ef8af4932a07fe6e931a5bb33ed606630aabc9bf1c1254a81ae7",
+      "rss": {
+        "title": "Anomaly V3 - Immersive Fantasy Stories and Actual Plays",
+        "count": 120,
+        "unique_guids": 120,
+        "enclosures": 120,
+        "last_build": "Tue, 20 Oct 2026 18:30:00 GMT"
+      }
+    },
+    "immutable": {
+      "url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@b8a3b3ba536240b074ab50cdce1829b9a9671bc3/anomaly/feed-v3.xml",
+      "matches": true,
+      "http_status": 200,
+      "content_type": "application/xml",
+      "age_seconds": "0",
+      "cache_control": "public, max-age=31536000, s-maxage=31536000, immutable",
+      "received_sha256": "88c875ced6f7ef8af4932a07fe6e931a5bb33ed606630aabc9bf1c1254a81ae7",
+      "rss": {
+        "title": "Anomaly V3 - Immersive Fantasy Stories and Actual Plays",
+        "count": 120,
+        "unique_guids": 120,
+        "enclosures": 120,
+        "last_build": "Tue, 20 Oct 2026 18:30:00 GMT"
+      }
+    }
+  }
+}
