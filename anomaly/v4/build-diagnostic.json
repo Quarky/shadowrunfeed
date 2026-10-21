@@ -1,0 +1,7 @@
+{
+  "checked": "2026-10-21T04:22:12.657277+00:00",
+  "state": "failed",
+  "exception": "ValueError",
+  "message": "Lore enclosure/duration invalid: The Lore of the Drow",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/shadowrunfeed/shadowrunfeed/anomaly/v4/run_and_diagnose.py\", line 9, in <module>\n    runpy.run_path(str(base/\"generate.py\"),run_name=\"__main__\")\n  File \"<frozen runpy>\", line 286, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/runner/work/shadowrunfeed/shadowrunfeed/anomaly/v4/generate.py\", line 144, in <module>\n    if __name__==\"__main__\":main()\n                            ^^^^^^\n  File \"/home/runner/work/shadowrunfeed/shadowrunfeed/anomaly/v4/generate.py\", line 98, in main\n    cache={};facts=[lore(x,cache) for x in p[\"lore_specs\"]]\n                    ^^^^^^^^^^^^^\n  File \"/home/runner/work/shadowrunfeed/shadowrunfeed/anomaly/v4/generate.py\", line 66, in lore\n    if not url.startswith(\"https://\") or size<=0 or not mime.startswith(\"audio/\") or seconds<1800:raise ValueError(\"Lore enclosure/duration invalid: \"+spec[\"needle\"])\n                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Lore enclosure/duration invalid: The Lore of the Drow\n"
+}
