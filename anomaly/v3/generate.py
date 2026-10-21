@@ -177,7 +177,7 @@ def main():
     results={
         "state":"candidate_published",
         "edition":3,"total":120,"story":60,"actual_play":60,
-        "lore":0,"interview":0,"themes":theme_roles,
+        "lore":0,"interview":0,"themes":{"|".join(key):count for key,count in theme_roles.items()},
         "publisher_count":len(publishers),"publishers":publishers,
         "episode_swaps":resolved,
         "remaining_transcript_audit_count":118,
