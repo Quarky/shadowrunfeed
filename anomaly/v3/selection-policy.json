@@ -48,5 +48,12 @@
       "quality": "full_transcript_reviewed",
       "research_status": "subject_to_publisher_rss_enclosure_gate"
     }
-  ]
+  ],
+  "audit_requirements": {
+    "first_pilot_episodes_read": 2,
+    "remaining_baseline_episode_transcripts_unverified": 118,
+    "publisher_rss_required_for_new_swaps": true,
+    "replace_episodes_not_only_shows": true,
+    "do_not_rehost_audio": true
+  }
 }
