@@ -82,7 +82,15 @@
       "quality": "full_transcript_reviewed"
     }
   ],
-  "remaining_transcript_audit_count": 118,
-  "meta_note": "First transcript-screened V3 pilot, NOT full-transcript validated 120 episodes. No source audio rehosting.",
+  "full_publisher_scripts_reviewed_positions": [
+    11,
+    55,
+    87,
+    91,
+    107
+  ],
+  "transcript_reviewed_count": 5,
+  "remaining_transcript_audit_count": 115,
+  "meta_note": "Transcript-first V3 pilot, five confirmed final-selection full scripts audited, rest still to audit; no source audio rehosting.",
   "subscription_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v3.xml"
 }
