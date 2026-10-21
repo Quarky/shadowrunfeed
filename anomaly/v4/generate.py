@@ -45,6 +45,10 @@ def v3():
   premise=re.sub(r"(?i)written by.{0,110}?directed by.{0,110}?(?=join us|meet |explore |the story|when |as )","",premise)
   premise=re.sub(r"(?i)\\b(?:written by|directed by|narrated by|produced by)\\b[^.]{0,140}","",premise)
   premise=re.split(r"(?i)\\b(?:support us|follow us|follow the show|patreon|twitter|discord|learn more about your ad choices|read the transcript|check out)\\b",premise,maxsplit=1)[0]
+  # Never let author credits, production biographies or ads flow into
+  # a listener-visible WHY THIS EPISODE description.
+  premise=re.sub(r"(?i)written by.{0,90}?directed by chris and megan burnside","",premise)
+  premise=re.split(r"(?i)\\b(?:written by|directed by|support us|support the show|support our|follow us|follow the show|patreon|twitter|discord|learn more about your ad choices|check out|for new installments|get ad free|show notes)\\b",premise,maxsplit=1)[0]
   premise=re.sub(r"\\s+"," ",premise).strip()
   if theme not in THEMES:raise ValueError("Missing theme "+str(n))
   out.append(dict(origin=n,role="story" if m[1]=="STORY" else "actual_play",
