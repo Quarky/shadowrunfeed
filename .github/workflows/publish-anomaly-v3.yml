@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'anomaly/v3/generate.py'
+      - 'anomaly/v3/verify_cdn.py'
       - 'anomaly/v3/selection-policy.json'
       - 'anomaly/fresh-episode-catalog.json'
       - '.github/workflows/publish-anomaly-v3.yml'
@@ -72,3 +73,17 @@ jobs:
             git pull --rebase -X theirs origin main
             git push origin HEAD:main
           fi
+      - name: Verify live CDN responses, record what actual podcast clients receive
+        shell: bash
+        run: |
+          set +e
+          python3 -u anomaly/v3/verify_cdn.py
+          verify_code=$?
+          set -e
+          git add anomaly/v3/cdn-health.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record independent Anomaly V3 public feed delivery evidence"
+            git pull --rebase -X theirs origin main
+            git push origin HEAD:main
+          fi
+          exit "$verify_code"
