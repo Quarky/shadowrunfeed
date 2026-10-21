@@ -23,7 +23,7 @@ ITUNES="http://www.itunes.com/dtds/podcast-1.0.dtd"
 ATOM="http://www.w3.org/2005/Atom"
 ET.register_namespace("itunes",ITUNES)
 ET.register_namespace("atom",ATOM)
-BORN=datetime(2026,10,21,6,0,tzinfo=timezone.utc)
+BORN=datetime(2026,10,20,18,30,tzinfo=timezone.utc)
 
 def put(parent,tag,value):
     child=ET.SubElement(parent,tag)
