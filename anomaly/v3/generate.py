@@ -180,8 +180,10 @@ def main():
         "lore":0,"interview":0,"themes":{"|".join(key):count for key,count in theme_roles.items()},
         "publisher_count":len(publishers),"publishers":publishers,
         "episode_swaps":resolved,
-        "remaining_transcript_audit_count":118,
-        "meta_note":"First transcript-screened V3 pilot, NOT full-transcript validated 120 episodes. No source audio rehosting.",
+        "full_publisher_scripts_reviewed_positions":config["audit_requirements"]["full_publisher_scripts_reviewed_in_final_v3"],
+        "transcript_reviewed_count":config["audit_requirements"]["transcript_reviewed_final_selection_count"],
+        "remaining_transcript_audit_count":config["audit_requirements"]["remaining_final_selection_transcripts_unverified"],
+        "meta_note":"Transcript-first V3 pilot, five confirmed final-selection full scripts audited, rest still to audit; no source audio rehosting.",
         "subscription_url":PUBLIC+"feed-v3.xml"
     }
     (HERE/"status.json").write_text(json.dumps(results,indent=2,ensure_ascii=False)+"\n","utf-8")
