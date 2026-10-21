@@ -1,0 +1,204 @@
+{
+  "version": 4,
+  "state": "publisher_verified",
+  "total": 120,
+  "roles": {
+    "story": 50,
+    "actual_play": 60,
+    "lore": 10
+  },
+  "over_30_minutes": 84,
+  "over_60_minutes": 47,
+  "short_exceptions": [
+    {
+      "slot": 5,
+      "title": "Season One, Episode 1: The Group",
+      "min": 24.4
+    },
+    {
+      "slot": 7,
+      "title": "Alba Salix E105: To Market, To Market",
+      "min": 29.0
+    },
+    {
+      "slot": 15,
+      "title": "Season One, Episode 3: Modern-Day Thacktivism",
+      "min": 26.6
+    },
+    {
+      "slot": 42,
+      "title": "The Prince of Iorden, Pt. 1",
+      "min": 22.7
+    },
+    {
+      "slot": 44,
+      "title": "Alba Salix E101: Well Met",
+      "min": 29.3
+    },
+    {
+      "slot": 46,
+      "title": "1.10: Second Citadel - The Head of the Janus Beast (Part 2)",
+      "min": 13.8
+    },
+    {
+      "slot": 48,
+      "title": "The Prince of Iorden, Pt. 2",
+      "min": 17.5
+    },
+    {
+      "slot": 52,
+      "title": "01 | Windshell",
+      "min": 15.5
+    },
+    {
+      "slot": 54,
+      "title": "Chapter 1: The Barmaid of Gathland (Part 1 of 2)",
+      "min": 23.0
+    },
+    {
+      "slot": 56,
+      "title": "The Prince of Iorden, Pt. 3",
+      "min": 25.8
+    },
+    {
+      "slot": 58,
+      "title": "2.03: Second Citadel - The Caves of Discord",
+      "min": 29.9
+    },
+    {
+      "slot": 60,
+      "title": "Season One, Episode 2: The Dip",
+      "min": 22.9
+    },
+    {
+      "slot": 62,
+      "title": "The Prince of Iorden, Pt. 4",
+      "min": 19.8
+    },
+    {
+      "slot": 64,
+      "title": "Episode 52: The Men of the Rock",
+      "min": 26.0
+    },
+    {
+      "slot": 66,
+      "title": "Chapter 1: The Barmaid of Gathland (Part 2 of 2)",
+      "min": 16.6
+    },
+    {
+      "slot": 68,
+      "title": "Alba Salix E102: Birds and Beasts",
+      "min": 28.4
+    },
+    {
+      "slot": 70,
+      "title": "Episode 0.5: The Witch Queen",
+      "min": 23.0
+    },
+    {
+      "slot": 72,
+      "title": "Episode 1: Old Number Seven: Barlo, Kentucky 1917: Part One",
+      "min": 16.4
+    },
+    {
+      "slot": 75,
+      "title": "Episode 1 Remastered",
+      "min": 27.6
+    },
+    {
+      "slot": 76,
+      "title": "02 | Broken Soul",
+      "min": 22.1
+    },
+    {
+      "slot": 80,
+      "title": "Episode 2: The Schoolhouse: Barlo Kentucky 1917: Part Two",
+      "min": 17.9
+    },
+    {
+      "slot": 82,
+      "title": "S1E2: Episode 2 - The Remains Of A Life",
+      "min": 16.6
+    },
+    {
+      "slot": 84,
+      "title": "03 | Ascending Deity",
+      "min": 17.8
+    },
+    {
+      "slot": 86,
+      "title": "S1E3: Episode 3 - A Stranger In The Dark",
+      "min": 18.8
+    },
+    {
+      "slot": 92,
+      "title": "Season One, Episode 4: Going Rogue",
+      "min": 29.9
+    },
+    {
+      "slot": 94,
+      "title": "S1E4: Episode 4 - A Cruel Silence",
+      "min": 28.9
+    },
+    {
+      "slot": 96,
+      "title": "Alba Salix E103: Into the Woeful Woods",
+      "min": 28.8
+    },
+    {
+      "slot": 100,
+      "title": "Episode 2 - A Helping Hand",
+      "min": 26.0
+    },
+    {
+      "slot": 102,
+      "title": "2.06: Second Citadel - Knight of the Crown, Lord of the Swamp (Part 1)",
+      "min": 26.9
+    },
+    {
+      "slot": 108,
+      "title": "MAG 32 Hive",
+      "min": 19.9
+    },
+    {
+      "slot": 110,
+      "title": "S1E5: Episode 5 - Where The Road Leads Us",
+      "min": 20.7
+    },
+    {
+      "slot": 111,
+      "title": "Episode 2 Remastered",
+      "min": 26.2
+    },
+    {
+      "slot": 112,
+      "title": "Episode 3 - The Terra",
+      "min": 19.7
+    },
+    {
+      "slot": 114,
+      "title": "Chapter 2: The Gathering of the Voyagers (Part 1 of 2)",
+      "min": 16.3
+    },
+    {
+      "slot": 118,
+      "title": "2.07: Second Citadel - Knight of the Crown, Lord of the Swamp (Part 2)",
+      "min": 28.5
+    },
+    {
+      "slot": 120,
+      "title": "Episode 3: The Covenant: Barlo, Kentucky 1917:  Part Three",
+      "min": 19.9
+    }
+  ],
+  "publisher_count": 34,
+  "lore_publisher_rss_urls": [
+    "https://feed.podbean.com/religionintherealms/feed.xml",
+    "https://feeds.megaphone.fm/BLU8261889823",
+    "https://feeds.megaphone.fm/CLDCA5657227714",
+    "https://feeds.megaphone.fm/dndlegendsandlore"
+  ],
+  "full_script_evidence_on_final_tracks": 5,
+  "publisher_audio_enclosures_verified": 120,
+  "podbean_import_tested": false
+}
