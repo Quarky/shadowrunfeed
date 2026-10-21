@@ -50,10 +50,18 @@
     }
   ],
   "audit_requirements": {
-    "first_pilot_episodes_read": 2,
-    "remaining_baseline_episode_transcripts_unverified": 118,
+    "first_pilot_episodes_read": 5,
     "publisher_rss_required_for_new_swaps": true,
     "replace_episodes_not_only_shows": true,
-    "do_not_rehost_audio": true
+    "do_not_rehost_audio": true,
+    "full_publisher_scripts_reviewed_in_final_v3": [
+      11,
+      55,
+      87,
+      91,
+      107
+    ],
+    "transcript_reviewed_final_selection_count": 5,
+    "remaining_final_selection_transcripts_unverified": 115
   }
 }
