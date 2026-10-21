@@ -1,6 +1,12 @@
 name: Anomaly V4
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'anomaly/v4/generate.py'
+      - 'anomaly/v4/policy.json'
+      - '.github/workflows/publish-anomaly-v4.yml'
 permissions:
   contents: write
 jobs:
