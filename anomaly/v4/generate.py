@@ -61,6 +61,20 @@ def lore(spec,cache):
  e=matches[0];a=e.find("enclosure")
  if a is None:raise ValueError("No publisher recording: "+spec["needle"])
  url=a.get("url") or "";size=int(a.get("length") or 0);mime=a.get("type") or ""
+ if size<=0:
+  try:
+   request=urllib.request.Request(url,method="HEAD",headers={"User-Agent":"AnomalyV4RSSHead/1.0"})
+   with urllib.request.urlopen(request,timeout=24) as response:size=int(response.headers.get("Content-Length") or 0)
+  except Exception:pass
+ if size<=0:
+  try:
+   request=urllib.request.Request(url,headers={"Range":"bytes=0-0","User-Agent":"AnomalyV4RSSHead/1.0"})
+   with urllib.request.urlopen(request,timeout=24) as response:
+    header=response.headers.get("Content-Range") or ""
+    if "/" in header:size=int(header.split("/")[-1])
+    elif response.status==200:size=int(response.headers.get("Content-Length") or 0)
+    response.read(1)
+  except Exception:pass
  duration=e.findtext("{"+IT+"}duration") or ""
  seconds=sec(duration)
  if not url.startswith("https://") or size<=0 or not mime.startswith("audio/") or seconds<1800:raise ValueError("Lore enclosure/duration invalid: "+spec["needle"]+" seconds="+str(seconds)+" bytes="+str(size)+" mime="+mime)
