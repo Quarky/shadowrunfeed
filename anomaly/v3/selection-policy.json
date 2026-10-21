@@ -1,0 +1,52 @@
+{
+  "version": 3,
+  "status": "pilot_research_verified_2_swaps",
+  "created": "2026-10-21",
+  "notes": "Two episode-level transcript-reviewed additions; original V2 unchanged. Do not claim other 118 transcripts were scanned.",
+  "canonical_feed": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v3.xml",
+  "total": 120,
+  "mix": {
+    "mode": "frozen_v2_60_60",
+    "story": 60,
+    "actual_play": 60,
+    "lore": 0,
+    "interview": 0,
+    "theme_blocks": 6,
+    "each_theme_items": 20,
+    "future_policy": {
+      "lore_tail_count": null,
+      "narrative_weights": null,
+      "story_actual_play_ratio": null,
+      "comment": "Not yet specified by the user. Keep original interleave until configured."
+    }
+  },
+  "source_data": "../fresh-episode-catalog.json",
+  "replacements": [
+    {
+      "position": 87,
+      "theme": "attina",
+      "role": "story",
+      "title": "Episode 1 - Keys",
+      "publisher": "Hello From The Hallowoods",
+      "rss": "https://rss.buzzsprout.com/2022026.rss",
+      "episode_page": "https://www.hellofromthehallowoods.com/post/hfth-episode-1-keys",
+      "transcript": "https://www.hellofromthehallowoods.com/post/hfth-episode-1-keys",
+      "evidence": "Full script reviewed: transformation and fragmented identity of Diggory; care for a ghost and shifting perspectives. More focused than The Hidden People's fourth episode for agency and transformed personhood. Modern setting, not campaign geography.",
+      "quality": "full_script_reviewed",
+      "research_status": "subject_to_publisher_rss_enclosure_gate"
+    },
+    {
+      "position": 107,
+      "theme": "aberrations",
+      "role": "story",
+      "title": "MAG 32 Hive",
+      "publisher": "The Magnus Archives",
+      "rss": "https://feeds.acast.com/public/shows/b6085bcd-3542-4a43-b6a8-021e3fd251b8",
+      "episode_page": "https://shows.acast.com/themagnusarchives/episodes/mag-32-hive",
+      "transcript": "https://snarp.github.io/magnus_archives_transcripts/episode/032.html",
+      "evidence": "Full statement transcript reviewed: wormlike colony compulsion/contagion; first-person body-horror and hybrid fear/attraction. Replaces a Second Citadel Part 2 selected without its Part 1 for new-listener accessibility.",
+      "quality": "full_transcript_reviewed",
+      "research_status": "subject_to_publisher_rss_enclosure_gate"
+    }
+  ]
+}
