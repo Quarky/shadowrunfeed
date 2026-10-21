@@ -15,3 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 anomaly/v4/generate.py
+      - name: Commit published media index
+        run: |
+          git add anomaly/feed-v4.xml anomaly/v4/selected.json anomaly/v4/status.json
+          git diff --cached --quiet || (git -c user.name=github-actions -c user.email=ci@example.invalid commit -m 'Publish Anomaly V4' && git push)
