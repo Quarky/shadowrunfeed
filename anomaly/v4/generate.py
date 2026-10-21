@@ -40,6 +40,12 @@ def v3():
   enc=item.find("enclosure"); desc=item.findtext("description") or ""
   theme=desc.partition("Theme: ")[2].partition(". Publisher:")[0]
   premise=desc.partition(". Description: ")[2].partition(". Editorial relevance: ")[0]
+  # Strip promotion and production credits; the RSS should explain scenes,
+  # not biographies of podcast authors or links to social accounts.
+  premise=re.sub(r"(?i)written by.{0,110}?directed by.{0,110}?(?=join us|meet |explore |the story|when |as )","",premise)
+  premise=re.sub(r"(?i)\\b(?:written by|directed by|narrated by|produced by)\\b[^.]{0,140}","",premise)
+  premise=re.split(r"(?i)\\b(?:support us|follow us|follow the show|patreon|twitter|discord|learn more about your ad choices|read the transcript|check out)\\b",premise,maxsplit=1)[0]
+  premise=re.sub(r"\\s+"," ",premise).strip()
   if theme not in THEMES:raise ValueError("Missing theme "+str(n))
   out.append(dict(origin=n,role="story" if m[1]=="STORY" else "actual_play",
    publisher=m[2],title=m[3],theme=theme,summary=premise[:300],
