@@ -63,7 +63,7 @@ def lore(spec,cache):
  url=a.get("url") or "";size=int(a.get("length") or 0);mime=a.get("type") or ""
  duration=e.findtext("{"+IT+"}duration") or ""
  seconds=sec(duration)
- if not url.startswith("https://") or size<=0 or not mime.startswith("audio/") or seconds<1800:raise ValueError("Lore enclosure/duration invalid: "+spec["needle"])
+ if not url.startswith("https://") or size<=0 or not mime.startswith("audio/") or seconds<1800:raise ValueError("Lore enclosure/duration invalid: "+spec["needle"]+" seconds="+str(seconds)+" bytes="+str(size)+" mime="+mime)
  return dict(role="lore",publisher=spec["publisher"],title=e.findtext("title") or "",
   theme=spec["theme"],summary="",link=e.findtext("link") or url,url=url,size=size,
   mime=mime,duration=duration,seconds=seconds,evidence="publisher chapter guide/synopsis",
