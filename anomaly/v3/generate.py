@@ -133,7 +133,7 @@ def main():
     resolved=[]
     for spec in config["replacements"]:
         n=spec["position"]
-        original=selected[n-1]
+        original=dict(selected[n-1])
         if original["number"]!=n or original["role"]!=spec["role"] or original["theme"]!=spec["theme"]:
             raise ValueError("Incompatible replacement "+str(n))
         found=fetch_publisher(spec["rss"],spec["title"])
