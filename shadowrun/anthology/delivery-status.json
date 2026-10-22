@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-22T13:25:33.783370+00:00",
+  "expected_sha256": "bb4c69bc728b1c3c532ec89a24e04b0f5a86a3ccf88bf0118f4a6df42c00df99",
+  "published_commit": "dc8d87eec009778cbb4063706568a5584f6a30bf",
+  "feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/shadowrun/anthology/feed-v1.xml",
+  "endpoints": {
+    "cdn_main": {
+      "http_status": 200,
+      "bytes": 191675,
+      "content_type": "application/xml",
+      "sha256": "c5e9661aa3fab5d883f257371f253472194b2de5268da7a6e8a83c8ed7ebee9c",
+      "identical_to_committed": false
+    },
+    "github_raw": {
+      "http_status": 200,
+      "bytes": 191675,
+      "content_type": "text/plain; charset=utf-8",
+      "sha256": "bb4c69bc728b1c3c532ec89a24e04b0f5a86a3ccf88bf0118f4a6df42c00df99",
+      "identical_to_committed": true
+    },
+    "immutable_cdn": {
+      "http_status": 200,
+      "bytes": 191675,
+      "content_type": "application/xml",
+      "sha256": "bb4c69bc728b1c3c532ec89a24e04b0f5a86a3ccf88bf0118f4a6df42c00df99",
+      "identical_to_committed": true
+    }
+  },
+  "podbean_import_tested": false,
+  "source_audio_full_playback_tested": false,
+  "cover": {
+    "width": 1400,
+    "height": 1400,
+    "mode": "RGB"
+  },
+  "items": 120,
+  "state": "blocked_or_stale"
+}
