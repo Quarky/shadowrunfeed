@@ -60,7 +60,7 @@
       "role": "lore"
     },
     "strata": {
-      "candidate_episodes": 0,
+      "candidate_episodes": 23,
       "target": 18,
       "role": "story"
     },
@@ -82,34 +82,28 @@
   },
   "short_exceptions": [
     {
-      "slot": 3,
-      "publisher": "COSMIKO: Neon Night",
-      "title": "Strings and Attractors",
-      "minutes": 28.0
+      "slot": 5,
+      "publisher": "The Strata",
+      "title": "Episode 1.2 - The End of Rust - Part 2",
+      "minutes": 23.6
     },
     {
-      "slot": 7,
-      "publisher": "COSMIKO: Neon Night",
-      "title": "She's Electric",
-      "minutes": 19.1
+      "slot": 9,
+      "publisher": "The Strata",
+      "title": "Episode 1.3 - The End of Rust - Part 3",
+      "minutes": 19.5
     },
     {
-      "slot": 11,
-      "publisher": "COSMIKO: Neon Night",
-      "title": "Zeroes",
-      "minutes": 23.8
+      "slot": 13,
+      "publisher": "The Strata",
+      "title": "Episode 1.4 - The End of Rust - Part 4",
+      "minutes": 16.1
     },
     {
-      "slot": 15,
-      "publisher": "COSMIKO: Neon Night",
-      "title": "Plastique",
-      "minutes": 26.9
-    },
-    {
-      "slot": 19,
-      "publisher": "COSMIKO: Neon Night",
-      "title": "The Nine Dragons",
-      "minutes": 27.5
+      "slot": 17,
+      "publisher": "The Strata",
+      "title": "Episode 1.5 - The End of Rust - Part 5",
+      "minutes": 18.4
     },
     {
       "slot": 21,
@@ -124,140 +118,172 @@
       "minutes": 27.7
     },
     {
-      "slot": 44,
+      "slot": 42,
+      "publisher": "The Strata",
+      "title": "Season 1 Production Update",
+      "minutes": 3.6
+    },
+    {
+      "slot": 46,
+      "publisher": "The Strata",
+      "title": "Episode 1.6 - The End of Rust - Part 6",
+      "minutes": 19.7
+    },
+    {
+      "slot": 50,
+      "publisher": "The Strata",
+      "title": "Episode 2.1 - Echoes - Part 1",
+      "minutes": 23.7
+    },
+    {
+      "slot": 52,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "Strings and Attractors",
+      "minutes": 28.0
+    },
+    {
+      "slot": 54,
+      "publisher": "The Strata",
+      "title": "Episode 2.2 - Echoes - Part 2",
+      "minutes": 22.3
+    },
+    {
+      "slot": 58,
+      "publisher": "The Strata",
+      "title": "Episode 2.3 - Echoes - Part 3",
+      "minutes": 19.6
+    },
+    {
+      "slot": 60,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "She's Electric",
+      "minutes": 19.1
+    },
+    {
+      "slot": 62,
+      "publisher": "The Strata",
+      "title": "Season 2 Production Update",
+      "minutes": 2.5
+    },
+    {
+      "slot": 66,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "Zeroes",
+      "minutes": 23.8
+    },
+    {
+      "slot": 68,
+      "publisher": "The Strata",
+      "title": "Episode 2.4 - Echoes - Part 4",
+      "minutes": 23.9
+    },
+    {
+      "slot": 72,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "Plastique",
+      "minutes": 26.9
+    },
+    {
+      "slot": 74,
+      "publisher": "The Strata",
+      "title": "Mini Episode 2.5 - The Transfer",
+      "minutes": 8.2
+    },
+    {
+      "slot": 78,
       "publisher": "InkandNeon",
       "title": "Do it, for her",
       "minutes": 9.6
     },
     {
-      "slot": 48,
+      "slot": 80,
       "publisher": "COSMIKO: Neon Night",
-      "title": "Terminal Descent",
+      "title": "The Nine Dragons",
       "minutes": 27.5
     },
     {
-      "slot": 52,
+      "slot": 82,
+      "publisher": "The Strata",
+      "title": "The Strata - Luna - Introduction",
+      "minutes": 8.4
+    },
+    {
+      "slot": 86,
       "publisher": "InkandNeon",
       "title": "The Puppets in the Signal",
       "minutes": 14.9
     },
     {
-      "slot": 56,
+      "slot": 88,
       "publisher": "COSMIKO: Neon Night",
-      "title": "High Tower",
-      "minutes": 25.8
+      "title": "Terminal Descent",
+      "minutes": 27.5
     },
     {
-      "slot": 60,
+      "slot": 90,
+      "publisher": "The Strata",
+      "title": "Episode 3.1 - Vendetta - Part 1",
+      "minutes": 23.6
+    },
+    {
+      "slot": 94,
       "publisher": "InkandNeon",
       "title": "Project N.E.O.N",
       "minutes": 18.8
     },
     {
-      "slot": 64,
+      "slot": 96,
       "publisher": "COSMIKO: Neon Night",
-      "title": "Graveyard Shift",
-      "minutes": 27.2
+      "title": "High Tower",
+      "minutes": 25.8
     },
     {
-      "slot": 68,
+      "slot": 98,
+      "publisher": "The Strata",
+      "title": "Episode 3.2 - Vendetta - Part 2",
+      "minutes": 23.2
+    },
+    {
+      "slot": 102,
       "publisher": "InkandNeon",
       "title": "The Icon of Sin",
       "minutes": 4.8
     },
     {
-      "slot": 76,
+      "slot": 104,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "Graveyard Shift",
+      "minutes": 27.2
+    },
+    {
+      "slot": 106,
+      "publisher": "The Strata",
+      "title": "Episode 3.3 - Vendetta - Part 3",
+      "minutes": 20.3
+    },
+    {
+      "slot": 110,
       "publisher": "InkandNeon",
       "title": "The last resident of apartment Block S765",
       "minutes": 10.1
     },
     {
-      "slot": 84,
-      "publisher": "InkandNeon",
-      "title": "`1''sTHe f()(LE134sH.,.{6432Creep",
-      "minutes": 11.0
-    },
-    {
-      "slot": 92,
-      "publisher": "InkandNeon",
-      "title": "Damnatio Memoriae",
-      "minutes": 11.9
-    },
-    {
-      "slot": 96,
-      "publisher": "COSMIKO: Neon Night",
-      "title": "One Way Trip",
-      "minutes": 28.2
-    },
-    {
-      "slot": 100,
-      "publisher": "InkandNeon",
-      "title": "Still Life",
-      "minutes": 14.6
-    },
-    {
-      "slot": 106,
-      "publisher": "InkandNeon",
-      "title": "Quality Assurance: DARWIN Yard Massacre",
-      "minutes": 18.3
-    },
-    {
-      "slot": 112,
-      "publisher": "InkandNeon",
-      "title": "Star Catcher",
-      "minutes": 11.9
+      "slot": 114,
+      "publisher": "The Strata",
+      "title": "Episode 3.4 - Vendetta - Part 4",
+      "minutes": 17.4
     },
     {
       "slot": 118,
       "publisher": "InkandNeon",
-      "title": "Unit XV The Butcher of Venus",
-      "minutes": 26.6
-    },
-    {
-      "slot": 120,
-      "publisher": "COSMIKO: Neon Night",
-      "title": "Screwball",
-      "minutes": 29.3
+      "title": "`1''sTHe f()(LE134sH.,.{6432Creep",
+      "minutes": 11.0
     }
   ],
   "transcripts_examined_full": 0,
   "audio_playback_tested": false,
   "podbean_import_tested": false,
   "edition": "anthology_v1",
-  "empty_source_samples": {
-    "strata": [
-      {
-        "title": "Episode 14.5 - The Outer Rim - Part 5",
-        "pubDate": "Tue, 20 Oct 2026 06:00:00 -0000",
-        "duration": "2005",
-        "enclosure": {
-          "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/swap.fm/track/6bpBPtHL977KJxLX2zPs/mgln.ai/e/485/traffic.megaphone.fm/FAFO2206028179.mp3",
-          "length": "0",
-          "type": "audio/mpeg"
-        }
-      },
-      {
-        "title": "Episode 14.4 - The Outer Rim - Part 4",
-        "pubDate": "Tue, 06 Oct 2026 06:00:00 -0000",
-        "duration": "1987",
-        "enclosure": {
-          "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/swap.fm/track/6bpBPtHL977KJxLX2zPs/mgln.ai/e/485/traffic.megaphone.fm/FAFO8788208870.mp3",
-          "length": "0",
-          "type": "audio/mpeg"
-        }
-      },
-      {
-        "title": "Episode 14.3 - The Outer Rim - Part 3",
-        "pubDate": "Tue, 22 Sep 2026 06:00:00 -0000",
-        "duration": "2000",
-        "enclosure": {
-          "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/swap.fm/track/6bpBPtHL977KJxLX2zPs/mgln.ai/e/485/traffic.megaphone.fm/FAFO7283549034.mp3",
-          "length": "0",
-          "type": "audio/mpeg"
-        }
-      }
-    ]
-  },
   "state": "publisher_rss_metadata_validated",
   "total": 120,
   "roles": {
@@ -266,10 +292,10 @@
     "lore": 10
   },
   "pinned_baseline": 8,
-  "publisher_count": 9,
+  "publisher_count": 10,
   "publisher_rss_enclosures_validated": 120,
-  "over_30_min": 97,
-  "over_60_min": 47,
+  "over_30_min": 87,
+  "over_60_min": 42,
   "unknown_duration": 0,
-  "feed_sha256": "5918c4f68d7d22e9afb76a2923cbbd0a065fd0ed2295b5b731368c31178491fe"
+  "feed_sha256": "c5e9661aa3fab5d883f257371f253472194b2de5268da7a6e8a83c8ed7ebee9c"
 }
