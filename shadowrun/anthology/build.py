@@ -92,6 +92,36 @@ def fetch(feed):
             cache[feed] = []
     return cache[feed]
 
+def probe_original_audio_length(url):
+    """Obtain length from original-host HTTP response, not an estimate."""
+    options=[url]
+    # Podtrac prefixes in official Megaphone enclosures often publish
+    # length="0". Request the underlying publisher-hosted Megaphone MP3
+    # headers without changing the enclosure URL distributed to listeners.
+    direct=re.search(r"(traffic\.megaphone\.fm/[A-Za-z0-9_-]+\.mp3)",url)
+    if direct:
+        options.insert(0,"https://"+direct.group(1))
+    for target in options:
+        for method in ("HEAD","GET"):
+            headers={"User-Agent":"ShadowrunPodcastAnthology/1.0"}
+            if method=="GET":
+                headers["Range"]="bytes=0-0"
+            try:
+                req=urllib.request.Request(target,headers=headers,method=method)
+                with urllib.request.urlopen(req,timeout=18) as response:
+                    content_range=response.headers.get("Content-Range","")
+                    match=re.search(r"/(\d+)$",content_range)
+                    if match and int(match.group(1))>0:
+                        return int(match.group(1))
+                    length=int(response.headers.get("Content-Length") or 0)
+                    if length>100000:
+                        return length
+                    if method=="GET":
+                        response.read(1)
+            except Exception:
+                pass
+    return 0
+
 def make_record(item, publisher, feed, role, pinned=False):
     title = clean(item.findtext("title") or "",250)
     e = item.find("enclosure")
@@ -103,6 +133,8 @@ def make_record(item, publisher, feed, role, pinned=False):
         size = int(e.attrib.get("length") or "0")
     except ValueError:
         size = 0
+    if size<=0 and "traffic.megaphone.fm/" in url:
+        size=probe_original_audio_length(url)
     if not url.startswith("https://") or size <= 0 or not mime.startswith("audio/"):
         return None
     published = date(item.findtext("pubDate") or "")
@@ -169,7 +201,10 @@ def gather(role, selected):
     all_pools = []
     for spec in sources:
         records=[]
-        for item in fetch(spec["rss"]):
+        raw_items=fetch(spec["rss"])
+        if spec["key"]=="strata":
+            raw_items=sorted(raw_items,key=lambda x:date(x.findtext("pubDate") or ""))
+        for item in raw_items:
             rec=make_record(item,spec["name"],spec["rss"],role)
             if not rec:
                 continue
@@ -184,6 +219,10 @@ def gather(role, selected):
             if role=="actual_play" and rec["seconds"] and rec["seconds"] < 1500:
                 continue
             records.append(rec)
+            if spec["key"]=="strata" and len(records)>=spec["target"]+5:
+                # Oldest complete story arc first; avoid probing an entire
+                # 160-track syndicated feed for metadata-only discovery.
+                break
         if spec["sort"]=="relevance":
             records.sort(key=lambda x:(-fit_score(x,role),x["original_date"],x["title"]))
         else:
