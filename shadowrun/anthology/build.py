@@ -189,6 +189,14 @@ def gather(role, selected):
         else:
             records.sort(key=lambda x:(x["original_date"],x["title"]))
         report["source_inventory"][spec["key"]] = {"candidate_episodes":len(records),"target":spec["target"],"role":role}
+        if not records:
+            report.setdefault("empty_source_samples", {})[spec["key"]] = [
+                {"title":(i.findtext("title") or "")[:100],
+                 "pubDate":i.findtext("pubDate"),
+                 "duration":i.findtext("{"+IT+"}duration"),
+                 "enclosure":(i.find("enclosure").attrib if i.find("enclosure") is not None else None)}
+                for i in fetch(spec["rss"])[:3]
+            ]
         all_pools.append((spec,records))
     used_urls={x["url"] for x in selected}
     used_guids={x["publisher_guid"] for x in selected if x["publisher_guid"]}
@@ -211,12 +219,17 @@ def gather(role, selected):
     # Use 30+ minute episodes preferentially while honoring per-publisher quotas;
     # short stories can enter as explicit exceptions if no longer choices exist.
     for spec,records in all_pools:
-        longer=[x for x in records if x["seconds"]>=1800]
-        shorter=[x for x in records if 0<x["seconds"]<1800]
-        unknown=[x for x in records if x["seconds"]==0]
-        n=take(spec,longer,spec["target"])
-        if n<spec["target"]: n+=take(spec,shorter,spec["target"]-n)
-        if n<spec["target"]: n+=take(spec,unknown,spec["target"]-n)
+        if spec["sort"]=="chronological" and spec["key"] in ("strata","cosmiko","ink","origins","arcology","fohawk"):
+            # Never jump into a serial's later chapter merely because it exceeds
+            # a duration threshold; maintain episode chronology for listeners.
+            n=take(spec,records,spec["target"])
+        else:
+            longer=[x for x in records if x["seconds"]>=1800]
+            shorter=[x for x in records if 0<x["seconds"]<1800]
+            unknown=[x for x in records if x["seconds"]==0]
+            n=take(spec,longer,spec["target"])
+            if n<spec["target"]: n+=take(spec,shorter,spec["target"]-n)
+            if n<spec["target"]: n+=take(spec,unknown,spec["target"]-n)
     # Fill shortfalls with already-audited publisher RSS items; never fabricate
     # a "120-track" result by duplicating enclosures.
     needed=POLICY["roles"][role]-len(selected)-len(chosen)
