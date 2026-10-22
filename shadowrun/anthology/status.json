@@ -1,0 +1,193 @@
+{
+  "source_fetch": {
+    "https://shadowrunorigins.libsyn.com/rss": {
+      "ok": true,
+      "items": 97
+    },
+    "https://arcologypodcast.libsyn.com/rss": {
+      "ok": true,
+      "items": 501
+    },
+    "https://feed.podbean.com/pinkfohawk/feed.xml": {
+      "ok": true,
+      "items": 45
+    },
+    "https://neo-anarchist.libsyn.com/rss": {
+      "ok": true,
+      "items": 139
+    },
+    "https://feeds.megaphone.fm/thestrata": {
+      "ok": true,
+      "items": 160
+    },
+    "https://feeds.acast.com/public/shows/program": {
+      "ok": true,
+      "items": 44
+    },
+    "https://feed.podbean.com/VisitTheCosmiko/feed.xml": {
+      "ok": true,
+      "items": 27
+    },
+    "https://media.rss.com/inkandneon/feed.xml": {
+      "ok": true,
+      "items": 18
+    }
+  },
+  "source_inventory": {
+    "origins": {
+      "candidate_episodes": 91,
+      "target": 18,
+      "role": "actual_play"
+    },
+    "arcology": {
+      "candidate_episodes": 302,
+      "target": 24,
+      "role": "actual_play"
+    },
+    "fohawk": {
+      "candidate_episodes": 39,
+      "target": 12,
+      "role": "actual_play"
+    },
+    "neo": {
+      "candidate_episodes": 54,
+      "target": 4,
+      "role": "lore"
+    },
+    "arcology_lore": {
+      "candidate_episodes": 187,
+      "target": 4,
+      "role": "lore"
+    },
+    "strata": {
+      "candidate_episodes": 0,
+      "target": 18,
+      "role": "story"
+    },
+    "program": {
+      "candidate_episodes": 43,
+      "target": 16,
+      "role": "story"
+    },
+    "cosmiko": {
+      "candidate_episodes": 23,
+      "target": 10,
+      "role": "story"
+    },
+    "ink": {
+      "candidate_episodes": 18,
+      "target": 6,
+      "role": "story"
+    }
+  },
+  "short_exceptions": [
+    {
+      "slot": 19,
+      "publisher": "InkandNeon",
+      "title": "Do it, for her",
+      "minutes": 9.6
+    },
+    {
+      "slot": 21,
+      "publisher": "Neo-Anarchist Podcast",
+      "title": "Episode 30: 2060: Shutdown, Rogue AIs, Or'Zet & Orksploitation",
+      "minutes": 11.7
+    },
+    {
+      "slot": 48,
+      "publisher": "InkandNeon",
+      "title": "The Puppets in the Signal",
+      "minutes": 14.9
+    },
+    {
+      "slot": 56,
+      "publisher": "InkandNeon",
+      "title": "Project N.E.O.N",
+      "minutes": 18.8
+    },
+    {
+      "slot": 64,
+      "publisher": "InkandNeon",
+      "title": "The Icon of Sin",
+      "minutes": 4.8
+    },
+    {
+      "slot": 72,
+      "publisher": "InkandNeon",
+      "title": "The last resident of apartment Block S765",
+      "minutes": 10.1
+    },
+    {
+      "slot": 80,
+      "publisher": "InkandNeon",
+      "title": "`1''sTHe f()(LE134sH.,.{6432Creep",
+      "minutes": 11.0
+    },
+    {
+      "slot": 88,
+      "publisher": "InkandNeon",
+      "title": "Damnatio Memoriae",
+      "minutes": 11.9
+    },
+    {
+      "slot": 96,
+      "publisher": "InkandNeon",
+      "title": "Still Life",
+      "minutes": 14.6
+    },
+    {
+      "slot": 100,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "One Way Trip",
+      "minutes": 28.2
+    },
+    {
+      "slot": 104,
+      "publisher": "InkandNeon",
+      "title": "Quality Assurance: DARWIN Yard Massacre",
+      "minutes": 18.3
+    },
+    {
+      "slot": 112,
+      "publisher": "InkandNeon",
+      "title": "Star Catcher",
+      "minutes": 11.9
+    },
+    {
+      "slot": 114,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "Strings and Attractors",
+      "minutes": 28.0
+    },
+    {
+      "slot": 118,
+      "publisher": "InkandNeon",
+      "title": "Unit XV The Butcher of Venus",
+      "minutes": 26.6
+    },
+    {
+      "slot": 120,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "Screwball",
+      "minutes": 29.3
+    }
+  ],
+  "transcripts_examined_full": 0,
+  "audio_playback_tested": false,
+  "podbean_import_tested": false,
+  "edition": "anthology_v1",
+  "state": "publisher_rss_metadata_validated",
+  "total": 120,
+  "roles": {
+    "story": 50,
+    "actual_play": 60,
+    "lore": 10
+  },
+  "pinned_baseline": 8,
+  "publisher_count": 9,
+  "publisher_rss_enclosures_validated": 120,
+  "over_30_min": 105,
+  "over_60_min": 48,
+  "unknown_duration": 0,
+  "feed_sha256": "13eeab391acd4e0b91581d1f2962124536cfb3ec6fe8b328960995b91cc948f2"
+}
