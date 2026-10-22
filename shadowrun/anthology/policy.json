@@ -1,0 +1,247 @@
+{
+  "campaign": "shadowrun_shutdown",
+  "edition": "anthology_v1",
+  "date_frozen": "2026-10-22",
+  "output": "shadowrun/anthology/feed-v1.xml",
+  "subscription": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/shadowrun/anthology/feed-v1.xml",
+  "preserve_old": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/feed-v2.xml",
+  "framing": "Outside-fiction inspiration for Renraku Arcology Shutdown; not campaign canon.",
+  "count": 120,
+  "roles": {
+    "story": 50,
+    "actual_play": 60,
+    "lore": 10
+  },
+  "mix": [
+    {
+      "range": [
+        1,
+        20
+      ],
+      "pattern": [
+        "story",
+        "actual_play"
+      ]
+    },
+    {
+      "range": [
+        21,
+        40
+      ],
+      "pattern": [
+        "lore",
+        "actual_play"
+      ]
+    },
+    {
+      "range": [
+        41,
+        120
+      ],
+      "pattern": [
+        "actual_play",
+        "story"
+      ]
+    }
+  ],
+  "preferred_duration_min": 60,
+  "normal_min_duration_min": 30,
+  "no_sponsor_trailer_or_recap": true,
+  "themes": [
+    {
+      "id": "ordinary_life",
+      "label": "work, neighbors and everyday corporate-city life",
+      "keywords": [
+        "worker",
+        "street",
+        "city",
+        "job",
+        "client",
+        "home",
+        "apartment",
+        "courier",
+        "community",
+        "friends",
+        "business"
+      ]
+    },
+    {
+      "id": "corporate_power",
+      "label": "institutions, contracts and corporate loyalties",
+      "keywords": [
+        "corporate",
+        "corporation",
+        "renraku",
+        "security",
+        "executive",
+        "company",
+        "facility",
+        "contract",
+        "experiment",
+        "workplace"
+      ]
+    },
+    {
+      "id": "matrix",
+      "label": "the Matrix, electronic surveillance and autonomous systems",
+      "keywords": [
+        "matrix",
+        "cyber",
+        "hack",
+        "decker",
+        "signal",
+        "network",
+        "computer",
+        "ai",
+        "algorithm",
+        "digital",
+        "technology",
+        "glitch"
+      ]
+    },
+    {
+      "id": "lockdown",
+      "label": "enclosed spaces, uncertainty and competing survival priorities",
+      "keywords": [
+        "lockdown",
+        "arcology",
+        "trapped",
+        "prison",
+        "escape",
+        "isolat",
+        "contain",
+        "evac",
+        "closed",
+        "station",
+        "facility",
+        "underground"
+      ]
+    },
+    {
+      "id": "resistance",
+      "label": "trust, betrayal and opposition under pressure",
+      "keywords": [
+        "resist",
+        "rebel",
+        "betray",
+        "secret",
+        "conspir",
+        "corrupt",
+        "freedom",
+        "fight",
+        "revolt",
+        "underworld",
+        "gang"
+      ]
+    },
+    {
+      "id": "survival",
+      "label": "civilian consequences, rescue and difficult choices",
+      "keywords": [
+        "rescue",
+        "save",
+        "surviv",
+        "family",
+        "danger",
+        "crisis",
+        "hostage",
+        "murder",
+        "human",
+        "loss",
+        "life",
+        "death"
+      ]
+    }
+  ],
+  "source_policy": {
+    "story": [
+      {
+        "key": "strata",
+        "name": "The Strata",
+        "rss": "https://feeds.megaphone.fm/thestrata",
+        "target": 18,
+        "sort": "chronological"
+      },
+      {
+        "key": "program",
+        "name": "The Program audio series",
+        "rss": "https://feeds.acast.com/public/shows/program",
+        "target": 16,
+        "sort": "chronological"
+      },
+      {
+        "key": "cosmiko",
+        "name": "COSMIKO: Neon Night",
+        "rss": "https://feed.podbean.com/VisitTheCosmiko/feed.xml",
+        "target": 10,
+        "sort": "chronological"
+      },
+      {
+        "key": "ink",
+        "name": "InkandNeon",
+        "rss": "https://media.rss.com/inkandneon/feed.xml",
+        "target": 6,
+        "sort": "chronological"
+      }
+    ],
+    "actual_play": [
+      {
+        "key": "origins",
+        "name": "Shadowrun: Origins",
+        "rss": "https://shadowrunorigins.libsyn.com/rss",
+        "target": 18,
+        "sort": "chronological"
+      },
+      {
+        "key": "arcology",
+        "name": "The Arcology Shadowrun Podcast",
+        "rss": "https://arcologypodcast.libsyn.com/rss",
+        "target": 24,
+        "sort": "chronological",
+        "include": "actual play"
+      },
+      {
+        "key": "fohawk",
+        "name": "Pink Fohawk",
+        "rss": "https://feed.podbean.com/pinkfohawk/feed.xml",
+        "target": 12,
+        "sort": "chronological"
+      }
+    ],
+    "lore": [
+      {
+        "key": "neo",
+        "name": "Neo-Anarchist Podcast",
+        "rss": "https://neo-anarchist.libsyn.com/rss",
+        "target": 4,
+        "sort": "relevance",
+        "include": "205|206|renraku|arcology|corporation|matrix|seattle|shadowrun"
+      },
+      {
+        "key": "arcology_lore",
+        "name": "The Arcology Shadowrun Podcast",
+        "rss": "https://arcologypodcast.libsyn.com/rss",
+        "target": 4,
+        "sort": "relevance",
+        "exclude": "actual play"
+      }
+    ]
+  },
+  "frozen_baseline": {
+    "source_file": "feed-v2.xml",
+    "sinless_actual_play": 6,
+    "neo_anarchist_lore": 1,
+    "acceptable_losses_lore": 1
+  },
+  "gates": [
+    "publisher RSS and real HTTPS audio enclosure",
+    "positive original media length",
+    "no duplicate media URL or source GUID",
+    "source publication not future-dated",
+    "120 episodes and V4-style role order",
+    "publisher synopsis and evidence label",
+    "old original RSS untouched",
+    "public CDN readback required before claiming subscription verified"
+  ],
+  "transcript_status": "publisher_metadata_only_until_actual_full_text_examined"
+}
