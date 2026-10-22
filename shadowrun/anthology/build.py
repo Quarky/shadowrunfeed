@@ -29,7 +29,7 @@ ET.register_namespace("itunes", IT)
 ET.register_namespace("atom", AT)
 U = POLICY["subscription"]
 STAMP = dt.datetime(2026, 10, 22, 11, 0, tzinfo=dt.timezone.utc)
-IGNORE = re.compile(r"\b(trailer|teaser|preview|patreon|bonus|q\s*&\s*a|re-cap|recap|announcement|introducing:|after dark|behind the scenes|outtakes|blooper|promo|advertisement|feed drop|sneak peek|transcript only)\b", re.I)
+IGNORE = re.compile(r"\b(trailer|teaser|preview|patreon|bonus|q\s*&\s*a|re-cap|recap|announcement|introducing:|after dark|behind the scenes|outtakes|blooper|promo|advertisement|feed drop|sneak peek|transcript only|production update|introduction|studio update|special announcement|sixth edition box set)\b", re.I)
 PROMO = re.compile(r"(?i)\b(?:support us on|support the show|follow us on|find us on|follow the show|our patreon|join our discord|check out our|sponsored by|advertising inquiries|credits:|learn more about your ad choices|click here to)\b")
 TAG = re.compile(r"<[^>]+>")
 WS = re.compile(r"\s+")
@@ -216,7 +216,15 @@ def gather(role, selected):
                     continue
             if "exclude" in spec and re.search(spec["exclude"],title,re.I):
                 continue
-            if role=="actual_play" and rec["seconds"] and rec["seconds"] < 1500:
+            if spec["key"]=="origins" and not re.search(r"shadowrun origins:\s*episode\s*\d+", rec["title"], re.I):
+                # Do not misclassify a rulebook/product special as the next
+                # chapter of an actual-play serial. Retain genuine short AP.
+                continue
+            if spec["key"]=="neo":
+                year=re.search(r"\b(20\d\d)[a-z]?:", title)
+                if year and int(year.group(1))>2061:
+                    continue
+            if spec["key"]=="arcology_lore" and re.search(r"syrinscape|gencon|boxed set|character optimization|product review|kickstarter|podcast meetup|meet and greet|game review|dice bag",title,re.I):
                 continue
             records.append(rec)
             if spec["key"]=="strata" and len(records)>=spec["target"]+5:
