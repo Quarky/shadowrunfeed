@@ -44,6 +44,8 @@ jobs:
           BUILD_EXIT: ${{ steps.build.outputs.exit_code }}
         run: |
           set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ "$BUILD_EXIT" = "0" ]; then
             git add shadowrun/anthology/feed-v1.xml shadowrun/anthology/selected.json shadowrun/anthology/cover.png shadowrun/anthology/status.json shadowrun/anthology/build-diagnostic.json
           else
@@ -59,6 +61,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           PUBLISHED_COMMIT="$(git rev-parse HEAD)" python3 shadowrun/anthology/verify_delivery.py
           git add shadowrun/anthology/delivery-status.json
           if ! git diff --cached --quiet; then
