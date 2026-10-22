@@ -1,0 +1,60 @@
+name: Publish Shadowrun Story/AP/Lore Anthology
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "shadowrun/anthology/build.py"
+      - "shadowrun/anthology/policy.json"
+      - ".github/workflows/publish-shadowrun-anthology.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shadowrun-anthology-publish
+  cancel-in-progress: false
+
+jobs:
+  anthology:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install cover renderer
+        run: python3 -m pip install Pillow
+      - name: Verify source syntax
+        run: python3 -m py_compile shadowrun/anthology/build.py
+      - name: Build and validate original publisher enclosures
+        id: build
+        shell: bash
+        run: |
+          set +e
+          python3 shadowrun/anthology/build.py
+          rc=$?
+          echo "exit_code=$rc" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Commit successful feed or blocked diagnostic
+        shell: bash
+        env:
+          BUILD_EXIT: ${{ steps.build.outputs.exit_code }}
+        run: |
+          set -euo pipefail
+          if [ "$BUILD_EXIT" = "0" ]; then
+            git add shadowrun/anthology/feed-v1.xml shadowrun/anthology/selected.json shadowrun/anthology/cover.png shadowrun/anthology/status.json shadowrun/anthology/build-diagnostic.json
+          else
+            git add shadowrun/anthology/build-diagnostic.json
+          fi
+          if ! git diff --cached --quiet; then
+            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Refresh Shadowrun anthology RSS and original media manifest"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Fail if published audio gate did not pass
+        if: steps.build.outputs.exit_code != '0'
+        run: |
+          echo "::error::The anthology is not publishable. Inspect shadowrun/anthology/build-diagnostic.json for source-level blockers."
+          exit 1
