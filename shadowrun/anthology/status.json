@@ -82,10 +82,34 @@
   },
   "short_exceptions": [
     {
+      "slot": 3,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "Strings and Attractors",
+      "minutes": 28.0
+    },
+    {
+      "slot": 7,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "She's Electric",
+      "minutes": 19.1
+    },
+    {
+      "slot": 11,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "Zeroes",
+      "minutes": 23.8
+    },
+    {
+      "slot": 15,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "Plastique",
+      "minutes": 26.9
+    },
+    {
       "slot": 19,
-      "publisher": "InkandNeon",
-      "title": "Do it, for her",
-      "minutes": 9.6
+      "publisher": "COSMIKO: Neon Night",
+      "title": "The Nine Dragons",
+      "minutes": 27.5
     },
     {
       "slot": 21,
@@ -94,55 +118,85 @@
       "minutes": 11.7
     },
     {
+      "slot": 36,
+      "publisher": "Shadowrun: Origins",
+      "title": "Shadowrun Origins: Episode 10: Downtime 2",
+      "minutes": 27.7
+    },
+    {
+      "slot": 44,
+      "publisher": "InkandNeon",
+      "title": "Do it, for her",
+      "minutes": 9.6
+    },
+    {
       "slot": 48,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "Terminal Descent",
+      "minutes": 27.5
+    },
+    {
+      "slot": 52,
       "publisher": "InkandNeon",
       "title": "The Puppets in the Signal",
       "minutes": 14.9
     },
     {
       "slot": 56,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "High Tower",
+      "minutes": 25.8
+    },
+    {
+      "slot": 60,
       "publisher": "InkandNeon",
       "title": "Project N.E.O.N",
       "minutes": 18.8
     },
     {
       "slot": 64,
+      "publisher": "COSMIKO: Neon Night",
+      "title": "Graveyard Shift",
+      "minutes": 27.2
+    },
+    {
+      "slot": 68,
       "publisher": "InkandNeon",
       "title": "The Icon of Sin",
       "minutes": 4.8
     },
     {
-      "slot": 72,
+      "slot": 76,
       "publisher": "InkandNeon",
       "title": "The last resident of apartment Block S765",
       "minutes": 10.1
     },
     {
-      "slot": 80,
+      "slot": 84,
       "publisher": "InkandNeon",
       "title": "`1''sTHe f()(LE134sH.,.{6432Creep",
       "minutes": 11.0
     },
     {
-      "slot": 88,
+      "slot": 92,
       "publisher": "InkandNeon",
       "title": "Damnatio Memoriae",
       "minutes": 11.9
     },
     {
       "slot": 96,
-      "publisher": "InkandNeon",
-      "title": "Still Life",
-      "minutes": 14.6
-    },
-    {
-      "slot": 100,
       "publisher": "COSMIKO: Neon Night",
       "title": "One Way Trip",
       "minutes": 28.2
     },
     {
-      "slot": 104,
+      "slot": 100,
+      "publisher": "InkandNeon",
+      "title": "Still Life",
+      "minutes": 14.6
+    },
+    {
+      "slot": 106,
       "publisher": "InkandNeon",
       "title": "Quality Assurance: DARWIN Yard Massacre",
       "minutes": 18.3
@@ -152,12 +206,6 @@
       "publisher": "InkandNeon",
       "title": "Star Catcher",
       "minutes": 11.9
-    },
-    {
-      "slot": 114,
-      "publisher": "COSMIKO: Neon Night",
-      "title": "Strings and Attractors",
-      "minutes": 28.0
     },
     {
       "slot": 118,
@@ -176,6 +224,40 @@
   "audio_playback_tested": false,
   "podbean_import_tested": false,
   "edition": "anthology_v1",
+  "empty_source_samples": {
+    "strata": [
+      {
+        "title": "Episode 14.5 - The Outer Rim - Part 5",
+        "pubDate": "Tue, 20 Oct 2026 06:00:00 -0000",
+        "duration": "2005",
+        "enclosure": {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/swap.fm/track/6bpBPtHL977KJxLX2zPs/mgln.ai/e/485/traffic.megaphone.fm/FAFO2206028179.mp3",
+          "length": "0",
+          "type": "audio/mpeg"
+        }
+      },
+      {
+        "title": "Episode 14.4 - The Outer Rim - Part 4",
+        "pubDate": "Tue, 06 Oct 2026 06:00:00 -0000",
+        "duration": "1987",
+        "enclosure": {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/swap.fm/track/6bpBPtHL977KJxLX2zPs/mgln.ai/e/485/traffic.megaphone.fm/FAFO8788208870.mp3",
+          "length": "0",
+          "type": "audio/mpeg"
+        }
+      },
+      {
+        "title": "Episode 14.3 - The Outer Rim - Part 3",
+        "pubDate": "Tue, 22 Sep 2026 06:00:00 -0000",
+        "duration": "2000",
+        "enclosure": {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/swap.fm/track/6bpBPtHL977KJxLX2zPs/mgln.ai/e/485/traffic.megaphone.fm/FAFO7283549034.mp3",
+          "length": "0",
+          "type": "audio/mpeg"
+        }
+      }
+    ]
+  },
   "state": "publisher_rss_metadata_validated",
   "total": 120,
   "roles": {
@@ -186,8 +268,8 @@
   "pinned_baseline": 8,
   "publisher_count": 9,
   "publisher_rss_enclosures_validated": 120,
-  "over_30_min": 105,
-  "over_60_min": 48,
+  "over_30_min": 97,
+  "over_60_min": 47,
   "unknown_duration": 0,
-  "feed_sha256": "13eeab391acd4e0b91581d1f2962124536cfb3ec6fe8b328960995b91cc948f2"
+  "feed_sha256": "5918c4f68d7d22e9afb76a2923cbbd0a065fd0ed2295b5b731368c31178491fe"
 }
