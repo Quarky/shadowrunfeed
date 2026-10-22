@@ -7,6 +7,7 @@ on:
     paths:
       - "shadowrun/anthology/build.py"
       - "shadowrun/anthology/policy.json"
+      - "shadowrun/anthology/verify_delivery.py"
       - ".github/workflows/publish-shadowrun-anthology.yml"
 
 permissions:
@@ -50,6 +51,18 @@ jobs:
           fi
           if ! git diff --cached --quiet; then
             git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Refresh Shadowrun anthology RSS and original media manifest"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Verify actual public RSS bytes against committed file
+        if: steps.build.outputs.exit_code == '0'
+        shell: bash
+        run: |
+          set -euo pipefail
+          PUBLISHED_COMMIT="$(git rev-parse HEAD)" python3 shadowrun/anthology/verify_delivery.py
+          git add shadowrun/anthology/delivery-status.json
+          if ! git diff --cached --quiet; then
+            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Record Shadowrun anthology public CDN readback"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
