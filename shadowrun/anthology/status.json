@@ -35,12 +35,12 @@
   },
   "source_inventory": {
     "origins": {
-      "candidate_episodes": 91,
+      "candidate_episodes": 95,
       "target": 18,
       "role": "actual_play"
     },
     "arcology": {
-      "candidate_episodes": 302,
+      "candidate_episodes": 306,
       "target": 24,
       "role": "actual_play"
     },
@@ -50,12 +50,12 @@
       "role": "actual_play"
     },
     "neo": {
-      "candidate_episodes": 54,
+      "candidate_episodes": 41,
       "target": 4,
       "role": "lore"
     },
     "arcology_lore": {
-      "candidate_episodes": 187,
+      "candidate_episodes": 184,
       "target": 4,
       "role": "lore"
     },
@@ -100,6 +100,12 @@
       "minutes": 16.1
     },
     {
+      "slot": 16,
+      "publisher": "Shadowrun: Origins",
+      "title": "Shadowrun Origins: Episode 5: Downtime 1",
+      "minutes": 20.1
+    },
+    {
       "slot": 17,
       "publisher": "The Strata",
       "title": "Episode 1.5 - The End of Rust - Part 5",
@@ -112,28 +118,28 @@
       "minutes": 11.7
     },
     {
-      "slot": 36,
-      "publisher": "Shadowrun: Origins",
-      "title": "Shadowrun Origins: Episode 10: Downtime 2",
-      "minutes": 27.7
-    },
-    {
       "slot": 42,
-      "publisher": "The Strata",
-      "title": "Season 1 Production Update",
-      "minutes": 3.6
-    },
-    {
-      "slot": 46,
       "publisher": "The Strata",
       "title": "Episode 1.6 - The End of Rust - Part 6",
       "minutes": 19.7
     },
     {
-      "slot": 50,
+      "slot": 43,
+      "publisher": "Shadowrun: Origins",
+      "title": "Shadowrun Origins: Episode 10: Downtime 2",
+      "minutes": 27.7
+    },
+    {
+      "slot": 46,
       "publisher": "The Strata",
       "title": "Episode 2.1 - Echoes - Part 1",
       "minutes": 23.7
+    },
+    {
+      "slot": 50,
+      "publisher": "The Strata",
+      "title": "Episode 2.2 - Echoes - Part 2",
+      "minutes": 22.3
     },
     {
       "slot": 52,
@@ -144,14 +150,14 @@
     {
       "slot": 54,
       "publisher": "The Strata",
-      "title": "Episode 2.2 - Echoes - Part 2",
-      "minutes": 22.3
+      "title": "Episode 2.3 - Echoes - Part 3",
+      "minutes": 19.6
     },
     {
       "slot": 58,
       "publisher": "The Strata",
-      "title": "Episode 2.3 - Echoes - Part 3",
-      "minutes": 19.6
+      "title": "Episode 2.4 - Echoes - Part 4",
+      "minutes": 23.9
     },
     {
       "slot": 60,
@@ -162,8 +168,8 @@
     {
       "slot": 62,
       "publisher": "The Strata",
-      "title": "Season 2 Production Update",
-      "minutes": 2.5
+      "title": "Mini Episode 2.5 - The Transfer",
+      "minutes": 8.2
     },
     {
       "slot": 66,
@@ -174,8 +180,8 @@
     {
       "slot": 68,
       "publisher": "The Strata",
-      "title": "Episode 2.4 - Echoes - Part 4",
-      "minutes": 23.9
+      "title": "Episode 3.1 - Vendetta - Part 1",
+      "minutes": 23.6
     },
     {
       "slot": 72,
@@ -186,8 +192,8 @@
     {
       "slot": 74,
       "publisher": "The Strata",
-      "title": "Mini Episode 2.5 - The Transfer",
-      "minutes": 8.2
+      "title": "Episode 3.2 - Vendetta - Part 2",
+      "minutes": 23.2
     },
     {
       "slot": 78,
@@ -204,8 +210,8 @@
     {
       "slot": 82,
       "publisher": "The Strata",
-      "title": "The Strata - Luna - Introduction",
-      "minutes": 8.4
+      "title": "Episode 3.3 - Vendetta - Part 3",
+      "minutes": 20.3
     },
     {
       "slot": 86,
@@ -222,8 +228,8 @@
     {
       "slot": 90,
       "publisher": "The Strata",
-      "title": "Episode 3.1 - Vendetta - Part 1",
-      "minutes": 23.6
+      "title": "Episode 3.4 - Vendetta - Part 4",
+      "minutes": 17.4
     },
     {
       "slot": 94,
@@ -240,8 +246,8 @@
     {
       "slot": 98,
       "publisher": "The Strata",
-      "title": "Episode 3.2 - Vendetta - Part 2",
-      "minutes": 23.2
+      "title": "Episode 3.5 - Vendetta - Part 5",
+      "minutes": 23.3
     },
     {
       "slot": 102,
@@ -258,8 +264,8 @@
     {
       "slot": 106,
       "publisher": "The Strata",
-      "title": "Episode 3.3 - Vendetta - Part 3",
-      "minutes": 20.3
+      "title": "Episode 4.1 - Eradication - Part 1",
+      "minutes": 23.5
     },
     {
       "slot": 110,
@@ -270,8 +276,8 @@
     {
       "slot": 114,
       "publisher": "The Strata",
-      "title": "Episode 3.4 - Vendetta - Part 4",
-      "minutes": 17.4
+      "title": "Episode 4.2 - Eradication - Part 2",
+      "minutes": 23.7
     },
     {
       "slot": 118,
@@ -294,8 +300,8 @@
   "pinned_baseline": 8,
   "publisher_count": 10,
   "publisher_rss_enclosures_validated": 120,
-  "over_30_min": 87,
-  "over_60_min": 42,
+  "over_30_min": 86,
+  "over_60_min": 38,
   "unknown_duration": 0,
-  "feed_sha256": "bb4c69bc728b1c3c532ec89a24e04b0f5a86a3ccf88bf0118f4a6df42c00df99"
+  "feed_sha256": "4ec8e125c2bffbbd9410306581f6b7f0555fe75b170baa2b5be6215d9b2a3233"
 }
