@@ -1874,7 +1874,7 @@
   ],
   "published_total": 122,
   "current_v1_feed_episode_count": 122,
-  "source_note": "First 120 GUIDs preserved; two additional publisher-confirmed pre-Shutdown lore tracks now subscribed in V1 and awaiting full transcript review for V2.",
+  "source_note": "First 120 GUIDs preserved; two additional publisher-confirmed pre-Shutdown lore tracks now subscribed in V1. All previously completed full-transcript reviews persist across feed rebuilds.",
   "replacement_watch": [
     {
       "position": 27,

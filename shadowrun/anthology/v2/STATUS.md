@@ -1,11 +1,9 @@
 # Shadowrun transcript-backed V2 checkpoint
 
-Published V1: **122 audio episodes**, preserving all 120 core selections and adding Neo-Anarchist Episodes 28 (2058) and 29 (2059).
+Published V1: **122 audio episodes**, retaining all 120 baseline selections and adding Neo-Anarchist Episodes 28 (2058 Arcology upgrade) and 29 (2059 corporate context).
 
-Reviewed **30 complete publisher transcripts/scripts**: **17 recordings currently selected**, and **13 candidate alternatives**. **105 current recordings still lack completed transcript audits**. The two recently added Neo-Anarchist lore recordings are pending full transcripts.
+Full publisher scripts reviewed: **30 total**, comprising **17 currently selected episodes** and **13 researched alternatives**. **105 current V1 episodes remain full-transcript unverified.**
 
-**New full-transcript audit:** slot 39, Acceptable Losses, 2h12m41s original publisher transcript. Editorial fit 91/100, GM-only, major campaign/endgame spoilers. Useful for daily domestic routines and civilian experience, unsafe for early player listening. Read the full episode's original-publisher transcript before drawing specific scene conclusions.
+Acceptable Losses: GM-only and major Shutdown/Deus spoilers. The two additional pre-Shutdown lore episodes are pending full transcripts.
 
-**Replacement watch, NOT replacement decisions:** slots 27, 31, 33, 37. These are currently metadata-screened only; examine complete audio/transcripts first.
-
-RSS V1 remains available and unchanged by audit commits. V2 RSS is blocked until complete episode evidence and release verification.
+Do not publish transcript-backed V2 RSS before verified source evidence and release gates pass.
