@@ -241,7 +241,20 @@
     "120 episodes and V4-style role order",
     "publisher synopsis and evidence label",
     "old original RSS untouched",
-    "public CDN readback required before claiming subscription verified"
+    "public CDN readback required before claiming subscription verified",
+    "Two additional original-publisher 2058/2059 pre-Shutdown lore episodes; 122 published items = 120 established + 2 pinned additions"
   ],
-  "transcript_status": "publisher_metadata_only_until_actual_full_text_examined"
+  "transcript_status": "publisher_metadata_only_until_actual_full_text_examined",
+  "published_count": 122,
+  "additive_lore": {
+    "publisher": "Neo-Anarchist Podcast",
+    "publisher_rss": "https://neo-anarchist.libsyn.com/rss",
+    "episode_numbers": [
+      28,
+      29
+    ],
+    "placement": "append as slots 121-122 without modifying 120 core selections",
+    "evidence": "original RSS metadata and enclosure; full transcripts still pending",
+    "justification": "2058 arcology upgrade and 2059 Renraku corporation troubles are directly relevant to pre-Shutdown lore; short-form length exceptions"
+  }
 }

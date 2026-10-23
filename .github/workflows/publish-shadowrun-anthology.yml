@@ -8,6 +8,7 @@ on:
       - "shadowrun/anthology/build.py"
       - "shadowrun/anthology/policy.json"
       - "shadowrun/anthology/verify_delivery.py"
+      - "shadowrun/anthology/append_pre_shutdown_lore.py"
       - ".github/workflows/publish-shadowrun-anthology.yml"
 
 permissions:
@@ -28,7 +29,7 @@ jobs:
       - name: Install cover renderer
         run: python3 -m pip install Pillow
       - name: Verify source syntax
-        run: python3 -m py_compile shadowrun/anthology/build.py
+        run: python3 -m py_compile shadowrun/anthology/build.py shadowrun/anthology/append_pre_shutdown_lore.py
       - name: Build and validate original publisher enclosures
         id: build
         shell: bash
@@ -36,6 +37,10 @@ jobs:
           set +e
           python3 shadowrun/anthology/build.py
           rc=$?
+          if [ "$rc" = "0" ]; then
+            python3 shadowrun/anthology/append_pre_shutdown_lore.py
+            rc=$?
+          fi
           echo "exit_code=$rc" >> "$GITHUB_OUTPUT"
           exit 0
       - name: Commit successful feed or blocked diagnostic
@@ -47,9 +52,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ "$BUILD_EXIT" = "0" ]; then
-            git add shadowrun/anthology/feed-v1.xml shadowrun/anthology/selected.json shadowrun/anthology/cover.png shadowrun/anthology/status.json shadowrun/anthology/build-diagnostic.json
+            git add shadowrun/anthology/feed-v1.xml shadowrun/anthology/selected.json shadowrun/anthology/cover.png shadowrun/anthology/status.json shadowrun/anthology/build-diagnostic.json shadowrun/anthology/v2/evidence-checkpoint-current.json shadowrun/anthology/v2/STATUS.md shadowrun/anthology/additions-diagnostic.json
           else
             git add shadowrun/anthology/build-diagnostic.json
+            test ! -f shadowrun/anthology/additions-diagnostic.json || git add shadowrun/anthology/additions-diagnostic.json
           fi
           if ! git diff --cached --quiet; then
             git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Refresh Shadowrun anthology RSS and original media manifest"

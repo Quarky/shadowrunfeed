@@ -48,7 +48,7 @@ for key,url in urls.items():
     except Exception as exc:
         result["endpoints"][key]={"error":str(exc)[:250],"identical_to_committed":False}
 result["state"]="verified" if (
-    result["items"]==120 and result["cover"]["width"]>=1400 and result["cover"]["height"]>=1400
+    result["items"]==int(p.get("published_count",p["count"])) and result["cover"]["width"]>=1400 and result["cover"]["height"]>=1400
     and result["endpoints"].get("cdn_main",{}).get("identical_to_committed")
     and result["endpoints"].get("github_raw",{}).get("identical_to_committed")
 ) else "blocked_or_stale"
