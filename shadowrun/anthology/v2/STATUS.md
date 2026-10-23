@@ -1,7 +1,7 @@
-# Transcript-backed V2 research checkpoint
+# Shadowrun transcript-backed V2 checkpoint
 
-The published 120-track V1 RSS remains unchanged. V2 is not yet released.
+Published V1: **122 audio episodes**, retaining all 120 baseline selections and adding Neo-Anarchist Episodes 28 (2058 Arcology upgrade) and 29 (2059 corporate context).
 
-2026-10-22 checkpoint: 29 complete publisher scripts individually reviewed, of which 16 match the refreshed V1 catalog and 13 are potential replacement recordings. Current V1 still needs 104 full-transcript scans: 34 stories, 60 actual plays, and 10 lore episodes.
+Full publisher scripts reviewed: **29 total**, comprising **16 currently selected episodes** and **13 researched alternatives**. **106 current V1 episodes are not yet full-transcript verified.** The two new lore episodes remain pending.
 
-V2 release remains blocked until each selected recording has a full exact-episode transcript audit and verified publisher-hosted enclosure. The original eight-episode and 120-track V1 subscriptions must be preserved. No `feed-v2.xml` is ready or claimed.
+Do not publish a transcript-backed V2 RSS until verified original audio, episode-specific full transcript evidence and all release checks pass.

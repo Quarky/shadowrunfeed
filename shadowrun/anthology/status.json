@@ -284,6 +284,18 @@
       "publisher": "InkandNeon",
       "title": "`1''sTHe f()(LE134sH.,.{6432Creep",
       "minutes": 11.0
+    },
+    {
+      "slot": 121,
+      "publisher": "Neo-Anarchist Podcast",
+      "title": "Episode 28: 2058: Rinelle ke' Tesrae, Bug City Finale, and Arcology Upgrade.",
+      "minutes": 15.6
+    },
+    {
+      "slot": 122,
+      "publisher": "Neo-Anarchist Podcast",
+      "title": "Episode 29: 2059: Episode 29: 2059: Corporate Musical Chairs",
+      "minutes": 14.1
     }
   ],
   "transcripts_examined_full": 0,
@@ -291,17 +303,35 @@
   "podbean_import_tested": false,
   "edition": "anthology_v1",
   "state": "publisher_rss_metadata_validated",
-  "total": 120,
+  "total": 122,
   "roles": {
     "story": 50,
     "actual_play": 60,
-    "lore": 10
+    "lore": 12
   },
   "pinned_baseline": 8,
   "publisher_count": 10,
-  "publisher_rss_enclosures_validated": 120,
+  "publisher_rss_enclosures_validated": 122,
   "over_30_min": 86,
   "over_60_min": 38,
   "unknown_duration": 0,
-  "feed_sha256": "4ec8e125c2bffbbd9410306581f6b7f0555fe75b170baa2b5be6215d9b2a3233"
+  "feed_sha256": "bdfaafbebbca8e7d647f5527b9d7b9660cfe2a98b209e6851536200b3ed8ea61",
+  "pinned_pre_shutdown_additions": [
+    {
+      "slot": 121,
+      "title": "Episode 28: 2058: Rinelle ke' Tesrae, Bug City Finale, and Arcology Upgrade.",
+      "guid": "https://neo-anarchist.podomatic.com/entry/2015-02-27T12_36_45-08_00",
+      "publisher_rss": "https://neo-anarchist.libsyn.com/rss",
+      "full_transcript_examined": false,
+      "short_duration_exception": true
+    },
+    {
+      "slot": 122,
+      "title": "Episode 29: 2059: Episode 29: 2059: Corporate Musical Chairs",
+      "guid": "https://neo-anarchist.podomatic.com/entry/2015-03-18T15_20_16-07_00",
+      "publisher_rss": "https://neo-anarchist.libsyn.com/rss",
+      "full_transcript_examined": false,
+      "short_duration_exception": true
+    }
+  ]
 }

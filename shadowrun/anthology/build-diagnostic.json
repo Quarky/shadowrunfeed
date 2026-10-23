@@ -1,4 +1,7 @@
 {
   "state": "passed",
-  "total": 120
+  "total": 122,
+  "base_count": 120,
+  "added_pre_shutdown_lore": 2,
+  "v2_transcripts_pending": 106
 }
