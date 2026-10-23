@@ -4,11 +4,11 @@
   "v1_original_selected_blob_sha": "3226c9814abc40193f735f38bb203b5d82cc902e",
   "canonical_v1_path": "shadowrun/anthology/feed-v1.xml",
   "target_total": 120,
-  "baseline_full_scripts_reviewed": 16,
-  "baseline_pending": 106,
+  "baseline_full_scripts_reviewed": 17,
+  "baseline_pending": 105,
   "transcript_reviewed_alternates": 13,
-  "total_distinct_scripts_reviewed": 29,
-  "release_status": "BLOCKED - 106 current episode transcripts pending; NO V2 XML",
+  "total_distinct_scripts_reviewed": 30,
+  "release_status": "BLOCKED - 105 current episode transcripts pending; NO V2 XML",
   "notes": "A full transcript review is not presumed from publisher episode synopses. Off-baseline candidate reviews cannot be counted toward original current V1 slots. User's separate detailed evidence package contains scene-level analysis, motivations and limitations. No source media or scripts rehosted.",
   "position_audit": [
     {
@@ -553,9 +553,47 @@
       "source_audio_url": "https://www.buzzsprout.com/2533607/episodes/19543044-shadowrun-s-most-horrifying-disaster-the-renraku-arcology.mp3",
       "source_media_type": "audio/mpeg",
       "source_media_bytes": 95579289,
-      "scan_status": "full_transcript_pending",
-      "transcript_url": null,
-      "editorial_fit_score": null
+      "scan_status": "full_publisher_transcript_reviewed",
+      "transcript_url": "https://www.buzzsprout.com/2533607/episodes/19543044-shadowrun-s-most-horrifying-disaster-the-renraku-arcology",
+      "editorial_fit_score": 91,
+      "editorial_score_breakdown": {
+        "thematic_specificity": 30,
+        "full_transcript_evidence": 25,
+        "living_world_roleplay": 18,
+        "accessibility": 7,
+        "source_diversity": 6,
+        "original_audio_enclosure": 5
+      },
+      "confidence": "high_full_publisher_transcript",
+      "reviewed_date": "2026-10-23",
+      "transcript_extent": "Entire publisher-provided episode transcript, 2h12m41s",
+      "spoiler_level": "major_campaign_and_endgame_spoilers",
+      "audience": "GM_only",
+      "editorial_disposition": "RETAIN for GM research; do not play for unspoiled players in prelude; metadata-only alternatives first require examination",
+      "scene_evidence": [
+        "Approx 17-38m: promotional rhetoric surrounding the arcology, ordinary residential facilities, food and waste infrastructure, lifts and transit, employee family routines, automated amenities and resident testimonials. Best for pre-Shutdown texture.",
+        "Approx 38-52m: child resident diary moves from gaming and household routines to initial blackout, official reassurances, isolation and increasingly disturbing behavior by trusted people.",
+        "Approx 52-65m: families, corporate command and rescue teams struggle with missing communication, competing agendas and inaccurate external narratives.",
+        "Approx 66-92m: autonomous system research, security response, factional social control and prisoners' experiences; deep hidden-plot revelations.",
+        "Approx 93-120m: resistance, corporate/military operations and desperate attempts to change the balance of power.",
+        "Approx 120-132m: highly spoilery consequences and long-term aftermath outside the campaign's initial timeline."
+      ],
+      "character_motivations": [
+        "Residents seek family safety, trustworthy information, autonomy and a return to normal routines.",
+        "Corporate security and leadership pursue incompatible mixes of containment, institutional reputation and tactical control.",
+        "Runner/resistance agents make constrained rescue and survival choices under limited knowledge.",
+        "Autonomous and research factions have agency that emerges gradually; listening openly would prematurely reveal campaign secrets."
+      ],
+      "spoken_interactions": [
+        "Arcology residents' public testimonials and their optimistic framing contrast with the narrator's warnings of enclosed-system control.",
+        "The child's diary uses mundane family conversation, reassurance, uncertainty, and later distrust to dramatize growing isolation.",
+        "Hosts interleave cited in-world documents with explanatory commentary, reactions and joking digressions; distinguish source fiction from host speculation."
+      ],
+      "limitations": [
+        "Publisher transcript has automatic-transcription name errors; check Shadowrun printed sources before importing any mechanical or historical details.",
+        "Long host commentary and late-campaign/2060-plus reveals make it unsuitable for a general player-facing playlist.",
+        "Do not treat the child's narrated events as Angie or Frank's established session canon; outside material is reference only."
+      ]
     },
     {
       "position": 40,
@@ -1836,5 +1874,35 @@
   ],
   "published_total": 122,
   "current_v1_feed_episode_count": 122,
-  "source_note": "First 120 GUIDs preserved; two additional publisher-confirmed pre-Shutdown lore tracks now subscribed in V1 and awaiting full transcript review for V2."
+  "source_note": "First 120 GUIDs preserved; two additional publisher-confirmed pre-Shutdown lore tracks now subscribed in V1 and awaiting full transcript review for V2.",
+  "replacement_watch": [
+    {
+      "position": 27,
+      "title": "Episode 044 - The Shadowrun Vibe",
+      "decision": "compare_for_replacement",
+      "evidence": "title and publisher synopsis only",
+      "why": "General tone-discussion potentially weaker than two directly Renraku pre-Shutdown lore recordings; must scan actual recording/transcript before replacement"
+    },
+    {
+      "position": 31,
+      "title": "Episode 050 - Background Stories",
+      "decision": "compare_for_replacement",
+      "evidence": "title and publisher synopsis only",
+      "why": "Useful GM craft but indirect prelude/Arcology connection; assess on actual content"
+    },
+    {
+      "position": 33,
+      "title": "Ares Corporation Special",
+      "decision": "compare_for_replacement",
+      "evidence": "title and publisher synopsis only",
+      "why": "Other megacorporation corporate history; useful indirect rival perspective but less directly Arcology-oriented"
+    },
+    {
+      "position": 37,
+      "title": "Aztechnology Corporation Special",
+      "decision": "compare_for_replacement",
+      "evidence": "title and publisher synopsis only",
+      "why": "Different megacorporation focus, evaluate against immediate pre-Shutdown lore"
+    }
+  ]
 }

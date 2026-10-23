@@ -143,31 +143,49 @@ def make_additions():
          "minutes":round(e["seconds"]/60, 1)} for e in selected
          if e["seconds"] and e["seconds"] < 1800
     ]
-    index_path = H / "v2" / "evidence-checkpoint-120.json"
+    # Rebuilds must never erase evidence added by later transcript scans.
+    current_file = H / "v2" / "evidence-checkpoint-current.json"
+    historic_file = H / "v2" / "evidence-checkpoint-120.json"
+    index_path = current_file if current_file.exists() else historic_file
     index = json.loads(index_path.read_text(encoding="utf-8"))
     original_rows = [x for x in index["position_audit"] if int(x["position"]) <= 120]
-    if len(original_rows) != 120 or sum(x["scan_status"] == "full_publisher_script_reviewed" for x in original_rows) != 16:
-        raise ValueError("Existing V2 transcript evidence not as expected; refusing to overwrite")
+    reviewed_status = ("full_publisher_script_reviewed", "full_publisher_transcript_reviewed")
+    reviewed = sum(x["scan_status"] in reviewed_status for x in original_rows)
+    if len(original_rows) != 120 or reviewed < 16:
+        raise ValueError("Full transcript evidence regressed; refusing to overwrite the checkpoint")
+    # Preserve any audits already made on added lore items; source identities
+    # are immutable, except metadata fields refreshed from the original RSS.
+    previously_added = {x["position"]: x for x in index["position_audit"] if int(x["position"]) > 120}
+    for x in audit:
+        if x["position"] in previously_added:
+            previous = previously_added[x["position"]]
+            if previous.get("original_publisher_guid") != x["original_publisher_guid"]:
+                raise ValueError("Publisher episode identity changed for added slot " + str(x["position"]))
+            if previous.get("scan_status") in reviewed_status:
+                x.update(previous)
+    reviewed += sum(x["scan_status"] in reviewed_status for x in audit)
+    alternatives = len(index.get("other_full_script_candidates", []))
+    pending = 122 - reviewed
     index["position_audit"] = original_rows + audit
     index["published_total"] = 122
     index["current_v1_feed_episode_count"] = 122
-    index["baseline_pending"] = 106
-    index["baseline_full_scripts_reviewed"] = 16
-    index["total_distinct_scripts_reviewed"] = 29
-    index["release_status"] = "BLOCKED - 106 current episode transcripts pending; NO V2 XML"
+    index["baseline_pending"] = pending
+    index["baseline_full_scripts_reviewed"] = reviewed
+    index["total_distinct_scripts_reviewed"] = reviewed + alternatives
+    index["release_status"] = f"BLOCKED - {pending} current episode transcripts pending; NO V2 XML"
     index["snapshot_utc_date"] = "2026-10-23"
-    index["source_note"] = "First 120 GUIDs preserved; two additional publisher-confirmed pre-Shutdown lore tracks now subscribed in V1 and awaiting full transcript review for V2."
-    current_file = H / "v2" / "evidence-checkpoint-current.json"
+    index["source_note"] = "First 120 GUIDs preserved; two additional publisher-confirmed pre-Shutdown lore tracks now subscribed in V1. All previously completed full-transcript reviews persist across feed rebuilds."
     status_v2 = H / "v2" / "STATUS.md"
     v2text = (
         "# Shadowrun transcript-backed V2 checkpoint\n\n"
         "Published V1: **122 audio episodes**, retaining all 120 baseline selections and adding "
         "Neo-Anarchist Episodes 28 (2058 Arcology upgrade) and 29 (2059 corporate context).\n\n"
-        "Full publisher scripts reviewed: **29 total**, comprising **16 currently selected "
-        "episodes** and **13 researched alternatives**. **106 current V1 episodes are "
-        "not yet full-transcript verified.** The two new lore episodes remain pending.\n\n"
-        "Do not publish a transcript-backed V2 RSS until verified original audio, "
-        "episode-specific full transcript evidence and all release checks pass.\n"
+        f"Full publisher scripts reviewed: **{reviewed + alternatives} total**, comprising "
+        f"**{reviewed} currently selected episodes** and **{alternatives} researched alternatives**. "
+        f"**{pending} current V1 episodes remain full-transcript unverified.**\n\n"
+        "Acceptable Losses: GM-only and major Shutdown/Deus spoilers. "
+        "The two additional pre-Shutdown lore episodes are pending full transcripts.\n\n"
+        "Do not publish transcript-backed V2 RSS before verified source evidence and release gates pass.\n"
     )
     # All validations complete: write publication and V2 checkpoint as one action step.
     feed_file.write_bytes(xml)
@@ -177,7 +195,7 @@ def make_additions():
     status_v2.write_text(v2text, encoding="utf-8")
     (H / "build-diagnostic.json").write_text(json.dumps({
         "state":"passed","total":122,"base_count":120,
-        "added_pre_shutdown_lore":2,"v2_transcripts_pending":106},indent=2)+"\n")
+        "added_pre_shutdown_lore":2,"v2_transcripts_pending":pending},indent=2)+"\n")
     (H / "additions-diagnostic.json").write_text(json.dumps({
         "state":"passed","added_slots":[121,122],
         "rss_source":RSS,"publisher_episodes":[28,29],
