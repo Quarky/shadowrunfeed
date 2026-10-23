@@ -1,28 +1,28 @@
 {
-  "checked_at": "2026-10-22T13:30:28.881713+00:00",
-  "expected_sha256": "4ec8e125c2bffbbd9410306581f6b7f0555fe75b170baa2b5be6215d9b2a3233",
-  "published_commit": "c97e17da3698bc8b63ca88406d9af7819030d62f",
+  "checked_at": "2026-10-23T13:54:32.619225+00:00",
+  "expected_sha256": "bdfaafbebbca8e7d647f5527b9d7b9660cfe2a98b209e6851536200b3ed8ea61",
+  "published_commit": "16648a55875a99bb85cf9add8db322f788d61153",
   "feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/shadowrun/anthology/feed-v1.xml",
   "endpoints": {
     "cdn_main": {
       "http_status": 200,
-      "bytes": 191675,
+      "bytes": 194684,
       "content_type": "application/xml",
-      "sha256": "c5e9661aa3fab5d883f257371f253472194b2de5268da7a6e8a83c8ed7ebee9c",
-      "identical_to_committed": false
+      "sha256": "bdfaafbebbca8e7d647f5527b9d7b9660cfe2a98b209e6851536200b3ed8ea61",
+      "identical_to_committed": true
     },
     "github_raw": {
       "http_status": 200,
-      "bytes": 192169,
+      "bytes": 194684,
       "content_type": "text/plain; charset=utf-8",
-      "sha256": "4ec8e125c2bffbbd9410306581f6b7f0555fe75b170baa2b5be6215d9b2a3233",
+      "sha256": "bdfaafbebbca8e7d647f5527b9d7b9660cfe2a98b209e6851536200b3ed8ea61",
       "identical_to_committed": true
     },
     "immutable_cdn": {
       "http_status": 200,
-      "bytes": 192169,
+      "bytes": 194684,
       "content_type": "application/xml",
-      "sha256": "4ec8e125c2bffbbd9410306581f6b7f0555fe75b170baa2b5be6215d9b2a3233",
+      "sha256": "bdfaafbebbca8e7d647f5527b9d7b9660cfe2a98b209e6851536200b3ed8ea61",
       "identical_to_committed": true
     }
   },
@@ -33,6 +33,6 @@
     "height": 1400,
     "mode": "RGB"
   },
-  "items": 120,
-  "state": "blocked_or_stale"
+  "items": 122,
+  "state": "verified"
 }
