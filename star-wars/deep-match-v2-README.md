@@ -1,6 +1,6 @@
 # Star Wars — Campaign Deep-Match V2
 
-**Independent, high-relevance listening feed:** [deep-match-v2.xml](deep-match-v2.xml), 20 unique selections from the existing 140 publisher-hosted recordings; 11 Shard Moon and 9 Moraband.
+**Independent, high-relevance listening feed:** [deep-match-v2.xml](deep-match-v2.xml), 21 unique selections: 20 from the existing 140, plus a publisher-RSS-matched *A More Civilized Age* Korriban episode; 11 Shard Moon and 10 Moraband.
 
 **RSS:** `https://raw.githubusercontent.com/Quarky/shadowrunfeed/main/star-wars/deep-match-v2.xml` (new standalone feed; original `feed-v2.xml` and `feed.xml` are untouched).
 
@@ -8,7 +8,7 @@ This is not a genre-keyword sampler. Prioritize the closest parallels: instituti
 
 ## Current audit
 
-- **20 unique playable RSS candidates** based on previously stored original HTTPS enclosures with positive declared lengths and *no identified expiring signature parameters*. This does **not** prove current 200 responses, full playback, or Podbean import.
+- **21 unique RSS entries** based on previously stored original HTTPS enclosures with positive declared lengths and *no identified expiring signature parameters*. This does **not** prove current 200 responses, full playback, or Podbean import.
 - **6 high-relevance entries withheld** because original 2026-10-18 RSS enclosures contain expired signed timetokens. These include the especially close *FATHOM* and *Station 151* matches. Refresh them from live original publisher RSS, match the exact episode GUID/title, check actual audio bytes, then rerun this selection. Do not fabricate permanent Megaphone URLs.
 - Selected transcripts: **0 full episodes reviewed in their entirety**; **2 episodes sampled** from publicly accessible transcripts (*Gradient Descent E01* and *Hyacinth Disaster E01*); additional partial official scripts examined for withheld *FATHOM* and *Station 151*, and a sample excerpt for withheld *White Vault*. The remaining scores are metadata/synopsis-only. Transcript confidence is not a review of all dialogue.
 - Existing 140-episode subscriber feed identities/GUIDs and all its items remain unchanged. This edition reuses the source GUID, enclosure and publication date for selected items.
@@ -22,3 +22,7 @@ This is not a genre-keyword sampler. Prioritize the closest parallels: instituti
 4. Audit the complete candidate RSS XML and player import via the isolated subscription URL. Do not replace the original feed without explicit authorization.
 
 Copyright: only source episode metadata, links and original editorial rationale are provided. No recorded audio or full copyrighted transcripts are hosted in this repository.
+
+## 2026-10-25 publisher-catalog discovery milestone
+
+Automated [source-wide research](deep_match_v2_search.py) and [weekly discovery workflow](../.github/workflows/star-wars-deep-match-v2.yml) ran, publishing [64 shortlisted candidates](deep-match-v2-discovery.json) from 7 accessible original publisher RSS feeds and Apple episode-search queries, with no source fetch failures. **Zero new full transcript audits and zero automated public transcript samples** are claimed; the new script does not silently upgrade synopsis results. The high-relevance *A More Civilized Age* #78 *Korriban* was confirmed by source original RSS GUID, episode link, HTTPS publisher-hosted stable-looking enclosure and declared size and added as the 21st feed selection. It is Star Wars videogame lore commentary, not tabletop actual play. Live playback/player import remains unverified. Public episode pubDates are fixed descending by rank to improve podcast app sorting; GUID/enclosures retain publisher identity. The worker only writes research candidates, not production RSS.
