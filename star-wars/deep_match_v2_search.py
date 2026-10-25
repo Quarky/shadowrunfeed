@@ -149,6 +149,8 @@ def rss_episode_records(source: str, feed_url: str):
             "publisher_transcript_urls": transcripts[:3],
             "enclosure_type": mimetype, "declared_bytes": declared_size,
             "has_https_publisher_enclosure": media.startswith("https://"),
+            "publisher_enclosure_url": media if media.startswith("https://") and not signed(media) else None,
+            "publisher_pub_date": (item.findtext("pubDate") or "").strip(),
             "enclosure_signed_or_volatile": signed(media) if media else False,
             "audio_reachability_verified": False,
             "release_state": "discovery_only_requires_source_review"
