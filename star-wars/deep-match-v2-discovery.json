@@ -4,7 +4,7 @@
     "shard_moon",
     "moraband"
   ],
-  "generated_at": "2026-10-25T18:35:55.171720+00:00",
+  "generated_at": "2026-10-25T18:37:36.442467+00:00",
   "existing_published_feed_preserved": true,
   "discovery_is_not_automated_rss_promotion": true,
   "searched_source_feeds": 7,
@@ -19,37 +19,10 @@
     "laboratory containment science fiction audio drama"
   ],
   "apple_search_errors": [],
-  "candidate_count": 64,
+  "candidate_count": 63,
   "publisher_transcript_samples": 0,
   "method": "Multiple-constraint scenario prefilter; metadata scores are not transcript review. Human scene-level audit and exact episode/publisher enclosure checks required before adding.",
   "candidates": [
-    {
-      "source": "amca",
-      "source_rss": "https://amorecivilizedage.libsyn.com/rss",
-      "title": "78: Korriban (Knights of the Old Republic 09)",
-      "publisher_synopsis": "After last episode's grand \"reveal,\" we're left with only a few goals remaining: one star map, a handful of side quests, and the grand finale. And hey, next up is Korriban, home of the Sith Academy and many of the events we've recently covered in our comic episodes over on our Patreon ! Join us as we finally meet a character willing to explain what the Sith believe, delve into a bunch of tombs, meet Carth's son, and try to lord our newly (re)discovered status as [static sound] over the pitiful Sith undergrads. Next time: All remaining side quests + the end of the game! Support the show by going to Patreon.com/civilized! Show Notes Hosted by Rob Zacny ( @RobZacny ) Featuring Alicia Acampora ( @ali_west ), Austin Walker ( @austin_walker ), and Natalie Watson ( @nataliewatson ) Produced by Ricardo Contreras ( @a_cado_appears ) Music by Jack de Quidt ( @notquitereal) Cover art by Xeecee ( @xeeceevevo )",
-      "original_guid": "af7424c4-fe43-4636-851b-20a71a2c8805",
-      "episode_link": "https://amorecivilizedage.net/78-korriban-knights-of-the-old-republic-09",
-      "role": "research_candidate",
-      "theme": "MORABAND",
-      "metadata_relevance": 47,
-      "triggered_scene_mechanisms": [
-        "exact planet alternate name",
-        "Sith academy",
-        "Old Republic/Sith"
-      ],
-      "confidence": "publisher_metadata",
-      "full_transcript_examined": false,
-      "publisher_transcript_urls": [],
-      "enclosure_type": "audio/mpeg",
-      "declared_bytes": "223021032",
-      "has_https_publisher_enclosure": true,
-      "publisher_enclosure_url": "https://traffic.libsyn.com/secure/amorecivilizedage/AMCA_78_mixdown.mp3?dest-id=2530463",
-      "publisher_pub_date": "Wed, 24 Jan 2024 07:15:57 +0000",
-      "enclosure_signed_or_volatile": false,
-      "audio_reachability_verified": false,
-      "release_state": "discovery_only_requires_source_review"
-    },
     {
       "source": "apple-podcast-episode-search",
       "search_query": "Moraband Sith academy",
