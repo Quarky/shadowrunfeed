@@ -4,7 +4,7 @@
     "shard_moon",
     "moraband"
   ],
-  "generated_at": "2026-10-25T18:32:58.003092+00:00",
+  "generated_at": "2026-10-25T18:35:55.171720+00:00",
   "existing_published_feed_preserved": true,
   "discovery_is_not_automated_rss_promotion": true,
   "searched_source_feeds": 7,
@@ -44,6 +44,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "223021032",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://traffic.libsyn.com/secure/amorecivilizedage/AMCA_78_mixdown.mp3?dest-id=2530463",
+      "publisher_pub_date": "Wed, 24 Jan 2024 07:15:57 +0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -129,6 +131,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "319157303",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://traffic.libsyn.com/secure/amorecivilizedage/AMCA_121_mixdown.mp3?dest-id=2530463",
+      "publisher_pub_date": "Wed, 29 Oct 2025 19:21:35 +0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -404,6 +408,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "247881033",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://traffic.libsyn.com/secure/amorecivilizedage/AMCA_75_mixdown.mp3?dest-id=2530463",
+      "publisher_pub_date": "Wed, 29 Nov 2023 08:10:38 +0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -427,6 +433,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "236627367",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://traffic.libsyn.com/secure/amorecivilizedage/AMCA_76_mixdown.mp3?dest-id=2530463",
+      "publisher_pub_date": "Wed, 13 Dec 2023 21:38:28 +0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -450,6 +458,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "184152456",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://traffic.libsyn.com/secure/amorecivilizedage/AMCA_77_mixdown.mp3?dest-id=2530463",
+      "publisher_pub_date": "Fri, 12 Jan 2024 07:24:19 +0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -703,6 +713,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "35958841",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://traffic.libsyn.com/secure/forcemajeurepod/SotJ_S02_E03.mp3?dest-id=604132",
+      "publisher_pub_date": "Mon, 27 Apr 2020 04:30:00 +0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -764,6 +776,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "34018529",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://traffic.libsyn.com/secure/janusdescending/Descendants_1.1_vfinal.mp3?dest-id=799640",
+      "publisher_pub_date": "Fri, 03 Jun 2022 04:00:44 +0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -787,6 +801,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "153366528",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://traffic.libsyn.com/secure/amorecivilizedage/amca-126.mp3?dest-id=2530463",
+      "publisher_pub_date": "Wed, 28 Jan 2026 09:01:52 +0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -810,6 +826,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "133511399",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://traffic.libsyn.com/secure/amorecivilizedage/amca-12.mp3?dest-id=2530463",
+      "publisher_pub_date": "Wed, 19 May 2021 20:40:08 +0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -833,6 +851,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "161373493",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://traffic.libsyn.com/secure/amorecivilizedage/AMCA_70_mixdown.mp3?dest-id=2530463",
+      "publisher_pub_date": "Thu, 14 Sep 2023 02:17:02 +0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -1046,6 +1066,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "0",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/WgbGgxzM3MFRwjmX5fnx/traffic.megaphone.fm/SBP1450899020.mp3?updated=1744759209",
+      "publisher_pub_date": "Mon, 07 Jun 2021 14:00:00 -0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -1069,6 +1091,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "184660319",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://traffic.libsyn.com/secure/amorecivilizedage/AMCA_111_mixdown.mp3?dest-id=2530463",
+      "publisher_pub_date": "Wed, 21 May 2025 06:47:51 +0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -1168,6 +1192,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "32141321",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://traffic.libsyn.com/secure/forcemajeurepod/SotJ_S07_E16.mp3?dest-id=604132",
+      "publisher_pub_date": "Mon, 17 Jun 2024 04:30:00 +0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -1191,6 +1217,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "0",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://www.podtrac.com/pts/redirect.mp3/traffic.megaphone.fm/PODERATIONLTD8969833949.mp3?updated=1750095417",
+      "publisher_pub_date": "Wed, 14 Jul 2021 12:00:00 -0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -1214,6 +1242,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "0",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://www.podtrac.com/pts/redirect.mp3/traffic.megaphone.fm/PODERATIONLTD4232641859.mp3?updated=1750097380",
+      "publisher_pub_date": "Wed, 28 Jul 2021 12:00:00 -0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
@@ -1237,6 +1267,8 @@
       "enclosure_type": "audio/mpeg",
       "declared_bytes": "0",
       "has_https_publisher_enclosure": true,
+      "publisher_enclosure_url": "https://www.podtrac.com/pts/redirect.mp3/traffic.megaphone.fm/PODERATIONLTD1986991302.mp3?updated=1750094661",
+      "publisher_pub_date": "Wed, 25 May 2022 12:00:00 -0000",
       "enclosure_signed_or_volatile": false,
       "audio_reachability_verified": false,
       "release_state": "discovery_only_requires_source_review"
