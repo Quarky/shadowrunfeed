@@ -1,0 +1,78 @@
+name: Star Wars Deep-Match V2 Research
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "star-wars/deep_match_v2_search.py"
+      - "star-wars/deep-match-v2-evidence.json"
+      - ".github/workflows/star-wars-deep-match-v2.yml"
+  schedule:
+    - cron: "47 7 * * 2"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: star-wars-deep-match-v2-discovery
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate code and research filters without a network request
+        run: |
+          python3 -m py_compile star-wars/deep_match_v2_search.py
+          python3 star-wars/deep_match_v2_search.py --self-test
+
+      - name: Search publisher episode directories and sampled public transcripts
+        run: python3 star-wars/deep_match_v2_search.py
+
+      - name: Verify output is a discovery ledger, never a production release
+        run: |
+          python3 - <<'PY'
+          import json,pathlib,xml.etree.ElementTree as ET
+          p=pathlib.Path("star-wars")
+          data=json.loads((p/"deep-match-v2-discovery.json").read_text())
+          assert data["existing_published_feed_preserved"] is True
+          assert data["discovery_is_not_automated_rss_promotion"] is True
+          assert data["searched_source_feeds"] >= 5
+          assert all(c["release_state"].startswith("discovery_only") for c in data["candidates"])
+          for name in ("deep-match-v2.xml","feed-v2.xml","feed.xml"):
+              root=ET.parse(p/name).getroot()
+              assert root.find("channel") is not None
+          print("PASS: research-only ledger; production RSS untouched")
+          PY
+
+      - name: Commit research-only candidate ledger with safe concurrent-main recovery
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp star-wars/deep-match-v2-discovery.json /tmp/deep-match-v2-discovery.json
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git merge-base --is-ancestor origin/main HEAD; then
+              git reset --hard origin/main
+              cp /tmp/deep-match-v2-discovery.json star-wars/deep-match-v2-discovery.json
+            fi
+            git add star-wars/deep-match-v2-discovery.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m "Refresh Star Wars deep-match v2 research candidates"
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          echo "Failed to publish research after three guarded pushes" >&2
+          exit 1
