@@ -4,7 +4,7 @@
   "source_file": "star-wars/feed-v2.xml",
   "source_blob_sha": "980126e519a42c1a970a7357f152d65f12c0e8c2",
   "source_episode_count": 140,
-  "selected_count": 20,
+  "selected_count": 21,
   "skipped_signed_enclosures": 6,
   "policy": "Transcript tiers are explicit; full transcripts not claimed. No publisher audio rehosting; no timed signed links accepted in production candidate; http reachability and Podbean import still unverified.",
   "score_method": "Conservative editorial relevance; metadata-only candidates never treated as transcript-confirmed",
@@ -209,6 +209,26 @@
     },
     {
       "rank": 12,
+      "original_feed_position": null,
+      "theme": "MORABAND",
+      "original_title": "78: Korriban (Knights of the Old Republic 09)",
+      "guide": "af7424c4-fe43-4636-851b-20a71a2c8805",
+      "editorial_fit_score": 81,
+      "confidence": "publisher_metadata",
+      "evidence_url": "https://amorecivilizedage.net/78-korriban-knights-of-the-old-republic-09",
+      "focus": "Sith Academy social hierarchy, tombs, student belief and everyday institutional life",
+      "why_selected": "Why selected: A direct Moraband/Korriban setting analogue: Sith Academy students, competing beliefs, tomb exploration and old power structures. Listening focus: how ordinary students interpret Sith training and how ruins communicate past history. This is Knights of the Old Republic game-analysis commentary, not an FFG actual play or canonical campaign event. Evidence: publisher episode synopsis; no full transcript read. Original publication: Wed, 24 Jan 2024 07:15:57 +0000. Hosted by original publisher.",
+      "audio_url": "https://traffic.libsyn.com/secure/amorecivilizedage/AMCA_78_mixdown.mp3?dest-id=2530463",
+      "audio_length": 223021032,
+      "mime": "audio/mpeg",
+      "editorial_status": "new_candidate_promoted_after_original_publisher_rss_identity_check",
+      "audio_reachability": "not_live_probe_verified",
+      "transcript_audit": "no_full_transcript_read",
+      "source_feed": "https://amorecivilizedage.libsyn.com/rss",
+      "publisher_pub_date": "Wed, 24 Jan 2024 07:15:57 +0000"
+    },
+    {
+      "rank": 13,
       "original_feed_position": 2,
       "theme": "MORABAND",
       "original_title": "02 • ACTUAL_PLAY · [Nastygram — Dreamscapes] Star Wars: Dreamscapes - Ep 1. Field of View (Star Wars d6)",
@@ -226,7 +246,7 @@
       "transcript_audit": "no_full_transcript_read"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "original_feed_position": 46,
       "theme": "MORABAND",
       "original_title": "46 • STORY • [Nastygram — Dreamscapes] Star Wars: Dreamscapes - Ep 2. The Impossible (Star Wars d6)",
@@ -244,7 +264,7 @@
       "transcript_audit": "no_full_transcript_read"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "original_feed_position": 17,
       "theme": "MORABAND",
       "original_title": "17 • LORE · [The Star Wars Canon Timeline Podcast] EII: ep 2 – Visions S2-e5,1,2 – Sith of the Old Republic (LEGENDS)",
@@ -262,7 +282,7 @@
       "transcript_audit": "no_full_transcript_read"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "original_feed_position": 97,
       "theme": "MORABAND",
       "original_title": "27 · STAR WARS ACTUAL PLAY · [Star Wars — Path of Shadows] Episode 10 Ancient Religions - Part 1",
@@ -280,7 +300,7 @@
       "transcript_audit": "no_full_transcript_read"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "original_feed_position": 98,
       "theme": "MORABAND",
       "original_title": "28 · STAR WARS ACTUAL PLAY · [Star Wars: Knightfall] S1 Chapter One",
@@ -298,7 +318,7 @@
       "transcript_audit": "no_full_transcript_read"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "original_feed_position": 60,
       "theme": "MORABAND",
       "original_title": "60 • LORE • [The Star Wars Canon Timeline Podcast] EII: ep 3 – The (Knights of the) Old Republic games – (LEGENDS)",
@@ -316,7 +336,7 @@
       "transcript_audit": "no_full_transcript_read"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "original_feed_position": 111,
       "theme": "MORABAND",
       "original_title": "11 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode One: Family",
@@ -334,7 +354,7 @@
       "transcript_audit": "no_full_transcript_read"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "original_feed_position": 112,
       "theme": "MORABAND",
       "original_title": "12 · STAR WARS FAN AUDIO DRAMA · [Legacy: A Star Wars Audio Drama] Episode Two: The Fall",
@@ -352,7 +372,7 @@
       "transcript_audit": "no_full_transcript_read"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "original_feed_position": 33,
       "theme": "MORABAND",
       "original_title": "33 • LORE • [The Star Wars Canon Timeline Podcast] Era II: THE OLD REPUBLIC – overview",
@@ -420,5 +440,7 @@
       "confidence": "publisher_synopsis"
     }
   ],
-  "excluded_rule": "Other episodes do not demonstrate comparable campaign-specific setting, scenario or character evidence at the current review depth."
+  "excluded_rule": "Other episodes do not demonstrate comparable campaign-specific setting, scenario or character evidence at the current review depth.",
+  "new_publisher_episodes": 1,
+  "publication_order": "Fixed ranked public-date timestamps assigned 2026-10-24 descending; original publisher dates retained in evidence where known. Existing subscribed RSS unaffected."
 }
