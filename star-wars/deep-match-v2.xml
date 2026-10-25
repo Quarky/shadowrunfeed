@@ -5,13 +5,15 @@
 <link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link>
 <description>A focused research-led campaign-inspiration feed: evidence-audited and synopsis-qualified publisher-hosted science-fiction stories, actual plays and Star Wars lore for a research facility mystery and an ancient Force-world expedition. Non-Star-Wars material is explicitly inspirational only. Source URLs are not mirrored. This is an independent edition; the original Star Wars feed remains unchanged.</description>
 <language>en</language>
+<lastBuildDate>Sun, 25 Oct 2026 19:28:00 GMT</lastBuildDate>
+<itunes:type>episodic</itunes:type>
 <itunes:author>Independent Quarky listening catalog (unaffiliated with publishers)</itunes:author>
 <itunes:summary>Evidence-tiered Shard Moon and Moraband campaign listening. The old subscribed feed is preserved.</itunes:summary>
 <itunes:explicit>yes</itunes:explicit>
 <itunes:category text="Leisure" />
 <image><url>https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png</url><title>Star Wars FFG — Campaign Deep-Match V2</title><link>https://github.com/Quarky/shadowrunfeed/tree/main/star-wars</link></image>
 <itunes:image href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/cover.png" />
-<atom:link href="https://raw.githubusercontent.com/Quarky/shadowrunfeed/main/star-wars/deep-match-v2.xml" rel="self" type="application/rss+xml" />
+<atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/star-wars/deep-match-v2.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>01 · SHARD MOON · 3d6 Down The Line — Mothership: Gradient Descent Ep 01 - Sci-Fi Horror RPG | Thalassophobia</title>
       <guid isPermaLink="false">urn:sw-new-actual-play:59d4afb3548b0ac377e7a0fce429dc36eab32ed34c9b0effd428b050eeefc55d</guid>
