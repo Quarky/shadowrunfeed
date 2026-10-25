@@ -1,0 +1,1321 @@
+{
+  "edition": "star_wars_deep_match_v2",
+  "source_campaigns": [
+    "shard_moon",
+    "moraband"
+  ],
+  "generated_at": "2026-10-25T18:32:58.003092+00:00",
+  "existing_published_feed_preserved": true,
+  "discovery_is_not_automated_rss_promotion": true,
+  "searched_source_feeds": 7,
+  "publisher_failures": [],
+  "apple_queries": [
+    "Korriban Sith Tomb",
+    "Moraband Sith academy",
+    "star wars holocron ancient jedi",
+    "abandoned android factory actual play",
+    "research base experiment artificial intelligence",
+    "alien archaeology lost civilization podcast",
+    "laboratory containment science fiction audio drama"
+  ],
+  "apple_search_errors": [],
+  "candidate_count": 64,
+  "publisher_transcript_samples": 0,
+  "method": "Multiple-constraint scenario prefilter; metadata scores are not transcript review. Human scene-level audit and exact episode/publisher enclosure checks required before adding.",
+  "candidates": [
+    {
+      "source": "amca",
+      "source_rss": "https://amorecivilizedage.libsyn.com/rss",
+      "title": "78: Korriban (Knights of the Old Republic 09)",
+      "publisher_synopsis": "After last episode's grand \"reveal,\" we're left with only a few goals remaining: one star map, a handful of side quests, and the grand finale. And hey, next up is Korriban, home of the Sith Academy and many of the events we've recently covered in our comic episodes over on our Patreon ! Join us as we finally meet a character willing to explain what the Sith believe, delve into a bunch of tombs, meet Carth's son, and try to lord our newly (re)discovered status as [static sound] over the pitiful Sith undergrads. Next time: All remaining side quests + the end of the game! Support the show by going to Patreon.com/civilized! Show Notes Hosted by Rob Zacny ( @RobZacny ) Featuring Alicia Acampora ( @ali_west ), Austin Walker ( @austin_walker ), and Natalie Watson ( @nataliewatson ) Produced by Ricardo Contreras ( @a_cado_appears ) Music by Jack de Quidt ( @notquitereal) Cover art by Xeecee ( @xeeceevevo )",
+      "original_guid": "af7424c4-fe43-4636-851b-20a71a2c8805",
+      "episode_link": "https://amorecivilizedage.net/78-korriban-knights-of-the-old-republic-09",
+      "role": "research_candidate",
+      "theme": "MORABAND",
+      "metadata_relevance": 47,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name",
+        "Sith academy",
+        "Old Republic/Sith"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "223021032",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "Artifact of Vengeance - a STAR WARS fan audio production",
+      "publisher_synopsis": "Two force-sensitive fugitives, on the run from the New Jedi Order, seek refuge on the derelict world of Moraband, once known during ancient times as Korriban - homeworld of the extinct Sith species. Setting up camp in an old Sith Temple in the Valley of the Dark Lords, they find a holocron that does not appear to be as ancient as the rest of the surroundings. For more STAR WARS and STAR TREK fan audio fun, visit https://holonetaudio.com You can post your fanfiction and even submit a short fanfic for audio production on this podcast by joining our forum at https://forum.holonetaudio.com",
+      "original_guid": "1000720858058",
+      "episode_link": "https://podcasts.apple.com/us/podcast/artifact-of-vengeance-a-star-wars-fan-audio-production/id701522934?i=1000720858058&uo=4",
+      "publisher": "HoloNet Audio",
+      "theme": "MORABAND",
+      "metadata_relevance": 45,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name",
+        "exact planet",
+        "Sith temple",
+        "Jedi/holocron"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "Episode 214 – Showdown on Korriban",
+      "publisher_synopsis": "Against their better judgement, the crew have gone to the planet of MORABAND to unite their load of refugees with their families and other stranded beings - including the offspring of TSAR. However, the sullen red planet that used to be named KORRIBAN holds dark secrets in it’s lightning filled skies, and even darker foes beneath them… Special Guest Voices: Derek Doktor and Jacob Cohen",
+      "original_guid": "1000379106387",
+      "episode_link": "https://podcasts.apple.com/us/podcast/episode-214-showdown-on-korriban/id1052623023?i=1000379106387&uo=4",
+      "publisher": "Redemption Productions",
+      "theme": "MORABAND",
+      "metadata_relevance": 44,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name",
+        "exact planet"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "Korriban",
+      "publisher_synopsis": "Nerds, you're in luck! Meg's talk, \"Korriban v. Moraband: Controversial Canonicity in the Star Wars Universe\" is 40 minutes of ragging on George Lucas's despotic reign! Just kidding - sort of. Meg and Adam get into what it means to be a smaller storyteller operating in a cinematic universe as grand as Star Wars, and how little changes (like the name of the Sith home world) can depreciate authorial agency.",
+      "original_guid": "1000525111525",
+      "episode_link": "https://podcasts.apple.com/us/podcast/korriban/id1559781530?i=1000525111525&uo=4",
+      "publisher": "Livin' la Viva Voce",
+      "theme": "MORABAND",
+      "metadata_relevance": 44,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name",
+        "exact planet"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "amca",
+      "source_rss": "https://amorecivilizedage.libsyn.com/rss",
+      "title": "121: Korriban & the Jedi Enclave (KOTOR II 12)",
+      "publisher_synopsis": "With three of the missing Jedi Masters found, the Exile, Kreia, and the rest of the Ebon Hawk's ad hoc (ad hawk?) crew finally head towards the ancient Sith world of Korriban. There they find... well, mostly the same planet that Revan and co. left behind a few years ago, albeit a little more decrepit than usual. Then, its back to Dantooine to confront the reconvened Jedi Council and finally get some long promised answers. Show Notes Hosted by Rob Zacny ( robzacny.bsky.social ) Featuring Alicia Acampora ( ali-online.bsky.social ), Austin Walker ( austinwalker.bsky.social ), and Natalie Watson ( nataliewatson.bsky.social ) Produced by Chia Contreras ( cado.bsky.social ) Music by Jack de Quidt ( notquitereal.bsky.social Cover art by Xeecee ( xeecee.bsky.social )",
+      "original_guid": "02529806-18b5-4ae3-85db-04a7aa279b67",
+      "episode_link": "https://amorecivilizedage.net/121-korriban-the-jedi-enclave-kotor-ii-12",
+      "role": "research_candidate",
+      "theme": "MORABAND",
+      "metadata_relevance": 41,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "319157303",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "134. Korriban, Lehon, and the Star Forge LORE and KOTOR Conclusion",
+      "publisher_synopsis": "Welcome to Talk about Tatooine! We are so happy you took the time to watch this video! Buy some coffee and support the Pod! https://snwbl.io/javy-coffee/TALKABOUTT97755discount code: TALKABOUTT97755www.patreon.com/TalkAboutTatooinePatreon Benefits: 1. Private Discord Access for Life2. Access to private events (Example: Game nights and book clubs)3. Production input for Podcasting & Streaming4. Access to discount codes for Etsy Shop5. Automatic entry into future giveawaysAll our Links can be found here: https://linktr.ee/talkabouttatooineSubscribe to our podcast here on YouTube, Google, Apple, Anchor and Spotify!",
+      "original_guid": "1000736070722",
+      "episode_link": "https://podcasts.apple.com/us/podcast/134-korriban-lehon-and-the-star-forge-lore/id1676984506?i=1000736070722&uo=4",
+      "publisher": "Talk about Tatooine",
+      "theme": "MORABAND",
+      "metadata_relevance": 41,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Good Morning Korriban Episode 101",
+      "publisher_synopsis": "Freshman Year Episode 101, it's elementary dear Watson. Mikey and Sturm talk about new capital ship coming out and future of characters and ships. Go over future of game play etc as well. The people have spoken!",
+      "original_guid": "1000617654780",
+      "episode_link": "https://podcasts.apple.com/us/podcast/good-morning-korriban-episode-101/id1517852103?i=1000617654780&uo=4",
+      "publisher": "Good Morning Korriban",
+      "theme": "MORABAND",
+      "metadata_relevance": 41,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Good Morning Korriban Episode 102",
+      "publisher_synopsis": "Mikey and Sturm back at it again. Covering everything that had happened in the last month. Where they are in their game play and guild drama... does it ever end!? The people have spoken!",
+      "original_guid": "1000622058530",
+      "episode_link": "https://podcasts.apple.com/us/podcast/good-morning-korriban-episode-102/id1659216307?i=1000622058530&uo=4",
+      "publisher": "Good Morning Korriban",
+      "theme": "MORABAND",
+      "metadata_relevance": 41,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Good Morning Korriban Episode 51",
+      "publisher_synopsis": "This week Mikey and Sturm talk about the 52nd Episode and what they are going to do that is new. Pretty big news, so you better tune in and see what changes we are making! Sturm helps Mikey with his FO squad, him being the FO Guy. The two also discuss who to level and who is worth it: with the Bad Batch, GL Kenobi and the future DS GL whom is coming some day... in a galaxy far far away. All comments are read and discussed, for the people have spoke every week for nearly a year. No matter holiday or travel GMK is there for the people.",
+      "original_guid": "1000520834903",
+      "episode_link": "https://podcasts.apple.com/us/podcast/good-morning-korriban-episode-51/id1517852103?i=1000520834903&uo=4",
+      "publisher": "Good Morning Korriban",
+      "theme": "MORABAND",
+      "metadata_relevance": 41,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Good Morning Korriban Episode 65",
+      "publisher_synopsis": "This week Mikey and Sturm get into Tier 2 for Lord Vader, the Executerereor and the current state of the game. Mikey gets on his soap box and goes over what would connect old and new players. They also discuss the new look and layout of the game. All comments are read and discussed keeping GMK THE Podcast of the people! Don't forget to check us out on YouTube as well at: https://youtu.be/12tvR3_YyFU",
+      "original_guid": "1000531971102",
+      "episode_link": "https://podcasts.apple.com/us/podcast/good-morning-korriban-episode-65/id1517852103?i=1000531971102&uo=4",
+      "publisher": "Good Morning Korriban",
+      "theme": "MORABAND",
+      "metadata_relevance": 41,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Korriban - I",
+      "publisher_synopsis": "Arriving on the dreaded Sith homeworld of Korriban, it doesn't take the Crew long to land into a heap of trouble. Sskogga needs a drink. PAPO is not a human droid. Gordax chews the fat. Wes makes plans for dinner.",
+      "original_guid": "1000490152496",
+      "episode_link": "https://podcasts.apple.com/us/podcast/korriban-i/id1466674215?i=1000490152496&uo=4",
+      "publisher": "The Skeleton Crew",
+      "theme": "MORABAND",
+      "metadata_relevance": 41,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "Korriban: Graveyard of the Sith | Star Wars Lore",
+      "publisher_synopsis": "Today, we will be exploring one of the most evil planets in the galaxy and the birthplace of the Sith. Patreon: https://www.patreon.com/CanMayo Discord: https://discord.gg/9kwbKxeBjE Hannah's Blog: https://www.tumblr.com/selenescantina",
+      "original_guid": "1000712634137",
+      "episode_link": "https://podcasts.apple.com/us/podcast/korriban-graveyard-of-the-sith-star-wars-lore/id1585529651?i=1000712634137&uo=4",
+      "publisher": "Can Mayonnaise Kill a Jedi?",
+      "theme": "MORABAND",
+      "metadata_relevance": 41,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "SW Galactic Archives- Korriban",
+      "publisher_synopsis": "Travel with us to the outer rim. Today we descend onto that mountainous, vast red sand, darkside planet, Korriban. Lets go through the Archives and learn the history and lore about the planet. Follow us on Instagram @ Star_Wars_GA Link: Star Wars Galactic Archives podcast (@star_wars_ga) • Instagram photos and videos As always may the force guide you",
+      "original_guid": "1000632188245",
+      "episode_link": "https://podcasts.apple.com/us/podcast/sw-galactic-archives-korriban/id1712389672?i=1000632188245&uo=4",
+      "publisher": "Star Wars Galactic Archive’s",
+      "theme": "MORABAND",
+      "metadata_relevance": 41,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "#257 – Clone Wars Conversations Season 6 Pt 4 (E11-13): Yoda Meets Darth Bane, Learns How To Become A Force Ghost And Foresees Order 66 With Qui-Gon’s Help, All In The Lost Season Finale!",
+      "publisher_synopsis": "Clone Wars Conversations continues with Dave, Maff & Mike discussing the final 3 episodes of “The Lost Season”, which features Yoda being guided by Qui-Gon Jinn on a journey to worlds strong in the force, to prepare him for what comes after the Clone Wars! In more detail, Dave, Maff & Mike first talk about how this works as the original ending of TCW series (before season 7 was announced), before delving deeper into these Yoda-centric episodes! As well as the return of Liam Neeson as Qui-Gon, the trio talk about Yoda’s foreboding force visions, bizarre force entities & worlds, the Sith world of Moraband/Korriban and the first (& to date only) appearance of Darth Bane on screen, the Rule Of Two, Palpatine’s use of Sith rituals & magick and more! Maff also quizzes Dave & Mike on the Jedi council members nearer the end – can you name them all? Episodes featured; Voices, Destiny & Sacrifice. The next 3 releases of CWC will be about the Clon",
+      "original_guid": "1000683691786",
+      "episode_link": "https://podcasts.apple.com/us/podcast/257-clone-wars-conversations-season-6-pt-4-e11-13-yoda/id1280472886?i=1000683691786&uo=4",
+      "publisher": "Genuine Chit-Chat",
+      "theme": "MORABAND",
+      "metadata_relevance": 39,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name",
+        "exact planet"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "Clone Wars Conversations Season 6 Pt 4 (E11-13) [VIDEO]: Yoda Meets Darth Bane, Learns How To Become A Force Ghost And Foresees Order 66 With Qui-Gon’s Help, All In The Lost Season Finale!",
+      "publisher_synopsis": "Clone Wars Conversations continues with Dave, Maff & Mike discussing the final 3 episodes of “The Lost Season”, which features Yoda being guided by Qui-Gon Jinn on a journey to worlds strong in the force, to prepare him for what comes after the Clone Wars! In more detail, Dave, Maff & Mike first talk about how this works as the original ending of TCW series (before season 7 was announced), before delving deeper into these Yoda-centric episodes! As well as the return of Liam Neeson as Qui-Gon, the trio talk about Yoda’s foreboding force visions, bizarre force entities & worlds, the Sith world of Moraband/Korriban and the first (& to date only) appearance of Darth Bane on screen, the Rule Of Two, Palpatine’s use of Sith rituals & magick and more! Maff also quizzes Dave & Mike on the Jedi council members nearer the end – can you name them all? Episodes featured; Voices, Destiny & Sacrifice. The next 3 releases of CWC will be about the Clon",
+      "original_guid": "1000683696833",
+      "episode_link": "https://podcasts.apple.com/us/podcast/clone-wars-conversations-season-6-pt-4-e11-13-video/id1657925693?i=1000683696833&uo=4",
+      "publisher": "Star Wars Chit-Chat (Formerly Comics In Canon)",
+      "theme": "MORABAND",
+      "metadata_relevance": 39,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name",
+        "exact planet"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Death of Dac (Legacy Vol. 10) – SWBTF #220",
+      "publisher_synopsis": "Will Emperor Fel’s Daughter die in the hands of the Sith? And by her fellow Imperial Knights hands no less?! Also, Darth Krayt lives! And he is more powerful than ever before and set on the extermination of the Mon Calamari species!! Cade Skywalker is about to go toe-to-toe with his Destiny! All this, and more, all on the next Star Wars Beyond the Films. YOUR “Star Wars” discussion podcast! YOUR Podcast of Legends! YOUR ticket to that Galaxy far, far away! Your Fandom lies Beyond the Films. This week true believers, Beyonders, Fanboys, Fangirls, respected aliens around the galaxy, The Champion of the Multiverse; Mark Hurliman, and your Count of Continuities; Nathan P. Butler sit down to explore the death of Darth Krayt, as well as Dac in John Ostrander’s STAR WARS: LEGACY (Vol 10.) Extremes. So strap in and tighten your crash webbing Fandom, Star Wars Beyond the Films is setting off on another rapid-fire trip into that galaxy far, far a",
+      "original_guid": "1000390782801",
+      "episode_link": "https://podcasts.apple.com/us/podcast/death-of-dac-legacy-vol-10-swbtf-220/id493146910?i=1000390782801&uo=4",
+      "publisher": "Star Wars Beyond the Films",
+      "theme": "MORABAND",
+      "metadata_relevance": 39,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name",
+        "Sith temple"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "Star Wars: Clone Wars Conversations Season 6 Pt 4 (E11-13): Yoda Meets Darth Bane, Learns How To Become A Force Ghost And Foresees Order 66 With Qui-Gon’s Help, All In The Lost Season Finale!",
+      "publisher_synopsis": "Clone Wars Conversations continues with Dave, Maff & Mike discussing the final 3 episodes of “The Lost Season”, which features Yoda being guided by Qui-Gon Jinn on a journey to worlds strong in the force, to prepare him for what comes after the Clone Wars! In more detail, Dave, Maff & Mike first talk about how this works as the original ending of TCW series (before season 7 was announced), before delving deeper into these Yoda-centric episodes! As well as the return of Liam Neeson as Qui-Gon, the trio talk about Yoda’s foreboding force visions, bizarre force entities & worlds, the Sith world of Moraband/Korriban and the first (& to date only) appearance of Darth Bane on screen, the Rule Of Two, Palpatine’s use of Sith rituals & magick and more! Maff also quizzes Dave & Mike on the Jedi council members nearer the end – can you name them all? Episodes featured; Voices, Destiny & Sacrifice. The next 3 releases of CWC will be about the Clon",
+      "original_guid": "1000683689477",
+      "episode_link": "https://podcasts.apple.com/us/podcast/star-wars-clone-wars-conversations-season-6-pt-4-e11/id1350425403?i=1000683689477&uo=4",
+      "publisher": "Comics In Motion",
+      "theme": "MORABAND",
+      "metadata_relevance": 39,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name",
+        "exact planet"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "star wars holocron ancient jedi",
+      "title": "The Origins of the Jedi & Sith | Ancient Je'daii, Rakatan Empire & Revan | Holocron Radio Ep. 15",
+      "publisher_synopsis": "Before the Skywalkers. Before the Galactic Republic. Before the Sith Lords. There was the Je'daii Order. Welcome back to Holocron Radio! Join your host, Grandmaster Jordan, for Episode 15 as we travel more than 36,000 years into the past to uncover the forgotten history of the Star Wars galaxy! This week, we're diving deep into Star Wars Legends to explore the ancient Je'daii Order on Tython, the mysterious Tho Yor, the philosophy of Ashla and Bogan, and the terrifying Rakatan Infinite Empire. We'll also examine the Force Wars, the creation of the Jedi Order, the Hundred-Year Darkness, and how fallen Jedi eventually became the first Sith Lords. But that's not all! 🔥 Grandmaster's Take: Was Anakin Skywalker's rage after his mother's death a natural human reaction? Would we have reacted differently in his position? ⚔️ Jedi of the Week: Revan! From the Mandalorian Wars and his fall as Darth Revan to his redemption and battle against the Si",
+      "original_guid": "1000794046944",
+      "episode_link": "https://podcasts.apple.com/us/podcast/the-origins-of-the-jedi-sith-ancient-jedaii/id1896843261?i=1000794046944&uo=4",
+      "publisher": "Holocron Radio",
+      "theme": "MORABAND",
+      "metadata_relevance": 38,
+      "triggered_scene_mechanisms": [
+        "Jedi/holocron",
+        "ancient Force mystery"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "amca",
+      "source_rss": "https://amorecivilizedage.libsyn.com/rss",
+      "title": "75: Kashyyyk (Knights of the Old Republic 06)",
+      "publisher_synopsis": "From week to week, from planet after planet, one thing has remained true about our journey through the Old Republic: Zaalbar has kept his lips sealed . Sure, he'll make you a grenade. But ask him about what he knows about a place or how he's feeling or, god forbid, what his home is like? Complete. Brick. Wall. Well that ends today, because we've landed on a little world called Kashyyyk. Time to find out if the saying is true: A Wookie can never really go home again. Next time: We head to the sea planet of Manaan. Make sure to take care of any non-Korriban multi-planet sidequests before you get the star map! Show Notes Hosted by Rob Zacny ( @RobZacny ) Featuring Alicia Acampora ( @ali_west ), Austin Walker ( @austin_walker ), and Natalie Watson ( @nataliewatson ) Produced by Ricardo Contreras ( @a_cado_appears ) Music by Jack de Quidt ( @notquitereal) Cover art by Xeecee ( @xeeceevevo )",
+      "original_guid": "fe9a6107-42b7-4a1d-b04f-708ffc2f6c7f",
+      "episode_link": "https://amorecivilizedage.net/75-kashyyyk-knights-of-the-old-republic-06",
+      "role": "research_candidate",
+      "theme": "MORABAND",
+      "metadata_relevance": 36,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "247881033",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "amca",
+      "source_rss": "https://amorecivilizedage.libsyn.com/rss",
+      "title": "76: Manaan (Knights of the Old Republic 07)",
+      "publisher_synopsis": "Ah, the blue waves of Manaan, home to the galaxy's only supply of a miracle drug, the most litigious culture in the stars, and a delicately simmering cold war. Time to go knock the whole thing off balance. Next time: THE LEVIATHAN (and any non-Korriban side stuff you wanna catch up on!) Support the show by going to Patreon.com/civilized! Hosted by Rob Zacny ( @RobZacny ) Featuring Alicia Acampora ( @ali_west ), Austin Walker ( @austin_walker ), and Natalie Watson ( @nataliewatson ) Produced by Ricardo Contreras ( @a_cado_appears ) Music by Jack de Quidt ( @notquitereal) Cover art by Xeecee ( @xeeceevevo )",
+      "original_guid": "6ff913d1-c270-46fd-8c9d-8eac1b3275e0",
+      "episode_link": "https://amorecivilizedage.net/76-manaan-knights-of-the-old-republic-07",
+      "role": "research_candidate",
+      "theme": "MORABAND",
+      "metadata_relevance": 36,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "236627367",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "amca",
+      "source_rss": "https://amorecivilizedage.libsyn.com/rss",
+      "title": "77: The Leviathan (Knights of the Old Republic 08)",
+      "publisher_synopsis": "FINALLY! After months of careful (if fundamentally futile) spoiler avoidance, we can can finally talk about the Big Twist of KOTOR. What's that? It seems as if our duo of new players had already basically figured it out? Well, hold your tongue, because there's knowing \"the twist\" and then there's really understanding how (and who) exactly did the twisting. Next time: Korriban and any pre-finale side content Support the show by going to Patreon.com/civilized! Show Notes Strategy Wiki's KOTOR Guide RPG Classic's KOTOR Shrine Hosted by Rob Zacny ( @RobZacny ) Featuring Alicia Acampora ( @ali_west ), Austin Walker ( @austin_walker ), and Natalie Watson ( @nataliewatson ) Produced by Ricardo Contreras ( @a_cado_appears ) Music by Jack de Quidt ( @notquitereal) Cover art by Xeecee ( @xeeceevevo ) Support the show by going to Patreon.com/civilized!",
+      "original_guid": "6b154bb0-51b1-4258-a4cb-caaa3fb9a022",
+      "episode_link": "https://amorecivilizedage.net/77-the-leviathan-knights-of-the-old-republic-08",
+      "role": "research_candidate",
+      "theme": "MORABAND",
+      "metadata_relevance": 36,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "184152456",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "star wars holocron ancient jedi",
+      "title": "5/5/21: #RevengeOfThe5th",
+      "publisher_synopsis": "You know me —- I LIVE/sleep/BREATHE Sith. I had to jump on & hit ya with a new episode today!! Taking you guys down the SWTOR rabbithole with me — starting 5000 BSW4, Tales of the Jedi : Golden Age of the Sith. Come, let’s visit Korriban... then we need to gtfo...😏😂👏🏼",
+      "original_guid": "1000520360586",
+      "episode_link": "https://podcasts.apple.com/us/podcast/5-5-21-revengeofthe5th/id1558616995?i=1000520360586&uo=4",
+      "publisher": "My Life on Exegol",
+      "theme": "MORABAND",
+      "metadata_relevance": 36,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Ep. 47 - Dark Side Planets",
+      "publisher_synopsis": "Dathomir... Moraband... Exegol... Just some of the planets that spark fear in Star Wars fans minds! We talk about them and more - we're going dark side! Thanks to Mike and Dale from It's True, All of It podcast for providing our intro song. We've launched our T-Shirt shop! Visit our spreadshirt shop - we'll be adding more of our Star Wars inspired designs over time! Start a ConverSWation with us: converswations.com converswations on twitter converswations on facebook converswations on instagram We are proud members of the Red 5 Network",
+      "original_guid": "1000502082273",
+      "episode_link": "https://podcasts.apple.com/us/podcast/ep-47-dark-side-planets/id1451456223?i=1000502082273&uo=4",
+      "publisher": "ConverSWations - A Star Wars Podcast",
+      "theme": "MORABAND",
+      "metadata_relevance": 36,
+      "triggered_scene_mechanisms": [
+        "exact planet"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "S03E07 - Tombstone Blues",
+      "publisher_synopsis": "The past returns! After travelling four thousand years into the past, the Empire Wreckers have found themselves ten years before the rise of the Empire, where they hope to end Palpatine's reign before it begins. Hunting for anything that could be used to aid the Sith in their plan, the crew of the Sparkling Spoonbill investigated and destroyed a secret and illegal cloning facility. During their adventure, they reunited with Celeste Morne, whose Jedi Master had traveled to the Sith graveyard of Korriban, to find a way to defeat the Sith by any means necessary.... Support the show",
+      "original_guid": "1000433795849",
+      "episode_link": "https://podcasts.apple.com/us/podcast/s03e07-tombstone-blues/id1326732478?i=1000433795849&uo=4",
+      "publisher": "Empire Wreckers",
+      "theme": "MORABAND",
+      "metadata_relevance": 36,
+      "triggered_scene_mechanisms": [
+        "exact planet alternate name"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "The Clone Wars S6E13 - Sacrifice",
+      "publisher_synopsis": "My favorite part was when Yoda said \"It's Moraband'n time\" and Morabanded all over the place.",
+      "original_guid": "1000624462262",
+      "episode_link": "https://podcasts.apple.com/us/podcast/the-clone-wars-s6e13-sacrifice/id1470660666?i=1000624462262&uo=4",
+      "publisher": "Star Wars Total Rewatch",
+      "theme": "MORABAND",
+      "metadata_relevance": 36,
+      "triggered_scene_mechanisms": [
+        "exact planet"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "Into The Dark - What Scared The Sith?",
+      "publisher_synopsis": "On this episode of Temple Archives, Noma, Ed, and Dan discuss the latest High Republic Novel: Into The Dark. Through victory our Chains are broken...but what happens when there’s no clear victory? No meditation cushions tonight, lightsabers are required this time. Tell us what you enjoyed or didn't about our discussion! Be sure to leave a question, comment, or theory at any of the places below and we will read it on the next episode: Email: voiceoftheforce@gmail.com (Include “Voice of the Fans” in the Subject) Twitter: www.twitter.com/voiceforcepod (Be sure to use the #VOTF and tag @voiceforcepod) Facebook: www.facebook.com/VoiceForcePod Instagram: www.instagram.com/VoiceForcePod Listen on Amazon Music, Google Podcasts, iHeart Radio, Soundcloud, Stitcher, Spotify, TuneIn, Overcasts, Pocketcasts, Podbean & Listen, Rate, Review & Subscribe on Apple Podcasts. Intro Music by Matthew Pablo http://www.matthewpablo.com http://www.youtube.com/u",
+      "original_guid": "1000513181960",
+      "episode_link": "https://podcasts.apple.com/us/podcast/into-the-dark-what-scared-the-sith/id1435428374?i=1000513181960&uo=4",
+      "publisher": "The Voice of the Force Podcast",
+      "theme": "MORABAND",
+      "metadata_relevance": 34,
+      "triggered_scene_mechanisms": [
+        "Sith temple"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "star wars holocron ancient jedi",
+      "title": "Episode 27: \"The Relic Raider\"",
+      "publisher_synopsis": "On this episode, Dominic and Ben are joined by Justin Boots Gray of the Trench Run Report podcast to discuss the Star Wars Resistance episode \"The Relic Raiders\". They discuss Kaz's belief (or lack thereof) in the Force and how this episode might have changed his perspective. They also discuss the new character of Mika Gray and how she could impact the series going forward. And they delve into the implications this episode could have for the The Rise of Skywalker. Plus, are Kel and/or Eila Force sensitive, the metaphorical meaning of the Jedi burying Sith temples, and Kaz activating every imaginable trap in the temple. All this and much more!",
+      "original_guid": "1000457198218",
+      "episode_link": "https://podcasts.apple.com/us/podcast/episode-27-the-relic-raider/id1439945656?i=1000457198218&uo=4",
+      "publisher": "The Kazuda Kast: A Star Wars Resistance Podcast",
+      "theme": "MORABAND",
+      "metadata_relevance": 32,
+      "triggered_scene_mechanisms": [
+        "Sith temple",
+        "Jedi relic investigation"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "star wars holocron ancient jedi",
+      "title": "The Kazuda Kast | \"The Relic Raider\"",
+      "publisher_synopsis": "On this episode, Dominic and Ben are joined by Justin Boots Gray of the Trench Run Report podcast to discuss the Star Wars Resistance episode \"The Relic Raiders\". They discuss Kaz's belief (or lack thereof) in the Force and how this episode might have changed his perspective. They also discuss the new character of Mika Gray and how she could impact the series going forward. And they delve into the implications this episode could have for the The Rise of Skywalker. Plus, are Kel and/or Eila Force sensitive, the metaphorical meaning of the Jedi burying Sith temples, and Kaz activating every imaginable trap in the temple. All this and much more! Website: www.starwarsunderworld.com Support The SWU on Patreon Facebook: www.facebook.com/swunderworld Twitter: @TheSWU Subscribe and Review on iTunes Email: swunderworld@gmail.com Voicemail: 1-410-989-1138",
+      "original_guid": "1000457200879",
+      "episode_link": "https://podcasts.apple.com/us/podcast/the-kazuda-kast-the-relic-raider/id690650596?i=1000457200879&uo=4",
+      "publisher": "The Star Wars Underworld Podcast",
+      "theme": "MORABAND",
+      "metadata_relevance": 32,
+      "triggered_scene_mechanisms": [
+        "Sith temple",
+        "Jedi relic investigation"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "laboratory containment science fiction audio drama",
+      "title": "Sonic Society #678-Sonic Station",
+      "publisher_synopsis": "A handful of fading memories, the remains of a research project, and a garbled tape recorder are all Dr Miranda Quan has to her name... all this and more can be heard in this week's feature as Jack and David present Alex Yun, Andrea Klassen and Procyon Podcast Network's Station to Station on the final day of NADSWRIM 2021. Your wait is over... It's AUDIO DRAMA TIME! Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "original_guid": "1000510968652",
+      "episode_link": "https://podcasts.apple.com/us/podcast/sonic-society-678-sonic-station/id1459541041?i=1000510968652&uo=4",
+      "publisher": "Sunday Showcase",
+      "theme": "SHARD MOON",
+      "metadata_relevance": 31,
+      "triggered_scene_mechanisms": [
+        "isolated research station"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Episode 12 - Knights Of The Old Republic II: The Sith Lords (feat. MrMattyPlays)",
+      "publisher_synopsis": "NOTE: THIS EPISODE WAS RECORDED BEFORE SABER INTERACTIVE CONFIRMED THAT THE REMAKE IS \"ALIVE AND WELL\". It was my immense honor, privilege, and blessing to be joined by MrMattyPlays to gush about the often far too maligned brilliance of Knights Of The Old Republic II: The Sith Lords. We discuss how it complements its predecessor in the locations it visits and even revisits, the themes it grapples with, and the characters it fleshes out. We also perform a check-up on both entries' developers, THAT remake, and the Star Wars IP.",
+      "original_guid": "1000652162632",
+      "episode_link": "https://podcasts.apple.com/us/podcast/episode-12-knights-of-the-old-republic-ii-the/id1665778327?i=1000652162632&uo=4",
+      "publisher": "Why You Should Play",
+      "theme": "MORABAND",
+      "metadata_relevance": 30,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Old Republic SITH LORDS vs Movie SITH LORDS",
+      "publisher_synopsis": "The power comparison between the Old Republic Sith Lords and more recent Sith Lords is a topic of debate among Star Wars fans. The Old Republic era featured legendary Sith Lords like Darth Revan and Darth Vitiate, known for their mastery of the dark side and strategic brilliance. These Sith Lords often displayed incredible Force abilities and considerable influence over the galaxy. However, the more recent Sith Lords, like Darth Sidious (Emperor Palpatine) and Darth Vader, demonstrated immense power as well. Darth Sidious was a master manipulator who orchestrated the rise of the Galactic Empire and possessed unparalleled mastery of dark side techniques. Darth Vader, while physically limited due to his injuries, was still a formidable Force user and skilled lightsaber duelist. Follow Lord Dagovere ◉ Twitter: https://twitter.com/LordDagovere◉ Instagram: https://www.instagram.com/lord_dagovere ​◉ Twitch: https://www.twitch.tv/lord_dagovere",
+      "original_guid": "1000624421394",
+      "episode_link": "https://podcasts.apple.com/us/podcast/old-republic-sith-lords-vs-movie-sith-lords/id1497155655?i=1000624421394&uo=4",
+      "publisher": "Unlock the Knowledge",
+      "theme": "MORABAND",
+      "metadata_relevance": 30,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Star Wars: Knights of the Old Republic II: The Sith Lords",
+      "publisher_synopsis": "Day 21 of being stuck on Peragus. That droid still won't tell me the turbolift code and I'm starting to go insane. Please send help.",
+      "original_guid": "1000610243868",
+      "episode_link": "https://podcasts.apple.com/us/podcast/star-wars-knights-of-the-old-republic-ii-the-sith-lords/id1684093741?i=1000610243868&uo=4",
+      "publisher": "Star Wars Total Rewatch",
+      "theme": "MORABAND",
+      "metadata_relevance": 30,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "alien archaeology lost civilization podcast",
+      "title": "The Lost Civilization Beneath Antarctica: Ancient City or Alien Base?",
+      "publisher_synopsis": "Episode Link: https://open.spotify.com/show/6GXq4tkUPyS9LKge3Ewn49, Beneath Antarctica’s frozen surface, is there evidence of an ancient civilization—or something even stranger? From mysterious pyramids and forbidden maps to whispers of extraterrestrial ruins, this episode uncovers the chilling secrets buried in the ice. Discover why governments restrict access, what ancient texts may reveal, and whether Antarctica holds the key to humanity’s forgotten past. Subscribe now and support the show! https://creators.spotify.com/pod/show/ancientconspiracyfiles/subscribe #AncientConspiracyFiles, #HiddenHistory, #AntarcticaMystery, #LostCivilization, #AlienBase",
+      "original_guid": "1000758405744",
+      "episode_link": "https://podcasts.apple.com/us/podcast/the-lost-civilization-beneath-antarctica-ancient-city/id1820661946?i=1000758405744&uo=4",
+      "publisher": "Forbidden Archaeology",
+      "theme": "SHARD MOON",
+      "metadata_relevance": 30,
+      "triggered_scene_mechanisms": [
+        "alien ruins"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "force-majeure",
+      "source_rss": "https://forcemajeurepod.libsyn.com/rss",
+      "title": "Shadows of the Jedi S04 E03 - What Lies Beneath",
+      "publisher_synopsis": "Buried beneath the glass dome lies a long-abandoned temple. Drawn there by the holocron in their possession, our heroes negotiate the tunnels and face an unexpected threat... Presenting Episode 3 of the Shadows of the Jedi! Follow us on social media! Twitter: @forcemajeurepod Facebook: https://www.facebook.com/ForceMajeurePod Instagram: forcemajeurepod Online: www.forcemajeurepod.com Email: forcemajeurepod@gmail.com We have a Discord ! Come and join us! We also have merch! https://teespring.com/stores/forcemajeurepod If you like what we do and have some spare money, we have both a Patreon and a Ko-Fi account. We are extremely grateful for your support in bringing you our humble story. https://www.patreon.com/forcemajeurepod ko-fi.com/forcemajeurepod Additional Music: \"The Spire - Vermissian\" by Tabletop Audio \"Floating Cities\" by Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0 License http://creativec",
+      "original_guid": "05a733af-b6d3-4140-baa2-4ebd7502c7b1",
+      "episode_link": "https://forcemajeurepod.libsyn.com/shadows-of-the-jedi-s04-e03-what-lies-beneath",
+      "role": "research_candidate",
+      "theme": "MORABAND",
+      "metadata_relevance": 30,
+      "triggered_scene_mechanisms": [
+        "Jedi/holocron"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "35958841",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "AHCHTOBER - Part 2: Cursed Star Wars Temples with Richard Newby",
+      "publisher_synopsis": "Welcome back...to AHCHTOBER! This is our special series of four seasonal episodes in which each guest will bring the seed of a #horror movie idea for the #StarWars galaxy. We break it down, develop it, cast it, & more! Can #StarWars actually go horror? Spoiler alert: We think so! Let’s explore. Today's new episode of the show welcomes back friend of the show Richard Newby of The Hollywood Reporter! Richard's horror film idea for the galaxy far, far away was born out of his love for exploration stories, mystical stories, classic Hammer horror films, & more! We're taking a dive into a Sith Temple for a story of love, corruption, ghosts, legends, and everything in between. Find out about Richard's thoughts on women driving the horror genre with his casting & directorial choices, and let us know what you think! How would you feel about a story like this? Be sure to check out Richard all over the internet, be it on his Twitter, @RICHARDLNEWB",
+      "original_guid": "1000495866693",
+      "episode_link": "https://podcasts.apple.com/us/podcast/ahchtober-part-2-cursed-star-wars-temples-with-richard/id1459562434?i=1000495866693&uo=4",
+      "publisher": "Ahch-To Radio: A Star Wars Podcast",
+      "theme": "MORABAND",
+      "metadata_relevance": 29,
+      "triggered_scene_mechanisms": [
+        "Sith temple"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "alien archaeology lost civilization podcast",
+      "title": "Ben McGee, Chasing UFO's Science Guy",
+      "publisher_synopsis": "Ben McGee is the Founder and Principal Research Scientist of Astrowright Spaceflight Consulting LLC and the resident scientist on the National Geographic Channel’s reality series, Chasing UFOs. He has served for several years as adjunct faculty in the Physical Science Department of the College of Southern Nevada, and in 2011 he successfully completed FAA-certified suborbital-scientist astronaut training at the National Aerospace Training and Research Center. McGee is currently engaged in research exploring alternative temporal implications of Special Relativity, documenting the industrial archaeology of the NASA-AEC Nuclear Rocket Development Station, and developing guidelines for xenoarchaeology, a speculative form of archaeology assessing possible alien life and culture. We’ll talk about science and UFOs, commercial spaceflight and xenoarcheology. http://www.astrowright.com - http://channel.nationalgeographic.com/channel/chasing-ufos/",
+      "original_guid": "1000325189846",
+      "episode_link": "https://podcasts.apple.com/us/podcast/ben-mcgee-chasing-ufos-science-guy/id302000822?i=1000325189846&uo=4",
+      "publisher": "Open Minds UAP News",
+      "theme": "SHARD MOON",
+      "metadata_relevance": 26,
+      "triggered_scene_mechanisms": [
+        "isolated research station"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "janus-descending",
+      "source_rss": "https://janusdescending.libsyn.com/rss",
+      "title": "i. Resurgence",
+      "publisher_synopsis": "New hosts fight an old infection, as the invasion begins... In this episode of Descendants: Book One - Inheritance, \"i. Resurgence\" … Axel - Zach Libresco Rori - Julia Schifini Mol - Sarah Rhea Werner Declan - Giancarlo Herrera Ariel - Emma Sherr-Ziarko Andrea - Nadine El Amami Computer - Ellie Gossage Voice - Jordan Cobb Written, Directed & Produced by Jordan Cobb Sound Design by Julia Schifini with Dialogue Editing, Mixing & Mastering by Marisa Ewing and Hemlock Creek Productions Score by Daryl Banner Cover Art by Jordan Cobb Descendants is a No Such Thing Production. To donate, read transcripts, or find out more about us, visit nosuchthingradio.com or patreon.com/nosuchthingproductions Content Warning: Descendants is a science fiction adventure thriller with elements of horror, aimed at a mature audience, and as such, may contain material that is upsetting or triggering for certain people. THIS EPISODE contains mentions of alcoholism",
+      "original_guid": "5c939665-23f5-4d95-83db-9113d6daa3b2",
+      "episode_link": "https://janusdescending.libsyn.com/i-resurgence",
+      "role": "research_candidate",
+      "theme": "SHARD MOON",
+      "metadata_relevance": 26,
+      "triggered_scene_mechanisms": [
+        "isolated research station"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "34018529",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "amca",
+      "source_rss": "https://amorecivilizedage.libsyn.com/rss",
+      "title": "126: Revenge of the Sith (Novel) Pt. 2",
+      "publisher_synopsis": "We return to the final days of the old Republic. But not the Old Republic. That's different, now, that's like... an even older time before all this. Anyway, the Battle of Coruscant has concluded and its heroes, Anakin Skywalker and Obi-Wan Kenobi can finally come home for a little rest. And a little scheming. And a little paranoia. The Jedi Council members spin their wheels despite having all the clues. Palpatine spins the world around his finger. And Padme, Anakin's Wife (remember this), is also there. Next Time: The Rest of the Book Show Notes Hosted by Rob Zacny ( robzacny.bsky.social ) Featuring Alicia Acampora ( ali-online.bsky.social ), Austin Walker ( austinwalker.bsky.social ), and Natalie Watson ( nataliewatson.bsky.social ) Produced by Austin Walker Music by Jack de Quidt ( notquitereal.bsky.social Cover art by Xeecee ( xeecee.bsky.social )",
+      "original_guid": "fe099902-67fe-414b-b70c-f64cbe26e0c7",
+      "episode_link": "https://amorecivilizedage.net/126-revenge-of-the-sith-novel-pt-2",
+      "role": "research_candidate",
+      "theme": "MORABAND",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "153366528",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "amca",
+      "source_rss": "https://amorecivilizedage.libsyn.com/rss",
+      "title": "12: The Ryloth Arc (Clone Wars 19 - 21)",
+      "publisher_synopsis": "\"Another armed occupation is not a free Ryloth. How long before I am fighting you, master Jedi?\" -Cham Syndulla On and above the Twi'lek homeworld of Ryloth, battles rage between Separatist and Republic forces. This three part, anthology-style arc gives us different perspectives on the conflict, and that's true in more ways than one. These episodes offer us both our most paternalistic, simple minded vision of racial harmony yet and our first de facto \"radical\" figure. Oh, and no, before you write in: They are not French. Next time: Episodes 22-25 (S1E22-S2E3), Hostage Crisis + Magic of the Holocron Arc Show Notes Fallen Clones: Slammer, Tucker, Axe Barthes on the cover of Paris Match Hosted by Rob Zacny ( @RobZacny ) Featuring Alicia Acampora ( @ali_west ), Austin Walker ( @austin_walker ), and Natalie Watson ( @nataliewatson ) Produced by Austin Walker Music by Jack de Quidt ( @notquitereal) Cover art by Xeecee ( @xeeceevevo )",
+      "original_guid": "ac66f372-42e8-42eb-8e90-19572f566433",
+      "episode_link": "https://amorecivilizedage.net/12-the-ryloth-arc-clone-wars-19-21",
+      "role": "research_candidate",
+      "theme": "MORABAND",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "Jedi/holocron"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "133511399",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "amca",
+      "source_rss": "https://amorecivilizedage.libsyn.com/rss",
+      "title": "70: Taris Pt. 2 (Knights of the Old Republic 02)",
+      "publisher_synopsis": "Join us as we continue our journey down into the depths of Taris, a city so bad that it hasn't really gotten that much worse under Sith occupation! Sure, there's a rampant plague of not-zombies spreading through the dark fantasy undercity. And a traitorous swoop racing gang has started killing people in the streets. And, well, I guess there's the matter of the Rancor. But somehow, most of that would've happened even without Sith influence. As the wisest Jedi master of our times, bowing his head solemnly, said: \"mmm, actually zero difference between good & bad things, there are. imbecile, fucking moron, you are. \" Next Time: Finish Taris and Land on Dantooine! Show Notes Hosted by Rob Zacny ( @RobZacny ) Featuring Alicia Acampora ( @ali_west ), Austin Walker ( @austin_walker ), and Natalie Watson ( @nataliewatson ) Produced by Ricardo Contreras ( @a_cado_appears ) Music by Jack de Quidt ( @notquitereal) Cover art by Xeecee ( @xeeceevevo ",
+      "original_guid": "d19e3cb5-c785-4111-95e2-00d46a1de233",
+      "episode_link": "https://amorecivilizedage.net/70-taris-pt-2-knights-of-the-old-republic",
+      "role": "research_candidate",
+      "theme": "MORABAND",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "161373493",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "EII: ep 3 – The (Knights of the) Old Republic games – (LEGENDS)",
+      "publisher_synopsis": "Elysia wanders off the Canon path, this time with the help of Marcin, to talk about one of the most important and beloved series in the history of Star Wars games: The Knights of the Old Republic, The Knights of Old Republic II: The Sith Lords, and The Old Republic MMO. We summarize the plots (full spoilers), the gameplay, and what makes these games so special – plus the lore that already has or probably will make the leap to Canon status. There's even bonus talk about the evolution of Star Wars gaming since the '90s, and previews of gaming coverage to come. This is an episode for both deep fans of the games and people who never play games at all. Recorded May 10, 2024 The Star Wars Canon Timeline Podcast past and future episode list Upcoming episodes (spring/summer 2024): –The High Republic overview –Star Wars: Eclipse game preview –Young Jedi Adventures S1 –Weekly coverage of The Acolyte Email us: SWTimelinePodcast@gmail.com Find Elys",
+      "original_guid": "1000655657070",
+      "episode_link": "https://podcasts.apple.com/us/podcast/eii-ep-3-the-knights-of-the-old-republic-games-legends/id1744643686?i=1000655657070&uo=4",
+      "publisher": "The Star Wars Canon Timeline Podcast",
+      "theme": "MORABAND",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "Ep.212 - Star Wars Kotor 2: the Sith Lords with Nick Tiffany",
+      "publisher_synopsis": "We've had one Knights of the Old Republic, yes. But what about a second Knights of the Old Republic? Today improv legend Nick Tiffany joins Conner to discuss Kotor 2: the Sith Lords, wax poetic about closed Monterey mainstays, and to reveal favorite Taco Bell items. Show Notes Nick Tiffany - Instagram Conner McCabe – Bluesky - Twitter – Twitch Produced, Edited, and Original music by Jeremy Schmidt – Video Games: a Comedy Show Call Me By Your Game – Instagram – Twitter - Bluesky – YouTube - TikTok Super NPC Radio – Patreon - Discord- Bluesky - Twitter – Instagram – Twitch Music Licensed through Artlist.io T.Bless - Korobeiniki - 8 Bit Version Tomer Baruch - The Girl with the Cat",
+      "original_guid": "1000659506245",
+      "episode_link": "https://podcasts.apple.com/us/podcast/ep-212-star-wars-kotor-2-the-sith-lords-with-nick-tiffany/id1488236231?i=1000659506245&uo=4",
+      "publisher": "Call Me By Your Game",
+      "theme": "MORABAND",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Era II: THE OLD REPUBLIC – overview",
+      "publisher_synopsis": "DeadeyeJediBob joins Elysia to sort Canon from Legends in the era of the Old Republic – one of the coolest and most fantastical eras of Star Wars lore, dominated by the Jedi-Sith Civil Wars, the Mandalorians, and other intriguing groups of Force users and non-Force users. Join us as we talk Darth Bane and the Rule of Two, Force witches, and failed Wookie impressions while covering 24,000 years of Star Wars history. Recorded May 9, 2024 The Star Wars Canon Timeline Podcast past and future episode list Upcoming episodes (spring/summer 2024): –The (Knights of the) Old Republic games – Legends –The High Republic overview –Star Wars: Eclipse game preview –Young Jedi Adventures S1 –Weekly coverage of The Acolyte Email us: SWTimelinePodcast@gmail.com Find Elysia on Twitter: @elysiacb Find Bob on Twitter: @BobServo1 DeadeyeJediBob YouTube channel Join the discussion on the Lorehounds Discord: https://discord.gg/8CeM9crU Music: “The Force Theme”",
+      "original_guid": "1000655352408",
+      "episode_link": "https://podcasts.apple.com/us/podcast/era-ii-the-old-republic-overview/id1744643686?i=1000655352408&uo=4",
+      "publisher": "The Star Wars Canon Timeline Podcast",
+      "theme": "MORABAND",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "alien archaeology lost civilization podcast",
+      "title": "Greetings from the Galactic Junk Pile",
+      "publisher_synopsis": "Prepare to Believe! Welcome, fellow truth-seekers, to THE TRUE ALIEN PODCAST, your daily dive into the bizarre and unexplained! You WON'T BELIEVE What These Space Tourists Found! Did ancient astronauts really visit Earth? Or was it something far more hilarious... and mind-blowing?! Get ready for an interstellar laugh riot as we uncover the shocking truth: ALIEN ARCHAEOLOGISTS MISTOOK OUR THEME PARKS FOR HOLY SITES! Forget crop circles, this is Grade-A cosmic comedy! We've got exclusive details on how these bumbling extraterrestrials, led by the over-enthusiastic Ziltoid and the skeptical Captain X'thar, landed on our forgotten planet and immediately jumped to some truly WILD conclusions. Imagine this: a rollercoaster deemed an \"intricate tribute to celestial movements\"! Faded food stalls mistaken for sacred grounds! And get this – a soggy tourist map hailed as \"sacred texts\"! The symbols of princesses and pirates completely baffled thes",
+      "original_guid": "1000701737407",
+      "episode_link": "https://podcasts.apple.com/us/podcast/greetings-from-the-galactic-junk-pile/id1778573232?i=1000701737407&uo=4",
+      "publisher": "TRUE ALIEN 👽 🛸 UNSOLVED MYSTERIES, SECRET FILES & PARANORMAL TALES FROM BEYOND 📡🕵️‍♂️",
+      "theme": "SHARD MOON",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "ancient artifact investigation"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "star wars holocron ancient jedi",
+      "title": "Knights of the Old Republic: Outcats",
+      "publisher_synopsis": "Thirty years have passed since the Jedi Civil War. The Repubilc, sure in its final victory over the Sith years ago, has grown arrogant... The Jedi, all but obliterated, are looked up on with scorn... ...And the Sith, ever watchful, bide their time, looking for the perfect moment to strike. Welcome to the world of Knights of the Old Republic: Outcasts. Running a total of seven episodes, For War Momentum Productions is proud to re-release the first fieve episodes of our original audio drama, Knights of the Old Republic: Outcasts as as they were during the show's initial run from 2008 to 2009. Here, we present the fifth episode, Dark Truths. STARRING: Sarah Moore; Devin Cox; Joe Harrison; Hazen Nester; Silas Carder; Nathan P. Butler; Andrew Gilbertson; Catherine Rinella; Melissa D. Johnson; Jim Perry; and others WRITTEN by Devin Cox and Jenna Wilson MIXED by Devin Cox This episode was originally hosted by the wonderful people at: http://ww",
+      "original_guid": "1000331158401",
+      "episode_link": "https://podcasts.apple.com/us/podcast/knights-of-the-old-republic-outcats/id304479850?i=1000331158401&uo=4",
+      "publisher": "Forward Momentum Productions",
+      "theme": "MORABAND",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "star wars holocron ancient jedi",
+      "title": "S12E18 - Run the World (Girls)",
+      "publisher_synopsis": "Freedom is at hand! After running afoul of the Bounty Hunter's Guild and finding themselves in a Deck of high value targets, the Empire Wreckers are on the verge of returning to anonymity. Discovering that their old droid Rusty is the Deck's Dealer, the crew of the Chrome C**k have tracked him to Kessel - now home to the mysterious Shard. With a powerful ancient artifact in hand, the gang has made a tenuous alliance with the Shard, earning them safe passage through the tempestuous Akkadese Maelstrom.... Support the show",
+      "original_guid": "1000672865836",
+      "episode_link": "https://podcasts.apple.com/us/podcast/s12e18-run-the-world-girls/id1326732478?i=1000672865836&uo=4",
+      "publisher": "Empire Wreckers",
+      "theme": "SHARD MOON",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "ancient artifact investigation"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "alien archaeology lost civilization podcast",
+      "title": "Sanxingdui and the Shu State",
+      "publisher_synopsis": "This week, we explore yet another place that’s not a backwater or influenced by aliens! In 1986, two pits were excavated at the site of Sanxingdui (Three Stars Mound) in what is today China’s Sichuan province. These two pits, and six more uncovered in 2021, were full of bronze, jade, gold, and ivory objects that appear to have been “sacrificed” (burned or broken) before burial. The artifacts were made in a style never before seen in Chinese material culture. What was going on at Sanxingdui, and why was the site abruptly abandoned thousands of years ago? We can tell you right off the bat that it wasn’t aliens, but you’ll have to listen to the episode to find out more! Interested in learning about how to use X-Rays and similar technology in archaeology? Check out the linked PaleoImaging course from James Elliot! Start your own podcast with Zencastr and get 30% off your first three months with code DIRT. Click this message for more informa",
+      "original_guid": "1000550286636",
+      "episode_link": "https://podcasts.apple.com/us/podcast/sanxingdui-and-the-shu-state/id1404606470?i=1000550286636&uo=4",
+      "publisher": "The Dirt Podcast",
+      "theme": "SHARD MOON",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "alien ruins"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "alien archaeology lost civilization podcast",
+      "title": "Sanxingdui and the Shu State - Dirt 175",
+      "publisher_synopsis": "This week, we explore yet another place that’s not a backwater or influenced by aliens! In 1986, two pits were excavated at the site of Sanxingdui (Three Stars Mound) in what is today China’s Sichuan province. These two pits, and six more uncovered in 2021, were full of bronze, jade, gold, and ivory objects that appear to have been “sacrificed” (burned or broken) before burial. The artifacts were made in a style never before seen in Chinese material culture. What was going on at Sanxingdui, and why was the site abruptly abandoned thousands of years ago? We can tell you right off the bat that it wasn’t aliens, but you’ll have to listen to the episode to find out more! Interested in learning about how to use X-Rays and similar technology in archaeology? Check out the linked PaleoImaging course from James Elliot! Start your own podcast with Zencastr and get 30% off your first three months with code DIRT. Click this message for more informa",
+      "original_guid": "1000550287712",
+      "episode_link": "https://podcasts.apple.com/us/podcast/sanxingdui-and-the-shu-state-dirt-175/id947912823?i=1000550287712&uo=4",
+      "publisher": "The Archaeology Podcast Network Feed",
+      "theme": "SHARD MOON",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "alien ruins"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Star Wars Knights of the Old Repblic II The Sith Lords (Light Side)",
+      "publisher_synopsis": "Synopsis Five years after the events from Star Wars Knights of the Old Republic, the Sith Lords have hunted the Jedi to the edge of extinction and are on the verge of crushing the Old Republic. With the Jedi Order in ruin, the Republic’s only hope is a lone Jedi struggling to reconnect with the Force. As this Jedi, you will be faced with the galaxy’s most dire decision: Follow the light side or succumb to the dark… ~~~~~ Gameplay Playlist ~~~~~ Android iOS ~~~~~ Twitter Website Hosted on Acast. See acast.com/privacy for more information.",
+      "original_guid": "1000504897636",
+      "episode_link": "https://podcasts.apple.com/us/podcast/star-wars-knights-of-the-old-repblic-ii-the-sith/id1009579009?i=1000504897636&uo=4",
+      "publisher": "HeadphonesNeil Reviews",
+      "theme": "MORABAND",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Star Wars The Old Republic Initial Thoughts",
+      "publisher_synopsis": "About the game This story takes place in the Star Wars universe shortly after the establishment of a tenuous peace between the re-emergent Sith Empire and the Galactic Republic. The game features eight different classes. Each of the eight classes has a three act storyline that progresses as the character levels up. Players join either the Republic or the Sith, but players may possess a morality at any point along the light/dark spectrum. ~~~~~ Website ~~~~~ Gameplay Playlist ~~~~~ Links HeadphonesNeil The App Subscribe Support Twitter Website Hosted on Acast. See acast.com/privacy for more information.",
+      "original_guid": "1000513151017",
+      "episode_link": "https://podcasts.apple.com/us/podcast/star-wars-the-old-republic-initial-thoughts/id1009579009?i=1000513151017&uo=4",
+      "publisher": "HeadphonesNeil Reviews",
+      "theme": "MORABAND",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "derelict",
+      "source_rss": "https://feeds.megaphone.fm/SBP4341397353",
+      "title": "Season 1 - FATHOM - E1 - In the Dark We See",
+      "publisher_synopsis": "DERELICT Premium: https://derelict.supercast.com Something has been found at the bottom of Earth's ocean. An ancient artifact that can only be described as a giant door, inset into the ocean floor. It became known as the Vault. A gigantic enigma, buried and forgotten...nineteen thousand feet down. Just the kind of thing that would interest the galaxy's most powerful corporation, Maas-Dorian. To study the artifact, the company built a massive, self-contained, secret laboratory base surrounding it. That base is named Fathom. It's objective: unlock the secrets of the artifact and discover what it holds.​ A group of scientists, engineers, and workers led by Dr. Eva Graff and Commander Joe Freeman have been working on that task for almost a year, but with little to show for it. The Vault has yet to give up its secrets, and their employers are beginning to lose patience. Add to that, some on the base say they hear...voices. Inside the signal ",
+      "original_guid": "Buzzsprout-8638228",
+      "episode_link": "",
+      "role": "research_candidate",
+      "theme": "SHARD MOON",
+      "metadata_relevance": 25,
+      "triggered_scene_mechanisms": [
+        "ancient artifact investigation"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "0",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "amca",
+      "source_rss": "https://amorecivilizedage.libsyn.com/rss",
+      "title": "111: Peragus Mining Facility (KOTOR II 02)",
+      "publisher_synopsis": "You can watch Austin play through this section of the game right here . After T3-M4 and 3C-FD (who we're all sure will be very important throughout the game) managed to repair the Ebon Hawk, it and its unconscious crewmembers--the so called \"last of the Jedi\" and a mysterious robed woman named Kreia--have come to in the abandoned Peragus Mining Facility. Well. Mostly abandoned. There is the matter of the sneering (but surprisingly aware) scoundrel Atton... and the droids. So many droids. Hallways and hallways of droids. Now if only we could get a lift off this station. Hey, look, a ship! Next Time: Chatting on the Ship and Telos: Citadel Station intro and Side Quests. For part 1, we're not getting deep into the Czerka or Ithorian quests Support the show by going to Patreon.com/civilized! Show Notes Our KOTOR II Mod List Galactic & Going Rogue Kickstarter Hosted by Rob Zacny ( @RobZacny ) Featuring Alicia Acampora ( @ali_west ), Austin W",
+      "original_guid": "9ea4285e-69b7-47a7-8c09-d0e48e87d1c2",
+      "episode_link": "https://amorecivilizedage.net/111-peragus-mining-facility-kotor-ii-02",
+      "role": "research_candidate",
+      "theme": "SHARD MOON",
+      "metadata_relevance": 23,
+      "triggered_scene_mechanisms": [
+        "abandoned space installation"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "184660319",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "abandoned android factory actual play",
+      "title": "Mothership: Gradient Descent Ep 01 - Sci-Fi Horror RPG | Thalassophobia",
+      "publisher_synopsis": "The reluctant and debt-ridden crew of the Dashwood approach the Deep, an abandoned yet terribly active android production facility. They seek the lay of the land inside the Bell, a retrofitted thruster cast off from the station. Gradient Descent is by Luke Gearing, Jarrett Crader, and Sean McCoy, published by Tuesday Knight Games, LLC. Purchase it ⁠here⁠. Mothership Sci-Fi Horror RPG is by Sean McCoy and Jarrett Crader, published by ⁠Tuesday Knight Games⁠, LLC. Explore more 3d6 Down the Line at our ⁠official website⁠! Access character sheets, maps, both video and audio only versions of every episode, past campaigns, and lots more! Watch the video version of this episode on ⁠YouTube⁠! Support our ⁠Patreon⁠, and enjoy awesome benefits! Purchase ⁠Feats of Exploration⁠, an alternate XP system for old-school D&D-adjacent games! Grab some 3d6 DTL ⁠merchandise⁠! Join our friendly and lively ⁠Discord server⁠! Art, animation, and graphics by ⁠Da",
+      "original_guid": "1000722649040",
+      "episode_link": "https://podcasts.apple.com/us/podcast/mothership-gradient-descent-ep-01-sci-fi-horror-rpg/id1615596808?i=1000722649040&uo=4",
+      "publisher": "3d6 Down The Line",
+      "theme": "SHARD MOON",
+      "metadata_relevance": 23,
+      "triggered_scene_mechanisms": [
+        "abandoned space installation"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Dark Lords of the Sith: SWBTF #267",
+      "publisher_synopsis": "Continuing down the road of Legends stories, Dark Lords, Tales of the Jedi, Ancient Lore of the Sith, and the Fall of Jedi Knights Ulic Qel Droma, and Exar Kun. Jedi heroes like Nomi Sunrider, and treacherous Dark Side Adapts! All this, and more, all on the next Star Wars Beyond the Films. YOUR “Star Wars” discussion podcast! YOUR Podcast of Legends! …as well as Canon! YOUR ticket to that Galaxy far, far away! And remember: Your Fandom lies Beyond the Films. This week true believers, Beyonders, Fanboys, Fangirls, respected aliens around the galaxy, The Champion of the Multiverse; Mark Hurliman, and your Doctor of Timelines; Dr. Jim Lehane, sit down to discuss; Star Wars: Tales of the Jedi: Dark Lords of the Sith! So strap in and tighten your crash webbing Fandom, Star Wars Beyond the Films is setting off on another rapid-fire trip into that galaxy far, far away! This episode your hosts discuss: This Episode: Tales of the Jedi: Dark Lord",
+      "original_guid": "1000588647111",
+      "episode_link": "https://podcasts.apple.com/us/podcast/dark-lords-of-the-sith-swbtf-267/id493146910?i=1000588647111&uo=4",
+      "publisher": "Star Wars Beyond the Films",
+      "theme": "MORABAND",
+      "metadata_relevance": 21,
+      "triggered_scene_mechanisms": [
+        "ancient Force mystery"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "star wars holocron ancient jedi",
+      "title": "Episode 209 - Tales Of Tales Of The Jedi",
+      "publisher_synopsis": "When the High Republic publishing initiative was announced, we couldn't help but be reminded of the classic Dark Horse Star Wars comic series TALES OF THE JEDI! Also taking place many years before the films and telling the stories of ancient Jedi, the comics went to some wild places that we're still trying to figure out! How were they created? What input did Lucas have and how did they inspire the prequels? What happened as Gabe read many of them for the first time? Do they make any sense? So call up your buddy Ulic Qel Droma & celebrate the love with BLAST POINTS! Tales of the Jedi audio dramas on YouTube : https://www.youtube.com/playlist?list=PLWC1D1K9mhFW0qxIdeU7tOIRLJGYDtOrG JOIN THE BLAST POINTS ARMY and SUPPORT BLAST POINTS ON PATREON! Weekly CLONE WARS SEASON 7 review episodes! Exclusive Mandalorian review episodes! Commentaries! Extra goodies! and so much MORE! www.patreon.com/blastpoints NEW Blast Points T-SHIRTS are now avail",
+      "original_guid": "1000467950558",
+      "episode_link": "https://podcasts.apple.com/us/podcast/episode-209-tales-of-tales-of-the-jedi/id1072656897?i=1000467950558&uo=4",
+      "publisher": "Blast Points - Star Wars Podcast",
+      "theme": "MORABAND",
+      "metadata_relevance": 21,
+      "triggered_scene_mechanisms": [
+        "ancient Force mystery"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "alien archaeology lost civilization podcast",
+      "title": "TSFU Ep. 186 - MYSTERIOUS: Comet Catastrophes & Consciousness Chaos - The Graham Hancock Saga (Part II)",
+      "publisher_synopsis": "Ash and Kristen continue their dive into the wildly controversial world of Graham Hancock and his hotly debated speculations! In part two, the gals dig into Hancock’s Ancient Apocalypse era- breaking down his theory that a catastrophic comet wiped out an advanced civilization at the end of the last Ice Age, whose survivors may have spread knowledge of agriculture, astronomy, and architecture across the world. They explore mysterious Indonesian mountaintop ruins, buried structures, global mythology connections, archaeological pushback, debate-stage drama, and Hancock’s ventures into altered consciousness, psychedelics, and the eternal question: suppressed truth, misunderstood evidence… or just a really fascinating speculative rabbit hole? STUFF TO CHEER YOU UP: Ash's list of \"Comfort Shows\" (and where to watch them for freeeee)Ash learned a dance and actually filmed it... aka Ash dancing alone in …her yard aka \"How Ash Likes to Party\" Be",
+      "original_guid": "1000751898234",
+      "episode_link": "https://podcasts.apple.com/us/podcast/tsfu-ep-186-mysterious-comet-catastrophes-consciousness/id1508752329?i=1000751898234&uo=4",
+      "publisher": "That's So Fcked Up",
+      "theme": "MORABAND",
+      "metadata_relevance": 21,
+      "triggered_scene_mechanisms": [
+        "ancient Force mystery"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "force-majeure",
+      "source_rss": "https://forcemajeurepod.libsyn.com/rss",
+      "title": "Shadows of the Jedi S07 E16 - The Whole World, In His Hands",
+      "publisher_synopsis": "Surrounded by glittering crystal statues. The ancient corpse of a Cerean who looks suspiciously like the Doc. A cavern of wonders deep in the heart of the planet in an incredibly hostile environment. What answers will our heroes find here? Cast: Adam can be found as @maddambeltaine.bsky.social on Bluesky Ed can be found as @edfortune.bsky.social on Bluesky The rest of the cast can be found on the Force Majeure discord, linked below Follow us on social media! Bluesky: @forcemajeurepod.bsky.social Twitter: @forcemajeurepod Mastodon: @forcemajeurepod@dice.camp Facebook: https://www.facebook.com/ForceMajeurePod Instagram: forcemajeurepod Online: www.forcemajeurepod.com Email: forcemajeurepod@gmail.com We have a Discord ! Come and join us: https://discord.gg/DHbResPp6n We also have merch! https://teespring.com/stores/forcemajeurepod https://www.teepublic.com/user/forcemajeurepod If you like what we do and have some spare money, we have both ",
+      "original_guid": "a9b8f15d-6176-4972-8ef6-165299692e2f",
+      "episode_link": "https://forcemajeurepod.libsyn.com/shadows-of-the-jedi-s07-e16-the-whole-world-in-his-hands",
+      "role": "research_candidate",
+      "theme": "MORABAND",
+      "metadata_relevance": 21,
+      "triggered_scene_mechanisms": [
+        "ancient Force mystery"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "32141321",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "respect-the-crit",
+      "source_rss": "https://feeds.megaphone.fm/respectthecrit",
+      "title": "Empire's Edge - Ep. 41: Locals of Lehon",
+      "publisher_synopsis": "The crew of The Way find themselves above the planet of Lehon, an ancient world full of forgotten knowledge and strange secrets in the unmapped regions of wild space. This is the last known location of Beegax’s lost friend Chai Chai, a Chandra fan slicer on the run for stealing classified Imperial information. After sharing a dream of childhood memories, Beegax and Elo are convinced the Force is involved in their unexplainable experiences, and decide to keep this information a secret from the rest of the crew. But are they the only ones holding something back? Will their trust be challenged out here in the unknown? The crew of The Way may need a beacon to guide them through this strange, uncharted world. Social and scheduling - @RespectTheCrit Host & GM - Ian Duncan @iduncs Elo - Jamie Lee-Bonés @jamielee.bones Beegax Botano - Alex Herrera @aeherrera Whatever the system, whether it's a miss or a hit, you always gotta respect the crit! O",
+      "original_guid": "ccf15609-df9a-4122-b480-4d91f1dc118f",
+      "episode_link": "https://respectthecrit.libsyn.com/empires-edge-ep-41-locals-of-lehon",
+      "role": "research_candidate",
+      "theme": "MORABAND",
+      "metadata_relevance": 21,
+      "triggered_scene_mechanisms": [
+        "ancient Force mystery"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "0",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "respect-the-crit",
+      "source_rss": "https://feeds.megaphone.fm/respectthecrit",
+      "title": "Empire's Edge - Ep. 42: High Ground",
+      "publisher_synopsis": "‼️IMPORTANT LINKS‼️ Red Cross Blood Donation - redcrossblood.org It’s been a long journey for our fearless fringers as they explore an ancient and uncharted region of Wild Space. They’ve learned very quickly that even though the planet Lehon no longer hosts civilization, it is still abundant with new or perhaps very old life. After getting aquatinted with some of the local flora and fauna, Elo, Beegax and their crew, continue their search for the Chadra Fan slicer, Chai Chai, across the surface of this long forgotten world. Social and scheduling - @RespectTheCrit Host & GM - Ian Duncan @iduncs Elo - Jamie Lee-Bonés @jamielee.bones Beegax Botano - Alex Herrera @aeherrera Whatever the system, whether it's a miss or a hit, you always gotta respect the crit! Original music provided with license or permissions by: \"Solo Fan Made\" & \"Battle on Crait / The Force Theme - Luis Humanoide \"Star Wars Epic Cover I\" - Parademics \"Cal Kestis Theme - E",
+      "original_guid": "e144a3f7-7244-4d2b-ace2-e5f00e9a83f9",
+      "episode_link": "https://respectthecrit.libsyn.com/empires-edge-ep-42-high-ground",
+      "role": "research_candidate",
+      "theme": "MORABAND",
+      "metadata_relevance": 21,
+      "triggered_scene_mechanisms": [
+        "ancient Force mystery"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "0",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "respect-the-crit",
+      "source_rss": "https://feeds.megaphone.fm/respectthecrit",
+      "title": "Empire's Edge - Ep. 44: Fit The Pattern",
+      "publisher_synopsis": "The fearless fringers explore an ancient temple of an extinct, dark side using civilization on the planet of Lehon. Social and scheduling - @RespectTheCrit Host & GM - Ian Duncan @iduncs Elo - Jamie Lee-Bonés @jamiemfbones Beegax Botano - Alex Herrera @aeherrera Whatever the system, whether it's a miss or a hit, you always gotta respect the crit! Original music provided with license or permissions by: \"Solo Fan Made\" - Luis Humanoide \"Star Wars Epic Cover I\" - Parademics The Force Theme (Luke Skywalker Theme) | EPIC MANDALORIAN VERSION - Samuel Kim Additional sound from Freesound.org including: Borneo Jungle - Day - https://freesound.org/s/253291/ Additional music and sound by TableTop Audio Additional music and sound by Syrinscape Additional music and sound by Pro Scores from Video Copilot Additional music and sound by Monument Studios Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "original_guid": "186dbcae-197a-4cc7-b1c2-134260cf0f9a",
+      "episode_link": "https://respectthecrit.libsyn.com/rtc-ee-ep-044",
+      "role": "research_candidate",
+      "theme": "MORABAND",
+      "metadata_relevance": 21,
+      "triggered_scene_mechanisms": [
+        "ancient Force mystery"
+      ],
+      "confidence": "publisher_metadata",
+      "full_transcript_examined": false,
+      "publisher_transcript_urls": [],
+      "enclosure_type": "audio/mpeg",
+      "declared_bytes": "0",
+      "has_https_publisher_enclosure": true,
+      "enclosure_signed_or_volatile": false,
+      "audio_reachability_verified": false,
+      "release_state": "discovery_only_requires_source_review"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "002.5: Records of Gnost-Dural (5,000 to 3,996 BBY)",
+      "publisher_synopsis": "0:00 Intro 3:14 News 6:30 Trivia 20:47 Explanation of Timeline Videos 28:10 Timeline: The Great Hyperspace War 39:41 Timeline: Rebirth of the Sith Empire 48:13 Timeline: The Exar Kun War 58:47 Closing Credits August 24, 2025 This week's episode takes place between the years 5,000 and 3,996 BBY, prior to the Mandalorian Wars. Daddy-Daughter hosts Joseph Kyle Rogan and Patience Eva Rogan explore the first three Old Republic Timeline videos (if you’re watching them chronologically): “The Great Hyperspace War,” “Rebirth of the Sith Empire,” and “The Exar Kun War.” What We Watched: “The Old Republic Timeline: The Great Hyperspace War”: https://www.youtube.com/watch?v=CWJWDcaeVIo&ab_channel=swtheoldrepublic “The Old Republic Timeline: Rebirth of the Sith Empire”: https://www.youtube.com/watch?v=Q7qG8ui0vk0&t=1s&ab_channel=swtheoldrepublic “The Old Republic Timeline: The Exar Kun War”: https://www.youtube.com/watch?v=Xu3WcM3CeTQ&t=1s&ab_channe",
+      "original_guid": "1000723349795",
+      "episode_link": "https://podcasts.apple.com/us/podcast/002-5-records-of-gnost-dural-5-000-to-3-996-bby/id1812345715?i=1000723349795&uo=4",
+      "publisher": "Perhaps She Will",
+      "theme": "MORABAND",
+      "metadata_relevance": 20,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "2 - KOTOR II: Kreia, the Exile, and Killing the Force",
+      "publisher_synopsis": "Watch the video: https://youtu.be/rXsm7IzC1Z8 Andrew, Josh, and Ian continue the Old Republic mini-series with Knights of the Old Republic II: The Sith Lords. Kreia's Nietzschean drive to kill the Force, the Jedi Exile cut off from power, companion influence, and whether Jedi monastic law or Sith hunger can answer suffering and betrayal. In this Mythic Mind Games conversation they weigh an Augustinian reading of the light side against yin-yang Force talk, the Sith Triumvirate as hunger and revenge that never fills, and ordinary-galaxy voices (like G0-T0) who just want the religious war to end. Related: Mythic Mind ep. 93 Knights of the Old Republic https://youtu.be/KfutgcIdL5M; KOTOR Loyalty (Bastila, Canderous, Tolkien) https://youtu.be/rIF27Bbo2OM; Mythic Mind Games ep. 3 SWTOR https://youtu.be/hQmsrDFgmUE. Join the Mythic Mind Fellowship: https://mythicmindfellowship.com Listen to/watch the Mythic Mind podcasts: - Mythic Mind - Mythi",
+      "original_guid": "1000709979882",
+      "episode_link": "https://podcasts.apple.com/us/podcast/2-kotor-ii-kreia-the-exile-and-killing-the-force/id1704399533?i=1000709979882&uo=4",
+      "publisher": "Mythic Mind Games",
+      "theme": "MORABAND",
+      "metadata_relevance": 20,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Korriban Sith Tomb",
+      "title": "Darth Bane: Path of Destruction",
+      "publisher_synopsis": "Episode Description In episode 64, we jump back into the Old Republic era and discuss the first book in Drew Karpyshyn's Darth Bane series, Path of Destruction. To get your own copy, visit this Amazon link. Next time, we'll continue this series with book 2, Rule of Two. Links & Related Star Wars Stacks Episodes Thanks to Rick Moyer for our intro music and the Samurai Guitarist for our outtro! Check out these episodes too: Lords of the Sith and Old Republic: Deceived. For a free audiobook download: http://www.audibletrial.com/Stacks If you liked this episode, please subscribe and share it with your friends! Do you have comments on this episode? MP3 audio, emails, Tweets and Facebook feedback welcome! Here's how you can contact the hosts: Email: swstacksshow@gmail.com Visit our website at swstacks.com Facebook: facebook.com/thestarwarsstacks Twitter: twitter.com/swstacksshow Rate The Star Wars Stacks on Stitcher and/or iTunes. Your stars ",
+      "original_guid": "1000409443433",
+      "episode_link": "https://podcasts.apple.com/us/podcast/darth-bane-path-of-destruction/id828181984?i=1000409443433&uo=4",
+      "publisher": "The Star Wars Stacks",
+      "theme": "MORABAND",
+      "metadata_relevance": 20,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    },
+    {
+      "source": "apple-podcast-episode-search",
+      "search_query": "Moraband Sith academy",
+      "title": "Star Wars: In a Galaxy: Episode 4: May the Force Serve You Well!",
+      "publisher_synopsis": "In the fourth episode of Star Wars: In a Galaxy, Eli and Jacob break down the fourth AND fifth half hours of Knights of the Old Republic (2003). Among their review is a breakdown of the Jedi and Sith code, a discussion of limitations among the past and current Canon, and some talk about how absolutely ridiculous the alien languages are in KOTOR. The next episode will cover the next thirty minutes of Knights of the Old Republic. Link to How it Should Have Ended (Episode IX: The Rise of Skywalker, referenced in this episode): https://www.youtube.com/watch?v=2OnieKUgv3I&t=",
+      "original_guid": "1000466379879",
+      "episode_link": "https://podcasts.apple.com/us/podcast/star-wars-in-a-galaxy-episode-4-may-the-force-serve-you-well/id1499569391?i=1000466379879&uo=4",
+      "publisher": "Star Wars: In a Galaxy – Watching all the Star Wars we can get our hands on.",
+      "theme": "MORABAND",
+      "metadata_relevance": 20,
+      "triggered_scene_mechanisms": [
+        "Old Republic/Sith"
+      ],
+      "confidence": "directory_metadata",
+      "full_transcript_examined": false,
+      "audio_reachability_verified": false,
+      "publisher_enclosure_verified": false,
+      "release_state": "discovery_only_requires_publisher_rss_matching"
+    }
+  ]
+}
