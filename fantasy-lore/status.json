@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T10:55:29.849083+00:00",
+  "generated_at": "2026-10-26T11:16:37.715303+00:00",
   "state": "published",
   "sources": [
     {
@@ -30,7 +30,7 @@
       "source_rss": "https://feeds.megaphone.fm/robr3326069327",
       "episodes": 24,
       "skipped": {
-        "not_relevant": 160,
+        "not_relevant": 161,
         "invalid_audio": 0,
         "duplicated": 0
       }
