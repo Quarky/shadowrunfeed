@@ -1,32 +1,46 @@
 {
-  "checked_at_utc": "2026-10-20T18:52:52.671339+00:00",
+  "checked_at_utc": "2026-10-27T10:03:46.344751+00:00",
   "canonical_feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml",
-  "state": "cdn_stale_or_inaccessible",
+  "state": "verified",
   "podbean_access": "External RSS compatibility checked; user account cannot be inspected",
   "paths": {
     "anomaly/feed-v2.xml": {
       "expected_sha256": "962d169e13d03a83de4bb27afc78e37d49c291e10c34bf9e5f5697a7230f7fc5",
-      "matches": false,
+      "matches": true,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "665",
+      "age": "0",
       "cache_control": "public, max-age=604800, s-maxage=43200",
-      "etag": "W/\"33c22-8da41e6e71288587\"",
-      "actual_sha256": "c72da4c0a33ea804905f1b471db283648eab7480d575a99143472186034414f2",
-      "bytes": 212002,
-      "attempts": 2
+      "etag": "W/\"28c91-26fc9306e8de7cfe\"",
+      "actual_sha256": "962d169e13d03a83de4bb27afc78e37d49c291e10c34bf9e5f5697a7230f7fc5",
+      "bytes": 167057,
+      "attempts": 1,
+      "rss_check": {
+        "title": "Anomaly - Stories and Tabletop Actual Plays",
+        "episodes": 120,
+        "lastBuildDate": "Tue, 20 Oct 2026 18:30:00 GMT",
+        "unique_guids": 120,
+        "playable_enclosures": 120
+      }
     },
     "anomaly/feed.xml": {
       "expected_sha256": "962d169e13d03a83de4bb27afc78e37d49c291e10c34bf9e5f5697a7230f7fc5",
-      "matches": false,
+      "matches": true,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "606",
+      "age": "0",
       "cache_control": "public, max-age=604800, s-maxage=43200",
-      "etag": "W/\"2a041-c628a7bf756b46cc\"",
-      "actual_sha256": "13b85a5aa8b88b2e740182ab52ab0a95c298994a14e74a09765c335f57129f37",
-      "bytes": 172097,
-      "attempts": 2
+      "etag": "W/\"28c91-26fc9306e8de7cfe\"",
+      "actual_sha256": "962d169e13d03a83de4bb27afc78e37d49c291e10c34bf9e5f5697a7230f7fc5",
+      "bytes": 167057,
+      "attempts": 1,
+      "rss_check": {
+        "title": "Anomaly - Stories and Tabletop Actual Plays",
+        "episodes": 120,
+        "lastBuildDate": "Tue, 20 Oct 2026 18:30:00 GMT",
+        "unique_guids": 120,
+        "playable_enclosures": 120
+      }
     },
     "anomaly/optional-listening/feed-v2.xml": {
       "expected_sha256": "38675931e08dbb889e1988dc8a9a5fa4428f55d083f1b46262d77b27ceee2a82",
@@ -64,7 +78,7 @@
     "skipped": "Rate-limit safe; no repeated automatic invalidation"
   },
   "immutable_revision_probe": {
-    "url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@572d2982bb483b7e2e2838ff3064f73b6fb04a61/anomaly/feed-v2.xml",
+    "url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@f744067ec9eaed65678e7068fbbe9a4542abc8de/anomaly/feed-v2.xml",
     "matches": true,
     "headers": {
       "http_status": 200,
@@ -84,14 +98,21 @@
   },
   "cache_busted_probe": {
     "url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml?v=962d169e13d03a83de4b",
-    "matches": false,
+    "matches": true,
     "headers": {
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "661",
+      "age": "0",
       "cache_control": "public, max-age=604800, s-maxage=43200",
-      "etag": "W/\"33c22-8da41e6e71288587\""
+      "etag": "W/\"28c91-26fc9306e8de7cfe\""
     },
-    "sha256": "c72da4c0a33ea804905f1b471db283648eab7480d575a99143472186034414f2"
+    "sha256": "962d169e13d03a83de4bb27afc78e37d49c291e10c34bf9e5f5697a7230f7fc5",
+    "rss_check": {
+      "title": "Anomaly - Stories and Tabletop Actual Plays",
+      "episodes": 120,
+      "lastBuildDate": "Tue, 20 Oct 2026 18:30:00 GMT",
+      "unique_guids": 120,
+      "playable_enclosures": 120
+    }
   }
 }
