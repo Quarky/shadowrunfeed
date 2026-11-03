@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-27T10:03:46.344751+00:00",
+  "checked_at_utc": "2026-11-03T12:23:45.794000+00:00",
   "canonical_feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml",
   "state": "verified",
   "podbean_access": "External RSS compatibility checked; user account cannot be inspected",
@@ -28,7 +28,7 @@
       "matches": true,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "0",
+      "age": "",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"28c91-26fc9306e8de7cfe\"",
       "actual_sha256": "962d169e13d03a83de4bb27afc78e37d49c291e10c34bf9e5f5697a7230f7fc5",
@@ -47,7 +47,7 @@
       "matches": true,
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "0",
+      "age": "",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"415b-0f3b559fdcc67218\"",
       "actual_sha256": "38675931e08dbb889e1988dc8a9a5fa4428f55d083f1b46262d77b27ceee2a82",
@@ -66,7 +66,7 @@
       "matches": true,
       "http_status": 200,
       "content_type": "image/png",
-      "age": "0",
+      "age": "",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"8f32-17b1dfd66bb0247c\"",
       "actual_sha256": "58ca27e3069b596edfeae8e2699f403850eb59841e348099d97f7a64ebfcb93d",
@@ -78,7 +78,7 @@
     "skipped": "Rate-limit safe; no repeated automatic invalidation"
   },
   "immutable_revision_probe": {
-    "url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@f744067ec9eaed65678e7068fbbe9a4542abc8de/anomaly/feed-v2.xml",
+    "url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@9dfd2ee96e5983b5402480e2d32660a6618805f9/anomaly/feed-v2.xml",
     "matches": true,
     "headers": {
       "http_status": 200,
@@ -102,7 +102,7 @@
     "headers": {
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "0",
+      "age": "",
       "cache_control": "public, max-age=604800, s-maxage=43200",
       "etag": "W/\"28c91-26fc9306e8de7cfe\""
     },
