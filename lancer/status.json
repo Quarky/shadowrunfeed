@@ -1,0 +1,39 @@
+{
+  "result": "generated_and_xml_validated",
+  "total_playable_episodes": 193,
+  "source_counts": {
+    "rppr": {
+      "publisher_title": "Lancer – RPPR Actual Play",
+      "found": 3,
+      "included": 3,
+      "excluded_reasons": [],
+      "source_url": "https://actualplay.roleplayingpublicradio.com/category/systems/lancer/feed/"
+    },
+    "ccrpg": {
+      "publisher_title": "CCRPG",
+      "found": 153,
+      "included": 153,
+      "excluded_reasons": [],
+      "source_url": "https://feeds.captivate.fm/ccrpg/"
+    },
+    "vertigo": {
+      "publisher_title": "House of Bob",
+      "found": 16,
+      "included": 16,
+      "excluded_reasons": [],
+      "source_url": "https://feeds.megaphone.fm/houseofbob"
+    },
+    "rfd": {
+      "publisher_title": "Roll for Distraction: A Very Easily Derailed TTRPG Podcast",
+      "found": 21,
+      "included": 21,
+      "excluded_reasons": [],
+      "source_url": "https://rollfordistraction.podbean.com/feed.xml"
+    }
+  },
+  "original_audio_hosts_only": true,
+  "playlist_order_markers_not_original_dates": true,
+  "sha256": "b732858be346276baedb605ca170899ef48bb6244deff0f4790ce28be1d516d0",
+  "feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/feed.xml",
+  "note": "Source enclosures (not audio bytes) verified in RSS. Podcast-app import and individual playback are separate checks."
+}
