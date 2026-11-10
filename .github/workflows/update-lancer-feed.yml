@@ -1,0 +1,82 @@
+name: Publish Lancer At-the-Table Audio RSS
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "lancer/build_feed.py"
+      - ".github/workflows/update-lancer-feed.yml"
+  schedule:
+    - cron: "23 8 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lancer-actual-play-rss
+  cancel-in-progress: false
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build from source publisher RSS only
+        run: |
+          python -m py_compile lancer/build_feed.py
+          python lancer/build_feed.py
+      - name: Validate playable RSS and source segregation
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.parse import urlsplit
+          import xml.etree.ElementTree as ET
+
+          feed = Path("lancer/feed.xml").read_bytes()
+          root = ET.fromstring(feed)
+          assert root.tag == "rss" and root.attrib.get("version") == "2.0"
+          channel = root.find("channel")
+          assert channel is not None
+          items = channel.findall("item")
+          status = json.loads(Path("lancer/status.json").read_text())
+          assert len(items) == status["total_playable_episodes"] >= 170
+          names, ids, media = [], set(), set()
+          for i, item in enumerate(items, 1):
+              title = item.findtext("title")
+              guid = item.findtext("guid")
+              link = item.findtext("link")
+              enc = item.find("enclosure")
+              assert title and guid and link and enc is not None, i
+              assert guid not in ids, (i, guid)
+              ids.add(guid)
+              url = enc.get("url", "")
+              assert urlsplit(url).scheme == "https", i
+              assert enc.get("type") in ("audio/mpeg", "audio/mp3", "audio/x-m4a", "audio/mp4", "audio/m4a"), i
+              assert int(enc.get("length", "0")) > 0, (i, url)
+              assert url not in media, (i, url)
+              media.add(url)
+              names.append(title)
+          assert any("CCRPG" in t for t in names)
+          assert any("RPPR" in t for t in names)
+          assert any("Roll for Distraction" in t for t in names)
+          assert not any("Mythic Bastionland" in t for t in names)
+          assert not any("D&D" in t for t in names)
+          print("RSS XML, source identities, GUIDs and positive-length original HTTPS enclosures passed:", len(items))
+          PY
+      - name: Commit only generated Lancer RSS and status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lancer/feed.xml lancer/status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish verified Lancer actual-play audio feed"
+            git push
+          fi
