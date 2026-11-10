@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns2="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DERELICT — FATHOM | Complete Season 1</title><link>https://www.derelictpodcast.com/</link><description>All 10 episodes of FATHOM, season one of DERELICT, in story order. Original publisher audio from Night Rocket Productions. Independent filtered RSS; not an official or affiliated podcast.</description><language>en-us</language><lastBuildDate>Mon, 09 Nov 2026 17:48:47 +0000</lastBuildDate><itunes:author>Night Rocket Productions</itunes:author><itunes:summary>Complete original FATHOM audio drama season (10 story episodes). Audio hosted by Night Rocket Productions; independent listening index.</itunes:summary><itunes:explicit>yes</itunes:explicit><itunes:type>serial</itunes:type><itunes:image href="https://megaphone.imgix.net/podcasts/f553e932-ad3f-11ed-8aa3-c7c5387761e2/image/60854458c4d1acdf4e1c2f79c4137142d85d78e379bdafbd69bd34c85f5819ad.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" />
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns2="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DERELICT | FATHOM + DERELICT | Complete Seasons 1–2</title><link>https://www.derelictpodcast.com/</link><description>The complete 20-episode story in narrative order: FATHOM (Season 1) followed by DERELICT (Season 2). Original publisher-hosted audio from Night Rocket Productions. Independent filtered RSS; not an official or affiliated podcast.</description><language>en-us</language><lastBuildDate>Tue, 10 Nov 2026 19:14:56 +0000</lastBuildDate><itunes:author>Night Rocket Productions</itunes:author><itunes:summary>The complete 20-episode story in narrative order: FATHOM (Season 1) followed by DERELICT (Season 2). Original publisher-hosted audio from Night Rocket Productions. Independent filtered RSS; not an official or affiliated podcast.</itunes:summary><itunes:explicit>yes</itunes:explicit><itunes:type>serial</itunes:type><itunes:image href="https://megaphone.imgix.net/podcasts/f553e932-ad3f-11ed-8aa3-c7c5387761e2/image/60854458c4d1acdf4e1c2f79c4137142d85d78e379bdafbd69bd34c85f5819ad.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" />
     <atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fathom/feed.xml" rel="self" type="application/rss+xml" /><item>
       <title>Season 1 - FATHOM - E1 - In the Dark We See</title>
       <description>DERELICT Premium: https://derelict.supercast.com
@@ -436,5 +436,552 @@ Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
       <guid isPermaLink="false">Buzzsprout-11552341</guid>
       <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/WgbGgxzM3MFRwjmX5fnx/traffic.megaphone.fm/SBP9254416802.mp3?updated=1770421193" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Season 2 - DERELICT - E1 - Through the Gate</title>
+      <description>DERELICT Premium: ⁠⁠https://derelict.supercast.com
+
+Thirty one hours ago, the IWS Crichton discovered the remains of a derelict vessel in an unexplored star system.&amp;nbsp;
+
+Eleven hours ago, all contact with the Crichton was lost...​
+
+When the galaxy's most powerful corporation discovers that the derelict ship belongs to them, they send a group of washed up engineers and scientists who would do anything to reconstruct their shambled lives.
+
+Their objective: find out what happened to the crew of the Crichton, and bring the derelict back...at any cost.
+
+But, as they soon learn, there are mysteries that should remain buried. And there are some things lost that should never be found.
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written, and directed by J. Barton Mitchell; produced by Elizabeth Laidlaw and Kirsten Rudberg; features original music by Luke Atencio and Ryan Taubert; sound design and editing by J. Barton Mitchell; additional sound design by Ian Geiberger and Music Radio Creative.&amp;nbsp;Cast: Chad Morgan - RAYNOR, Michael Mau - BLAYNE, Dani Payne - FREED, Ian Geiberger - CHAMBERS, J.D. Cerna - STEVENS.
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Mon, 27 Nov 2023 19:00:00 -0000</pubDate>
+      <itunes:title>Through the Gate</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:author>Night Rocket Productions</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/f5c84930-ad3f-11ed-afac-2f30b159a01e/image/d9def6a534370fb84244ffdddab951bf.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" />
+      <itunes:subtitle />
+      <itunes:summary>DERELICT Premium: ⁠⁠https://derelict.supercast.com
+
+Thirty one hours ago, the IWS Crichton discovered the remains of a derelict vessel in an unexplored star system.&amp;nbsp;
+
+Eleven hours ago, all contact with the Crichton was lost...​
+
+When the galaxy's most powerful corporation discovers that the derelict ship belongs to them, they send a group of washed up engineers and scientists who would do anything to reconstruct their shambled lives.
+
+Their objective: find out what happened to the crew of the Crichton, and bring the derelict back...at any cost.
+
+But, as they soon learn, there are mysteries that should remain buried. And there are some things lost that should never be found.
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written, and directed by J. Barton Mitchell; produced by Elizabeth Laidlaw and Kirsten Rudberg; features original music by Luke Atencio and Ryan Taubert; sound design and editing by J. Barton Mitchell; additional sound design by Ian Geiberger and Music Radio Creative.&amp;nbsp;Cast: Chad Morgan - RAYNOR, Michael Mau - BLAYNE, Dani Payne - FREED, Ian Geiberger - CHAMBERS, J.D. Cerna - STEVENS.
+Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
+      <ns2:encoded>
+        &lt;p&gt;DERELICT Premium: &lt;a href="https://rebrand.ly/gp9alxn"&gt;⁠⁠https://derelict.supercast.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thirty one hours ago, the IWS Crichton discovered the remains of a derelict vessel in an unexplored star system.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Eleven hours ago, all contact with the Crichton was lost...​&lt;/p&gt;
+&lt;p&gt;When the galaxy's most powerful corporation discovers that the derelict ship belongs to them, they send a group of washed up engineers and scientists who would do anything to reconstruct their shambled lives.&lt;/p&gt;
+&lt;p&gt;Their objective: find out what happened to the crew of the Crichton, and bring the derelict back...at any cost.&lt;/p&gt;
+&lt;p&gt;But, as they soon learn, there are mysteries that should remain buried. And there are some things lost that should never be found.&lt;/p&gt;
+&lt;p&gt;DERELICT Merch: &lt;a href="https://rebrand.ly/ryba4zr"&gt;https://derelictpodcast.myshopify.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Discord: &lt;a href="https://rebrand.ly/vv5g54u"&gt;https://discord.gg/EtCA8YN9XY&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Newsletter:&amp;nbsp;&lt;a href="https://derelictpodcast.com/join"&gt;⁠https://derelictpodcast.com/join⁠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Website: &lt;a href="https://rebrand.ly/4xhlxew"&gt;http://www.derelictpodcast.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT is created, written, and directed by J. Barton Mitchell; produced by Elizabeth Laidlaw and Kirsten Rudberg; features original music by Luke Atencio and Ryan Taubert; sound design and editing by J. Barton Mitchell; additional sound design by Ian Geiberger and Music Radio Creative.&amp;nbsp;Cast: Chad Morgan - RAYNOR, Michael Mau - BLAYNE, Dani Payne - FREED, Ian Geiberger - CHAMBERS, J.D. Cerna - STEVENS.&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Learn more about your ad choices. Visit &lt;a href="https://megaphone.fm/adchoices"&gt;megaphone.fm/adchoices&lt;/a&gt;&lt;/p&gt;
+      </ns2:encoded>
+      <itunes:duration>2527</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <guid isPermaLink="false">Buzzsprout-11887069</guid>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/WgbGgxzM3MFRwjmX5fnx/traffic.megaphone.fm/SBP6774323893.mp3?updated=1744757916" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Season 2 - DERELICT - E2 - By Any Means</title>
+      <link>https://www.derelictpodcast.com</link>
+      <description>DERELICT Premium: ⁠⁠https://derelict.supercast.com
+
+After the explosion of their UEG escort ship strands them inside the derelict vessel, Raynor, Freed, and Chambers must figure out how to escape the airlock they've ended up in and enter into the ship itself. However, with damage from the atmosphere burn the giant ship is continually rolling into piling up, and the absence of ISD Agent Blayne, they may be forced to make a horrible choice: sacrifice one of their own...to save themselves.
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website: https://www.derelictpodcast.com
+
+DERELICT is created, written and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Tim Mann, Luke Atencio, Ryan Taubert, and David A. Molina; sound design and editing by J. Barton Mitchell; additional sound design by Music Radio Creative. Cast: Chad Morgan - RAYNOR; Dani Payne - FREED; Ian Geiberger - CHAMBERS; Mustapha Slack - THE PRISONER; Mila Isabella - THE CODEX; DERELICT has the following associate producers: Kirsten Rudberg, Thomas Barker, David Trush, Andrew Roper, and Tyler Rush.&amp;nbsp;
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Mon, 27 Nov 2023 20:00:00 -0000</pubDate>
+      <itunes:title>By Any Means</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:author>Night Rocket Productions</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/834eb5c0-8cd6-11ee-ae09-4b523cb1038f/image/0b6a896475589a5430a142ad30be0523.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" />
+      <itunes:subtitle />
+      <itunes:summary>DERELICT Premium: ⁠⁠https://derelict.supercast.com
+
+After the explosion of their UEG escort ship strands them inside the derelict vessel, Raynor, Freed, and Chambers must figure out how to escape the airlock they've ended up in and enter into the ship itself. However, with damage from the atmosphere burn the giant ship is continually rolling into piling up, and the absence of ISD Agent Blayne, they may be forced to make a horrible choice: sacrifice one of their own...to save themselves.
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website: https://www.derelictpodcast.com
+
+DERELICT is created, written and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Tim Mann, Luke Atencio, Ryan Taubert, and David A. Molina; sound design and editing by J. Barton Mitchell; additional sound design by Music Radio Creative. Cast: Chad Morgan - RAYNOR; Dani Payne - FREED; Ian Geiberger - CHAMBERS; Mustapha Slack - THE PRISONER; Mila Isabella - THE CODEX; DERELICT has the following associate producers: Kirsten Rudberg, Thomas Barker, David Trush, Andrew Roper, and Tyler Rush.&amp;nbsp;
+Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
+      <ns2:encoded>
+        &lt;p&gt;DERELICT Premium: &lt;a href="https://derelict.supercast.com"&gt;⁠⁠https://derelict.supercast.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After the explosion of their UEG escort ship strands them inside the derelict vessel, Raynor, Freed, and Chambers must figure out how to escape the airlock they've ended up in and enter into the ship itself. However, with damage from the atmosphere burn the giant ship is continually rolling into piling up, and the absence of ISD Agent Blayne, they may be forced to make a horrible choice: sacrifice one of their own...to save themselves.&lt;/p&gt;
+&lt;p&gt;DERELICT Merch: &lt;a href="https://derelictpodcast.myshopify.com"&gt;https://derelictpodcast.myshopify.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Discord: &lt;a href="https://discord.gg/EtCA8YN9XY"&gt;https://discord.gg/EtCA8YN9XY&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Newsletter:&amp;nbsp;&lt;a href="https://derelictpodcast.com/join"&gt;⁠https://derelictpodcast.com/join⁠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Website: &lt;a href="https://www.derelictpodcast.com"&gt;https://www.derelictpodcast.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT is created, written and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Tim Mann, Luke Atencio, Ryan Taubert, and David A. Molina; sound design and editing by J. Barton Mitchell; additional sound design by Music Radio Creative. Cast: Chad Morgan - RAYNOR; Dani Payne - FREED; Ian Geiberger - CHAMBERS; Mustapha Slack - THE PRISONER; Mila Isabella - THE CODEX; DERELICT has the following associate producers: Kirsten Rudberg, Thomas Barker, David Trush, Andrew Roper, and Tyler Rush.&amp;nbsp;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Learn more about your ad choices. Visit &lt;a href="https://megaphone.fm/adchoices"&gt;megaphone.fm/adchoices&lt;/a&gt;&lt;/p&gt;
+      </ns2:encoded>
+      <itunes:duration>3111</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <guid isPermaLink="false">834eb5c0-8cd6-11ee-ae09-4b523cb1038f</guid>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/WgbGgxzM3MFRwjmX5fnx/traffic.megaphone.fm/SBP7272476370.mp3?updated=1744556441" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Season 2 - DERELICT - E3 - Insidious Consequences</title>
+      <link>https://www.derelictpodcast.com/</link>
+      <description>DERELICT Premium: https://derelict.supercast.com/
+
+Having survived the secondary airlock, Raynor, Freed and Chambers managed to save Stevens and access the Crichton, a much smaller ice mining ship docked on the massive derelict. But it contains its own enigmas, ones that point to the reality that this is no ice miner ship, and that the information they've been given about what is going on may have been all wrong. With the atmosphere burn beginning to destroy the Crichton, they must find a way to open the derelict's airlock doors and finally reach its interior...but the presence of a mysterious, dangerous prisoner in the cargo bay threatens to up end loyalties and risk the mission entirely.
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Dexter Britain, Ryan Taubert, and Eric Kinney; sound design and editing by J. Barton Mitchell; additional sound design by Music Radio Creative. Cast: Chad Morgan - RAYNOR; Dani Payne - FREED; Ian Geiberger - CHAMBERS; Mustapha Slack - KILLIAN; J.D. Cerna - STEVENS; Mila Isabella - THE CODEX; DERELICT has the following associate producers: Kirsten Rudberg, Thomas Barker, David Trush, Andrew Roper, and Tyler Rush.&amp;nbsp;
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Mon, 15 Jan 2024 21:00:00 -0000</pubDate>
+      <itunes:title>Insidious Consequences</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:author>Night Rocket Productions</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/c6eafb20-b348-11ee-b8e3-5b3386735695/image/f6341fe0a6183838f327ec2a730cadd0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" />
+      <itunes:subtitle>Episode 3 of DERELICT, the sequel to the podcast FATHOM.</itunes:subtitle>
+      <itunes:summary>DERELICT Premium: https://derelict.supercast.com/
+
+Having survived the secondary airlock, Raynor, Freed and Chambers managed to save Stevens and access the Crichton, a much smaller ice mining ship docked on the massive derelict. But it contains its own enigmas, ones that point to the reality that this is no ice miner ship, and that the information they've been given about what is going on may have been all wrong. With the atmosphere burn beginning to destroy the Crichton, they must find a way to open the derelict's airlock doors and finally reach its interior...but the presence of a mysterious, dangerous prisoner in the cargo bay threatens to up end loyalties and risk the mission entirely.
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Dexter Britain, Ryan Taubert, and Eric Kinney; sound design and editing by J. Barton Mitchell; additional sound design by Music Radio Creative. Cast: Chad Morgan - RAYNOR; Dani Payne - FREED; Ian Geiberger - CHAMBERS; Mustapha Slack - KILLIAN; J.D. Cerna - STEVENS; Mila Isabella - THE CODEX; DERELICT has the following associate producers: Kirsten Rudberg, Thomas Barker, David Trush, Andrew Roper, and Tyler Rush.&amp;nbsp;
+Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
+      <ns2:encoded>
+        &lt;p&gt;DERELICT Premium: &lt;a href="https://derelict.supercast.com/"&gt;https://derelict.supercast.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Having survived the secondary airlock, Raynor, Freed and Chambers managed to save Stevens and access the Crichton, a much smaller ice mining ship docked on the massive derelict. But it contains its own enigmas, ones that point to the reality that this is no ice miner ship, and that the information they've been given about what is going on may have been all wrong. With the atmosphere burn beginning to destroy the Crichton, they must find a way to open the derelict's airlock doors and finally reach its interior...but the presence of a mysterious, dangerous prisoner in the cargo bay threatens to up end loyalties and risk the mission entirely.&lt;/p&gt;
+&lt;p&gt;DERELICT Merch: https://derelictpodcast.myshopify.com&lt;/p&gt;
+&lt;p&gt;DERELICT Discord: https://discord.gg/EtCA8YN9XY&lt;/p&gt;
+&lt;p&gt;DERELICT Newsletter:&amp;nbsp;&lt;a href="https://derelictpodcast.com/join"&gt;⁠https://derelictpodcast.com/join⁠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Website: http://www.derelictpodcast.com&lt;/p&gt;
+&lt;p&gt;DERELICT is created, written and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Dexter Britain, Ryan Taubert, and Eric Kinney; sound design and editing by J. Barton Mitchell; additional sound design by Music Radio Creative. Cast: Chad Morgan - RAYNOR; Dani Payne - FREED; Ian Geiberger - CHAMBERS; Mustapha Slack - KILLIAN; J.D. Cerna - STEVENS; Mila Isabella - THE CODEX; DERELICT has the following associate producers: Kirsten Rudberg, Thomas Barker, David Trush, Andrew Roper, and Tyler Rush.&amp;nbsp;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Learn more about your ad choices. Visit &lt;a href="https://megaphone.fm/adchoices"&gt;megaphone.fm/adchoices&lt;/a&gt;&lt;/p&gt;
+      </ns2:encoded>
+      <itunes:duration>4696</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <guid isPermaLink="false">c6eafb20-b348-11ee-b8e3-5b3386735695</guid>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/WgbGgxzM3MFRwjmX5fnx/traffic.megaphone.fm/SBP5662240040.mp3?updated=1744557324" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Season 2 - DERELICT - E4 - All the King's Horses</title>
+      <link>https://www.derelictpodcast.com/</link>
+      <description>DERELICT Premium: ⁠https://derelict.supercast.com
+
+After a disastrous run in with some kind of gigantic killing machine, Chambers finds himself cut off and isolated from the rest of the team. And he is not alone... Taken captive by a seemingly insane survivor intent on ensuring the enormous ship's destruction, he must find a way to escape before he outlives his usefulness. But the mysterious survivor hides a whole host of her own secrets, and, as he is about to find out, their fates have become inextricably linked together. "Providence...or happenstance?"
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter: ⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Ryan Taubert, Luke Atencio, David A. Molina, Justin H. Wright, and Bythewaymay; sound design and editing by J. Barton Mitchell; additional sound design by Music Radio Creative. Cast:&amp;nbsp;Ian Geiberger - CHAMBERS; Shamika Cotton - KLYNE; Chad Morgan - RAYNOR; Dani Payne - FREED; Mustapha Slack - KILLIAN; Mila Isabella - THE CODEX; DERELICT has the following associate producers: Kirsten Rudberg, Thomas Barker, David Trush, Andrew Roper, and Tyler Rush.&amp;nbsp;
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Tue, 20 Feb 2024 03:32:00 -0000</pubDate>
+      <itunes:title>All the King's Horses</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:author>Night Rocket Productions</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/da9aace2-cf59-11ee-803c-3b509dd97be0/image/a478089e21e7d69009bd0b220bf22c88.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" />
+      <itunes:subtitle>Episode 4 of DERELICT, the sequel to the podcast FATHOM.</itunes:subtitle>
+      <itunes:summary>DERELICT Premium: ⁠https://derelict.supercast.com
+
+After a disastrous run in with some kind of gigantic killing machine, Chambers finds himself cut off and isolated from the rest of the team. And he is not alone... Taken captive by a seemingly insane survivor intent on ensuring the enormous ship's destruction, he must find a way to escape before he outlives his usefulness. But the mysterious survivor hides a whole host of her own secrets, and, as he is about to find out, their fates have become inextricably linked together. "Providence...or happenstance?"
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter: ⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Ryan Taubert, Luke Atencio, David A. Molina, Justin H. Wright, and Bythewaymay; sound design and editing by J. Barton Mitchell; additional sound design by Music Radio Creative. Cast:&amp;nbsp;Ian Geiberger - CHAMBERS; Shamika Cotton - KLYNE; Chad Morgan - RAYNOR; Dani Payne - FREED; Mustapha Slack - KILLIAN; Mila Isabella - THE CODEX; DERELICT has the following associate producers: Kirsten Rudberg, Thomas Barker, David Trush, Andrew Roper, and Tyler Rush.&amp;nbsp;
+Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
+      <ns2:encoded>
+        &lt;p&gt;DERELICT Premium: &lt;a href="https://rebrand.ly/gp9alxn"&gt;⁠https://derelict.supercast.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After a disastrous run in with some kind of gigantic killing machine, Chambers finds himself cut off and isolated from the rest of the team. And he is not alone... Taken captive by a seemingly insane survivor intent on ensuring the enormous ship's destruction, he must find a way to escape before he outlives his usefulness. But the mysterious survivor hides a whole host of her own secrets, and, as he is about to find out, their fates have become inextricably linked together. "Providence...or happenstance?"&lt;/p&gt;
+&lt;p&gt;DERELICT Merch: &lt;a href="https://rebrand.ly/ryba4zr"&gt;https://derelictpodcast.myshopify.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Discord: &lt;a href="https://rebrand.ly/vv5g54u"&gt;https://discord.gg/EtCA8YN9XY&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Newsletter: &lt;a href="https://derelictpodcast.com/join"&gt;⁠https://derelictpodcast.com/join⁠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Website: &lt;a href="https://rebrand.ly/4xhlxew"&gt;http://www.derelictpodcast.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT is created, written and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Ryan Taubert, Luke Atencio, David A. Molina, Justin H. Wright, and Bythewaymay; sound design and editing by J. Barton Mitchell; additional sound design by Music Radio Creative. Cast:&amp;nbsp;Ian Geiberger - CHAMBERS; Shamika Cotton - KLYNE; Chad Morgan - RAYNOR; Dani Payne - FREED; Mustapha Slack - KILLIAN; Mila Isabella - THE CODEX; DERELICT has the following associate producers: Kirsten Rudberg, Thomas Barker, David Trush, Andrew Roper, and Tyler Rush.&amp;nbsp;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Learn more about your ad choices. Visit &lt;a href="https://megaphone.fm/adchoices"&gt;megaphone.fm/adchoices&lt;/a&gt;&lt;/p&gt;
+      </ns2:encoded>
+      <itunes:duration>4986</itunes:duration>
+      <guid isPermaLink="false">da9aace2-cf59-11ee-803c-3b509dd97be0</guid>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/WgbGgxzM3MFRwjmX5fnx/traffic.megaphone.fm/FAFO9805757300.mp3?updated=1744598969" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Season 2 - DERELICT - E5 - Carved in Mayhem</title>
+      <link>https://www.derelictpodcast.com/</link>
+      <description>DERELICT Premium: ⁠https://derelict.supercast.com/⁠
+
+Down a team member and on the run from a gigantic mechanical monstrosity, what's left of the group enacts a dangerous plan to try and deactivate the derelict's ship security lockdown before it disintegrates in planetary orbit. But the reality of their situation is far more dire than they thought...and the game board very differently aligned.
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Ryan Taubert, David A. Molina,&amp;nbsp;Bradford Night, Tony Anderson, and Jo Blankenburg; secondary sound design by Music Radio Creative; additional voice direction by Michelle Campbell. Cast: Chad Morgan - RAYNOR; Dani Payne - FREED; Mustapha Slack - KILLIAN; Mila Isabella - THE CODEX; J.D. Cerna - STEVENS; Michael Mau - BLAYNE; DERELICT has the following associate producers: Kirsten Rudberg, Thomas Barker, David Trush, Andrew Roper, and Tyler Rush.&amp;nbsp;
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Mon, 22 Apr 2024 14:44:00 -0000</pubDate>
+      <itunes:title>Carved in Mayhem</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:author>Night Rocket Productions</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/fb8fccbe-00b6-11ef-95cb-034d1ea677df/image/f6341fe0a6183838f327ec2a730cadd0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" />
+      <itunes:subtitle>Episode 5 of DERELICT, the sequel to the podcast FATHOM.</itunes:subtitle>
+      <itunes:summary>DERELICT Premium: ⁠https://derelict.supercast.com/⁠
+
+Down a team member and on the run from a gigantic mechanical monstrosity, what's left of the group enacts a dangerous plan to try and deactivate the derelict's ship security lockdown before it disintegrates in planetary orbit. But the reality of their situation is far more dire than they thought...and the game board very differently aligned.
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Ryan Taubert, David A. Molina,&amp;nbsp;Bradford Night, Tony Anderson, and Jo Blankenburg; secondary sound design by Music Radio Creative; additional voice direction by Michelle Campbell. Cast: Chad Morgan - RAYNOR; Dani Payne - FREED; Mustapha Slack - KILLIAN; Mila Isabella - THE CODEX; J.D. Cerna - STEVENS; Michael Mau - BLAYNE; DERELICT has the following associate producers: Kirsten Rudberg, Thomas Barker, David Trush, Andrew Roper, and Tyler Rush.&amp;nbsp;
+Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
+      <ns2:encoded>
+        &lt;p&gt;DERELICT Premium: &lt;a href="https://derelict.supercast.com/"&gt;⁠https://derelict.supercast.com/⁠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Down a team member and on the run from a gigantic mechanical monstrosity, what's left of the group enacts a dangerous plan to try and deactivate the derelict's ship security lockdown before it disintegrates in planetary orbit. But the reality of their situation is far more dire than they thought...and the game board very differently aligned.&lt;/p&gt;
+&lt;p&gt;DERELICT Merch: https://derelictpodcast.myshopify.com&lt;/p&gt;
+&lt;p&gt;DERELICT Discord: https://discord.gg/EtCA8YN9XY&lt;/p&gt;
+&lt;p&gt;DERELICT Newsletter:&amp;nbsp;&lt;a href="https://derelictpodcast.com/join"&gt;⁠https://derelictpodcast.com/join⁠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Website: http://www.derelictpodcast.com&lt;/p&gt;
+&lt;p&gt;DERELICT is created, written and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Ryan Taubert, David A. Molina,&amp;nbsp;Bradford Night, Tony Anderson, and Jo Blankenburg; secondary sound design by Music Radio Creative; additional voice direction by Michelle Campbell. Cast: Chad Morgan - RAYNOR; Dani Payne - FREED; Mustapha Slack - KILLIAN; Mila Isabella - THE CODEX; J.D. Cerna - STEVENS; Michael Mau - BLAYNE; DERELICT has the following associate producers: Kirsten Rudberg, Thomas Barker, David Trush, Andrew Roper, and Tyler Rush.&amp;nbsp;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Learn more about your ad choices. Visit &lt;a href="https://megaphone.fm/adchoices"&gt;megaphone.fm/adchoices&lt;/a&gt;&lt;/p&gt;
+      </ns2:encoded>
+      <itunes:duration>6438</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <guid isPermaLink="false">fb8fccbe-00b6-11ef-95cb-034d1ea677df</guid>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/WgbGgxzM3MFRwjmX5fnx/traffic.megaphone.fm/FAFO8946595270.mp3?updated=1744759851" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Season 2 - DERELICT - E6- The Devil's Toys</title>
+      <link>https://www.derelictpodcast.com/</link>
+      <description>DERELICT Premium: ⁠https://derelict.supercast.com⁠
+
+Just prior to the events of Episode 1, the staff and crew of Maas-Dorian experimental vessel XTX-38523 are reeling from the horrific loss of a team of scientists on the planet below. The incident leads to unexpected consequences…some of which may have been the plan of the ship’s primary research project. The first of its kind. An amazing, brilliant, and ultimately flawed, artificial intelligence named Alpha.&amp;nbsp;
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter: https://derelictpodcast.com/join
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Ryan Taubert, Luke Atencio, Lights and Motion, Jordan Critz, and Kylie Odetta; secondary sound design by Music Radio Creative; additional voice direction by Michelle Campbell. Cast: MATTHEW MENALO - Daniel Lopez, MILA ISABELLA - Alpha, Michelle Campbell - Dr. Leander, DANNY DOYLE - Francis Dorian, SHEREE WICHARD - Evelyn Maas, SHAMIKA COTTON - Dr. Klyne; as well as the additional voices of Quinn Angel, Katie Culligan, Greg Farinelli, Ian A. Hudson, Elizabeth Laidlaw, Charlie McGuire, Sara Olson, Robert Summers, Russell Summers.
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Mon, 07 Oct 2024 15:16:00 -0000</pubDate>
+      <itunes:title>The Devil's Toys</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:author>Night Rocket Productions</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/29ada634-84bf-11ef-843a-cb58d80fca9b/image/a478089e21e7d69009bd0b220bf22c88.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" />
+      <itunes:subtitle>Episode 6 of DERELICT, the sequel to the podcast FATHOM.</itunes:subtitle>
+      <itunes:summary>DERELICT Premium: ⁠https://derelict.supercast.com⁠
+
+Just prior to the events of Episode 1, the staff and crew of Maas-Dorian experimental vessel XTX-38523 are reeling from the horrific loss of a team of scientists on the planet below. The incident leads to unexpected consequences…some of which may have been the plan of the ship’s primary research project. The first of its kind. An amazing, brilliant, and ultimately flawed, artificial intelligence named Alpha.&amp;nbsp;
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter: https://derelictpodcast.com/join
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Ryan Taubert, Luke Atencio, Lights and Motion, Jordan Critz, and Kylie Odetta; secondary sound design by Music Radio Creative; additional voice direction by Michelle Campbell. Cast: MATTHEW MENALO - Daniel Lopez, MILA ISABELLA - Alpha, Michelle Campbell - Dr. Leander, DANNY DOYLE - Francis Dorian, SHEREE WICHARD - Evelyn Maas, SHAMIKA COTTON - Dr. Klyne; as well as the additional voices of Quinn Angel, Katie Culligan, Greg Farinelli, Ian A. Hudson, Elizabeth Laidlaw, Charlie McGuire, Sara Olson, Robert Summers, Russell Summers.
+Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
+      <ns2:encoded>
+        &lt;p&gt;DERELICT Premium: &lt;a href="https://derelict.supercast.com⁠"&gt;⁠https://derelict.supercast.com⁠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Just prior to the events of Episode 1, the staff and crew of Maas-Dorian experimental vessel XTX-38523 are reeling from the horrific loss of a team of scientists on the planet below. The incident leads to unexpected consequences…some of which may have been the plan of the ship’s primary research project. The first of its kind. An amazing, brilliant, and ultimately flawed, artificial intelligence named Alpha.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;DERELICT Merch: https://derelictpodcast.myshopify.com&lt;/p&gt;
+&lt;p&gt;DERELICT Discord: https://discord.gg/EtCA8YN9XY&lt;/p&gt;
+&lt;p&gt;DERELICT Newsletter: https://derelictpodcast.com/join&lt;/p&gt;
+&lt;p&gt;DERELICT Website: http://www.derelictpodcast.com&lt;/p&gt;
+&lt;p&gt;DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Ryan Taubert, Luke Atencio, Lights and Motion, Jordan Critz, and Kylie Odetta; secondary sound design by Music Radio Creative; additional voice direction by Michelle Campbell. Cast: MATTHEW MENALO - Daniel Lopez, MILA ISABELLA - Alpha, Michelle Campbell - Dr. Leander, DANNY DOYLE - Francis Dorian, SHEREE WICHARD - Evelyn Maas, SHAMIKA COTTON - Dr. Klyne; as well as the additional voices of Quinn Angel, Katie Culligan, Greg Farinelli, Ian A. Hudson, Elizabeth Laidlaw, Charlie McGuire, Sara Olson, Robert Summers, Russell Summers.&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Learn more about your ad choices. Visit &lt;a href="https://megaphone.fm/adchoices"&gt;megaphone.fm/adchoices&lt;/a&gt;&lt;/p&gt;
+      </ns2:encoded>
+      <itunes:duration>6398</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <guid isPermaLink="false">29ada634-84bf-11ef-843a-cb58d80fca9b</guid>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/WgbGgxzM3MFRwjmX5fnx/traffic.megaphone.fm/FAFO9366468085.mp3?updated=1766447406" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Season 2 - DERELICT - E7 - My Pain, Your Pain</title>
+      <link>https://www.derelictpodcast.com/</link>
+      <description>DERELICT Premium: ⁠https://derelict.supercast.com⁠
+
+Prior to the events of Episode 1, a dying, former Axiom Technologies ISD agent named Locke tracks down Killian Sager, one of the galaxy's most infamous criminals, to help her infiltrate and disable a giant Maas-Dorian ghost ship somewhere in the Thornton sector. Only Killian Sager isn't what he used to be. Consumed with guilt and sadness, he seems incapable of the kind of violent reputation he was once known for. But Locke has ideas on how to remind him of who he really is. If she doesn't kill him in the process, they might actually be able to pull off one massive score...and find the things on board the secret ship they both can't live without.
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Luke Atencio, David A. Molina, and Bradford Night; secondary sound design by Music Radio Creative;&amp;nbsp;Cast: MUSTAPHA SLACK - Killian Sager, ADDIGALE STEWART - Locke, SAM PEARSON - Roche, VALERIE BUENAFE - Lobo; as well as the additional voices of Quinn Angel, Katie Culligan, Greg Farinelli, Brian Gray, Ian A. Hudson, Michael Mau, Charlie McGuire, Sara Olson.
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Mon, 13 Jan 2025 16:07:00 -0000</pubDate>
+      <itunes:title>My Pain, Your Pain</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <itunes:author>Night Rocket Productions</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/d71e0664-d1c8-11ef-9955-db2ff4cdcccd/image/f6341fe0a6183838f327ec2a730cadd0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" />
+      <itunes:subtitle>Episode 7 of DERELICT, the sequel to the podcast FATHOM.</itunes:subtitle>
+      <itunes:summary>DERELICT Premium: ⁠https://derelict.supercast.com⁠
+
+Prior to the events of Episode 1, a dying, former Axiom Technologies ISD agent named Locke tracks down Killian Sager, one of the galaxy's most infamous criminals, to help her infiltrate and disable a giant Maas-Dorian ghost ship somewhere in the Thornton sector. Only Killian Sager isn't what he used to be. Consumed with guilt and sadness, he seems incapable of the kind of violent reputation he was once known for. But Locke has ideas on how to remind him of who he really is. If she doesn't kill him in the process, they might actually be able to pull off one massive score...and find the things on board the secret ship they both can't live without.
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Luke Atencio, David A. Molina, and Bradford Night; secondary sound design by Music Radio Creative;&amp;nbsp;Cast: MUSTAPHA SLACK - Killian Sager, ADDIGALE STEWART - Locke, SAM PEARSON - Roche, VALERIE BUENAFE - Lobo; as well as the additional voices of Quinn Angel, Katie Culligan, Greg Farinelli, Brian Gray, Ian A. Hudson, Michael Mau, Charlie McGuire, Sara Olson.
+Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
+      <ns2:encoded>
+        &lt;p&gt;DERELICT Premium: &lt;a href="https://derelict.supercast.com"&gt;⁠https://derelict.supercast.com⁠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Prior to the events of Episode 1, a dying, former Axiom Technologies ISD agent named Locke tracks down Killian Sager, one of the galaxy's most infamous criminals, to help her infiltrate and disable a giant Maas-Dorian ghost ship somewhere in the Thornton sector. Only Killian Sager isn't what he used to be. Consumed with guilt and sadness, he seems incapable of the kind of violent reputation he was once known for. But Locke has ideas on how to remind him of who he really is. If she doesn't kill him in the process, they might actually be able to pull off one massive score...and find the things on board the secret ship they both can't live without.&lt;/p&gt;
+&lt;p&gt;DERELICT Merch: https://derelictpodcast.myshopify.com&lt;/p&gt;
+&lt;p&gt;DERELICT Discord: https://discord.gg/EtCA8YN9XY&lt;/p&gt;
+&lt;p&gt;DERELICT Website: http://www.derelictpodcast.com&lt;/p&gt;
+&lt;p&gt;DERELICT Newsletter:&amp;nbsp;&lt;a href="https://derelictpodcast.com/join"&gt;⁠https://derelictpodcast.com/join⁠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Luke Atencio, David A. Molina, and Bradford Night; secondary sound design by Music Radio Creative;&amp;nbsp;Cast: MUSTAPHA SLACK - Killian Sager, ADDIGALE STEWART - Locke, SAM PEARSON - Roche, VALERIE BUENAFE - Lobo; as well as the additional voices of Quinn Angel, Katie Culligan, Greg Farinelli, Brian Gray, Ian A. Hudson, Michael Mau, Charlie McGuire, Sara Olson.&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Learn more about your ad choices. Visit &lt;a href="https://megaphone.fm/adchoices"&gt;megaphone.fm/adchoices&lt;/a&gt;&lt;/p&gt;
+      </ns2:encoded>
+      <itunes:duration>4614</itunes:duration>
+      <guid isPermaLink="false">d71e0664-d1c8-11ef-9955-db2ff4cdcccd</guid>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/WgbGgxzM3MFRwjmX5fnx/traffic.megaphone.fm/FAFO5808986260.mp3?updated=1745799429" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Season 2 - DERELICT - E8 - Blood and Fire</title>
+      <link>https://www.derelictpodcast.com/</link>
+      <description>DERELICT Premium: ⁠https://derelict.supercast.com⁠
+
+Prior to the events of Episode 1, a dying, former Axiom Technologies ISD agent named Locke tracks down Killian Sager, one of the galaxy's most infamous criminals, to help her infiltrate and disable a giant Maas-Dorian ghost ship somewhere in the Thornton sector. Only Killian Sager isn't what he used to be. Consumed with guilt and sadness, he seems incapable of the kind of violent reputation he was once known for. But Locke has ideas on how to remind him of who he really is. If she doesn't kill him in the process, they might actually be able to pull off one massive score...and find the things on board the secret ship they both can't live without.
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter: https://derelictpodcast.com/join
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Luke Atencio, David A. Molina, and Bradford Night; secondary sound design by Music Radio Creative;&amp;nbsp;Cast: MUSTAPHA SLACK - Killian Sager, ADDIGALE STEWART - Locke, SAM PEARSON - Roche, VALERIE BUENAFE - Lobo; as well as the additional voices of Quinn Angel, Katie Culligan, Greg Farinelli, Brian Gray, Ian A. Hudson, Michael Mau, Charlie McGuire, Sara Olson.
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Tue, 25 Feb 2025 18:21:00 -0000</pubDate>
+      <itunes:title>Blood and Fire</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <itunes:author>Night Rocket Productions</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/6bf4a8ee-f3a5-11ef-a938-cb8db638cef4/image/f6341fe0a6183838f327ec2a730cadd0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" />
+      <itunes:subtitle>Episode 8 of DERELICT, the sequel to the podcast FATHOM.</itunes:subtitle>
+      <itunes:summary>DERELICT Premium: ⁠https://derelict.supercast.com⁠
+
+Prior to the events of Episode 1, a dying, former Axiom Technologies ISD agent named Locke tracks down Killian Sager, one of the galaxy's most infamous criminals, to help her infiltrate and disable a giant Maas-Dorian ghost ship somewhere in the Thornton sector. Only Killian Sager isn't what he used to be. Consumed with guilt and sadness, he seems incapable of the kind of violent reputation he was once known for. But Locke has ideas on how to remind him of who he really is. If she doesn't kill him in the process, they might actually be able to pull off one massive score...and find the things on board the secret ship they both can't live without.
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter: https://derelictpodcast.com/join
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Luke Atencio, David A. Molina, and Bradford Night; secondary sound design by Music Radio Creative;&amp;nbsp;Cast: MUSTAPHA SLACK - Killian Sager, ADDIGALE STEWART - Locke, SAM PEARSON - Roche, VALERIE BUENAFE - Lobo; as well as the additional voices of Quinn Angel, Katie Culligan, Greg Farinelli, Brian Gray, Ian A. Hudson, Michael Mau, Charlie McGuire, Sara Olson.
+Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
+      <ns2:encoded>
+        &lt;p&gt;DERELICT Premium: &lt;a href="https://derelict.supercast.com"&gt;⁠https://derelict.supercast.com⁠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Prior to the events of Episode 1, a dying, former Axiom Technologies ISD agent named Locke tracks down Killian Sager, one of the galaxy's most infamous criminals, to help her infiltrate and disable a giant Maas-Dorian ghost ship somewhere in the Thornton sector. Only Killian Sager isn't what he used to be. Consumed with guilt and sadness, he seems incapable of the kind of violent reputation he was once known for. But Locke has ideas on how to remind him of who he really is. If she doesn't kill him in the process, they might actually be able to pull off one massive score...and find the things on board the secret ship they both can't live without.&lt;/p&gt;
+&lt;p&gt;DERELICT Merch: https://derelictpodcast.myshopify.com&lt;/p&gt;
+&lt;p&gt;DERELICT Discord: https://discord.gg/EtCA8YN9XY&lt;/p&gt;
+&lt;p&gt;DERELICT Newsletter: https://derelictpodcast.com/join&lt;/p&gt;
+&lt;p&gt;DERELICT Website: http://www.derelictpodcast.com&lt;/p&gt;
+&lt;p&gt;DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Luke Atencio, David A. Molina, and Bradford Night; secondary sound design by Music Radio Creative;&amp;nbsp;Cast: MUSTAPHA SLACK - Killian Sager, ADDIGALE STEWART - Locke, SAM PEARSON - Roche, VALERIE BUENAFE - Lobo; as well as the additional voices of Quinn Angel, Katie Culligan, Greg Farinelli, Brian Gray, Ian A. Hudson, Michael Mau, Charlie McGuire, Sara Olson.&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Learn more about your ad choices. Visit &lt;a href="https://megaphone.fm/adchoices"&gt;megaphone.fm/adchoices&lt;/a&gt;&lt;/p&gt;
+      </ns2:encoded>
+      <itunes:duration>3109</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <guid isPermaLink="false">6bf4a8ee-f3a5-11ef-a938-cb8db638cef4</guid>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/WgbGgxzM3MFRwjmX5fnx/traffic.megaphone.fm/FAFO6270563565.mp3?updated=1766447029" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Season 2 - DERELICT - E9 - Knights and Pawns</title>
+      <link>https://www.derelictpodcast.com</link>
+      <description>DERELICT Premium: ⁠https://derelict.supercast.com⁠
+
+After barely surviving the super heated surface of the derelict ship, Agent Blayne now faces an even more dangerous task: figure out a way inside XTX-38523 to find Raynor before it's too late. With time running out and his body beginning to break down, he's forced to work with the one person who might finally be the death of him. Kyle Stevens.&amp;nbsp;
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Hannah Parrot, Bradford Nyght, Lights and Motion, David A. Molina, Ryan Taubert, Luke Atencio, Christopher Dennis Coleman; secondary sound design by Music Radio Creative;&amp;nbsp; Cast: MICHAEL MAU - Blayne, J.D. CERNA - Stevens, MILA ISABELLA - Alpha, SHEREE WICHARD - Evelyn Maas; as well as the additional voices of Michelle Campbell, Brian Gray, Elizabeth Laidlaw, and Dani Payne.
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Tue, 01 Jul 2025 23:41:00 -0000</pubDate>
+      <itunes:title>Knights and Pawns</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <itunes:author>Night Rocket Productions</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/260ff6b6-56b6-11f0-b998-3fa74a1ac4fe/image/0b6a896475589a5430a142ad30be0523.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" />
+      <itunes:subtitle />
+      <itunes:summary>DERELICT Premium: ⁠https://derelict.supercast.com⁠
+
+After barely surviving the super heated surface of the derelict ship, Agent Blayne now faces an even more dangerous task: figure out a way inside XTX-38523 to find Raynor before it's too late. With time running out and his body beginning to break down, he's forced to work with the one person who might finally be the death of him. Kyle Stevens.&amp;nbsp;
+
+DERELICT Merch: https://derelictpodcast.myshopify.com
+
+DERELICT Discord: https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website: http://www.derelictpodcast.com
+
+DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Hannah Parrot, Bradford Nyght, Lights and Motion, David A. Molina, Ryan Taubert, Luke Atencio, Christopher Dennis Coleman; secondary sound design by Music Radio Creative;&amp;nbsp; Cast: MICHAEL MAU - Blayne, J.D. CERNA - Stevens, MILA ISABELLA - Alpha, SHEREE WICHARD - Evelyn Maas; as well as the additional voices of Michelle Campbell, Brian Gray, Elizabeth Laidlaw, and Dani Payne.
+Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
+      <ns2:encoded>
+        &lt;p&gt;DERELICT Premium: &lt;a href="https://derelict.supercast.com"&gt;⁠https://derelict.supercast.com⁠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After barely surviving the super heated surface of the derelict ship, Agent Blayne now faces an even more dangerous task: figure out a way inside XTX-38523 to find Raynor before it's too late. With time running out and his body beginning to break down, he's forced to work with the one person who might finally be the death of him. Kyle Stevens.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;DERELICT Merch: https://derelictpodcast.myshopify.com&lt;/p&gt;
+&lt;p&gt;DERELICT Discord: https://discord.gg/EtCA8YN9XY&lt;/p&gt;
+&lt;p&gt;DERELICT Newsletter:&amp;nbsp;&lt;a href="https://derelictpodcast.com/join"&gt;⁠https://derelictpodcast.com/join⁠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Website: http://www.derelictpodcast.com&lt;/p&gt;
+&lt;p&gt;DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; features original music by Hannah Parrot, Bradford Nyght, Lights and Motion, David A. Molina, Ryan Taubert, Luke Atencio, Christopher Dennis Coleman; secondary sound design by Music Radio Creative;&amp;nbsp; Cast: MICHAEL MAU - Blayne, J.D. CERNA - Stevens, MILA ISABELLA - Alpha, SHEREE WICHARD - Evelyn Maas; as well as the additional voices of Michelle Campbell, Brian Gray, Elizabeth Laidlaw, and Dani Payne.&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Learn more about your ad choices. Visit &lt;a href="https://megaphone.fm/adchoices"&gt;megaphone.fm/adchoices&lt;/a&gt;&lt;/p&gt;
+      </ns2:encoded>
+      <itunes:duration>5651</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <guid isPermaLink="false">260ff6b6-56b6-11f0-b998-3fa74a1ac4fe</guid>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/WgbGgxzM3MFRwjmX5fnx/traffic.megaphone.fm/FAFO2048189445.mp3?updated=1751419151" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Season 2 - DERELICT - E10 - A Long Road, Unforeseen</title>
+      <link>https://www.derelictpodcast.com</link>
+      <description>DERELICT Premium:&amp;nbsp;⁠https://derelict.supercast.com
+
+Sarah Raynor wakes to find Killian gone...with the ship now controlled by Alpha, monsters hunting her in the dark, and a mysterious black lifeform spreading through the interior. Rescued by Agent Blayne and Kyle Stevens, the three desperately work together to escape the derelict. But when she makes a deal with Francis Dorian to replace the false one she had before, she realizes the only way to truly get what she wants is to betray the others. How much is getting her son back worth? And what is Alpha's mysterious true goal aboard the ship? A LONG ROAD, UNFORESEEN is the exciting season 2 finale of DERELICT. 
+
+DERELICT Merch:&amp;nbsp;https://derelictpodcast.myshopify.com
+
+DERELICT Discord:&amp;nbsp;https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website:&amp;nbsp;http://www.derelictpodcast.com
+
+DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; Additional voice direction by Michelle Campbell; features original music by Luke Atencio,&amp;nbsp;Ryan Taubert,&amp;nbsp;David A Molina,&amp;nbsp;Bradford Nyght,&amp;nbsp;Jo Blankenburg, Mattia Turzo; secondary sound design by Music Radio Creative; Cast: MICHAEL MAU - Blayne, CHAD MORGAN - Raynor, J.D. CERNA - Stevens, MILA ISABELLA - Alpha, DANNY DOYLE - Francis Dorian,&amp;nbsp;ALEC CITRON - Sean; as well as&amp;nbsp; the additional voices of Elizabeth Laidlaw, Dani Payne, and Ian Geiberger.
+Learn more about your ad choices. Visit megaphone.fm/adchoices</description>
+      <pubDate>Mon, 06 Oct 2025 17:58:00 -0000</pubDate>
+      <itunes:title>A Long Road, Unforeseen</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>10</itunes:episode>
+      <itunes:author>Night Rocket Productions</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/85d41054-a2c0-11f0-95b0-1370c2d6dc45/image/a478089e21e7d69009bd0b220bf22c88.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" />
+      <itunes:subtitle />
+      <itunes:summary>DERELICT Premium:&amp;nbsp;⁠https://derelict.supercast.com
+
+Sarah Raynor wakes to find Killian gone...with the ship now controlled by Alpha, monsters hunting her in the dark, and a mysterious black lifeform spreading through the interior. Rescued by Agent Blayne and Kyle Stevens, the three desperately work together to escape the derelict. But when she makes a deal with Francis Dorian to replace the false one she had before, she realizes the only way to truly get what she wants is to betray the others. How much is getting her son back worth? And what is Alpha's mysterious true goal aboard the ship? A LONG ROAD, UNFORESEEN is the exciting season 2 finale of DERELICT. 
+
+DERELICT Merch:&amp;nbsp;https://derelictpodcast.myshopify.com
+
+DERELICT Discord:&amp;nbsp;https://discord.gg/EtCA8YN9XY
+
+DERELICT Newsletter:&amp;nbsp;⁠https://derelictpodcast.com/join⁠
+
+DERELICT Website:&amp;nbsp;http://www.derelictpodcast.com
+
+DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; Additional voice direction by Michelle Campbell; features original music by Luke Atencio,&amp;nbsp;Ryan Taubert,&amp;nbsp;David A Molina,&amp;nbsp;Bradford Nyght,&amp;nbsp;Jo Blankenburg, Mattia Turzo; secondary sound design by Music Radio Creative; Cast: MICHAEL MAU - Blayne, CHAD MORGAN - Raynor, J.D. CERNA - Stevens, MILA ISABELLA - Alpha, DANNY DOYLE - Francis Dorian,&amp;nbsp;ALEC CITRON - Sean; as well as&amp;nbsp; the additional voices of Elizabeth Laidlaw, Dani Payne, and Ian Geiberger.
+Learn more about your ad choices. Visit megaphone.fm/adchoices</itunes:summary>
+      <ns2:encoded>
+        &lt;p&gt;DERELICT Premium:&amp;nbsp;&lt;a href="https://rebrand.ly/gp9alxn"&gt;⁠https://derelict.supercast.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sarah Raynor wakes to find Killian gone...with the ship now controlled by Alpha, monsters hunting her in the dark, and a mysterious black lifeform spreading through the interior. Rescued by Agent Blayne and Kyle Stevens, the three desperately work together to escape the derelict. But when she makes a deal with Francis Dorian to replace the false one she had before, she realizes the only way to truly get what she wants is to betray the others. How much is getting her son back worth? And what is Alpha's mysterious true goal aboard the ship? A LONG ROAD, UNFORESEEN is the exciting season 2 finale of DERELICT. &lt;/p&gt;
+&lt;p&gt;DERELICT Merch:&amp;nbsp;&lt;a href="https://rebrand.ly/ryba4zr"&gt;https://derelictpodcast.myshopify.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Discord:&amp;nbsp;&lt;a href="https://rebrand.ly/vv5g54u"&gt;https://discord.gg/EtCA8YN9XY&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Newsletter:&amp;nbsp;&lt;a href="https://derelictpodcast.com/join"&gt;⁠https://derelictpodcast.com/join⁠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT Website:&amp;nbsp;&lt;a href="https://rebrand.ly/4xhlxew"&gt;http://www.derelictpodcast.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DERELICT is created, written, and directed by J. Barton Mitchell; produced by J. Barton Mitchell and Elizabeth Laidlaw; executive produced by Michael Freiberg; Additional voice direction by Michelle Campbell; features original music by Luke Atencio,&amp;nbsp;Ryan Taubert,&amp;nbsp;David A Molina,&amp;nbsp;Bradford Nyght,&amp;nbsp;Jo Blankenburg, Mattia Turzo; secondary sound design by Music Radio Creative; Cast: MICHAEL MAU - Blayne, CHAD MORGAN - Raynor, J.D. CERNA - Stevens, MILA ISABELLA - Alpha, DANNY DOYLE - Francis Dorian,&amp;nbsp;ALEC CITRON - Sean; as well as&amp;nbsp; the additional voices of Elizabeth Laidlaw, Dani Payne, and Ian Geiberger.&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Learn more about your ad choices. Visit &lt;a href="https://megaphone.fm/adchoices"&gt;megaphone.fm/adchoices&lt;/a&gt;&lt;/p&gt;
+      </ns2:encoded>
+      <itunes:duration>7783</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <guid isPermaLink="false">85d41054-a2c0-11f0-95b0-1370c2d6dc45</guid>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/WgbGgxzM3MFRwjmX5fnx/traffic.megaphone.fm/FAFO1148050706.mp3?updated=1766447386" length="0" type="audio/mpeg" />
     </item>
     </channel></rss>
