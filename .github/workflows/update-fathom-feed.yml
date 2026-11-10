@@ -1,4 +1,4 @@
-name: Publish FATHOM Complete Season RSS
+name: Publish DERELICT Story RSS (FATHOM + DERELICT)
 
 on:
   push:
@@ -27,31 +27,62 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Build FATHOM RSS from official publisher
+      - name: Build both story feeds from the publisher
         run: |
           python3 -m py_compile fathom/build_feed.py
           python3 fathom/build_feed.py
-      - name: Validate complete season and audio metadata
+      - name: Validate 20 story chapters, original episode IDs and subscriptions
         run: |
           python3 - <<'PY'
-          import json, xml.etree.ElementTree as ET
-          root = ET.parse("fathom/feed.xml").getroot()
-          channel = root.find("channel")
-          items = channel.findall("item")
-          assert root.tag == "rss" and len(items) == 10
-          assert len(set(item.findtext("guid") for item in items)) == 10
-          for n, item in enumerate(items, 1):
-              assert f"FATHOM" in item.findtext("title", "").upper(), n
-              assert item.find("enclosure").get("url", "").startswith("https://"), n
-          assert json.load(open("fathom/status.json"))["episodes"] == 10
-          print("Validated FATHOM E1–E10 in story order")
+          import json
+          import re
+          import xml.etree.ElementTree as ET
+
+          itunes = "http://www.itunes.com/dtds/podcast-1.0.dtd"
+          atom = "http://www.w3.org/2005/Atom"
+          base = "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/fathom/"
+          combined = []
+          for filename, expected_count in (("feed.xml", 20), ("season1.xml", 10)):
+              root = ET.parse("fathom/" + filename).getroot()
+              assert root.tag == "rss"
+              channel = root.find("channel")
+              assert channel is not None
+              self_link = channel.find(f"{{{atom}}}link")
+              assert self_link is not None and self_link.get("href") == base + filename
+              items = channel.findall("item")
+              assert len(items) == expected_count, (filename, len(items))
+              for index, item in enumerate(items):
+                  season = 1 if index < 10 else 2
+                  number = index % 10 + 1
+                  title = item.findtext("title", "")
+                  series = "FATHOM" if season == 1 else "DERELICT"
+                  assert re.match(
+                      rf"^Season {season}\s*-\s*{series}\s*-\s*E0?{number}\s*-",
+                      title, re.I), (filename, title)
+                  assert item.findtext(f"{{{itunes}}}season") == str(season)
+                  assert item.findtext(f"{{{itunes}}}episode") == str(number)
+                  assert item.findtext("guid", "").strip()
+                  audio = item.find("enclosure")
+                  assert audio is not None and audio.get("url", "").startswith("https://")
+                  assert audio.get("type") in ("audio/mpeg", "audio/mp3")
+              assert len(set(item.findtext("guid") for item in items)) == len(items)
+              if filename == "feed.xml":
+                  combined = items
+              else:
+                  assert [x.findtext("guid") for x in items] == [
+                      x.findtext("guid") for x in combined[:10]
+                  ]
+          status = json.load(open("fathom/status.json", encoding="utf-8"))
+          assert (status["episodes"], status["season1_episodes"],
+                  status["season2_episodes"]) == (20, 10, 10)
+          print("Valid: FATHOM S1 E1-10, DERELICT S2 E1-10; 20 unique publisher MP3s")
           PY
-      - name: Publish independent FATHOM RSS only
+      - name: Publish verified RSS and status
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add fathom/feed.xml fathom/status.json
+          git add fathom/feed.xml fathom/season1.xml fathom/status.json
           if ! git diff --cached --quiet; then
-            git commit -m "Publish verified FATHOM ten-episode RSS"
+            git commit -m "Publish FATHOM and DERELICT twenty-story-episode RSS"
             git push
           fi

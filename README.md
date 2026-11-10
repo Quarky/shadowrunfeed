@@ -25,6 +25,8 @@ The feed is generated from the show's official RSS feed, so audio remains hosted
 
 ## Other curated audio collections
 
+- **[DERELICT — FATHOM + DERELICT complete fiction](fathom/README.md):** the existing [FATHOM subscription](fathom/feed.xml) expands to all 20 story chapters in order (FATHOM Season 1 followed by DERELICT Season 2). A separate [FATHOM-only feed](fathom/season1.xml) remains available. Original publisher-hosted MP3s; weekly source refresh, no trailers or promos.
+
 - **[Ravnica — Magic: The Gathering audio fiction](ravnica/README.md):** 36 verified Unspoken Realms podcast recordings in a separate [Ravnica-only RSS feed](ravnica/feed.xml), plus official publisher links to *War of the Spark: Ravnica* and *War of the Spark: Forsaken*. The Shadowrun-only feeds above remain independent.
 
 - **[Star Wars FFG/D6 — ranked lore, fiction and actual play](star-wars/README.md):** The [original Podbean Star Wars RSS](star-wars/feed-v2.xml) now has 130 publisher-hosted episodes: the original 70, followed by 20 new fiction/actual-play pairs (10 remote-science and survival, 10 Sith relics and Force mystery), then a separate 20-episode fiction/actual-play bonus. Ten of the newly interleaved stories are from an unofficial Star Wars Old Republic fan audio drama. [Fiction chapter list](star-wars/story-interleave-episodes.md) and [themed actual play list](star-wars/expansion-episodes.md). Its [subscriber status](star-wars/subscriber-status.json) confirms preservation of all 16 original podcast IDs. [The older 16-episode sampler](star-wars/sampler-v2.xml), separate show feeds and D6 anthology remain available. Weekly updater rebuilds the original subscribed URL. Heroes of the Hydian Way remains excluded. The Shadowrun/Ravnica feeds stay independent.
