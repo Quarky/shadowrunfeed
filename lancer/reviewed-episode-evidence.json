@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-11",
+  "notes": [
+    "This file contains derived annotations, not copied transcript text or publisher audio.",
+    "Scores are editorial fast-play suitability indexes, NOT measured percentages of active play or rules time.",
+    "The English YouTube caption tracks are auto-generated, contain transcription errors and overlapping cue times.",
+    "Caption samples were inspected in consecutive ten-minute windows across each recording; no claim of line-by-line manual listening.",
+    "Scores for episodes with no checked captions remain provisional and are capped below specifically reviewed fast-play episodes."
+  ],
+  "reviewed": [
+    {
+      "source": "ccrpg",
+      "exact_title": "Lancer Gig - Episode 8",
+      "youtube_id": "L0HgTahkkV4",
+      "captions_url": "https://yt-transcript.net/L0HgTahkkV4",
+      "video_url": "https://www.youtube.com/watch?v=L0HgTahkkV4",
+      "transcript_language": "en",
+      "transcript_kind": "youtube_auto_generated",
+      "captions_endpoint_verified": true,
+      "caption_end_seconds": 7738,
+      "review_method": "caption samples and keyword density by 10-minute windows throughout",
+      "time_segments": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 6600,
+          "annotation": "Starts in the middle of combat within first minute; actions, checks, damage and turn-by-turn play through most of this segment; includes rules discussion."
+        },
+        {
+          "start_seconds": 6600,
+          "end_seconds": 7738,
+          "annotation": "Predominantly character dialogue, aftermath and story resolution."
+        }
+      ],
+      "verdict": "Better immediate fast-play opener than Solstice Rain Part 2; starts in active encounter without a 35-40-minute briefing.",
+      "editorial_fit_index": 84,
+      "measured_gameplay_percent": null,
+      "review_confidence": "moderate_captions_sampled",
+      "user_feedback": null
+    },
+    {
+      "source": "rppr",
+      "exact_title": "Lancer: Solstice Rain – Part 2",
+      "youtube_id": "yK0uo27LC94",
+      "captions_url": "https://yt-transcript.net/yK0uo27LC94",
+      "video_url": "https://www.youtube.com/watch?v=yK0uo27LC94",
+      "transcript_language": "en",
+      "transcript_kind": "youtube_auto_generated",
+      "captions_endpoint_verified": true,
+      "caption_end_seconds": 11706,
+      "review_method": "caption samples and keyword density by 10-minute windows throughout; user listening feedback",
+      "time_segments": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 2400,
+          "annotation": "Introductions and character upgrades; reserves, scenes and mission briefing/preparation. Combat does not begin immediately."
+        },
+        {
+          "start_seconds": 2400,
+          "end_seconds": 7140,
+          "annotation": "Long, slower tactical combat and extensive rules, measurements, positioning, action-resolution discussion."
+        },
+        {
+          "start_seconds": 7140,
+          "end_seconds": 7440,
+          "annotation": "Combat transition, objective setup and between-encounter material."
+        },
+        {
+          "start_seconds": 7440,
+          "end_seconds": 11400,
+          "annotation": "Another prolonged tactical encounter with substantial turns and rolls and slower adjudication."
+        },
+        {
+          "start_seconds": 11400,
+          "end_seconds": 11706,
+          "annotation": "Postgame and broader system/gameplay commentary."
+        }
+      ],
+      "verdict": "Not a fast opening recommendation: long non-combat prelude, substantial slow rules/movement discussion. It does contain major combat later, so label this a pacing mismatch, not 'no combat'. User reported it felt mostly narrative.",
+      "editorial_fit_index": 50,
+      "measured_gameplay_percent": null,
+      "review_confidence": "moderate_captions_sampled_plus_user_audition",
+      "user_feedback": "The first given is mostly narrative so badly ranked"
+    }
+  ]
+}
