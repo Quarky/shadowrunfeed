@@ -52,11 +52,13 @@ jobs:
           assert len(items) == status["total_playable_episodes"] >= 170
           assert status["ranking"]["score_is_playtime_percentage"] is False
           assert status["ranking"]["actual_play_runtime_percentage_measured"] is False
-          assert status["ranking"]["transcript_reviewed_episode_count"] == 2
+          assert status["ranking"]["transcript_reviewed_episode_count"] == 3
           assert status["ranking"]["top_20"][0]["source"] == "ccrpg"
           assert status["ranking"]["top_20"][0]["title"] == "Lancer Gig - Episode 8"
           assert status["ranking"]["top_20"][0]["method"].startswith("timed_caption")
           assert all(x["fit_index_0_to_100"] <= 84 for x in status["ranking"]["top_20"])
+          assert status["ranking"]["top_20"][1]["title"] == "Lancer Gig - Episode 14"
+          assert status["ranking"]["top_20"][1]["method"].startswith("timed_caption")
           assert not any(x["title"] == "Lancer: Solstice Rain – Part 2" for x in status["ranking"]["top_20"])
 
           alt_root = ET.parse("lancer/story-order.xml").getroot()
