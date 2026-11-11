@@ -10,6 +10,8 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime, parsedate_to_datetime
 from html import unescape
+import copy
+from ranking import priority_order, publication_marker
 import hashlib
 import json
 from pathlib import Path
@@ -189,7 +191,8 @@ def build():
             raise ValueError(f"{source}: only {discovered} found, expected >= {spec['minimum']}")
         if source != "vertigo" and len(queues[source]) < spec["minimum"]:
             raise ValueError(f"{source}: verified playable audio count fell below expected")
-    playlist = assemble(queues)
+    original_playlist = assemble(queues)
+    playlist = priority_order(original_playlist)
     ids = [hashlib.sha256((x["source"] + "|" + x["guid"]).encode()).hexdigest() for x in playlist]
     if len(ids) != len(set(ids)):
         raise ValueError("Duplicate publisher GUID in curated selection")
@@ -201,8 +204,9 @@ def build():
         "Independent curated Lancer actual-play podcast: natural table conversation, dice, "
         "pilot choices, tactical rules, mech combat and campaign continuity. "
         "Unmodified publisher-hosted audio; not affiliated with any featured creators or Massif Press. "
-        "Original episode dates are stated in descriptions; displayed publication dates "
-        "are stable playlist-order markers.")
+        "Original episode dates are stated in descriptions. Episodes are ranked by a "
+        "publisher-synopsis gameplay-fit index (NOT a measured percentage of audio playtime). "
+        "The RSS publication dates are stable rank markers, not original air dates.")
     text(channel, "description", description)
     text(channel, "language", "en")
     text(channel, "lastBuildDate", format_datetime(datetime.now(timezone.utc)))
@@ -223,10 +227,14 @@ def build():
         original_date = entry["item"].findtext("pubDate", "")
         raw_description = entry["item"].findtext("description", "")
         summary = normalize_title(re.sub(r"<[^>]*>", " ", raw_description))[:550]
-        text(item, "description", f"Original producer: {spec['name']}. {spec['note']} "
+        evidence = entry["fit"]
+        signals = ", ".join(s["name"] for s in evidence["evidence"]) or "no specific gameplay terms in publisher synopsis"
+        text(item, "description", f"GAMEPLAY PRIORITY INDEX {evidence['fit_index_0_to_100']}/100 — "
+             f"metadata-based ranking, not a measured percentage of audio runtime. "
+             f"Evidence: {signals}. Original producer: {spec['name']}. {spec['note']} "
              f"Original release: {original_date or 'publisher date unlisted'}. "
              f"Original episode: {summary}  Publisher: {spec['url']}")
-        text(item, "pubDate", format_datetime(ANCHOR + timedelta(minutes=number)))
+        text(item, "pubDate", format_datetime(publication_marker(entry)))
         text(item, f"{{{ITUNES}}}author", spec["name"])
         text(item, f"{{{ITUNES}}}explicit", "yes")
         text(item, f"{{{ITUNES}}}episode", str(number))
@@ -241,12 +249,51 @@ def build():
         raise AssertionError("RSS item count differs after serialization")
     if len(playlist) < 170:
         raise ValueError("Too few verified source episodes to replace existing published RSS")
+
+    # Preserve an independent chronological alternative. Both feeds reference
+    # exactly the same publisher MP3s and deterministic, stable item GUIDs.
+    chronological_root = copy.deepcopy(root)
+    chrono_channel = chronological_root.find("channel")
+    item_by_guid = {item.findtext("guid"): item for item in chrono_channel.findall("item")}
+    for item in list(chrono_channel.findall("item")):
+        chrono_channel.remove(item)
+    for position, entry in enumerate(original_playlist, 1):
+        stable_guid = "lancer-playlist:" + hashlib.sha256(
+            (entry["source"] + "|" + entry["guid"]).encode()).hexdigest()
+        item = item_by_guid[stable_guid]
+        item.find("pubDate").text = format_datetime(
+            ANCHOR + timedelta(minutes=len(original_playlist) - position))
+        chrono_channel.append(item)
+    chrono_channel.find("title").text = "LANCER | At the Table — Campaign Order"
+    for atom in chrono_channel.findall(f"{{{ATOM}}}link"):
+        atom.set("href", PUBLIC.replace("/feed.xml", "/story-order.xml"))
+    chronological_xml = ET.tostring(
+        chronological_root, encoding="utf-8", xml_declaration=True)
+    if len(ET.fromstring(chronological_xml).find("channel").findall("item")) != len(playlist):
+        raise AssertionError("Chronological alternative lost source episodes")
+    (ROOT / "story-order.xml").write_bytes(chronological_xml)
     status = {
         "result": "generated_and_xml_validated",
         "total_playable_episodes": len(playlist),
         "source_counts": source_counts,
         "original_audio_hosts_only": True,
         "playlist_order_markers_not_original_dates": True,
+        "ranking": {
+            "sort": "descending metadata gameplay-fit index",
+            "score_is_playtime_percentage": False,
+            "actual_play_runtime_percentage_measured": False,
+            "source": "publisher show descriptions with transparent keyword signals and editorial source baselines",
+            "chronological_alternative": PUBLIC.replace("/feed.xml", "/story-order.xml"),
+            "top_20": [
+                {
+                    "source": e["source"],
+                    "title": e["title"],
+                    "fit_index_0_to_100": e["fit"]["fit_index_0_to_100"],
+                    "evidence": e["fit"]["evidence"],
+                }
+                for e in playlist[:20]
+            ],
+        },
         "sha256": hashlib.sha256(xml).hexdigest(),
         "feed_url": PUBLIC,
         "note": "Source enclosures (not audio bytes) verified in RSS. Podcast-app import and individual playback are separate checks.",
