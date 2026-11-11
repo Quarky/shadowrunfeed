@@ -38,8 +38,15 @@
     "score_is_playtime_percentage": false,
     "actual_play_runtime_percentage_measured": false,
     "source": "timestamped YouTube auto-caption samples for reviewed episodes; otherwise capped publisher synopsis signals with editorial source baselines",
-    "transcript_reviewed_episode_count": 2,
+    "transcript_reviewed_episode_count": 3,
     "transcript_reviewed_episodes": [
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 14",
+        "score": 81,
+        "verdict": "Strong combat mechanics episode with roughly 15–20 minutes of build-up; not as immediate as Episode 8, but more suitable than long narrative/opening briefings.",
+        "video_url": "https://www.youtube.com/watch?v=EB0IEXNNXUo"
+      },
       {
         "source": "ccrpg",
         "title": "Lancer Gig - Episode 8",
@@ -69,6 +76,27 @@
           {
             "name": "in_character_play",
             "points": 5
+          },
+          {
+            "name": "checked_caption_timeline_and_pacing",
+            "points": 0
+          }
+        ],
+        "method": "timed_caption_samples_plus_editorial_pacing_judgement",
+        "confidence": "moderate_captions_sampled"
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 14",
+        "fit_index_0_to_100": 81,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          },
+          {
+            "name": "active_situation",
+            "points": 3
           },
           {
             "name": "checked_caption_timeline_and_pacing",
@@ -151,23 +179,6 @@
           {
             "name": "in_character_play",
             "points": 5
-          }
-        ],
-        "method": "publisher_synopsis_only_provisional",
-        "confidence": "low_unreviewed"
-      },
-      {
-        "source": "ccrpg",
-        "title": "Lancer Gig - Episode 14",
-        "fit_index_0_to_100": 79,
-        "evidence": [
-          {
-            "name": "combat_or_rolls",
-            "points": 11
-          },
-          {
-            "name": "active_situation",
-            "points": 3
           }
         ],
         "method": "publisher_synopsis_only_provisional",
@@ -339,7 +350,7 @@
       }
     ]
   },
-  "sha256": "740956ce0ef3c552ab54c16b70f3275fc75ed83416a94d5750e3798030ab2248",
+  "sha256": "d893380e45beda6b66e93cecc30b46a6005c15e2421759be67e2b9b63225072a",
   "feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/feed.xml",
   "note": "Source enclosures (not audio bytes) verified in RSS. Podcast-app import and individual playback are separate checks."
 }
