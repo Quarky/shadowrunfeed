@@ -5,7 +5,25 @@ shares need time-coded transcripts or listening, not RSS descriptions.
 """
 from __future__ import annotations
 import re
+import json
+from pathlib import Path
 from html import unescape
+
+REVIEW_FILE = Path(__file__).resolve().parent / "reviewed-episode-evidence.json"
+
+def load_reviewed_evidence():
+    data = json.loads(REVIEW_FILE.read_text(encoding="utf-8"))
+    assert data["schema_version"] == 1
+    records = {(r["source"], r["exact_title"]): r for r in data["reviewed"]}
+    assert len(records) == len(data["reviewed"]), "Duplicate transcript-reviewed episode"
+    for r in records.values():
+        assert r["captions_endpoint_verified"] is True
+        assert 0 <= int(r["editorial_fit_index"]) <= 100
+        assert r["measured_gameplay_percent"] is None, "No unsupported playtime fraction"
+        assert r["time_segments"], "Reviewed score requires caption time evidence"
+    return records
+
+REVIEWED = load_reviewed_evidence()
 
 BASE_INDEX = {"ccrpg": 76, "rppr": 76, "rfd": 64, "vertigo": 56}
 SOURCE_TIE = {"ccrpg": 4, "rppr": 3, "rfd": 2, "vertigo": 1}
@@ -79,13 +97,37 @@ def fit(entry: dict) -> dict:
             index += points
             signals.append({"name": name, "points": points})
     index = min(100, max(0, index))
+    # A blurb cannot justify a very high priority rank. Cap unknown cases
+    # until a real caption/timed-session check is available.
+    review = REVIEWED.get((src, title))
+    if review is not None:
+        index = int(review["editorial_fit_index"])
+        method = "timed_caption_samples_plus_editorial_pacing_judgement"
+        confidence = review["review_confidence"]
+        signals.append({"name": "checked_caption_timeline_and_pacing", "points": 0})
+        if review.get("user_feedback"):
+            signals.append({"name": "direct_listener_pacing_feedback", "points": 0})
+    else:
+        index = min(index, 79)
+        method = "publisher_synopsis_only_provisional"
+        confidence = "low_unreviewed"
     return {
         "fit_index_0_to_100": index,
         "evidence": signals,
-        "method": "publisher_synopsis_and_editorial_baseline",
+        "method": method,
         "measured_actual_play_percent": None,
-        "confidence": "low",  # No full timed episode audio/transcript analysis.
+        "confidence": confidence,
         "synopsis": scene[:380],
+        "review_evidence": (
+            {
+                "video_url": review["video_url"],
+                "captions_url": review["captions_url"],
+                "verdict": review["verdict"],
+                "caption_end_seconds": review["caption_end_seconds"],
+                "time_segments": review["time_segments"],
+            }
+            if review else None
+        ),
     }
 
 def priority_order(playlist: list[dict]) -> list[dict]:
