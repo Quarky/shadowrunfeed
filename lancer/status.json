@@ -350,7 +350,8 @@
       }
     ]
   },
-  "sha256": "d893380e45beda6b66e93cecc30b46a6005c15e2421759be67e2b9b63225072a",
+  "sha256": "376706f5b4afd0bb6c21bf4feb18a0dfdaf772108b7021fcacc479a96d79c7b8",
   "feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/feed.xml",
+  "fresh_subscription_alias": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/gameplay-first.xml",
   "note": "Source enclosures (not audio bytes) verified in RSS. Podcast-app import and individual playback are separate checks."
 }
