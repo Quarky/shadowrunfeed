@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "lancer/build_feed.py"
+      - "lancer/ranking.py"
       - ".github/workflows/update-lancer-feed.yml"
   schedule:
     - cron: "23 8 * * 2"
@@ -30,7 +31,7 @@ jobs:
           python-version: "3.12"
       - name: Build from source publisher RSS only
         run: |
-          python -m py_compile lancer/build_feed.py
+          python -m py_compile lancer/build_feed.py lancer/ranking.py
           python lancer/build_feed.py
       - name: Validate playable RSS and source segregation
         run: |
@@ -48,6 +49,24 @@ jobs:
           items = channel.findall("item")
           status = json.loads(Path("lancer/status.json").read_text())
           assert len(items) == status["total_playable_episodes"] >= 170
+          assert status["ranking"]["score_is_playtime_percentage"] is False
+          assert status["ranking"]["actual_play_runtime_percentage_measured"] is False
+          alt_root = ET.parse("lancer/story-order.xml").getroot()
+          alt_items = alt_root.find("channel").findall("item")
+          assert len(alt_items) == len(items)
+          assert {i.findtext("guid") for i in alt_items} == {i.findtext("guid") for i in items}
+          assert {i.find("enclosure").get("url") for i in alt_items} == {
+              i.find("enclosure").get("url") for i in items}
+          score_by_guid = {}
+          for e in status["ranking"]["top_20"]:
+              assert 0 <= e["fit_index_0_to_100"] <= 100
+          import re
+          rating = [int(re.search(r"GAMEPLAY PRIORITY INDEX (\d+)/100",
+              i.findtext("description")).group(1)) for i in items]
+          assert rating == sorted(rating, reverse=True), "RSS is not sorted by gameplay priority"
+          from email.utils import parsedate_to_datetime
+          dates = [parsedate_to_datetime(i.findtext("pubDate")) for i in items]
+          assert dates == sorted(dates, reverse=True), "rank dates and item order disagree"
           names, ids, media = [], set(), set()
           for i, item in enumerate(items, 1):
               title = item.findtext("title")
@@ -75,7 +94,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add lancer/feed.xml lancer/status.json
+          git add lancer/feed.xml lancer/story-order.xml lancer/status.json
           if ! git diff --cached --quiet; then
             git commit -m "Publish verified Lancer actual-play audio feed"
             git push
