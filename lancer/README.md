@@ -13,7 +13,19 @@ This is a separate, curated audio-only podcast subscription, specifically for li
 
 These are episode-level selections based on original producer RSS catalogs and community testimony, **not a claim to have listened to every hour or checked every rules ruling**. Particularly, no guarantee that any table's play is rules-perfect.
 
-The playlist interleaves **two consecutive episodes at a time** from each series while keeping episodes chronological *within* each series. CCRPG continues when the shorter finished runs end. A playlist-order marker is used as the RSS pubDate so podcatchers do not re-sort different shows by unrelated historical dates; every episode description states its actual original publication date. Existing episode GUIDs in this curated feed remain deterministic across refreshes.
+## Listening order (gameplay first)
+
+**Primary subscription:** https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/feed.xml
+
+**Alternative, campaign-order subscription:** https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/story-order.xml
+
+The primary feed ranks individual episodes **descending by evidence of active tabletop play**, including tactical combat, rolls/mechanics, actionable scenes and in-character conversations. It de-prioritizes announced downtime, character-build episodes, debriefs and epilogues. Source preferences put CCRPG and RPPR ahead of more highly produced shows when evidence is otherwise similar. All 193 original selected episodes remain; the source audio and item GUIDs stay the same.
+
+**Important measurement limit:** the displayed **GAMEPLAY PRIORITY INDEX /100** is a *synopsis-based editorial fit index*, **NOT a measured percentage of a recording devoted to gameplay**. No full audio transcription or time-coded listening audit was conducted for all 193 episodes. Most publishers provide no official timed transcript. Presenting a precise actual-play percentage would be misleading. Each episode's metadata documents the underlying synopsis signals; the generator stores the 20 top-ranked items and their evidence in `status.json`. Exact runtime percentages should only be added after timed audio/complete-transcript analysis.
+
+The **campaign-order** alternative preserves the previous two-episodes-per-source interleaving with all individual series in episode sequence. This is better if you want to follow developing characters and story without spoilers.
+
+The main feed uses deterministic, score-oriented RSS publication date markers so podcast apps sort strongest gameplay matches at the top, rather than switching back to historical publisher release dates. The original publisher dates remain in descriptions, and GUIDs are unchanged across both feeds.
 
 ### Watch-only recommendations, not copied into audio RSS
 
@@ -25,6 +37,6 @@ These are video recommendations only until the publishers provide independently 
 
 ## Technical / source handling
 
-Generator: \`lancer/build_feed.py\`. All input sources are the publisher's official RSS. Only original HTTPS audio with verified positive byte length is included; invalid/missing publisher enclosures are rejected, never invented. The source name, original title and original release date remain in episode metadata. No existing podcast subscription or source feed is replaced.
+Generator: \`lancer/build_feed.py\` with \`lancer/ranking.py\`. All input sources are the publisher's official RSS. Only original HTTPS audio with verified positive byte length is included; invalid/missing publisher enclosures are rejected, never invented. Both sort modes are rebuilt from the same validated source inventory. The source name, original title and original release date remain in episode metadata. No existing podcast subscription or source feed is replaced.
 
 Rebuild workflow: \`.github/workflows/update-lancer-feed.yml\`; source-update failures fail closed and leave the last published feed untouched. \`status.json\` gives source counts, exclusions and XML digest. Git commit, CDN availability and successful Podbean import/playback must be verified separately.
