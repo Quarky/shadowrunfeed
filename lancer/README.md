@@ -15,7 +15,9 @@ These are episode-level selections based on original producer RSS catalogs and c
 
 ## Listening order (gameplay first)
 
-**Primary subscription:** https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/feed.xml
+**Primary existing subscription:** https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/feed.xml
+
+**Identical gameplay-first subscription on a new CDN path (use if existing branch alias remains stale):** https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/gameplay-first.xml
 
 **Alternative, campaign-order subscription:** https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/story-order.xml
 
@@ -50,3 +52,8 @@ These are video recommendations only until the publishers provide independently 
 Generator: \`lancer/build_feed.py\` with \`lancer/ranking.py\`. All input sources are the publisher's official RSS. Only original HTTPS audio with verified positive byte length is included; invalid/missing publisher enclosures are rejected, never invented. Both sort modes are rebuilt from the same validated source inventory. The source name, original title and original release date remain in episode metadata. No existing podcast subscription or source feed is replaced.
 
 Rebuild workflow: \`.github/workflows/update-lancer-feed.yml\`; source-update failures fail closed and leave the last published feed untouched. \`status.json\` gives source counts, exclusions and XML digest. Git commit, CDN availability and successful Podbean import/playback must be verified separately.
+
+
+### CDN cache verification
+
+The existing `@main/lancer/feed.xml` path may temporarily serve an older ranking after GitHub succeeds, despite successful purge responses. The additional `gameplay-first.xml` path contains the same item GUIDs, source audio, ranking and updated weekly build, but has its own fresh CDN cache key. Confirm public URL bytes before claiming each subscription path current. A commit-pinned CDN URL is immutable, only suitable as a temporary audit copy.
