@@ -81,6 +81,40 @@
       "measured_gameplay_percent": null,
       "review_confidence": "moderate_captions_sampled_plus_user_audition",
       "user_feedback": "The first given is mostly narrative so badly ranked"
+    },
+    {
+      "source": "ccrpg",
+      "exact_title": "Lancer Gig - Episode 14",
+      "youtube_id": "EB0IEXNNXUo",
+      "captions_url": "https://yt-transcript.net/EB0IEXNNXUo",
+      "video_url": "https://www.youtube.com/watch?v=EB0IEXNNXUo",
+      "transcript_language": "en",
+      "transcript_kind": "youtube_auto_generated",
+      "captions_endpoint_verified": true,
+      "caption_end_seconds": 7373,
+      "review_method": "caption samples and action-word evidence by consecutive 10-minute windows across entire recording",
+      "time_segments": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 1200,
+          "annotation": "Brief welcome and on-site exploration / reconnaissance; combat action emerges during this segment."
+        },
+        {
+          "start_seconds": 1200,
+          "end_seconds": 7020,
+          "annotation": "Sustained mech/creature combat with attack rolls, damage, heat, positioning, rounds and mechanics adjudication."
+        },
+        {
+          "start_seconds": 7020,
+          "end_seconds": 7373,
+          "annotation": "Tactical cliffhanger and closing banter while the encounter is ongoing."
+        }
+      ],
+      "verdict": "Strong combat mechanics episode with roughly 15–20 minutes of build-up; not as immediate as Episode 8, but more suitable than long narrative/opening briefings.",
+      "editorial_fit_index": 81,
+      "measured_gameplay_percent": null,
+      "review_confidence": "moderate_captions_sampled",
+      "user_feedback": null
     }
   ]
 }
