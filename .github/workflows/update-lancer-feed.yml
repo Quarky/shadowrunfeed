@@ -6,6 +6,7 @@ on:
     paths:
       - "lancer/build_feed.py"
       - "lancer/ranking.py"
+      - "lancer/reviewed-episode-evidence.json"
       - ".github/workflows/update-lancer-feed.yml"
   schedule:
     - cron: "23 8 * * 2"
@@ -51,6 +52,13 @@ jobs:
           assert len(items) == status["total_playable_episodes"] >= 170
           assert status["ranking"]["score_is_playtime_percentage"] is False
           assert status["ranking"]["actual_play_runtime_percentage_measured"] is False
+          assert status["ranking"]["transcript_reviewed_episode_count"] == 2
+          assert status["ranking"]["top_20"][0]["source"] == "ccrpg"
+          assert status["ranking"]["top_20"][0]["title"] == "Lancer Gig - Episode 8"
+          assert status["ranking"]["top_20"][0]["method"].startswith("timed_caption")
+          assert all(x["fit_index_0_to_100"] <= 84 for x in status["ranking"]["top_20"])
+          assert not any(x["title"] == "Lancer: Solstice Rain – Part 2" for x in status["ranking"]["top_20"])
+
           alt_root = ET.parse("lancer/story-order.xml").getroot()
           alt_items = alt_root.find("channel").findall("item")
           assert len(alt_items) == len(items)
@@ -61,7 +69,7 @@ jobs:
           for e in status["ranking"]["top_20"]:
               assert 0 <= e["fit_index_0_to_100"] <= 100
           import re
-          rating = [int(re.search(r"GAMEPLAY PRIORITY INDEX (\d+)/100",
+          rating = [int(re.search(r"FAST-PLAY FIT INDEX (\d+)/100",
               i.findtext("description")).group(1)) for i in items]
           assert rating == sorted(rating, reverse=True), "RSS is not sorted by gameplay priority"
           from email.utils import parsedate_to_datetime
