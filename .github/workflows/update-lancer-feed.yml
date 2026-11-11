@@ -64,6 +64,13 @@ jobs:
           alt_root = ET.parse("lancer/story-order.xml").getroot()
           alt_items = alt_root.find("channel").findall("item")
           assert len(alt_items) == len(items)
+          alias_root = ET.parse("lancer/gameplay-first.xml").getroot()
+          alias_items = alias_root.find("channel").findall("item")
+          assert len(alias_items) == len(items)
+          assert [i.findtext("guid") for i in alias_items] == [i.findtext("guid") for i in items]
+          assert [i.find("enclosure").get("url") for i in alias_items] == [
+              i.find("enclosure").get("url") for i in items]
+          assert status["fresh_subscription_alias"].endswith("/gameplay-first.xml")
           assert {i.findtext("guid") for i in alt_items} == {i.findtext("guid") for i in items}
           assert {i.find("enclosure").get("url") for i in alt_items} == {
               i.find("enclosure").get("url") for i in items}
@@ -104,7 +111,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add lancer/feed.xml lancer/story-order.xml lancer/status.json
+          git add lancer/feed.xml lancer/gameplay-first.xml lancer/story-order.xml lancer/status.json
           if ! git diff --cached --quiet; then
             git commit -m "Publish verified Lancer actual-play audio feed"
             git push
@@ -116,7 +123,7 @@ jobs:
           import json
           import urllib.request
 
-          paths = ("feed.xml", "story-order.xml")
+          paths = ("feed.xml", "gameplay-first.xml", "story-order.xml")
           for path in paths:
               uri = ("https://purge.jsdelivr.net/gh/Quarky/"
                      "shadowrunfeed@main/lancer/" + path)
