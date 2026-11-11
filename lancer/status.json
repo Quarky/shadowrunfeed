@@ -33,7 +33,276 @@
   },
   "original_audio_hosts_only": true,
   "playlist_order_markers_not_original_dates": true,
-  "sha256": "b732858be346276baedb605ca170899ef48bb6244deff0f4790ce28be1d516d0",
+  "ranking": {
+    "sort": "descending metadata gameplay-fit index",
+    "score_is_playtime_percentage": false,
+    "actual_play_runtime_percentage_measured": false,
+    "source": "publisher show descriptions with transparent keyword signals and editorial source baselines",
+    "chronological_alternative": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/story-order.xml",
+    "top_20": [
+      {
+        "source": "rppr",
+        "title": "Lancer: Solstice Rain – Part 2",
+        "fit_index_0_to_100": 98,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          },
+          {
+            "name": "tactical_play",
+            "points": 6
+          },
+          {
+            "name": "in_character_play",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "source": "rppr",
+        "title": "Lancer: The Siege of Vermeer",
+        "fit_index_0_to_100": 95,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          },
+          {
+            "name": "in_character_play",
+            "points": 5
+          },
+          {
+            "name": "active_situation",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 8",
+        "fit_index_0_to_100": 92,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          },
+          {
+            "name": "in_character_play",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 37",
+        "fit_index_0_to_100": 92,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          },
+          {
+            "name": "in_character_play",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 38",
+        "fit_index_0_to_100": 92,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          },
+          {
+            "name": "in_character_play",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Ruse - Episode 135",
+        "fit_index_0_to_100": 92,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          },
+          {
+            "name": "in_character_play",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 14",
+        "fit_index_0_to_100": 90,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          },
+          {
+            "name": "active_situation",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Ruse - Episode 113",
+        "fit_index_0_to_100": 90,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          },
+          {
+            "name": "active_situation",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 5",
+        "fit_index_0_to_100": 87,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 18",
+        "fit_index_0_to_100": 87,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 23",
+        "fit_index_0_to_100": 87,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 24",
+        "fit_index_0_to_100": 87,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 30",
+        "fit_index_0_to_100": 87,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 45",
+        "fit_index_0_to_100": 87,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 46",
+        "fit_index_0_to_100": 87,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Ruse - Episode 59",
+        "fit_index_0_to_100": 87,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Ruse - Episode 72",
+        "fit_index_0_to_100": 87,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Ruse - Episode 73",
+        "fit_index_0_to_100": 87,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Ruse - Episode 75",
+        "fit_index_0_to_100": 87,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          }
+        ]
+      },
+      {
+        "source": "ccrpg",
+        "title": "Lancer Ruse - Episode 92 (fixed)",
+        "fit_index_0_to_100": 87,
+        "evidence": [
+          {
+            "name": "combat_or_rolls",
+            "points": 11
+          }
+        ]
+      }
+    ]
+  },
+  "sha256": "505b9fa0246cf873a34d97b9981d50419dbac3b2a12822514d99aad878e33974",
   "feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/feed.xml",
   "note": "Source enclosures (not audio bytes) verified in RSS. Podcast-app import and individual playback are separate checks."
 }
