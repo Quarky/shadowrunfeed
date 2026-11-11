@@ -99,3 +99,25 @@ jobs:
             git commit -m "Publish verified Lancer actual-play audio feed"
             git push
           fi
+      - name: Ask jsDelivr to refresh both branch-alias feed files
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          import json
+          import urllib.request
+
+          paths = ("feed.xml", "story-order.xml")
+          for path in paths:
+              uri = ("https://purge.jsdelivr.net/gh/Quarky/"
+                     "shadowrunfeed@main/lancer/" + path)
+              req = urllib.request.Request(
+                  uri, headers={"User-Agent": "LancerActualPlayPublisher/1.0"})
+              with urllib.request.urlopen(req, timeout=25) as response:
+                  body = json.load(response)
+              route = body.get("paths", {}).get(
+                  "/gh/Quarky/shadowrunfeed@main/lancer/" + path, {})
+              assert body.get("status") == "finished" and (
+                  route.get("providers", {}).get("CF") and
+                  route.get("providers", {}).get("FY")), body
+              print("jsDelivr refresh accepted:", path)
+          PY
