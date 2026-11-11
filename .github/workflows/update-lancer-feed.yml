@@ -114,7 +114,20 @@ jobs:
           git add lancer/feed.xml lancer/gameplay-first.xml lancer/story-order.xml lancer/status.json
           if ! git diff --cached --quiet; then
             git commit -m "Publish verified Lancer actual-play audio feed"
-            git push
+            # A README or source change can land while the job is building.
+            # Reconcile the latest main via fast-forward-compatible rebase,
+            # never force-push or replace a concurrent publisher's work.
+            for attempt in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Git push raced with another main commit; reconciling attempt $attempt"
+              git fetch origin main
+              git rebase origin/main
+              if [ "$attempt" -eq 3 ]; then
+                git push
+              fi
+            done
           fi
       - name: Ask jsDelivr to refresh both branch-alias feed files
         continue-on-error: true
