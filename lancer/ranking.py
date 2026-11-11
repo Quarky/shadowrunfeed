@@ -110,11 +110,11 @@ def publication_marker(entry: dict):
     # The source and episode identity keep the sort marker stable across runs.
     episode_key = entry["key"]
     within_day = {
-        "ccrpg": 40000,
-        "rppr": 30000,
-        "rfd": 20000,
-        "vertigo": 10000,
-    }[source] - (episode_key[0] * 2000 + episode_key[1] * 12)
+        "ccrpg": 60000,
+        "rppr": 44000,
+        "rfd": 34000,
+        "vertigo": 12000,
+    }[source] - (episode_key[0] * 1500 + episode_key[1] * 5)
     within_day = max(0, within_day)
     return datetime(2026, 1, 1, tzinfo=timezone.utc) + timedelta(
         days=tier, seconds=within_day)
