@@ -37,7 +37,24 @@
     "sort": "descending metadata gameplay-fit index",
     "score_is_playtime_percentage": false,
     "actual_play_runtime_percentage_measured": false,
-    "source": "publisher show descriptions with transparent keyword signals and editorial source baselines",
+    "source": "timestamped YouTube auto-caption samples for reviewed episodes; otherwise capped publisher synopsis signals with editorial source baselines",
+    "transcript_reviewed_episode_count": 2,
+    "transcript_reviewed_episodes": [
+      {
+        "source": "ccrpg",
+        "title": "Lancer Gig - Episode 8",
+        "score": 84,
+        "verdict": "Better immediate fast-play opener than Solstice Rain Part 2; starts in active encounter without a 35-40-minute briefing.",
+        "video_url": "https://www.youtube.com/watch?v=L0HgTahkkV4"
+      },
+      {
+        "source": "rppr",
+        "title": "Lancer: Solstice Rain – Part 2",
+        "score": 50,
+        "verdict": "Not a fast opening recommendation: long non-combat prelude, substantial slow rules/movement discussion. It does contain major combat later, so label this a pacing mismatch, not 'no combat'. User reported it felt mostly narrative.",
+        "video_url": "https://www.youtube.com/watch?v=yK0uo27LC94"
+      }
+    ],
     "chronological_alternative": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/story-order.xml",
     "top_20": [
       {
@@ -57,7 +74,9 @@
             "name": "checked_caption_timeline_and_pacing",
             "points": 0
           }
-        ]
+        ],
+        "method": "timed_caption_samples_plus_editorial_pacing_judgement",
+        "confidence": "moderate_captions_sampled"
       },
       {
         "source": "ccrpg",
@@ -68,7 +87,9 @@
             "name": "tactical_play",
             "points": 6
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -79,7 +100,9 @@
             "name": "in_character_play",
             "points": 5
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -90,7 +113,9 @@
             "name": "combat_or_rolls",
             "points": 11
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -101,7 +126,9 @@
             "name": "in_character_play",
             "points": 5
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -112,7 +139,9 @@
             "name": "active_situation",
             "points": 3
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -123,7 +152,9 @@
             "name": "in_character_play",
             "points": 5
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -138,7 +169,9 @@
             "name": "active_situation",
             "points": 3
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -153,7 +186,9 @@
             "name": "active_situation",
             "points": 3
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -164,7 +199,9 @@
             "name": "in_character_play",
             "points": 5
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -175,7 +212,9 @@
             "name": "combat_or_rolls",
             "points": 11
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -186,7 +225,9 @@
             "name": "tactical_play",
             "points": 6
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -197,7 +238,9 @@
             "name": "combat_or_rolls",
             "points": 11
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -208,7 +251,9 @@
             "name": "combat_or_rolls",
             "points": 11
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -219,7 +264,9 @@
             "name": "in_character_play",
             "points": 5
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -230,7 +277,9 @@
             "name": "in_character_play",
             "points": 5
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -241,7 +290,9 @@
             "name": "combat_or_rolls",
             "points": 11
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -252,7 +303,9 @@
             "name": "in_character_play",
             "points": 5
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -263,7 +316,9 @@
             "name": "in_character_play",
             "points": 5
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       },
       {
         "source": "ccrpg",
@@ -278,11 +333,13 @@
             "name": "in_character_play",
             "points": 5
           }
-        ]
+        ],
+        "method": "publisher_synopsis_only_provisional",
+        "confidence": "low_unreviewed"
       }
     ]
   },
-  "sha256": "5ead7c2fa462e7b7e053ef03412688dc5a87394f6dc75659db20644f72aee53f",
+  "sha256": "740956ce0ef3c552ab54c16b70f3275fc75ed83416a94d5750e3798030ab2248",
   "feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/feed.xml",
   "note": "Source enclosures (not audio bytes) verified in RSS. Podcast-app import and individual playback are separate checks."
 }
