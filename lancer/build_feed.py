@@ -11,7 +11,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime, parsedate_to_datetime
 from html import unescape
 import copy
-from ranking import priority_order, publication_marker
+from ranking import priority_order, publication_marker, REVIEWED
 import hashlib
 import json
 from pathlib import Path
@@ -205,7 +205,9 @@ def build():
         "pilot choices, tactical rules, mech combat and campaign continuity. "
         "Unmodified publisher-hosted audio; not affiliated with any featured creators or Massif Press. "
         "Original episode dates are stated in descriptions. Episodes are ranked by a "
-        "publisher-synopsis gameplay-fit index (NOT a measured percentage of audio playtime). "
+        "gameplay-PACE fit index (NOT a measured percentage of audio playtime). "
+        "Full timestamped auto-captions have been sampled for individually marked episodes; "
+        "other rankings remain lower-confidence publisher descriptions only. "
         "The RSS publication dates are stable rank markers, not original air dates.")
     text(channel, "description", description)
     text(channel, "language", "en")
@@ -229,11 +231,15 @@ def build():
         summary = normalize_title(re.sub(r"<[^>]*>", " ", raw_description))[:550]
         evidence = entry["fit"]
         signals = ", ".join(s["name"] for s in evidence["evidence"]) or "no specific gameplay terms in publisher synopsis"
-        text(item, "description", f"GAMEPLAY PRIORITY INDEX {evidence['fit_index_0_to_100']}/100 — "
-             f"metadata-based ranking, not a measured percentage of audio runtime. "
-             f"Evidence: {signals}. Original producer: {spec['name']}. {spec['note']} "
-             f"Original release: {original_date or 'publisher date unlisted'}. "
-             f"Original episode: {summary}  Publisher: {spec['url']}")
+        verdict = evidence["review_evidence"]["verdict"] if evidence["review_evidence"] else (
+            "Unreviewed description only; score capped below timed-caption-checked fast-play episodes.")
+        text(item, "description", f"FAST-PLAY FIT INDEX {evidence['fit_index_0_to_100']}/100 — "
+             f"editorial suitability index, not percentage of runtime spent playing. "
+             f"Evidence method: {evidence['method']}; confidence: {evidence['confidence']}. "
+             f"Pacing assessment: {verdict} Evidence signals: {signals}. "
+             f"Original producer: {spec['name']}. Original release: "
+             f"{original_date or 'publisher date unlisted'}. "
+             f"Original episode: {summary} Publisher: {spec['url']}")
         text(item, "pubDate", format_datetime(publication_marker(entry)))
         text(item, f"{{{ITUNES}}}author", spec["name"])
         text(item, f"{{{ITUNES}}}explicit", "yes")
@@ -282,7 +288,14 @@ def build():
             "sort": "descending metadata gameplay-fit index",
             "score_is_playtime_percentage": False,
             "actual_play_runtime_percentage_measured": False,
-            "source": "publisher show descriptions with transparent keyword signals and editorial source baselines",
+            "source": "timestamped YouTube auto-caption samples for reviewed episodes; "
+                      "otherwise capped publisher synopsis signals with editorial source baselines",
+            "transcript_reviewed_episode_count": len(REVIEWED),
+            "transcript_reviewed_episodes": [
+                {"source": key[0], "title": key[1], "score": review["editorial_fit_index"],
+                 "verdict": review["verdict"], "video_url": review["video_url"]}
+                for key, review in sorted(REVIEWED.items())
+            ],
             "chronological_alternative": PUBLIC.replace("/feed.xml", "/story-order.xml"),
             "top_20": [
                 {
@@ -290,6 +303,8 @@ def build():
                     "title": e["title"],
                     "fit_index_0_to_100": e["fit"]["fit_index_0_to_100"],
                     "evidence": e["fit"]["evidence"],
+                    "method": e["fit"]["method"],
+                    "confidence": e["fit"]["confidence"],
                 }
                 for e in playlist[:20]
             ],
