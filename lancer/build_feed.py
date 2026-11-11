@@ -253,6 +253,15 @@ def build():
     reread = ET.fromstring(xml).find("channel").findall("item")
     if len(reread) != len(playlist):
         raise AssertionError("RSS item count differs after serialization")
+    # Separate fresh subscription alias: avoids stale provider branch-alias caches,
+    # while existing feed.xml retains its established address and GUIDs.
+    alias_root = copy.deepcopy(root)
+    alias_channel = alias_root.find("channel")
+    for atom in alias_channel.findall(f"{{{ATOM}}}link"):
+        atom.set("href", PUBLIC.replace("/feed.xml", "/gameplay-first.xml"))
+    alias_xml = ET.tostring(alias_root, encoding="utf-8", xml_declaration=True)
+    assert len(ET.fromstring(alias_xml).find("channel").findall("item")) == len(playlist)
+    (ROOT / "gameplay-first.xml").write_bytes(alias_xml)
     if len(playlist) < 170:
         raise ValueError("Too few verified source episodes to replace existing published RSS")
 
@@ -311,6 +320,7 @@ def build():
         },
         "sha256": hashlib.sha256(xml).hexdigest(),
         "feed_url": PUBLIC,
+        "fresh_subscription_alias": PUBLIC.replace("/feed.xml", "/gameplay-first.xml"),
         "note": "Source enclosures (not audio bytes) verified in RSS. Podcast-app import and individual playback are separate checks.",
     }
     (ROOT / "feed.xml").write_bytes(xml)
