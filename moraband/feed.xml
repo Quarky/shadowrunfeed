@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Heroes of the Hydian Way — Moraband / Korriban Arc</title>
+<link>https://thehydianway.com/</link>
+<description>Unofficial listening-only curated RSS: Chronicles of the Gatekeeper Act 3 Episodes 10–20, including Moraband approach and post-battle aftermath. All audio streams from the original publisher-hosted files. RSS dates are fixed artificial story-order markers (Episode 10 first), NOT original release dates; each item contains its true publisher posting date. Not affiliated with the show creators.</description>
+<language>en-CA</language>
+<itunes:author>Heroes of the Hydian Way — listener-selected Moraband episodes</itunes:author>
+<itunes:summary>The complete Moraband / Korriban arc from Chronicles of the Gatekeeper, Act 3, presented in sequential listening order.</itunes:summary>
+<itunes:type>serial</itunes:type>
+<itunes:explicit>no</itunes:explicit>
+<itunes:category text="Leisure"><itunes:category text="Games"/></itunes:category>
+<itunes:image href="https://thehydianway.com/wp/wp-content/uploads/2023/03/HydianPatchWithEnglishMoreMANDOsmallerJPG-Big.jpg"/>
+<atom:link href="https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/moraband/feed.xml" rel="self" type="application/rss+xml"/>
+<lastBuildDate>Sun, 01 Nov 2026 12:00:00 GMT</lastBuildDate>
+<item>
+<title>Chronicles of the Gatekeeper — Act 3 Episode 10 — Asking Kheshtions</title>
+<link>https://thehydianway.com/2022/01/05/chronicles-of-the-gatekeeper-act-3-episode-10-asking-kheshtions/</link>
+<guid isPermaLink="false">heroes-hydian-way:moraband:act3:e10</guid>
+<description>On the way to Moraband, the crew discusses Warde and Karl. Source: Heroes of the Hydian Way, Chronicles of the Gatekeeper, Act 3 Episode 10. Publisher site date: 2022-01-05. Fixed RSS story-order date is not the original publication date. Audio copyright remains with the original publisher.</description>
+<pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
+<itunes:season>3</itunes:season>
+<itunes:episode>10</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>00:53:15</itunes:duration>
+<enclosure url="https://archive.org/download/heroes-s-3-a-3-e-10/HeroesS3A3E10.mp3" length="51119645" type="audio/mpeg"/>
+</item>
+<item>
+<title>Chronicles of the Gatekeeper — Act 3 Episode 11 — Whispers on the Wind</title>
+<link>https://thehydianway.com/2022/01/12/chronicles-of-the-gatekeeper-act-3-episode-11-whispers-on-the-wind/</link>
+<guid isPermaLink="false">heroes-hydian-way:moraband:act3:e11</guid>
+<description>The crew searches for Warde on a haunted Sith world. Source: Heroes of the Hydian Way, Chronicles of the Gatekeeper, Act 3 Episode 11. Publisher site date: 2022-01-12. Fixed RSS story-order date is not the original publication date. Audio copyright remains with the original publisher.</description>
+<pubDate>Sun, 01 Nov 2026 11:59:00 GMT</pubDate>
+<itunes:season>3</itunes:season>
+<itunes:episode>11</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>01:06:43</itunes:duration>
+<enclosure url="https://archive.org/download/heroes-s-3-a-3-e-11/HeroesS3A3E11.mp3" length="64052977" type="audio/mpeg"/>
+</item>
+<item>
+<title>Chronicles of the Gatekeeper — Act 3 Episode 12 — Going, Going…</title>
+<link>https://thehydianway.com/2022/01/19/chronicles-of-the-gatekeeper-act-3-episode-12-going-going/</link>
+<guid isPermaLink="false">heroes-hydian-way:moraband:act3:e12</guid>
+<description>Sandstorms and shadowy beasts impede their journey to the onyx citadel. Source: Heroes of the Hydian Way, Chronicles of the Gatekeeper, Act 3 Episode 12. Publisher site date: 2022-01-19. Fixed RSS story-order date is not the original publication date. Audio copyright remains with the original publisher.</description>
+<pubDate>Sun, 01 Nov 2026 11:58:00 GMT</pubDate>
+<itunes:season>3</itunes:season>
+<itunes:episode>12</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>00:58:45</itunes:duration>
+<enclosure url="https://archive.org/download/heroes-s-3-a-3-e-12/HeroesS3A3E12.mp3" length="56396796" type="audio/mpeg"/>
+</item>
+<item>
+<title>Chronicles of the Gatekeeper — Act 3 Episode 13 — Not Qui Gon</title>
+<link>https://thehydianway.com/2022/01/26/chronicles-of-the-gatekeeper-act-3-episode-13-not-qui-gon/</link>
+<guid isPermaLink="false">heroes-hydian-way:moraband:act3:e13</guid>
+<description>Ghillary disappears into the winds of Moraband. Source: Heroes of the Hydian Way, Chronicles of the Gatekeeper, Act 3 Episode 13. Publisher site date: 2022-01-26. Fixed RSS story-order date is not the original publication date. Audio copyright remains with the original publisher.</description>
+<pubDate>Sun, 01 Nov 2026 11:57:00 GMT</pubDate>
+<itunes:season>3</itunes:season>
+<itunes:episode>13</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>00:38:50</itunes:duration>
+<enclosure url="https://archive.org/download/heroes-s-3-a-3-e-13/HeroesS3A3E13.mp3" length="37288534" type="audio/mpeg"/>
+</item>
+<item>
+<title>Chronicles of the Gatekeeper — Act 3 Episode 14 — A Dramatic Entrance</title>
+<link>https://thehydianway.com/2022/02/02/chronicles-of-the-gatekeeper-act-3-episode-14-a-dramatic-entrance/</link>
+<guid isPermaLink="false">heroes-hydian-way:moraband:act3:e14</guid>
+<description>The others seek their missing companion inside the citadel. Source: Heroes of the Hydian Way, Chronicles of the Gatekeeper, Act 3 Episode 14. Publisher site date: 2022-02-02. Fixed RSS story-order date is not the original publication date. Audio copyright remains with the original publisher.</description>
+<pubDate>Sun, 01 Nov 2026 11:56:00 GMT</pubDate>
+<itunes:season>3</itunes:season>
+<itunes:episode>14</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>01:04:23</itunes:duration>
+<enclosure url="https://archive.org/download/heroes-s-3-a-3-e-14/HeroesS3A3E14.mp3" length="61815223" type="audio/mpeg"/>
+</item>
+<item>
+<title>Chronicles of the Gatekeeper — Act 3 Episode 15 — Man of the Hour</title>
+<link>https://thehydianway.com/2022/02/09/chronicles-of-the-gatekeeper-act-3-episode-15-man-of-the-hour/</link>
+<guid isPermaLink="false">heroes-hydian-way:moraband:act3:e15</guid>
+<description>The group finds Suljo Warde waiting in the arena. Source: Heroes of the Hydian Way, Chronicles of the Gatekeeper, Act 3 Episode 15. Publisher site date: 2022-02-09. Fixed RSS story-order date is not the original publication date. Audio copyright remains with the original publisher.</description>
+<pubDate>Sun, 01 Nov 2026 11:55:00 GMT</pubDate>
+<itunes:season>3</itunes:season>
+<itunes:episode>15</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>01:03:05</itunes:duration>
+<enclosure url="https://archive.org/download/heroes-s-3-a-3-e-15/HeroesS3A3E15.mp3" length="60560505" type="audio/mpeg"/>
+</item>
+<item>
+<title>Chronicles of the Gatekeeper — Act 3 Episode 16 — A More Dramatic Entrance</title>
+<link>https://thehydianway.com/2022/02/16/chronicles-of-the-gatekeeper-act-3-episode-16-a-more-dramatic-entrance/</link>
+<guid isPermaLink="false">heroes-hydian-way:moraband:act3:e16</guid>
+<description>Karl approaches in a TIE fighter as the confrontation escalates. Source: Heroes of the Hydian Way, Chronicles of the Gatekeeper, Act 3 Episode 16. Publisher site date: 2022-02-16. Fixed RSS story-order date is not the original publication date. Audio copyright remains with the original publisher.</description>
+<pubDate>Sun, 01 Nov 2026 11:54:00 GMT</pubDate>
+<itunes:season>3</itunes:season>
+<itunes:episode>16</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>01:16:36</itunes:duration>
+<enclosure url="https://archive.org/download/heroes-s-3-a-3-e-16/HeroesS3A3E16.mp3" length="73542327" type="audio/mpeg"/>
+</item>
+<item>
+<title>Chronicles of the Gatekeeper — Act 3 Episode 17 — Ebbs and Flows</title>
+<link>https://thehydianway.com/2022/02/23/chronicles-of-the-gatekeeper-act-3-episode-17-ebbs-and-flows/</link>
+<guid isPermaLink="false">heroes-hydian-way:moraband:act3:e17</guid>
+<description>Koba faces Karl while Khesh, Ghillary, and Skipp confront Warde. Source: Heroes of the Hydian Way, Chronicles of the Gatekeeper, Act 3 Episode 17. Publisher site date: 2022-02-23. Fixed RSS story-order date is not the original publication date. Audio copyright remains with the original publisher.</description>
+<pubDate>Sun, 01 Nov 2026 11:53:00 GMT</pubDate>
+<itunes:season>3</itunes:season>
+<itunes:episode>17</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>01:05:14</itunes:duration>
+<enclosure url="https://archive.org/download/heroes-s-3-a-3-e-17/HeroesS3A3E17.mp3" length="62631492" type="audio/mpeg"/>
+</item>
+<item>
+<title>Chronicles of the Gatekeeper — Act 3 Episode 18 — Divide to Conquer</title>
+<link>https://thehydianway.com/2022/03/02/chronicles-of-the-gatekeeper-act-3-episode-18-divide-to-conquer/</link>
+<guid isPermaLink="false">heroes-hydian-way:moraband:act3:e18</guid>
+<description>Ghillary returns to the fighting and helps his allies. Source: Heroes of the Hydian Way, Chronicles of the Gatekeeper, Act 3 Episode 18. Publisher site date: 2022-03-02. Fixed RSS story-order date is not the original publication date. Audio copyright remains with the original publisher.</description>
+<pubDate>Sun, 01 Nov 2026 11:52:00 GMT</pubDate>
+<itunes:season>3</itunes:season>
+<itunes:episode>18</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>01:02:44</itunes:duration>
+<enclosure url="https://archive.org/download/heroes-s-3-a-3-e-18/HeroesS3A3E18.mp3" length="60232411" type="audio/mpeg"/>
+</item>
+<item>
+<title>Chronicles of the Gatekeeper — Act 3 Episode 19 — Triumph or Despair</title>
+<link>https://thehydianway.com/2022/03/09/chronicles-of-the-gatekeeper-act-3-episode-19-triumph-or-despair/</link>
+<guid isPermaLink="false">heroes-hydian-way:moraband:act3:e19</guid>
+<description>The battle reaches a critical conclusion. Source: Heroes of the Hydian Way, Chronicles of the Gatekeeper, Act 3 Episode 19. Publisher site date: 2022-03-09. Fixed RSS story-order date is not the original publication date. Audio copyright remains with the original publisher.</description>
+<pubDate>Sun, 01 Nov 2026 11:51:00 GMT</pubDate>
+<itunes:season>3</itunes:season>
+<itunes:episode>19</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>00:49:13</itunes:duration>
+<enclosure url="https://archive.org/download/heroes-s-3-a-3-e-19/HeroesS3A3E19.mp3" length="47242657" type="audio/mpeg"/>
+</item>
+<item>
+<title>Chronicles of the Gatekeeper — Act 3 Episode 20 — Moving On</title>
+<link>https://thehydianway.com/2022/03/16/chronicles-of-the-gatekeeper-act-3-episode-20-moving-on/</link>
+<guid isPermaLink="false">heroes-hydian-way:moraband:act3:e20</guid>
+<description>The heroes tend to their injuries and consider what comes next. Source: Heroes of the Hydian Way, Chronicles of the Gatekeeper, Act 3 Episode 20. Publisher site date: 2022-03-16. Fixed RSS story-order date is not the original publication date. Audio copyright remains with the original publisher.</description>
+<pubDate>Sun, 01 Nov 2026 11:50:00 GMT</pubDate>
+<itunes:season>3</itunes:season>
+<itunes:episode>20</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>00:53:47</itunes:duration>
+<enclosure url="https://archive.org/download/heroes-s-3-a-3-e-20/HeroesS3A3E20.mp3" length="51638325" type="audio/mpeg"/>
+</item>
+</channel>
+</rss>
