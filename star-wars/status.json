@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-09T13:53:48.147349+00:00",
+  "updated": "2026-11-16T13:38:30.943391+00:00",
   "shows": {
     "force-majeure": {
       "status": "published",
-      "items": 236,
+      "items": 237,
       "featured": [
         "Coldfire Chronicles S01 E06  - An Ally Emerges",
         "Coldfire Chronicles S01 E02 - A Sense Of Foreboding...",
@@ -67,7 +67,7 @@
     },
     "falling-star-d6": {
       "status": "unavailable",
-      "error": "https://feed.podbean.com/swfallingstar/feed.xml: HTTPError: HTTP Error 410: Gone",
+      "error": "Apple lookup for podcast 847953650 has no official feedUrl",
       "note": "Existing RSS file, if any, is retained unchanged."
     }
   },
