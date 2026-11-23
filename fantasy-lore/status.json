@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T13:47:43.790191+00:00",
+  "generated_at": "2026-11-23T16:10:44.516658+00:00",
   "state": "published",
   "sources": [
     {
@@ -20,7 +20,7 @@
       "episodes": 45,
       "skipped": {
         "not_relevant": 15,
-        "invalid_audio": 0,
+        "invalid_audio": 4,
         "duplicated": 0
       }
     },
@@ -75,7 +75,7 @@
       "episodes": 40,
       "skipped": {
         "not_relevant": 3,
-        "invalid_audio": 0,
+        "invalid_audio": 3,
         "duplicated": 0
       }
     },
@@ -121,7 +121,7 @@
     "feed.xml": 38,
     "ranked-feed.xml": 38,
     "creatures.xml": 186,
-    "cultures.xml": 81,
+    "cultures.xml": 82,
     "magic-planar.xml": 94,
     "worldbuilding.xml": 75
   },
