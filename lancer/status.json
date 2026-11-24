@@ -1,6 +1,6 @@
 {
   "result": "generated_and_xml_validated",
-  "total_playable_episodes": 193,
+  "total_playable_episodes": 194,
   "source_counts": {
     "rppr": {
       "publisher_title": "Lancer – RPPR Actual Play",
@@ -11,8 +11,8 @@
     },
     "ccrpg": {
       "publisher_title": "CCRPG",
-      "found": 153,
-      "included": 153,
+      "found": 154,
+      "included": 154,
       "excluded_reasons": [],
       "source_url": "https://feeds.captivate.fm/ccrpg/"
     },
@@ -350,7 +350,7 @@
       }
     ]
   },
-  "sha256": "6980646056166da0a220d0d25fb3f2639ba6c51180f16475db6d6b5a3dd4edf6",
+  "sha256": "1c9221bbedc2a045a91c6fc1c45364425e666970f639112059195f0417826d83",
   "feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/feed.xml",
   "fresh_subscription_alias": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/lancer/gameplay-first.xml",
   "note": "Source enclosures (not audio bytes) verified in RSS. Podcast-app import and individual playback are separate checks."
