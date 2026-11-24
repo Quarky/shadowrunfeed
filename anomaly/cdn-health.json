@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-17T13:52:31.591586+00:00",
+  "checked_at_utc": "2026-11-24T15:18:29.635130+00:00",
   "canonical_feed_url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@main/anomaly/feed-v2.xml",
   "state": "verified",
   "podbean_access": "External RSS compatibility checked; user account cannot be inspected",
@@ -78,12 +78,12 @@
     "skipped": "Rate-limit safe; no repeated automatic invalidation"
   },
   "immutable_revision_probe": {
-    "url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@2a10d7d7d680fab20dea1de97bf76c3216701357/anomaly/feed-v2.xml",
+    "url": "https://cdn.jsdelivr.net/gh/Quarky/shadowrunfeed@a0008ea53bee32c97ebfdf3e2462b99f7e7d8ee7/anomaly/feed-v2.xml",
     "matches": true,
     "headers": {
       "http_status": 200,
       "content_type": "application/xml",
-      "age": "0",
+      "age": "",
       "cache_control": "public, max-age=31536000, s-maxage=31536000, immutable",
       "etag": "W/\"28c91-26fc9306e8de7cfe\""
     },
